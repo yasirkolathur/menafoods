@@ -1,0 +1,14 @@
+{
+  "GET /mf-api/bootstrap": "profile + permissions + summary + cache versions",
+  "GET /mf-api/products": "Creator/cache list; paginated",
+  "GET /mf-api/products/:id": "Creator/cache details",
+  "GET /mf-api/customers/:id/exposure": "cached exposure; optional live verify flag",
+  "POST /mf-api/orders": "validate -> Creator operational order -> sync pipeline",
+  "GET /mf-api/orders/:id": "operational current state",
+  "POST /mf-api/finops/credit/decision": "OBSERVE/ENFORCE decision",
+  "POST /mf-api/finops/reconcile/run": "batch reconciliation",
+  "POST /mf-api/delivery": "create/update ePOD state",
+  "POST /mf-api/webhooks/books": "Books event intake + idempotent upsert",
+  "POST /mf-api/webhooks/inventory": "Inventory event intake + idempotent upsert",
+  "GET /mf-api/dashboard/finance-ops": "precomputed exception-first KPIs"
+}

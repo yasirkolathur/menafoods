@@ -1,0 +1,52 @@
+{
+  "version": "v5",
+  "goal": "Low-lag, low-API, Zoho-centered MENAFoods runtime",
+  "api_base": "/mf-api",
+  "bootstrap_endpoint": {
+    "method": "GET",
+    "path": "/bootstrap",
+    "returns": [
+      "user",
+      "role",
+      "permissions",
+      "feature_flags",
+      "notification_counts",
+      "dashboard_summary",
+      "cache_versions"
+    ],
+    "target": "single request after authenticated session"
+  },
+  "cache_layers": {
+    "browser": [
+      "PWA shell",
+      "recent products",
+      "recent customers",
+      "recent orders",
+      "feature flags"
+    ],
+    "catalyst": [
+      "session",
+      "idempotency",
+      "hot query cache",
+      "rate-limit metadata"
+    ],
+    "creator": [
+      "operational master/cache",
+      "approvals",
+      "notifications",
+      "dashboard snapshots"
+    ],
+    "books": "accounting authority only",
+    "inventory": "stock/fulfillment authority only"
+  },
+  "read_flow": "Frontend -> Catalyst API -> Creator/cache -> response",
+  "write_flow": "Frontend -> Catalyst API -> validate/auth -> Creator operational write -> async/event sync to Books/Inventory when required",
+  "critical_verification": [
+    "credit sale near/over limit",
+    "large order",
+    "stock allocation",
+    "payment reconciliation",
+    "manual finance adjustment"
+  ],
+  "no_page_load_fanout": true
+}
