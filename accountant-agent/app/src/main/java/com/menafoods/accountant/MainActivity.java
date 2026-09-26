@@ -66,6 +66,10 @@ public class MainActivity extends Activity {
                 return true;
             }
         });
+        // Keep the packaged UI available offline; authenticated MENAFoods links use the shared Catalyst session.
+        webView.setDownloadListener((url, userAgent, contentDisposition, mimetype, contentLength) -> {
+            try { startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url))); } catch (Exception ignored) {}
+        });
         webView.loadUrl("file:///android_asset/index.html");
     }
 
