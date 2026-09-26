@@ -1,12 +1,6 @@
 name: Build MENAFoods Accountant APK
 
 on:
-  push:
-    branches:
-      - accountant-agent-apk-build
-    paths:
-      - 'accountant-agent/**'
-      - '.github/workflows/build-accountant-agent.yml'
   pull_request:
     branches:
       - main
@@ -34,7 +28,7 @@ jobs:
           gradle-version: '8.9'
       - name: Build debug APK and release bundle
         working-directory: accountant-agent
-        run: gradle --no-daemon clean assembleDebug bundleRelease
+        run: gradle --no-daemon --build-cache assembleDebug bundleRelease
       - name: Verify Android artifacts
         run: |
           test -s accountant-agent/app/build/outputs/apk/debug/app-debug.apk
