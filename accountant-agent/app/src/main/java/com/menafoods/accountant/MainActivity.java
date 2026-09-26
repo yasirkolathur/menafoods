@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
                 if (fileCallback != null) fileCallback.onReceiveValue(null);
                 fileCallback = callback;
                 Intent intent;
-                try { intent = params.createIntent(); }
+                try { intent = new Intent(Intent.ACTION_CHOOSER); Intent files = new Intent(Intent.ACTION_OPEN_DOCUMENT); files.addCategory(Intent.CATEGORY_OPENABLE); files.setType("*/*"); files.putExtra(Intent.EXTRA_MIME_TYPES, new String[]{"image/*","application/pdf"}); Intent camera = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE); intent.putExtra(Intent.EXTRA_INTENT, files); intent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[]{camera}); }
                 catch (Exception e) {
                     intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                     intent.addCategory(Intent.CATEGORY_OPENABLE);
