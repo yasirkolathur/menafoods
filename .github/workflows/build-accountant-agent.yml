@@ -32,17 +32,26 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-      - name: Build debug APK
+      - name: Build debug APK and release bundle
         working-directory: accountant-agent
-        run: gradle --no-daemon clean assembleDebug
-      - name: Verify APK
+        run: gradle --no-daemon clean assembleDebug bundleRelease
+      - name: Verify Android artifacts
         run: |
           test -s accountant-agent/app/build/outputs/apk/debug/app-debug.apk
+          test -s accountant-agent/app/build/outputs/bundle/release/app-release.aab
           ls -lh accountant-agent/app/build/outputs/apk/debug/app-debug.apk
+          ls -lh accountant-agent/app/build/outputs/bundle/release/app-release.aab
           sha256sum accountant-agent/app/build/outputs/apk/debug/app-debug.apk
-      - name: Upload APK
+          sha256sum accountant-agent/app/build/outputs/bundle/release/app-release.aab
+      - name: Upload test APK
         uses: actions/upload-artifact@v4
         with:
           name: MENAFoods-Accountant-Agent-APK
           path: accountant-agent/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+      - name: Upload Play bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: MENAFoods-Accountant-Agent-Play-AAB
+          path: accountant-agent/app/build/outputs/bundle/release/app-release.aab
           if-no-files-found: error
