@@ -48,7 +48,40 @@ function saveCash(){let c=calcCash(),a=store.get('cash',[]);a.push({id:Date.now(
 function matchProduct(){matchResult.innerHTML='<b>Live lookup unavailable until Catalyst OAuth is authorized.</b><br>When connected: exact match → likely matches → manual selection → propose new product.'}
 function proposeProduct(){let t=matchText.value.trim();if(!t)return alert('Enter the bill item description');let q=store.get('productProposals',[]);q.push({id:Date.now(),description:t,status:'PENDING_ADMIN_APPROVAL'});store.set('productProposals',q);render();alert('New product proposal queued for Admin approval. No Books item was created.')}
 function shareWhatsApp(msg){let u='https://wa.me/?text='+encodeURIComponent(msg);location.href=u}
-const MF_API='https://menafoodscustomermiddleware-809407193.development.catalystserverless.com/mf-api';
+const MF_ORIGIN='https://menafoodscustomermiddleware-809407193.development.catalystserverless.com';
+const MF_API=MF_ORIGIN+'/mf-api';
+const MF_USER=MF_ORIGIN+'/mf-user';
+const MF_CAPS={
+  admin:['accountant_agent.access','accounting.documents.create','accounting.documents.review','accounting.cash.reconcile','accounting.admin.approve','accounting.books.sync','accounting.day.lock','accounting.accounts.manage','sales_orders.create','sales_orders.whatsapp.fetch','sales_orders.catalogue.match','sales_orders.admin.approve','sales_orders.books.sync'],
+  user:['accountant_agent.access','accounting.documents.create','sales_orders.create','sales_orders.catalogue.match']
+};
+let MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
+function hasCap(cap){return MF_SESSION.capabilities.includes(cap)}
+function applyCapabilities(){
+ document.querySelectorAll('[data-cap]').forEach(el=>{const ok=hasCap(el.dataset.cap);el.hidden=!ok;el.setAttribute('aria-hidden',String(!ok))});
+}
+async function loadSession(){
+ try{
+  const candidates=['/session','/me','/profile'];
+  for(const path of candidates){
+   const r=await fetch(MF_USER+path,{credentials:'include',headers:{Accept:'application/json'}});
+   if(r.status===401||r.status===403)continue;
+   if(!r.ok)continue;
+   const d=await r.json(); const u=d.user||d.data||d;
+   const role=String(u.role||u.role_name||d.role||'user').toLowerCase();
+   const caps=Array.isArray(d.capabilities)?d.capabilities:(role.includes('admin')?MF_CAPS.admin:MF_CAPS.user);
+   MF_SESSION={authenticated:true,user:u,role,capabilities:caps};applyCapabilities();return true;
+  }
+ }catch(e){}
+ MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};applyCapabilities();return false;
+}
+function requireCap(cap){
+ if(hasCap(cap))return true;
+ const msg=MF_SESSION.authenticated?'This action is not enabled for your MENAFoods role.':'Sign in to MENAFoods to continue.';
+ if(!MF_SESSION.authenticated){location.href=MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(location.href)}
+ else alert(msg);
+ return false;
+}
 async function checkMiddleware(){let el=document.getElementById('middlewareState');try{let r=await fetch(MF_API+'/health',{credentials:'include'});if(!r.ok)throw Error(r.status);let j=await r.json();if(el)el.textContent='Middleware connected · '+(j.version||j.service||'healthy');let w=document.getElementById('waState');if(w){w.textContent='CATALYST CONNECTED';w.className='pill ok'}}catch(e){if(el)el.textContent='Middleware sign-in / connection required';let w=document.getElementById('waState');if(w)w.textContent='SIGN-IN REQUIRED'}}
 async function matchCatalogue(){let out=document.getElementById('liMatch'),q=document.getElementById('liName')?.value||'';if(!out)return;out.textContent='Catalogue match: searching…';try{let r=await fetch(MF_API+'/products?search='+encodeURIComponent(q),{credentials:'include'});if(!r.ok)throw Error(r.status);let j=await r.json(),a=j.products||j.items||[];out.textContent=a.length?'Catalogue match: '+(a[0].name||a[0].item_name||'matched product'):'Not in catalogue · propose new product for Admin approval'}catch(e){out.textContent='Catalogue match requires middleware sign-in'}}
 
@@ -92,5 +125,5 @@ function render(){let es=store.get('employees',[]),ds=store.get('documents',[]),
 'Build systems that make excellent work easier every day.'
 ];
 (function startExperience(){const q=document.getElementById('ceoQuote');if(q)q.textContent='“'+CEO_QUOTES[new Date().getDate()%CEO_QUOTES.length]+'”';setTimeout(()=>document.getElementById('appSplash')?.classList.add('hide'),2200)})();
-lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();checkMiddleware();render();
+lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();loadSession().finally(()=>checkMiddleware());render();
 </script></body></html>
