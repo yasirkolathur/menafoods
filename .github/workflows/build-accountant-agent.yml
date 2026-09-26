@@ -7,6 +7,12 @@ on:
     paths:
       - 'accountant-agent/**'
       - '.github/workflows/build-accountant-agent.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'accountant-agent/**'
+      - '.github/workflows/build-accountant-agent.yml'
   workflow_dispatch:
 
 jobs:
