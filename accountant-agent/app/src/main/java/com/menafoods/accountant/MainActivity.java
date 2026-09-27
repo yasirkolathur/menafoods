@@ -50,14 +50,32 @@ public class MainActivity extends Activity {
                 }
                 return false;
             }
+
+            @Override public void onPageFinished(WebView view, String url) {
+                super.onPageFinished(view, url);
+                if (url != null && url.startsWith("file:///android_asset/index.html")) {
+                    String inject = "(function(){if(document.getElementById('mf-unified-css'))return;" +
+                        "var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);" +
+                        "var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s);})();";
+                    view.evaluateJavascript(inject, null);
+                }
+            }
         });
         webView.setWebChromeClient(new WebChromeClient() {
             @Override public boolean onShowFileChooser(WebView view, ValueCallback<Uri[]> callback, FileChooserParams params) {
                 if (fileCallback != null) fileCallback.onReceiveValue(null);
                 fileCallback = callback;
                 Intent intent;
-                try { intent = new Intent(Intent.ACTION_CHOOSER); Intent files = new Intent(Intent.ACTION_OPEN_DOCUMENT); files.addCategory(Intent.CATEGORY_OPENABLE); files.setType("*/*"); files.putExtra(Intent.EXTRA_MIME_TYPES, new String[]{"image/*","application/pdf"}); Intent camera = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE); intent.putExtra(Intent.EXTRA_INTENT, files); intent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[]{camera}); }
-                catch (Exception e) {
+                try {
+                    intent = new Intent(Intent.ACTION_CHOOSER);
+                    Intent files = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                    files.addCategory(Intent.CATEGORY_OPENABLE);
+                    files.setType("*/*");
+                    files.putExtra(Intent.EXTRA_MIME_TYPES, new String[]{"image/*","application/pdf"});
+                    Intent camera = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                    intent.putExtra(Intent.EXTRA_INTENT, files);
+                    intent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[]{camera});
+                } catch (Exception e) {
                     intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                     intent.addCategory(Intent.CATEGORY_OPENABLE);
                     intent.setType("*/*");
@@ -66,7 +84,6 @@ public class MainActivity extends Activity {
                 return true;
             }
         });
-        // Keep the packaged UI available offline; authenticated MENAFoods links use the shared Catalyst session.
         webView.setDownloadListener((url, userAgent, contentDisposition, mimetype, contentLength) -> {
             try { startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url))); } catch (Exception ignored) {}
         });
