@@ -39,12 +39,18 @@ function employeeHasHistory(name){return store.get('documents',[]).some(x=>x.emp
 function editEmployee(id){let a=store.get('employees',[]),e=a.find(x=>x.id===id);if(!e)return;let n=prompt('Employee name',e.name);if(n===null||!n.trim())return;let m=prompt('Mobile',e.mobile||'');if(m===null)return;e.name=n.trim();e.mobile=m;store.set('employees',a);render();}
 function toggleEmployee(id){let a=store.get('employees',[]),e=a.find(x=>x.id===id);if(!e)return;e.enabled=e.enabled===false?true:false;store.set('employees',a);render();}
 function deleteEmployee(id){let a=store.get('employees',[]),e=a.find(x=>x.id===id);if(!e)return;if(employeeHasHistory(e.name))return alert('This employee has accounting history and cannot be deleted. Disable the employee instead.');if(!confirm('Delete '+e.name+'?'))return;store.set('employees',a.filter(x=>x.id!==id));render();}
-function saveDoc(){let a=store.get('documents',[]);let ref=docRef.value.trim(),party=docParty.value.trim(),type=docType.value;if(ref&&a.some(x=>x.ref===ref&&x.party===party&&x.type===type&&x.status!=='VOIDED'))return alert('Duplicate reference: this supplier/customer already has the same reference for this document type. Open the existing record or change the reference.');a.push({id:Date.now(),type:docType.value,targetModule:moduleFor(docType.value),ref:docRef.value,amount:+docAmount.value||0,party:docParty.value,employee:docEmployee.value,fileName:stagedFile?stagedFile.name:null,status:'PENDING_ADMIN_APPROVAL',transactionDate:docDate.value||todayISO(),date:new Date().toISOString()});store.set('documents',a);render();alert('Saved. Admin approval is required before any Zoho Books posting.')}
+async function persistAccountingRecord(kind,payload){
+ if(!MF_SESSION.authenticated)return {ok:false,reason:'authentication_required'};
+ const routes=kind==='document'?['/accounting/documents','/documents']:['/accounting/cash-reconciliations','/cash/reconciliations'];
+ for(const ep of routes){try{const r=await fetch(MF_API+ep,{method:'POST',credentials:'include',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});if(r.ok)return {ok:true,data:await r.json().catch(()=>({}))};if(r.status===401||r.status===403)return {ok:false,reason:'authentication_required'};}catch(e){}}
+ return {ok:false,reason:'backend_route_unavailable'};
+}
+async function saveDoc(){let a=store.get('documents',[]);let ref=docRef.value.trim(),party=docParty.value.trim(),type=docType.value;if(ref&&a.some(x=>x.ref===ref&&x.party===party&&x.type===type&&x.status!=='VOIDED'))return alert('Duplicate reference: this supplier/customer already has the same reference for this document type. Open the existing record or change the reference.');a.push({id:Date.now(),type:docType.value,targetModule:moduleFor(docType.value),ref:docRef.value,amount:+docAmount.value||0,party:docParty.value,employee:docEmployee.value,fileName:stagedFile?stagedFile.name:null,status:'PENDING_ADMIN_APPROVAL',transactionDate:docDate.value||todayISO(),date:new Date().toISOString()});store.set('documents',a);render();const record=a[a.length-1];const remote=await persistAccountingRecord('document',record);record.persistence=remote.ok?'BACKEND_SAVED':'LOCAL_PENDING_SYNC';store.set('documents',a);render();alert(remote.ok?'Saved to MENAFoods backend. Admin approval is required before Zoho Books posting.':'Saved safely on device and queued for backend sync. Admin approval is still required.');}
 function moduleFor(t){return {'Purchase bill':'Bills','Sales invoice':'Invoices','Customer receipt':'Customer Payments','Supplier payment':'Vendor Payments','Expense':'Expenses','Expense voucher':'Expenses','Payment voucher':'Vendor Payments','Cash transfer':'Cash Clearing'}[t]||'Review Queue'}
 function calcVoucher(){vAfter.textContent=money((+vBalance.value||0)-(+vAmount.value||0))}
 function saveVoucher(){calcVoucher();let a=store.get('vouchers',[]);a.push({id:Date.now(),customer:vCustomer.value,invoice:vInvoice.value,balance:+vBalance.value||0,amount:+vAmount.value||0,method:vMethod.value,note:vNote.value,date:new Date().toISOString()});store.set('vouchers',a);alert('Receipt voucher generated locally. Live customer/payment sync will activate through Catalyst middleware.')}
 function calcCash(){let e=(+opening.value||0)+(+received.value||0)-(+spent.value||0),d=(+physical.value||0)-e;expected.textContent=money(e);difference.textContent=money(d);difference.className=d===0?'pill':'bad';cashDiff.textContent=money(Math.abs(d));return{expected:e,diff:d}}
-function saveCash(){let c=calcCash(),a=store.get('cash',[]);a.push({id:Date.now(),employee:cashEmployee.value,opening:+opening.value,received:+received.value,spent:+spent.value,physical:+physical.value,expected:c.expected,diff:c.diff,status:c.diff===0?'PENDING_ADMIN_APPROVAL':'EXCEPTION',date:new Date().toISOString()});store.set('cash',a);alert(c.diff===0?'Reconciled. Waiting for Admin approval before Books sync.':'Difference requires resolution before Admin approval');render()}
+async function saveCash(){let c=calcCash(),a=store.get('cash',[]);let rec={id:Date.now(),employee:cashEmployee.value,opening:+opening.value,received:+received.value,spent:+spent.value,physical:+physical.value,expected:c.expected,diff:c.diff,status:c.diff===0?'PENDING_ADMIN_APPROVAL':'EXCEPTION',date:new Date().toISOString()};a.push(rec);store.set('cash',a);if(c.diff===0){let remote=await persistAccountingRecord('cash',rec);rec.persistence=remote.ok?'BACKEND_SAVED':'LOCAL_PENDING_SYNC';store.set('cash',a)}alert(c.diff===0?(rec.persistence==='BACKEND_SAVED'?'Reconciled and saved to MENAFoods backend. Waiting for Admin approval.':'Reconciled locally and queued for backend sync. Waiting for Admin approval.'):'Difference requires resolution before Admin approval');render()}
 function matchProduct(){matchResult.innerHTML='<b>Live lookup unavailable until Catalyst OAuth is authorized.</b><br>When connected: exact match → likely matches → manual selection → propose new product.'}
 function proposeProduct(){let t=matchText.value.trim();if(!t)return alert('Enter the bill item description');let q=store.get('productProposals',[]);q.push({id:Date.now(),description:t,status:'PENDING_ADMIN_APPROVAL'});store.set('productProposals',q);render();alert('New product proposal queued for Admin approval. No Books item was created.')}
 function shareWhatsApp(msg){let u='https://wa.me/?text='+encodeURIComponent(msg);location.href=u}
@@ -74,6 +80,19 @@ async function loadSession(){
   }
  }catch(e){}
  MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};applyCapabilities();return false;
+}
+async function signOutMENAFoods(){
+ try{
+  const endpoints=['/logout','/signout','/session/logout'];
+  for(const ep of endpoints){
+   const r=await fetch(MF_USER+ep,{method:'POST',credentials:'include',headers:{Accept:'application/json'}});
+   if(r.ok||r.status===401||r.status===403)break;
+  }
+ }catch(e){}
+ MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
+ applyCapabilities();
+ try{localStorage.removeItem('mf_session')}catch(e){}
+ location.replace(MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(location.href));
 }
 function requireCap(cap){
  if(hasCap(cap))return true;
