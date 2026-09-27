@@ -184,7 +184,7 @@ function render(){let es=store.get('employees',[]),ds=store.get('documents',[]),
 'Productivity is not doing more things—it is completing the right things well.',
 'Build systems that make excellent work easier every day.'
 ];
-(function startExperience(){const q=document.getElementById('ceoQuote');if(q)q.textContent='“'+CEO_QUOTES[new Date().getDate()%CEO_QUOTES.length]+'”';setTimeout(()=>document.getElementById('appSplash')?.classList.add('hide'),2200)})();
+(function startExperience(){const splash=document.getElementById('appSplash');const q=document.getElementById('ceoQuote');try{if(q)q.textContent='“'+CEO_QUOTES[new Date().getDate()%CEO_QUOTES.length]+'”'}catch(e){}const dismiss=()=>{if(!splash)return;splash.classList.add('hide');splash.style.pointerEvents='none';setTimeout(()=>{splash.style.display='none'},500)};setTimeout(dismiss,1800);setTimeout(dismiss,4000);window.addEventListener('load',()=>setTimeout(dismiss,250),{once:true});splash?.addEventListener('click',dismiss)})();
 lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();async function flushPendingAccounting(){
  if(!MF_SESSION.authenticated)return;
  let docs=store.get('documents',[]),cash=store.get('cash',[]),changed=false;
