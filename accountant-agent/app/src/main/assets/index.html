@@ -118,6 +118,30 @@ async function fetchWhatsAppOrder(){if(!requireCap('sales_orders.whatsapp.fetch'
 
 function recalcLine(){let q=+liQty.value||0,r=+liRate.value||0,t=q*r;liCalc.textContent=q+' CTN × SAR '+r.toFixed(2);liTotal.textContent='SAR '+t.toFixed(2)}
 const BOOKS_ENDPOINTS={items:['/products','/items'],invoices:['/invoices'],balances:['/customers','/contacts'],bills:['/bills']};
+async function postApprovedDocumentToBooks(doc){
+ if(!hasCap('accounting.books.sync'))return {ok:false,reason:'forbidden'};
+ if(!doc||doc.status!=='ADMIN_APPROVED_BOOKS_READY')return {ok:false,reason:'not_approved'};
+ if(doc.booksSyncStatus==='SYNCED')return {ok:true,duplicate:true};
+ const routeMap={'Bills':'/bills','Invoices':'/invoices','Customer Payments':'/customer-payments','Vendor Payments':'/vendor-payments','Expenses':'/expenses'};
+ const ep=routeMap[doc.targetModule]; if(!ep)return {ok:false,reason:'unsupported_module'};
+ const key='accountant-'+doc.id+'-'+(doc.ref||'no-ref');
+ try{
+  const r=await fetch(MF_API+ep,{method:'POST',credentials:'include',headers:{'Content-Type':'application/json',Accept:'application/json','Idempotency-Key':key},body:JSON.stringify({...doc,idempotencyKey:key})});
+  if(r.status===409)return {ok:true,duplicate:true};
+  if(!r.ok)return {ok:false,reason:'HTTP '+r.status};
+  return {ok:true,data:await r.json().catch(()=>({}))};
+ }catch(e){return {ok:false,reason:'network_error'}}
+}
+async function syncApprovedDocuments(){
+ if(!requireCap('accounting.books.sync'))return;
+ let docs=store.get('documents',[]),done=0,failed=0;
+ for(const d of docs.filter(x=>x.status==='ADMIN_APPROVED_BOOKS_READY'&&x.booksSyncStatus!=='SYNCED')){
+  const r=await postApprovedDocumentToBooks(d);
+  if(r.ok){d.booksSyncStatus='SYNCED';d.booksSyncedAt=new Date().toISOString();d.booksResponse=r.data||null;done++}
+  else{d.booksSyncStatus='RETRY_REQUIRED';d.booksSyncError=r.reason;failed++}
+ }
+ store.set('documents',docs);render();alert('Books posting complete: '+done+' synced, '+failed+' pending retry.');
+}
 async function syncBooks(kind){let label=document.getElementById('sync'+kind[0].toUpperCase()+kind.slice(1));if(label)label.textContent='Syncing…';booksSyncLog.textContent='Syncing '+kind+' through Catalyst…';let last='';for(const ep of BOOKS_ENDPOINTS[kind]){try{let r=await fetch(MF_API+ep,{credentials:'include'});if(r.status===401||r.status===403){booksConn.textContent='SIGN-IN REQUIRED';throw Error('authentication required')}if(!r.ok){last='HTTP '+r.status;continue}let j=await r.json(),arr=j[kind]||j.items||j.products||j.invoices||j.bills||j.contacts||j.customers||[];localStorage.setItem('mf_books_'+kind,JSON.stringify(arr));if(label)label.textContent=arr.length+' cached';booksConn.textContent='CONNECTED';booksConn.className='pill ok';booksSyncLog.textContent=kind+' synced · '+arr.length+' records cached locally';return true}catch(e){last=e.message}}if(label)label.textContent='Unavailable';booksSyncLog.textContent=kind+' sync unavailable: '+last+'. No fake data was created.';return false}
 async function syncBooksAll(){if(!requireCap('accounting.books.sync'))return;booksConn.textContent='SYNCING';booksSyncLog.textContent='Batch sync started…';let ok=0;for(const k of ['items','invoices','balances','bills'])if(await syncBooks(k))ok++;let at=new Date().toISOString();localStorage.setItem('mf_last_batch_sync',at);lastBatchSync.textContent=new Date(at).toLocaleString();booksSyncLog.textContent='Batch sync complete · '+ok+'/4 datasets · '+new Date().toLocaleString()}
 function saveSyncSettings(){localStorage.setItem('mf_auto_sync_minutes',autoSync.value);scheduleAutoSync()}
