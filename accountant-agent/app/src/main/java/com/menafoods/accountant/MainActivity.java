@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -16,6 +18,15 @@ public class MainActivity extends Activity {
     private static final int FILE_CHOOSER_REQUEST = 1001;
     private WebView webView;
     private ValueCallback<Uri[]> fileCallback;
+    private final Handler mainHandler = new Handler(Looper.getMainLooper());
+
+    private void forceEnterApp() {
+        if (webView == null) return;
+        webView.evaluateJavascript(
+            "(function(){try{var s=document.getElementById('appSplash');if(s){s.classList.add('hide');s.style.pointerEvents='none';s.style.display='none';}document.documentElement.style.visibility='visible';document.body.style.visibility='visible';return 'ok';}catch(e){return 'error';}})();",
+            null
+        );
+    }
 
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
@@ -58,6 +69,7 @@ public class MainActivity extends Activity {
                         "var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);" +
                         "var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s);})();";
                     view.evaluateJavascript(inject, null);
+                    mainHandler.postDelayed(() -> forceEnterApp(), 2300);
                 }
             }
         });
@@ -88,6 +100,7 @@ public class MainActivity extends Activity {
             try { startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url))); } catch (Exception ignored) {}
         });
         webView.loadUrl("file:///android_asset/index.html");
+        mainHandler.postDelayed(() -> forceEnterApp(), 5000);
     }
 
     @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -107,6 +120,11 @@ public class MainActivity extends Activity {
             return;
         }
         super.onActivityResult(requestCode,resultCode,data);
+    }
+
+    @Override protected void onDestroy() {
+        mainHandler.removeCallbacksAndMessages(null);
+        super.onDestroy();
     }
 
     @Override public void onBackPressed() {
