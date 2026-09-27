@@ -101,6 +101,23 @@ function requireCap(cap){
  else alert(msg);
  return false;
 }
+async function verifyProductionReadiness(){
+ const checks=[];
+ const add=(name,ok,detail)=>checks.push({name,ok,detail});
+ try{const r=await fetch(MF_API+'/health',{credentials:'include'});add('Catalyst middleware',r.ok,'HTTP '+r.status)}catch(e){add('Catalyst middleware',false,'network error')}
+ const auth=await loadSession();add('Authenticated session',auth,auth?MF_SESSION.role:'sign-in required');
+ if(auth){
+  try{const r=await fetch(MF_API+'/products?search=MENAFoods',{credentials:'include'});add('Catalogue API',r.ok,'HTTP '+r.status)}catch(e){add('Catalogue API',false,'network error')}
+ }
+ const pendingDocs=store.get('documents',[]).filter(x=>x.persistence==='LOCAL_PENDING_SYNC').length;
+ const pendingCash=store.get('cash',[]).filter(x=>x.persistence==='LOCAL_PENDING_SYNC').length;
+ add('Local persistence queue',pendingDocs+pendingCash===0,(pendingDocs+pendingCash)+' pending');
+ const retryBooks=store.get('documents',[]).filter(x=>x.booksSyncStatus==='RETRY_REQUIRED').length;
+ add('Books retry queue',retryBooks===0,retryBooks+' pending');
+ const el=document.getElementById('middlewareState');
+ if(el)el.textContent=checks.map(x=>(x.ok?'✓ ':'⚠ ')+x.name+': '+x.detail).join(' · ');
+ return checks;
+}
 async function checkMiddleware(){let el=document.getElementById('middlewareState');try{let r=await fetch(MF_API+'/health',{credentials:'include'});if(!r.ok)throw Error(r.status);let j=await r.json();if(el)el.textContent='Middleware connected · '+(j.version||j.service||'healthy');let w=document.getElementById('waState');if(w){w.textContent='CATALYST CONNECTED';w.className='pill ok'}}catch(e){if(el)el.textContent='Middleware sign-in / connection required';let w=document.getElementById('waState');if(w)w.textContent='SIGN-IN REQUIRED'}}
 async function matchCatalogue(){let out=document.getElementById('liMatch'),q=document.getElementById('liName')?.value||'';if(!out)return;out.textContent='Catalogue match: searching…';try{let r=await fetch(MF_API+'/products?search='+encodeURIComponent(q),{credentials:'include'});if(!r.ok)throw Error(r.status);let j=await r.json(),a=j.products||j.items||[];out.textContent=a.length?'Catalogue match: '+(a[0].name||a[0].item_name||'matched product'):'Not in catalogue · propose new product for Admin approval'}catch(e){out.textContent='Catalogue match requires middleware sign-in'}}
 
@@ -181,5 +198,5 @@ lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAcc
  }
  if(changed){store.set('documents',docs);store.set('cash',cash);render()}
 }
-loadSession().then(ok=>ok?flushPendingAccounting():null).finally(()=>checkMiddleware());render();
+loadSession().then(ok=>ok?flushPendingAccounting():null).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());render();
 </script></body></html>
