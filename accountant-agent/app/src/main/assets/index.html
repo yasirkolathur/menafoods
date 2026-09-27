@@ -144,5 +144,18 @@ function render(){let es=store.get('employees',[]),ds=store.get('documents',[]),
 'Build systems that make excellent work easier every day.'
 ];
 (function startExperience(){const q=document.getElementById('ceoQuote');if(q)q.textContent='“'+CEO_QUOTES[new Date().getDate()%CEO_QUOTES.length]+'”';setTimeout(()=>document.getElementById('appSplash')?.classList.add('hide'),2200)})();
-lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();loadSession().finally(()=>checkMiddleware());render();
+lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();async function flushPendingAccounting(){
+ if(!MF_SESSION.authenticated)return;
+ let docs=store.get('documents',[]),cash=store.get('cash',[]),changed=false;
+ for(const x of docs.filter(v=>v.persistence==='LOCAL_PENDING_SYNC')){
+  const r=await persistAccountingRecord('document',x);
+  if(r.ok){x.persistence='BACKEND_SAVED';x.backendSyncedAt=new Date().toISOString();changed=true}
+ }
+ for(const x of cash.filter(v=>v.persistence==='LOCAL_PENDING_SYNC'&&v.diff===0)){
+  const r=await persistAccountingRecord('cash',x);
+  if(r.ok){x.persistence='BACKEND_SAVED';x.backendSyncedAt=new Date().toISOString();changed=true}
+ }
+ if(changed){store.set('documents',docs);store.set('cash',cash);render()}
+}
+loadSession().then(ok=>ok?flushPendingAccounting():null).finally(()=>checkMiddleware());render();
 </script></body></html>
