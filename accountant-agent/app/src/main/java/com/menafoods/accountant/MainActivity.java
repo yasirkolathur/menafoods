@@ -35,6 +35,11 @@ public class MainActivity extends Activity {
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
     private boolean authInProgress;
 
+    private void forceEnterApp() {
+        if (webView == null) return;
+        webView.evaluateJavascript("(function(){try{var s=document.getElementById('appSplash');if(s){s.classList.add('hide');s.style.pointerEvents='none';s.style.display='none';s.remove()}document.documentElement.style.visibility='visible';document.body.style.visibility='visible'}catch(e){}})();", null);
+    }
+
     private Intent cameraIntent() {
         Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (camera.resolveActivity(getPackageManager()) == null) return null;
@@ -108,6 +113,10 @@ public class MainActivity extends Activity {
         s.setLoadWithOverviewMode(true); s.setUseWideViewPort(true); s.setMediaPlaybackRequiresUserGesture(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         webView.setWebViewClient(new WebViewClient() {
+            @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap favicon){
+                super.onPageStarted(view,url,favicon);
+                if(url!=null&&url.startsWith(APP_URL)) mainHandler.postDelayed(()->forceEnterApp(),1800);
+            }
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Uri uri=request.getUrl(); String scheme=uri.getScheme();
                 if (APP_SCHEME.equals(scheme)) {
@@ -145,6 +154,7 @@ public class MainActivity extends Activity {
                 }
                 if(url!=null&&url.startsWith(APP_URL)){
                     view.evaluateJavascript("(function(){if(document.getElementById('mf-unified-css'))return;var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s)})();",null);
+                    mainHandler.postDelayed(()->forceEnterApp(),1200);
                 }
             }
         });
