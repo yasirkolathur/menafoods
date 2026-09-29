@@ -19,7 +19,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class MainActivity extends Activity {
-    private static final int FILE_CHOOSER_REQUEST = 1001;\n    private static final String APP_URL = "file:///android_asset/index.html";
+    private static final int FILE_CHOOSER_REQUEST = 1001;
+    private static final String APP_URL = "file:///android_asset/index.html";
     private WebView webView;
     private ValueCallback<Uri[]> fileCallback;
     private Uri cameraUri;
