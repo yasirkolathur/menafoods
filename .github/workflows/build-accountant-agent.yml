@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - accountant-agent-apk-build
     paths:
       - 'accountant-agent/**'
       - '.github/workflows/build-accountant-agent.yml'
