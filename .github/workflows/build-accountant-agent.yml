@@ -11,6 +11,7 @@ on:
   push:
     branches:
       - accountant-agent-apk-build
+      - 'copilot/**'
     paths:
       - 'accountant-agent/**'
       - '.github/workflows/build-accountant-agent.yml'

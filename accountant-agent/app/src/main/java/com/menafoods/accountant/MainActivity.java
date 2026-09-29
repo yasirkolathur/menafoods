@@ -9,8 +9,10 @@ import android.os.Looper;
 import android.provider.MediaStore;
 import android.graphics.Color;
 import android.webkit.ValueCallback;
+import android.webkit.CookieManager;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
+import android.webkit.WebStorage;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebResourceRequest;
@@ -21,10 +23,17 @@ import java.io.IOException;
 public class MainActivity extends Activity {
     private static final int FILE_CHOOSER_REQUEST = 1001;
     private static final String APP_URL = "file:///android_asset/index.html";
+    private static final String APP_SCHEME = "mfapp";
+    private static final String MIDDLEWARE_HOST = "menafoodscustomermiddleware-809407193.development.catalystserverless.com";
+    private static final String AUTH_LOGIN_PATH = "/__catalyst/auth/login";
+    private static final String PREFS_NAME = "accountant_auth";
+    private static final String SIGNED_OUT_KEY = "signed_out";
+    private static final String AUTH_IN_PROGRESS_KEY = "auth_in_progress";
     private WebView webView;
     private ValueCallback<Uri[]> fileCallback;
     private Uri cameraUri;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
+    private boolean authInProgress;
 
     private void forceEnterApp() {
         if (webView == null) return;
@@ -48,8 +57,53 @@ public class MainActivity extends Activity {
         }
     }
 
+    private boolean isMiddlewareHost(String host) {
+        return host != null && (host.equals(MIDDLEWARE_HOST)
+                || host.equals("catalystserverless.com")
+                || host.endsWith(".catalystserverless.com")
+                || host.equals("zoho.com")
+                || host.endsWith(".zoho.com"));
+    }
+
+    private boolean isAuthReturn(Uri uri) {
+        return uri != null && "https".equals(uri.getScheme())
+                && MIDDLEWARE_HOST.equals(uri.getHost())
+                && (uri.getPath() == null || uri.getPath().isEmpty() || "/".equals(uri.getPath()));
+    }
+
+    private void finishAuthReturn(WebView view) {
+        authInProgress = false;
+        getSharedPreferences(PREFS_NAME, MODE_PRIVATE).edit()
+                .putBoolean(SIGNED_OUT_KEY, false)
+                .putBoolean(AUTH_IN_PROGRESS_KEY, false)
+                .apply();
+        view.clearHistory();
+        view.loadUrl(APP_URL);
+    }
+
+    private void finishSignOut() {
+        getSharedPreferences(PREFS_NAME, MODE_PRIVATE).edit()
+                .putBoolean(SIGNED_OUT_KEY, true)
+                .putBoolean(AUTH_IN_PROGRESS_KEY, false)
+                .apply();
+        authInProgress = false;
+        if (webView == null) return;
+        webView.stopLoading();
+        webView.clearCache(true);
+        webView.clearHistory();
+        webView.clearFormData();
+        webView.clearSslPreferences();
+        WebStorage.getInstance().deleteAllData();
+        CookieManager.getInstance().removeAllCookies(removed -> mainHandler.post(() -> {
+            CookieManager.getInstance().flush();
+            if (webView != null) webView.loadUrl(APP_URL + "?signed_out=1");
+        }));
+    }
+
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        authInProgress = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+                .getBoolean(AUTH_IN_PROGRESS_KEY, false);
         webView = new WebView(this);
         webView.setBackgroundColor(Color.rgb(247,250,248));
         setContentView(webView);
@@ -65,9 +119,23 @@ public class MainActivity extends Activity {
             }
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Uri uri=request.getUrl(); String scheme=uri.getScheme();
+                if (APP_SCHEME.equals(scheme)) {
+                    if ("signout".equals(uri.getHost())) finishSignOut();
+                    return true;
+                }
                 if ("http".equals(scheme)||"https".equals(scheme)) {
-                    String host=uri.getHost()==null?"":uri.getHost();
-                    if(host.endsWith("catalystserverless.com")||host.endsWith("zoho.com")||host.endsWith("accounts.zoho.com")) return false;
+                    String host=uri.getHost();
+                    if (MIDDLEWARE_HOST.equals(host) && AUTH_LOGIN_PATH.equals(uri.getPath())) {
+                        authInProgress = true;
+                        getSharedPreferences(PREFS_NAME, MODE_PRIVATE).edit()
+                                .putBoolean(AUTH_IN_PROGRESS_KEY, true)
+                                .apply();
+                    }
+                    if (authInProgress && isAuthReturn(uri)) {
+                        finishAuthReturn(view);
+                        return true;
+                    }
+                    if(isMiddlewareHost(host)) return false;
                     try{startActivity(new Intent(Intent.ACTION_VIEW,uri));}catch(Exception ignored){} return true;
                 }
                 if("mailto".equals(scheme)||"tel".equals(scheme)||"whatsapp".equals(scheme)){try{startActivity(new Intent(Intent.ACTION_VIEW,uri));}catch(Exception ignored){} return true;}
@@ -75,7 +143,15 @@ public class MainActivity extends Activity {
             }
             @Override public void onPageFinished(WebView view,String url){
                 super.onPageFinished(view,url);
-                if(url!=null&&url.contains("INVALID_URL_PATTERN")){view.loadUrl(APP_URL);return;}
+                if (authInProgress && url != null) {
+                    try {
+                        Uri uri = Uri.parse(url);
+                        if (isAuthReturn(uri)) {
+                            finishAuthReturn(view);
+                            return;
+                        }
+                    } catch (Exception ignored) {}
+                }
                 if(url!=null&&url.startsWith(APP_URL)){
                     view.evaluateJavascript("(function(){if(document.getElementById('mf-unified-css'))return;var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s)})();",null);
                     mainHandler.postDelayed(()->forceEnterApp(),1200);
@@ -93,7 +169,9 @@ public class MainActivity extends Activity {
             }
         });
         webView.setDownloadListener((url,userAgent,contentDisposition,mimetype,contentLength)->{try{startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(url)));}catch(Exception ignored){}});
-        webView.loadUrl(APP_URL); mainHandler.postDelayed(()->forceEnterApp(),2500);
+        boolean signedOut = getSharedPreferences(PREFS_NAME, MODE_PRIVATE)
+                .getBoolean(SIGNED_OUT_KEY, false);
+        webView.loadUrl(signedOut ? APP_URL + "?signed_out=1" : APP_URL);
     }
 
     @Override protected void onActivityResult(int requestCode,int resultCode,Intent data){
