@@ -118,6 +118,7 @@ async function verifyProductionReadiness(){
  add('Local persistence queue',pendingDocs+pendingCash===0,(pendingDocs+pendingCash)+' pending');
  const retryBooks=store.get('documents',[]).filter(x=>x.booksSyncStatus==='RETRY_REQUIRED').length;
  add('Books retry queue',retryBooks===0,retryBooks+' pending');
+ if((pendingDocs+pendingCash+retryBooks)>0 && navigator.onLine && MF_SESSION.authenticated){setTimeout(()=>retryFailedSyncs().catch(()=>{}),500)}
  const el=document.getElementById('middlewareState');
  if(el)el.textContent=checks.map(x=>(x.ok?'✓ ':'⚠ ')+x.name+': '+x.detail).join(' · ');
  return checks;
@@ -189,7 +190,24 @@ function render(){let es=store.get('employees',[]),ds=store.get('documents',[]),
 'Build systems that make excellent work easier every day.'
 ];
 (function startExperience(){const splash=document.getElementById('appSplash');const q=document.getElementById('ceoQuote');try{if(q)q.textContent='“'+CEO_QUOTES[new Date().getDate()%CEO_QUOTES.length]+'”'}catch(e){}const dismiss=()=>{if(!splash)return;splash.classList.add('hide');splash.style.pointerEvents='none';setTimeout(()=>{splash.style.display='none'},500)};setTimeout(dismiss,1800);setTimeout(dismiss,4000);window.addEventListener('load',()=>setTimeout(dismiss,250),{once:true});splash?.addEventListener('click',dismiss)})();
-lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();async function flushPendingAccounting(){
+lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAccountRequests();loadSyncState();function pendingSyncSummary(){
+ const docs=store.get('documents',[]),cash=store.get('cash',[]);
+ return {
+  local:docs.filter(x=>x.persistence==='LOCAL_PENDING_SYNC').length+cash.filter(x=>x.persistence==='LOCAL_PENDING_SYNC').length,
+  books:docs.filter(x=>x.booksSyncStatus==='RETRY_REQUIRED').length
+ };
+}
+async function retryFailedSyncs(){
+ if(!MF_SESSION.authenticated)return startMENAFoodsSignIn();
+ const before=pendingSyncSummary();
+ await flushPendingAccounting();
+ if(hasCap('accounting.books.sync'))await syncApprovedDocuments();
+ const after=pendingSyncSummary();
+ alert('Retry complete. Local queue: '+after.local+' · Books retry: '+after.books+(before.local+before.books===0?' · Nothing was pending.':''));
+ return after;
+}
+window.addEventListener('online',()=>{if(MF_SESSION.authenticated)retryFailedSyncs().catch(()=>{})});
+async function flushPendingAccounting(){
  if(!MF_SESSION.authenticated)return;
  let docs=store.get('documents',[]),cash=store.get('cash',[]),changed=false;
  for(const x of docs.filter(v=>v.persistence==='LOCAL_PENDING_SYNC')){
