@@ -19,7 +19,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class MainActivity extends Activity {
-    private static final int FILE_CHOOSER_REQUEST = 1001;
+    private static final int FILE_CHOOSER_REQUEST = 1001;\n    private static final String APP_URL = "file:///android_asset/index.html";
     private WebView webView;
     private ValueCallback<Uri[]> fileCallback;
     private Uri cameraUri;
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
             }
             @Override public void onPageFinished(WebView view,String url){
                 super.onPageFinished(view,url);
-                if(url!=null&&url.startsWith("file:///android_asset/index.html")){
+                if(url!=null&&url.startsWith(APP_URL)){
                     view.evaluateJavascript("(function(){if(document.getElementById('mf-unified-css'))return;var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s)})();",null);
                     mainHandler.postDelayed(()->forceEnterApp(),2300);
                 }
@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
             }
         });
         webView.setDownloadListener((url,userAgent,contentDisposition,mimetype,contentLength)->{try{startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(url)));}catch(Exception ignored){}});
-        webView.loadUrl("file:///android_asset/index.html"); mainHandler.postDelayed(()->forceEnterApp(),5000);
+        webView.loadUrl(APP_URL); mainHandler.postDelayed(()->forceEnterApp(),5000);
     }
 
     @Override protected void onActivityResult(int requestCode,int resultCode,Intent data){
@@ -103,5 +103,5 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode,resultCode,data);
     }
     @Override protected void onDestroy(){mainHandler.removeCallbacksAndMessages(null);if(webView!=null){webView.stopLoading();webView.destroy();}super.onDestroy();}
-    @Override public void onBackPressed(){if(webView!=null&&webView.canGoBack())webView.goBack();else super.onBackPressed();}
+    @Override public void onBackPressed(){if(webView!=null){String u=webView.getUrl();if(u!=null&&!u.startsWith(APP_URL)){webView.loadUrl(APP_URL);return;}if(webView.canGoBack()){webView.goBack();return;}}super.onBackPressed();}
 }
