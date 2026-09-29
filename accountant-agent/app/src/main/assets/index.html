@@ -45,7 +45,7 @@ async function persistAccountingRecord(kind,payload){
  for(const ep of routes){try{const r=await fetch(MF_API+ep,{method:'POST',credentials:'include',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});if(r.ok)return {ok:true,data:await r.json().catch(()=>({}))};if(r.status===401||r.status===403)return {ok:false,reason:'authentication_required'};}catch(e){}}
  return {ok:false,reason:'backend_route_unavailable'};
 }
-async async function saveDoc(){if(!requireCap('accounting.documents.create'))return;let a=store.get('documents',[]);let ref=docRef.value.trim(),party=docParty.value.trim(),type=docType.value;if(ref&&a.some(x=>x.ref===ref&&x.party===party&&x.type===type&&x.status!=='VOIDED'))return alert('Duplicate reference: this supplier/customer already has the same reference for this document type. Open the existing record or change the reference.');a.push({id:Date.now(),type:docType.value,targetModule:moduleFor(docType.value),ref:docRef.value,amount:+docAmount.value||0,party:docParty.value,employee:docEmployee.value,fileName:stagedFile?stagedFile.name:null,status:'PENDING_ADMIN_APPROVAL',transactionDate:docDate.value||todayISO(),date:new Date().toISOString()});store.set('documents',a);render();const record=a[a.length-1];const remote=await persistAccountingRecord('document',record);record.persistence=remote.ok?'BACKEND_SAVED':'LOCAL_PENDING_SYNC';store.set('documents',a);render();alert(remote.ok?'Saved to MENAFoods backend. Admin approval is required before Zoho Books posting.':'Saved safely on device and queued for backend sync. Admin approval is still required.');}
+async function saveDoc(){if(!requireCap('accounting.documents.create'))return;let a=store.get('documents',[]);let ref=docRef.value.trim(),party=docParty.value.trim(),type=docType.value;if(ref&&a.some(x=>x.ref===ref&&x.party===party&&x.type===type&&x.status!=='VOIDED'))return alert('Duplicate reference: this supplier/customer already has the same reference for this document type. Open the existing record or change the reference.');a.push({id:Date.now(),type:docType.value,targetModule:moduleFor(docType.value),ref:docRef.value,amount:+docAmount.value||0,party:docParty.value,employee:docEmployee.value,fileName:stagedFile?stagedFile.name:null,status:'PENDING_ADMIN_APPROVAL',transactionDate:docDate.value||todayISO(),date:new Date().toISOString()});store.set('documents',a);render();const record=a[a.length-1];const remote=await persistAccountingRecord('document',record);record.persistence=remote.ok?'BACKEND_SAVED':'LOCAL_PENDING_SYNC';store.set('documents',a);render();alert(remote.ok?'Saved to MENAFoods backend. Admin approval is required before Zoho Books posting.':'Saved safely on device and queued for backend sync. Admin approval is still required.');}
 function moduleFor(t){return {'Purchase bill':'Bills','Sales invoice':'Invoices','Customer receipt':'Customer Payments','Supplier payment':'Vendor Payments','Expense':'Expenses','Expense voucher':'Expenses','Payment voucher':'Vendor Payments','Cash transfer':'Cash Clearing'}[t]||'Review Queue'}
 function calcVoucher(){vAfter.textContent=money((+vBalance.value||0)-(+vAmount.value||0))}
 function saveVoucher(){calcVoucher();let a=store.get('vouchers',[]);a.push({id:Date.now(),customer:vCustomer.value,invoice:vInvoice.value,balance:+vBalance.value||0,amount:+vAmount.value||0,method:vMethod.value,note:vNote.value,date:new Date().toISOString()});store.set('vouchers',a);alert('Receipt voucher generated locally. Live customer/payment sync will activate through Catalyst middleware.')}
@@ -61,10 +61,11 @@ const MF_CAPS={
   admin:['accountant_agent.access','accounting.documents.create','accounting.documents.review','accounting.cash.reconcile','accounting.admin.approve','accounting.books.sync','accounting.day.lock','accounting.accounts.manage','sales_orders.create','sales_orders.whatsapp.fetch','sales_orders.catalogue.match','sales_orders.admin.approve','sales_orders.books.sync'],
   user:['accountant_agent.access','accounting.documents.create','sales_orders.create','sales_orders.catalogue.match']
 };
-let MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
+var MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
 function hasCap(cap){return MF_SESSION.capabilities.includes(cap)}
 function applyCapabilities(){
  document.querySelectorAll('[data-cap]').forEach(el=>{const ok=hasCap(el.dataset.cap);el.hidden=!ok;el.setAttribute('aria-hidden',String(!ok))});
+ window.dispatchEvent(new Event('mf-session-changed'));
 }
 async function loadSession(){
  try{
@@ -89,9 +90,13 @@ function showSignInState(){
 }
 function startMENAFoodsSignIn(){const returnTo=MF_ORIGIN+'/';location.href=MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(returnTo)}
 async function signOutMENAFoods(){
- try{await fetch(MF_USER+'/logout',{method:'POST',credentials:'include',headers:{Accept:'application/json'}})}catch(e){}
+ await Promise.race([
+  fetch(MF_USER+'/logout',{method:'POST',credentials:'include',headers:{Accept:'application/json'}}).catch(()=>{}),
+  new Promise(resolve=>setTimeout(resolve,1500))
+ ]);
  try{localStorage.removeItem('mf_session')}catch(e){}
- showSignInState();
+ try{sessionStorage.clear()}catch(e){}
+ location.href='mfapp://signout';
 }
 function requireCap(cap){
  if(hasCap(cap))return true;
@@ -197,5 +202,11 @@ lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAcc
  }
  if(changed){store.set('documents',docs);store.set('cash',cash);render()}
 }
-loadSession().then(ok=>{if(ok){document.getElementById('mfSignInGate')?.classList.remove('open');return flushPendingAccounting()}showSignInState();return null}).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());render();
+showSignInState();
+if(new URLSearchParams(location.search).get('signed_out')==='1'){
+ verifyProductionReadiness().finally(()=>checkMiddleware());
+}else{
+ loadSession().then(ok=>{if(ok){document.getElementById('mfSignInGate')?.classList.remove('open');return flushPendingAccounting()}showSignInState();return null}).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());
+}
+render();
 </script></body></html>
