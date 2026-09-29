@@ -81,23 +81,22 @@ async function loadSession(){
  }catch(e){}
  MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};applyCapabilities();return false;
 }
+function showSignInState(){
+ MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};applyCapabilities();
+ let gate=document.getElementById('mfSignInGate');
+ if(!gate){gate=document.createElement('div');gate.id='mfSignInGate';gate.className='mf-sheet open';gate.innerHTML='<div class="mf-sheet-panel" style="text-align:center"><div class="splashMark" style="margin:4px auto 16px">M</div><h2>Sign in to MENAFoods</h2><p class="sub">Use your existing MENAFoods account to continue to Control Center and Accountant Agent.</p><div class="actions" style="justify-content:center"><button class="primary" id="mfSignInNow">Sign in</button></div></div>';document.body.appendChild(gate);document.getElementById('mfSignInNow').onclick=()=>startMENAFoodsSignIn()}
+ gate.classList.add('open');
+}
+function startMENAFoodsSignIn(){const returnTo=MF_ORIGIN+'/';location.href=MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(returnTo)}
 async function signOutMENAFoods(){
- try{
-  const endpoints=['/logout','/signout','/session/logout'];
-  for(const ep of endpoints){
-   const r=await fetch(MF_USER+ep,{method:'POST',credentials:'include',headers:{Accept:'application/json'}});
-   if(r.ok||r.status===401||r.status===403)break;
-  }
- }catch(e){}
- MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
- applyCapabilities();
+ try{await fetch(MF_USER+'/logout',{method:'POST',credentials:'include',headers:{Accept:'application/json'}})}catch(e){}
  try{localStorage.removeItem('mf_session')}catch(e){}
- location.replace(MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(location.href));
+ showSignInState();
 }
 function requireCap(cap){
  if(hasCap(cap))return true;
  const msg=MF_SESSION.authenticated?'This action is not enabled for your MENAFoods role.':'Sign in to MENAFoods to continue.';
- if(!MF_SESSION.authenticated){location.href=MF_ORIGIN+'/__catalyst/auth/login?redirect_url='+encodeURIComponent(location.href)}
+ if(!MF_SESSION.authenticated){showSignInState()}
  else alert(msg);
  return false;
 }
@@ -198,5 +197,5 @@ lockDate.value=new Date().toISOString().slice(0,10);renderSalesOrder();renderAcc
  }
  if(changed){store.set('documents',docs);store.set('cash',cash);render()}
 }
-loadSession().then(ok=>ok?flushPendingAccounting():null).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());render();
+loadSession().then(ok=>{if(ok){document.getElementById('mfSignInGate')?.classList.remove('open');return flushPendingAccounting()}showSignInState();return null}).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());render();
 </script></body></html>
