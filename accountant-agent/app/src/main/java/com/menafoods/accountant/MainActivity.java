@@ -70,6 +70,7 @@ public class MainActivity extends Activity {
             }
             @Override public void onPageFinished(WebView view,String url){
                 super.onPageFinished(view,url);
+                if(url!=null&&url.contains("INVALID_URL_PATTERN")){view.loadUrl(APP_URL);return;}
                 if(url!=null&&url.startsWith(APP_URL)){
                     view.evaluateJavascript("(function(){if(document.getElementById('mf-unified-css'))return;var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s)})();",null);
                     mainHandler.postDelayed(()->forceEnterApp(),2300);
