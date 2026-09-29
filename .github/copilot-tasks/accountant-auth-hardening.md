@@ -13,3 +13,5 @@ Scope:
 - Build and test before reporting completion.
 
 After implementing, summarize changed behavior, tests/build result, and any live-auth verification that still needs a real user account.
+
+CI note: this PR is expected to pass the Accountant Android APK/AAB GitHub Actions build before merge.
