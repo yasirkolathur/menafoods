@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.provider.MediaStore;
 import android.graphics.Color;
 import android.webkit.ValueCallback;
+import android.webkit.JavascriptInterface;
 import android.webkit.CookieManager;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -34,6 +35,10 @@ public class MainActivity extends Activity {
     private Uri cameraUri;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
     private boolean authInProgress;
+
+    private final class AppBridge {
+        @JavascriptInterface public void closeSplash() { mainHandler.post(() -> forceEnterApp()); }
+    }
 
     private void forceEnterApp() {
         if (webView == null) return;
@@ -112,6 +117,7 @@ public class MainActivity extends Activity {
         s.setBuiltInZoomControls(false); s.setDisplayZoomControls(false); s.setSupportZoom(false);
         s.setLoadWithOverviewMode(true); s.setUseWideViewPort(true); s.setMediaPlaybackRequiresUserGesture(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
+        webView.addJavascriptInterface(new AppBridge(), "MENAFoodsNative");
         webView.setWebViewClient(new WebViewClient() {
             @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap favicon){
                 super.onPageStarted(view,url,favicon);
