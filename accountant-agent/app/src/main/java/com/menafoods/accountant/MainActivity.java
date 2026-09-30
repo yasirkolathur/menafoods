@@ -2,12 +2,19 @@ package com.menafoods.accountant;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.MediaStore;
+import android.Manifest;
 import android.graphics.Color;
+import android.speech.RecognitionListener;
+import android.speech.RecognizerIntent;
+import android.speech.SpeechRecognizer;
+import android.speech.tts.TextToSpeech;
+import android.speech.tts.UtteranceProgressListener;
 import android.webkit.ValueCallback;
 import android.webkit.JavascriptInterface;
 import android.webkit.CookieManager;
@@ -19,9 +26,14 @@ import android.webkit.WebResourceRequest;
 import androidx.core.content.FileProvider;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Locale;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class MainActivity extends Activity {
     private static final int FILE_CHOOSER_REQUEST = 1001;
+    private static final int RECORD_AUDIO_REQUEST = 1002;
     private static final String APP_URL = "file:///android_asset/index.html";
     private static final String APP_SCHEME = "mfapp";
     private static final String MIDDLEWARE_HOST = "menafoodscustomermiddleware-809407193.development.catalystserverless.com";
@@ -34,9 +46,123 @@ public class MainActivity extends Activity {
     private Uri cameraUri;
     private final Handler mainHandler = new Handler(Looper.getMainLooper());
     private boolean authInProgress;
+    private SpeechRecognizer speechRecognizer;
+    private TextToSpeech tts;
+    private String pendingListenLocale;
 
     private final class AppBridge {
         @JavascriptInterface public void closeSplash() { mainHandler.post(() -> forceEnterApp()); }
+    }
+
+    /** Native bridge for Accountant Drive Mode: speech-to-text input and text-to-speech output only. */
+    private final class DriveModeBridge {
+        @JavascriptInterface
+        public boolean isSupported() {
+            return SpeechRecognizer.isRecognitionAvailable(MainActivity.this);
+        }
+        @JavascriptInterface
+        public void startListening(final String locale) {
+            mainHandler.post(() -> beginListening(locale));
+        }
+        @JavascriptInterface
+        public void stopListening() {
+            mainHandler.post(MainActivity.this::stopListeningInternal);
+        }
+        @JavascriptInterface
+        public void speak(final String text, final String locale) {
+            mainHandler.post(() -> speakText(text, locale));
+        }
+        @JavascriptInterface
+        public void stopSpeaking() {
+            mainHandler.post(() -> { if (tts != null) tts.stop(); });
+        }
+    }
+
+    private void beginListening(String locale) {
+        if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            pendingListenLocale = locale;
+            requestPermissions(new String[]{Manifest.permission.RECORD_AUDIO}, RECORD_AUDIO_REQUEST);
+            return;
+        }
+        startRecognizer(locale);
+    }
+
+    private void startRecognizer(String locale) {
+        if (!SpeechRecognizer.isRecognitionAvailable(this)) {
+            dispatchDriveEvent("error", "unsupported");
+            return;
+        }
+        stopListeningInternal();
+        speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
+        speechRecognizer.setRecognitionListener(new RecognitionListener() {
+            @Override public void onReadyForSpeech(Bundle params) { dispatchDriveEvent("listening", ""); }
+            @Override public void onBeginningOfSpeech() {}
+            @Override public void onRmsChanged(float rmsdB) {}
+            @Override public void onBufferReceived(byte[] buffer) {}
+            @Override public void onEndOfSpeech() { dispatchDriveEvent("processing", ""); }
+            @Override public void onError(int error) { dispatchDriveEvent("error", String.valueOf(error)); }
+            @Override public void onResults(Bundle results) {
+                ArrayList<String> matches = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                dispatchDriveEvent("result", (matches != null && !matches.isEmpty()) ? matches.get(0) : "");
+            }
+            @Override public void onPartialResults(Bundle partialResults) {
+                ArrayList<String> matches = partialResults.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                String text = (matches != null && !matches.isEmpty()) ? matches.get(0) : "";
+                if (!text.isEmpty()) dispatchDriveEvent("partial", text);
+            }
+            @Override public void onEvent(int eventType, Bundle params) {}
+        });
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        if (locale != null && !locale.isEmpty()) intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, locale);
+        intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
+        intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, getPackageName());
+        try {
+            speechRecognizer.startListening(intent);
+        } catch (Exception e) {
+            dispatchDriveEvent("error", "start_failed");
+        }
+    }
+
+    private void stopListeningInternal() {
+        if (speechRecognizer != null) {
+            try {
+                speechRecognizer.stopListening();
+                speechRecognizer.cancel();
+                speechRecognizer.destroy();
+            } catch (Exception ignored) {}
+            speechRecognizer = null;
+        }
+    }
+
+    private void speakText(String text, String locale) {
+        if (tts == null || text == null || text.isEmpty()) return;
+        if (locale != null && !locale.isEmpty()) {
+            try { tts.setLanguage(Locale.forLanguageTag(locale.replace('_', '-'))); } catch (Exception ignored) {}
+        }
+        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "mf-drive-" + System.currentTimeMillis());
+    }
+
+    private void dispatchDriveEvent(String type, String value) {
+        if (webView == null) return;
+        try {
+            JSONObject o = new JSONObject();
+            o.put("type", type);
+            o.put("value", value == null ? "" : value);
+            String js = "window.__mfDriveEvent&&window.__mfDriveEvent(" + o.toString() + ");";
+            mainHandler.post(() -> { if (webView != null) webView.evaluateJavascript(js, null); });
+        } catch (JSONException ignored) {}
+    }
+
+    @Override public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == RECORD_AUDIO_REQUEST) {
+            boolean granted = grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
+            String locale = pendingListenLocale;
+            pendingListenLocale = null;
+            if (granted) startRecognizer(locale);
+            else dispatchDriveEvent("error", "permission_denied");
+        }
     }
 
     private void forceEnterApp() {
@@ -116,6 +242,15 @@ public class MainActivity extends Activity {
         s.setLoadWithOverviewMode(true); s.setUseWideViewPort(true); s.setMediaPlaybackRequiresUserGesture(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         webView.addJavascriptInterface(new AppBridge(), "MENAFoodsNative");
+        webView.addJavascriptInterface(new DriveModeBridge(), "MFDriveMode");
+        tts = new TextToSpeech(this, status -> {
+            if (status == TextToSpeech.SUCCESS) dispatchDriveEvent("tts_ready", "");
+        });
+        tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
+            @Override public void onStart(String utteranceId) { dispatchDriveEvent("speaking", "start"); }
+            @Override public void onDone(String utteranceId) { dispatchDriveEvent("speaking", "done"); }
+            @Override public void onError(String utteranceId) { dispatchDriveEvent("speaking", "error"); }
+        });
         webView.setWebViewClient(new WebViewClient() {
             @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap favicon){
                 super.onPageStarted(view,url,favicon);
@@ -190,6 +325,7 @@ public class MainActivity extends Activity {
         }
         super.onActivityResult(requestCode,resultCode,data);
     }
-    @Override protected void onDestroy(){mainHandler.removeCallbacksAndMessages(null);if(webView!=null){webView.stopLoading();webView.destroy();}super.onDestroy();}
+    @Override protected void onDestroy(){mainHandler.removeCallbacksAndMessages(null);stopListeningInternal();if(tts!=null){tts.stop();tts.shutdown();tts=null;}if(webView!=null){webView.stopLoading();webView.destroy();}super.onDestroy();}
+    @Override protected void onPause(){stopListeningInternal();super.onPause();}
     @Override public void onBackPressed(){if(webView!=null){String u=webView.getUrl();if(u!=null&&!u.startsWith(APP_URL)){webView.loadUrl(APP_URL);return;}if(webView.canGoBack()){webView.goBack();return;}}super.onBackPressed();}
 }
