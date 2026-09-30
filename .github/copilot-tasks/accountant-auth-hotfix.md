@@ -10,3 +10,5 @@ Scope:
 - Run JavaScript syntax checks and Android debug APK + release AAB build.
 - Do not change backend architecture.
 - Report verification results before merge.
+
+Verification trigger: owner-authored CI run after Copilot implementation.
