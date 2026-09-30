@@ -13,7 +13,6 @@ import android.webkit.JavascriptInterface;
 import android.webkit.CookieManager;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
-import android.webkit.WebStorage;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebResourceRequest;
@@ -98,7 +97,6 @@ public class MainActivity extends Activity {
         webView.clearHistory();
         webView.clearFormData();
         webView.clearSslPreferences();
-        WebStorage.getInstance().deleteAllData();
         CookieManager.getInstance().removeAllCookies(removed -> mainHandler.post(() -> {
             CookieManager.getInstance().flush();
             if (webView != null) webView.loadUrl(APP_URL + "?signed_out=1");
