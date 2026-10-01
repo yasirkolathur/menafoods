@@ -50,10 +50,6 @@ public class MainActivity extends Activity {
     private TextToSpeech tts;
     private String pendingListenLocale;
 
-    private final class AppBridge {
-        @JavascriptInterface public void closeSplash() { mainHandler.post(() -> forceEnterApp()); }
-    }
-
     /** Native bridge for Accountant Drive Mode: speech-to-text input and text-to-speech output only. */
     private final class DriveModeBridge {
         @JavascriptInterface
@@ -165,11 +161,6 @@ public class MainActivity extends Activity {
         }
     }
 
-    private void forceEnterApp() {
-        if (webView == null) return;
-        webView.evaluateJavascript("(function(){try{var s=document.getElementById('appSplash');if(s){s.classList.add('hide');s.style.pointerEvents='none';s.style.display='none';s.remove()}document.documentElement.style.visibility='visible';document.body.style.visibility='visible'}catch(e){}})();", null);
-    }
-
     private Intent cameraIntent() {
         Intent camera = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (camera.resolveActivity(getPackageManager()) == null) return null;
@@ -241,7 +232,6 @@ public class MainActivity extends Activity {
         s.setBuiltInZoomControls(false); s.setDisplayZoomControls(false); s.setSupportZoom(false);
         s.setLoadWithOverviewMode(true); s.setUseWideViewPort(true); s.setMediaPlaybackRequiresUserGesture(true);
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
-        webView.addJavascriptInterface(new AppBridge(), "MENAFoodsNative");
         webView.addJavascriptInterface(new DriveModeBridge(), "MFDriveMode");
         tts = new TextToSpeech(this, status -> {
             if (status == TextToSpeech.SUCCESS) dispatchDriveEvent("tts_ready", "");
@@ -254,7 +244,6 @@ public class MainActivity extends Activity {
         webView.setWebViewClient(new WebViewClient() {
             @Override public void onPageStarted(WebView view,String url,android.graphics.Bitmap favicon){
                 super.onPageStarted(view,url,favicon);
-                if(url!=null&&url.startsWith(APP_URL)) mainHandler.postDelayed(()->forceEnterApp(),1800);
             }
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
                 Uri uri=request.getUrl(); String scheme=uri.getScheme();
@@ -293,7 +282,6 @@ public class MainActivity extends Activity {
                 }
                 if(url!=null&&url.startsWith(APP_URL)){
                     view.evaluateJavascript("(function(){if(document.getElementById('mf-unified-css'))return;var l=document.createElement('link');l.id='mf-unified-css';l.rel='stylesheet';l.href='unified.css';document.head.appendChild(l);var s=document.createElement('script');s.src='unified.js';s.defer=true;document.body.appendChild(s)})();",null);
-                    mainHandler.postDelayed(()->forceEnterApp(),1200);
                 }
             }
         });
