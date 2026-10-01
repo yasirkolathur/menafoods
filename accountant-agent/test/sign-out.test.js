@@ -56,15 +56,16 @@ function runSignOut(source) {
     console,
   };
   vm.createContext(context);
-  vm.runInContext(fnSource + ';\nsignOutMENAFoods();', context);
-  return { fetchCalls, localStorage, get sessionStorageCleared() { return sessionStorageCleared; }, get locationHref() { return locationHref; } };
+  const done = vm.runInContext(fnSource + ';\nsignOutMENAFoods();', context);
+  return { done, fetchCalls, localStorage, get sessionStorageCleared() { return sessionStorageCleared; }, get locationHref() { return locationHref; } };
 }
 
 test('sign-out clears only auth/session state and leaves operational localStorage untouched', async () => {
   const source = readIndexHtml();
   const outcome = runSignOut(source);
-  // Allow the async fetch/race/timeout inside signOutMENAFoods to settle.
-  await new Promise((resolve) => setTimeout(resolve, 20));
+  // signOutMENAFoods() returns a promise; await it directly instead of a fixed timeout so the
+  // test is deterministic regardless of how fast/slow the host machine is.
+  await outcome.done;
 
   assert.deepEqual(outcome.localStorage._removed, ['mf_session'], 'sign-out must remove only the mf_session key');
   for (const key of OPERATIONAL_KEYS) {
@@ -72,6 +73,10 @@ test('sign-out clears only auth/session state and leaves operational localStorag
   }
   assert.equal(outcome.sessionStorageCleared, true);
   assert.equal(outcome.locationHref, 'mfapp://signout');
+  assert.equal(outcome.fetchCalls.length, 1, 'sign-out must notify the backend logout endpoint exactly once');
+  assert.equal(outcome.fetchCalls[0].url, 'https://example.app/mf-user/logout');
+  assert.equal(outcome.fetchCalls[0].opts.method, 'POST');
+  assert.equal(outcome.fetchCalls[0].opts.credentials, 'include');
 });
 
 test('sign-out does not reference any sign-in trigger, so it cannot immediately sign the user back in', () => {

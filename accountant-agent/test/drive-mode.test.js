@@ -164,3 +164,22 @@ test('controlled financial action tables cover every protected capability from t
     assert.ok(labels.includes(expected), 'missing controlled command coverage for: ' + expected);
   }
 });
+
+test('delete/void matching is intentionally broad but still fails safe: it only blocks and navigates, never executes', () => {
+  // DRIVE_CONTROLLED's delete/void entry (unlike the other entries) matches on the bare words
+  // "delete"/"void" with no second co-occurring term, so it also catches ambiguous phrasing that
+  // is not a precise delete/void instruction. This is pre-existing production behavior from the
+  // already-merged Drive Mode feature and is left unchanged here; this test documents that even
+  // over-matching is safe, because the controlled-command branch never executes a mutation - it
+  // can only navigate to a screen and ask for manual confirmation.
+  const { routeDriveCommand } = loadDriveRouter();
+  for (const phrase of ['delete this', 'void this', 'open the void screen', 'delete']) {
+    const { calls, handlers } = makeHandlerSpy();
+    const result = routeDriveCommand(phrase, handlers);
+    assert.equal(result.type, 'blocked');
+    assert.equal(result.target, 'detail');
+    assert.deepEqual(calls.navigate, ['detail']);
+    assert.deepEqual(calls.speak, [result.message]);
+    assert.match(result.message, /cannot complete/i);
+  }
+});
