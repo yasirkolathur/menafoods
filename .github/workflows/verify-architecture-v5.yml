@@ -1,0 +1,23 @@
+name: Verify Architecture v5
+
+on:
+  push:
+    branches:
+      - architecture-v5-low-api
+  pull_request:
+    paths:
+      - "src/api/**"
+      - "src/frontend/shared/**"
+      - "tests/architecture-v5/**"
+      - "docs/architecture/v5/**"
+      - "package.json"
+
+jobs:
+  test-v5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm run test:v5
