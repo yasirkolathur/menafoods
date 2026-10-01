@@ -1,0 +1,9 @@
+{
+  "name": "menafoods-accountant-agent",
+  "private": true,
+  "description": "Deterministic JS tests for the Accountant Android WebView app (Drive Mode safety, sign-out behavior). No runtime dependencies.",
+  "scripts": {
+    "test": "node --test",
+    "lint:syntax": "node --check app/src/main/assets/unified.js"
+  }
+}
