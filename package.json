@@ -1,0 +1,11 @@
+{
+  "name": "menafoods-architecture-v5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:v5": "node --test tests/architecture-v5/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
