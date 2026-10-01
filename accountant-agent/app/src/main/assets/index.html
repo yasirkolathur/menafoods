@@ -218,11 +218,22 @@ async function flushPendingAccounting(){
  }
  if(changed){store.set('documents',docs);store.set('cash',cash);render()}
 }
-showSignInState();
-if(new URLSearchParams(location.search).get('signed_out')==='1'){
- verifyProductionReadiness().finally(()=>checkMiddleware());
-}else{
- loadSession().then(ok=>{if(ok){document.getElementById('mfSignInGate')?.classList.remove('open');return flushPendingAccounting()}showSignInState();return null}).then(()=>verifyProductionReadiness()).finally(()=>checkMiddleware());
-}
+// Android/PWA startup must never be blocked by remote authentication.
+// Render the local Accountant dashboard first; authentication is requested only
+// when a protected action needs it.
 render();
+const signedOutStartup=new URLSearchParams(location.search).get('signed_out')==='1';
+if(!signedOutStartup){
+ loadSession().then(ok=>{
+  if(ok){
+   document.getElementById('mfSignInGate')?.classList.remove('open');
+   return flushPendingAccounting();
+  }
+  return null;
+ }).finally(()=>{verifyProductionReadiness().finally(()=>checkMiddleware())});
+}else{
+ MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
+ applyCapabilities();
+ verifyProductionReadiness().finally(()=>checkMiddleware());
+}
 </script></body></html>
