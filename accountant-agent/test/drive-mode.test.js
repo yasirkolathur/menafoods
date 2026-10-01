@@ -21,13 +21,14 @@ const FINANCIAL_MUTATION_FUNCTIONS = [
 ];
 
 function makeHandlerSpy() {
-  const calls = { navigate: [], speak: [], setVisual: [], exit: 0, onTranscript: [] };
+  const calls = { navigate: [], speak: [], setVisual: [], exit: 0, onTranscript: [], getText: [] };
   const handlers = {
     navigate: (id) => calls.navigate.push(id),
     speak: (msg) => calls.speak.push(msg),
     setVisual: (state) => calls.setVisual.push(state),
     exit: () => { calls.exit++; },
     onTranscript: (text) => calls.onTranscript.push(text),
+    getText: (id) => { calls.getText.push(id); return undefined; },
   };
   return { calls, handlers };
 }
@@ -144,7 +145,7 @@ test('controlled financial actions only navigate and request manual confirmation
     // The handler object passed in exposes no mutation capability at all: routeDriveCommand
     // received only navigate/speak/setVisual/exit/onTranscript spies, so there is no function
     // reference it could call to actually post/sync/approve/lock/save/submit/delete/void.
-    assert.deepEqual(Object.keys(handlers).sort(), ['exit', 'navigate', 'onTranscript', 'setVisual', 'speak']);
+    assert.deepEqual(Object.keys(handlers).sort(), ['exit', 'getText', 'navigate', 'onTranscript', 'setVisual', 'speak']);
   }
 });
 
