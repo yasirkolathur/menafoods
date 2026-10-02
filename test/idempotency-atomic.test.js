@@ -40,7 +40,7 @@ test("two concurrent deliveries execute financial handler only once", async () =
   assert.equal(count,1);
 });
 
-test("handler failure releases claim for retry", async () => {
+test("ambiguous handler failure retains claim until reconciliation", async () => {
   const store = atomicStore();
   await assert.rejects(withIdempotency({
     store, key:"BOOKS:PAYMENT:456",
@@ -49,7 +49,7 @@ test("handler failure releases claim for retry", async () => {
   const response = await withIdempotency({
     store, key:"BOOKS:PAYMENT:456", handler: async () => ({ ok:true })
   });
-  assert.equal(response.action, "created");
+  assert.equal(response.action, "in_progress");
 });
 
 test("non-atomic adapter fails closed", async () => {
@@ -58,4 +58,33 @@ test("non-atomic adapter fails closed", async () => {
     key: "BOOKS:PAYMENT:789",
     handler: async()=>({ok:true})
   }), /atomic_idempotency_store_required/);
+});
+
+test("failed completion never releases claim or reruns business handler", async () => {
+  const store = atomicStore();
+  let calls = 0;
+  store.complete = async () => { throw new Error("completion_failure"); };
+  await assert.rejects(withIdempotency({
+    store, key:"BOOKS:PAYMENT:completion",
+    handler: async () => { calls++; return {ok:true}; }
+  }), /completion_failure/);
+  const second = await withIdempotency({
+    store, key:"BOOKS:PAYMENT:completion",
+    handler: async () => { calls++; return {ok:true}; }
+  });
+  assert.equal(second.action, "in_progress");
+  assert.equal(calls, 1);
+});
+
+test("explicit reconciliation may release known-safe claim for retry", async () => {
+  const store = atomicStore();
+  await assert.rejects(withIdempotency({
+    store, key:"BOOKS:PAYMENT:reconciled",
+    handler: async () => { throw new Error("ambiguous"); }
+  }), /ambiguous/);
+  await store.release("BOOKS:PAYMENT:reconciled"); // Only after external reconciliation
+  const retry = await withIdempotency({
+    store, key:"BOOKS:PAYMENT:reconciled", handler: async () => ({ok:true})
+  });
+  assert.equal(retry.action, "created");
 });
