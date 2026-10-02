@@ -57,7 +57,13 @@ const MF_API=MF_ORIGIN+'/mf-api';
 const MF_USER=MF_ORIGIN+'/mf-user';
 const MF_CAPS={
   admin:['accountant_agent.access','accounting.documents.create','accounting.documents.review','accounting.cash.reconcile','accounting.admin.approve','accounting.books.sync','accounting.day.lock','accounting.accounts.manage','sales_orders.create','sales_orders.whatsapp.fetch','sales_orders.catalogue.match','sales_orders.admin.approve','sales_orders.books.sync'],
-  user:['accountant_agent.access','accounting.documents.create','sales_orders.create','sales_orders.catalogue.match']
+  user:[],
+  customer:[],
+  seller:[],
+  salesperson:['accountant_agent.access','accounting.documents.create','sales_orders.create','sales_orders.catalogue.match'],
+  delivery:['accountant_agent.access','accounting.documents.create','accounting.cash.reconcile'],
+  operations:['accountant_agent.access','accounting.documents.create','accounting.documents.review','accounting.cash.reconcile'],
+  accountant:['accountant_agent.access','accounting.documents.create','accounting.documents.review','accounting.cash.reconcile']
 };
 var MF_SESSION={authenticated:false,user:null,role:'user',capabilities:[]};
 function hasCap(cap){return MF_SESSION.capabilities.includes(cap)}
@@ -74,7 +80,9 @@ async function loadSession(){
    if(!r.ok)continue;
    const d=await r.json(); const u=d.user||d.data||d;
    const role=String(u.role||u.role_name||d.role||'user').toLowerCase();
-   const caps=Array.isArray(d.capabilities)?d.capabilities:(role.includes('admin')?MF_CAPS.admin:MF_CAPS.user);
+   const allowedRole=role.includes('admin')?'admin':role.includes('salesperson')?'salesperson':role.includes('delivery')?'delivery':role.includes('operation')?'operations':role.includes('accountant')?'accountant':role.includes('seller')?'seller':role.includes('customer')?'customer':'user';
+   const allowedCaps=MF_CAPS[allowedRole]||[];
+   const caps=Array.isArray(d.capabilities)?d.capabilities.filter(cap=>allowedCaps.includes(cap)):allowedCaps;
    MF_SESSION={authenticated:true,user:u,role,capabilities:caps};applyCapabilities();return true;
   }
  }catch(e){}
