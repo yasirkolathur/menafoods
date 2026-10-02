@@ -1,0 +1,29 @@
+name: Verify Catalyst Core P0
+
+on:
+  push:
+    branches:
+      - catalyst-core-p0
+  pull_request:
+    paths:
+      - "src/api/**"
+      - "src/frontend/shared/**"
+      - "test/**"
+      - "package.json"
+      - ".github/workflows/core-p0.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Syntax checks
+        run: npm run check
+      - name: Unit tests
+        run: npm test
