@@ -4,10 +4,15 @@ export function makeIdempotencyKey(source, module, externalId) {
 }
 
 /**
- * Requires a durable, atomic store with claim/get/complete/release.
- * A failed completion leaves the claim held: releasing after a successful
- * business write could cause the next delivery to execute it again.
- * Adapter implementations must supply lease recovery and reconciliation.
+ * Durable store contract:
+ * claim(key): atomic, at most one owner; get(key): completed result or null;
+ * complete(key, result): durable completion; release(key): explicitly
+ * reconciled safe-to-retry claim only.
+ *
+ * A write may have committed even when a network call throws. The helper
+ * therefore intentionally does NOT release on handler or completion errors.
+ * An independent reconciliation process must inspect the authoritative
+ * Books/Inventory state before deciding whether a claim can be retried.
  */
 export async function withIdempotency({ store, key, handler }) {
   if (!key || typeof handler !== "function" ||
@@ -25,16 +30,9 @@ export async function withIdempotency({ store, key, handler }) {
       : { action: "in_progress", idempotency_key: key };
   }
 
-  let result;
-  try {
-    result = await handler();
-  } catch (error) {
-    // The adapter may release only after confirming the write did not commit.
-    await store.release(key);
-    throw error;
-  }
-
-  // Do not release claim if completion fails: the business write may exist.
+  // Both failed handler and failed completion retain the claim. Never
+  // automatically replay a potentially committed financial mutation.
+  const result = await handler();
   await store.complete(key, result);
   return { action: "created", ...result, idempotency_key: key };
 }
