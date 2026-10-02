@@ -4,10 +4,10 @@ export function makeIdempotencyKey(source, module, externalId) {
 }
 
 /**
- * The storage adapter MUST implement atomic claim(key), get(key),
- * complete(key, result) and release(key). claim must succeed for only
- * one concurrent request. This helper intentionally has no get/put
- * fallback: such a fallback allows duplicate financial writes.
+ * Requires a durable, atomic store with claim/get/complete/release.
+ * A failed completion leaves the claim held: releasing after a successful
+ * business write could cause the next delivery to execute it again.
+ * Adapter implementations must supply lease recovery and reconciliation.
  */
 export async function withIdempotency({ store, key, handler }) {
   if (!key || typeof handler !== "function" ||
@@ -20,18 +20,21 @@ export async function withIdempotency({ store, key, handler }) {
   const claimed = await store.claim(key);
   if (!claimed) {
     const existing = await store.get(key);
-    if (!existing) {
-      return { action: "in_progress", idempotency_key: key };
-    }
-    return { action: "duplicate_noop", ...existing, idempotency_key: key };
+    return existing
+      ? { action: "duplicate_noop", ...existing, idempotency_key: key }
+      : { action: "in_progress", idempotency_key: key };
   }
 
+  let result;
   try {
-    const result = await handler();
-    await store.complete(key, result);
-    return { action: "created", ...result, idempotency_key: key };
+    result = await handler();
   } catch (error) {
+    // The adapter may release only after confirming the write did not commit.
     await store.release(key);
     throw error;
   }
+
+  // Do not release claim if completion fails: the business write may exist.
+  await store.complete(key, result);
+  return { action: "created", ...result, idempotency_key: key };
 }
