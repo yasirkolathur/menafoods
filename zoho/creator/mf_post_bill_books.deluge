@@ -1,0 +1,224 @@
+// MENAFoods Mena Creator — OPTIONAL NEW SERVER-SIDE FUNCTION
+// Purpose: post ONE approved Bill_Books draft to existing Zoho Books organization.
+// STATUS: SOURCE ONLY. NOT COMPILED/INSTALLED IN CREATOR; fields below must be
+// added to the existing Bill_Books form first (see companion setup .md).
+// Read Books org_id + OAuth connection link name from your existing Creator
+// connection settings. Never replace these with an item ID or VAT number.
+// Only an authorized admin may execute; do not expose this function to Seller
+// directly. The Seller UI creates drafts, admin button invokes this function.
+//
+// Signature for Creator function: string mf_post_bill_books(long creator_bill_id)
+// Paste the function body into Creator after confirming form schema.
+//
+// Zoho Books refs:
+// zoho.books.getRecords("Bills", org_id, searchMap, "books_connection")
+// zoho.books.createRecord("Bills", org_id, payload, "books_connection")
+//
+string mf_post_bill_books(long creator_bill_id)
+{
+    org_id = "SET_EXISTING_BOOKS_ORGANIZATION_ID";
+    books_connection = "SET_EXISTING_BOOKS_OAUTH_CONNECTION_LINKNAME";
+    admin_email = "SET_APPROVED_ADMIN_EMAIL";
+    if(org_id.startsWith("SET_") || books_connection.startsWith("SET_") || admin_email.startsWith("SET_"))
+    {
+        return "NOT_CONFIGURED: Set existing Books org/connection/authorized poster; did not POST.";
+    }
+
+    // Auth at the server-side execution boundary, not just a hidden UI button.
+    if(zoho.loginuser.toLowerCase() != admin_email.toLowerCase())
+    {
+        return "FORBIDDEN: only the configured admin can post a bill.";
+    }
+
+    br = Bill_Books[ID == creator_bill_id];
+    if(br.count() != 1)
+    {
+        return "NOT_FOUND: Bill_Books Creator ID not found.";
+    }
+
+    // Existing Books ID wins. Never create duplicates after a successful push.
+    if(br.Books_Bill_Id != null && br.Books_Bill_Id.toString().trim() != "")
+    {
+        return "ALREADY_LINKED: Books_Bill_Id=" + br.Books_Bill_Id.toString();
+    }
+
+    if(br.Sync_Status != "Ready")
+    {
+        return "NOT_READY: draft must be reviewed and moved to Ready by admin.";
+    }
+
+    supplier_invoice_no = ifnull(br.Bill_No,"").toString().trim();
+    books_bill_number = ifnull(br.Books_Bill_Number,"").toString().trim();
+    if(supplier_invoice_no == "" || books_bill_number == "")
+    {
+        return "VALIDATION_FAILED: Supplier invoice Bill_No and Books_Bill_Number are separate and both required.";
+    }
+    if(br.Supplier == null || br.Bill_Date == null || br.Due_Date == null)
+    {
+        return "VALIDATION_FAILED: supplier, bill date and due date required.";
+    }
+
+    vendor = Supplier_Form[ID == br.Supplier];
+    if(vendor.count() != 1 || ifnull(vendor.ZBooks_ID,"").toString().trim() == "")
+    {
+        return "VALIDATION_FAILED: Supplier must have its actual ZBooks_ID vendor mapping.";
+    }
+    vendor_id = vendor.ZBooks_ID.toString();
+
+    // Exact-reference duplicate check: supplier may recycle numbering across
+    // DIFFERENT vendors, so always compare both reference and vendor_id.
+    query_ref = Map();
+    query_ref.put("reference_number",supplier_invoice_no);
+    matches = zoho.books.getRecords("Bills",org_id,query_ref,books_connection);
+    if(matches.get("code") != 0)
+    {
+        return "LOOKUP_FAILED: Unable to verify duplicate supplier reference; no POST. " + matches.get("message");
+    }
+
+    // A truncated lookup cannot establish that a bill is absent.
+    if(ifnull(matches.get("page_context"),Map()).get("has_more_page") == true)
+    {
+        return "INCOMPLETE_LOOKUP: supplier reference search has additional pages; no POST.";
+    }
+    existing_id = "";
+    for each existing in ifnull(matches.get("bills"),List())
+    {
+        if(ifnull(existing.get("vendor_id"),"").toString() == vendor_id &&
+           ifnull(existing.get("reference_number"),"").toString().trim() == supplier_invoice_no)
+        {
+            existing_id = existing.get("bill_id").toString();
+        }
+    }
+    if(existing_id != "")
+    {
+        br.Books_Bill_Id = existing_id;
+        br.Sync_Status = "Already In Books";
+        br.Sync_Error = "";
+        return "ALREADY_IN_BOOKS: Linked existing bill ID " + existing_id;
+    }
+
+    // Reject reuse of a Zoho Books document number even across vendors.
+    query_bill_no = Map();
+    query_bill_no.put("bill_number",books_bill_number);
+    by_bill_number = zoho.books.getRecords("Bills",org_id,query_bill_no,books_connection);
+    if(by_bill_number.get("code") != 0)
+    {
+        return "LOOKUP_FAILED: Unable to verify Books bill_number; no POST.";
+    }
+    if(ifnull(by_bill_number.get("page_context"),Map()).get("has_more_page") == true)
+    {
+        return "INCOMPLETE_LOOKUP: Books bill number search has additional pages; no POST.";
+    }
+    for each existing_num in ifnull(by_bill_number.get("bills"),List())
+    {
+        if(ifnull(existing_num.get("bill_number"),"").toString().trim() == books_bill_number)
+        {
+            return "DUPLICATE_BOOKS_NUMBER: Books_Bill_Number already in use; no POST.";
+        }
+    }
+
+    rows = List();
+    subtotal = 0.0;
+    if(br.Bill_Items.count() <= 0)
+    {
+        return "VALIDATION_FAILED: No purchased line items.";
+    }
+    for each detail in br.Bill_Items
+    {
+        if(detail.Product == null || detail.Quantity == null || detail.Rate == null)
+        {
+            return "VALIDATION_FAILED: Every line requires Product, Quantity and tax-exclusive Rate.";
+        }
+
+        item = Products_Form[ID == detail.Product];
+        if(item.count() != 1 || ifnull(item.ZB_Item_ID,"").toString().trim() == "")
+        {
+            return "VALIDATION_FAILED: Each item must have a matched Zoho Books ZB_Item_ID.";
+        }
+        if(detail.Quantity <= 0 || detail.Rate < 0)
+        {
+            return "VALIDATION_FAILED: Quantity must be positive and Rate cannot be negative.";
+        }
+        if(ifnull(detail.Tax_Id,"").toString().trim() == "")
+        {
+            return "VALIDATION_FAILED: Verify the actual 15% VAT tax ID on every taxable line.";
+        }
+
+        // The selected UOM must already match the Books item purchase unit.
+        // DO NOT automatically multiply a carton into packs without an
+        // explicitly verified Books unit conversion group.
+        if(ifnull(detail.Unit,"").toString().trim() == "")
+        {
+            return "VALIDATION_FAILED: Confirm line's purchase unit before POST.";
+        }
+
+        row = Map();
+        row.put("item_id",item.ZB_Item_ID.toString());
+        row.put("quantity",detail.Quantity);
+        row.put("rate",detail.Rate);
+        row.put("tax_id",detail.Tax_Id.toString().trim());
+        if(ifnull(detail.Line_Notes,"").toString().trim() != "")
+        {
+            row.put("description",detail.Line_Notes);
+        }
+        rows.add(row);
+        subtotal = subtotal + detail.Quantity * detail.Rate;
+    }
+
+    if(br.Expected_Total == null || br.Expected_Total <= 0)
+    {
+        return "VALIDATION_FAILED: Expected_Total from supplier invoice is required.";
+    }
+
+    // This initial workflow accepts 15% fully taxable invoices only.
+    // Exempt, mixed-rate, inclusive-price, discounts and rounding adjustments
+    // require a separate reviewed handling path, not an invented VAT number.
+    calculated_total = (subtotal * 1.15).round(2);
+    difference = (calculated_total - br.Expected_Total).abs();
+    if(difference > 0.05)
+    {
+        return "TOTAL_MISMATCH: calculated total " + calculated_total + " versus supplier invoice " + br.Expected_Total + "; no POST.";
+    }
+
+    payload = Map();
+    payload.put("vendor_id",vendor_id);
+    payload.put("bill_number",books_bill_number);
+    payload.put("reference_number",supplier_invoice_no);
+    payload.put("date",br.Bill_Date.toString("yyyy-MM-dd"));
+    payload.put("due_date",br.Due_Date.toString("yyyy-MM-dd"));
+    payload.put("is_inclusive_tax",false);
+    payload.put("line_items",rows);
+
+    if(br.Associated_PO != null)
+    {
+        purchase_order = Purchase_Order[ID == br.Associated_PO];
+        if(purchase_order.count() == 1 && ifnull(purchase_order.ZB_PO_ID,"").toString().trim() != "")
+        {
+            purchase_order_ids = List();
+            purchase_order_ids.add(purchase_order.ZB_PO_ID.toString());
+            payload.put("purchaseorder_ids",purchase_order_ids);
+        }
+    }
+
+    // PRODUCTION: add a durable atomic lock around this check-and-create
+    // transaction to prevent two concurrent requests posting the same bill.
+    // Until then, restrict to one admin dispatcher and one worker at a time.
+    br.Sync_Status = "Posting";
+    response = zoho.books.createRecord("Bills",org_id,payload,books_connection);
+    if(response.get("code") != 0 || response.get("bill") == null ||
+       ifnull(response.get("bill").get("bill_id"),"").toString() == "")
+    {
+        br.Sync_Status = "Failed";
+        br.Sync_Error = response.toString();
+        return "BOOKS_POST_FAILED: " + response.get("message");
+    }
+
+    new_books_id = response.get("bill").get("bill_id").toString();
+    br.Books_Bill_Id = new_books_id;
+    br.Sync_Status = "Posted";
+    br.Sync_Error = "";
+
+    // Do not overwrite the existing Updated flag's current trigger semantics
+    // until the old Bill_Books workflow is inspected.
+    return "POSTED: Books_Bill_Id=" + new_books_id;
+}
