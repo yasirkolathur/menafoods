@@ -75,6 +75,11 @@ string mf_post_bill_books(long creator_bill_id)
         return "LOOKUP_FAILED: Unable to verify duplicate supplier reference; no POST. " + matches.get("message");
     }
 
+    // A truncated lookup cannot establish that a bill is absent.
+    if(ifnull(matches.get("page_context"),Map()).get("has_more_page") == true)
+    {
+        return "INCOMPLETE_LOOKUP: supplier reference search has additional pages; no POST.";
+    }
     existing_id = "";
     for each existing in ifnull(matches.get("bills"),List())
     {
@@ -99,6 +104,10 @@ string mf_post_bill_books(long creator_bill_id)
     if(by_bill_number.get("code") != 0)
     {
         return "LOOKUP_FAILED: Unable to verify Books bill_number; no POST.";
+    }
+    if(ifnull(by_bill_number.get("page_context"),Map()).get("has_more_page") == true)
+    {
+        return "INCOMPLETE_LOOKUP: Books bill number search has additional pages; no POST.";
     }
     for each existing_num in ifnull(by_bill_number.get("bills"),List())
     {
