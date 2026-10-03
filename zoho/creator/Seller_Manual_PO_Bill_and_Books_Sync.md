@@ -25,7 +25,7 @@ Extend **Bill_Books**, retaining its two existing fields intact. Do not rename/d
 | `Associated_PO` | lookup to `Purchase_Order` | optional PO relation, no duplicate PO creation |
 | `Bill_Items` | subform | line items, schema below |
 | `Expected_Total` | currency, SAR | invoice inclusive-of-VAT grand total |
-| `Sync_Status` | dropdown | Draft / Pending Approval / Ready / Posted / Already In Books / Needs Review / Failed |
+| `Sync_Status` | dropdown | Draft / Pending Approval / Ready / Posting / Posted / Already In Books / Needs Review / Failed |
 | `Sync_Error` | multi-line | safe error description |
 | `Receipt_Attachment` | file upload | supplier invoice scan, attachment sync is separate |
 | `Approved_By` | user or single line | admin confirmation, must be set by approved workflow, not client text |
@@ -72,7 +72,7 @@ Official references:
 ### Additional controls required before enabling production
 
 1. **Lock** manual posting via server-side approver role; `Approved_By` must be determined by the authenticated Creator user, not submitted freely by Seller.
-2. Enforce unique composite key **(Books vendor ID, supplier bill number)** with transactional or serialized guard. A Books READ check alone does not prevent simultaneous posts; use a durable lock/status gate and reconcile timeouts by lookup before retrying.
+2. Enforce unique composite key **(Books vendor ID, supplier bill number)** with transactional or serialized guard. A Books READ check alone does not prevent simultaneous posts; use a durable atomic lock/status gate and reconcile timeouts by lookup before retrying. The sample is **NOT safe for concurrent production posting** before that lock is added. Reject incomplete/paginated lookup results.
 3. Avoid posting when supplier invoice number is blurry or missing, or when sum(quantity × ex-VAT rate + VAT) differs from invoice total.
 4. Existing invoice images must be attached with the Creator Upload File API, followed by Books bill attachment endpoint. The current record API cannot write IMAGE/FILE_UPLOAD fields.
 5. Do not conflate the current `Bill_Books.Updated` flag (existing sync semantics) with a new `Posted` status until its historical workflow is reviewed. Preserve that workflow and gate the new routine to avoid duplicated writes.
