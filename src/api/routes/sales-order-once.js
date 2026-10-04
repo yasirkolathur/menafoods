@@ -18,6 +18,16 @@ function hashPayload(data) {
   return createHash("sha256").update(canonical(data)).digest("hex");
 }
 
+/** Books reference is unique per org/customer/cart and remains stable on every retry. */
+export function makePilotBooksReference(organizationId, customerId, cartId) {
+  if (!organizationId || !customerId || typeof cartId !== "string" ||
+      !/^[A-Za-z0-9_-]{1,64}$/.test(cartId)) throw new Error("reference_parts_invalid");
+  const customerSuffix = createHash("sha256")
+    .update(canonical([String(organizationId), String(customerId), cartId]))
+    .digest("hex").slice(0, 12);
+  return "MF-" + cartId + "-" + customerSuffix;
+}
+
 export async function submitPilotSalesOrder({
   store, organizationId, customerId, cartId, pilotEnabled = false,
   allowedCustomerIds, maxPilotOrderHalalas = 0,
@@ -43,8 +53,8 @@ export async function submitPilotSalesOrder({
   }
 
   // Stable reference across retries; the gateway must prevent a second writer.
-  const reference = "MF-" + cartId;
-  const key = makeIdempotencyKey("MENAFODS", "SALESORDER",
+  const reference = makePilotBooksReference(organizationId, customerId, cartId);
+  const key = makeIdempotencyKey("MENAFOODS", "SALESORDER",
     String(organizationId) + ":" + String(customerId) + ":" + cartId);
   const requestHash = hashPayload({
     organizationId: String(organizationId),
