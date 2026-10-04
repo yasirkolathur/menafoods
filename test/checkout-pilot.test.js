@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { validateClientCart, assertResolvedCartMatchesClient, quoteResolvedCart, authorizePayment } from "../src/api/lib/checkout-gates.js";
-import { submitPilotSalesOrder } from "../src/api/routes/sales-order-once.js";
+import { submitPilotSalesOrder, makePilotBooksReference } from "../src/api/routes/sales-order-once.js";
 
 const row = (overrides = {}) => ({
   itemId: "lar-chicken-breast", booksItemId: "BOOKS-123",
@@ -116,7 +116,7 @@ test("double-tap and post-completion replay create exactly one Books Sales Order
   const args = orderArgs({ createBooksOrder: async () => {
     writes++;
     await new Promise(resolve => setImmediate(resolve));
-    return { salesorder_id: "SO-1", customer_id: "books-customer-1", reference_number: "MF-cart-immutable-1" };
+    return { salesorder_id: "SO-1", customer_id: "books-customer-1", reference_number: makePilotBooksReference("844477749", "pilot-1", "cart-immutable-1") };
   } });
   const first = await Promise.all([submitPilotSalesOrder(args), submitPilotSalesOrder(args)]);
   assert.deepEqual(first.map(x => x.action).sort(), ["created", "in_progress"]);
@@ -145,7 +145,7 @@ test("reconciles only same Books customer and reference, otherwise blocks", asyn
   assert.equal(result.wasExisting, true);
   await assert.rejects(submitPilotSalesOrder(orderArgs({
     findExisting: async () => ({ salesorder_id: "SO-OTHER",
-      customer_id: "wrong-customer", reference_number: "MF-cart-immutable-1" })
+      customer_id: "wrong-customer", reference_number: makePilotBooksReference("844477749", "pilot-1", "cart-immutable-1") })
   })), /reconciliation_mismatch/);
 });
 
@@ -218,4 +218,11 @@ test("missing Books reconciliation callback fails before any POST", async () => 
     createBooksOrder: async () => { calls++; return {}; }
   })), /single_books_writer_and_reconciliation_required/);
   assert.equal(calls, 0);
+});
+
+test("Books references differ by customer and organization for the same cart ID", () => {
+  const a = makePilotBooksReference("orgA", "custA", "cart-immutable-1");
+  assert.equal(a, makePilotBooksReference("orgA", "custA", "cart-immutable-1"));
+  assert.notEqual(a, makePilotBooksReference("orgA", "custB", "cart-immutable-1"));
+  assert.notEqual(a, makePilotBooksReference("orgB", "custA", "cart-immutable-1"));
 });
