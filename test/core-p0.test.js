@@ -22,20 +22,20 @@ test("idempotency key is deterministic", () => {
 });
 
 test("idempotency replays without calling handler twice", async () => {
-  const pending = new Set();
-  const completed = new Map();
+  const data = new Map();
+  const claimed = new Set();
   const store = {
-    claim: async key => {
-      if (pending.has(key) || completed.has(key)) return false;
-      pending.add(key);
+    async claim(key) {
+      if (claimed.has(key) || data.has(key)) return false;
+      claimed.add(key);
       return true;
     },
-    get: async key => completed.get(key),
-    complete: async (key, result) => {
-      pending.delete(key);
-      completed.set(key, result);
+    async get(key) { return data.get(key); },
+    async complete(key, value) {
+      data.set(key, value);
+      claimed.delete(key);
     },
-    release: async key => pending.delete(key)
+    async release(key) { claimed.delete(key); }
   };
   let calls = 0;
   const handler = async () => ({ ok: true, calls: ++calls });
