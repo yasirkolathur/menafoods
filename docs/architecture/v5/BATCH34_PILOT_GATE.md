@@ -39,3 +39,9 @@
 - Read-only gateway smoke: `npm run test:live` (from a networked CI/runner), verifies existing Development health and unauthenticated 401s.
 - Offline guards: `npm run check && npm test`.
 - Existing application mapping requires owner/dev to inspect live Creator `Sales_Order_ZBooks` and Books organization `844477749` using connected authorized tools. No secrets in logs or PRs.
+
+### Creator schema verified read-only on 4 Oct 2026
+- Existing Creator account `menafoods`, app `mena`: reports `All_Customer_Price_Lists`, `Customer_Types_and_Offers_Report` and `Sales_Order1_Report` are present. `Sales_Order1_Report` is based on the required `Sales_Order_ZBooks` form; older `Sales_Order_Report` is based on a **different** `Sales_Order` form and is not the pilot writer.
+- `Customer_Price_List` exposes `Customer`, `Product`, `Offer_Type`, `Price`, `Percent` and `Custom_Price`. `Customer_Types_and_Offers` exposes `Customer_Type`, `Offers`, and `ZBooks_PriceList_ID`. These are mapping candidates, **not** evidence that current Catalyst returns the right customer price.
+- `Sales_Order_ZBooks` has `Customer_Form`, `Customer_ZBooks_ID`, `Line_Items` (including `Products_Form`, `Item_ZBooks_ID`, `Qty`, `Rate`), `SO_ZBooks_ID` and `Invoice_Zbooks_ID`. `Qty` and `Rate` fields are only two decimal places; do not silently round derived piece rates (e.g., CTN price divided by package count) in a way that changes invoice totals. Resolve tax mapping in the Books payload; no dedicated VAT field was found in the form metadata inspected.
+- All metadata queries are read-only. No Creator workflow, form or Books Sales Order was modified or posted during this verification.
