@@ -1,0 +1,23 @@
+{
+  "project_id": "17990000000237407",
+  "environment": "Development",
+  "backend": {
+    "name": "mf_zoho_gateway",
+    "function_id": "17990000000231926",
+    "stack": "node24"
+  },
+  "allowed_advancedio_routes": {
+    "mf_zoho_gateway": "17990000000231926",
+    "MFAPI": "17990000000231926",
+    "MFUser": "17990000000231926",
+    "MFShop": "17990000000231926",
+    "MFReplit": "17990000000231926"
+  },
+  "policy": {
+    "single_routable_backend": true,
+    "create_new_backend": false,
+    "duplicate_order_writer": false,
+    "replit_active": false,
+    "credit_mode": "OBSERVE"
+  }
+}
