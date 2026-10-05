@@ -4,6 +4,6 @@
   "type": "module",
   "scripts": {
     "test": "node --test test/*.test.js",
-    "check": "node --check src/api/lib/cache-policy.js && node --check src/api/lib/idempotency.js && node --check src/api/routes/bootstrap.js && node --check src/api/routes/credit-decision.js && node --check src/api/routes/webhook-books.js && node --check src/api/routes/webhook-inventory.js && node --check src/frontend/shared/api-client.js"
+    "check": "node --check src/api/lib/cache-policy.js && node --check src/api/lib/idempotency.js && node --check src/api/lib/project-lock.js && node --check src/api/routes/bootstrap.js && node --check src/api/routes/credit-decision.js && node --check src/api/routes/webhook-books.js && node --check src/api/routes/webhook-inventory.js && node --check src/frontend/shared/api-client.js"
   }
 }
