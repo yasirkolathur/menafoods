@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/*.test.js",
+    "test": "node --test test/bootstrap-auth.test.js test/checkout-pilot.test.js test/core-p0.test.js test/idempotency-atomic.test.js test/project-lock.test.js test/single-backend-contract.test.js test/webhook-validation.test.js",
     "test:live": "node --test test/catalyst-dev-smoke.test.js",
     "check": "node --check src/api/lib/cache-policy.js && node --check src/api/lib/idempotency.js && node --check src/api/lib/project-lock.js && node --check src/api/lib/checkout-gates.js && node --check src/api/routes/bootstrap.js && node --check src/api/routes/credit-decision.js && node --check src/api/routes/webhook-books.js && node --check src/api/routes/webhook-inventory.js && node --check src/api/routes/sales-order-once.js && node --check src/frontend/shared/api-client.js"
   }
