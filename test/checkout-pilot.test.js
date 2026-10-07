@@ -32,6 +32,7 @@ const orderArgs = (overrides = {}) => ({
     cartId: "cart-immutable-1", totalHalalas: 113850, booksCustomerId: "books-customer-1" },
   booksPayload: { customer_id: "books-customer-1", line_items: [{ item_id: "BOOKS-123" }] },
   findExisting: async () => null,
+  verifyPrePostPayload: async () => true,
   createBooksOrder: async payload => ({
     salesorder_id: "SO-1", customer_id: payload.customer_id,
     reference_number: payload.reference_number
@@ -218,6 +219,59 @@ test("missing Books reconciliation callback fails before any POST", async () => 
     createBooksOrder: async () => { calls++; return {}; }
   })), /single_books_writer_and_reconciliation_required/);
   assert.equal(calls, 0);
+});
+
+test("missing pre-POST verifier fails before any Books write", async () => {
+  let calls = 0;
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    verifyPrePostPayload: undefined,
+    createBooksOrder: async () => { calls++; return {}; }
+  })), /single_books_writer_and_reconciliation_required/);
+  assert.equal(calls, 0);
+});
+
+test("fresh pre-POST verification runs immediately before Books create", async () => {
+  const sequence = [];
+  const args = orderArgs({
+    findExisting: async () => { sequence.push("find"); return null; },
+    verifyPrePostPayload: async ({ approvedQuote, booksPayload }) => {
+      sequence.push("pre");
+      assert.equal(approvedQuote.totalHalalas, 113850);
+      assert.equal(booksPayload.customer_id, "books-customer-1");
+      return true;
+    },
+    createBooksOrder: async payload => {
+      sequence.push("create");
+      return {
+        salesorder_id: "SO-1",
+        customer_id: payload.customer_id,
+        reference_number: payload.reference_number
+      };
+    },
+    verifyBooksResult: async () => { sequence.push("post"); return true; }
+  });
+  assert.equal((await submitPilotSalesOrder(args)).action, "created");
+  assert.deepEqual(sequence, ["find", "pre", "create", "post"]);
+});
+
+test("failed pre-POST verification releases claim because no Books write occurred", async () => {
+  let allowed = false, writes = 0;
+  const args = orderArgs({
+    verifyPrePostPayload: async () => allowed,
+    createBooksOrder: async payload => {
+      writes++;
+      return {
+        salesorder_id: "SO-1",
+        customer_id: payload.customer_id,
+        reference_number: payload.reference_number
+      };
+    }
+  });
+  await assert.rejects(submitPilotSalesOrder(args), /pre_post_verification_failed/);
+  assert.equal(writes, 0);
+  allowed = true;
+  assert.equal((await submitPilotSalesOrder(args)).action, "created");
+  assert.equal(writes, 1);
 });
 
 test("Books references differ by customer and organization for the same cart ID", () => {
