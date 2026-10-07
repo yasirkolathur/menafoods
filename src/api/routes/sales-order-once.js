@@ -31,7 +31,8 @@ export function makePilotBooksReference(organizationId, customerId, cartId) {
 export async function submitPilotSalesOrder({
   store, organizationId, customerId, cartId, pilotEnabled = false,
   allowedCustomerIds, maxPilotOrderHalalas = 0,
-  approvedQuote, booksPayload, findExisting, createBooksOrder, verifyBooksResult
+  approvedQuote, booksPayload, findExisting, createBooksOrder,
+  verifyPrePostPayload, verifyBooksResult
 }) {
   if (pilotEnabled !== true || !(allowedCustomerIds instanceof Set) ||
       !allowedCustomerIds.has(customerId)) throw new Error("pilot_not_authorized");
@@ -48,7 +49,7 @@ export async function submitPilotSalesOrder({
     throw new Error("checkout_not_verified");
   }
   if (typeof findExisting !== "function" || typeof createBooksOrder !== "function" ||
-      typeof verifyBooksResult !== "function") {
+      typeof verifyPrePostPayload !== "function" || typeof verifyBooksResult !== "function") {
     throw new Error("single_books_writer_and_reconciliation_required");
   }
 
@@ -79,6 +80,30 @@ export async function submitPilotSalesOrder({
         if (verified !== true) throw new Error("books_order_totals_mismatch");
         return { booksSalesOrderId: String(existing.salesorder_id), wasExisting: true, requestHash };
       }
+      // Re-read/reconcile authoritative customer price, mapping, unit quantity, tax,
+      // stock and payment immediately before the only external Books POST. Because no
+      // external write has happened yet, a failed read-only preflight can safely release
+      // the claim and let the customer retry after the underlying data is corrected.
+      let prePostVerified;
+      try {
+        prePostVerified = await verifyPrePostPayload({
+          organizationId: String(organizationId),
+          customerId,
+          cartId,
+          reference,
+          requestHash,
+          approvedQuote,
+          booksPayload
+        });
+      } catch (error) {
+        await store.release(key);
+        throw error;
+      }
+      if (prePostVerified !== true) {
+        await store.release(key);
+        throw new Error("pre_post_verification_failed");
+      }
+
       const posted = await createBooksOrder({ ...booksPayload, reference_number: reference });
       if (!posted || !posted.salesorder_id) throw new Error("books_confirmation_missing");
       if (posted.customer_id !== approvedQuote.booksCustomerId ||
