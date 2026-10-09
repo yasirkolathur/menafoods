@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { validateClientCart, assertResolvedCartMatchesClient, quoteResolvedCart, authorizePayment } from "../src/api/lib/checkout-gates.js";
-import { submitPilotSalesOrder, makePilotBooksReference } from "../src/api/routes/sales-order-once.js";
+import { submitPilotSalesOrder, makePilotBooksReference, makeServerCheckoutToken } from "../src/api/routes/sales-order-once.js";
 
 const row = (overrides = {}) => ({
   itemId: "lar-chicken-breast", booksItemId: "BOOKS-123",
@@ -24,12 +24,24 @@ function store() {
   };
 }
 
+const pilotServerCartItems = [
+  { itemId: "lar-chicken-breast", selectedUnit: "CTN", quantity: 5 }
+];
+const pilotServerCheckoutToken = makeServerCheckoutToken({
+  organizationId: "844477749",
+  customerId: "pilot-1",
+  serverCartId: "server-cart-row-1001",
+  items: pilotServerCartItems
+});
+
 const orderArgs = (overrides = {}) => ({
   store: store(), organizationId: "844477749", customerId: "pilot-1", cartId: "cart-immutable-1",
+  serverCheckoutToken: pilotServerCheckoutToken,
   pilotEnabled: true, allowedCustomerIds: new Set(["pilot-1"]),
   maxPilotOrderHalalas: 150000,
   approvedQuote: { authorized: true, creatorCustomerId: "pilot-1",
-    cartId: "cart-immutable-1", totalHalalas: 113850, booksCustomerId: "books-customer-1" },
+    cartId: "cart-immutable-1", serverCheckoutToken: pilotServerCheckoutToken,
+    totalHalalas: 113850, booksCustomerId: "books-customer-1" },
   booksPayload: { customer_id: "books-customer-1", line_items: [{ item_id: "BOOKS-123" }] },
   findExisting: async () => null,
   verifyPrePostPayload: async () => true,
@@ -117,7 +129,7 @@ test("double-tap and post-completion replay create exactly one Books Sales Order
   const args = orderArgs({ createBooksOrder: async () => {
     writes++;
     await new Promise(resolve => setImmediate(resolve));
-    return { salesorder_id: "SO-1", customer_id: "books-customer-1", reference_number: makePilotBooksReference("844477749", "pilot-1", "cart-immutable-1") };
+    return { salesorder_id: "SO-1", customer_id: "books-customer-1", reference_number: makePilotBooksReference("844477749", "pilot-1", pilotServerCheckoutToken) };
   } });
   const first = await Promise.all([submitPilotSalesOrder(args), submitPilotSalesOrder(args)]);
   assert.deepEqual(first.map(x => x.action).sort(), ["created", "in_progress"]);
@@ -146,7 +158,7 @@ test("reconciles only same Books customer and reference, otherwise blocks", asyn
   assert.equal(result.wasExisting, true);
   await assert.rejects(submitPilotSalesOrder(orderArgs({
     findExisting: async () => ({ salesorder_id: "SO-OTHER",
-      customer_id: "wrong-customer", reference_number: makePilotBooksReference("844477749", "pilot-1", "cart-immutable-1") })
+      customer_id: "wrong-customer", reference_number: makePilotBooksReference("844477749", "pilot-1", pilotServerCheckoutToken) })
   })), /reconciliation_mismatch/);
 });
 
@@ -206,8 +218,10 @@ test("Books totals must be independently checked before finalizing claim", async
 });
 
 test("incorrect authenticated customer and above-pilot-limit order are blocked", async () => {
-  await assert.rejects(submitPilotSalesOrder(orderArgs({ customerId: "pilot-2",
-    allowedCustomerIds: new Set(["pilot-2"]) })), /checkout_not_verified/);
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    customerId: "pilot-2",
+    allowedCustomerIds: new Set(["pilot-2"])
+  })), /checkout_not_verified/);
   await assert.rejects(submitPilotSalesOrder(orderArgs({ maxPilotOrderHalalas: 100000 })),
     /checkout_not_verified/);
 });
@@ -274,9 +288,58 @@ test("failed pre-POST verification releases claim because no Books write occurre
   assert.equal(writes, 1);
 });
 
-test("Books references differ by customer and organization for the same cart ID", () => {
-  const a = makePilotBooksReference("orgA", "custA", "cart-immutable-1");
-  assert.equal(a, makePilotBooksReference("orgA", "custA", "cart-immutable-1"));
-  assert.notEqual(a, makePilotBooksReference("orgA", "custB", "cart-immutable-1"));
-  assert.notEqual(a, makePilotBooksReference("orgB", "custA", "cart-immutable-1"));
+test("server checkout token is deterministic across device/session retries", () => {
+  const input = {
+    organizationId: "orgA", customerId: "custA", serverCartId: "row-1",
+    items: [
+      { itemId: "b", selectedUnit: "PCS", quantity: 2 },
+      { itemId: "a", selectedUnit: "CTN", quantity: 1 }
+    ]
+  };
+  const first = makeServerCheckoutToken(input);
+  const reordered = makeServerCheckoutToken({
+    ...input, items: [...input.items].reverse()
+  });
+  assert.equal(first, reordered);
+  assert.match(first, /^MFCK-[a-f0-9]{40}$/);
+});
+
+test("server checkout token changes on user, business/cart or item mutation", () => {
+  const base = {
+    organizationId: "orgA", customerId: "custA", serverCartId: "row-1",
+    items: [{ itemId: "a", selectedUnit: "CTN", quantity: 1 }]
+  };
+  const token = makeServerCheckoutToken(base);
+  assert.notEqual(token, makeServerCheckoutToken({ ...base, customerId: "custB" }));
+  assert.notEqual(token, makeServerCheckoutToken({ ...base, serverCartId: "row-2" }));
+  assert.notEqual(token, makeServerCheckoutToken({
+    ...base, items: [{ itemId: "a", selectedUnit: "CTN", quantity: 2 }]
+  }));
+});
+
+test("pilot rejects browser/cart identity without matching server checkout token", async () => {
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    serverCheckoutToken: "browser-random-key"
+  })), /checkout_not_verified/);
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    approvedQuote: {
+      ...orderArgs().approvedQuote,
+      serverCheckoutToken: makeServerCheckoutToken({
+        organizationId: "844477749", customerId: "pilot-1",
+        serverCartId: "different-server-cart",
+        items: pilotServerCartItems
+      })
+    }
+  })), /checkout_not_verified/);
+});
+
+test("Books references differ by customer and organization for the same server checkout", () => {
+  const token = makeServerCheckoutToken({
+    organizationId: "orgA", customerId: "custA", serverCartId: "row-1",
+    items: [{ itemId: "a", selectedUnit: "CTN", quantity: 1 }]
+  });
+  const a = makePilotBooksReference("orgA", "custA", token);
+  assert.equal(a, makePilotBooksReference("orgA", "custA", token));
+  assert.notEqual(a, makePilotBooksReference("orgA", "custB", token));
+  assert.notEqual(a, makePilotBooksReference("orgB", "custA", token));
 });
