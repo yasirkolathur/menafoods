@@ -18,28 +18,73 @@ function hashPayload(data) {
   return createHash("sha256").update(canonical(data)).digest("hex");
 }
 
-/** Books reference is unique per org/customer/cart and remains stable on every retry. */
-export function makePilotBooksReference(organizationId, customerId, cartId) {
-  if (!organizationId || !customerId || typeof cartId !== "string" ||
-      !/^[A-Za-z0-9_-]{1,64}$/.test(cartId)) throw new Error("reference_parts_invalid");
-  const customerSuffix = createHash("sha256")
-    .update(canonical([String(organizationId), String(customerId), cartId]))
+function normalizeServerCartItems(items) {
+  if (!Array.isArray(items) || items.length === 0 || items.length > 200) {
+    throw new Error("server_cart_items_invalid");
+  }
+  return items.map(item => {
+    if (!item || typeof item.itemId !== "string" ||
+        !["CTN", "PCS"].includes(item.selectedUnit) ||
+        !Number.isSafeInteger(item.quantity) || item.quantity < 1) {
+      throw new Error("server_cart_items_invalid");
+    }
+    return { itemId: item.itemId, selectedUnit: item.selectedUnit, quantity: item.quantity };
+  }).sort((a, b) =>
+    a.itemId.localeCompare(b.itemId) ||
+    a.selectedUnit.localeCompare(b.selectedUnit) ||
+    a.quantity - b.quantity
+  );
+}
+
+/**
+ * Create the checkout identity from the authenticated server cart, not a
+ * browser-generated retry key. Same server cart across device/session retries
+ * converges on one token; any item/unit/quantity mutation changes the token.
+ */
+export function makeServerCheckoutToken({
+  organizationId, customerId, serverCartId, items
+}) {
+  if (!organizationId || !customerId || typeof serverCartId !== "string" ||
+      !/^[A-Za-z0-9._:-]{1,128}$/.test(serverCartId)) {
+    throw new Error("server_cart_identity_invalid");
+  }
+  const digest = hashPayload({
+    organizationId: String(organizationId),
+    customerId: String(customerId),
+    serverCartId,
+    items: normalizeServerCartItems(items)
+  });
+  return "MFCK-" + digest.slice(0, 40);
+}
+
+/** Books reference is unique per org/customer/server checkout and stable on retry. */
+export function makePilotBooksReference(organizationId, customerId, checkoutIdentity) {
+  if (!organizationId || !customerId || typeof checkoutIdentity !== "string" ||
+      !/^[A-Za-z0-9_-]{1,64}$/.test(checkoutIdentity)) {
+    throw new Error("reference_parts_invalid");
+  }
+  const suffix = createHash("sha256")
+    .update(canonical([String(organizationId), String(customerId), checkoutIdentity]))
     .digest("hex").slice(0, 12);
-  return "MF-" + cartId + "-" + customerSuffix;
+  return "MF-" + checkoutIdentity + "-" + suffix;
 }
 
 export async function submitPilotSalesOrder({
-  store, organizationId, customerId, cartId, pilotEnabled = false,
-  allowedCustomerIds, maxPilotOrderHalalas = 0,
+  store, organizationId, customerId, cartId, serverCheckoutToken,
+  pilotEnabled = false, allowedCustomerIds, maxPilotOrderHalalas = 0,
   approvedQuote, booksPayload, findExisting, createBooksOrder,
   verifyPrePostPayload, verifyBooksResult
 }) {
   if (pilotEnabled !== true || !(allowedCustomerIds instanceof Set) ||
       !allowedCustomerIds.has(customerId)) throw new Error("pilot_not_authorized");
   if (typeof cartId !== "string" || !/^[A-Za-z0-9_-]{1,64}$/.test(cartId) ||
+      typeof serverCheckoutToken !== "string" ||
+      !/^MFCK-[a-f0-9]{40}$/.test(serverCheckoutToken) ||
       !organizationId || !customerId || !approvedQuote ||
       approvedQuote.authorized !== true || approvedQuote.creatorCustomerId !== customerId ||
-      approvedQuote.cartId !== cartId || !approvedQuote.booksCustomerId ||
+      approvedQuote.cartId !== cartId ||
+      approvedQuote.serverCheckoutToken !== serverCheckoutToken ||
+      !approvedQuote.booksCustomerId ||
       !Number.isSafeInteger(approvedQuote.totalHalalas) || approvedQuote.totalHalalas < 1 ||
       !Number.isSafeInteger(maxPilotOrderHalalas) || maxPilotOrderHalalas < 1 ||
       approvedQuote.totalHalalas > maxPilotOrderHalalas ||
@@ -53,13 +98,15 @@ export async function submitPilotSalesOrder({
     throw new Error("single_books_writer_and_reconciliation_required");
   }
 
-  // Stable reference across retries; the gateway must prevent a second writer.
-  const reference = makePilotBooksReference(organizationId, customerId, cartId);
+  // Stable across device/session retries for the SAME authenticated server cart.
+  const reference = makePilotBooksReference(
+    organizationId, customerId, serverCheckoutToken
+  );
   const key = makeIdempotencyKey("MENAFOODS", "SALESORDER",
-    String(organizationId) + ":" + String(customerId) + ":" + cartId);
+    String(organizationId) + ":" + String(customerId) + ":" + serverCheckoutToken);
   const requestHash = hashPayload({
     organizationId: String(organizationId),
-    customerId, cartId,
+    customerId, cartId, serverCheckoutToken,
     totalHalalas: approvedQuote.totalHalalas,
     booksCustomerId: approvedQuote.booksCustomerId,
     booksPayload
@@ -90,6 +137,7 @@ export async function submitPilotSalesOrder({
           organizationId: String(organizationId),
           customerId,
           cartId,
+          serverCheckoutToken,
           reference,
           requestHash,
           approvedQuote,
