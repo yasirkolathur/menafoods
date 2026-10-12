@@ -75,3 +75,28 @@ Official sources:
 6. Stop immediately on permission 401, tax mismatch, unknown inventory, missing item IDs, cross-customer leakage, duplicate Creator record, or unknown Books outcome.
 
 **No live financial writes, schema mutations, OAuth grant changes, gateway deploy, or stock modifications were performed for this audit.**
+
+
+## 12 Oct — follow-on integrity analysis and source-only guards
+
+### Extended canonical Creator sample
+
+- `Sales_Order1_Report`: **2,400** distinct Creator IDs inspected across 12 pages; **1** blank Books SO mapping; **164** distinct Books Sales Order IDs referenced by multiple Creator rows; **167** excess mappings (161 pairs, 3 triplets). One duplicate group has **different Books customer IDs**; none of the 164 groups has multiple distinct `SO_Number` values in returned data. These are cursor-sample aggregates, not proof of duplicate Books financial documents.
+- **STOP:** do not repair these by deleting or merging existing Creator records. First compare actual Books document, `SO_Number`, Creator `ID`, Books customer mapping, and workflow source; isolate the single cross-customer conflict with authorized internal-only tools. Avoid exposing customer names/IDs in public GitHub.
+- Snapshot/summary code in `src/api/lib/creator-so-integrity.js` accepts Creator records only after complete authorized report lookup and asserts exactly one record with matching `SO_ZBooks_ID`, `Customer_ZBooks_ID` and `Customer_Form`. It returns sanitized summary counts for duplicate diagnosis.
+
+### Inventory read proof (source only; **not OAuth repaired**)
+
+- Official scopes: `ZohoInventory.items.READ` for item detail/list, `ZohoInventory.warehouses.READ` for warehouse listing. The optional organizations-list endpoint uses `ZohoInventory.settings.READ`; do not add it unless the existing account actually needs to list organizations.
+- New `src/api/lib/inventory-read-proof.js` validates code-0 read responses; rejects HTTP 401/403 and Zoho code 57; exact active warehouse and active tracked item ID; location-specific `location_available_stock` (or explicitly supplied `warehouse_available_stock`), zero stock as zero, unknown blank stock as failure, stale snapshot as failure. It emits no purchase/supplier costs.
+- It deliberately refuses fractional/weight-based inventory in the CTN/PCS proof: a separate properly unit-aware KG adapter is required. Never infer a particular warehouse's available stock from aggregate `item.stock_on_hand`.
+- The currently available Catalyst function-execution connector supports Basic I/O only; `mf_zoho_gateway` is Advanced I/O. Thus these guards are **not** evidence of an authenticated live Inventory read. Only the existing gateway can integrate the helper after recovered source review.
+
+### New tests and integration boundary
+
+- `test/inventory-read-proof.test.js`: missing scope/authorization, negative and absent stock, wrong warehouse, zero stock and stale data.
+- `test/creator-so-integrity.test.js`: missing/multiple Creator records, incomplete lookup, cross-customer mismatch, aggregate collision count.
+- Pilot callback now requires raw verified canonical Creator lookup records with explicit `searchComplete:true`, rather than trusting a bare callback-supplied `mappingCount:1`. The gateway must query and exhaust relevant Creator pages after optional authorized upsert and return only the exact `Sales_Order_ZBooks` records. **A configured callback that returns fabricated rows is not authorization.**
+- Keep all changes in draft PR #31 stacked on draft PR #23. No Catalyst source merge, OAuth re-consent, financial write or production deployment in this task.
+
+Sources: https://www.zoho.com/inventory/api/v1/items/ ; https://www.zoho.com/inventory/api/v1/multi-warehouse/ ; https://www.zoho.com/inventory/api/v1/organizations/ .
