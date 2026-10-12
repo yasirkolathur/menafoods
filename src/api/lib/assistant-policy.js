@@ -30,6 +30,23 @@ export function redactForClassifier(text) {
     .slice(0, 500);
 }
 
+/**
+ * Data-minimized hint extraction. The optional classifier receives ONLY these
+ * preapproved words, never free-form customer text, PII, names or Zoho data.
+ * Unknown inputs without hints take a deterministic support fallback.
+ */
+const MODEL_HINTS = new Set([
+  "delivery", "purchase", "buy", "again", "repeat", "order",
+  "status", "where", "help", "item", "list", "available", "question",
+  "توصيل", "شراء", "طلب", "تتبع", "مساعدة", "استفسار", "منتج", "متابعة",
+  "اعادة", "إعادة", "مره", "مرة", "عايز", "ابغى", "أبغى"
+]);
+export function extractIntentHints(text) {
+  if (typeof text !== "string") return "";
+  const tokens = text.normalize("NFKC").toLocaleLowerCase("en").match(/[\\p{L}\\p{N}]+/gu) ?? [];
+  return [...new Set(tokens.filter(token => MODEL_HINTS.has(token)))].slice(0, 8).join(" ");
+}
+
 export function detectIntent(text) {
   const value = text.toLocaleLowerCase("en").normalize("NFKC");
   if (/\b(reorder|buy again|repeat (my |the )?order)\b/u.test(value) ||
@@ -48,10 +65,13 @@ export function acceptedModelIntent(output) {
   return ALLOWED_INTENTS.includes(candidate) ? candidate : "unknown";
 }
 
-export function scopedProducts(rows, customerId) {
+export function scopedProducts(rows, customerId, branchId = null) {
   if (!Array.isArray(rows)) throw assistantError("assistant_catalog_unavailable", 503);
-  return rows.slice(0, 5).map(row => {
+  // Do not silently drop unverified extra records from a misconfigured provider.
+  if (rows.length > 5) throw assistantError("assistant_catalog_scope_invalid", 502);
+  return rows.map(row => {
     if (!row || row.customerId !== customerId ||
+        (branchId !== null && row.branchId !== branchId) ||
         typeof row.itemId !== "string" || !/^[A-Za-z0-9._:-]{1,128}$/u.test(row.itemId) ||
         typeof row.displayName !== "string" || !row.displayName.trim()) {
       throw assistantError("assistant_catalog_scope_invalid", 502);
@@ -65,11 +85,14 @@ export function scopedProducts(rows, customerId) {
   });
 }
 
-export function scopedOrders(rows, customerId) {
+export function scopedOrders(rows, customerId, branchId = null) {
   if (!Array.isArray(rows)) throw assistantError("assistant_orders_unavailable", 503);
+  if (rows.length > 3) throw assistantError("assistant_orders_scope_invalid", 502);
   const statuses = new Set(["pending", "approved", "processing", "dispatched", "delivered", "cancelled", "on_hold"]);
-  return rows.slice(0, 3).map(row => {
-    if (!row || row.customerId !== customerId || typeof row.orderNumber !== "string" ||
+  return rows.map(row => {
+    if (!row || row.customerId !== customerId ||
+        (branchId !== null && row.branchId !== branchId) ||
+        typeof row.orderNumber !== "string" ||
         !/^[A-Za-z0-9._/-]{1,40}$/u.test(row.orderNumber) || !statuses.has(row.status)) {
       throw assistantError("assistant_orders_scope_invalid", 502);
     }
