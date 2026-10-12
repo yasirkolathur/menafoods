@@ -65,13 +65,14 @@ export function acceptedModelIntent(output) {
   return ALLOWED_INTENTS.includes(candidate) ? candidate : "unknown";
 }
 
-export function scopedProducts(rows, customerId, branchId = null) {
+export function scopedProducts(rows, customerId, branchId = null, allowAllBranches = false) {
   if (!Array.isArray(rows)) throw assistantError("assistant_catalog_unavailable", 503);
   // Do not silently drop unverified extra records from a misconfigured provider.
   if (rows.length > 5) throw assistantError("assistant_catalog_scope_invalid", 502);
   return rows.map(row => {
     if (!row || row.customerId !== customerId ||
         (branchId !== null && row.branchId !== branchId) ||
+        (branchId === null && row.branchId != null && allowAllBranches !== true) ||
         typeof row.itemId !== "string" || !/^[A-Za-z0-9._:-]{1,128}$/u.test(row.itemId) ||
         typeof row.displayName !== "string" || !row.displayName.trim()) {
       throw assistantError("assistant_catalog_scope_invalid", 502);
@@ -80,18 +81,20 @@ export function scopedProducts(rows, customerId, branchId = null) {
     return {
       itemId: row.itemId,
       name: row.displayName.slice(0, 120),
-      ...(typeof row.sku === "string" ? { sku: row.sku.slice(0, 64) } : {})
+      ...(typeof row.sku === "string" && /^[A-Za-z0-9._:-]{1,64}$/.test(row.sku) ?
+        { sku: row.sku } : {})
     };
   });
 }
 
-export function scopedOrders(rows, customerId, branchId = null) {
+export function scopedOrders(rows, customerId, branchId = null, allowAllBranches = false) {
   if (!Array.isArray(rows)) throw assistantError("assistant_orders_unavailable", 503);
   if (rows.length > 3) throw assistantError("assistant_orders_scope_invalid", 502);
   const statuses = new Set(["pending", "approved", "processing", "dispatched", "delivered", "cancelled", "on_hold"]);
   return rows.map(row => {
     if (!row || row.customerId !== customerId ||
         (branchId !== null && row.branchId !== branchId) ||
+        (branchId === null && row.branchId != null && allowAllBranches !== true) ||
         typeof row.orderNumber !== "string" ||
         !/^[A-Za-z0-9._/-]{1,40}$/u.test(row.orderNumber) || !statuses.has(row.status)) {
       throw assistantError("assistant_orders_scope_invalid", 502);
