@@ -8,6 +8,7 @@
  */
 import { createHash } from "node:crypto";
 import { makeIdempotencyKey, withIdempotency } from "../lib/idempotency.js";
+import { assertOneCreatorBooksMapping } from "../lib/creator-so-integrity.js";
 
 function canonical(value) {
   if (value === null || typeof value !== "object") return JSON.stringify(value);
@@ -28,12 +29,16 @@ async function verifyCanonicalCreatorLink(ensureCanonicalCreatorSalesOrder, cont
     ...context, formLinkName: "Sales_Order_ZBooks"
   });
   if (!mapped || mapped.formLinkName !== "Sales_Order_ZBooks" ||
-      mapped.mappingCount !== 1 || !mapped.creatorRecordId ||
-      String(mapped.booksSalesOrderId) !== String(context.booksSalesOrderId) ||
-      String(mapped.creatorCustomerId) !== String(context.creatorCustomerId)) {
+      !Array.isArray(mapped.records)) {
     throw new Error("canonical_creator_mapping_missing_or_duplicate");
   }
-  return String(mapped.creatorRecordId);
+  const verified = assertOneCreatorBooksMapping(mapped.records, {
+    booksSalesOrderId: context.booksSalesOrderId,
+    booksCustomerId: context.booksCustomerId,
+    creatorCustomerId: context.creatorCustomerId,
+    searchComplete: mapped.searchComplete
+  });
+  return verified.creatorRecordId;
 }
 
 function normalizeServerCartItems(items) {
