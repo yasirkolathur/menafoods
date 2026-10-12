@@ -11,6 +11,9 @@ import { assistantHelp } from "./assistant-help.js";
  * existing protected datastore and assert transcriptConfirmedServerSide.
  */
 export async function intakeVerifiedWhatsApp(ctx, inbound) {
+  if (ctx?.flags?.assistantEnabled !== true) {
+    throw assistantError("assistant_disabled", 503);
+  }
   if (!ctx?.user?.id || ctx.channel !== "whatsapp" ||
       ctx.proof?.verifiedSender !== true ||
       ctx.proof?.signatureVerified !== true ||
