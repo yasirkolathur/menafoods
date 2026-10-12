@@ -28,6 +28,13 @@
 
 Creator `Products_Form` includes `Category`, `Collection1`, `Unit`, `Secondary_Unit`, selling price, margin, supplier, image subform, `ZB_Item_ID` and storefront toggle. Its metadata contains no dedicated carton-to-piece conversion quantity field. The authoritative conversion requires the existing Catalyst `MF_Product_Unit_Rules` or actual Inventory unit group mapping, verified per SKU.
 
+
+### Expanded read-only sample (12 Oct 2026)
+
+- `All_Products`, first **1,400** rows: 203 missing Books item IDs, 325 missing primary unit, 139 empty `Product_Images` subform; 705 marked `Storefront=Yes`. Among those 705 storefront rows: **0** missing Books item ID, **8** missing `Unit`, **9** with an empty image subform. These figures are sampled, **not catalog-wide totals**. Other image fields were not returned by the report, so an empty subform is not proof the product has no usable image.
+- `Sales_Order1_Report`, first **1,200** rows: all 1,200 have nonempty `SO_ZBooks_ID` and distinct Creator `ID`. But **87 different Books Sales Order IDs are referenced by multiple Creator records**, accounting for 89 excess Creator-to-Books links (highest observed multiplicity 3). This does **not** establish duplicate Books Sales Orders; it is an observable historical Creator mapping collision. Preserve records, reconcile against actual Books IDs and origin workflows, and do not auto-merge/delete.
+- Because the Canonical Creator mapping is not currently one-to-one across this sample, the pilot must fail closed unless the target checkout reference can be resolved to exactly one verified Creator record. Review legacy writers before enabling new writes.
+
 ## Catalyst datastore read-only audit
 
 - `MF_Idempotency_Records`: unique `UNIQUE_KEY`, `IDEMPOTENCY_KEY`, `REQUEST_HASH`, `STATUS`. Initial Development query returned zero rows.
