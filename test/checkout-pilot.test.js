@@ -41,7 +41,7 @@ const orderArgs = (overrides = {}) => ({
   maxPilotOrderHalalas: 150000,
   approvedQuote: { authorized: true, creatorCustomerId: "pilot-1",
     cartId: "cart-immutable-1", serverCheckoutToken: pilotServerCheckoutToken,
-    totalHalalas: 113850, booksCustomerId: "books-customer-1" },
+    totalHalalas: 113850, booksCustomerId: "books-customer-1", paymentMethod: "COD" },
   booksPayload: { customer_id: "books-customer-1", line_items: [{ item_id: "BOOKS-123" }] },
   findExisting: async () => null,
   verifyPrePostPayload: async () => true,
@@ -50,6 +50,10 @@ const orderArgs = (overrides = {}) => ({
     reference_number: payload.reference_number
   }),
   verifyBooksResult: async () => true,
+  ensureCanonicalCreatorSalesOrder: async ({ booksSalesOrderId, creatorCustomerId, formLinkName }) => ({
+    booksSalesOrderId, creatorCustomerId, formLinkName,
+    creatorRecordId: "creator-record-1", mappingCount: 1
+  }),
   ...overrides
 });
 
@@ -342,4 +346,62 @@ test("Books references differ by customer and organization for the same server c
   assert.equal(a, makePilotBooksReference("orgA", "custA", token));
   assert.notEqual(a, makePilotBooksReference("orgA", "custB", token));
   assert.notEqual(a, makePilotBooksReference("orgB", "custA", token));
+});
+
+test("pilot permits COD, blocks CREDIT and requires independently verified PREPAID", async () => {
+  assert.equal((await submitPilotSalesOrder(orderArgs())).action, "created");
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    approvedQuote: { ...orderArgs().approvedQuote, paymentMethod: "CREDIT" }
+  })), /pilot_payment_not_authorized/);
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    approvedQuote: { ...orderArgs().approvedQuote, paymentMethod: "PREPAID" }
+  })), /pilot_payment_not_authorized/);
+  assert.equal((await submitPilotSalesOrder(orderArgs({
+    approvedQuote: { ...orderArgs().approvedQuote, paymentMethod: "PREPAID", paymentVerified: true }
+  }))).action, "created");
+});
+
+test("Books success requires exactly one canonical Creator Sales_Order_ZBooks link", async () => {
+  let writes = 0;
+  const args = orderArgs({ createBooksOrder: async payload => {
+    writes++;
+    return { salesorder_id: "SO-1", customer_id: payload.customer_id,
+      reference_number: payload.reference_number };
+  }, ensureCanonicalCreatorSalesOrder: async context => ({
+    ...context, creatorRecordId: "creator-record-1", mappingCount: 2
+  }) });
+  await assert.rejects(submitPilotSalesOrder(args), /canonical_creator_mapping_missing_or_duplicate/);
+  assert.equal((await submitPilotSalesOrder(args)).action, "in_progress");
+  assert.equal(writes, 1); // NEVER post Books again after Creator reconciliation fails
+});
+
+test("missing Creator mapping verifier blocks before Books posting", async () => {
+  let writes = 0;
+  await assert.rejects(submitPilotSalesOrder(orderArgs({
+    ensureCanonicalCreatorSalesOrder: undefined,
+    createBooksOrder: async () => { writes++; return {}; }
+  })), /single_books_writer_and_reconciliation_required/);
+  assert.equal(writes, 0);
+});
+
+test("duplicate tap reuses both Books and Creator IDs, without posting twice", async () => {
+  let posts = 0, mappings = 0;
+  const args = orderArgs({
+    createBooksOrder: async payload => {
+      posts++;
+      return { salesorder_id: "SO-1", customer_id: payload.customer_id,
+        reference_number: payload.reference_number };
+    },
+    ensureCanonicalCreatorSalesOrder: async context => {
+      mappings++;
+      return { ...context, creatorRecordId: "creator-record-1", mappingCount: 1 };
+    }
+  });
+  const first = await submitPilotSalesOrder(args);
+  const retry = await submitPilotSalesOrder(args);
+  assert.equal(first.creatorSalesOrderId, "creator-record-1");
+  assert.equal(retry.creatorSalesOrderId, "creator-record-1");
+  assert.equal(retry.action, "duplicate_noop");
+  assert.equal(posts, 1);
+  assert.equal(mappings, 1);
 });
