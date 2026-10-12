@@ -50,9 +50,13 @@ const orderArgs = (overrides = {}) => ({
     reference_number: payload.reference_number
   }),
   verifyBooksResult: async () => true,
-  ensureCanonicalCreatorSalesOrder: async ({ booksSalesOrderId, creatorCustomerId, formLinkName }) => ({
-    booksSalesOrderId, creatorCustomerId, formLinkName,
-    creatorRecordId: "creator-record-1", mappingCount: 1
+  ensureCanonicalCreatorSalesOrder: async context => ({
+    formLinkName: context.formLinkName,
+    searchComplete: true,
+    records: [{
+      ID: "creator-record-1", SO_ZBooks_ID: context.booksSalesOrderId,
+      Customer_Form: context.creatorCustomerId, Customer_ZBooks_ID: context.booksCustomerId
+    }]
   }),
   ...overrides
 });
@@ -368,7 +372,12 @@ test("Books success requires exactly one canonical Creator Sales_Order_ZBooks li
     return { salesorder_id: "SO-1", customer_id: payload.customer_id,
       reference_number: payload.reference_number };
   }, ensureCanonicalCreatorSalesOrder: async context => ({
-    ...context, creatorRecordId: "creator-record-1", mappingCount: 2
+    formLinkName: context.formLinkName,
+    searchComplete: true,
+    records: [1, 2].map(n => ({
+      ID: "creator-record-" + n, SO_ZBooks_ID: context.booksSalesOrderId,
+      Customer_Form: context.creatorCustomerId, Customer_ZBooks_ID: context.booksCustomerId
+    }))
   }) });
   await assert.rejects(submitPilotSalesOrder(args), /canonical_creator_mapping_missing_or_duplicate/);
   assert.equal((await submitPilotSalesOrder(args)).action, "in_progress");
@@ -394,7 +403,9 @@ test("duplicate tap reuses both Books and Creator IDs, without posting twice", a
     },
     ensureCanonicalCreatorSalesOrder: async context => {
       mappings++;
-      return { ...context, creatorRecordId: "creator-record-1", mappingCount: 1 };
+      return { formLinkName: context.formLinkName, searchComplete: true,
+        records: [{ ID: "creator-record-1", SO_ZBooks_ID: context.booksSalesOrderId,
+          Customer_Form: context.creatorCustomerId, Customer_ZBooks_ID: context.booksCustomerId }] };
     }
   });
   const first = await submitPilotSalesOrder(args);
