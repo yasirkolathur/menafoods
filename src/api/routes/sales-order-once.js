@@ -18,6 +18,24 @@ function hashPayload(data) {
   return createHash("sha256").update(canonical(data)).digest("hex");
 }
 
+async function verifyCanonicalCreatorLink(ensureCanonicalCreatorSalesOrder, context) {
+  // This callback is implemented ONLY inside the existing authenticated Catalyst
+  // gateway. It must reconcile by the actual Books salesorder_id, use the
+  // canonical Creator Sales_Order_ZBooks form (not legacy Sales_Order), then
+  // re-read to prove exactly one mapping. This helper never creates a second
+  // backend or posts directly to Books/Creator.
+  const mapped = await ensureCanonicalCreatorSalesOrder({
+    ...context, formLinkName: "Sales_Order_ZBooks"
+  });
+  if (!mapped || mapped.formLinkName !== "Sales_Order_ZBooks" ||
+      mapped.mappingCount !== 1 || !mapped.creatorRecordId ||
+      String(mapped.booksSalesOrderId) !== String(context.booksSalesOrderId) ||
+      String(mapped.creatorCustomerId) !== String(context.creatorCustomerId)) {
+    throw new Error("canonical_creator_mapping_missing_or_duplicate");
+  }
+  return String(mapped.creatorRecordId);
+}
+
 function normalizeServerCartItems(items) {
   if (!Array.isArray(items) || items.length === 0 || items.length > 200) {
     throw new Error("server_cart_items_invalid");
@@ -73,7 +91,7 @@ export async function submitPilotSalesOrder({
   store, organizationId, customerId, cartId, serverCheckoutToken,
   pilotEnabled = false, allowedCustomerIds, maxPilotOrderHalalas = 0,
   approvedQuote, booksPayload, findExisting, createBooksOrder,
-  verifyPrePostPayload, verifyBooksResult
+  verifyPrePostPayload, verifyBooksResult, ensureCanonicalCreatorSalesOrder
 }) {
   if (pilotEnabled !== true || !(allowedCustomerIds instanceof Set) ||
       !allowedCustomerIds.has(customerId)) throw new Error("pilot_not_authorized");
@@ -93,8 +111,13 @@ export async function submitPilotSalesOrder({
       !Array.isArray(booksPayload.line_items) || booksPayload.line_items.length === 0) {
     throw new Error("checkout_not_verified");
   }
+  if (approvedQuote.paymentMethod !== "COD" &&
+      !(approvedQuote.paymentMethod === "PREPAID" && approvedQuote.paymentVerified === true)) {
+    throw new Error("pilot_payment_not_authorized");
+  }
   if (typeof findExisting !== "function" || typeof createBooksOrder !== "function" ||
-      typeof verifyPrePostPayload !== "function" || typeof verifyBooksResult !== "function") {
+      typeof verifyPrePostPayload !== "function" || typeof verifyBooksResult !== "function" ||
+      typeof ensureCanonicalCreatorSalesOrder !== "function") {
     throw new Error("single_books_writer_and_reconciliation_required");
   }
 
@@ -125,7 +148,14 @@ export async function submitPilotSalesOrder({
         // not just a matching reference. Mismatch retains claim for manual review.
         const verified = await verifyBooksResult(existing, approvedQuote, booksPayload);
         if (verified !== true) throw new Error("books_order_totals_mismatch");
-        return { booksSalesOrderId: String(existing.salesorder_id), wasExisting: true, requestHash };
+        const creatorSalesOrderId = await verifyCanonicalCreatorLink(
+          ensureCanonicalCreatorSalesOrder, {
+            booksSalesOrderId: String(existing.salesorder_id),
+            booksCustomerId: approvedQuote.booksCustomerId,
+            creatorCustomerId: customerId, reference, cartId
+          }
+        );
+        return { booksSalesOrderId: String(existing.salesorder_id), creatorSalesOrderId, wasExisting: true, requestHash };
       }
       // Re-read/reconcile authoritative customer price, mapping, unit quantity, tax,
       // stock and payment immediately before the only external Books POST. Because no
@@ -158,7 +188,14 @@ export async function submitPilotSalesOrder({
           posted.reference_number !== reference) throw new Error("books_confirmation_mismatch");
       const verified = await verifyBooksResult(posted, approvedQuote, booksPayload);
       if (verified !== true) throw new Error("books_order_totals_mismatch");
-      return { booksSalesOrderId: String(posted.salesorder_id), wasExisting: false, requestHash };
+      const creatorSalesOrderId = await verifyCanonicalCreatorLink(
+        ensureCanonicalCreatorSalesOrder, {
+          booksSalesOrderId: String(posted.salesorder_id),
+          booksCustomerId: approvedQuote.booksCustomerId,
+          creatorCustomerId: customerId, reference, cartId
+        }
+      );
+      return { booksSalesOrderId: String(posted.salesorder_id), creatorSalesOrderId, wasExisting: false, requestHash };
     }
   });
   if (result.action === "duplicate_noop" && result.requestHash !== requestHash) {
