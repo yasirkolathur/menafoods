@@ -12,6 +12,7 @@ function fakeCtx(overrides = {}) {
     calls,
     user: { id: "session-A" },
     channel: "web",
+    flags: { assistantEnabled: true, modelEnabled: true },
     auth: {
       async getAssistantScope() {
         calls.push("scope");
@@ -142,6 +143,9 @@ test("WhatsApp requires an already-verified channel and customer identity", asyn
   ctx.proof = { verifiedSender: true, linkedCustomerId: "customer-B" };
   await denied(assistantHelp(ctx, { text: "find rice" }), "whatsapp_identity_unverified", 403);
   ctx.proof.linkedCustomerId = "customer-A";
+  ctx.proof.signatureVerified = true;
+  ctx.proof.replayChecked = true;
+  ctx.proof.consentConfirmed = true;
   const result = await assistantHelp(ctx, { text: "find rice" });
   assert.equal(result.intent, "product_search");
 });
@@ -168,8 +172,9 @@ test("cheap optional classifier sees redacted text, has no power over actions", 
   const ctx = fakeCtx();
   let request;
   ctx.model = { async classifyIntent(options) { request = options; return { intent: "reorder", price: 1 }; } };
-  const result = await assistantHelp(ctx, { text: "foo@example.com" });
+  const result = await assistantHelp(ctx, { text: "delivery please foo@example.com" });
   assert.equal(result.intent, "reorder");
+  assert.equal(request.text, "delivery");
   assert.ok(!request.text.includes("foo@example.com"));
   assert.equal(request.maxOutputTokens, 24);
   assert.equal(result.order_submitted, false);
@@ -178,7 +183,7 @@ test("classifier error falls back to support without retrying or leaking errors"
   const ctx = fakeCtx();
   let attempts = 0;
   ctx.model = { async classifyIntent() { attempts++; throw new Error("SECRET INTERNAL"); } };
-  const result = await assistantHelp(ctx, { text: "hi" });
+  const result = await assistantHelp(ctx, { text: "delivery please" });
   assert.equal(attempts, 1);
   assert.equal(result.intent, "support");
   assert.ok(!JSON.stringify(result).includes("SECRET"));
