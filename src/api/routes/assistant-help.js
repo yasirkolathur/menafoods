@@ -108,6 +108,8 @@ export async function assistantHelp(ctx, body) {
   }
   if (intent === "unknown") intent = "support"; // safe deterministic fallback
 
+  const mayViewAllBranches = scope.allBranchesAllowed === true &&
+    scope.permissions.includes("assistant.all_branches");
   let products = [], orders = [];
   if (intent === "product_search") {
     if (!ctx.catalog?.searchForCustomer) throw assistantError("assistant_catalog_unavailable", 503);
@@ -120,7 +122,7 @@ export async function assistantHelp(ctx, body) {
     } catch {
       throw assistantError("assistant_catalog_unavailable", 503);
     }
-    products = scopedProducts(rows, scope.customerId, scope.branchId ?? null);
+    products = scopedProducts(rows, scope.customerId, scope.branchId ?? null, mayViewAllBranches);
   }
   if (intent === "order_status") {
     if (!ctx.orders?.listRecentForCustomer) throw assistantError("assistant_orders_unavailable", 503);
@@ -132,7 +134,7 @@ export async function assistantHelp(ctx, body) {
     } catch {
       throw assistantError("assistant_orders_unavailable", 503);
     }
-    orders = scopedOrders(rows, scope.customerId, scope.branchId ?? null);
+    orders = scopedOrders(rows, scope.customerId, scope.branchId ?? null, mayViewAllBranches);
   }
 
   try {
