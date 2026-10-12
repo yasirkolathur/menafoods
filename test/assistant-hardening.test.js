@@ -149,3 +149,30 @@ test("catalog and order backend errors never surface raw provider secrets", asyn
   await expectDenied(assistantHelp(c, { text: "track order" }),
     "assistant_orders_unavailable", 503);
 });
+
+test("records from another outlet require explicit assistant.all_branches permission", async () => {
+  const c = ctx();
+  const row = { customerId: "cust-a", branchId: "outlet-2",
+    itemId: "SKU2", displayName: "Milk" };
+  c.catalog.searchForCustomer = async () => [row];
+  await expectDenied(assistantHelp(c, { text: "find milk" }),
+    "assistant_catalog_scope_invalid", 502);
+  c.auth.getAssistantScope = async () => ({
+    principalId: "user-a", customerId: "cust-a", role: "customer",
+    active: true, allBranchesAllowed: true, permissions: ["assistant.use"]
+  });
+  await expectDenied(assistantHelp(c, { text: "find milk" }),
+    "assistant_catalog_scope_invalid", 502);
+  c.auth.getAssistantScope = async () => ({
+    principalId: "user-a", customerId: "cust-a", role: "customer",
+    active: true, allBranchesAllowed: true,
+    permissions: ["assistant.use", "assistant.all_branches"]
+  });
+  const result = await assistantHelp(c, { text: "find milk" });
+  assert.deepEqual(result.products, [{ itemId: "SKU2", name: "Milk" }]);
+});
+test("unsafe SKU is excluded from assistant output", () => {
+  const rows = scopedProducts([{ customerId: "A", itemId: "X",
+    displayName: "Rice", sku: "<script>alert(1)</script>" }], "A");
+  assert.deepEqual(rows, [{ itemId: "X", name: "Rice" }]);
+});
