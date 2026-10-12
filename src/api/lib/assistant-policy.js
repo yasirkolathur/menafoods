@@ -43,7 +43,7 @@ const MODEL_HINTS = new Set([
 ]);
 export function extractIntentHints(text) {
   if (typeof text !== "string") return "";
-  const tokens = text.normalize("NFKC").toLocaleLowerCase("en").match(/[\\p{L}\\p{N}]+/gu) ?? [];
+  const tokens = text.normalize("NFKC").toLocaleLowerCase("en").match(/[\p{L}\p{N}]+/gu) ?? [];
   return [...new Set(tokens.filter(token => MODEL_HINTS.has(token)))].slice(0, 8).join(" ");
 }
 
