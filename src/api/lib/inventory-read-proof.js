@@ -22,7 +22,7 @@ function safeStockInteger(value) {
   // Zoho can return numeric strings such as "12.00". Empty values are unknown,
   // NOT zero. Do not round fractional kg or use aggregate stock as a substitute.
   const text = typeof value === "number" ? String(value) : value;
-  if (typeof text !== "string" || !/^(0|[1-9][0-9]*)(?:\\.0+)?$/.test(text)) {
+  if (typeof text !== "string" || !/^(0|[1-9][0-9]*)(?:\.0+)?$/.test(text)) {
     deny("warehouse_stock_unverified");
   }
   const quantity = Number(text);
