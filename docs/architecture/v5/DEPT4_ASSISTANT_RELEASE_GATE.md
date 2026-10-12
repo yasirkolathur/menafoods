@@ -48,7 +48,7 @@ CI deterministic cases include: EN and Arabic intent recognition, redaction, pro
 
 ## GO/NO-GO evidence snapshot — 12 Oct 2026
 - Git branch: \`dept4/guarded-ai-assistant-20261012\`; **draft PR**, based on \`feature/batch34-checkout-guard-20261004\`.
-- Code and deterministic test fixtures: checked in. **CI run result pending until verified separately; do not report green without actual logs.**
+- Code and deterministic test fixtures: checked in. **First head `006f0752`: GitHub Actions runs [38244773702](https://github.com/yasirkolathur/menafoods/actions/runs/38244773702) and [38244773745](https://github.com/yasirkolathur/menafoods/actions/runs/38244773745) completed SUCCESS; each reported 70 tests, 70 pass, 0 fail, with syntax checks passed.** These were source-level tests only; all Development/live checks below remain NO-GO. Newer commits require fresh CI verification.
 - Source-of-truth hosted runtime, authenticated Development integration, real order proof, WhatsApp signature, Android/PWA builds, accessibility performance reports, Copilot review: **not evidenced here**.
 - Pilot: **NO-GO**. Production: **NO-GO**. This PR must not trigger a Catalyst deploy or modify Zoho Books.
 
