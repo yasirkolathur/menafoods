@@ -59,6 +59,12 @@ export function verifiedInventoryWarehouseStock({
     String(l?.location_id ?? l?.warehouse_id) === String(warehouseId));
   if (match.length !== 1) deny("warehouse_stock_unverified");
   const stock = match[0];
+  // A location can remain in an item snapshot after it is disabled.
+  // Never approve checkout from explicitly inactive warehouse/location stock.
+  if ((Object.hasOwn(stock, "status") && stock.status !== "active") ||
+      (Object.hasOwn(stock, "is_active") && stock.is_active !== true)) {
+    deny("warehouse_stock_unverified");
+  }
   const qty = Object.hasOwn(stock, "location_available_stock")
     ? stock.location_available_stock
     : stock.warehouse_available_stock;
