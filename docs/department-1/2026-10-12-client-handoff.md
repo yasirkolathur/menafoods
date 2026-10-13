@@ -78,7 +78,7 @@ Changes made **locally to recovered existing client files**:
 ## 2026-10-13 later — v12.5.17 private checkout and unit-pricing isolation
 
 **New staged build** `MENAFoodsCustomer_v12.5.17_DEPT1_CHECKOUT_ISOLATION_TESTED_NOT_DEPLOYED.zip`
-- SHA-256 `98d8ce39b94d9284f9ff2f1fbe1cf0f2874b589d4a1d3bd971a6d829e0a93cc4`.
+- SHA-256 `9bb9ffbabfaa3ed2d15007d3ecc7e6d74c542abe2d73a5916511392af3bc49a2`.
 - Incremental private patch `MENAFoodsCustomer_v12.5.16_to_v12.5.17_DEPT1_PRIVATE.patch`, SHA-256 `abe2b0c29a1e7b0b18230a8e2eb4d282d1feea8a4969a8c8e6b3ddae5440ef56`.
 - Test source archive `MENAFoods_DEPT1_v12.5.17_TESTS.zip`. Artifacts live only in the owner's ChatGPT handoff, **not in this public repository**.
 - Historical baseline remains the private staged 12.5.16, originally from recovered 12.5.13; **not** proven equivalent to the currently deployed Catalyst source.
@@ -98,3 +98,5 @@ Changes made **locally to recovered existing client files**:
 - The above are local regression/static verification only: no authenticated customer browser test, no real cross-business role enforcement proof, no Books Sales Order / financial writes, no live service-worker update, no Catalyst deployment receipt and no GitHub CI green assertion.
 
 **RELEASE: NO-GO.** Do not merge PR #29 or upload the historical archive to Catalyst. Remains blocked by #15 authoritative client source export/current deployment fingerprint, #17 authenticated Development QA, #27 upstream page-context/storefront filtering contract, and #25 RTL/mobile/checkout pilot. User action needed only if Catalyst's owner access is required to expose the current hosted bundle.
+
+**Final checksum clarification (2026-10-13):** Package rebuilt with reproducible fixed ZIP entry timestamps; the final SHA-256 above supersedes the earlier pre-normalization ZIP checksum quoted in comments. File contents and 19/19 test results are unchanged. The QA JSON has the definitive final checksum.
