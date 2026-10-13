@@ -74,3 +74,13 @@ test("reject untracked items and duplicate or absent location stock rows", () =>
     } }
   })), /warehouse_stock_unverified/);
 });
+
+
+test("explicitly inactive item locations cannot authorize checkout stock", () => {
+  for (const marker of [{ status: "inactive" }, { is_active: false }]) {
+    const stockRow = { location_id: "warehouse-1", location_available_stock: "99.00", ...marker };
+    assert.throws(() => verifiedInventoryWarehouseStock(args({
+      itemResponse: { code: 0, item: { ...item(99).item, locations: [stockRow] } }
+    })), /warehouse_stock_unverified/);
+  }
+});
