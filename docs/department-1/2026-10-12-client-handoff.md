@@ -37,3 +37,22 @@ Tracking issue: #25. Source recovery gate: #15. Catalyst Development gate: #17.
 6. Obtain signed CI, Catalyst deployment ID/version, route responses, screenshots and a rollback path before closing #25. Do not claim live without a deployment receipt.
 
 This PR is an **issue-coordination and reproducible static verification handoff**, not a PR that embeds private deployed application source. It is intentionally a draft until #15 establishes source authority.
+
+## 2026-10-13 follow-up — staged 12.5.15, READ-ONLY Development observations
+
+Catalyst connector now confirms an existing web app named `MENAFoodsCustomer` (app ID `17990000000248760`) in the **same** project; app metadata reports last modified **Oct 12, 2026 10:17 AM**. No authoritative current-client source export or package/deploy fingerprint is available from the connector. **Do not overwrite current hosting.**
+
+Read-only Development responses from the existing `/mf-api/mobile/catalog/products` endpoint confirm:
+- `page_start_from=2` repeats response `page_context.page=1`; `page=2` sets context page 2. The 12.5.14 client used the wrong query parameter.
+- One `page=2` read reported an **empty products array** while `has_more_page=true`. This is an upstream pagination discrepancy; Department 3 #27 should investigate server/provider cursor semantics. Frontend search cannot promise all products while that persists.
+- One `page=1` read included an item with `show_in_storefront=false`. The **server** must enforce customer-visible filtering; the 12.5.15 client additionally hides these products as a UI safeguard, not as an authorization control.
+
+**New local staged archive:** `MENAFoodsCustomer_v12.5.15_DEPT1_TESTED_NOT_DEPLOYED.zip`; SHA-256 `59b6d788746818b751b97bbdeb5117def3262979236b82af81a8be5c2ec2d411`. Stored privately in the ChatGPT handoff; **not** in this public repo.
+
+Incremental fixes in the *staged* frontend source (not live): correct `page` pagination; stop and display truthful partial-results warning if a provider page is empty/repeated; hide non-storefront/inactive catalogue items; remove supplier purchase-cost/margin fallbacks from customer unit config and cart; reject mismatched or ambiguous historical reorder variants; recalculate local cart line totals after edits; align JS/HTML/service worker versions and preserve other apps' caches.
+
+**Local evidence:** `node --check` passed for five shipped JavaScript assets; Node's built-in regression suite passed 6/6 tests (page cursor, partial empty page, duplicates, customer unit-cost privacy, exact reorder, version/cache correctness). ZIP CRC/integrity passed; HTML has 211 unique IDs. A separate headless-browser attempt did not produce visual evidence; mobile/desktop visual, RTL and authenticated end-to-end checks are **still pending**. No financial writes or deployment occurred.
+
+The draft PR's verification script now targets the new v12.5.15 bundle, but it is a static checklist, not the executable app source. No claim of CI green until GitHub check status is observed.
+
+Next external dependency remains authoritative hosted client export/diff (#15), Development authenticated and role tests (#17), and the catalogue route discrepancy (#27). 
