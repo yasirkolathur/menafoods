@@ -13,7 +13,7 @@ try {
  const unit=js.slice(js.indexOf('function unitConfigForProduct('),js.indexOf('function unitDisplay('));
  const catalogue=js.slice(js.indexOf('let catalogueFetchStatus='),js.indexOf('async function loadCatalogue('));
  const checks={
-  'source version 12.5.16':v.startsWith('12.5.16')&&js.includes(v)&&html.includes('v=12.5.16')&&sw.includes('v12.5.16'),
+  'source version 12.5.17':v.startsWith('12.5.17')&&js.includes(v)&&html.includes('v=12.5.17')&&sw.includes('v12.5.17'),
   'search and progressive results':js.includes('function catalogMatches(')&&js.includes('catalogPageSize')&&html.includes('id="catalogMoreBtn"'),
   'correct provider page cursor':catalogue.includes('page=${page}')&&!catalogue.includes('page_start_from='),
   'partial catalogue warning':catalogue.includes('catalogueFetchStatus')&&catalogue.includes('has_more_page'),
@@ -34,6 +34,13 @@ try {
   'stale prices fail closed':js.includes('if(scope!==customerScope(state.customer))return null;'),
   'old customer 360 repeat disabled':!js.includes("'/repeat'")&&!js.includes("`/repeat`")&&!js.includes("}/repeat`"),
   'no purchase metadata injected into raw':!js.includes('base_unit_price:rule.base_unit_price')&&!js.includes('default_margin:rule.default_margin'),
+  'unit overlay base snapshot':js.includes('function restoreProductUnitRuleOverlay(p)')&&js.includes('CUSTOMER_UNIT_RULE_FIELDS')&&js.includes('p._mfUnitRuleOriginal='),
+  'account reset removes unit overrides':js.includes('restoreProductUnitRuleOverlay(p);')&&js.includes('state.selectedProduct=null'),
+  'checkout business guard':js.includes('function currentCheckoutScope(scope)')&&js.includes('if(!currentCheckoutScope(scope))return;'),
+  'checkout old receipt cannot clear next business':js.includes("const receipt=await api('/customer/orders'")&&js.includes('if(!currentCheckoutScope(scope))return;'),
+  'order retry reuses idempotency key':js.includes('const requestKey=checkoutIdempotencyKey()')&&js.includes("'Idempotency-Key':requestKey"),
+  'KPI scope guard':js.includes('async function loadAccountKpis()')&&js.includes('if(scope!==customerScope(state.customer))return;'),
+  'service worker version parity':js.includes("register('sw.js?v=12.5.17')"),
   'no private key literals':![js,html,css].some(s=>/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(s)),
  };
  for(const [k,pass] of Object.entries(checks))console.log(`${pass?'PASS':'FAIL'} ${k}`);
