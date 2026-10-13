@@ -74,3 +74,27 @@ Changes made **locally to recovered existing client files**:
 **Verification receipt**: all 5 shipped JS files passed `node --check`. The built-in Node regression suite against recovered functions passed **10/10** (scope guards, data reset, stale pricing/unit-rules/home response, safe reorder, active branch filtering). ZIP CRC passed; **211 unique HTML element IDs with no duplicates**. This is static/unit verification, **not** authenticated Catalyst Development, mobile visual/RTL, exact role permissions, API isolation, verified Books order or CI green. The public PR verifier has been updated to expect v12.5.16. No finance writes, server changes, hosted upload, Production deployment or merge occurred.
 
 **Outstanding:** #15 source authority and secure source diff; #17 authenticated Development browser/portal/outlet/checkout checks; #27 Commerce page-context/visibility discrepancy; issue #25 full mobile/tablet/desktop RTL QA, real customer/cart/order single-writer pilot and release receipt. Keep draft #29 and issue #25 open.
+
+## 2026-10-13 later — v12.5.17 private checkout and unit-pricing isolation
+
+**New staged build** `MENAFoodsCustomer_v12.5.17_DEPT1_CHECKOUT_ISOLATION_TESTED_NOT_DEPLOYED.zip`
+- SHA-256 `98d8ce39b94d9284f9ff2f1fbe1cf0f2874b589d4a1d3bd971a6d829e0a93cc4`.
+- Incremental private patch `MENAFoodsCustomer_v12.5.16_to_v12.5.17_DEPT1_PRIVATE.patch`, SHA-256 `abe2b0c29a1e7b0b18230a8e2eb4d282d1feea8a4969a8c8e6b3ddae5440ef56`.
+- Test source archive `MENAFoods_DEPT1_v12.5.17_TESTS.zip`. Artifacts live only in the owner's ChatGPT handoff, **not in this public repository**.
+- Historical baseline remains the private staged 12.5.16, originally from recovered 12.5.13; **not** proven equivalent to the currently deployed Catalyst source.
+
+**Changes implemented in historical existing customer frontend, without modifying the single Catalyst backend:**
+1. Snapshot per-customer unit-rule overrides before merging into shared product records; restore the original Commerce product price, unit, and unit-related raw attributes whenever businesses change. Reapplying rules no longer compounds values from the previous account.
+2. Block checkout for provisional/unassigned identities without an approved account; verify the same user+business scope after loading the outlet list, after syncing cart, after the protected checkout preview, and after order POST before writing any checkout UI/cart state.
+3. If an order acknowledgement arrives after a business switch, do not clear or replace the *new* business cart. A transport failure leaves the same idempotency key available for reconciliation; server-side exactly-once enforcement remains mandatory.
+4. Prevent a stale wallet/KPI response, old business list, stale branch select, or old unit-rule response from repainting a newly selected account; align service-worker registration query version with the application.
+5. Preserve the existing `/server/mf_zoho_gateway` route and server-authoritative price/stock/tax/credit preview. No new order writer or client authority over purchase cost.
+
+**Actual local verification on extracted source:**
+- `node --check` passed for **5/5** JavaScript assets.
+- `node --test business-scope.test.mjs checkout-unit-regression.test.mjs`: **19/19 passed** (10 preexisting + 9 new scoped checkout / price-rule tests).
+- Extracted ZIP package: **38 archive entries**, ZIP CRC successful; source HTML has **244 element IDs, all unique**. (Earlier docs' 211 count came from a narrower HTML audit; this run counts every literal `id="..."` occurrence.)
+- Changed file paths: `assets/app.js`, `index.html`, `sw.js`, `client-package.json` and a staged release note. GitHub PR contains only documentation and a sanitized static verifier; **no private source code in the public repository**.
+- The above are local regression/static verification only: no authenticated customer browser test, no real cross-business role enforcement proof, no Books Sales Order / financial writes, no live service-worker update, no Catalyst deployment receipt and no GitHub CI green assertion.
+
+**RELEASE: NO-GO.** Do not merge PR #29 or upload the historical archive to Catalyst. Remains blocked by #15 authoritative client source export/current deployment fingerprint, #17 authenticated Development QA, #27 upstream page-context/storefront filtering contract, and #25 RTL/mobile/checkout pilot. User action needed only if Catalyst's owner access is required to expose the current hosted bundle.
