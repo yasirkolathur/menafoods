@@ -13,7 +13,7 @@ try {
  const unit=js.slice(js.indexOf('function unitConfigForProduct('),js.indexOf('function unitDisplay('));
  const catalogue=js.slice(js.indexOf('let catalogueFetchStatus='),js.indexOf('async function loadCatalogue('));
  const checks={
-  'source version 12.5.18':v.startsWith('12.5.18')&&js.includes(v)&&html.includes('v=12.5.18')&&sw.includes('v12.5.18'),
+  'source version 12.5.19':v.startsWith('12.5.19')&&js.includes(v)&&html.includes('v=12.5.19')&&sw.includes('v12.5.19'),
   'search and progressive results':js.includes('function catalogMatches(')&&js.includes('catalogPageSize')&&html.includes('id="catalogMoreBtn"'),
   'correct provider page cursor':catalogue.includes('page=${page}')&&!catalogue.includes('page_start_from='),
   'partial catalogue warning':catalogue.includes('catalogueFetchStatus')&&catalogue.includes('has_more_page'),
@@ -40,7 +40,7 @@ try {
   'checkout old receipt cannot clear next business':js.includes("const receipt=await api('/customer/orders'")&&js.includes('if(!currentCheckoutScope(scope))return;'),
   'order retry reuses idempotency key':js.includes('const requestKey=checkoutIdempotencyKey()')&&js.includes("'Idempotency-Key':requestKey"),
   'KPI scope guard':js.includes('async function loadAccountKpis()')&&js.includes('if(scope!==customerScope(state.customer))return;'),
-  'service worker version parity':js.includes("register('sw.js?v=12.5.18')"),
+  'service worker version parity':js.includes("register('sw.js?v=12.5.19')"),
   'active delivery-outlet gate':js.includes('function verifiedOutletCode(')&&js.includes('filter(b=>outletIsActive(b)&&outletCode(b))'),
   'no inactive outlet selection':js.includes("active&&code?`<button")&&js.includes('Unavailable for checkout'),
   'outlet role controls':js.includes('function canManageOutlets()')&&js.includes('if(!canManageOutlets())return toast('),
@@ -49,6 +49,9 @@ try {
   'failed checkout outlet POST rolls back':js.includes('state.checkout.branch_code=old;sel.value=old;toast(error.message)'),
   'checkout outlet doubletap guard':js.includes('if(sel.disabled)return;')&&js.includes('sel.disabled=true;state.checkout.branch_code=code'),
   'clear delivery details on account switch':js.includes("requested_receiver_mobile:'',substitution_policy:'APPROVAL_REQUIRED'")&&js.includes("sessionStorage.removeItem('mf_resume_checkout')"),
+  'sync receipt distinguishes DRY and LIVE':js.includes('function productUnitCommitLabel(')&&js.includes("return 'UNVERIFIED';")&&js.includes('productUnitCommitLabel(x)')&&!js.includes("esc(x.COMMIT_MODE||x.commit_mode?'LIVE':'DRY')"),
+  'cart stored quantity HTML-safe':js.includes('<b>${esc(i.quantity)}</b>')&&js.includes('× ${esc(i.quantity)}'),
+  'checkout stock amounts HTML-safe':js.includes('${esc(i.available)}/${esc(i.requested)}'),
   'no private key literals':![js,html,css].some(s=>/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(s)),
  };
  for(const [k,pass] of Object.entries(checks))console.log(`${pass?'PASS':'FAIL'} ${k}`);
