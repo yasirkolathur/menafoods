@@ -100,3 +100,25 @@ Changes made **locally to recovered existing client files**:
 **RELEASE: NO-GO.** Do not merge PR #29 or upload the historical archive to Catalyst. Remains blocked by #15 authoritative client source export/current deployment fingerprint, #17 authenticated Development QA, #27 upstream page-context/storefront filtering contract, and #25 RTL/mobile/checkout pilot. User action needed only if Catalyst's owner access is required to expose the current hosted bundle.
 
 **Final checksum clarification (2026-10-13):** Package rebuilt with reproducible fixed ZIP entry timestamps; the final SHA-256 above supersedes the earlier pre-normalization ZIP checksum quoted in comments. File contents and 19/19 test results are unchanged. The QA JSON has the definitive final checksum.
+
+## 2026-10-13 — Department 1 v12.5.18 (private staged outlet isolation; not deployed)
+
+**Source baseline:** `MENAFoodsCustomer_v12.5.17_DEPT1_CHECKOUT_ISOLATION_TESTED_NOT_DEPLOYED.zip`, verified SHA-256 `9bb9ffbabfaa3ed2d15007d3ecc7e6d74c542abe2d73a5916511392af3bc49a2`. This is still the recovered historical private customer client, **not** a verified export of current Catalyst hosting. Same existing Catalyst backend: `menafoodscustomermiddleware` project `17990000000237407`. Frontend changes were made only in the local staged bundle; no live changes.
+
+**Private owner handoff files:**
+- `MENAFoodsCustomer_v12.5.18_DEPT1_OUTLET_SAFETY_TESTED_NOT_DEPLOYED.zip` SHA-256 `296587f5f397ddffde14d46202a3bc06b70eb8ffb4d3beb7a9144f101efca41b`.
+- `MENAFoodsCustomer_v12.5.17_to_v12.5.18_DEPT1_PRIVATE.patch` SHA-256 `3b3173c5555a235b4d11ab73add804fc9d9ed60e1b1f2d49e1938202f6783a18`.
+- `MENAFoods_DEPT1_v12.5.18_TESTS.zip` SHA-256 `68714372e5891cea583f9a43d7ecf21c9342e39635f3e28c9daec454f6772779`.
+- `MENAFoods_DEPT1_v12.5.18_QA.json` contains the checksums, scope, limitations and test details.
+
+**Staged frontend changes:**
+1. Introduced `outletCode`, `outletIsActive`, and `verifiedOutletCode` to select **only ACTIVE** business outlets for checkout; inactive/default/disabled outlet values can never fall through to checkout. `branchOptions` uses the same condition.
+2. Branch list displays inactive outlets for transparency, but disables selection; hides add/edit controls for buyers and other non-manager roles. Only a verified `OWNER` or `ADMIN` may open/submit the outlet editor (additional to existing server authorization).
+3. Outlet save/form records the opening user+account scope and refuses stale form submission. Pending POST responses cannot overwrite branch/checkout state when the user switches businesses; server-side cross-account authorization remains a required independent test.
+4. Checkout dropdown disables itself while the current outlet POST is pending; if the server rejects it, restores both the dropdown and checkout branch code rather than leaving an unconfirmed selection.
+5. Account switch clears checkout receiver name/mobile, customer PO, cost center, payment method, date/window/notes, outlet selectors and prior `mf_resume_checkout` session marker; also closes outlet and invite modals.
+6. Preserved existing Catalyst functions, session/tenant rules, single authoritative server checkout writer, pricing, stock, tax and credit controls. No new backend and no financial writes.
+
+**Verification run on extracted existing frontend:** `node --test business-scope.test.mjs checkout-unit-regression.test.mjs outlet-safety.test.mjs` → **32/32 PASS** (19 existing + 13 new). All **5/5** shipped JavaScript files passed `node --check`, package ZIP CRC PASS, **244 unique literal HTML IDs** and no duplicates, no obvious PEM private-key literals in bundled JS/HTML/JSON/CSS, deterministic ZIP with **39** entries. Reproducible private source diff reports changed `assets/app.js`, `index.html`, `sw.js`, `client-package.json`, and staged note. GitHub PR #29 public branch holds only safe documentation and a static bundle verifier, not the private application.
+
+**Not verified:** current-hosted-source version match/export, authenticated Catalyst Development roles/outlets, Arabic RTL mobile/tablet/desktop visual QA, live Books order idempotency, product pagination/visibility server policy (#27), CI workflow success or any deployment receipt. Frontend role hiding does NOT establish server authorization. Keep **NO-GO** and draft PR #29, track #15/#17/#25/#27.
