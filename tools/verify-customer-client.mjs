@@ -13,7 +13,7 @@ try {
  const unit=js.slice(js.indexOf('function unitConfigForProduct('),js.indexOf('function unitDisplay('));
  const catalogue=js.slice(js.indexOf('let catalogueFetchStatus='),js.indexOf('async function loadCatalogue('));
  const checks={
-  'source version 12.5.15':v.startsWith('12.5.15')&&js.includes(v)&&html.includes('v=12.5.15')&&sw.includes('v12.5.15'),
+  'source version 12.5.16':v.startsWith('12.5.16')&&js.includes(v)&&html.includes('v=12.5.16')&&sw.includes('v12.5.16'),
   'search and progressive results':js.includes('function catalogMatches(')&&js.includes('catalogPageSize')&&html.includes('id="catalogMoreBtn"'),
   'correct provider page cursor':catalogue.includes('page=${page}')&&!catalogue.includes('page_start_from='),
   'partial catalogue warning':catalogue.includes('catalogueFetchStatus')&&catalogue.includes('has_more_page'),
@@ -29,6 +29,11 @@ try {
   'images contained':css.includes('object-fit:contain'),
   'unrelated SW caches preserved':sw.includes("startsWith('menafoods-customer-')"),
   'version gate not bypassed':!html.includes("localStorage.setItem('mf_app_version'"),
+  'scoped account reset':js.includes('function resetScopedCustomerView()')&&js.includes("function customerScope("),
+  'fresh business session after switch':js.includes('await checkSession(true)')&&js.includes('loadBranches(),applyBooksCustomerPrices()'),
+  'stale prices fail closed':js.includes('if(scope!==customerScope(state.customer))return null;'),
+  'old customer 360 repeat disabled':!js.includes("'/repeat'")&&!js.includes("`/repeat`")&&!js.includes("}/repeat`"),
+  'no purchase metadata injected into raw':!js.includes('base_unit_price:rule.base_unit_price')&&!js.includes('default_margin:rule.default_margin'),
   'no private key literals':![js,html,css].some(s=>/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(s)),
  };
  for(const [k,pass] of Object.entries(checks))console.log(`${pass?'PASS':'FAIL'} ${k}`);
