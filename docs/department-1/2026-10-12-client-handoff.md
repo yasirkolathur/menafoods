@@ -56,3 +56,21 @@ Incremental fixes in the *staged* frontend source (not live): correct `page` pag
 The draft PR's verification script now targets the new v12.5.15 bundle, but it is a static checklist, not the executable app source. No claim of CI green until GitHub check status is observed.
 
 Next external dependency remains authoritative hosted client export/diff (#15), Development authenticated and role tests (#17), and the catalogue route discrepancy (#27). 
+
+## 2026-10-13 afternoon — staged v12.5.16 business-account isolation (not deployed)
+
+**Source:** incremental patch against the private staged v12.5.15 frontend, which itself was recovered from v12.5.13 Library source. This remains **unverified against the currently deployed Catalyst client**; current app record was last modified on Oct 12 and source-export access is unavailable through present connector tools. The canonical hosted source must be exported and diffed before applying.
+
+**Private staged ZIP:** `MENAFoodsCustomer_v12.5.16_DEPT1_ISOLATION_TESTED_NOT_DEPLOYED.zip` — SHA-256 `2263ec7933e7709b264a5f9baeef04c2ee719a037d93d30c4e8217678ed8417d`. Patch `MENAFoodsCustomer_v12.5.15_to_v12.5.16_DEPT1_PRIVATE.patch` — SHA-256 `95a4eef3f573b16a8e9bdfa9594922bb5b6ad3300688d7e9bf4d39903a377efa`. Both delivered only through owner chat; **no private client source added to this public GitHub repository**.
+
+Changes made **locally to recovered existing client files**:
+- Added a strict authenticated `user_id:account_id` scope identifier; switching accounts or signing out clears prior business cart, financial KPI panels, old orders, selected outlet, branch list, Customer 360, customer home recommendations, pending checkout quote, portal role cache and existing Books price overlays.
+- Business switch explicitly refreshes authenticated session and resolves account, branches and Books selling-price overlay before claiming success.
+- Stale asynchronous Books pricing, customer home sections, order history, Customer 360, branch and unit-rules responses cannot repaint another account's screen.
+- Removed the alternative Customer 360 `POST /customer/orders/:id/repeat` action; it now calls the same guarded `Buy Again` matching function as the Orders page, which adds matched current-unit lines to the existing cart and never submits checkout automatically.
+- Branch selection now consistently handles case-insensitive ACTIVE statuses; editing cart invalidates stale authoritative checkout preview; avoid copying the legacy `base_unit_price` and `default_margin` data into customer-facing product raw rule overlay.
+- Retained all existing same-origin Catalyst API paths, owner-approved account access, Zoho Books authoritative checkout, role permissions, and single backend.
+
+**Verification receipt**: all 5 shipped JS files passed `node --check`. The built-in Node regression suite against recovered functions passed **10/10** (scope guards, data reset, stale pricing/unit-rules/home response, safe reorder, active branch filtering). ZIP CRC passed; **211 unique HTML element IDs with no duplicates**. This is static/unit verification, **not** authenticated Catalyst Development, mobile visual/RTL, exact role permissions, API isolation, verified Books order or CI green. The public PR verifier has been updated to expect v12.5.16. No finance writes, server changes, hosted upload, Production deployment or merge occurred.
+
+**Outstanding:** #15 source authority and secure source diff; #17 authenticated Development browser/portal/outlet/checkout checks; #27 Commerce page-context/visibility discrepancy; issue #25 full mobile/tablet/desktop RTL QA, real customer/cart/order single-writer pilot and release receipt. Keep draft #29 and issue #25 open.
