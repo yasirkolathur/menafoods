@@ -26,20 +26,45 @@ async function getText(fetcher, route) {
   return response.text();
 }
 
-export async function verifyHosted({ expectedClient, fetcher = fetch } = {}) {
+// Inspect declared local assets without executing scripts or following asset URLs.
+// Intentionally limited to src/href; this is not a browser or full HTML validator.
+export function evaluateAssetRoutes(html) {
+  const page = new URL('/app/index.html', DEVELOPMENT_ORIGIN);
+  const mismatches = [];
+  const refs = [...String(html).matchAll(/\b(?:src|href)\s*=\s*(["'])(.*?)\1/gi)].map(m => m[2]);
+  for (const ref of refs) {
+    let asset;
+    try { asset = new URL(ref, page); } catch { continue; }
+    if (asset.origin === page.origin && asset.pathname.startsWith('/server/mf_zoho_gateway/app/')) {
+      mismatches.push(asset.pathname);
+    }
+  }
+  return { ok: mismatches.length === 0, mismatches: [...new Set(mismatches)] };
+}
+
+export async function verifyHosted({ expectedClient, checkAssetRoutes = false, fetcher = fetch } = {}) {
   const [manifestText, serviceWorker, healthText] = await Promise.all([
     getText(fetcher, '/app/client-package.json'),
     getText(fetcher, '/app/sw.js'),
     getText(fetcher, '/mf-api/health'),
   ]);
-  return evaluateHostedEvidence({ manifest: JSON.parse(manifestText), serviceWorker, health: JSON.parse(healthText), expectedClient });
+  const result = evaluateHostedEvidence({ manifest: JSON.parse(manifestText), serviceWorker, health: JSON.parse(healthText), expectedClient });
+  if (checkAssetRoutes) {
+    result.assetRoutes = evaluateAssetRoutes(await getText(fetcher, '/app/index.html'));
+    if (!result.assetRoutes.ok) {
+      result.errors.push('Hosted /app/ HTML references gateway-served app assets; mixed client versions are possible');
+      result.ok = false;
+    }
+  }
+  return result;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const arg = process.argv.find(a => a.startsWith('--expected-client='));
-  verifyHosted({ expectedClient: arg?.split('=', 2)[1] }).then(result => {
+  verifyHosted({ expectedClient: arg?.split('=', 2)[1], checkAssetRoutes: process.argv.includes('--check-asset-routes') }).then(result => {
     console.log(JSON.stringify(result, null, 2));
     if (!result.ok) process.exitCode = 1;
     else console.log('Read-only version parity PASS; no authenticated flow or deployed-source equivalence verified.');
   }).catch(error => { console.error('FAIL ' + error.message); process.exitCode = 1; });
 }
+
