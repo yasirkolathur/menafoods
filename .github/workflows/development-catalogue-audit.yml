@@ -1,0 +1,22 @@
+name: Development Catalogue Readonly Audit
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Offline deterministic tests
+        run: node --test test/dev-catalogue-contract.test.js
+      - name: Read-only Development public catalogue gate
+        run: node scripts/dev-catalogue-contract.mjs
