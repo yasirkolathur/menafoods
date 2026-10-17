@@ -149,6 +149,7 @@ test('sends only redacted action status to audit', async () => {
 test('product DTO strips cost, price, supplier details and nested private records', () => {
   const publicDto=toPilotPublicProduct({
     id:'FR09',name:'French Fries 9x9',name_ar:'بطاطس',
+    is_active:true,is_storefront:true,
     unit:'CTN',is_available:true,
     image_url:'https://cdn.example.test/p.png',
     price:46,cost:30,supplier_name:'PRIVATE',margin:12,
@@ -163,7 +164,9 @@ test('product DTO strips cost, price, supplier details and nested private record
   assert.equal(Object.isFrozen(publicDto),true);
 });
 test('product DTO rejects malformed input and missing essential fields', () => {
-  for (const obj of [null,[],{id:'a'}, {name:'n'},{id:0,name:'hi'}])
+  for (const obj of [null,[],{id:'a',is_active:true,is_storefront:true},
+    {name:'n',is_active:true,is_storefront:true},
+    {id:0,name:'hi',is_active:true,is_storefront:true}])
     assert.throws(()=>toPilotPublicProduct(obj),{status:502});
 });
 test('product DTO drops unsafe or nested image URLs', () => {
@@ -171,12 +174,27 @@ test('product DTO drops unsafe or nested image URLs', () => {
     'javascript:alert(1)','data:image/svg+xml,test','//untrusted.example/image',
     'https://user@private.example/path',42,{value:'secret'}
   ]) {
-    const dto=toPilotPublicProduct({id:'a',name:'Product',image_url:url});
+    const dto=toPilotPublicProduct({id:'a',name:'Product',image_url:url,
+      is_active:true,is_storefront:true});
     assert.equal('image_url' in dto,false);
   }
 });
 test('product DTO drops inherited fields', () => {
   const inherited=Object.create({name:'bad',secret:'yes'});
   inherited.id='A';
+  inherited.is_active=true;
+  inherited.is_storefront=true;
   assert.throws(()=>toPilotPublicProduct(inherited),{status:502});
+});
+
+test('product DTO denies hidden, inactive or unknown storefront state', () => {
+  for (const flags of [
+    {},{is_active:true},{is_storefront:true},
+    {is_active:false,is_storefront:true},
+    {is_active:true,is_storefront:false},
+    {is_active:'true',is_storefront:true}
+  ]) {
+    assert.throws(() => toPilotPublicProduct({id:'A',name:'Product',...flags}),
+      {status:403,message:'pilot_product_not_public'});
+  }
 });
