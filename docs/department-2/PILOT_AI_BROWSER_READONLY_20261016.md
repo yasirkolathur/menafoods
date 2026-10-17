@@ -1,6 +1,6 @@
 # MENAFoods — Development AI Browser Pilot (read-only)
 
-**Date:** 2026-10-16  
+**Updated:** 2026-10-17  
 **Scope:** Existing `menafoodscustomermiddleware` project, `mf_zoho_gateway`, `MENAFoodsCustomer` only.  
 **State:** Source guard + tests prepared on a draft PR; **NOT connected to the deployed gateway and NOT deployed**.
 
@@ -14,12 +14,13 @@
 ## Phase A — Safe pilot design
 
 1. Validate an authorized pilot email/account owner and ownership of the existing account. If no approved account is available, obtain a unique owner-provided pilot email, then invite it in **Development** only as App User (never App Administrator); require email confirmation. Use existing auth stack, no shadow login.
-2. Add **server-side** pilot membership record after approval with `userId`, `role=PILOT_AI_AGENT`, `status=ACTIVE`, `readOnly=true`, allowed `businessId`, `expiresAt`, `createdBy`. The application role here is a limited membership attached to an authenticated Catalyst App User; no claim that a native Catalyst pilot role already exists.
+2. Add **server-side** pilot membership record after approval with `userId`, `role=PILOT_AI_AGENT`, `status=ACTIVE`, `readOnly=true`, allowed `businessId`, future `expiresAt`, `emailConfirmed=true`, `approvedBy` (Owner identifier). The application role here is a limited membership attached to an authenticated Catalyst App User; no claim that a native Catalyst pilot role already exists.
 3. Restrict DataStore ACLs; no browser-side permission decisions. Backend must obtain trusted membership and verified session from server infrastructure, **not** a client-supplied flag/header.
-4. Call `authorizePilotBrowser` inside the actual recovered gateway **before** dispatching any authenticated pilot action. Pass the immutable project target and parsed route/method/query. Enforce its returned `businessId` on every downstream provider read and strip sensitive fields on response serialization.
-5. Initial allowlist: `GET/HEAD` health, bootstrap, categories, products and one product detail. **Never** allow AI agent to POST/PATCH/DELETE, call admin/finance/wallet/order endpoints, read supplier costs, or run privileged web UI interactions.
-6. Maintain a redacted append-only access log (user identity reference, action, time, route class, outcome, correlation ID) with retention and stop switch, never query content, credentials or raw customer data.
-7. Only broaden permissions later after explicit Owner approval and separate test evidence; the pilot guard is intentionally not an Admin impersonation mechanism.
+4. Call `authorizePilotBrowser` inside the actual recovered gateway **before** dispatching any authenticated pilot action. Pass the immutable project target and parsed route/method/query. Enforce its returned `businessId` on every downstream provider read and call `toPilotPublicProduct` for every product record returned to the pilot. The safe projection deliberately excludes price, cost, margin, supplier details, inventory quantities and customer data until authoritative business/price/privacy checks are verified.
+5. Initial allowlist: `GET/HEAD` health, categories, products and one product detail. **Bootstrap is denied** until its profile/permissions DTO is separately sanitized and authorized. **Never** allow AI agent to POST/PATCH/DELETE, call admin/finance/wallet/order endpoints, read supplier costs, or run privileged web UI interactions.
+6. Allow only validated product search and pagination query keys (`q`, `page`, `page_size`, `limit`, `cursor`, `category`, and a matching `business_id`). Reject duplicates, unfamiliar parameters, excessive length and cross-business scope. Use the server-assigned business identifier for every downstream read, regardless of browser query.
+7. Maintain a redacted append-only access log (user identity reference, action, time, route class, outcome, correlation ID) with retention and stop switch, never query content, credentials or raw customer data.
+8. Only broaden permissions later after explicit Owner approval and separate test evidence; the pilot guard is intentionally not an Admin impersonation mechanism.
 
 ## Phase B — Browser session
 
@@ -32,7 +33,9 @@
 
 ## Unit checks
 
-`npm run check && npm test` (14 pilot access-policy test cases plus existing suite).
+`npm run check && npm test` (the expanded pilot access-policy and product-projection test suite plus existing core tests). Confirm exact case count from GitHub CI.
+
+**Warning:** The guard alone does not sanitize response data; the real gateway must call the safe projection before any pilot-readable product response. It cannot retrofit permissions to a browser session by itself.
 
 The library is **not** integrated into the actual hosted gateway because current deployed source equivalence has not been proven. A green test here must not be interpreted as authenticated end-to-end verification.
 
