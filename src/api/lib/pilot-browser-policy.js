@@ -37,6 +37,11 @@ export function toPilotPublicProduct(product) {
   if (!product || typeof product !== 'object' || Array.isArray(product)) {
     throw reject(502, 'invalid_pilot_product');
   }
+  // Require a *server-normalized* visibility decision backed by authoritative
+  // active/storefront flags. A missing flag is NOT permission to publish.
+  if (product.is_active !== true || product.is_storefront !== true) {
+    throw reject(403, 'pilot_product_not_public');
+  }
   const publicFields = [
     'id', 'name', 'name_ar', 'category_name', 'unit', 'image_url'
   ];
