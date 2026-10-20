@@ -1,22 +1,35 @@
 name: Development Catalogue Readonly Audit
 on:
+  pull_request:
+    paths:
+      - 'scripts/dev-catalogue-contract.mjs'
+      - 'test/dev-catalogue-contract.test.js'
+      - '.github/workflows/development-catalogue-audit.yml'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  audit:
+  offline-contract-tests:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Offline deterministic tests
+      - name: Full-pagination deterministic tests (no network)
         run: node --test test/dev-catalogue-contract.test.js
-      - name: Read-only Development public catalogue gate
+  development-live-audit:
+    if: github.event_name == 'workflow_dispatch'
+    needs: offline-contract-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Bounded anonymous GET audit; no credentials or writes
         run: node scripts/dev-catalogue-contract.mjs
