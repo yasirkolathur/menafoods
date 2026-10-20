@@ -18,10 +18,16 @@ const isHidden=x=>x&&typeof x==='object'&&(
   falseLike(x.show_in_storefront)||falseLike(x.can_process_in_storefront)||
   falseLike(x.is_active)||BAD_STATUSES.has(String(x.status||'').toLowerCase())
 );
-function hasPrivateField(x){
-  if(!x||typeof x!=='object')return false;
-  if(Object.keys(x).some(k=>PRIVATE_FIELDS.has(k.toLowerCase())))return true;
-  return Array.isArray(x.variants)&&x.variants.some(v=>v&&Object.keys(v).some(k=>PRIVATE_FIELDS.has(k.toLowerCase())));
+function hasPrivateField(x,depth=0,visited=new WeakSet()){
+  // Traverse nested public DTOs; never log field values or raw records.
+  if(!x||typeof x!=='object'||visited.has(x))return false;
+  if(depth>8)return true; // fail closed on unexpectedly deep nested data
+  visited.add(x);
+  for(const [name,value] of Object.entries(x)){
+    if(PRIVATE_FIELDS.has(name.toLowerCase()))return true;
+    if(value&&typeof value==='object'&&hasPrivateField(value,depth+1,visited))return true;
+  }
+  return false;
 }
 export function inspectPage(payload,page){
   const problems=[],result=payload?.result,rows=result?.products;
@@ -55,13 +61,15 @@ export function inspectPage(payload,page){
   return {problems,ids,rows:rows.length,hasMore,totalCount};
 }
 /** fetchFn override is only intended for unit tests; runtime URL is fixed. */
-export async function checkDevelopmentCatalogue({fetchFn=globalThis.fetch,maxPages=25,perPage=100,expectedTotalCount=null}={}){
+export async function checkDevelopmentCatalogue({fetchFn=globalThis.fetch,maxPages=25,perPage=100,expectedTotalCount=null,interPageDelayMs=750,sleepFn=ms=>new Promise(resolve=>setTimeout(resolve,ms))}={}){
   if(!Number.isInteger(maxPages)||maxPages<1||maxPages>25||!Number.isInteger(perPage)||perPage<1||perPage>100||
-     (expectedTotalCount!==null&&(!Number.isSafeInteger(expectedTotalCount)||expectedTotalCount<0))){
+     (expectedTotalCount!==null&&(!Number.isSafeInteger(expectedTotalCount)||expectedTotalCount<0))||
+     !Number.isInteger(interPageDelayMs)||interPageDelayMs<0||interPageDelayMs>5000){
     throw new RangeError('bounded read-only audit parameters required');
   }
   const issues=[],seen=new Set();let inspected=0,rows=0,completed=false,reportedTotalCount=null;
   for(let page=1;page<=maxPages;page++){
+    if(page>1&&interPageDelayMs>0)await sleepFn(interPageDelayMs); // respect shared Development API capacity
     const url=new URL('/mf-api/mobile/catalog/products',DEV_ORIGIN);
     url.searchParams.set('page',String(page));
     url.searchParams.set('per_page',String(perPage));
