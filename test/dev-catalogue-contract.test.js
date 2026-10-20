@@ -51,6 +51,7 @@ test('stop after no more pages',async()=>{
 test('audit bounds disallow unbounded scraping',async()=>{
   await assert.rejects(()=>checkDevelopmentCatalogue({maxPages:26}),RangeError);
   await assert.rejects(()=>checkDevelopmentCatalogue({perPage:500}),RangeError);
+  await assert.rejects(()=>checkDevelopmentCatalogue({interPageDelayMs:6000}),RangeError);
 });
 test('HTTP failures return a safe failing report',async()=>{
   const r=await checkDevelopmentCatalogue({fetchFn:async()=>({ok:false,status:502})});
@@ -68,7 +69,7 @@ test('audits all 1,272 products through page 13 and validates the final 72 recor
   });
   let calls=0;
   const base=mockFetch(pages);
-  const r=await checkDevelopmentCatalogue({fetchFn:async(...args)=>{calls++;return base(...args)},expectedTotalCount:1272});
+  const r=await checkDevelopmentCatalogue({fetchFn:async(...args)=>{calls++;return base(...args)},expectedTotalCount:1272,interPageDelayMs:0});
   assert.equal(r.ok,true);assert.equal(r.completed,true);assert.equal(calls,13);
   assert.equal(r.pagesChecked,13);assert.equal(r.uniqueProducts,1272);
   assert.equal(r.rowsChecked,1272);assert.equal(r.reportedTotalCount,1272);
@@ -112,4 +113,25 @@ test('HTTP 429 throttling must not be misreported as a successful audit',async()
   const r=await checkDevelopmentCatalogue({fetchFn:async()=>({ok:false,status:429})});
   assert.equal(r.ok,false);assert.equal(r.completed,false);
   assert.deepEqual(r.issues,['page 1: HTTP 429']);
+});
+
+test('checks cost/privacy fields nested inside catalog metadata and arrays',()=>{
+  const row=item({metadata:{merchant:{pricing:[{cost_price:123}]}}});
+  const r=inspectPage(page(1,[row]),1);
+  assert.match(r.problems.join(' '),/supplier\/purchase-cost fields/);
+});
+test('paces multi-page public requests without retrying or writing',async()=>{
+  const delays=[],urls=[];
+  const source=mockFetch([
+    page(1,[item()],true,2),
+    page(2,[item({product_id:'p2'})],false,2)
+  ]);
+  const r=await checkDevelopmentCatalogue({
+    fetchFn:async(url,opts)=>{urls.push({url,method:opts.method});return source(url,opts)},
+    interPageDelayMs:750,
+    sleepFn:async ms=>{delays.push(ms)}
+  });
+  assert.equal(r.ok,true);assert.deepEqual(delays,[750]);
+  assert.equal(urls.length,2);
+  assert.ok(urls.every(x=>x.method==='GET'));
 });
