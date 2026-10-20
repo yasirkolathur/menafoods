@@ -26,14 +26,24 @@ function hasPrivateField(x){
 export function inspectPage(payload,page){
   const problems=[],result=payload?.result,rows=result?.products;
   if(payload?.ok!==true||!Array.isArray(rows)){
-    return {problems:[`page ${page}: invalid public catalogue response`],ids:[],rows:0,hasMore:false};
+    return {problems:[`page ${page}: invalid public catalogue response`],ids:[],rows:0,hasMore:false,totalCount:null};
   }
   const ctx=result?.page_context;
   if(!ctx||Number(ctx.page)!==page)problems.push(`page ${page}: inconsistent page index`);
   const hasMore=trueLike(ctx?.has_more_page);
+  if(!hasMore&&!falseLike(ctx?.has_more_page))problems.push(`page ${page}: has_more_page missing or invalid`);
+  const rawTotal=result?.total_count??ctx?.total_count??payload?.total_count;
+  const parsedTotal=Number(rawTotal);
+  const totalCount=rawTotal==null||!Number.isSafeInteger(parsedTotal)||parsedTotal<0?null:parsedTotal;
+  if(totalCount===null)problems.push(`page ${page}: total_count missing or invalid`);
   if(hasMore&&rows.length===0)problems.push(`page ${page}: empty page with has_more_page=true`);
   let hidden=0,privateFields=0;
+  const ids=[],localIds=new Set();
   for(const row of rows){
+    const id=String(row?.product_id??row?.item_id??row?.id??'').trim();
+    if(!id)problems.push(`page ${page}: product without a stable ID`);
+    else if(localIds.has(id))problems.push(`page ${page}: duplicate product ID within page`);
+    else{ids.push(id);localIds.add(id)}
     if(isHidden(row)||(Array.isArray(row?.variants)&&row.variants.some(isHidden)))hidden++;
     if(hasPrivateField(row))privateFields++;
   }
@@ -42,14 +52,15 @@ export function inspectPage(payload,page){
   if(payload.partial_catalogue===true||ctx?.pagination_inconsistent===true){
     problems.push(`page ${page}: upstream catalogue explicitly marked partial/inconsistent`);
   }
-  return {problems,ids:rows.map(x=>String(x?.product_id||x?.item_id||x?.id||'')).filter(Boolean),rows:rows.length,hasMore};
+  return {problems,ids,rows:rows.length,hasMore,totalCount};
 }
 /** fetchFn override is only intended for unit tests; runtime URL is fixed. */
-export async function checkDevelopmentCatalogue({fetchFn=globalThis.fetch,maxPages=3,perPage=20}={}){
-  if(!Number.isInteger(maxPages)||maxPages<1||maxPages>10||!Number.isInteger(perPage)||perPage<1||perPage>100){
+export async function checkDevelopmentCatalogue({fetchFn=globalThis.fetch,maxPages=25,perPage=100,expectedTotalCount=null}={}){
+  if(!Number.isInteger(maxPages)||maxPages<1||maxPages>25||!Number.isInteger(perPage)||perPage<1||perPage>100||
+     (expectedTotalCount!==null&&(!Number.isSafeInteger(expectedTotalCount)||expectedTotalCount<0))){
     throw new RangeError('bounded read-only audit parameters required');
   }
-  const issues=[],seen=new Set();let inspected=0,rows=0;
+  const issues=[],seen=new Set();let inspected=0,rows=0,completed=false,reportedTotalCount=null;
   for(let page=1;page<=maxPages;page++){
     const url=new URL('/mf-api/mobile/catalog/products',DEV_ORIGIN);
     url.searchParams.set('page',String(page));
@@ -65,13 +76,25 @@ export async function checkDevelopmentCatalogue({fetchFn=globalThis.fetch,maxPag
     inspected++;
     const inspectedPage=inspectPage(payload,page);
     rows+=inspectedPage.rows;issues.push(...inspectedPage.problems);
+    if(inspectedPage.rows>perPage)issues.push(`page ${page}: more rows than requested per_page`);
+    if(inspectedPage.totalCount!==null){
+      if(reportedTotalCount===null)reportedTotalCount=inspectedPage.totalCount;
+      else if(reportedTotalCount!==inspectedPage.totalCount)issues.push(`page ${page}: total_count changed between pages`);
+    }
     for(const id of inspectedPage.ids){
       if(seen.has(id))issues.push(`page ${page}: repeated product ID across pages`);
       seen.add(id);
     }
-    if(!inspectedPage.hasMore)break;
+    if(!inspectedPage.hasMore){completed=true;break;}
+    if(page===maxPages)issues.push(`page ${page}: audit page limit reached before final page`);
   }
-  return {ok:issues.length===0,pagesChecked:inspected,rowsChecked:rows,issues};
+  if(completed&&reportedTotalCount!==null&&seen.size!==reportedTotalCount){
+    issues.push(`incomplete catalogue: reported total_count ${reportedTotalCount} differs from ${seen.size} unique IDs`);
+  }
+  if(expectedTotalCount!==null&&reportedTotalCount!==expectedTotalCount){
+    issues.push(`expected catalogue count ${expectedTotalCount} not confirmed`);
+  }
+  return {ok:issues.length===0&&completed,pagesChecked:inspected,rowsChecked:rows,uniqueProducts:seen.size,reportedTotalCount,completed,issues};
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
   const result=await checkDevelopmentCatalogue();
