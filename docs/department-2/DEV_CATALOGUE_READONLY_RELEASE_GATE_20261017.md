@@ -28,7 +28,7 @@ There were **no observed supplier-cost fields** in those sampled rows. The respo
 Output contains only page numbers, counts, and problem labels — no product IDs, item names or record bodies.
 
 Commands:
-- Offline deterministic: `node --test test/dev-catalogue-contract.test.js` (21 independent subtests)
+- Offline deterministic: `node --test test/dev-catalogue-contract.test.js` (23 independent subtests)
 - Controlled live read-only audit: `node scripts/dev-catalogue-contract.mjs`
 - GitHub Actions: run **Development Catalogue Readonly Audit** via workflow_dispatch. It will report a **red** job while these provider-facing issues persist, which is deliberate.
 
@@ -54,3 +54,5 @@ Use only the existing authoritative **private** Catalyst gateway source, recover
 **Required next investigation:** Identify whether 429 is an application throttler, platform rate limit, WAF, shared-IP limit or upstream Commerce provider response. Check sanitized request IDs, permitted request rate and any Retry-After; do not bypass or raise customer-facing limits without security review. Independently verify `/mobile/status` 503 and upstream health. Once read-only GETs are stable, run the manual audited complete scan (up to 25 pages, rate-aware) and a separately authorized hidden-detail 404 probe. Validate customer-specific pricing/stock and exactly-one COD Books+Creator order only after authenticated gates pass.
 
 **No Production changes, customer data writes, secrets, merge or function deployment were made by this checker work.** 
+
+**20 Oct follow-up guardrails:** Manual live audit now waits **750 ms between consecutive page GETs** (bounded to 5 seconds via option), never retries a 429 automatically, and inspects nested public DTO metadata/arrays for private supplier/cost keys. The deterministic CI adds coverage for both behavior changes. These source-only checks do not fix the server's actual 429/503 responses and must not be treated as a passed full-catalogue live scan.
