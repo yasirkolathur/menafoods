@@ -125,9 +125,20 @@ export async function commitVerifiedTransaction({expected,deps}) {
   try {
     let existing = await deps.findExisting(expected);
     if (existing) wasExisting = true;
-    else existing = await deps.create(expected); // one approved server-side POST/PUT
+    else existing = await deps.create(expected); // never POST a duplicate
     if (!id(existing?.booksId)) fail("books_write_unconfirmed");
-    const verified = await deps.readBack({type:expected.type,booksId:existing.booksId});
+    let verified = await deps.readBack({type:expected.type,booksId:existing.booksId});
+    if (wasExisting && (!matched(expected,verified) ||
+        id(verified?.booksId)!==id(existing.booksId))) {
+      // Existing bills must NEVER be overwritten by this workflow.
+      // An existing sales order update needs its known canonical Books ID and
+      // explicit server-side authorization, then a fresh authoritative GET.
+      if (expected.type!=="sales_order" || expected.updateExisting!==true ||
+          id(expected.existingBooksId)!==id(existing.booksId) ||
+          typeof deps.update!=="function") fail("books_existing_conflict");
+      await deps.update({booksId:id(existing.booksId),expected});
+      verified = await deps.readBack({type:expected.type,booksId:existing.booksId});
+    }
     if (id(verified?.booksId)!==id(existing.booksId) || !matched(expected,verified))
       fail("books_reconciliation_mismatch");
     await deps.complete(key,{status:"BOOKS_VERIFIED",booksId:id(existing.booksId)});
