@@ -102,3 +102,23 @@ test("unauthorized request fails before claim",async()=> {
  await assert.rejects(commitVerifiedTransaction({expected,deps:d}),/unauthorized_transaction/);
  assert.deepEqual(d.calls,["auth"]);
 });
+
+test("existing supplier bill with mismatched contents never overwritten",async()=> {
+ const d=deps();d.findExisting=async()=>{d.calls.push("lookup");return {booksId:"bill1"};};
+ d.readBack=async()=>{d.calls.push("read");return {...receipt,totalHalalas:9999};};
+ d.update=async()=>{d.calls.push("update");};
+ await assert.rejects(commitVerifiedTransaction({expected,deps:d}),/books_existing_conflict/);
+ assert.ok(!d.calls.includes("write"));assert.ok(!d.calls.includes("update"));
+});
+test("canonical existing sales order gets one guarded PUT, never a new POST",async()=> {
+ const order={...expected,type:"sales_order",updateExisting:true,existingBooksId:"so1"};
+ const verified={...receipt,booksId:"so1"};let reads=0;
+ const d=deps();d.findExisting=async()=>{d.calls.push("lookup");return {booksId:"so1"};};
+ d.readBack=async()=>{d.calls.push("read");return ++reads===1 ? {...verified,totalHalalas:9999} : verified;};
+ d.update=async()=>{d.calls.push("update");return {booksId:"so1"};};
+ const result=await commitVerifiedTransaction({expected:order,deps:d});
+ assert.equal(result.booksId,"so1");assert.equal(result.wasExisting,true);
+ assert.equal(d.calls.filter(x=>x==="update").length,1);
+ assert.equal(d.calls.filter(x=>x==="read").length,2);
+ assert.ok(!d.calls.includes("write"));
+});
