@@ -20,6 +20,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
       - name: Run sync core tests
         run: node --test integrations/catalogue-sync/catalog-sync-core.test.mjs integrations/catalogue-sync/catalyst-sync-adapter.test.cjs integrations/catalogue-sync/catalogue-sync-worker.test.cjs
