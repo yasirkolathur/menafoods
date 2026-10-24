@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: '22'
       - name: Run sync core tests
-        run: node --test integrations/catalogue-sync/catalog-sync-core.test.mjs integrations/catalogue-sync/catalyst-sync-adapter.test.cjs
+        run: node --test integrations/catalogue-sync/catalog-sync-core.test.mjs integrations/catalogue-sync/catalyst-sync-adapter.test.cjs integrations/catalogue-sync/catalogue-sync-worker.test.cjs
