@@ -23,3 +23,23 @@ One Process action after an invoice photo/order: Received → Matched → Priced
 - Never mark live or deploy Production without separate approval. Previously exposed credentials need controlled rotation as a separate security activity.
 
 API minimization is an objective, not permission to omit required accounting and fraud checks. Track real upstream API calls per transaction, avoid catalogue scans, use exact cached ID mappings and bounded retry only for safe reads.
+
+## 24 October 2026 — isolated CASH pilot *preview-only* gate
+
+A **read-only, pure** policy helper `src/api/lib/cash-pilot-preflight.js` was added, with deterministic cases in `test/cash-pilot-preflight.test.js`. This is a transaction *preflight* guard, not an installed route and not proof of a successful Books SO.
+
+The existing Development Test-company Golden Phoenix fries candidate has a sensible public Commerce / Creator price and positive Commerce stock, but still fails the **real** release criteria until all of these are proven from scoped, authenticated authoritative reads:
+
+1. Confirmed Catalyst session and exact Test-company business membership. Do not infer an OWNER/BUYER role from a client flag or grant privileges to an unconfirmed account.
+2. Exact Books customer linking across Catalyst BUSINESS_ACCOUNT, the Creator customer, and Books contact; no cross-business mapping drift.
+3. Identical, non-empty price-list IDs across Catalyst, Creator and an authoritative **Books effective customer-specific price** for that item. Never substitute the public Commerce price for Books pricing or overwrite mismatched records automatically.
+4. Verified active/storefront item and **primary-unit** quantity. The separate CTN→KG rule remains blocked; do not infer conversion from the UI.
+5. Recent exact **Zoho Inventory** item+warehouse+stock-unit read (within 5 minutes), with sufficient nonnegative available quantity; no Commerce aggregate quantity substitutes for this.
+6. Authenticated Books tax verification: SAR, price tax-exclusive, 15% VAT for this identified test item; safe integer halala totals.
+7. Explicit Development CASH policy (checkout `ENFORCE`, credit `OBSERVE`); no CREDIT or unverified prepaid pilot.
+
+The helper returns only `BLOCKED` with fixed generic reason codes or `PREVIEW_VERIFIED` with a tax-exclusive SAR quote. It ALWAYS returns `postAllowed:false`; it has no API calls, secret access, Books POST, Creator write or allowlist mutation. Server adapters must independently enforce all evidence-source/trust constraints.
+
+**Production / financial pilot: still NO-GO.** This code is source-only in draft PR #35. Controlled owner-approved Books SO testing still requires an authenticated preview with redacted evidence, review of the mismatched customer price list, proof of the configured Inventory warehouse quantity, gateway integration/source equivalence, separate authorized release allowlist, atomic idempotency and canonical Creator reconciliation.
+
+No real customer identifiers or prices were committed as test fixtures; tests use synthetic data.
