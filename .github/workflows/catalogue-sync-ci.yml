@@ -1,0 +1,25 @@
+name: Catalogue sync core (safe tests)
+on:
+  pull_request:
+    paths:
+      - 'integrations/catalogue-sync/**'
+      - '.github/workflows/catalogue-sync-ci.yml'
+  push:
+    branches:
+      - catalogue-sync-contract-20261024
+    paths:
+      - 'integrations/catalogue-sync/**'
+      - '.github/workflows/catalogue-sync-ci.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run sync core tests
+        run: node --test integrations/catalogue-sync/catalog-sync-core.test.mjs
