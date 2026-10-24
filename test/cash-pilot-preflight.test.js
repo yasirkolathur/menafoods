@@ -101,3 +101,11 @@ test('missing all evidence objects returns BLOCKED without crashing',()=>{
   assert.equal(r.status,'BLOCKED');assert.equal(r.postAllowed,false);
   assert.ok(r.failures.length>=5);
 });
+
+test('large quantities cannot overflow a supposedly verified financial quote',()=>{
+  const r=check(x=>{
+    x.order.quantity=9_000_000_000_000;
+    x.inventory.availableQuantity=9_000_000_000_000;
+  });
+  fail(r,'QUOTE_AMOUNT_UNSAFE');
+});
