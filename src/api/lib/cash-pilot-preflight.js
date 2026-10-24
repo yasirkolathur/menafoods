@@ -68,14 +68,19 @@ export function assessCashPilotPreflight({
     policy?.creditMode!=='OBSERVE',
     'PILOT_PAYMENT_POLICY_UNVERIFIED');
 
+  const subtotal=booksPrice?.unitPriceHalalas*order?.quantity;
+  const vat=Number.isSafeInteger(subtotal)?Math.round(subtotal*0.15):NaN;
+  block(!Number.isSafeInteger(subtotal)||subtotal<=0||
+    !Number.isSafeInteger(vat)||!Number.isSafeInteger(subtotal+vat),
+    'QUOTE_AMOUNT_UNSAFE');
   const unique=frozen([...new Set(failures)]);
   const quote=unique.length===0?frozen({
     unit:order.unit,
     quantity:order.quantity,
     unitPriceHalalas:booksPrice.unitPriceHalalas,
-    subtotalHalalas:booksPrice.unitPriceHalalas*order.quantity,
-    vatHalalas:Math.round(booksPrice.unitPriceHalalas*order.quantity*0.15),
-    totalHalalas:Math.round(booksPrice.unitPriceHalalas*order.quantity*1.15)
+    subtotalHalalas:subtotal,
+    vatHalalas:vat,
+    totalHalalas:subtotal+vat
   }):null;
   return frozen({
     status:unique.length?'BLOCKED':'PREVIEW_VERIFIED',
