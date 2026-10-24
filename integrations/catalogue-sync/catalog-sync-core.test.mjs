@@ -34,7 +34,7 @@ test("public serializer never exposes costs, supplier, profit or unapproved imag
   assert.equal(JSON.stringify(result).includes("private"), false);
   assert.equal(serializePublicProduct({ ...p, fields: { ...p.fields, published: false } }), null);
 });
-test("atomic outbox queues three destinations only once", async () => {
+test("atomic outbox queues native-aware destinations only once", async () => {
   const seen = new Set(), jobs = [];
   let current;
   const store = { transaction: async fn => fn({
@@ -44,12 +44,19 @@ test("atomic outbox queues three destinations only once", async () => {
     enqueueOutbox: async row => jobs.push(row),
     markEventSeen: async key => seen.add(key)
   }) };
-  const opts = { store, authenticate: async () => undefined };
+  const opts = { store, authenticate: async () => undefined, nativeFinanceSyncVerified: true };
   assert.equal((await ingestProductEvent(base, opts)).result, "queued");
   assert.equal((await ingestProductEvent(base, opts)).result, "already_processed");
-  assert.deepEqual(jobs.map(j => j.destination), ["creator", "commerce", "catalyst"]);
+  assert.deepEqual(jobs.map(j => j.destination), ["creator", "catalyst"]);
   assert.equal(current.revision, 1);
   await assert.rejects(() => ingestProductEvent({ ...base, eventId: "change-102" }, opts), /Revision conflict/);
   await assert.rejects(() => ingestProductEvent({ ...base, eventId: "change-103",
     expectedRevision: 1, ids: { books: "changed" } }, opts), /collision/);
+});
+
+test("native finance sync must be verified before enqueuing mutations", async () => {
+  await assert.rejects(
+    () => ingestProductEvent(base, { authenticate: async () => {}, store: { transaction: async () => {} } }),
+    /Finance native synchronization/
+  );
 });
