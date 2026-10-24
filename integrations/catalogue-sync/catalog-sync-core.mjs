@@ -104,7 +104,11 @@ export function eventFingerprint(event) {
  * `authenticate` verifies tenant, signed source webhook, role and authorized fields
  * BEFORE invoking this function. No network calls belong inside this transaction.
  */
-export async function ingestProductEvent(rawEvent, { store, authenticate }) {
+export async function ingestProductEvent(rawEvent, { store, authenticate, nativeFinanceSyncVerified = false }) {
+  // Books, Inventory and Commerce form one native finance cluster. Never
+  // independently write to both Books and Commerce unless reconciliation has
+  // proven that the native integration is disabled.
+  if (!nativeFinanceSyncVerified) throw new Error("Finance native synchronization must be verified before writes");
   if (typeof authenticate !== "function") throw new Error("Authentication adapter required");
   await authenticate(rawEvent);
   const event = assertProductEvent(rawEvent);
@@ -124,13 +128,16 @@ export async function ingestProductEvent(rawEvent, { store, authenticate }) {
       revision, fields: { ...(existing?.fields || {}), ...event.fields }
     });
     // Origin preserved through all outbound requests, suppressing webhook loops.
-    for (const destination of SYSTEMS.filter(s => s !== event.origin)) {
+    const destinations = event.origin === "creator" ? ["books", "catalyst"]
+      : (event.origin === "books" || event.origin === "commerce") ? ["creator", "catalyst"]
+      : ["creator", "books"];
+    for (const destination of destinations) {
       await tx.enqueueOutbox({ eventKey, tenantId: event.tenantId,
         productId: saved.publicId, destination, revision,
         origin: event.origin, rootEventId: event.rootEventId || event.eventId,
         idempotencyKey: eventKey + ":" + destination });
     }
     await tx.markEventSeen(eventKey);
-    return { result: "queued", revision, productId: saved.publicId, destinations: 3 };
+    return { result: "queued", revision, productId: saved.publicId, destinations: destinations.length };
   });
 }
