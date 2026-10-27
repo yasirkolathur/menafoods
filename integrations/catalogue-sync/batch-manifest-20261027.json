@@ -1960,7 +1960,10 @@
         "4278439000004928039",
         "4278439000004928064"
       ],
-      "completed": false
+      "completed": true,
+      "status": "completed",
+      "verifiedMetadataChanges": 3,
+      "checkpoint": "integrations/catalogue-sync/batches/batch-17-20261028.json"
     },
     {
       "batch": 18,
