@@ -81,13 +81,20 @@ export function quoteLine({costSar,marginSar,quantity,unit,purchaseUnit,
     fail("invalid_quantity");
   if (vatRate !== 0 && vatRate !== 0.15) fail("unsupported_vat_rate");
   const cost = cents(costSar), margin = cents(marginSar);
-  const subtotalHalalas = Math.round((cost+margin)*quantity);
+  const unitPriceHalalas = cost+margin;
+  const subtotalHalalas = Math.round(unitPriceHalalas*quantity);
   const vatHalalas = Math.round(subtotalHalalas*vatRate);
   const grossProfitHalalas = Math.round(margin*quantity);
   const contributionHalalas = grossProfitHalalas-cents(feeSar);
+  const totalHalalas = subtotalHalalas+vatHalalas;
+  // Halala arithmetic must remain exact at every stage. JavaScript doubles
+  // cannot safely represent larger totals even when individual prices are valid.
+  if (![unitPriceHalalas,subtotalHalalas,vatHalalas,grossProfitHalalas,
+    contributionHalalas,totalHalalas].every(Number.isSafeInteger))
+    fail("invalid_money");
   if (contributionHalalas<cents(minimumContributionSar)) fail("contribution_below_floor");
-  return Object.freeze({unit,quantity,unitPriceHalalas:cost+margin,subtotalHalalas,
-    vatHalalas,totalHalalas:subtotalHalalas+vatHalalas,grossProfitHalalas,contributionHalalas});
+  return Object.freeze({unit,quantity,unitPriceHalalas,subtotalHalalas,
+    vatHalalas,totalHalalas,grossProfitHalalas,contributionHalalas});
 }
 const canonicalLines = rows => rows.map(r=>[
   id(r.itemId),String(r.quantity),normalizedName(r.unit),
