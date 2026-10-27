@@ -118,7 +118,10 @@
         "4278439000000102960",
         "4278439000000102964"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "verifiedMetadataChanges": 72,
+      "checkpoint": "integrations/catalogue-sync/batches/batch-01-20261027.json"
     },
     {
       "batch": 2,
