@@ -1,0 +1,442 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "auditedAt": "2026-10-28",
+  "batch": 17,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "creatorIdRange": [
+    "4278439000004192011",
+    "4278439000004928064"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000004192011",
+    "4278439000004233011",
+    "4278439000004235031",
+    "4278439000004237007",
+    "4278439000004243011",
+    "4278439000004262019",
+    "4278439000004277015",
+    "4278439000004283011",
+    "4278439000004291027",
+    "4278439000004297015",
+    "4278439000004319019",
+    "4278439000004320015",
+    "4278439000004320044",
+    "4278439000004323011",
+    "4278439000004330007",
+    "4278439000004333015",
+    "4278439000004334015",
+    "4278439000004336023",
+    "4278439000004344007",
+    "4278439000004346023",
+    "4278439000004347011",
+    "4278439000004367053",
+    "4278439000004367082",
+    "4278439000004397011",
+    "4278439000004401007",
+    "4278439000004410149",
+    "4278439000004412035",
+    "4278439000004420043",
+    "4278439000004423007",
+    "4278439000004426007",
+    "4278439000004427007",
+    "4278439000004428011",
+    "4278439000004429007",
+    "4278439000004440019",
+    "4278439000004453011",
+    "4278439000004462007",
+    "4278439000004474007",
+    "4278439000004475011",
+    "4278439000004475036",
+    "4278439000004476007",
+    "4278439000004477007",
+    "4278439000004477036",
+    "4278439000004478007",
+    "4278439000004478032",
+    "4278439000004479007",
+    "4278439000004479032",
+    "4278439000004480007",
+    "4278439000004481007",
+    "4278439000004482011",
+    "4278439000004482036",
+    "4278439000004484007",
+    "4278439000004485007",
+    "4278439000004486007",
+    "4278439000004507015",
+    "4278439000004507044",
+    "4278439000004508007",
+    "4278439000004518023",
+    "4278439000004523015",
+    "4278439000004523044",
+    "4278439000004524007",
+    "4278439000004526043",
+    "4278439000004526084",
+    "4278439000004550011",
+    "4278439000004573013",
+    "4278439000004600015",
+    "4278439000004620051",
+    "4278439000004690027",
+    "4278439000004693033",
+    "4278439000004708007",
+    "4278439000004726011",
+    "4278439000004726052",
+    "4278439000004728007",
+    "4278439000004761007",
+    "4278439000004764011",
+    "4278439000004769027",
+    "4278439000004778019",
+    "4278439000004787007",
+    "4278439000004808111",
+    "4278439000004821045",
+    "4278439000004832040",
+    "4278439000004842011",
+    "4278439000004872019",
+    "4278439000004895011",
+    "4278439000004896015",
+    "4278439000004897007",
+    "4278439000004897032",
+    "4278439000004898007",
+    "4278439000004899011",
+    "4278439000004899036",
+    "4278439000004900007",
+    "4278439000004900032",
+    "4278439000004900057",
+    "4278439000004901007",
+    "4278439000004902011",
+    "4278439000004902036",
+    "4278439000004903011",
+    "4278439000004903036",
+    "4278439000004904007",
+    "4278439000004905007",
+    "4278439000004905032",
+    "4278439000004906011",
+    "4278439000004906036",
+    "4278439000004907007",
+    "4278439000004908007",
+    "4278439000004928039",
+    "4278439000004928064"
+  ],
+  "verification": "Fresh compact ID range read matched frozen manifest exactly 106/106, no omissions/extras/duplicate Creator IDs. Three exact-ID pre-edit checks, updates with form workflow skipped, three exact-ID post-edit readbacks, and a fresh compact range re-read confirmed persisted brand changes.",
+  "counts": {
+    "storefrontVisible": 95,
+    "missingSKU": 0,
+    "missingUnit": 0,
+    "missingBrand": 32,
+    "missingBooksMapping": 0,
+    "missingArabic": 0,
+    "missingImages": 1,
+    "zeroOrMissingSellingPrice": 1,
+    "visibleMissingSKU": 0,
+    "visibleMissingUnit": 0,
+    "visibleMissingBrand": 25,
+    "visibleMissingBooksMapping": 0,
+    "visibleMissingArabic": 0,
+    "visibleMissingImages": 0,
+    "visibleZeroOrMissingSellingPrice": 0
+  },
+  "verifiedFieldsChanged": 3,
+  "changes": [
+    {
+      "creatorId": "4278439000004479032",
+      "SKU": "SKU-3161",
+      "productName": "Vinegar Datu Puti 1ltr x 12 bottles - Carton",
+      "field": "Brand",
+      "before": "",
+      "after": "Datu Puti",
+      "readBackVerified": true,
+      "manufacturer": "https://nutriasia.com/products/datu-puti-vinegar-1l/",
+      "exactPackCorroboration": "https://carton.sa/public/en/product-detail/economic-food-trading/datu-puti-vinegar-121-ltr"
+    },
+    {
+      "creatorId": "4278439000004906011",
+      "SKU": "SKU-3213",
+      "productName": "Soy Sauce Datu Puti 1l x 12 - Carton",
+      "field": "Brand",
+      "before": "",
+      "after": "Datu Puti",
+      "readBackVerified": true,
+      "manufacturer": "https://nutriasia.com/products/datu-puti-soy-sauce-1l/datu-puti-soy-sauce-1-l/",
+      "exactPackCorroboration": "https://corinthiandistributors.com/product/datu-puti-soy-sauce/"
+    },
+    {
+      "creatorId": "4278439000004899036",
+      "SKU": "SKU-3200",
+      "productName": "555 Sardine Red 155g x 50 Cans - Carton",
+      "field": "Brand",
+      "before": "",
+      "after": "555",
+      "readBackVerified": true,
+      "manufacturer": "https://www.centurypacific.com.ph/brands/555-2/",
+      "exactPackCorroboration": "https://afodltd.com/wp-content/uploads/2024/02/masterlist-2024-02-22.pdf"
+    }
+  ],
+  "sourceLinks": [
+    "https://nutriasia.com/products/datu-puti-vinegar-1l/",
+    "https://carton.sa/public/en/product-detail/economic-food-trading/datu-puti-vinegar-121-ltr",
+    "https://nutriasia.com/products/datu-puti-soy-sauce-1l/datu-puti-soy-sauce-1-l/",
+    "https://corinthiandistributors.com/product/datu-puti-soy-sauce/",
+    "https://www.centurypacific.com.ph/brands/555-2/",
+    "https://afodltd.com/wp-content/uploads/2024/02/masterlist-2024-02-22.pdf"
+  ],
+  "exceptionIds": {
+    "missingSKU": [],
+    "missingUnit": [],
+    "missingBrand": [
+      {
+        "creatorId": "4278439000004277015",
+        "sku": "SKU-3120",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004476007",
+        "sku": "SKU-3152",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004484007",
+        "sku": "SKU-3158",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004486007",
+        "sku": "SKU-3166",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004842011",
+        "sku": "SKU-3193",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004895011",
+        "sku": "SKU-3196",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004726011",
+        "sku": "SKU-3183",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004832040",
+        "sku": "SKU-3194",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004787007",
+        "sku": "SKU-3190",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004897032",
+        "sku": "SKU-3206",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004235031",
+        "sku": "SKU-3116",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004708007",
+        "sku": "SKU-3182",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004401007",
+        "sku": "SKU-3138",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004320015",
+        "sku": "SKU-3124",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004462007",
+        "sku": "SKU-3149",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004769027",
+        "sku": "SKU-3188",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004518023",
+        "sku": "SKU-3170",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004690027",
+        "sku": "SKU-3180",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004508007",
+        "sku": "SKU-3167",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004237007",
+        "sku": "SKU-3115",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004192011",
+        "sku": "SKU-3113",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004764011",
+        "sku": "SKU-3187",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004480007",
+        "sku": "SKU-3156",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004482011",
+        "sku": "SKU-3160",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004347011",
+        "sku": "SKU-3134",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004323011",
+        "sku": "SKU-3125",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004928039",
+        "sku": "SKU-3222",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000004726052",
+        "sku": "SKU-3185",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004928064",
+        "sku": "SKU-3225",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004526043",
+        "sku": "SKU-3174",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004427007",
+        "sku": "SKU-3144",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000004526084",
+        "sku": "SKU-3175",
+        "visible": true
+      }
+    ],
+    "missingBooksMapping": [],
+    "missingArabic": [],
+    "missingImages": [
+      {
+        "creatorId": "4278439000004761007",
+        "sku": "SKU-3186",
+        "visible": false
+      }
+    ],
+    "zeroOrMissingSellingPrice": [
+      {
+        "creatorId": "4278439000004320015",
+        "sku": "SKU-3124",
+        "visible": false
+      }
+    ]
+  },
+  "duplicateNonblankSKUsWithinBatch": [],
+  "duplicateNonblankBooksIdsWithinBatch": [],
+  "unresolvedIssues": [
+    {
+      "key": "CATALOG-BRAND-017",
+      "severity": "P2",
+      "detail": "32 Creator Brand values remain blank (25 marked storefront-visible). No inference from item names without product-specific evidence."
+    },
+    {
+      "key": "CATALOG-IMAGE-RIGHTS-017",
+      "severity": "P2",
+      "detail": "One hidden product SKU-3186 Honey Atlas 21kg has no Product_Images records; no image staged or published."
+    },
+    {
+      "key": "CATALOG-ZERO-PRICE-017",
+      "severity": "P2",
+      "detail": "One hidden product SKU-3124 Frozen Whole chicken GT 1100g x10 has zero/missing selling price. No financial fields changed."
+    },
+    {
+      "key": "CATALOG-UNIT-SEMANTICS-017",
+      "severity": "P1",
+      "detail": "Some packaged goods use Unit rpt/box rather than explicit CTN/PCS conversion (e.g. SKU-3120 pizza boxes 50 pieces, SKU-3138 flour 1kg x10). Verify native unit mapping before checkout; no unit changes."
+    },
+    {
+      "key": "CATALOG-PACK-CLAIMS-017",
+      "severity": "P2",
+      "detail": "SKU-3121 Rosanna Whole Peeled Tomato description says 2.5 gm x6 (likely unit typo but unverified). SKU-3158 Magic Sarap 12 x 8g x60 carton requires exact pack corroboration. No packaging or descriptions changed."
+    },
+    {
+      "key": "CHECKOUT-PREVIEW-027",
+      "severity": "P0",
+      "detail": "Authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer-specific price/private-cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout lack verified end-to-end receipts. NO-GO; no orders created."
+    },
+    {
+      "key": "CATALOG-SYNC-SAFETY-036",
+      "severity": "P0",
+      "detail": "Existing duplicate-active/cross-batch mapping holds preserved; native Books–Inventory–Commerce sync, deployed Catalyst gateway source+rollback, signed webhook authentication and end-to-end ACK not verified. No cross-system writes enabled."
+    }
+  ],
+  "issueCategoryCount": 7,
+  "crossSystemSync": {
+    "enabledByThisRun": false,
+    "registryOutboxWrites": 0,
+    "knownCollisionHoldsPreserved": true,
+    "nativeSyncVerified": false,
+    "gatewaySourceRollbackVerified": false,
+    "webhookAuthVerified": false,
+    "endToEndAckVerified": false
+  },
+  "customerCatalogCheckoutQA": {
+    "status": "NO-GO",
+    "authenticatedAcceptanceEvidence": false,
+    "checks": [
+      "EN/AR RTL",
+      "product visibility and image rights",
+      "CTN/PCS/KG conversions",
+      "customer price vs private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ],
+    "financialOrdersCreated": 0
+  },
+  "apiCallsObservedInRun": {
+    "creatorGetApplications": 1,
+    "creatorReportMetadata": 1,
+    "creatorCompactRangeReads": 3,
+    "creatorExactRecordReads": 6,
+    "creatorWrites": 3,
+    "githubCalls": "Tracked manually; API billing units unavailable",
+    "note": "These are connector invocations, not billable Zoho API units."
+  },
+  "nextBatch": 18
+}
