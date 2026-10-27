@@ -235,7 +235,9 @@
         "4278439000000103446",
         "4278439000000103450"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-02-20261027.json"
     },
     {
       "batch": 3,
@@ -348,7 +350,9 @@
         "4278439000000104012",
         "4278439000000104016"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-03-20261027.json"
     },
     {
       "batch": 4,
@@ -461,7 +465,9 @@
         "4278439000000104694",
         "4278439000000104698"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-04-20261027.json"
     },
     {
       "batch": 5,
@@ -574,7 +580,9 @@
         "4278439000000105228",
         "4278439000000105234"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-05-20261027.json"
     },
     {
       "batch": 6,
@@ -687,7 +695,9 @@
         "4278439000000106414",
         "4278439000000106422"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-06-20261027.json"
     },
     {
       "batch": 7,
@@ -800,7 +810,9 @@
         "4278439000001132007",
         "4278439000001139007"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-07-20261027.json"
     },
     {
       "batch": 8,
@@ -913,7 +925,9 @@
         "4278439000001599011",
         "4278439000001600011"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-08-20261027.json"
     },
     {
       "batch": 9,
@@ -1026,7 +1040,9 @@
         "4278439000001864143",
         "4278439000001864147"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-09-20261027.json"
     },
     {
       "batch": 10,
@@ -1139,7 +1155,9 @@
         "4278439000002108007",
         "4278439000002120011"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-10-20261027.json"
     },
     {
       "batch": 11,
@@ -1252,7 +1270,9 @@
         "4278439000002489119",
         "4278439000002489123"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-11-20261027.json"
     },
     {
       "batch": 12,
@@ -1365,7 +1385,9 @@
         "4278439000002489543",
         "4278439000002489547"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-12-20261027.json"
     },
     {
       "batch": 13,
@@ -1478,7 +1500,9 @@
         "4278439000002625011",
         "4278439000002626007"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-13-20261027.json"
     },
     {
       "batch": 14,
@@ -1591,7 +1615,9 @@
         "4278439000002827015",
         "4278439000002829011"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-14-20261027.json"
     },
     {
       "batch": 15,
@@ -1704,7 +1730,9 @@
         "4278439000003557007",
         "4278439000003559007"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-15-20261028.json"
     },
     {
       "batch": 16,
@@ -1817,7 +1845,9 @@
         "4278439000004165029",
         "4278439000004191011"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "checkpoint": "integrations/catalogue-sync/batches/batch-16-20261028.json"
     },
     {
       "batch": 17,
