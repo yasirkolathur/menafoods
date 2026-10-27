@@ -51,6 +51,14 @@ test("margin contribution floor and unverified unit conversion reject",()=> {
   assert.throws(()=>quoteLine({costSar:46,marginSar:20,quantity:1,feeSar:16,minimumContributionSar:5,unit:"pcs",purchaseUnit:"pcs"}),/contribution_below_floor/);
   assert.throws(()=>quoteLine({costSar:3,marginSar:2,quantity:1,unit:"pcs",purchaseUnit:"ctn",conversionFactor:24}),/unit_conversion_unverified/);
 });
+test("large but individually valid cost and quantity cannot overflow halala subtotal",()=> {
+  assert.throws(()=>quoteLine({costSar:50000,marginSar:1,quantity:3000000000,
+    unit:"pcs",purchaseUnit:"pcs"}),/invalid_money/);
+});
+test("15-percent VAT can overflow an otherwise safe subtotal",()=> {
+  assert.throws(()=>quoteLine({costSar:80000000000000,marginSar:0,quantity:1,
+    unit:"pcs",purchaseUnit:"pcs"}),/invalid_money/);
+});
 test("up to three decimals supported for weight quantities",()=> {
   const q=quoteLine({costSar:10,marginSar:5,quantity:1.125,unit:"kg",purchaseUnit:"kg"});
   assert.equal(q.subtotalHalalas,1688);
