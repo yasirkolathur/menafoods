@@ -1,0 +1,394 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "batch": 11,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "creatorIdRange": [
+    "4278439000002127015",
+    "4278439000002489123"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000002127015",
+    "4278439000002127033",
+    "4278439000002127047",
+    "4278439000002128011",
+    "4278439000002129011",
+    "4278439000002143007",
+    "4278439000002157019",
+    "4278439000002167015",
+    "4278439000002170007",
+    "4278439000002174007",
+    "4278439000002175007",
+    "4278439000002195015",
+    "4278439000002209015",
+    "4278439000002221015",
+    "4278439000002227007",
+    "4278439000002298011",
+    "4278439000002301007",
+    "4278439000002313011",
+    "4278439000002315011",
+    "4278439000002320011",
+    "4278439000002343015",
+    "4278439000002352019",
+    "4278439000002363015",
+    "4278439000002364007",
+    "4278439000002365007",
+    "4278439000002366003",
+    "4278439000002367003",
+    "4278439000002369019",
+    "4278439000002370011",
+    "4278439000002373015",
+    "4278439000002374011",
+    "4278439000002375011",
+    "4278439000002375043",
+    "4278439000002376011",
+    "4278439000002377011",
+    "4278439000002377039",
+    "4278439000002378007",
+    "4278439000002379007",
+    "4278439000002380015",
+    "4278439000002381007",
+    "4278439000002385011",
+    "4278439000002386011",
+    "4278439000002387003",
+    "4278439000002388003",
+    "4278439000002391007",
+    "4278439000002392011",
+    "4278439000002392036",
+    "4278439000002393007",
+    "4278439000002393032",
+    "4278439000002394007",
+    "4278439000002395011",
+    "4278439000002396003",
+    "4278439000002397007",
+    "4278439000002399011",
+    "4278439000002399036",
+    "4278439000002400015",
+    "4278439000002401011",
+    "4278439000002402011",
+    "4278439000002403011",
+    "4278439000002403036",
+    "4278439000002404007",
+    "4278439000002405007",
+    "4278439000002414011",
+    "4278439000002414040",
+    "4278439000002415007",
+    "4278439000002418019",
+    "4278439000002439015",
+    "4278439000002441015",
+    "4278439000002447019",
+    "4278439000002451007",
+    "4278439000002452011",
+    "4278439000002481007",
+    "4278439000002482015",
+    "4278439000002484007",
+    "4278439000002486011",
+    "4278439000002489003",
+    "4278439000002489007",
+    "4278439000002489011",
+    "4278439000002489015",
+    "4278439000002489019",
+    "4278439000002489023",
+    "4278439000002489027",
+    "4278439000002489031",
+    "4278439000002489035",
+    "4278439000002489039",
+    "4278439000002489043",
+    "4278439000002489047",
+    "4278439000002489051",
+    "4278439000002489055",
+    "4278439000002489059",
+    "4278439000002489063",
+    "4278439000002489067",
+    "4278439000002489071",
+    "4278439000002489075",
+    "4278439000002489079",
+    "4278439000002489083",
+    "4278439000002489087",
+    "4278439000002489091",
+    "4278439000002489095",
+    "4278439000002489099",
+    "4278439000002489103",
+    "4278439000002489107",
+    "4278439000002489111",
+    "4278439000002489115",
+    "4278439000002489119",
+    "4278439000002489123"
+  ],
+  "counts": {
+    "missingUnit": {
+      "all": 0,
+      "storefront": 0
+    },
+    "missingBrand": {
+      "all": 19,
+      "storefront": 18
+    },
+    "missingBooksMapping": {
+      "all": 1,
+      "storefront": 0
+    },
+    "missingArabic": {
+      "all": 0,
+      "storefront": 0
+    },
+    "missingImages": {
+      "all": 1,
+      "storefront": 0
+    },
+    "zeroOrMissingSellingPrice": {
+      "all": 5,
+      "storefront": 0
+    },
+    "missingSKU": {
+      "all": 32,
+      "storefront": 31
+    }
+  },
+  "storefrontVisible": 95,
+  "identityRisk": {
+    "issueKey": "CATALOG-MISSING-SKU-011",
+    "count": 32,
+    "storefrontCount": 31,
+    "records": [
+      {
+        "creatorId": "4278439000002489059",
+        "booksId": "4886172000004797034",
+        "storefront": false,
+        "name": "BREADED CHICKEN BURGER H/S Bulk 1kg x  5"
+      },
+      {
+        "creatorId": "4278439000002489003",
+        "booksId": "4886172000004797016",
+        "storefront": true,
+        "name": "BEEF BURGER Small 200g x30"
+      },
+      {
+        "creatorId": "4278439000002489007",
+        "booksId": "4886172000004811059",
+        "storefront": true,
+        "name": "BEEF BURGER 24 1200g x 8"
+      },
+      {
+        "creatorId": "4278439000002489011",
+        "booksId": "4886172000004799079",
+        "storefront": true,
+        "name": "BEEF BURGER BAG 1kg x 9"
+      },
+      {
+        "creatorId": "4278439000002489015",
+        "booksId": "4886172000004804065",
+        "storefront": true,
+        "name": "CHARGRILLED JUMBO BEEF BURGER BAG 1kg x 6"
+      },
+      {
+        "creatorId": "4278439000002489019",
+        "booksId": "4886172000004779053",
+        "storefront": true,
+        "name": "CHICKEN BURGER Small 30 X 200 GMS"
+      },
+      {
+        "creatorId": "4278439000002489023",
+        "booksId": "4886172000004803011",
+        "storefront": true,
+        "name": "CHICKEN BURGER  8 Pcs 400g x 20"
+      },
+      {
+        "creatorId": "4278439000002489027",
+        "booksId": "4886172000004798045",
+        "storefront": true,
+        "name": "CHICKEN BURGER 1200g x 8"
+      },
+      {
+        "creatorId": "4278439000002489031",
+        "booksId": "4886172000004799097",
+        "storefront": true,
+        "name": "JUMBO CHICKEN BURGER 1kg x 6"
+      },
+      {
+        "creatorId": "4278439000002489035",
+        "booksId": "4886172000004810117",
+        "storefront": true,
+        "name": "CHICKEN BURGER Bags 1kg x 9"
+      },
+      {
+        "creatorId": "4278439000002489039",
+        "booksId": "4886172000004798009",
+        "storefront": true,
+        "name": "BREADED CHICKEN BURGER 400g x 12"
+      },
+      {
+        "creatorId": "4278439000002489043",
+        "booksId": "4886172000004789088",
+        "storefront": true,
+        "name": "BREADED CHICKEN BURGER H/S 400g x 12"
+      },
+      {
+        "creatorId": "4278439000002489047",
+        "booksId": "4886172000004799115",
+        "storefront": true,
+        "name": "BREADED CHICKEN BURGER 900g x 9"
+      },
+      {
+        "creatorId": "4278439000002489051",
+        "booksId": "4886172000004809065",
+        "storefront": true,
+        "name": "BREADED CHICKEN BURGER Jumbo 1kg x 6"
+      },
+      {
+        "creatorId": "4278439000002489055",
+        "booksId": "4886172000004797234",
+        "storefront": true,
+        "name": "BREADED CHICKEN BURGER Bulk 1kg x  6"
+      },
+      {
+        "creatorId": "4278439000002489063",
+        "booksId": "4886172000004792101",
+        "storefront": true,
+        "name": "VEGETABLE Burger 227g x 20"
+      },
+      {
+        "creatorId": "4278439000002489067",
+        "booksId": "4886172000004794178",
+        "storefront": true,
+        "name": "MEATLESS BURGER 200g x 24"
+      },
+      {
+        "creatorId": "4278439000002484007",
+        "booksId": "4886172000006391071",
+        "storefront": true,
+        "name": "Chtoura Garden Chickpeas With Tahini 380G  x 24"
+      },
+      {
+        "creatorId": "4278439000002489083",
+        "booksId": "4886172000004798063",
+        "storefront": true,
+        "name": "AL KABEER VEGETABLE SAMOSAS 240g x 20"
+      },
+      {
+        "creatorId": "4278439000002489107",
+        "booksId": "4886172000004805041",
+        "storefront": true,
+        "name": "AL KABEER VEGETABLE SAMOSA CATERING Pack 1.2kg x 4"
+      },
+      {
+        "creatorId": "4278439000002489071",
+        "booksId": "4886172000004803101",
+        "storefront": true,
+        "name": "MUTTON Samosas 240g x 20"
+      },
+      {
+        "creatorId": "4278439000002489075",
+        "booksId": "4886172000004810045",
+        "storefront": true,
+        "name": "CHICKEN Samosas 240g x 20"
+      },
+      {
+        "creatorId": "4278439000002489079",
+        "booksId": "4886172000004795370",
+        "storefront": true,
+        "name": "AL KABEER CHEESE Samosas 240g x 20"
+      },
+      {
+        "creatorId": "4278439000002489087",
+        "booksId": "4886172000004802083",
+        "storefront": true,
+        "name": "AL KABEER PUNJABI Samosas 900g x 10"
+      },
+      {
+        "creatorId": "4278439000002489091",
+        "booksId": "4886172000004798081",
+        "storefront": true,
+        "name": "AL KABEER PUNJABI SAMOSAS 450g x 10"
+      },
+      {
+        "creatorId": "4278439000002489095",
+        "booksId": "4886172000004805023",
+        "storefront": true,
+        "name": "AL KABEER CHEESE SAMOSA  CATERING Pack 1.2kg x 4"
+      },
+      {
+        "creatorId": "4278439000002489099",
+        "booksId": "4886172000004803119",
+        "storefront": true,
+        "name": "AL KABEER CHICKEN SAMOSA CATERING Pack 1.2kg x 4"
+      },
+      {
+        "creatorId": "4278439000002489103",
+        "booksId": "4886172000004809083",
+        "storefront": true,
+        "name": "AL KABEER MUTTON SAMOSA CATERING Pack 1.2kg x 4"
+      },
+      {
+        "creatorId": "4278439000002489111",
+        "booksId": "4886172000004794134",
+        "storefront": true,
+        "name": "CHICKEN SPRING Roll 280g x 20"
+      },
+      {
+        "creatorId": "4278439000002489115",
+        "booksId": "4886172000004795388",
+        "storefront": true,
+        "name": "AL KABEER CHEESE SPRING Roll 280g x 20"
+      },
+      {
+        "creatorId": "4278439000002489119",
+        "booksId": "4886172000004811077",
+        "storefront": true,
+        "name": "AL KABEER VEGETABLE SPRING Roll 280g x 20"
+      },
+      {
+        "creatorId": "4278439000002489123",
+        "booksId": "4886172000004805059",
+        "storefront": true,
+        "name": "AL KABEER CHICKEN SPRING ROLL Bulk 1.12kg x 5 Pkt"
+      }
+    ],
+    "note": "Creator SKU blank despite existing Books item ID. Do not invent SKU or use SKU-only matching. Verify authoritative mapping and variant before changing identity or enabling cross-system writes."
+  },
+  "withinBatchDuplicateCreatorIds": 0,
+  "withinBatchDuplicateNonblankSKUs": 0,
+  "withinBatchDuplicateNonblankBooksIds": 0,
+  "verifiedFieldsChanged": 0,
+  "changes": [],
+  "sourcesReviewed": [
+    {
+      "url": "https://www.hautecoffre.com/round.php",
+      "finding": "Manufacturer lists RO-32 black round container, but does not independently prove Creator 150-piece outer pack for SKU-2518; no edit."
+    },
+    {
+      "url": "https://hautecoffre.com/",
+      "finding": "Official packaging brand exists, but not an exact pack match for SKU-2519 14oz or SKU-2518 32oz 150-piece carton."
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "key": "CATALOG-MISSING-SKU-011",
+      "detail": "32 records lack Creator SKU, 31 storefront-visible. Require Books/Inventory SKU identity review; not a basis to infer or create SKU."
+    },
+    {
+      "key": "CATALOG-BRAND-011",
+      "detail": "19 missing brand; insufficient exact product/pack verification for edits."
+    },
+    {
+      "key": "CATALOG-IMAGE-011",
+      "detail": "One missing image, hidden; rights and exact variant not established."
+    },
+    {
+      "key": "CATALOG-MAPPING-011",
+      "detail": "One Books mapping missing, hidden; no name-based upsert."
+    },
+    {
+      "key": "CHECKOUT-PREVIEW-027",
+      "detail": "Authenticated EN/AR RTL, price privacy, VAT, CTN/PCS/KG, cart, Buy Again, COD/credit and confirm-once checkout remain unproven; no financial order created."
+    }
+  ],
+  "verification": "Creator compact ID range 4278439000002127015..4278439000002489123; 106 unique IDs exactly equal frozen batch 11 manifest, no extras or omissions; no Creator writes attempted",
+  "creatorReadCallsThisRun": 3,
+  "notes": "No changes to prices, costs, stock, images, taxes, invoices, orders, registry/outbox or sync settings. Existing duplicate-active holds remain.",
+  "nextBatch": 12
+}
