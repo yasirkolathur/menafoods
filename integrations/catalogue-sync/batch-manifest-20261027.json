@@ -2192,7 +2192,10 @@
         "4278439000008161013",
         "4278439000008187152"
       ],
-      "completed": false
+      "completed": true,
+      "status": "audit_enrichment_pass_complete_with_exceptions",
+      "verifiedMetadataChanges": 3,
+      "checkpoint": "integrations/catalogue-sync/batches/batch-19-20261028.json"
     },
     {
       "batch": 20,
