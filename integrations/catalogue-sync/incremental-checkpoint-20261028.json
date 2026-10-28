@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue bounded overlapping Modified_Time filters and exact-ID reconciliation only; seek authoritative timestamp, timezone and event completeness evidence before setting watermark. Preserve all duplicate holds and NO-GO checkout. Do not create financial orders or enable cross-system writes.",
+  "nextAction": "Continue low-API overlapping Modified_Time criteria and exact-ID reconciliation; verify authoritative timestamp/event completeness before advancing watermark; authenticated checkout #27 and cross-system fanout remain NO-GO.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,11 +72,11 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T09:49:16+03:00",
+    "observedAtLocal": "2026-10-28T10:52:28.215+03:00",
     "date": "2026-10-28",
     "creatorReport": "mena.Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "3 records returned; no record_cursor in response",
+    "creatorResult": "3 records returned (Creator code 3000); no record_cursor supplied",
     "creatorReturnedIds": [
       "4278439000006031019",
       "4278439000007197021",
@@ -89,18 +89,19 @@
       "SKU-3335"
     ],
     "creatorNewVerifiedIds": [],
-    "creatorConnectorCallsObserved": 4,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
-    "creatorReportMetadataTimezone": "Asia/Riyadh",
-    "creatorCriteriaTimezoneProven": false,
-    "creatorExplicitFieldsRequest": "ID,SKU,Modified_Time",
-    "creatorExplicitFieldsResult": "Modified_Time still absent; full report fields returned",
     "catalystOutboxCheckedThisRun": false,
-    "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows",
-    "qaIssue27Status": "NO-GO; GitHub issue reviewed; no new authenticated acceptance receipt identified",
+    "catalystReadOnlyDiscovery": "ZCQL tool/schema inspected; query not executed because project/org IDs were not independently resolved in this run",
+    "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows (prior observation only)",
+    "qaEvidenceChecked": [
+      "GitHub issue #27 body and latest issue comments",
+      "GitHub draft PR #23 metadata"
+    ],
+    "qaIssue27Status": "NO-GO: no new authenticated acceptance receipt; PR #23 remains OPEN/DRAFT and not deployed",
     "watermarkAdvanced": false,
     "financialOrCatalogWrites": 0,
-    "limitations": "Three returned IDs exactly match persisted Batch 19 brand edits; no evidence of a new changed product in this bounded window. Report timezone metadata is Asia/Riyadh but criteria timezone/boundary and change-feed completeness are not proven. No Catalyst query was made this run. Empty outbox from prior run is not authoritative."
+    "limitations": "All three bounded modified records are the previously documented Batch 19 brand corrections. This filter does not establish complete change capture. Modified_Time is not exposed per record; criteria timezone/boundary and webhook completeness remain unverified. No Catalyst ZCQL query this run."
   },
   "incrementalObservationHistory": [
     {
@@ -172,6 +173,38 @@
       "watermarkAdvanced": false,
       "financialOrCatalogWrites": 0,
       "limitations": "Three returned IDs exactly match persisted Batch 19 brand edits; no evidence of a new changed product in this bounded window. Report timezone metadata is Asia/Riyadh but criteria timezone/boundary and change-feed completeness are not proven. No Catalyst query was made this run. Empty outbox from prior run is not authoritative."
+    },
+    {
+      "observedAtLocal": "2026-10-28T10:52:28.215+03:00",
+      "date": "2026-10-28",
+      "creatorReport": "mena.Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "3 records returned (Creator code 3000); no record_cursor supplied",
+      "creatorReturnedIds": [
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069"
+      ],
+      "creatorMatchedBaselineBatch": 19,
+      "creatorMatchedSKUs": [
+        "SKU-3334",
+        "SKU-3380",
+        "SKU-3335"
+      ],
+      "creatorNewVerifiedIds": [],
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "catalystReadOnlyDiscovery": "ZCQL tool/schema inspected; query not executed because project/org IDs were not independently resolved in this run",
+      "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows (prior observation only)",
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and latest issue comments",
+        "GitHub draft PR #23 metadata"
+      ],
+      "qaIssue27Status": "NO-GO: no new authenticated acceptance receipt; PR #23 remains OPEN/DRAFT and not deployed",
+      "watermarkAdvanced": false,
+      "financialOrCatalogWrites": 0,
+      "limitations": "All three bounded modified records are the previously documented Batch 19 brand corrections. This filter does not establish complete change capture. Modified_Time is not exposed per record; criteria timezone/boundary and webhook completeness remain unverified. No Catalyst ZCQL query this run."
     }
   ]
 }
