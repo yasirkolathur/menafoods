@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Investigate verified Arabic locale defect SKU-3334 with approved Arabic packaging/copy and authenticated AR UI proof; no speculative translation. Continue bounded Creator change filters, exact IDs, preserve Batch 8 identity holds, watermark null, no cross-system or financial writes until native sync, deployed gateway+rollback, webhook auth, destination ACK and issue #27 acceptance receipts.",
+  "nextAction": "Continue low-API bounded overlapping Creator Modified_Time filters, exact-ID only for newly observed IDs, preserve unresolved SKU-3334 Arabic locale and Batch 8 product-identity holds; watermark null; no financial or cross-system writes before issue #27 release gates and ACK receipts.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,13 +72,13 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T16:46:47+03:00",
-    "observedAtUTC": "2026-10-28T13:46:47Z",
-    "timeSource": "scheduled run context; not a Creator record modification timestamp",
+    "observedAtLocal": "2026-10-28T17:46:36+03:00",
+    "observedAtUTC": "2026-10-28T14:46:36Z",
+    "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "5 records returned (code 3000); no cursor; same five Creator IDs as previous checkpoint",
+    "creatorResult": "5 records returned (Creator code 3000), no record_cursor; same five IDs as preceding persisted checkpoint",
     "creatorReturnedIds": [
       "4278439000001256016",
       "4278439000006031019",
@@ -91,23 +91,23 @@
       "4278439000001256016",
       "4278439000001215030"
     ],
+    "arabicQaDefectRetained": "AR-LOCALE-SKU-3334-20261028; Translated_Name still Latin-only; no authorized Arabic copy or authenticated UI receipt",
     "verifiedFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 2,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and all 18 comments (latest 2026-10-27)",
-      "GitHub issue #36 body and all 24 comments",
-      "Creator exact-ID readback of SKU-3334"
+      "GitHub issue #27 body and 19 comments including SKU-3334 locale defect",
+      "GitHub issue #36 body and 24 comments"
     ],
-    "qaIssue27Status": "NO-GO; no new authenticated checkout acceptance receipts",
-    "newlyVerifiedQaFindings": 1,
+    "qaIssue27Status": "NO-GO; no authenticated acceptance receipts for EN/AR, unit, private price, VAT, cart, Buy Again, COD/credit or exactly-once checkout",
+    "newlyVerifiedQaFindings": 0,
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "Modified_Time absent from Creator result fields; timezone/boundary/change-feed completeness unverified. Two Batch 8 identity candidates unresolved. New Arabic locale defect confirmed for SKU-3334, translation not independently sourced; no metadata edit. No native sync, gateway rollback, signed webhook, ACK or authenticated checkout proof."
+    "limitations": "Creator Modified_Time filter returns records but per-record timestamp, timezone/boundary/pagination and webhook completeness remain unverified. Two Batch 8 identity candidates and SKU-3334 Arabic-copy issue remain held. Four duplicate-active IDs and all cross-system writes blocked; native sync, deployed gateway rollback, webhook authentication, destination ACK and authenticated checkout receipts missing."
   },
   "incrementalObservationHistory": [
     {
@@ -482,6 +482,44 @@
       "newlyVerifiedQaFindings": 1,
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "Modified_Time absent from Creator result fields; timezone/boundary/change-feed completeness unverified. Two Batch 8 identity candidates unresolved. New Arabic locale defect confirmed for SKU-3334, translation not independently sourced; no metadata edit. No native sync, gateway rollback, signed webhook, ACK or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-28T17:46:36+03:00",
+      "observedAtUTC": "2026-10-28T14:46:36Z",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (Creator code 3000), no record_cursor; same five IDs as preceding persisted checkpoint",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "pendingIdentityCandidatesRetained": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "arabicQaDefectRetained": "AR-LOCALE-SKU-3334-20261028; Translated_Name still Latin-only; no authorized Arabic copy or authenticated UI receipt",
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 19 comments including SKU-3334 locale defect",
+        "GitHub issue #36 body and 24 comments"
+      ],
+      "qaIssue27Status": "NO-GO; no authenticated acceptance receipts for EN/AR, unit, private price, VAT, cart, Buy Again, COD/credit or exactly-once checkout",
+      "newlyVerifiedQaFindings": 0,
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Creator Modified_Time filter returns records but per-record timestamp, timezone/boundary/pagination and webhook completeness remain unverified. Two Batch 8 identity candidates and SKU-3334 Arabic-copy issue remain held. Four duplicate-active IDs and all cross-system writes blocked; native sync, deployed gateway rollback, webhook authentication, destination ACK and authenticated checkout receipts missing."
     }
   ],
   "pendingCandidateCreatorIds": [
