@@ -1,0 +1,1168 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "auditedAt": "2026-10-28",
+  "batch": 20,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "creatorIdRange": [
+    "4278439000008269016",
+    "4278439000009908004"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000008269016",
+    "4278439000008381013",
+    "4278439000008393029",
+    "4278439000008562013",
+    "4278439000008564006",
+    "4278439000008576014",
+    "4278439000008587026",
+    "4278439000009154012",
+    "4278439000009565002",
+    "4278439000009565007",
+    "4278439000009565012",
+    "4278439000009565017",
+    "4278439000009565022",
+    "4278439000009565027",
+    "4278439000009565032",
+    "4278439000009565037",
+    "4278439000009565042",
+    "4278439000009565047",
+    "4278439000009641030",
+    "4278439000009641035",
+    "4278439000009641040",
+    "4278439000009641045",
+    "4278439000009641050",
+    "4278439000009641055",
+    "4278439000009643042",
+    "4278439000009643047",
+    "4278439000009643052",
+    "4278439000009645018",
+    "4278439000009646016",
+    "4278439000009652031",
+    "4278439000009654011",
+    "4278439000009697089",
+    "4278439000009701002",
+    "4278439000009701007",
+    "4278439000009701012",
+    "4278439000009701017",
+    "4278439000009701022",
+    "4278439000009701027",
+    "4278439000009701032",
+    "4278439000009701037",
+    "4278439000009701042",
+    "4278439000009701047",
+    "4278439000009701052",
+    "4278439000009702002",
+    "4278439000009702007",
+    "4278439000009710072",
+    "4278439000009713088",
+    "4278439000009713093",
+    "4278439000009734008",
+    "4278439000009736009",
+    "4278439000009736014",
+    "4278439000009746004",
+    "4278439000009774022",
+    "4278439000009774029",
+    "4278439000009774036",
+    "4278439000009774043",
+    "4278439000009774050",
+    "4278439000009774057",
+    "4278439000009774064",
+    "4278439000009774071",
+    "4278439000009774078",
+    "4278439000009774085",
+    "4278439000009774092",
+    "4278439000009774099",
+    "4278439000009774106",
+    "4278439000009774113",
+    "4278439000009774120",
+    "4278439000009774127",
+    "4278439000009774134",
+    "4278439000009774141",
+    "4278439000009774148",
+    "4278439000009774155",
+    "4278439000009774162",
+    "4278439000009778017",
+    "4278439000009778022",
+    "4278439000009778027",
+    "4278439000009778032",
+    "4278439000009778037",
+    "4278439000009778042",
+    "4278439000009778047",
+    "4278439000009778052",
+    "4278439000009778057",
+    "4278439000009778062",
+    "4278439000009778067",
+    "4278439000009778072",
+    "4278439000009778077",
+    "4278439000009778082",
+    "4278439000009778087",
+    "4278439000009778092",
+    "4278439000009778097",
+    "4278439000009778102",
+    "4278439000009778107",
+    "4278439000009778112",
+    "4278439000009778117",
+    "4278439000009778122",
+    "4278439000009778127",
+    "4278439000009778132",
+    "4278439000009781010",
+    "4278439000009781017",
+    "4278439000009781022",
+    "4278439000009781029",
+    "4278439000009782010",
+    "4278439000009874010",
+    "4278439000009876010",
+    "4278439000009880012",
+    "4278439000009908004"
+  ],
+  "verification": "Compact Creator numeric ID-range fetch matched 106 frozen manifest IDs exactly; 2,122 unique IDs across 20 non-overlapping frozen batches validated. Read-only audit. No eligible independently corroborated missing nonfinancial field identified, therefore no Creator edits or readback writes.",
+  "counts": {
+    "storefrontMarked": 7,
+    "missingSKU": 0,
+    "storefront_missingSKU": 0,
+    "missingUnit": 0,
+    "storefront_missingUnit": 0,
+    "missingBrand": 36,
+    "storefront_missingBrand": 0,
+    "missingBooksMapping": 1,
+    "storefront_missingBooksMapping": 0,
+    "missingArabic": 24,
+    "storefront_missingArabic": 0,
+    "missingImages": 97,
+    "storefront_missingImages": 6,
+    "zeroOrMissingSellingPrice": 7,
+    "storefront_zeroOrMissingSellingPrice": 0
+  },
+  "verifiedFieldsChanged": 0,
+  "changes": [],
+  "sourceLinks": [],
+  "sourceReview": [
+    {
+      "query": "Mattanad matta rice 10kg manufacturer",
+      "result": "No authoritative exact Mattanad brand/variant source established; no Brand update."
+    },
+    {
+      "query": "Mor Gold serving plates exact models",
+      "result": "No authoritative exact model/pack match established; no Brand or image update."
+    }
+  ],
+  "exceptionIds": {
+    "missingSKU": [],
+    "missingUnit": [],
+    "missingBrand": [
+      {
+        "creatorId": "4278439000009908004",
+        "sku": "SKU-3541",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774064",
+        "sku": "SKU-3523",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778042",
+        "sku": "SKU-3497",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778047",
+        "sku": "SKU-3498",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778102",
+        "sku": "SKU-3509",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778107",
+        "sku": "SKU-3510",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774022",
+        "sku": "SKU-3517",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774134",
+        "sku": "SKU-3533",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778127",
+        "sku": "SKU-3514",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778132",
+        "sku": "SKU-3515",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778032",
+        "sku": "SKU-3495",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778067",
+        "sku": "SKU-3502",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778072",
+        "sku": "SKU-3503",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778087",
+        "sku": "SKU-3506",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778017",
+        "sku": "SKU-3492",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778022",
+        "sku": "SKU-3493",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778037",
+        "sku": "SKU-3496",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778052",
+        "sku": "SKU-3499",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778092",
+        "sku": "SKU-3507",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778097",
+        "sku": "SKU-3508",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778122",
+        "sku": "SKU-3513",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781017",
+        "sku": "SKU-3490",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008587026",
+        "sku": "SKU-3441",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774120",
+        "sku": "SKU-3531",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781029",
+        "sku": "SKU-3516",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781022",
+        "sku": "SKU-3491",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008269016",
+        "sku": "SKU-3435",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774057",
+        "sku": "SKU-3522",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774113",
+        "sku": "SKU-3530",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774099",
+        "sku": "SKU-3528",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774106",
+        "sku": "SKU-3529",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774071",
+        "sku": "SKU-3524",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774078",
+        "sku": "SKU-3525",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008381013",
+        "sku": "SKU-3437",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008393029",
+        "sku": "SKU-3436",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009154012",
+        "sku": "SKU-3442",
+        "visible": false
+      }
+    ],
+    "missingBooksMapping": [
+      {
+        "creatorId": "4278439000009778062",
+        "sku": "SKU-3501",
+        "visible": false
+      }
+    ],
+    "missingArabic": [
+      {
+        "creatorId": "4278439000009736009",
+        "sku": "SKU-3485",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009736014",
+        "sku": "SKU-3486",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774148",
+        "sku": "SKU-3535",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774155",
+        "sku": "SKU-3536",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774064",
+        "sku": "SKU-3523",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774162",
+        "sku": "SKU-3537",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774043",
+        "sku": "SKU-3520",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774092",
+        "sku": "SKU-3527",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774029",
+        "sku": "SKU-3518",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774022",
+        "sku": "SKU-3517",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774134",
+        "sku": "SKU-3533",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774085",
+        "sku": "SKU-3526",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774120",
+        "sku": "SKU-3531",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774141",
+        "sku": "SKU-3534",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781029",
+        "sku": "SKU-3516",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774050",
+        "sku": "SKU-3521",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774057",
+        "sku": "SKU-3522",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774113",
+        "sku": "SKU-3530",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774099",
+        "sku": "SKU-3528",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774106",
+        "sku": "SKU-3529",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774071",
+        "sku": "SKU-3524",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774078",
+        "sku": "SKU-3525",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774127",
+        "sku": "SKU-3532",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774036",
+        "sku": "SKU-3519",
+        "visible": false
+      }
+    ],
+    "missingImages": [
+      {
+        "creatorId": "4278439000009565002",
+        "sku": "SKU-3443",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565007",
+        "sku": "SKU-3444",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565012",
+        "sku": "SKU-3445",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565017",
+        "sku": "SKU-3446",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565022",
+        "sku": "SKU-3447",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565027",
+        "sku": "SKU-3448",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565032",
+        "sku": "SKU-3449",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565037",
+        "sku": "SKU-3450",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565042",
+        "sku": "SKU-3451",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009565047",
+        "sku": "SKU-3452",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641030",
+        "sku": "SKU-3456",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641035",
+        "sku": "SKU-3457",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641040",
+        "sku": "SKU-3458",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641045",
+        "sku": "SKU-3459",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641050",
+        "sku": "SKU-3460",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009641055",
+        "sku": "SKU-3461",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009643042",
+        "sku": "SKU-3463",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009643047",
+        "sku": "SKU-3464",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009643052",
+        "sku": "SKU-3465",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009652031",
+        "sku": "SKU-3462",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701002",
+        "sku": "SKU-3466",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701007",
+        "sku": "SKU-3467",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701012",
+        "sku": "SKU-3468",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701017",
+        "sku": "SKU-3469",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701022",
+        "sku": "SKU-3470",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701027",
+        "sku": "SKU-3471",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701032",
+        "sku": "SKU-3472",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701037",
+        "sku": "SKU-3473",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701042",
+        "sku": "SKU-3477",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701047",
+        "sku": "SKU-3478",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009701052",
+        "sku": "SKU-3479",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009702002",
+        "sku": "SKU-3474",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009702007",
+        "sku": "SKU-3475",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009710072",
+        "sku": "SKU-3476",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009736009",
+        "sku": "SKU-3485",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009736014",
+        "sku": "SKU-3486",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009874010",
+        "sku": "SKU-3539",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009876010",
+        "sku": "SKU-3538",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009880012",
+        "sku": "SKU-3540",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009908004",
+        "sku": "SKU-3541",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781010",
+        "sku": "SKU-3487",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009646016",
+        "sku": "SKU-260924081025",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009654011",
+        "sku": "SKU-260924081109",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009774148",
+        "sku": "SKU-3535",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774155",
+        "sku": "SKU-3536",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774064",
+        "sku": "SKU-3523",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009734008",
+        "sku": "SKU-3484",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009778042",
+        "sku": "SKU-3497",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778047",
+        "sku": "SKU-3498",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009782010",
+        "sku": "SKU-3489",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009774162",
+        "sku": "SKU-3537",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778057",
+        "sku": "SKU-3500",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774043",
+        "sku": "SKU-3520",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774092",
+        "sku": "SKU-3527",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774029",
+        "sku": "SKU-3518",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778102",
+        "sku": "SKU-3509",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778107",
+        "sku": "SKU-3510",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774022",
+        "sku": "SKU-3517",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774134",
+        "sku": "SKU-3533",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778127",
+        "sku": "SKU-3514",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778132",
+        "sku": "SKU-3515",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778027",
+        "sku": "SKU-3494",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778032",
+        "sku": "SKU-3495",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778112",
+        "sku": "SKU-3511",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778067",
+        "sku": "SKU-3502",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778072",
+        "sku": "SKU-3503",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778077",
+        "sku": "SKU-3504",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778082",
+        "sku": "SKU-3505",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778087",
+        "sku": "SKU-3506",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774085",
+        "sku": "SKU-3526",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778017",
+        "sku": "SKU-3492",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778022",
+        "sku": "SKU-3493",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778037",
+        "sku": "SKU-3496",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778052",
+        "sku": "SKU-3499",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778092",
+        "sku": "SKU-3507",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778097",
+        "sku": "SKU-3508",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778117",
+        "sku": "SKU-3512",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778122",
+        "sku": "SKU-3513",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781017",
+        "sku": "SKU-3490",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009645018",
+        "sku": "SKU-260924081433",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009774120",
+        "sku": "SKU-3531",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774141",
+        "sku": "SKU-3534",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781029",
+        "sku": "SKU-3516",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009697089",
+        "sku": "SKU-3482",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009781022",
+        "sku": "SKU-3491",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774050",
+        "sku": "SKU-3521",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774057",
+        "sku": "SKU-3522",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774113",
+        "sku": "SKU-3530",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774099",
+        "sku": "SKU-3528",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774106",
+        "sku": "SKU-3529",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774071",
+        "sku": "SKU-3524",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774078",
+        "sku": "SKU-3525",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009774127",
+        "sku": "SKU-3532",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009713093",
+        "sku": "SKU-3481",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009713088",
+        "sku": "SKU-3480",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000009774036",
+        "sku": "SKU-3519",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009778062",
+        "sku": "SKU-3501",
+        "visible": false
+      }
+    ],
+    "zeroOrMissingSellingPrice": [
+      {
+        "creatorId": "4278439000008562013",
+        "sku": "SKU-3439",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009643042",
+        "sku": "SKU-3463",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009643047",
+        "sku": "SKU-3464",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008587026",
+        "sku": "SKU-3441",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008381013",
+        "sku": "SKU-3437",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008393029",
+        "sku": "SKU-3436",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000009713093",
+        "sku": "SKU-3481",
+        "visible": false
+      }
+    ]
+  },
+  "visibleProducts": [
+    {
+      "creatorId": "4278439000009646016",
+      "sku": "SKU-260924081025",
+      "productName": "BEEF FEET BETTER BEEF BRAZIL",
+      "unit": "kg",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009654011",
+      "sku": "SKU-260924081109",
+      "productName": "BEEF TRIPE AMG AUS 20 KG",
+      "unit": "ctn",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009734008",
+      "sku": "SKU-3484",
+      "productName": "Almarai Butter Portion 100g x 40 - Carton",
+      "unit": "ctn",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009746004",
+      "sku": "SKU-3483",
+      "productName": "BERTO Butter Blend Unsalted 25 kg (10 x 2.5 kg)",
+      "unit": "ctn",
+      "imageRecordCount": 2,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009782010",
+      "sku": "SKU-3489",
+      "productName": "Fine Meze Grape Leaves - Bucket",
+      "unit": "pcs",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009645018",
+      "sku": "SKU-260924081433",
+      "productName": "SHEEP TRIPE CLASSIC 15 KG",
+      "unit": "ctn",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    },
+    {
+      "creatorId": "4278439000009713088",
+      "sku": "SKU-3480",
+      "productName": "Crystal Sunflower Oil 17L Tin (Arma)",
+      "unit": "tin",
+      "imageRecordCount": 0,
+      "arabicNamePresent": true,
+      "booksMapped": true,
+      "sellingPricePresent": true
+    }
+  ],
+  "duplicateExactNamesWithinBatch": [],
+  "duplicateNonblankSKUsWithinBatch": [],
+  "duplicateNonblankBooksIdsWithinBatch": [],
+  "explicitDuplicateHolds": [
+    {
+      "creatorId": "4278439000009697089",
+      "sku": "SKU-3482",
+      "name": "DUPLICATE - DO NOT USE - RONSI Sweet Pepper 4x4kg (use SKU-2985)",
+      "visible": false
+    },
+    {
+      "creatorId": "4278439000009713093",
+      "sku": "SKU-3481",
+      "name": "DUPLICATE HOLD - Zahrati Sunflower Oil 1.5L x 6 (do not use)",
+      "visible": false
+    }
+  ],
+  "unresolvedIssueCategories": [
+    {
+      "key": "CATALOG-VISIBLE-IMAGE-MISSING-020",
+      "count": 6,
+      "detail": "Creator storefront-marked records have no image records; no unlicensed or non-exact image publication."
+    },
+    {
+      "key": "CATALOG-IMAGE-PROVENANCE-020",
+      "count": 97,
+      "detail": "Missing image records; other existing image records do not imply verified redistribution rights."
+    },
+    {
+      "key": "CATALOG-ARABIC-MISSING-020",
+      "count": 24,
+      "detail": "Hidden products missing Arabic name; no unverified translation inserted."
+    },
+    {
+      "key": "CATALOG-BRAND-UNVERIFIED-020",
+      "count": 36,
+      "detail": "Hidden products with blank brand; many are generic or packaging without identified manufacturer."
+    },
+    {
+      "key": "CATALOG-BOOKS-ID-MISSING-020",
+      "count": 1,
+      "detail": "Hidden SKU-3501 has blank Books ID; no name-based mapping."
+    },
+    {
+      "key": "CATALOG-ZERO-PRICE-020",
+      "count": 7,
+      "detail": "All zero-price records Creator-hidden; no price changes."
+    },
+    {
+      "key": "CATALOG-DUPLICATE-HOLD-020",
+      "count": 2,
+      "detail": "Explicit duplicate/DO NOT USE records remain hidden and unchanged; four known duplicate-active IDs remain blocked."
+    },
+    {
+      "key": "CATALOG-CHECKOUT-AUTH-QA-020",
+      "count": null,
+      "detail": "Issue #27: no authenticated EN/AR RTL, CTN/PCS/KG, customer-price/private-cost, VAT, cart persistence, Buy Again, COD/credit or confirm-once E2E receipts; NO-GO."
+    },
+    {
+      "key": "CATALOG-SYNC-GATE-020",
+      "count": null,
+      "detail": "No verified native Books–Inventory–Commerce sync, deployed gateway source+rollback, webhook authentication, or end-to-end ACK; cross-system writes remain blocked."
+    }
+  ],
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedAcceptanceEvidence": false,
+    "areas": [
+      "EN/AR RTL",
+      "product visibility and images",
+      "CTN/PCS/KG conversion",
+      "customer-specific price vs private supplier cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ],
+    "financialOrdersCreated": 0
+  },
+  "sync": {
+    "project": "menafoodscustomermiddleware",
+    "registry": "MF_Product_Sync_Registry",
+    "outbox": "MF_Product_Sync_Outbox",
+    "crossSystemWritesEnabled": false,
+    "duplicateActiveHoldsUnchanged": true
+  },
+  "safety": {
+    "creatorWrites": 0,
+    "pricesChanged": 0,
+    "costChanged": 0,
+    "stockChanged": 0,
+    "taxChanged": 0,
+    "ordersChanged": 0,
+    "imagesPublished": 0,
+    "visibilityChanged": 0
+  },
+  "api": {
+    "observedCreatorConnectorCallsThisRun": 3,
+    "billableApiUnits": "unavailable",
+    "note": "Three Creator getCreatorRecords calls in this run (first initial read, second audit summary, third final evidence). One getApplications and one getReportMetadata also invoked; no Creator writes."
+  }
+}
