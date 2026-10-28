@@ -72,9 +72,9 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T18:52:15+03:00",
-    "observedAtUTC": "2026-10-28T15:52:15Z",
-    "timeSource": "scheduled execution context, not Creator Modified_Time",
+    "observedAtLocal": "2026-10-28T19:49:30+03:00",
+    "observedAtUTC": "2026-10-28T16:49:30Z",
+    "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
@@ -101,7 +101,7 @@
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 comments (19 total); no new authenticated acceptance receipt"
+      "GitHub issue #27 body and 19 comments; no new authenticated acceptance receipts"
     ],
     "qaIssue27Status": "NO-GO; no authenticated acceptance receipts for EN/AR, unit, private price, VAT, cart, Buy Again, COD/credit or exactly-once checkout",
     "newlyVerifiedQaFindings": 0,
@@ -551,6 +551,43 @@
       "catalystOutboxCheckedThisRun": false,
       "qaEvidenceChecked": [
         "GitHub issue #27 comments (19 total); no new authenticated acceptance receipt"
+      ],
+      "qaIssue27Status": "NO-GO; no authenticated acceptance receipts for EN/AR, unit, private price, VAT, cart, Buy Again, COD/credit or exactly-once checkout",
+      "newlyVerifiedQaFindings": 0,
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Creator Modified_Time filter returns records but per-record timestamp, timezone/boundary/pagination and webhook completeness remain unverified. Two Batch 8 identity candidates and SKU-3334 Arabic-copy issue remain held. Four duplicate-active IDs and all cross-system writes blocked; native sync, deployed gateway rollback, webhook authentication, destination ACK and authenticated checkout receipts missing."
+    },
+    {
+      "observedAtLocal": "2026-10-28T19:49:30+03:00",
+      "observedAtUTC": "2026-10-28T16:49:30Z",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (Creator code 3000), no record_cursor; same five IDs as prior persisted checkpoint",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "pendingIdentityCandidatesRetained": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "arabicQaDefectRetained": "AR-LOCALE-SKU-3334-20261028; Translated_Name still Latin-only; no authorized Arabic copy or authenticated UI receipt",
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 19 comments; no new authenticated acceptance receipts"
       ],
       "qaIssue27Status": "NO-GO; no authenticated acceptance receipts for EN/AR, unit, private price, VAT, cart, Buy Again, COD/credit or exactly-once checkout",
       "newlyVerifiedQaFindings": 0,
