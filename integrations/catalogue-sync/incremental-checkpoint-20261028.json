@@ -15,11 +15,13 @@
   },
   "lastReadOnlyOutboxCheck": {
     "date": "2026-10-28",
+    "observedAtLocal": "2026-10-28T08:54:27+03:00",
     "environment": "Development",
     "project": "menafoodscustomermiddleware",
     "table": "MF_Product_Sync_Outbox",
     "rowsReturned": 0,
-    "moreRecords": false
+    "query": "SELECT * FROM MF_Product_Sync_Outbox LIMIT 10",
+    "moreRecords": "not returned by ZCQL"
   },
   "lastReadOnlyRegistrySample": {
     "sampledRows": 5,
@@ -28,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue bounded overlapping Modified_Time reads and exact-ID validation only; verify authoritative source watermark, timezone and webhook completeness before advancing cursor. Keep checkout NO-GO and cross-system writes blocked.",
+  "nextAction": "Continue low-API overlapping Creator Modified_Time reads; do not advance source watermark until authoritative per-record timestamp and completeness are verified. Keep four duplicate-active IDs blocked, cross-system writes off and checkout NO-GO pending authenticated #27 evidence.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -70,22 +72,64 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
+    "observedAtLocal": "2026-10-28T08:54:27+03:00",
     "date": "2026-10-28",
     "creatorReport": "mena.Products_Books",
-    "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:30:00\"",
+    "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:00:00\"",
     "creatorResult": "Zoho Creator 9280: no records matching criteria",
     "creatorNewVerifiedIds": [],
+    "creatorConnectorCallsObserved": 2,
+    "creatorBillableApiUnits": "unavailable",
     "catalystProject": "menafoodscustomermiddleware",
     "catalystEnvironment": "Development",
     "catalystOutboxTable": "MF_Product_Sync_Outbox",
     "catalystOutboxRows": 0,
-    "creatorExactIdSample": "4278439000003681048",
-    "creatorExactIdSampleHasModifiedTimeField": false,
-    "creatorConnectorCallsObserved": 5,
-    "creatorBillableApiUnits": "unavailable",
+    "catalystOutboxQuery": "SELECT * FROM MF_Product_Sync_Outbox LIMIT 10",
+    "catalystOutboxMoreRecords": "not returned (empty ZCQL result)",
     "qaIssue27Status": "NO-GO",
     "watermarkAdvanced": false,
     "financialOrCatalogWrites": 0,
-    "limitations": "Creator Modified_Time is filterable but not exposed in report records. Timezone/boundary, event completeness and pagination not proven. A no-match window and empty outbox do not prove source-wide zero changes."
-  }
+    "limitations": "No-match bounded Modified_Time filter and empty Development outbox are not authoritative change-feed or end-to-end ACK evidence. Creator Modified_Time field absent from returned records; timezone/boundary/pagination/webhook completeness unverified. Authenticated checkout evidence unavailable."
+  },
+  "incrementalObservationHistory": [
+    {
+      "date": "2026-10-28",
+      "creatorReport": "mena.Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:30:00\"",
+      "creatorResult": "Zoho Creator 9280: no records matching criteria",
+      "creatorNewVerifiedIds": [],
+      "catalystProject": "menafoodscustomermiddleware",
+      "catalystEnvironment": "Development",
+      "catalystOutboxTable": "MF_Product_Sync_Outbox",
+      "catalystOutboxRows": 0,
+      "creatorExactIdSample": "4278439000003681048",
+      "creatorExactIdSampleHasModifiedTimeField": false,
+      "creatorConnectorCallsObserved": 5,
+      "creatorBillableApiUnits": "unavailable",
+      "qaIssue27Status": "NO-GO",
+      "watermarkAdvanced": false,
+      "financialOrCatalogWrites": 0,
+      "limitations": "Creator Modified_Time is filterable but not exposed in report records. Timezone/boundary, event completeness and pagination not proven. A no-match window and empty outbox do not prove source-wide zero changes."
+    },
+    {
+      "observedAtLocal": "2026-10-28T08:54:27+03:00",
+      "date": "2026-10-28",
+      "creatorReport": "mena.Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:00:00\"",
+      "creatorResult": "Zoho Creator 9280: no records matching criteria",
+      "creatorNewVerifiedIds": [],
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystProject": "menafoodscustomermiddleware",
+      "catalystEnvironment": "Development",
+      "catalystOutboxTable": "MF_Product_Sync_Outbox",
+      "catalystOutboxRows": 0,
+      "catalystOutboxQuery": "SELECT * FROM MF_Product_Sync_Outbox LIMIT 10",
+      "catalystOutboxMoreRecords": "not returned (empty ZCQL result)",
+      "qaIssue27Status": "NO-GO",
+      "watermarkAdvanced": false,
+      "financialOrCatalogWrites": 0,
+      "limitations": "No-match bounded Modified_Time filter and empty Development outbox are not authoritative change-feed or end-to-end ACK evidence. Creator Modified_Time field absent from returned records; timezone/boundary/pagination/webhook completeness unverified. Authenticated checkout evidence unavailable."
+    }
+  ]
 }
