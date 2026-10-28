@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Retain 13 new SKUs SKU-3542..3554 unpublished; obtain exact product/variant and manufacturer or authorized evidence for Arabic copy, categories, packs, image rights. Review 11 baseline change candidates only against trustworthy before/after snapshots. Keep source watermark null, checkout NO-GO, and cross-system writes blocked.",
+  "nextAction": "Continue low-API overlapping bounded Creator filters; exact-ID reads only for new IDs or independently evidenced changes; verify 13 hidden SKU-3542–3554 pack and authorized Arabic labels before any metadata edit; no storefront publish or checkout release without issue #27 authenticated receipts.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,12 +72,12 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T21:52:01+03:00",
-    "timeSource": "scheduled execution context; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-28T22:52:16+03:00",
+    "timeSource": "scheduled run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 19:00:00\"",
-    "creatorResult": "24 records (Creator code 3000), no cursor; same 24 IDs as previous checkpoint",
+    "creatorResult": "24 records (Creator code 3000), no cursor; identical to previous persisted checkpoint",
     "creatorReturnedIds": [
       "4278439000009981040",
       "4278439000009981047",
@@ -105,44 +105,26 @@
       "4278439000001454011"
     ],
     "newlyObservedIdsComparedToPreviousRun": [],
+    "laterWindowCriteria": "Modified_Time >= \"28-Oct-2026 21:00:00\"",
+    "laterWindowResult": "Creator code 9280: no matching records; not proof of source change-feed completeness",
     "exactBoundedIdRangeCriteria": "ID >= 4278439000009981040 && ID <= 4278439000009981124",
-    "exactBoundedIdRangeResult": "13 of 13 expected Creator IDs matched, no cursor; two bounded exact-range reads agreed",
+    "exactBoundedIdRangeResult": "13 of 13 known new Creator IDs read; names/SKUs/brands confirmed; prior hidden, blank Arabic/category/collection/image holds retained",
     "newProductRecordsReviewed": 13,
-    "confirmedNewProductSkus": [
-      "SKU-3542",
-      "SKU-3543",
-      "SKU-3544",
-      "SKU-3545",
-      "SKU-3546",
-      "SKU-3547",
-      "SKU-3548",
-      "SKU-3549",
-      "SKU-3550",
-      "SKU-3551",
-      "SKU-3552",
-      "SKU-3553",
-      "SKU-3554"
-    ],
-    "storefrontHiddenCount": 13,
-    "arabicNameBlankCount": 13,
-    "categoryObjectEmptyCount": 13,
-    "collectionBlankCount": 13,
-    "productImagesEmptyCount": 13,
-    "booksItemIdPresentCount": 13,
-    "brandBlankCount": 5,
+    "creatorProductNamesVerified": 13,
+    "unpublishedNewProductCount": 13,
+    "missingArabicNamesRetained": 13,
+    "blankBrandsRetained": 5,
+    "manufacturerPackVariantEvidence": "not obtained; targeted official-domain searches returned no exact manufacturer variant proof",
     "verifiedFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 3,
+    "creatorConnectorCallsObserved": 4,
     "creatorBillableApiUnits": "unavailable",
-    "catalystOutboxCheckedThisRun": false,
-    "qaIssue27Status": "NO-GO; existing issue comments reviewed; no authenticated EN/AR, CTN/PCS/KG, customer price isolation, VAT, cart persistence, Buy Again, COD/credit, or confirm-once acceptance receipts",
-    "newlyVerifiedQaFindings": 1,
-    "qaFinding": "All 13 new hidden SKUs have empty category objects, empty collections and empty Product_Images fields; prior checkpoint's 'image field populated' meant the field was present, not that an image existed.",
+    "qaIssue27Status": "NO-GO; no new authenticated checkout evidence in existing 19 issue comments",
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "Creator Modified_Time absent from returned records; no authoritative change feed/timezone/boundary proof. All 13 are unpublished and have no verified manufacturer pack or image rights; do not infer category, images, GTIN or translation. Four duplicate-active holds, gateway/native sync/webhook/ACK and checkout NO-GO remain."
+    "limitations": "Creator timestamps absent from returned records; filter timezone/completeness unverified; 13 new products remain unpublished pending exact pack/Arabic/category/image-rights verification. Existing duplicate-active and cross-system write holds remain."
   },
   "incrementalObservationHistory": [
     {
@@ -816,6 +798,61 @@
       "qaFinding": "All 13 new hidden SKUs have empty category objects, empty collections and empty Product_Images fields; prior checkpoint's 'image field populated' meant the field was present, not that an image existed.",
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "Creator Modified_Time absent from returned records; no authoritative change feed/timezone/boundary proof. All 13 are unpublished and have no verified manufacturer pack or image rights; do not infer category, images, GTIN or translation. Four duplicate-active holds, gateway/native sync/webhook/ACK and checkout NO-GO remain."
+    },
+    {
+      "observedAtLocal": "2026-10-28T22:52:16+03:00",
+      "timeSource": "scheduled run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 19:00:00\"",
+      "creatorResult": "24 records (Creator code 3000), no cursor; identical to previous persisted checkpoint",
+      "creatorReturnedIds": [
+        "4278439000009981040",
+        "4278439000009981047",
+        "4278439000009981054",
+        "4278439000009981061",
+        "4278439000009981068",
+        "4278439000009981075",
+        "4278439000009981082",
+        "4278439000009981089",
+        "4278439000009981096",
+        "4278439000009981103",
+        "4278439000009981110",
+        "4278439000009981117",
+        "4278439000009981124",
+        "4278439000002569007",
+        "4278439000000104472",
+        "4278439000000104608",
+        "4278439000000105534",
+        "4278439000000101734",
+        "4278439000002701011",
+        "4278439000001029043",
+        "4278439000002482015",
+        "4278439000000106182",
+        "4278439000000105528",
+        "4278439000001454011"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "laterWindowCriteria": "Modified_Time >= \"28-Oct-2026 21:00:00\"",
+      "laterWindowResult": "Creator code 9280: no matching records; not proof of source change-feed completeness",
+      "exactBoundedIdRangeCriteria": "ID >= 4278439000009981040 && ID <= 4278439000009981124",
+      "exactBoundedIdRangeResult": "13 of 13 known new Creator IDs read; names/SKUs/brands confirmed; prior hidden, blank Arabic/category/collection/image holds retained",
+      "newProductRecordsReviewed": 13,
+      "creatorProductNamesVerified": 13,
+      "unpublishedNewProductCount": 13,
+      "missingArabicNamesRetained": 13,
+      "blankBrandsRetained": 5,
+      "manufacturerPackVariantEvidence": "not obtained; targeted official-domain searches returned no exact manufacturer variant proof",
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 4,
+      "creatorBillableApiUnits": "unavailable",
+      "qaIssue27Status": "NO-GO; no new authenticated checkout evidence in existing 19 issue comments",
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Creator timestamps absent from returned records; filter timezone/completeness unverified; 13 new products remain unpublished pending exact pack/Arabic/category/image-rights verification. Existing duplicate-active and cross-system write holds remain."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -898,7 +935,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Fine Twister Potatoes 4 x 2.5 kg"
       },
       {
         "creatorId": "4278439000009981047",
@@ -913,7 +951,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Lamb Weston Onion Rings 6 x 1 kg"
       },
       {
         "creatorId": "4278439000009981054",
@@ -928,7 +967,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Americana Prawns Tail Off 10 x 1 kg"
       },
       {
         "creatorId": "4278439000009981061",
@@ -943,7 +983,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Super Gold Butter 10 x 2.5 kg"
       },
       {
         "creatorId": "4278439000009981068",
@@ -958,7 +999,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Pride Cheese Slices 9 x 48"
       },
       {
         "creatorId": "4278439000009981075",
@@ -973,7 +1015,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Large Eggs No.4 12 x 30"
       },
       {
         "creatorId": "4278439000009981082",
@@ -988,7 +1031,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Rabia Juice Big 30 x 250 ml"
       },
       {
         "creatorId": "4278439000009981089",
@@ -1003,7 +1047,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Suntop Juice Big 30 x 250 ml"
       },
       {
         "creatorId": "4278439000009981096",
@@ -1018,7 +1063,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "B Cola Medium 30 x 230 ml"
       },
       {
         "creatorId": "4278439000009981103",
@@ -1033,7 +1079,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Aluminium Foil Long 45 x 150"
       },
       {
         "creatorId": "4278439000009981110",
@@ -1048,7 +1095,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Face Mask 50 pcs"
       },
       {
         "creatorId": "4278439000009981117",
@@ -1063,7 +1111,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Date Roll 12 x 3"
       },
       {
         "creatorId": "4278439000009981124",
@@ -1078,7 +1127,8 @@
         "booksItemIdPresent": true,
         "packManufacturerVerified": false,
         "source": "Zoho Creator Products_Books exact bounded ID-range read; independent manufacturer pack proof not available",
-        "safeAction": "Hold unpublished; no metadata edit"
+        "safeAction": "Hold unpublished; no metadata edit",
+        "productNameVerifiedFromCreator": "Cleaning Brush"
       }
     ],
     "readbackIndependent": true,
