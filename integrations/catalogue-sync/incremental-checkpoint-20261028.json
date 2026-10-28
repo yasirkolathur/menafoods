@@ -72,12 +72,12 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T13:48:02+03:00",
-    "observedAtUTC": "2026-10-28T10:48:02.731Z",
+    "observedAtLocal": "2026-10-28T14:55:14+03:00",
+    "observedAtUTC": "2026-10-28T11:55:14Z",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "5 records returned (Creator code 3000); no record_cursor; same 5 Creator IDs as previous checkpoint",
+    "creatorResult": "5 records returned (Creator code 3000); no record_cursor; same 5 IDs as previous persisted checkpoint",
     "creatorReturnedIds": [
       "4278439000001256016",
       "4278439000006031019",
@@ -99,12 +99,12 @@
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 and its latest 2026-10-27 comment",
-      "GitHub issue #36 and latest 2026-10-28 checkpoint comment"
+      "GitHub issue #27 and latest issue comments",
+      "GitHub issue #36 and latest issue comments"
     ],
-    "qaIssue27Status": "NO-GO; no new authenticated QA receipts; historical Books SO mapping collision and effective pricing/warehouse/OAuth issues remain unresolved",
+    "qaIssue27Status": "NO-GO; no new authenticated acceptance receipts or cleared financial-pilot preflight gates found in issue comments",
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "Modified_Time not returned per record; no proven timezone/boundary/pagination/event completeness. Five matching IDs do not establish a complete change feed. Two candidates require exact label/pack proof. Gateway/rollback, native sync, webhook auth, ACK and authenticated checkout evidence remain unverified."
+    "limitations": "Modified_Time absent from returned records; timezone/boundary/event completeness unverified. Exact product identity of two pending candidates unresolved. No new gateway/rollback, native sync, webhook auth, ACK or authenticated checkout proof."
   },
   "incrementalObservationHistory": [
     {
@@ -371,6 +371,41 @@
       "qaIssue27Status": "NO-GO; no new authenticated QA receipts; historical Books SO mapping collision and effective pricing/warehouse/OAuth issues remain unresolved",
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "Modified_Time not returned per record; no proven timezone/boundary/pagination/event completeness. Five matching IDs do not establish a complete change feed. Two candidates require exact label/pack proof. Gateway/rollback, native sync, webhook auth, ACK and authenticated checkout evidence remain unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-28T14:55:14+03:00",
+      "observedAtUTC": "2026-10-28T11:55:14Z",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (Creator code 3000); no record_cursor; same 5 IDs as previous persisted checkpoint",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "pendingIdentityCandidatesRetained": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 and latest issue comments",
+        "GitHub issue #36 and latest issue comments"
+      ],
+      "qaIssue27Status": "NO-GO; no new authenticated acceptance receipts or cleared financial-pilot preflight gates found in issue comments",
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Modified_Time absent from returned records; timezone/boundary/event completeness unverified. Exact product identity of two pending candidates unresolved. No new gateway/rollback, native sync, webhook auth, ACK or authenticated checkout proof."
     }
   ],
   "pendingCandidateCreatorIds": [
