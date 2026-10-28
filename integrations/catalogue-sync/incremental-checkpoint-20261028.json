@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "mode": "incremental_read_only",
+  "baselineManifest": "integrations/catalogue-sync/batch-manifest-20261027.json",
+  "baselineCompletedBatches": 20,
+  "baselineUniqueCreatorIds": 2122,
+  "transitionDate": "2026-10-28",
+  "creatorSourceWatermark": null,
+  "creatorChangeFeedVerified": false,
+  "creatorChangeFeedBlocker": "Products_Books read by ID works; authoritative modified-time field or complete Creator webhook event feed not yet verified. Do not infer no changes from empty outbox.",
+  "existingCatalystProject": "menafoodscustomermiddleware",
+  "existingTables": {
+    "registry": "MF_Product_Sync_Registry",
+    "outbox": "MF_Product_Sync_Outbox"
+  },
+  "lastReadOnlyOutboxCheck": {
+    "date": "2026-10-28",
+    "rowsReturned": 0,
+    "nextToken": false
+  },
+  "lastReadOnlyRegistrySample": {
+    "sampledRows": 5,
+    "observedStatus": "BASELINE_UNVERIFIED",
+    "fullTableAudited": false
+  },
+  "pendingVerifiedChangedCreatorIds": [],
+  "processedEventIds": [],
+  "nextAction": "Read only existing outbox for trusted Creator IDs; validate event completeness and source timestamp before advancing watermark; exact-ID fetch only; no full snapshot rescan.",
+  "crossSystemWritesAllowed": false,
+  "checkoutStatus": "NO-GO",
+  "lastVerifiedBatch": 20,
+  "issue": 36,
+  "qaIssue": 27
+}
