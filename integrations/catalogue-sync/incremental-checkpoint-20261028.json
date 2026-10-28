@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Exact-ID review of two newly observed Batch 8 candidates; verify manufacturer brand and Burcu pack/UOM, recover authoritative timestamps/change feed and authenticated checkout evidence; keep source watermark null and cross-system writes blocked.",
+  "nextAction": "Resolve exact physical packaging/label identity for two Batch 8 candidates (rice Maza Jawahir/Fazco vs Al Jawahir, Burcu Sweet Chili vs mild pepper paste 4x4200g); avoid SKU/barcode/UOM inference. Continue overlapping bounded Modified_Time filters and exact-ID checks, keep watermark null and checkout/cross-system writes NO-GO until authoritative change feed, native sync, gateway/rollback, webhook auth, ACK and authenticated issue #27 QA evidence exist.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,11 +72,13 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T11:51:32+03:00",
+    "observedAtLocal": "2026-10-28T12:48:06+03:00",
+    "observedAtUTC": "2026-10-28T09:48:06.882Z",
     "date": "2026-10-28",
+    "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "5 records returned (Creator code 3000), versus 3 in the prior identical bounded criteria; no record_cursor returned",
+    "creatorResult": "5 records returned (code 3000), no record_cursor; same 5 IDs as preceding checkpoint; exact-ID reads of both candidates successful",
     "creatorReturnedIds": [
       "4278439000001256016",
       "4278439000006031019",
@@ -84,54 +86,56 @@
       "4278439000006032069",
       "4278439000001215030"
     ],
-    "creatorPreviouslyObservedIds": [
-      "4278439000006031019",
-      "4278439000007197021",
-      "4278439000006032069"
-    ],
-    "newlyObservedWithinSameCriteriaIds": [
+    "newlyObservedIdsComparedToPreviousRun": [],
+    "candidateIdsReviewed": [
       "4278439000001256016",
       "4278439000001215030"
     ],
-    "newlyObservedSKUs": [
-      "SKU-230905023326",
-      "CR1878"
-    ],
-    "newlyObservedManifestBatch": 8,
-    "exactIdReadbackBoth": true,
-    "identityNotes": [
+    "candidateReview": [
       {
-        "ID": "4278439000001256016",
-        "SKU": "SKU-230905023326",
-        "product": "Maza Jawahir Basmati Rice 40 kg",
-        "Brand": "Fazco",
-        "Unit": "bag",
-        "visible": true,
-        "sourceEvidence": "Creator exact-ID read only; manufacturer/brand provenance not independently corroborated"
+        "creatorId": "4278439000001256016",
+        "sku": "SKU-230905023326",
+        "creatorName": "Maza Jawahir Basmati Rice 40 kg",
+        "creatorBrand": "Fazco",
+        "creatorUnit": "bag",
+        "creatorSupplier": "Awais Fazco",
+        "creatorBooksId": "4886172000000143906",
+        "storefrontFlag": "Yes",
+        "assessment": "Supplier Fazco publishes Al Jawahir 40kg under Al Jawahir brand, but Maza Jawahir record is not independently proven to be that exact packaging. Current Brand=Fazco may be supplier attribution. Product identity unresolved; no edit.",
+        "sourceUrls": [
+          "https://fazco.co/product/ruz-al-jawahir-indian-basmati-sella-rice-40kg/",
+          "https://fazco.co/brand/al-jawahir/"
+        ]
       },
       {
-        "ID": "4278439000001215030",
-        "SKU": "CR1878",
-        "product": "Burcu Sweet Chili Paste 4 x 4200 Grams",
-        "Brand": "Burcu",
-        "Unit": "pcs",
-        "visible": true,
-        "sourceEvidence": "Creator exact-ID read only; pack-to-unit conversion not independently corroborated"
+        "creatorId": "4278439000001215030",
+        "sku": "CR1878",
+        "creatorName": "Burcu Sweet Chili Paste 4 x 4200 Grams",
+        "creatorBrand": "Burcu",
+        "creatorUnit": "pcs",
+        "creatorSupplier": "rdt cold store",
+        "creatorBooksId": "4886172000001523904",
+        "storefrontFlag": "Yes",
+        "assessment": "Burcu manufacturer confirms 4200g x 4 carton for 'Pepper Paste Mild' but this is not proven identical to Creator 'Sweet Chili Paste'. Creator pcs may mean each jar, not carton; SKU/label needed before unit or pack conversion. No barcode inferred or written.",
+        "sourceUrls": [
+          "https://www.burcu.com.tr/en/product/burcu-sweet-pepper-paste-1-4200/"
+        ]
       }
     ],
     "verifiedFieldDeltas": 0,
-    "candidateChangedIdsOnly": true,
-    "creatorConnectorCallsObserved": 4,
+    "creatorMetadataWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "creatorConnectorCallsObserved": 3,
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and issue comments",
-      "GitHub issue #36 and batch 08 evidence"
+      "GitHub issue #27 body and latest issue comments (through 2026-10-27)"
     ],
-    "qaIssue27Status": "NO-GO: no authenticated checkout/RTL/price isolation/confirm-once receipts found",
-    "watermarkAdvanced": false,
-    "financialOrCatalogWrites": 0,
-    "limitations": "Two extra records appeared in the same Modified_Time filter compared with previous run. Their exact IDs/SKUs/fields are verified now, but no historical field-level snapshot or per-record Modified_Time is exposed to prove which fields changed or event timing. Existing brand Fazco may reflect supplier for Maza Jawahir, and Burcu 4x4200g has Unit pcs; do not alter without manufacturer/pack verification. No cross-system ACK, gateway/rollback, or webhook auth proof."
+    "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, pricing isolation, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once receipts verified",
+    "creatorSourceWatermarkAdvanced": false,
+    "limitations": "Creator Modified_Time is criteria-filterable but not returned per record; event ordering, timezone boundaries, and completeness unverified. Exact manufacturer/variant identity of both candidate records unresolved. No deployed gateway/rollback, native Books-Inventory-Commerce sync, webhook auth, or cross-system ACK verification; duplicate-active IDs remain blocked."
   },
   "incrementalObservationHistory": [
     {
@@ -297,6 +301,72 @@
       "watermarkAdvanced": false,
       "financialOrCatalogWrites": 0,
       "limitations": "Two extra records appeared in the same Modified_Time filter compared with previous run. Their exact IDs/SKUs/fields are verified now, but no historical field-level snapshot or per-record Modified_Time is exposed to prove which fields changed or event timing. Existing brand Fazco may reflect supplier for Maza Jawahir, and Burcu 4x4200g has Unit pcs; do not alter without manufacturer/pack verification. No cross-system ACK, gateway/rollback, or webhook auth proof."
+    },
+    {
+      "observedAtLocal": "2026-10-28T12:48:06+03:00",
+      "observedAtUTC": "2026-10-28T09:48:06.882Z",
+      "date": "2026-10-28",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (code 3000), no record_cursor; same 5 IDs as preceding checkpoint; exact-ID reads of both candidates successful",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "candidateIdsReviewed": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "candidateReview": [
+        {
+          "creatorId": "4278439000001256016",
+          "sku": "SKU-230905023326",
+          "creatorName": "Maza Jawahir Basmati Rice 40 kg",
+          "creatorBrand": "Fazco",
+          "creatorUnit": "bag",
+          "creatorSupplier": "Awais Fazco",
+          "creatorBooksId": "4886172000000143906",
+          "storefrontFlag": "Yes",
+          "assessment": "Supplier Fazco publishes Al Jawahir 40kg under Al Jawahir brand, but Maza Jawahir record is not independently proven to be that exact packaging. Current Brand=Fazco may be supplier attribution. Product identity unresolved; no edit.",
+          "sourceUrls": [
+            "https://fazco.co/product/ruz-al-jawahir-indian-basmati-sella-rice-40kg/",
+            "https://fazco.co/brand/al-jawahir/"
+          ]
+        },
+        {
+          "creatorId": "4278439000001215030",
+          "sku": "CR1878",
+          "creatorName": "Burcu Sweet Chili Paste 4 x 4200 Grams",
+          "creatorBrand": "Burcu",
+          "creatorUnit": "pcs",
+          "creatorSupplier": "rdt cold store",
+          "creatorBooksId": "4886172000001523904",
+          "storefrontFlag": "Yes",
+          "assessment": "Burcu manufacturer confirms 4200g x 4 carton for 'Pepper Paste Mild' but this is not proven identical to Creator 'Sweet Chili Paste'. Creator pcs may mean each jar, not carton; SKU/label needed before unit or pack conversion. No barcode inferred or written.",
+          "sourceUrls": [
+            "https://www.burcu.com.tr/en/product/burcu-sweet-pepper-paste-1-4200/"
+          ]
+        }
+      ],
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 3,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and latest issue comments (through 2026-10-27)"
+      ],
+      "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, pricing isolation, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once receipts verified",
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Creator Modified_Time is criteria-filterable but not returned per record; event ordering, timezone boundaries, and completeness unverified. Exact manufacturer/variant identity of both candidate records unresolved. No deployed gateway/rollback, native Books-Inventory-Commerce sync, webhook auth, or cross-system ACK verification; duplicate-active IDs remain blocked."
     }
   ],
   "pendingCandidateCreatorIds": [
