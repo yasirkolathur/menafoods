@@ -1,0 +1,568 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "auditedAt": "2026-10-28",
+  "batch": 19,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "creatorIdRange": [
+    "4278439000005974147",
+    "4278439000008187152"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000005974147",
+    "4278439000005975177",
+    "4278439000005977213",
+    "4278439000005981031",
+    "4278439000005985015",
+    "4278439000005988133",
+    "4278439000005993015",
+    "4278439000006019011",
+    "4278439000006031019",
+    "4278439000006032069",
+    "4278439000006058037",
+    "4278439000006058062",
+    "4278439000006059091",
+    "4278439000006064061",
+    "4278439000006064094",
+    "4278439000006064123",
+    "4278439000006065117",
+    "4278439000006068007",
+    "4278439000006068130",
+    "4278439000006068159",
+    "4278439000006070007",
+    "4278439000006555041",
+    "4278439000006858347",
+    "4278439000006862161",
+    "4278439000006914017",
+    "4278439000006994061",
+    "4278439000006995031",
+    "4278439000006998025",
+    "4278439000007036047",
+    "4278439000007066007",
+    "4278439000007093077",
+    "4278439000007094131",
+    "4278439000007094247",
+    "4278439000007094451",
+    "4278439000007094517",
+    "4278439000007096188",
+    "4278439000007096227",
+    "4278439000007097018",
+    "4278439000007098084",
+    "4278439000007100409",
+    "4278439000007100517",
+    "4278439000007101381",
+    "4278439000007102007",
+    "4278439000007102311",
+    "4278439000007104045",
+    "4278439000007129013",
+    "4278439000007172072",
+    "4278439000007183171",
+    "4278439000007184189",
+    "4278439000007195025",
+    "4278439000007195085",
+    "4278439000007197021",
+    "4278439000007201011",
+    "4278439000007202007",
+    "4278439000007206019",
+    "4278439000007246105",
+    "4278439000007246216",
+    "4278439000007250314",
+    "4278439000007321570",
+    "4278439000007322287",
+    "4278439000007323078",
+    "4278439000007326105",
+    "4278439000007326235",
+    "4278439000007331127",
+    "4278439000007353112",
+    "4278439000007354085",
+    "4278439000007354158",
+    "4278439000007355162",
+    "4278439000007355218",
+    "4278439000007356124",
+    "4278439000007359112",
+    "4278439000007360116",
+    "4278439000007361168",
+    "4278439000007367067",
+    "4278439000007371090",
+    "4278439000007418070",
+    "4278439000007461176",
+    "4278439000007502105",
+    "4278439000007506039",
+    "4278439000007510186",
+    "4278439000007557083",
+    "4278439000007578023",
+    "4278439000007581026",
+    "4278439000007587086",
+    "4278439000007590128",
+    "4278439000007615035",
+    "4278439000007620007",
+    "4278439000007621011",
+    "4278439000007652165",
+    "4278439000007674036",
+    "4278439000007693138",
+    "4278439000007708127",
+    "4278439000007722225",
+    "4278439000007725177",
+    "4278439000007842162",
+    "4278439000007843112",
+    "4278439000007847109",
+    "4278439000007933008",
+    "4278439000007968008",
+    "4278439000008056010",
+    "4278439000008096060",
+    "4278439000008101020",
+    "4278439000008101027",
+    "4278439000008121115",
+    "4278439000008161013",
+    "4278439000008187152"
+  ],
+  "verification": "Compact Creator numeric ID-range read matched frozen manifest 106/106 with no omissions/extras. Three exact-ID pre-edit reads confirmed SKU, blank Brand, name and pack. Three Brand-only updates with form_workflow skipped; three exact-ID post-edit reads and final compact-range read confirmed persistence.",
+  "counts": {
+    "storefrontVisible": 67,
+    "missingSKU": 0,
+    "visibleMissingSKU": 0,
+    "missingUnit": 0,
+    "visibleMissingUnit": 0,
+    "missingBrand": 23,
+    "visibleMissingBrand": 10,
+    "missingBooksMapping": 2,
+    "visibleMissingBooksMapping": 0,
+    "missingArabic": 1,
+    "visibleMissingArabic": 0,
+    "missingImages": 2,
+    "visibleMissingImages": 0,
+    "zeroOrMissingSellingPrice": 13,
+    "visibleZeroOrMissingSellingPrice": 0
+  },
+  "verifiedFieldsChanged": 3,
+  "changes": [
+    {
+      "creatorId": "4278439000006032069",
+      "SKU": "SKU-3335",
+      "productName": "Fong Sriracha Hot Chili Sauce 28oz x 12 - Carton",
+      "field": "Brand",
+      "before": "",
+      "after": "Huy Fong",
+      "readBackVerified": true,
+      "manufacturer": "https://www.huyfong.com/",
+      "packSource": "https://www.baldorfood.com/product/asian-foods/asia1bbb-sriracha-chili-sauce"
+    },
+    {
+      "creatorId": "4278439000007197021",
+      "SKU": "SKU-3380",
+      "productName": "Buy Abu Bint Egyptian Rice 2kg x 10 pieces - Carton",
+      "field": "Brand",
+      "before": "",
+      "after": "Abu Bint",
+      "readBackVerified": true,
+      "brandSource": "https://www.carrefourksa.com/mafsau/ar/parboiled-rice/abu-bint-rice-2kg/p/127526",
+      "packSource": "https://abohamamah.com/PdYmzmx"
+    },
+    {
+      "creatorId": "4278439000006031019",
+      "SKU": "SKU-3334",
+      "productName": "Al Jameel Plain Halva 14kg",
+      "field": "Brand",
+      "before": "",
+      "after": "Al Jameel",
+      "readBackVerified": true,
+      "source": "https://onesource.com.sa/ecom/brand/al-jameel",
+      "packSource": "https://carton.sa/en/product-detail/economic-food-trading/halawa-14kg-jameel"
+    }
+  ],
+  "sourceLinks": [
+    "https://www.huyfong.com/",
+    "https://www.baldorfood.com/product/asian-foods/asia1bbb-sriracha-chili-sauce",
+    "https://abohamamah.com/PdYmzmx",
+    "https://www.carrefourksa.com/mafsau/ar/parboiled-rice/abu-bint-rice-2kg/p/127526",
+    "https://carton.sa/en/product-detail/economic-food-trading/halawa-14kg-jameel",
+    "https://onesource.com.sa/ecom/brand/al-jameel"
+  ],
+  "exceptionIds": {
+    "missingSKU": [],
+    "missingUnit": [],
+    "missingBrand": [
+      {
+        "creatorId": "4278439000005974147",
+        "sku": "SKU-3331",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006019011",
+        "sku": "SKU-3333",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007101381",
+        "sku": "SKU-3369",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007195085",
+        "sku": "SKU-3382",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007590128",
+        "sku": "SKU-3412",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000005975177",
+        "sku": "SKU-3329",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007323078",
+        "sku": "SKU-3388",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000006862161",
+        "sku": "SKU-3349",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006059091",
+        "sku": "SKU-3341",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007418070",
+        "sku": "SKU-3403",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007104045",
+        "sku": "SKU-3362",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007246216",
+        "sku": "SKU-3385",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007722225",
+        "sku": "SKU-3422",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007581026",
+        "sku": "SKU-3410",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007578023",
+        "sku": "SKU-3409",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007933008",
+        "sku": "SKU-3426",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006914017",
+        "sku": "SKU-3351",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000005981031",
+        "sku": "SKU-3327",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007129013",
+        "sku": "SKU-3373",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000005988133",
+        "sku": "SKU-3328",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000007322287",
+        "sku": "SKU-3389",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007093077",
+        "sku": "SKU-3360",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000006058062",
+        "sku": "SKU-3340",
+        "visible": true
+      }
+    ],
+    "missingBooksMapping": [
+      {
+        "creatorId": "4278439000006994061",
+        "sku": "SKU-3353",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008101027",
+        "sku": "SKU-3431",
+        "visible": false
+      }
+    ],
+    "missingArabic": [
+      {
+        "creatorId": "4278439000008096060",
+        "sku": "SKU-3429",
+        "visible": false
+      }
+    ],
+    "missingImages": [
+      {
+        "creatorId": "4278439000007195085",
+        "sku": "SKU-3382",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007322287",
+        "sku": "SKU-3389",
+        "visible": false
+      }
+    ],
+    "zeroOrMissingSellingPrice": [
+      {
+        "creatorId": "4278439000007066007",
+        "sku": "SKU-3356",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007195085",
+        "sku": "SKU-3382",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007360116",
+        "sku": "SKU-3397",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006862161",
+        "sku": "SKU-3349",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007418070",
+        "sku": "SKU-3403",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007353112",
+        "sku": "SKU-3401",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007722225",
+        "sku": "SKU-3422",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007581026",
+        "sku": "SKU-3410",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007094247",
+        "sku": "SKU-3367",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006914017",
+        "sku": "SKU-3351",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000008187152",
+        "sku": "SKU-3434",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000006858347",
+        "sku": "SKU-3350",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000007096227",
+        "sku": "SKU-3365",
+        "visible": false
+      }
+    ]
+  },
+  "duplicateExactNamesWithinBatch": [
+    {
+      "name": "pran mughal mustard oil 400 ml x 20 - carton",
+      "records": [
+        {
+          "creatorId": "4278439000006994061",
+          "sku": "SKU-3353",
+          "visible": false
+        },
+        {
+          "creatorId": "4278439000006998025",
+          "sku": "SKU-3352",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "name": "forsana sliced analogue chees 170g x 24",
+      "records": [
+        {
+          "creatorId": "4278439000008096060",
+          "sku": "SKU-3429",
+          "visible": false
+        },
+        {
+          "creatorId": "4278439000008101027",
+          "sku": "SKU-3431",
+          "visible": false
+        }
+      ]
+    }
+  ],
+  "duplicateNonblankSKUsWithinBatch": [],
+  "duplicateNonblankBooksIdsWithinBatch": [],
+  "untranslatedVisible": [
+    {
+      "creatorId": "4278439000006031019",
+      "sku": "SKU-3334",
+      "translatedName": "Al Jameel Plain Halva 14kg"
+    },
+    {
+      "creatorId": "4278439000007036047",
+      "sku": "SKU-3355",
+      "translatedName": "Almarai Uht Cooking Cream 500ml × 18"
+    },
+    {
+      "creatorId": "4278439000007359112",
+      "sku": "SKU-3395",
+      "translatedName": "Frozen Mango Slice Premier 1Kg x 16 carton"
+    },
+    {
+      "creatorId": "4278439000006068007",
+      "sku": "SKU-3337",
+      "translatedName": "HAUTE COFFRE 21 OZ REC BLACK BASE 150 PSC (HIC)"
+    }
+  ],
+  "brandMismatchCandidates": [
+    {
+      "creatorId": "4278439000008161013",
+      "sku": "SKU-3433",
+      "productName": "Freshly Hot Paprika 454g x 6 carton",
+      "existingBrand": "SAUDIA",
+      "candidateBrand": "Freshly",
+      "status": "HOLD_NONBLANK_FIELD_NO_CHANGE",
+      "evidence": [
+        "https://foodeal.com.sa/en/freshly-hot-paprika/p1521559343",
+        "https://www.carrefourksa.com/mafsau/en/spices/freshly-hot-paprika-454g/p/678434"
+      ]
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "key": "B19-BRAND-GAPS",
+      "count": 23,
+      "visible": 10,
+      "action": "Leave blank without exact brand/pack provenance; unbranded commodities may be legitimate."
+    },
+    {
+      "key": "B19-BOOKS-MAPPING",
+      "count": 2,
+      "visible": 0,
+      "action": "Hold sync; exact Books ID reconciliation required."
+    },
+    {
+      "key": "B19-AR-QUALITY",
+      "count": 1,
+      "visibleNonArabicScript": 4,
+      "action": "Do not publish inferred Arabic translations without verified scope."
+    },
+    {
+      "key": "B19-IMAGE-PROVENANCE",
+      "missingImages": 2,
+      "action": "Image license and exact SKU variant provenance not independently verified; no publication."
+    },
+    {
+      "key": "B19-ZERO-PRICE",
+      "count": 13,
+      "visible": 0,
+      "action": "Hidden records only; do not alter prices."
+    },
+    {
+      "key": "B19-IDENTITY-COLLISIONS",
+      "action": "Two duplicate-name pairs with distinct IDs/SKUs; do not merge or cross-map."
+    },
+    {
+      "key": "B19-BRAND-MISMATCH-3433",
+      "action": "Visible Freshly Hot Paprika has nonblank SAUDIA brand; independent wholesale evidence conflicts; manual identity review, no overwrite.",
+      "evidence": [
+        "https://foodeal.com.sa/en/freshly-hot-paprika/p1521559343",
+        "https://www.carrefourksa.com/mafsau/en/spices/freshly-hot-paprika-454g/p/678434"
+      ]
+    },
+    {
+      "key": "B19-UOM-SEMANTICS",
+      "action": "CTN/PCS/KG/out/rpt/bag conversion and variant validation not end-to-end tested."
+    },
+    {
+      "key": "B19-AUTH-CHECKOUT-NOGO",
+      "action": "EN/AR RTL, visibility, images, unit conversion, customer price/private cost, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout lack authenticated E2E receipts; no orders."
+    },
+    {
+      "key": "B19-CROSS-SYSTEM-SYNC-HOLD",
+      "action": "Four known duplicate-active IDs and other collisions blocked; Books–Inventory–Commerce native sync, gateway source/rollback, webhook auth, outbox ACK unverified; no fanout."
+    }
+  ],
+  "issueCategoryCount": 10,
+  "crossSystemSync": {
+    "status": "BLOCKED",
+    "project": "menafoodscustomermiddleware",
+    "registry": "MF_Product_Sync_Registry",
+    "outbox": "MF_Product_Sync_Outbox",
+    "writesEnabled": false,
+    "verifiedFourWaySync": false
+  },
+  "customerCatalogCheckoutQA": {
+    "status": "NO-GO",
+    "issue": 27,
+    "authenticatedE2EReceipts": false,
+    "ordersCreated": 0,
+    "checksPending": [
+      "EN/AR RTL",
+      "product visibility and image rights",
+      "CTN/PCS/KG and carton conversions",
+      "customer-specific price and private-cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD and approved credit",
+      "confirm-once checkout and duplicate-order prevention"
+    ]
+  },
+  "apiCallsObservedInRun": {
+    "zohoCreatorConnectorInvocations": 15,
+    "breakdown": {
+      "getApplications": 1,
+      "getReportMetadata": 1,
+      "getFormMetadata": 1,
+      "compactReads": 3,
+      "exactIdReads": 6,
+      "brandOnlyUpdates": 3
+    },
+    "note": "Observed connector invocation count only; Zoho billable API units unavailable."
+  },
+  "nextBatch": 20
+}
