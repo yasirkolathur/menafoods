@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue low-API overlapping Modified_Time criteria and exact-ID reconciliation; verify authoritative timestamp/event completeness before advancing watermark; authenticated checkout #27 and cross-system fanout remain NO-GO.",
+  "nextAction": "Exact-ID review of two newly observed Batch 8 candidates; verify manufacturer brand and Burcu pack/UOM, recover authoritative timestamps/change feed and authenticated checkout evidence; keep source watermark null and cross-system writes blocked.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,36 +72,66 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T10:52:28.215+03:00",
+    "observedAtLocal": "2026-10-28T11:51:32+03:00",
     "date": "2026-10-28",
-    "creatorReport": "mena.Products_Books",
+    "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "3 records returned (Creator code 3000); no record_cursor supplied",
+    "creatorResult": "5 records returned (Creator code 3000), versus 3 in the prior identical bounded criteria; no record_cursor returned",
     "creatorReturnedIds": [
+      "4278439000001256016",
+      "4278439000006031019",
+      "4278439000007197021",
+      "4278439000006032069",
+      "4278439000001215030"
+    ],
+    "creatorPreviouslyObservedIds": [
       "4278439000006031019",
       "4278439000007197021",
       "4278439000006032069"
     ],
-    "creatorMatchedBaselineBatch": 19,
-    "creatorMatchedSKUs": [
-      "SKU-3334",
-      "SKU-3380",
-      "SKU-3335"
+    "newlyObservedWithinSameCriteriaIds": [
+      "4278439000001256016",
+      "4278439000001215030"
     ],
-    "creatorNewVerifiedIds": [],
-    "creatorConnectorCallsObserved": 1,
+    "newlyObservedSKUs": [
+      "SKU-230905023326",
+      "CR1878"
+    ],
+    "newlyObservedManifestBatch": 8,
+    "exactIdReadbackBoth": true,
+    "identityNotes": [
+      {
+        "ID": "4278439000001256016",
+        "SKU": "SKU-230905023326",
+        "product": "Maza Jawahir Basmati Rice 40 kg",
+        "Brand": "Fazco",
+        "Unit": "bag",
+        "visible": true,
+        "sourceEvidence": "Creator exact-ID read only; manufacturer/brand provenance not independently corroborated"
+      },
+      {
+        "ID": "4278439000001215030",
+        "SKU": "CR1878",
+        "product": "Burcu Sweet Chili Paste 4 x 4200 Grams",
+        "Brand": "Burcu",
+        "Unit": "pcs",
+        "visible": true,
+        "sourceEvidence": "Creator exact-ID read only; pack-to-unit conversion not independently corroborated"
+      }
+    ],
+    "verifiedFieldDeltas": 0,
+    "candidateChangedIdsOnly": true,
+    "creatorConnectorCallsObserved": 4,
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
-    "catalystReadOnlyDiscovery": "ZCQL tool/schema inspected; query not executed because project/org IDs were not independently resolved in this run",
-    "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows (prior observation only)",
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and latest issue comments",
-      "GitHub draft PR #23 metadata"
+      "GitHub issue #27 body and issue comments",
+      "GitHub issue #36 and batch 08 evidence"
     ],
-    "qaIssue27Status": "NO-GO: no new authenticated acceptance receipt; PR #23 remains OPEN/DRAFT and not deployed",
+    "qaIssue27Status": "NO-GO: no authenticated checkout/RTL/price isolation/confirm-once receipts found",
     "watermarkAdvanced": false,
     "financialOrCatalogWrites": 0,
-    "limitations": "All three bounded modified records are the previously documented Batch 19 brand corrections. This filter does not establish complete change capture. Modified_Time is not exposed per record; criteria timezone/boundary and webhook completeness remain unverified. No Catalyst ZCQL query this run."
+    "limitations": "Two extra records appeared in the same Modified_Time filter compared with previous run. Their exact IDs/SKUs/fields are verified now, but no historical field-level snapshot or per-record Modified_Time is exposed to prove which fields changed or event timing. Existing brand Fazco may reflect supplier for Maza Jawahir, and Burcu 4x4200g has Unit pcs; do not alter without manufacturer/pack verification. No cross-system ACK, gateway/rollback, or webhook auth proof."
   },
   "incrementalObservationHistory": [
     {
@@ -205,6 +235,72 @@
       "watermarkAdvanced": false,
       "financialOrCatalogWrites": 0,
       "limitations": "All three bounded modified records are the previously documented Batch 19 brand corrections. This filter does not establish complete change capture. Modified_Time is not exposed per record; criteria timezone/boundary and webhook completeness remain unverified. No Catalyst ZCQL query this run."
+    },
+    {
+      "observedAtLocal": "2026-10-28T11:51:32+03:00",
+      "date": "2026-10-28",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (Creator code 3000), versus 3 in the prior identical bounded criteria; no record_cursor returned",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "creatorPreviouslyObservedIds": [
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069"
+      ],
+      "newlyObservedWithinSameCriteriaIds": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "newlyObservedSKUs": [
+        "SKU-230905023326",
+        "CR1878"
+      ],
+      "newlyObservedManifestBatch": 8,
+      "exactIdReadbackBoth": true,
+      "identityNotes": [
+        {
+          "ID": "4278439000001256016",
+          "SKU": "SKU-230905023326",
+          "product": "Maza Jawahir Basmati Rice 40 kg",
+          "Brand": "Fazco",
+          "Unit": "bag",
+          "visible": true,
+          "sourceEvidence": "Creator exact-ID read only; manufacturer/brand provenance not independently corroborated"
+        },
+        {
+          "ID": "4278439000001215030",
+          "SKU": "CR1878",
+          "product": "Burcu Sweet Chili Paste 4 x 4200 Grams",
+          "Brand": "Burcu",
+          "Unit": "pcs",
+          "visible": true,
+          "sourceEvidence": "Creator exact-ID read only; pack-to-unit conversion not independently corroborated"
+        }
+      ],
+      "verifiedFieldDeltas": 0,
+      "candidateChangedIdsOnly": true,
+      "creatorConnectorCallsObserved": 4,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and issue comments",
+        "GitHub issue #36 and batch 08 evidence"
+      ],
+      "qaIssue27Status": "NO-GO: no authenticated checkout/RTL/price isolation/confirm-once receipts found",
+      "watermarkAdvanced": false,
+      "financialOrCatalogWrites": 0,
+      "limitations": "Two extra records appeared in the same Modified_Time filter compared with previous run. Their exact IDs/SKUs/fields are verified now, but no historical field-level snapshot or per-record Modified_Time is exposed to prove which fields changed or event timing. Existing brand Fazco may reflect supplier for Maza Jawahir, and Burcu 4x4200g has Unit pcs; do not alter without manufacturer/pack verification. No cross-system ACK, gateway/rollback, or webhook auth proof."
     }
+  ],
+  "pendingCandidateCreatorIds": [
+    "4278439000001256016",
+    "4278439000001215030"
   ]
 }
