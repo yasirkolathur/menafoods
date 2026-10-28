@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Resolve exact physical packaging/label identity for two Batch 8 candidates (rice Maza Jawahir/Fazco vs Al Jawahir, Burcu Sweet Chili vs mild pepper paste 4x4200g); avoid SKU/barcode/UOM inference. Continue overlapping bounded Modified_Time filters and exact-ID checks, keep watermark null and checkout/cross-system writes NO-GO until authoritative change feed, native sync, gateway/rollback, webhook auth, ACK and authenticated issue #27 QA evidence exist.",
+  "nextAction": "Keep overlapping bounded Creator Modified_Time filters; exact-ID fetch only new candidates. Await exact packaging/label evidence for two Batch 8 candidates. Do not advance watermark, change financial fields, publish images, or enable cross-system writes without verified native sync, deployed gateway+rollback, signed webhooks, ACK and authenticated issue #27 QA.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,13 +72,12 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-28T12:48:06+03:00",
-    "observedAtUTC": "2026-10-28T09:48:06.882Z",
-    "date": "2026-10-28",
+    "observedAtLocal": "2026-10-28T13:48:02+03:00",
+    "observedAtUTC": "2026-10-28T10:48:02.731Z",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-    "creatorResult": "5 records returned (code 3000), no record_cursor; same 5 IDs as preceding checkpoint; exact-ID reads of both candidates successful",
+    "creatorResult": "5 records returned (Creator code 3000); no record_cursor; same 5 Creator IDs as previous checkpoint",
     "creatorReturnedIds": [
       "4278439000001256016",
       "4278439000006031019",
@@ -87,55 +86,25 @@
       "4278439000001215030"
     ],
     "newlyObservedIdsComparedToPreviousRun": [],
-    "candidateIdsReviewed": [
+    "pendingIdentityCandidatesRetained": [
       "4278439000001256016",
       "4278439000001215030"
-    ],
-    "candidateReview": [
-      {
-        "creatorId": "4278439000001256016",
-        "sku": "SKU-230905023326",
-        "creatorName": "Maza Jawahir Basmati Rice 40 kg",
-        "creatorBrand": "Fazco",
-        "creatorUnit": "bag",
-        "creatorSupplier": "Awais Fazco",
-        "creatorBooksId": "4886172000000143906",
-        "storefrontFlag": "Yes",
-        "assessment": "Supplier Fazco publishes Al Jawahir 40kg under Al Jawahir brand, but Maza Jawahir record is not independently proven to be that exact packaging. Current Brand=Fazco may be supplier attribution. Product identity unresolved; no edit.",
-        "sourceUrls": [
-          "https://fazco.co/product/ruz-al-jawahir-indian-basmati-sella-rice-40kg/",
-          "https://fazco.co/brand/al-jawahir/"
-        ]
-      },
-      {
-        "creatorId": "4278439000001215030",
-        "sku": "CR1878",
-        "creatorName": "Burcu Sweet Chili Paste 4 x 4200 Grams",
-        "creatorBrand": "Burcu",
-        "creatorUnit": "pcs",
-        "creatorSupplier": "rdt cold store",
-        "creatorBooksId": "4886172000001523904",
-        "storefrontFlag": "Yes",
-        "assessment": "Burcu manufacturer confirms 4200g x 4 carton for 'Pepper Paste Mild' but this is not proven identical to Creator 'Sweet Chili Paste'. Creator pcs may mean each jar, not carton; SKU/label needed before unit or pack conversion. No barcode inferred or written.",
-        "sourceUrls": [
-          "https://www.burcu.com.tr/en/product/burcu-sweet-pepper-paste-1-4200/"
-        ]
-      }
     ],
     "verifiedFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 3,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "catalystOutboxCheckedThisRun": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and latest issue comments (through 2026-10-27)"
+      "GitHub issue #27 and its latest 2026-10-27 comment",
+      "GitHub issue #36 and latest 2026-10-28 checkpoint comment"
     ],
-    "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, pricing isolation, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once receipts verified",
+    "qaIssue27Status": "NO-GO; no new authenticated QA receipts; historical Books SO mapping collision and effective pricing/warehouse/OAuth issues remain unresolved",
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "Creator Modified_Time is criteria-filterable but not returned per record; event ordering, timezone boundaries, and completeness unverified. Exact manufacturer/variant identity of both candidate records unresolved. No deployed gateway/rollback, native Books-Inventory-Commerce sync, webhook auth, or cross-system ACK verification; duplicate-active IDs remain blocked."
+    "limitations": "Modified_Time not returned per record; no proven timezone/boundary/pagination/event completeness. Five matching IDs do not establish a complete change feed. Two candidates require exact label/pack proof. Gateway/rollback, native sync, webhook auth, ACK and authenticated checkout evidence remain unverified."
   },
   "incrementalObservationHistory": [
     {
@@ -367,6 +336,41 @@
       "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, pricing isolation, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once receipts verified",
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "Creator Modified_Time is criteria-filterable but not returned per record; event ordering, timezone boundaries, and completeness unverified. Exact manufacturer/variant identity of both candidate records unresolved. No deployed gateway/rollback, native Books-Inventory-Commerce sync, webhook auth, or cross-system ACK verification; duplicate-active IDs remain blocked."
+    },
+    {
+      "observedAtLocal": "2026-10-28T13:48:02+03:00",
+      "observedAtUTC": "2026-10-28T10:48:02.731Z",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
+      "creatorResult": "5 records returned (Creator code 3000); no record_cursor; same 5 Creator IDs as previous checkpoint",
+      "creatorReturnedIds": [
+        "4278439000001256016",
+        "4278439000006031019",
+        "4278439000007197021",
+        "4278439000006032069",
+        "4278439000001215030"
+      ],
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "pendingIdentityCandidatesRetained": [
+        "4278439000001256016",
+        "4278439000001215030"
+      ],
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "catalystOutboxCheckedThisRun": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 and its latest 2026-10-27 comment",
+        "GitHub issue #36 and latest 2026-10-28 checkpoint comment"
+      ],
+      "qaIssue27Status": "NO-GO; no new authenticated QA receipts; historical Books SO mapping collision and effective pricing/warehouse/OAuth issues remain unresolved",
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Modified_Time not returned per record; no proven timezone/boundary/pagination/event completeness. Five matching IDs do not establish a complete change feed. Two candidates require exact label/pack proof. Gateway/rollback, native sync, webhook auth, ACK and authenticated checkout evidence remain unverified."
     }
   ],
   "pendingCandidateCreatorIds": [
