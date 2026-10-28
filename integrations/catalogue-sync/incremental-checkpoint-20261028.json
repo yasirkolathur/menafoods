@@ -7,7 +7,7 @@
   "transitionDate": "2026-10-28",
   "creatorSourceWatermark": null,
   "creatorChangeFeedVerified": false,
-  "creatorChangeFeedBlocker": "Products_Books read by ID works; authoritative modified-time field or complete Creator webhook event feed not yet verified. Do not infer no changes from empty outbox.",
+  "creatorChangeFeedBlocker": "Modified_Time criteria now confirmed to return bounded records, but report does not expose per-record Modified_Time; authoritative timestamp/watermark, timezone, pagination completeness and webhook event delivery remain unverified. Do not infer zero Creator changes solely from an empty outbox or a bounded no-match probe.",
   "existingCatalystProject": "menafoodscustomermiddleware",
   "existingTables": {
     "registry": "MF_Product_Sync_Registry",
@@ -15,8 +15,11 @@
   },
   "lastReadOnlyOutboxCheck": {
     "date": "2026-10-28",
+    "environment": "Development",
+    "project": "menafoodscustomermiddleware",
+    "table": "MF_Product_Sync_Outbox",
     "rowsReturned": 0,
-    "nextToken": false
+    "moreRecords": false
   },
   "lastReadOnlyRegistrySample": {
     "sampledRows": 5,
@@ -25,10 +28,45 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Read only existing outbox for trusted Creator IDs; validate event completeness and source timestamp before advancing watermark; exact-ID fetch only; no full snapshot rescan.",
+  "nextAction": "Continue low-API overlapping Modified_Time filtered reads and exact-ID validation; first establish timestamp/timezone, boundary inclusivity, pagination and webhook completeness before advancing source watermark. Reconcile only new verified IDs against registry; no full baseline rescan.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
   "issue": 36,
-  "qaIssue": 27
+  "qaIssue": 27,
+  "creatorModifiedTimeCriteriaSupported": true,
+  "lastCreatorModifiedTimeProbe": {
+    "date": "2026-10-28",
+    "report": "mena.Products_Books",
+    "timezoneAssumption": "Asia/Riyadh (Creator application setting; criteria timezone not independently proven)",
+    "criteria": "Modified_Time >= \"28-Oct-2026 00:00:00\"",
+    "returnedCount": 12,
+    "returnedIds": [
+      "4278439000003681048",
+      "4278439000004899036",
+      "4278439000006031019",
+      "4278439000004906011",
+      "4278439000007197021",
+      "4278439000005642451",
+      "4278439000006032069",
+      "4278439000005821237",
+      "4278439000003199025",
+      "4278439000004935023",
+      "4278439000005354204",
+      "4278439000004479032"
+    ],
+    "allMatchedPersistedBatchCorrections": true,
+    "matchedEvidenceBatches": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "laterWindowCriteria": "Modified_Time >= \"28-Oct-2026 06:00:00\"",
+    "laterWindowResult": "Zoho Creator 9280: no records matching criteria",
+    "modifiedTimeFieldInReturnedRecord": false,
+    "sourceWatermarkAdvanced": false,
+    "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
+  }
 }
