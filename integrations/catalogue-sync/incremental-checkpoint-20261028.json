@@ -28,7 +28,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue low-API overlapping Modified_Time filtered reads and exact-ID validation; first establish timestamp/timezone, boundary inclusivity, pagination and webhook completeness before advancing source watermark. Reconcile only new verified IDs against registry; no full baseline rescan.",
+  "nextAction": "Continue bounded overlapping Modified_Time reads and exact-ID validation only; verify authoritative source watermark, timezone and webhook completeness before advancing cursor. Keep checkout NO-GO and cross-system writes blocked.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -68,5 +68,24 @@
     "modifiedTimeFieldInReturnedRecord": false,
     "sourceWatermarkAdvanced": false,
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
+  },
+  "lastIncrementalObservation": {
+    "date": "2026-10-28",
+    "creatorReport": "mena.Products_Books",
+    "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:30:00\"",
+    "creatorResult": "Zoho Creator 9280: no records matching criteria",
+    "creatorNewVerifiedIds": [],
+    "catalystProject": "menafoodscustomermiddleware",
+    "catalystEnvironment": "Development",
+    "catalystOutboxTable": "MF_Product_Sync_Outbox",
+    "catalystOutboxRows": 0,
+    "creatorExactIdSample": "4278439000003681048",
+    "creatorExactIdSampleHasModifiedTimeField": false,
+    "creatorConnectorCallsObserved": 5,
+    "creatorBillableApiUnits": "unavailable",
+    "qaIssue27Status": "NO-GO",
+    "watermarkAdvanced": false,
+    "financialOrCatalogWrites": 0,
+    "limitations": "Creator Modified_Time is filterable but not exposed in report records. Timezone/boundary, event completeness and pagination not proven. A no-match window and empty outbox do not prove source-wide zero changes."
   }
 }
