@@ -1353,5 +1353,64 @@
     ],
     "readbackIndependent": true,
     "financialOrCreatorWrites": 0
+  },
+  "manufacturerResearchCandidates": [
+    {
+      "creatorId": "4278439000009981047",
+      "sku": "SKU-3543",
+      "creatorName": "Lamb Weston Onion Rings 6 x 1 kg",
+      "manufacturerSources": [
+        "https://lambweston.eu/emea/product/crispy-onion-rings",
+        "https://lambweston.eu/emea/product/battered-onion-rings"
+      ],
+      "finding": "Manufacturer lists at least two distinct onion-ring preparations; no matching exact 6 x 1 kg pack identifier verified.",
+      "status": "EXACT_VARIANT_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-29"
+    },
+    {
+      "creatorId": "4278439000009981054",
+      "sku": "SKU-3544",
+      "creatorName": "Americana Prawns Tail Off 10 x 1 kg",
+      "manufacturerSources": [
+        "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-tail-on-1000g/",
+        "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-zingz-1000g/"
+      ],
+      "finding": "Official 10 x 1 kg shrimp listings describe distinct Tail On and Zingz products; neither establishes identity of Creator 'Prawns Tail Off'. Do not transfer their product code or storage claim.",
+      "status": "EXACT_VARIANT_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-29"
+    },
+    {
+      "creatorId": "4278439000009981089",
+      "sku": "SKU-3549",
+      "creatorName": "Suntop Juice Big 30 x 250 ml",
+      "manufacturerSources": [
+        "https://www.suntop.com/products/suntop-mango-rtd-250-ml/",
+        "https://www.suntop.com/products/suntop-orange-rtd-250-ml/"
+      ],
+      "finding": "Manufacturer confirms 250 ml products in multiple flavors; Creator name omits flavor and manufacturer pages do not prove 30-pack case. Exact product/Arabic variant not identified.",
+      "status": "FLAVOR_AND_PACK_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-29"
+    }
+  ],
+  "lastResearchOnlyObservation": {
+    "date": "2026-10-29",
+    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
+    "creatorResult": "2 records, Creator code 3000, no cursor; same two IDs as preceding checkpoint",
+    "creatorReturnedIds": [
+      "4278439000000104184",
+      "4278439000007206019"
+    ],
+    "newCreatorIds": 0,
+    "verifiedFieldDeltas": 0,
+    "manufacturerSourceCandidatesReviewed": 3,
+    "verifiedExactProductMatches": 0,
+    "creatorConnectorCallsObserved": 1,
+    "billableApiUnits": "unavailable",
+    "creatorWrites": 0,
+    "financialWrites": 0,
+    "imagesPublished": 0,
+    "crossSystemWrites": 0,
+    "checkoutStatus": "NO-GO",
+    "sourceWatermarkAdvanced": false
   }
 }
