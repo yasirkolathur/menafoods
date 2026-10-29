@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Low-API bounded overlapping Creator Modified_Time filter, exact-ID verify only new candidate IDs; reconcile CR1450 and SKU-3381 only against historical field evidence; preserve source watermark null and all sync/checkout holds.",
+  "nextAction": "Continue low-API bounded overlapping Creator Modified_Time checks and exact-ID only for new candidate IDs; preserve 14 baseline change candidates and 13 unpublished new SKUs. Reconcile field deltas only with authoritative before/after evidence; checkout remains NO-GO and cross-system writes blocked.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,48 +72,35 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-29T09:46:05+03:00",
-    "timeSource": "scheduled run start, not Creator record Modified_Time",
+    "observedAtLocal": "2026-10-29T11:54:11+03:00",
+    "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
-    "creatorResult": "2 records returned, Creator code 3000, no record_cursor; exact-ID re-read matched",
+    "creatorResult": "3 records returned (Creator code 3000), no record_cursor; prior identical bounded query returned 2",
     "creatorReturnedIds": [
+      "4278439000009746004",
       "4278439000000104184",
       "4278439000007206019"
+    ],
+    "newlyObservedBaselineChangeCandidates": [
+      "4278439000009746004"
     ],
     "baselineManifestMembership": {
-      "4278439000000104184": 4,
-      "4278439000007206019": 19
+      "4278439000009746004": 20
     },
-    "newlyObservedBaselineChangeCandidates": [
-      "4278439000000104184",
-      "4278439000007206019"
-    ],
-    "observedNonfinancialMetadata": [
-      {
-        "id": "4278439000000104184",
-        "sku": "CR1450",
-        "name": "TOTAPURI MANGO PULP PREMIER 16*1 KG",
-        "brand": "Premier",
-        "unit": "ctn",
-        "storefront": "Yes",
-        "arabicFieldHasArabicScript": true,
-        "imageReferences": 2,
-        "source": "Creator exact-ID read; image match and rights not verified"
-      },
-      {
-        "id": "4278439000007206019",
-        "sku": "SKU-3381",
-        "name": "Chicken nugget Excel 1 kg x 10 - Carton",
-        "brand": "EXCEL",
-        "unit": "ctn",
-        "storefront": "Yes",
-        "arabicFieldHasArabicScript": true,
-        "imageReferences": 1,
-        "source": "Creator exact-ID read; image match and rights not verified"
-      }
-    ],
+    "newCandidateExactIdReadback": {
+      "id": "4278439000009746004",
+      "sku": "SKU-3483",
+      "name": "BERTO Butter Blend Unsalted 25 kg (10 x 2.5 kg)",
+      "brand": "BERTO",
+      "unit": "ctn",
+      "arabicField": "بيرتو خليط زبدة غير مملحة 25 كجم (10 × 2.5 كجم)",
+      "category": "Dairy",
+      "imageReferences": 2,
+      "source": "Creator exact-ID read and baseline Batch 20 snapshot; image match/rights unverified"
+    },
+    "baselineBatch20Comparison": "Baseline Batch 20 already records the same ID, SKU, English name, CTN unit, 2 image references and Arabic-name presence; no historical complete field snapshot or per-record Modified_Time to prove any field delta.",
     "verifiedBeforeAfterFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -121,9 +108,10 @@
     "crossSystemWrites": 0,
     "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
-    "creatorSourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; no new authenticated EN/AR, CTN/PCS/KG, private price, VAT, cart, Buy Again, COD/credit or confirm-once receipt verified",
-    "limitations": "Baseline membership proves existing IDs only; no prior per-field snapshot to establish changed values. Creator report omits Modified_Time, so timestamp boundary/timezone/completeness not verified. Existing 13 unpublished products, Arabic defect, 2 identity holds and 4 duplicate-active holds remain."
+    "sourceWatermarkAdvanced": false,
+    "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, customer price/private cost, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts newly established",
+    "holds": "13 new unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
+    "limitations": "Modified_Time absent from returned report; timezone, boundary, event completeness and pagination unverified. Appearance in filter is a change candidate, not a proven changed field."
   },
   "incrementalObservationHistory": [
     {
@@ -1069,6 +1057,48 @@
       "creatorSourceWatermarkAdvanced": false,
       "qaIssue27Status": "NO-GO; no new authenticated EN/AR, CTN/PCS/KG, private price, VAT, cart, Buy Again, COD/credit or confirm-once receipt verified",
       "limitations": "Baseline membership proves existing IDs only; no prior per-field snapshot to establish changed values. Creator report omits Modified_Time, so timestamp boundary/timezone/completeness not verified. Existing 13 unpublished products, Arabic defect, 2 identity holds and 4 duplicate-active holds remain."
+    },
+    {
+      "observedAtLocal": "2026-10-29T11:54:11+03:00",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
+      "creatorResult": "3 records returned (Creator code 3000), no record_cursor; prior identical bounded query returned 2",
+      "creatorReturnedIds": [
+        "4278439000009746004",
+        "4278439000000104184",
+        "4278439000007206019"
+      ],
+      "newlyObservedBaselineChangeCandidates": [
+        "4278439000009746004"
+      ],
+      "baselineManifestMembership": {
+        "4278439000009746004": 20
+      },
+      "newCandidateExactIdReadback": {
+        "id": "4278439000009746004",
+        "sku": "SKU-3483",
+        "name": "BERTO Butter Blend Unsalted 25 kg (10 x 2.5 kg)",
+        "brand": "BERTO",
+        "unit": "ctn",
+        "arabicField": "بيرتو خليط زبدة غير مملحة 25 كجم (10 × 2.5 كجم)",
+        "category": "Dairy",
+        "imageReferences": 2,
+        "source": "Creator exact-ID read and baseline Batch 20 snapshot; image match/rights unverified"
+      },
+      "baselineBatch20Comparison": "Baseline Batch 20 already records the same ID, SKU, English name, CTN unit, 2 image references and Arabic-name presence; no historical complete field snapshot or per-record Modified_Time to prove any field delta.",
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, customer price/private cost, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts newly established",
+      "holds": "13 new unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
+      "limitations": "Modified_Time absent from returned report; timezone, boundary, event completeness and pagination unverified. Appearance in filter is a change candidate, not a proven changed field."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -1088,7 +1118,8 @@
     "4278439000009981117",
     "4278439000009981124",
     "4278439000000104184",
-    "4278439000007206019"
+    "4278439000007206019",
+    "4278439000009746004"
   ],
   "qaFindings": [
     {
@@ -1134,7 +1165,8 @@
     "4278439000000105528",
     "4278439000001454011",
     "4278439000000104184",
-    "4278439000007206019"
+    "4278439000007206019",
+    "4278439000009746004"
   ],
   "incrementalNewProductExactIdAudit": {
     "date": "2026-10-28",
