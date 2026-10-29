@@ -72,46 +72,25 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-29T11:54:11+03:00",
+    "observedAtLocal": "2026-10-30T01:54:56+03:00",
     "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
-    "creatorResult": "3 records returned (Creator code 3000), no record_cursor; prior identical bounded query returned 2",
-    "creatorReturnedIds": [
-      "4278439000009746004",
-      "4278439000000104184",
-      "4278439000007206019"
-    ],
-    "newlyObservedBaselineChangeCandidates": [
-      "4278439000009746004"
-    ],
-    "baselineManifestMembership": {
-      "4278439000009746004": 20
-    },
-    "newCandidateExactIdReadback": {
-      "id": "4278439000009746004",
-      "sku": "SKU-3483",
-      "name": "BERTO Butter Blend Unsalted 25 kg (10 x 2.5 kg)",
-      "brand": "BERTO",
-      "unit": "ctn",
-      "arabicField": "بيرتو خليط زبدة غير مملحة 25 كجم (10 × 2.5 كجم)",
-      "category": "Dairy",
-      "imageReferences": 2,
-      "source": "Creator exact-ID read and baseline Batch 20 snapshot; image match/rights unverified"
-    },
-    "baselineBatch20Comparison": "Baseline Batch 20 already records the same ID, SKU, English name, CTN unit, 2 image references and Arabic-name presence; no historical complete field snapshot or per-record Modified_Time to prove any field delta.",
+    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 12:00:00\"",
+    "creatorResult": "Creator code 9280: no records matching bounded criteria; tool surfaced as INVALID_ARGUMENT with embedded Creator 9280",
+    "creatorReturnedIds": [],
+    "newlyObservedBaselineChangeCandidates": [],
     "verifiedBeforeAfterFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 2,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, customer price/private cost, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts newly established",
-    "holds": "13 new unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
-    "limitations": "Modified_Time absent from returned report; timezone, boundary, event completeness and pagination unverified. Appearance in filter is a change candidate, not a proven changed field."
+    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, unit, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts remain unverified",
+    "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds, cross-system writes disabled",
+    "limitations": "No-match bounded query does not establish global change-feed completeness, exact Modified_Time timezone/boundary, webhook delivery, or pagination. No Creator record edits."
   },
   "incrementalObservationHistory": [
     {
@@ -1099,6 +1078,27 @@
       "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, customer price/private cost, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts newly established",
       "holds": "13 new unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
       "limitations": "Modified_Time absent from returned report; timezone, boundary, event completeness and pagination unverified. Appearance in filter is a change candidate, not a proven changed field."
+    },
+    {
+      "observedAtLocal": "2026-10-30T01:54:56+03:00",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"29-Oct-2026 12:00:00\"",
+      "creatorResult": "Creator code 9280: no records matching bounded criteria; tool surfaced as INVALID_ARGUMENT with embedded Creator 9280",
+      "creatorReturnedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, unit, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts remain unverified",
+      "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds, cross-system writes disabled",
+      "limitations": "No-match bounded query does not establish global change-feed completeness, exact Modified_Time timezone/boundary, webhook delivery, or pagination. No Creator record edits."
     }
   ],
   "pendingCandidateCreatorIds": [
