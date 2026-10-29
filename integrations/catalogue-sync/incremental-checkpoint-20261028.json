@@ -72,12 +72,12 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-29T03:53:28+03:00",
-    "timeSource": "automation run context; not Creator record timestamp",
+    "observedAtLocal": "2026-10-29T04:54:48+03:00",
+    "timeSource": "automation run context; not authoritative Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
-    "creatorResult": "Creator 9280: no records matching criteria (connector raised error); not proof of complete change feed",
+    "creatorCriteria": "Modified_Time >= \"28-Oct-2026 23:00:00\"",
+    "creatorResult": "Creator 9280: no records matching criteria (connector raised error); not proof of change-feed completeness",
     "newlyObservedIdsComparedToPreviousRun": [],
     "pendingIncrementalNewCreatorIdsRetained": 13,
     "pendingIncrementalBaselineChangeCandidatesRetained": 11,
@@ -88,9 +88,9 @@
     "crossSystemWrites": 0,
     "creatorConnectorCallsAttempted": 1,
     "creatorBillableApiUnits": "unavailable",
-    "qaIssue27Status": "NO-GO; issue #27 still has 19 comments, no new authenticated checkout acceptance evidence",
+    "qaIssue27Status": "NO-GO; GitHub issue #27 still open, 19 comments, last updated 2026-10-28T13:48:20Z; no newly recorded authenticated checkout acceptance",
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "No authoritative Creator Modified_Time field, timezone/completeness proof; preserve 13 unpublished SKUs, SKU-3334 AR defect, two identity holds and four duplicate-active holds. No edits."
+    "limitations": "Creator Modified_Time omitted from records; timezone, pagination/change-feed completeness unverified. 13 unpublished new SKUs, SKU-3334 Arabic locale defect, two identity holds and four duplicate-active holds remain. No edits."
   },
   "incrementalObservationHistory": [
     {
@@ -961,6 +961,27 @@
       "qaIssue27Status": "NO-GO; issue #27 still has 19 comments, no new authenticated checkout acceptance evidence",
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "No authoritative Creator Modified_Time field, timezone/completeness proof; preserve 13 unpublished SKUs, SKU-3334 AR defect, two identity holds and four duplicate-active holds. No edits."
+    },
+    {
+      "observedAtLocal": "2026-10-29T04:54:48+03:00",
+      "timeSource": "automation run context; not authoritative Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 23:00:00\"",
+      "creatorResult": "Creator 9280: no records matching criteria (connector raised error); not proof of change-feed completeness",
+      "newlyObservedIdsComparedToPreviousRun": [],
+      "pendingIncrementalNewCreatorIdsRetained": 13,
+      "pendingIncrementalBaselineChangeCandidatesRetained": 11,
+      "verifiedFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsAttempted": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "qaIssue27Status": "NO-GO; GitHub issue #27 still open, 19 comments, last updated 2026-10-28T13:48:20Z; no newly recorded authenticated checkout acceptance",
+      "creatorSourceWatermarkAdvanced": false,
+      "limitations": "Creator Modified_Time omitted from records; timezone, pagination/change-feed completeness unverified. 13 unpublished new SKUs, SKU-3334 Arabic locale defect, two identity holds and four duplicate-active holds remain. No edits."
     }
   ],
   "pendingCandidateCreatorIds": [
