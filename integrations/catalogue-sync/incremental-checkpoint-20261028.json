@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue low-API bounded overlapping Creator Modified_Time filters, exact-ID only for newly observed IDs; 13 unpublished SKUs require independently verified metadata and Arabic copy; watermark null; no financial or cross-system writes before issue #27 release gates and ACK receipts.",
+  "nextAction": "Low-API bounded overlapping Creator Modified_Time filter, exact-ID verify only new candidate IDs; reconcile CR1450 and SKU-3381 only against historical field evidence; preserve source watermark null and all sync/checkout holds.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,25 +72,58 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-29T04:54:48+03:00",
-    "timeSource": "automation run context; not authoritative Creator Modified_Time",
+    "observedAtLocal": "2026-10-29T09:46:05+03:00",
+    "timeSource": "scheduled run start, not Creator record Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"28-Oct-2026 23:00:00\"",
-    "creatorResult": "Creator 9280: no records matching criteria (connector raised error); not proof of change-feed completeness",
-    "newlyObservedIdsComparedToPreviousRun": [],
-    "pendingIncrementalNewCreatorIdsRetained": 13,
-    "pendingIncrementalBaselineChangeCandidatesRetained": 11,
-    "verifiedFieldDeltas": 0,
+    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
+    "creatorResult": "2 records returned, Creator code 3000, no record_cursor; exact-ID re-read matched",
+    "creatorReturnedIds": [
+      "4278439000000104184",
+      "4278439000007206019"
+    ],
+    "baselineManifestMembership": {
+      "4278439000000104184": 4,
+      "4278439000007206019": 19
+    },
+    "newlyObservedBaselineChangeCandidates": [
+      "4278439000000104184",
+      "4278439000007206019"
+    ],
+    "observedNonfinancialMetadata": [
+      {
+        "id": "4278439000000104184",
+        "sku": "CR1450",
+        "name": "TOTAPURI MANGO PULP PREMIER 16*1 KG",
+        "brand": "Premier",
+        "unit": "ctn",
+        "storefront": "Yes",
+        "arabicFieldHasArabicScript": true,
+        "imageReferences": 2,
+        "source": "Creator exact-ID read; image match and rights not verified"
+      },
+      {
+        "id": "4278439000007206019",
+        "sku": "SKU-3381",
+        "name": "Chicken nugget Excel 1 kg x 10 - Carton",
+        "brand": "EXCEL",
+        "unit": "ctn",
+        "storefront": "Yes",
+        "arabicFieldHasArabicScript": true,
+        "imageReferences": 1,
+        "source": "Creator exact-ID read; image match and rights not verified"
+      }
+    ],
+    "verifiedBeforeAfterFieldDeltas": 0,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsAttempted": 1,
+    "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
-    "qaIssue27Status": "NO-GO; GitHub issue #27 still open, 19 comments, last updated 2026-10-28T13:48:20Z; no newly recorded authenticated checkout acceptance",
     "creatorSourceWatermarkAdvanced": false,
-    "limitations": "Creator Modified_Time omitted from records; timezone, pagination/change-feed completeness unverified. 13 unpublished new SKUs, SKU-3334 Arabic locale defect, two identity holds and four duplicate-active holds remain. No edits."
+    "qaIssue27Status": "NO-GO; no new authenticated EN/AR, CTN/PCS/KG, private price, VAT, cart, Buy Again, COD/credit or confirm-once receipt verified",
+    "limitations": "Baseline membership proves existing IDs only; no prior per-field snapshot to establish changed values. Creator report omits Modified_Time, so timestamp boundary/timezone/completeness not verified. Existing 13 unpublished products, Arabic defect, 2 identity holds and 4 duplicate-active holds remain."
   },
   "incrementalObservationHistory": [
     {
@@ -982,6 +1015,60 @@
       "qaIssue27Status": "NO-GO; GitHub issue #27 still open, 19 comments, last updated 2026-10-28T13:48:20Z; no newly recorded authenticated checkout acceptance",
       "creatorSourceWatermarkAdvanced": false,
       "limitations": "Creator Modified_Time omitted from records; timezone, pagination/change-feed completeness unverified. 13 unpublished new SKUs, SKU-3334 Arabic locale defect, two identity holds and four duplicate-active holds remain. No edits."
+    },
+    {
+      "observedAtLocal": "2026-10-29T09:46:05+03:00",
+      "timeSource": "scheduled run start, not Creator record Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
+      "creatorResult": "2 records returned, Creator code 3000, no record_cursor; exact-ID re-read matched",
+      "creatorReturnedIds": [
+        "4278439000000104184",
+        "4278439000007206019"
+      ],
+      "baselineManifestMembership": {
+        "4278439000000104184": 4,
+        "4278439000007206019": 19
+      },
+      "newlyObservedBaselineChangeCandidates": [
+        "4278439000000104184",
+        "4278439000007206019"
+      ],
+      "observedNonfinancialMetadata": [
+        {
+          "id": "4278439000000104184",
+          "sku": "CR1450",
+          "name": "TOTAPURI MANGO PULP PREMIER 16*1 KG",
+          "brand": "Premier",
+          "unit": "ctn",
+          "storefront": "Yes",
+          "arabicFieldHasArabicScript": true,
+          "imageReferences": 2,
+          "source": "Creator exact-ID read; image match and rights not verified"
+        },
+        {
+          "id": "4278439000007206019",
+          "sku": "SKU-3381",
+          "name": "Chicken nugget Excel 1 kg x 10 - Carton",
+          "brand": "EXCEL",
+          "unit": "ctn",
+          "storefront": "Yes",
+          "arabicFieldHasArabicScript": true,
+          "imageReferences": 1,
+          "source": "Creator exact-ID read; image match and rights not verified"
+        }
+      ],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorSourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no new authenticated EN/AR, CTN/PCS/KG, private price, VAT, cart, Buy Again, COD/credit or confirm-once receipt verified",
+      "limitations": "Baseline membership proves existing IDs only; no prior per-field snapshot to establish changed values. Creator report omits Modified_Time, so timestamp boundary/timezone/completeness not verified. Existing 13 unpublished products, Arabic defect, 2 identity holds and 4 duplicate-active holds remain."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -999,7 +1086,9 @@
     "4278439000009981103",
     "4278439000009981110",
     "4278439000009981117",
-    "4278439000009981124"
+    "4278439000009981124",
+    "4278439000000104184",
+    "4278439000007206019"
   ],
   "qaFindings": [
     {
@@ -1043,7 +1132,9 @@
     "4278439000002482015",
     "4278439000000106182",
     "4278439000000105528",
-    "4278439000001454011"
+    "4278439000001454011",
+    "4278439000000104184",
+    "4278439000007206019"
   ],
   "incrementalNewProductExactIdAudit": {
     "date": "2026-10-28",
