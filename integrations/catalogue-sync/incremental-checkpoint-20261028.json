@@ -72,25 +72,37 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T01:54:56+03:00",
+    "observedAtLocal": "2026-10-30T02:51:04+03:00",
     "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"29-Oct-2026 12:00:00\"",
-    "creatorResult": "Creator code 9280: no records matching bounded criteria; tool surfaced as INVALID_ARGUMENT with embedded Creator 9280",
+    "creatorResult": "Creator 9280: no records matching bounded criteria; returned as INVALID_ARGUMENT",
     "creatorReturnedIds": [],
-    "newlyObservedBaselineChangeCandidates": [],
+    "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
+    "creatorConnectorCallsObserved": 2,
+    "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 1,
-    "creatorBillableApiUnits": "unavailable",
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, unit, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts remain unverified",
+    "sourceResearch": {
+      "sku": "SKU-3550",
+      "creatorId": "4278439000009981096",
+      "exactIdReadback": "B Cola Medium 30 x 230 ml, Brand B Cola, Unit ctn, Arabic name blank, category empty, images empty",
+      "brandOwnerSource": "https://www.mscc.com.sa/en/our-businesses/food-and-beverages/bcola",
+      "brandOwnerEvidence": "Mahmood Saeed Company Limited identifies Bcola as one of its food-and-beverages brands; page does not verify 230ml or 30-pack",
+      "independentPackEvidence": [
+        "https://panda.sa/ar/p/142272.%D8%A8%D9%8A-%D9%83%D9%88%D9%84%D8%A7-%D8%B9%D9%84%D8%A8-30250-%D9%85%D9%84",
+        "https://carton.sa/en/product-detail/economic-food-trading/b-cola-can-30250ml"
+      ],
+      "conclusion": "230ml Creator variant remains unverified against seller listings of 30x250ml. Do not silently correct, translate, add GTIN, or publish."
+    },
+    "qaIssue27Status": "NO-GO; no new authenticated EN/AR, VAT, price/cost, unit, cart, Buy Again, COD/credit or confirm-once checkout receipts",
     "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds, cross-system writes disabled",
-    "limitations": "No-match bounded query does not establish global change-feed completeness, exact Modified_Time timezone/boundary, webhook delivery, or pagination. No Creator record edits."
+    "limitations": "No-match filter does not prove source change-feed completeness; no exact Modified_Time timestamps, timezone/boundary or webhook ACK verification."
   },
   "incrementalObservationHistory": [
     {
@@ -1099,6 +1111,39 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, unit, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts remain unverified",
       "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds, cross-system writes disabled",
       "limitations": "No-match bounded query does not establish global change-feed completeness, exact Modified_Time timezone/boundary, webhook delivery, or pagination. No Creator record edits."
+    },
+    {
+      "observedAtLocal": "2026-10-30T02:51:04+03:00",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"29-Oct-2026 12:00:00\"",
+      "creatorResult": "Creator 9280: no records matching bounded criteria; returned as INVALID_ARGUMENT",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "sourceResearch": {
+        "sku": "SKU-3550",
+        "creatorId": "4278439000009981096",
+        "exactIdReadback": "B Cola Medium 30 x 230 ml, Brand B Cola, Unit ctn, Arabic name blank, category empty, images empty",
+        "brandOwnerSource": "https://www.mscc.com.sa/en/our-businesses/food-and-beverages/bcola",
+        "brandOwnerEvidence": "Mahmood Saeed Company Limited identifies Bcola as one of its food-and-beverages brands; page does not verify 230ml or 30-pack",
+        "independentPackEvidence": [
+          "https://panda.sa/ar/p/142272.%D8%A8%D9%8A-%D9%83%D9%88%D9%84%D8%A7-%D8%B9%D9%84%D8%A8-30250-%D9%85%D9%84",
+          "https://carton.sa/en/product-detail/economic-food-trading/b-cola-can-30250ml"
+        ],
+        "conclusion": "230ml Creator variant remains unverified against seller listings of 30x250ml. Do not silently correct, translate, add GTIN, or publish."
+      },
+      "qaIssue27Status": "NO-GO; no new authenticated EN/AR, VAT, price/cost, unit, cart, Buy Again, COD/credit or confirm-once checkout receipts",
+      "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds, cross-system writes disabled",
+      "limitations": "No-match filter does not prove source change-feed completeness; no exact Modified_Time timestamps, timezone/boundary or webhook ACK verification."
     }
   ],
   "pendingCandidateCreatorIds": [
