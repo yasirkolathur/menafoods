@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue bounded low-API change-filter and exact-ID checks; SKU-3334 Arabic label/variant still unverified; maintain NO-GO and no cross-system writes pending source+rollback, webhook auth and ACK, and issue #27 authenticated checkout evidence.",
+  "nextAction": "Continue overlapping bounded change-filter and exact-ID checks; do not advance source watermark or enable cross-system writes until source, rollback, webhook authentication, native sync and ACK evidence exist; authenticated issue #27 QA remains NO-GO.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,51 +72,28 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T09:51:55+03:00",
-    "timeSource": "scheduled execution context; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T10:48:26+03:00",
+    "timeSource": "automation run context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 06:00:00\"",
-    "creatorResult": "Creator code 3000: 1 record; no cursor returned",
+    "creatorResult": "Creator code 3000: 1 previously tracked record, no cursor returned",
     "creatorReturnedIds": [
       "4278439000002826011"
     ],
-    "newlyObservedBaselineChangeCandidates": [
-      "4278439000002826011"
-    ],
-    "baselineManifestMembership": {
-      "4278439000002826011": 14
-    },
-    "exactIdReadback": {
-      "id": "4278439000002826011",
-      "sku": "SKU-2896",
-      "name": "Kamil Frozen Beef Forequarters Roll 4 x 4.5kg",
-      "brand": "KAMIL",
-      "unit": "box",
-      "arabicField": "لفائف أرباع لحم البقر المجمدة من كاميل 4 × 4.5 كجم",
-      "category": "Meat",
-      "storefront": "Yes",
-      "imageReferences": 2
-    },
-    "sourceResearch": {
-      "status": "NO_EXACT_BRAND_PACK_MATCH",
-      "sources": [
-        "https://www.economicfood.sa/shop/beef-forequarter-roll-india-4-4-5kg-16372",
-        "https://carton.sa/public/index.php/en/product-detail/economic-food-trading/beef-fore-quarter-roll-india-445kg"
-      ],
-      "finding": "Third-party sellers list generic Indian beef forequarter roll 4x4.5kg, but neither verifies KAMIL brand, exact SKU, label or image rights. No metadata edit justified."
-    },
+    "newlyObservedIds": [],
+    "newlyObservedBaselineChangeCandidates": [],
     "verifiedBeforeAfterFieldDeltas": 0,
+    "creatorConnectorCallsObserved": 1,
+    "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
-    "creatorConnectorCallsObserved": 2,
-    "creatorBillableApiUnits": "unavailable",
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer-price/private-cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once evidence not established",
+    "qaIssue27Status": "NO-GO; GitHub issue #27 still lacks authenticated EN/AR RTL, image rights, CTN/PCS/KG, price/cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once acceptance receipts",
     "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
-    "limitations": "Baseline Batch 14 has ID only, not complete historical field values or per-record Modified_Time; filter inclusion is a change candidate, not proof of a field delta. Timezone, pagination and change-feed completeness unverified."
+    "limitations": "Repeat of known SKU-2896/Creator ID only. Filter inclusion is not a proven field delta. Modified_Time absent from returned fields; timezone, boundaries, completeness and pagination unverified. No authenticated QA environment exercised."
   },
   "incrementalObservationHistory": [
     {
@@ -1178,6 +1155,30 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer-price/private-cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once evidence not established",
       "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
       "limitations": "Baseline Batch 14 has ID only, not complete historical field values or per-record Modified_Time; filter inclusion is a change candidate, not proof of a field delta. Timezone, pagination and change-feed completeness unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-30T10:48:26+03:00",
+      "timeSource": "automation run context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 06:00:00\"",
+      "creatorResult": "Creator code 3000: 1 previously tracked record, no cursor returned",
+      "creatorReturnedIds": [
+        "4278439000002826011"
+      ],
+      "newlyObservedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; GitHub issue #27 still lacks authenticated EN/AR RTL, image rights, CTN/PCS/KG, price/cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once acceptance receipts",
+      "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
+      "limitations": "Repeat of known SKU-2896/Creator ID only. Filter inclusion is not a proven field delta. Modified_Time absent from returned fields; timezone, boundaries, completeness and pagination unverified. No authenticated QA environment exercised."
     }
   ],
   "pendingCandidateCreatorIds": [
