@@ -72,12 +72,12 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T05:50:34+03:00",
+    "observedAtLocal": "2026-10-30T06:45:35+03:00",
     "timeSource": "scheduled run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 18:00:00\"",
-    "creatorResult": "Creator code 9280: no matching records; connector surfaced INVALID_ARGUMENT",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 00:00:00\"",
+    "creatorResult": "Creator code 9280: no records matching criteria; connector raised INVALID_ARGUMENT",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
@@ -88,176 +88,11 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaEvidenceChecked": "GitHub issue #27 comments (21); no newly supplied authenticated acceptance receipt",
-    "qaIssue27Status": "NO-GO: authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts unavailable",
+    "qaIssue27Status": "NO-GO; no new authenticated acceptance receipts obtained in this run",
     "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
-    "limitations": "No-match bounded filter does not establish complete change feed; per-record Modified_Time, timezone/boundary, pagination and webhook ACK remain unverified."
+    "limitations": "Bounded no-match is not proof of change-feed completeness. Creator Modified_Time absent from report, source timezone/boundary/pagination and webhook ACK unverified."
   },
   "incrementalObservationHistory": [
-    {
-      "date": "2026-10-28",
-      "creatorReport": "mena.Products_Books",
-      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:30:00\"",
-      "creatorResult": "Zoho Creator 9280: no records matching criteria",
-      "creatorNewVerifiedIds": [],
-      "catalystProject": "menafoodscustomermiddleware",
-      "catalystEnvironment": "Development",
-      "catalystOutboxTable": "MF_Product_Sync_Outbox",
-      "catalystOutboxRows": 0,
-      "creatorExactIdSample": "4278439000003681048",
-      "creatorExactIdSampleHasModifiedTimeField": false,
-      "creatorConnectorCallsObserved": 5,
-      "creatorBillableApiUnits": "unavailable",
-      "qaIssue27Status": "NO-GO",
-      "watermarkAdvanced": false,
-      "financialOrCatalogWrites": 0,
-      "limitations": "Creator Modified_Time is filterable but not exposed in report records. Timezone/boundary, event completeness and pagination not proven. A no-match window and empty outbox do not prove source-wide zero changes."
-    },
-    {
-      "observedAtLocal": "2026-10-28T08:54:27+03:00",
-      "date": "2026-10-28",
-      "creatorReport": "mena.Products_Books",
-      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 05:00:00\"",
-      "creatorResult": "Zoho Creator 9280: no records matching criteria",
-      "creatorNewVerifiedIds": [],
-      "creatorConnectorCallsObserved": 2,
-      "creatorBillableApiUnits": "unavailable",
-      "catalystProject": "menafoodscustomermiddleware",
-      "catalystEnvironment": "Development",
-      "catalystOutboxTable": "MF_Product_Sync_Outbox",
-      "catalystOutboxRows": 0,
-      "catalystOutboxQuery": "SELECT * FROM MF_Product_Sync_Outbox LIMIT 10",
-      "catalystOutboxMoreRecords": "not returned (empty ZCQL result)",
-      "qaIssue27Status": "NO-GO",
-      "watermarkAdvanced": false,
-      "financialOrCatalogWrites": 0,
-      "limitations": "No-match bounded Modified_Time filter and empty Development outbox are not authoritative change-feed or end-to-end ACK evidence. Creator Modified_Time field absent from returned records; timezone/boundary/pagination/webhook completeness unverified. Authenticated checkout evidence unavailable."
-    },
-    {
-      "observedAtLocal": "2026-10-28T09:49:16+03:00",
-      "date": "2026-10-28",
-      "creatorReport": "mena.Products_Books",
-      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-      "creatorResult": "3 records returned; no record_cursor in response",
-      "creatorReturnedIds": [
-        "4278439000006031019",
-        "4278439000007197021",
-        "4278439000006032069"
-      ],
-      "creatorMatchedBaselineBatch": 19,
-      "creatorMatchedSKUs": [
-        "SKU-3334",
-        "SKU-3380",
-        "SKU-3335"
-      ],
-      "creatorNewVerifiedIds": [],
-      "creatorConnectorCallsObserved": 4,
-      "creatorBillableApiUnits": "unavailable",
-      "creatorReportMetadataTimezone": "Asia/Riyadh",
-      "creatorCriteriaTimezoneProven": false,
-      "creatorExplicitFieldsRequest": "ID,SKU,Modified_Time",
-      "creatorExplicitFieldsResult": "Modified_Time still absent; full report fields returned",
-      "catalystOutboxCheckedThisRun": false,
-      "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows",
-      "qaIssue27Status": "NO-GO; GitHub issue reviewed; no new authenticated acceptance receipt identified",
-      "watermarkAdvanced": false,
-      "financialOrCatalogWrites": 0,
-      "limitations": "Three returned IDs exactly match persisted Batch 19 brand edits; no evidence of a new changed product in this bounded window. Report timezone metadata is Asia/Riyadh but criteria timezone/boundary and change-feed completeness are not proven. No Catalyst query was made this run. Empty outbox from prior run is not authoritative."
-    },
-    {
-      "observedAtLocal": "2026-10-28T10:52:28.215+03:00",
-      "date": "2026-10-28",
-      "creatorReport": "mena.Products_Books",
-      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-      "creatorResult": "3 records returned (Creator code 3000); no record_cursor supplied",
-      "creatorReturnedIds": [
-        "4278439000006031019",
-        "4278439000007197021",
-        "4278439000006032069"
-      ],
-      "creatorMatchedBaselineBatch": 19,
-      "creatorMatchedSKUs": [
-        "SKU-3334",
-        "SKU-3380",
-        "SKU-3335"
-      ],
-      "creatorNewVerifiedIds": [],
-      "creatorConnectorCallsObserved": 1,
-      "creatorBillableApiUnits": "unavailable",
-      "catalystOutboxCheckedThisRun": false,
-      "catalystReadOnlyDiscovery": "ZCQL tool/schema inspected; query not executed because project/org IDs were not independently resolved in this run",
-      "lastPriorCatalystOutboxObservation": "2026-10-28T08:54:27+03:00, Development, 0 rows (prior observation only)",
-      "qaEvidenceChecked": [
-        "GitHub issue #27 body and latest issue comments",
-        "GitHub draft PR #23 metadata"
-      ],
-      "qaIssue27Status": "NO-GO: no new authenticated acceptance receipt; PR #23 remains OPEN/DRAFT and not deployed",
-      "watermarkAdvanced": false,
-      "financialOrCatalogWrites": 0,
-      "limitations": "All three bounded modified records are the previously documented Batch 19 brand corrections. This filter does not establish complete change capture. Modified_Time is not exposed per record; criteria timezone/boundary and webhook completeness remain unverified. No Catalyst ZCQL query this run."
-    },
-    {
-      "observedAtLocal": "2026-10-28T11:51:32+03:00",
-      "date": "2026-10-28",
-      "creatorReport": "menafoods/mena/Products_Books",
-      "creatorCriteria": "Modified_Time >= \"28-Oct-2026 04:00:00\"",
-      "creatorResult": "5 records returned (Creator code 3000), versus 3 in the prior identical bounded criteria; no record_cursor returned",
-      "creatorReturnedIds": [
-        "4278439000001256016",
-        "4278439000006031019",
-        "4278439000007197021",
-        "4278439000006032069",
-        "4278439000001215030"
-      ],
-      "creatorPreviouslyObservedIds": [
-        "4278439000006031019",
-        "4278439000007197021",
-        "4278439000006032069"
-      ],
-      "newlyObservedWithinSameCriteriaIds": [
-        "4278439000001256016",
-        "4278439000001215030"
-      ],
-      "newlyObservedSKUs": [
-        "SKU-230905023326",
-        "CR1878"
-      ],
-      "newlyObservedManifestBatch": 8,
-      "exactIdReadbackBoth": true,
-      "identityNotes": [
-        {
-          "ID": "4278439000001256016",
-          "SKU": "SKU-230905023326",
-          "product": "Maza Jawahir Basmati Rice 40 kg",
-          "Brand": "Fazco",
-          "Unit": "bag",
-          "visible": true,
-          "sourceEvidence": "Creator exact-ID read only; manufacturer/brand provenance not independently corroborated"
-        },
-        {
-          "ID": "4278439000001215030",
-          "SKU": "CR1878",
-          "product": "Burcu Sweet Chili Paste 4 x 4200 Grams",
-          "Brand": "Burcu",
-          "Unit": "pcs",
-          "visible": true,
-          "sourceEvidence": "Creator exact-ID read only; pack-to-unit conversion not independently corroborated"
-        }
-      ],
-      "verifiedFieldDeltas": 0,
-      "candidateChangedIdsOnly": true,
-      "creatorConnectorCallsObserved": 4,
-      "creatorBillableApiUnits": "unavailable",
-      "catalystOutboxCheckedThisRun": false,
-      "qaEvidenceChecked": [
-        "GitHub issue #27 body and issue comments",
-        "GitHub issue #36 and batch 08 evidence"
-      ],
-      "qaIssue27Status": "NO-GO: no authenticated checkout/RTL/price isolation/confirm-once receipts found",
-      "watermarkAdvanced": false,
-      "financialOrCatalogWrites": 0,
-      "limitations": "Two extra records appeared in the same Modified_Time filter compared with previous run. Their exact IDs/SKUs/fields are verified now, but no historical field-level snapshot or per-record Modified_Time is exposed to prove which fields changed or event timing. Existing brand Fazco may reflect supplier for Maza Jawahir, and Burcu 4x4200g has Unit pcs; do not alter without manufacturer/pack verification. No cross-system ACK, gateway/rollback, or webhook auth proof."
-    },
     {
       "observedAtLocal": "2026-10-28T12:48:06+03:00",
       "observedAtUTC": "2026-10-28T09:48:06.882Z",
@@ -1207,6 +1042,27 @@
       "qaIssue27Status": "NO-GO: authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts unavailable",
       "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
       "limitations": "No-match bounded filter does not establish complete change feed; per-record Modified_Time, timezone/boundary, pagination and webhook ACK remain unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-30T06:45:35+03:00",
+      "timeSource": "scheduled run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 00:00:00\"",
+      "creatorResult": "Creator code 9280: no records matching criteria; connector raised INVALID_ARGUMENT",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no new authenticated acceptance receipts obtained in this run",
+      "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds",
+      "limitations": "Bounded no-match is not proof of change-feed completeness. Creator Modified_Time absent from report, source timezone/boundary/pagination and webhook ACK unverified."
     }
   ],
   "pendingCandidateCreatorIds": [
