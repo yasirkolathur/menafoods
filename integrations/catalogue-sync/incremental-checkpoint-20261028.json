@@ -72,32 +72,31 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T20:55:01.651+03:00",
-    "observedAtUTC": "2026-10-30T17:55:01.651Z",
-    "timeSource": "tool runtime UTC; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T21:55:46.287+03:00",
+    "observedAtUTC": "2026-10-30T18:55:46.287Z",
+    "timeSource": "tool runtime UTC, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
-    "creatorResult": "Creator code 9280: no records found matching criteria (connector surfaced failure; not proof of zero changes or feed completeness)",
+    "creatorResult": "Zoho Creator code 9280 no matching records (connector surfaced failure); no proof of zero source changes or feed completeness",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
-    "newlyObservedBaselineChangeCandidates": [],
+    "verifiedBeforeAfterFieldDeltas": 0,
     "exactIdReadback": [
       {
-        "creatorId": "4278439000009981040",
-        "sku": "SKU-3542",
-        "productName": "Fine Twister Potatoes 4 x 2.5 kg",
-        "brand": "Fine",
+        "creatorId": "4278439000009981047",
+        "sku": "SKU-3543",
+        "productName": "Lamb Weston Onion Rings 6 x 1 kg",
+        "brand": "Lamb Weston",
         "unit": "ctn",
         "translatedName": "",
         "categoryEmpty": true,
         "storefrontFlag": "No",
         "productImagesEmpty": true,
-        "booksItemId": "4886172000053623001",
-        "result": "unchanged; exact manufacturer/variant unverified; no edit"
+        "booksItemId": "4886172000053624001",
+        "result": "unchanged, variant subtype unverified; no edit"
       }
     ],
-    "verifiedBeforeAfterFieldDeltas": 0,
     "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
@@ -105,20 +104,22 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "research": "Manufacturer Lamb Weston offers Twisters; Saudi retail lists Lamb Weston 2.5 kg and trade catalogue 4x2.5 kg, but these are not evidence for Creator Fine-brand SKU-3542. No Fine manufacturer/authorized exact-pack source located; do not substitute brand, Arabic copy, GTIN, storage or image.",
+    "research": "Saudi trade listings support Lamb Weston Onion Rings 6x1kg case and a distributor lists 1kg range, but official manufacturer lists distinct Crispy and Battered onion-ring variants. Creator SKU-3543 does not specify subtype/product code; exact variant, GTIN, image rights and approved Arabic copy are not proven. Keep unpublished; no data substitution.",
     "researchSources": [
-      "https://lambweston.eu/uk/product/twisters/twisters-en-gb",
-      "https://gcc.luluhypermarket.com/en-sa/lamb-weston-crunchy-seasoned-twister-2-5-kg/p/145890/",
-      "https://www.magnafoodservice.co.uk/wp-content/uploads/2024/01/Latest-Magna-Foodservice-Catalogue-2023-E.pdf"
+      "https://lambweston.eu/emea/product/crispy-onion-rings",
+      "https://lambweston.eu/emea/product/battered-onion-rings",
+      "https://almunajemfoods.com/products/lambweston-onion-rings/",
+      "https://onesource.com.sa/ecom/brand/lamb-weston",
+      "https://platraw.com/en/product/prod_01JYW98JP273CC0KR4T4N11KXE"
     ],
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and 21 comments, latest dated 29 Oct 2026",
-      "GitHub issue #36 body and 29 comments, latest dated 30 Oct 2026",
-      "Creator SKU-3542 exact-ID readback"
+      "GitHub issue #27 body and 21 existing comments",
+      "GitHub issue #36 body and 29 existing comments",
+      "Creator SKU-3543 exact-ID readback"
     ],
-    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price vs cost, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts",
+    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts not established",
     "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
-    "limitations": "Creator 9280 no-match is not proof of complete change feed. Per-record Modified_Time, timezone/boundary/pagination, native Books-Inventory-Commerce sync, gateway source/rollback, webhook authentication, destination ACK and authenticated checkout remain unverified."
+    "limitations": "No source Modified_Time per record, timezone/boundary/pagination completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, webhook authentication, end-to-end destination ACK or authenticated checkout proof."
   },
   "incrementalObservationHistory": [
     {
@@ -1477,6 +1478,56 @@
       "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price vs cost, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts",
       "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
       "limitations": "Creator 9280 no-match is not proof of complete change feed. Per-record Modified_Time, timezone/boundary/pagination, native Books-Inventory-Commerce sync, gateway source/rollback, webhook authentication, destination ACK and authenticated checkout remain unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-30T21:55:46.287+03:00",
+      "observedAtUTC": "2026-10-30T18:55:46.287Z",
+      "timeSource": "tool runtime UTC, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+      "creatorResult": "Zoho Creator code 9280 no matching records (connector surfaced failure); no proof of zero source changes or feed completeness",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "exactIdReadback": [
+        {
+          "creatorId": "4278439000009981047",
+          "sku": "SKU-3543",
+          "productName": "Lamb Weston Onion Rings 6 x 1 kg",
+          "brand": "Lamb Weston",
+          "unit": "ctn",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053624001",
+          "result": "unchanged, variant subtype unverified; no edit"
+        }
+      ],
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "research": "Saudi trade listings support Lamb Weston Onion Rings 6x1kg case and a distributor lists 1kg range, but official manufacturer lists distinct Crispy and Battered onion-ring variants. Creator SKU-3543 does not specify subtype/product code; exact variant, GTIN, image rights and approved Arabic copy are not proven. Keep unpublished; no data substitution.",
+      "researchSources": [
+        "https://lambweston.eu/emea/product/crispy-onion-rings",
+        "https://lambweston.eu/emea/product/battered-onion-rings",
+        "https://almunajemfoods.com/products/lambweston-onion-rings/",
+        "https://onesource.com.sa/ecom/brand/lamb-weston",
+        "https://platraw.com/en/product/prod_01JYW98JP273CC0KR4T4N11KXE"
+      ],
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 existing comments",
+        "GitHub issue #36 body and 29 existing comments",
+        "Creator SKU-3543 exact-ID readback"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts not established",
+      "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
+      "limitations": "No source Modified_Time per record, timezone/boundary/pagination completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, webhook authentication, end-to-end destination ACK or authenticated checkout proof."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -1782,9 +1833,15 @@
         "https://lambweston.eu/emea/product/crispy-onion-rings",
         "https://lambweston.eu/emea/product/battered-onion-rings"
       ],
-      "finding": "Manufacturer lists at least two distinct onion-ring preparations; no matching exact 6 x 1 kg pack identifier verified.",
-      "status": "EXACT_VARIANT_UNVERIFIED_NO_EDIT",
-      "researchDate": "2026-10-29"
+      "finding": "Saudi distributor and trade seller support 1kg onion rings / 6x1kg case, but manufacturer distinguishes Crispy vs Battered variants and Creator does not identify which. Exact manufacturer product code, GTIN and approved Arabic/image rights not proven. No edit.",
+      "status": "CASE_SIZE_PARTIALLY_CORROBORATED_VARIANT_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-30",
+      "otherSources": [
+        "https://almunajemfoods.com/products/lambweston-onion-rings/",
+        "https://onesource.com.sa/ecom/brand/lamb-weston",
+        "https://platraw.com/en/product/prod_01JYW98JP273CC0KR4T4N11KXE"
+      ],
+      "creatorExactIdReadback": true
     },
     {
       "creatorId": "4278439000009981054",
