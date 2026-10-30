@@ -72,29 +72,29 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T21:55:46.287+03:00",
-    "observedAtUTC": "2026-10-30T18:55:46.287Z",
-    "timeSource": "tool runtime UTC, not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T22:55:51+03:00",
+    "observedAtUTC": "2026-10-30T19:55:51.579Z",
+    "timeSource": "tool runtime UTC; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
-    "creatorResult": "Zoho Creator code 9280 no matching records (connector surfaced failure); no proof of zero source changes or feed completeness",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
+    "creatorResult": "Creator code 9280 no records matching criteria (connector surfaced failure); cannot infer zero source changes or complete change feed",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
     "exactIdReadback": [
       {
-        "creatorId": "4278439000009981047",
-        "sku": "SKU-3543",
-        "productName": "Lamb Weston Onion Rings 6 x 1 kg",
-        "brand": "Lamb Weston",
+        "creatorId": "4278439000009981054",
+        "sku": "SKU-3544",
+        "productName": "Americana Prawns Tail Off 10 x 1 kg",
+        "brand": "Americana",
         "unit": "ctn",
         "translatedName": "",
         "categoryEmpty": true,
         "storefrontFlag": "No",
         "productImagesEmpty": true,
-        "booksItemId": "4886172000053624001",
-        "result": "unchanged, variant subtype unverified; no edit"
+        "booksItemId": "4886172000053624023",
+        "result": "existing record unchanged; exact tail-off 10x1kg identity unverified; no edit"
       }
     ],
     "creatorConnectorCallsObserved": 2,
@@ -104,22 +104,21 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "research": "Saudi trade listings support Lamb Weston Onion Rings 6x1kg case and a distributor lists 1kg range, but official manufacturer lists distinct Crispy and Battered onion-ring variants. Creator SKU-3543 does not specify subtype/product code; exact variant, GTIN, image rights and approved Arabic copy are not proven. Keep unpublished; no data substitution.",
+    "research": "Americana official catalogue confirms 10x1kg breaded Tail On shrimp (different variant), and Saudi trade listing confirms 10x1kg breaded Americana shrimp without tail-off specificity. Carrefour Saudi lists Americana Tail Off medium/jumbo 400g, not the Creator 10x1kg. Thus exact tail-off 10x1kg manufacturer SKU/GTIN, preparation and pack are not proven. Do not import Tail On code/storage or third-party images.",
     "researchSources": [
-      "https://lambweston.eu/emea/product/crispy-onion-rings",
-      "https://lambweston.eu/emea/product/battered-onion-rings",
-      "https://almunajemfoods.com/products/lambweston-onion-rings/",
-      "https://onesource.com.sa/ecom/brand/lamb-weston",
-      "https://platraw.com/en/product/prod_01JYW98JP273CC0KR4T4N11KXE"
+      "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-tail-on-1000g/",
+      "https://platraw.com/en/product/prod_01JYXQX6W35H3VKP0H7VZK5TB8",
+      "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-medum-shrmp-400g/p/202372",
+      "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-jmbo-shrmp-400g/p/202370"
     ],
     "qaEvidenceChecked": [
       "GitHub issue #27 body and 21 existing comments",
       "GitHub issue #36 body and 29 existing comments",
-      "Creator SKU-3543 exact-ID readback"
+      "Creator SKU-3544 exact-ID readback"
     ],
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts not established",
+    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
     "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
-    "limitations": "No source Modified_Time per record, timezone/boundary/pagination completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, webhook authentication, end-to-end destination ACK or authenticated checkout proof."
+    "limitations": "No Creator per-record Modified_Time, timezone/boundary/pagination/event completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK or authenticated checkout proof."
   },
   "incrementalObservationHistory": [
     {
@@ -1528,6 +1527,55 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once receipts not established",
       "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
       "limitations": "No source Modified_Time per record, timezone/boundary/pagination completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, webhook authentication, end-to-end destination ACK or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-30T22:55:51+03:00",
+      "observedAtUTC": "2026-10-30T19:55:51.579Z",
+      "timeSource": "tool runtime UTC; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
+      "creatorResult": "Creator code 9280 no records matching criteria (connector surfaced failure); cannot infer zero source changes or complete change feed",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "exactIdReadback": [
+        {
+          "creatorId": "4278439000009981054",
+          "sku": "SKU-3544",
+          "productName": "Americana Prawns Tail Off 10 x 1 kg",
+          "brand": "Americana",
+          "unit": "ctn",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053624023",
+          "result": "existing record unchanged; exact tail-off 10x1kg identity unverified; no edit"
+        }
+      ],
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "research": "Americana official catalogue confirms 10x1kg breaded Tail On shrimp (different variant), and Saudi trade listing confirms 10x1kg breaded Americana shrimp without tail-off specificity. Carrefour Saudi lists Americana Tail Off medium/jumbo 400g, not the Creator 10x1kg. Thus exact tail-off 10x1kg manufacturer SKU/GTIN, preparation and pack are not proven. Do not import Tail On code/storage or third-party images.",
+      "researchSources": [
+        "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-tail-on-1000g/",
+        "https://platraw.com/en/product/prod_01JYXQX6W35H3VKP0H7VZK5TB8",
+        "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-medum-shrmp-400g/p/202372",
+        "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-jmbo-shrmp-400g/p/202370"
+      ],
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 existing comments",
+        "GitHub issue #36 body and 29 existing comments",
+        "Creator SKU-3544 exact-ID readback"
+      ],
+      "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
+      "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
+      "limitations": "No Creator per-record Modified_Time, timezone/boundary/pagination/event completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK or authenticated checkout proof."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -1851,9 +1899,15 @@
         "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-tail-on-1000g/",
         "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-zingz-1000g/"
       ],
-      "finding": "Official 10 x 1 kg shrimp listings describe distinct Tail On and Zingz products; neither establishes identity of Creator 'Prawns Tail Off'. Do not transfer their product code or storage claim.",
-      "status": "EXACT_VARIANT_UNVERIFIED_NO_EDIT",
-      "researchDate": "2026-10-29"
+      "finding": "Americana official catalogue confirms 10x1kg breaded Tail On shrimp (different variant), and Saudi trade listing confirms 10x1kg breaded Americana shrimp without tail-off specificity. Carrefour Saudi lists Americana Tail Off medium/jumbo 400g, not the Creator 10x1kg. Thus exact tail-off 10x1kg manufacturer SKU/GTIN, preparation and pack are not proven. Do not import Tail On code/storage or third-party images.",
+      "status": "EXACT_TAIL_OFF_10X1KG_VARIANT_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-30",
+      "otherSources": [
+        "https://platraw.com/en/product/prod_01JYXQX6W35H3VKP0H7VZK5TB8",
+        "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-medum-shrmp-400g/p/202372",
+        "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-jmbo-shrmp-400g/p/202370"
+      ],
+      "creatorExactIdReadback": true
     },
     {
       "creatorId": "4278439000009981089",
