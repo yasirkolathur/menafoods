@@ -72,13 +72,13 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T16:53:52+03:00",
-    "observedAtUTC": "2026-10-30T13:53:52Z",
+    "observedAtLocal": "2026-10-30T17:55:18+03:00",
+    "observedAtUTC": "2026-10-30T14:55:18Z",
     "timeSource": "scheduled execution context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
-    "creatorResult": "Creator code 9280: no records matching criteria (tool surfaced error); not proof of no changes",
+    "creatorResult": "Creator code 9280: no matching records (connector surfaced error); not proof of no changes",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "newlyObservedBaselineChangeCandidates": [],
@@ -96,7 +96,7 @@
     ],
     "qaIssue27Status": "NO-GO; no newly supplied authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer-price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
     "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
-    "limitations": "Creator 9280 no-match query is a bounded observation only. No per-record Modified_Time, proven timezone/boundary/pagination/change-feed completeness, authenticated client acceptance, native Books-Inventory-Commerce sync, gateway rollback, signed webhook or destination ACK. No edits."
+    "limitations": "Creator 9280 no-match is bounded observation only. Per-record Modified_Time, timezone/boundary/pagination/change-feed completeness and authenticated client acceptance remain unverified. Native Books-Inventory-Commerce sync, deployed gateway rollback, webhook authentication and destination ACK remain unverified; no edits."
   },
   "incrementalObservationHistory": [
     {
@@ -1351,6 +1351,33 @@
       "qaIssue27Status": "NO-GO; no newly supplied authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer-price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
       "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
       "limitations": "Creator 9280 no-match query is a bounded observation only. No per-record Modified_Time, proven timezone/boundary/pagination/change-feed completeness, authenticated client acceptance, native Books-Inventory-Commerce sync, gateway rollback, signed webhook or destination ACK. No edits."
+    },
+    {
+      "observedAtLocal": "2026-10-30T17:55:18+03:00",
+      "observedAtUTC": "2026-10-30T14:55:18Z",
+      "timeSource": "scheduled execution context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
+      "creatorResult": "Creator code 9280: no matching records (connector surfaced error); not proof of no changes",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 existing comments",
+        "GitHub issue #36 body and 29 existing comments"
+      ],
+      "qaIssue27Status": "NO-GO; no newly supplied authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer-price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
+      "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
+      "limitations": "Creator 9280 no-match is bounded observation only. Per-record Modified_Time, timezone/boundary/pagination/change-feed completeness and authenticated client acceptance remain unverified. Native Books-Inventory-Commerce sync, deployed gateway rollback, webhook authentication and destination ACK remain unverified; no edits."
     }
   ],
   "pendingCandidateCreatorIds": [
