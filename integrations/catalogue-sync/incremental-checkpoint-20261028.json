@@ -72,8 +72,8 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T13:47:57+03:00",
-    "observedAtUTC": "2026-10-30T10:47:57.206Z",
+    "observedAtLocal": "2026-10-30T14:53:39+03:00",
+    "observedAtUTC": "2026-10-30T11:53:39.475Z",
     "timeSource": "execution clock, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
@@ -96,9 +96,9 @@
       "GitHub issue #27 body and 21 comments",
       "GitHub issue #36 body and 29 comments"
     ],
-    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified",
+    "qaIssue27Status": "NO-GO; no new authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified",
     "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
-    "limitations": "Only previously tracked SKU-2896 returned. Creator report omits per-record Modified_Time; filter inclusion does not prove field changes. Timezone, boundary, change-feed completeness and pagination remain unverified. No authenticated UI QA or destination ACK. No edits."
+    "limitations": "One previously tracked SKU-2896 returned. Creator report omits per-record Modified_Time; filter inclusion does not prove field changes. Timezone, boundary, change-feed completeness and pagination remain unverified. No authenticated UI QA or destination ACK. No edits."
   },
   "incrementalObservationHistory": [
     {
@@ -1261,6 +1261,35 @@
       "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified",
       "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
       "limitations": "Only previously tracked SKU-2896 returned. Creator report omits per-record Modified_Time; filter inclusion does not prove field changes. Timezone, boundary, change-feed completeness and pagination remain unverified. No authenticated UI QA or destination ACK. No edits."
+    },
+    {
+      "observedAtLocal": "2026-10-30T14:53:39+03:00",
+      "observedAtUTC": "2026-10-30T11:53:39.475Z",
+      "timeSource": "execution clock, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 09:00:00\"",
+      "creatorResult": "Creator code 3000: one previously tracked record; no record_cursor returned",
+      "creatorReturnedIds": [
+        "4278439000002826011"
+      ],
+      "newlyObservedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments",
+        "GitHub issue #36 body and 29 comments"
+      ],
+      "qaIssue27Status": "NO-GO; no new authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified",
+      "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
+      "limitations": "One previously tracked SKU-2896 returned. Creator report omits per-record Modified_Time; filter inclusion does not prove field changes. Timezone, boundary, change-feed completeness and pagination remain unverified. No authenticated UI QA or destination ACK. No edits."
     }
   ],
   "pendingCandidateCreatorIds": [
