@@ -72,29 +72,29 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T22:55:51+03:00",
-    "observedAtUTC": "2026-10-30T19:55:51.579Z",
-    "timeSource": "tool runtime UTC; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T23:52:19+03:00",
+    "observedAtUTC": "2026-10-30T20:52:19.304Z",
+    "timeSource": "tool runtime, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
-    "creatorResult": "Creator code 9280 no records matching criteria (connector surfaced failure); cannot infer zero source changes or complete change feed",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+    "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); not proof of zero changes or feed completeness",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
     "exactIdReadback": [
       {
-        "creatorId": "4278439000009981054",
-        "sku": "SKU-3544",
-        "productName": "Americana Prawns Tail Off 10 x 1 kg",
-        "brand": "Americana",
+        "creatorId": "4278439000009981061",
+        "sku": "SKU-3545",
+        "productName": "Super Gold Butter 10 x 2.5 kg",
+        "brand": "Super Gold",
         "unit": "ctn",
         "translatedName": "",
         "categoryEmpty": true,
         "storefrontFlag": "No",
         "productImagesEmpty": true,
-        "booksItemId": "4886172000053624023",
-        "result": "existing record unchanged; exact tail-off 10x1kg identity unverified; no edit"
+        "booksItemId": "4886172000053623025",
+        "result": "Existing record unchanged; exact manufacturer pack identity unverified; no edit"
       }
     ],
     "creatorConnectorCallsObserved": 2,
@@ -104,21 +104,19 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "research": "Americana official catalogue confirms 10x1kg breaded Tail On shrimp (different variant), and Saudi trade listing confirms 10x1kg breaded Americana shrimp without tail-off specificity. Carrefour Saudi lists Americana Tail Off medium/jumbo 400g, not the Creator 10x1kg. Thus exact tail-off 10x1kg manufacturer SKU/GTIN, preparation and pack are not proven. Do not import Tail On code/storage or third-party images.",
+    "research": "AK Goldenesia official AK Supergold is vegetable/milk-fat blend, manufacturer page lists 1x25kg case, not Creator 10x2.5kg; Saudi reseller lists 10x2.5kg but cannot establish authorized exact variant. Manufacturer page also contains inconsistent storage instructions (-18 C versus 0-6 C). No storage, pure-butter, pack, GTIN, Arabic or image claims written.",
     "researchSources": [
-      "https://solutions.americanafoods.com/catalogue/product/americana-seafood-shrimp-breaded-tail-on-1000g/",
-      "https://platraw.com/en/product/prod_01JYXQX6W35H3VKP0H7VZK5TB8",
-      "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-medum-shrmp-400g/p/202372",
-      "https://www.carrefourksa.com/mafsau/en/shrimps/americana-tail-off-jmbo-shrmp-400g/p/202370"
+      "https://www.akgoldenesia.com/blend-butter-ak-super-gold",
+      "https://platraw.com/en/product/prod_01JYXJJRGQF8E24RMN90718S49"
     ],
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and 21 existing comments",
-      "GitHub issue #36 body and 29 existing comments",
-      "Creator SKU-3544 exact-ID readback"
+      "GitHub issue #27 body and 21 comments",
+      "GitHub issue #36 29 comments",
+      "Creator SKU-3545 exact-ID readback"
     ],
-    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
-    "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
-    "limitations": "No Creator per-record Modified_Time, timezone/boundary/pagination/event completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK or authenticated checkout proof."
+    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts not established",
+    "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic defect",
+    "limitations": "No Creator per-record Modified_Time or proven timezone/boundary/pagination/event completeness; no native sync/gateway rollback/signed webhook/ACK or authenticated checkout proof."
   },
   "incrementalObservationHistory": [
     {
@@ -1576,6 +1574,53 @@
       "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
       "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
       "limitations": "No Creator per-record Modified_Time, timezone/boundary/pagination/event completeness, native Books-Inventory-Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-30T23:52:19+03:00",
+      "observedAtUTC": "2026-10-30T20:52:19.304Z",
+      "timeSource": "tool runtime, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+      "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); not proof of zero changes or feed completeness",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "exactIdReadback": [
+        {
+          "creatorId": "4278439000009981061",
+          "sku": "SKU-3545",
+          "productName": "Super Gold Butter 10 x 2.5 kg",
+          "brand": "Super Gold",
+          "unit": "ctn",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053623025",
+          "result": "Existing record unchanged; exact manufacturer pack identity unverified; no edit"
+        }
+      ],
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "research": "AK Goldenesia official AK Supergold is vegetable/milk-fat blend, manufacturer page lists 1x25kg case, not Creator 10x2.5kg; Saudi reseller lists 10x2.5kg but cannot establish authorized exact variant. Manufacturer page also contains inconsistent storage instructions (-18 C versus 0-6 C). No storage, pure-butter, pack, GTIN, Arabic or image claims written.",
+      "researchSources": [
+        "https://www.akgoldenesia.com/blend-butter-ak-super-gold",
+        "https://platraw.com/en/product/prod_01JYXJJRGQF8E24RMN90718S49"
+      ],
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments",
+        "GitHub issue #36 29 comments",
+        "Creator SKU-3545 exact-ID readback"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts not established",
+      "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic defect",
+      "limitations": "No Creator per-record Modified_Time or proven timezone/boundary/pagination/event completeness; no native sync/gateway rollback/signed webhook/ACK or authenticated checkout proof."
     }
   ],
   "pendingCandidateCreatorIds": [
