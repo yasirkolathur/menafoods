@@ -72,42 +72,42 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T00:55:48.919+03:00",
-    "observedAtUTC": "2026-10-30T21:55:48.919Z",
+    "observedAtLocal": "2026-10-31T01:52:05+03:00",
+    "observedAtUTC": "2026-10-30T22:52:05.583Z",
     "timeSource": "tool runtime; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 18:00:00\"",
-    "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); no proof of complete change feed",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+    "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); cannot infer complete change feed",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
     "exactIdReadback": [
       {
-        "creatorId": "4278439000009981068",
-        "sku": "SKU-3546",
-        "productName": "Pride Cheese Slices 9 x 48",
-        "brand": "Pride",
-        "unit": "ctn",
+        "creatorId": "4278439000009981103",
+        "sku": "SKU-3551",
+        "productName": "Aluminium Foil Long 45 x 150",
+        "unit": "roll",
+        "brand": "",
         "translatedName": "",
         "categoryEmpty": true,
         "storefrontFlag": "No",
         "productImagesEmpty": true,
-        "booksItemId": "4886172000053590013",
-        "result": "Existing record unchanged; official Lactalis brand confirms Pride cheese slices generally, but 9 x 48 exact pack/variant not verified; no edit"
+        "booksItemId": "4886172000053589094",
+        "assessment": "Unbranded generic foil with ambiguous dimensions/pack and no verified manufacturer; no identity/GTIN/Arabic/image field inferred; unchanged"
       },
       {
-        "creatorId": "4278439000009981075",
-        "sku": "SKU-3547",
-        "productName": "Large Eggs No.4 12 x 30",
+        "creatorId": "4278439000009981110",
+        "sku": "SKU-3552",
+        "productName": "Face Mask 50 pcs",
+        "unit": "pcs",
         "brand": "",
-        "unit": "ctn",
         "translatedName": "",
         "categoryEmpty": true,
         "storefrontFlag": "No",
         "productImagesEmpty": true,
-        "booksItemId": "4886172000053610002",
-        "result": "Existing record unchanged; unbranded egg identity, grade/size and case variant unverified; no edit"
+        "booksItemId": "4886172000053608002",
+        "assessment": "Unbranded generic mask; material/type, 50-count pack variant, manufacturer and approved source unknown; unchanged"
       }
     ],
     "creatorConnectorCallsObserved": 3,
@@ -117,19 +117,14 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "research": "Lactalis first-party Pride brand page confirms cheese slices product family but no 9x48 case specification; Lactalis Saudi site shows 10/12/20/24-slice retail variants, and Saudi wholesaler lists Pride cheddar slices 9x800g. None proves Creator's 9x48 count or flavor. No Arabic, GTIN, pack, storage or images inferred. SKU-3547 generic eggs cannot be independently identified.",
-    "researchSources": [
-      "https://www.lactalis-international.com/en/brands/pride",
-      "https://www.lactalis.sa/our-brands/",
-      "https://carton.sa/en/product-detail/economic-food-trading/pride-cheddar-cheese-slices-9800gm"
-    ],
+    "researchSources": [],
     "qaEvidenceChecked": [
       "GitHub issue #27 body and 21 comments",
       "GitHub issue #36 body and 29 comments",
-      "Creator SKU-3546 and SKU-3547 exact-ID readback"
+      "Creator exact-ID SKU-3551 and SKU-3552"
     ],
     "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts not established",
-    "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic defect",
+    "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
     "limitations": "No Creator per-record Modified_Time or proven timezone/boundary/pagination/event completeness; no native sync/gateway rollback/signed webhook/ACK or authenticated checkout proof."
   },
   "incrementalObservationHistory": [
@@ -1695,6 +1690,62 @@
       ],
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts not established",
       "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic defect",
+      "limitations": "No Creator per-record Modified_Time or proven timezone/boundary/pagination/event completeness; no native sync/gateway rollback/signed webhook/ACK or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-31T01:52:05+03:00",
+      "observedAtUTC": "2026-10-30T22:52:05.583Z",
+      "timeSource": "tool runtime; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+      "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); cannot infer complete change feed",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "exactIdReadback": [
+        {
+          "creatorId": "4278439000009981103",
+          "sku": "SKU-3551",
+          "productName": "Aluminium Foil Long 45 x 150",
+          "unit": "roll",
+          "brand": "",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053589094",
+          "assessment": "Unbranded generic foil with ambiguous dimensions/pack and no verified manufacturer; no identity/GTIN/Arabic/image field inferred; unchanged"
+        },
+        {
+          "creatorId": "4278439000009981110",
+          "sku": "SKU-3552",
+          "productName": "Face Mask 50 pcs",
+          "unit": "pcs",
+          "brand": "",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053608002",
+          "assessment": "Unbranded generic mask; material/type, 50-count pack variant, manufacturer and approved source unknown; unchanged"
+        }
+      ],
+      "creatorConnectorCallsObserved": 3,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "researchSources": [],
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments",
+        "GitHub issue #36 body and 29 comments",
+        "Creator exact-ID SKU-3551 and SKU-3552"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts not established",
+      "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
       "limitations": "No Creator per-record Modified_Time or proven timezone/boundary/pagination/event completeness; no native sync/gateway rollback/signed webhook/ACK or authenticated checkout proof."
     }
   ],
