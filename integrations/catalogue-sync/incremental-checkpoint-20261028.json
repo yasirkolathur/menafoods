@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue bounded overlapping Creator change filters and exact-ID checks for newly observed IDs; do not advance source watermark or lift duplicate/image/checkout/sync holds without authoritative evidence.",
+  "nextAction": "Continue bounded low-API change-filter and exact-ID checks; SKU-3334 Arabic label/variant still unverified; maintain NO-GO and no cross-system writes pending source+rollback, webhook auth and ACK, and issue #27 authenticated checkout evidence.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,26 +72,34 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T03:49:16+03:00",
+    "observedAtLocal": "2026-10-30T04:46:33+03:00",
     "timeSource": "automation run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 00:00:00\"",
-    "creatorResult": "Creator 9280: no records matching criteria; connector surfaced INVALID_ARGUMENT",
+    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 18:00:00\"",
+    "creatorResult": "Creator code 9280: no records matching criteria; connector surfaced INVALID_ARGUMENT",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
+    "exactIdQaReadback": {
+      "creatorId": "4278439000006031019",
+      "sku": "SKU-3334",
+      "productName": "Al Jameel Plain Halva 14kg",
+      "brand": "Al Jameel",
+      "unit": "tin",
+      "translatedName": "Al Jameel Plain Halva 14kg",
+      "result": "Existing Arabic localization defect persists; no authoritative exact 14kg manufacturer Arabic label and no authenticated AR storefront receipt"
+    },
     "verifiedBeforeAfterFieldDeltas": 0,
-    "creatorConnectorCallsObserved": 1,
+    "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaEvidenceChecked": "GitHub issue #27 comments (21); no newly supplied authenticated acceptance receipt",
-    "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart, Buy Again, COD/credit or confirm-once receipts",
-    "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds; no cross-system writes",
-    "limitations": "A bounded no-match does not prove complete change feed; Creator Modified_Time absent from returned report, timezone and webhook ACK unverified."
+    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart, Buy Again, COD/credit or confirm-once acceptance receipts verified this run",
+    "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
+    "limitations": "Bounded no-match is not complete change-feed evidence; Creator Modified_Time absent from returned report, timezone/pagination completeness and webhook ACK unverified."
   },
   "incrementalObservationHistory": [
     {
@@ -1155,6 +1163,36 @@
       "qaIssue27Status": "NO-GO: no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart, Buy Again, COD/credit or confirm-once receipts",
       "holds": "13 unpublished SKUs, 2 Batch 8 identity holds, SKU-3334 Arabic defect, 4 duplicate-active holds; no cross-system writes",
       "limitations": "A bounded no-match does not prove complete change feed; Creator Modified_Time absent from returned report, timezone and webhook ACK unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-30T04:46:33+03:00",
+      "timeSource": "automation run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"29-Oct-2026 18:00:00\"",
+      "creatorResult": "Creator code 9280: no records matching criteria; connector surfaced INVALID_ARGUMENT",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "exactIdQaReadback": {
+        "creatorId": "4278439000006031019",
+        "sku": "SKU-3334",
+        "productName": "Al Jameel Plain Halva 14kg",
+        "brand": "Al Jameel",
+        "unit": "tin",
+        "translatedName": "Al Jameel Plain Halva 14kg",
+        "result": "Existing Arabic localization defect persists; no authoritative exact 14kg manufacturer Arabic label and no authenticated AR storefront receipt"
+      },
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart, Buy Again, COD/credit or confirm-once acceptance receipts verified this run",
+      "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; cross-system writes disabled",
+      "limitations": "Bounded no-match is not complete change-feed evidence; Creator Modified_Time absent from returned report, timezone/pagination completeness and webhook ACK unverified."
     }
   ],
   "pendingCandidateCreatorIds": [
