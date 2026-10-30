@@ -72,16 +72,31 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T19:47:59+03:00",
-    "observedAtUTC": "2026-10-30T16:47:59Z",
-    "timeSource": "automation execution context; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T20:55:01.651+03:00",
+    "observedAtUTC": "2026-10-30T17:55:01.651Z",
+    "timeSource": "tool runtime UTC; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
-    "creatorResult": "Creator code 9280: no records matching criteria (connector surfaced error; not proof of no changes)",
+    "creatorResult": "Creator code 9280: no records found matching criteria (connector surfaced failure; not proof of zero changes or feed completeness)",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "newlyObservedBaselineChangeCandidates": [],
+    "exactIdReadback": [
+      {
+        "creatorId": "4278439000009981040",
+        "sku": "SKU-3542",
+        "productName": "Fine Twister Potatoes 4 x 2.5 kg",
+        "brand": "Fine",
+        "unit": "ctn",
+        "translatedName": "",
+        "categoryEmpty": true,
+        "storefrontFlag": "No",
+        "productImagesEmpty": true,
+        "booksItemId": "4886172000053623001",
+        "result": "unchanged; exact manufacturer/variant unverified; no edit"
+      }
+    ],
     "verifiedBeforeAfterFieldDeltas": 0,
     "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
@@ -90,14 +105,20 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaEvidenceChecked": [
-      "GitHub issues #27 and #36 bodies, updated 2026-10-29; no new authenticated acceptance receipts in current issue metadata",
-      "Creator exact-ID readback of SKU-3334, Creator ID 4278439000006031019; Translated_Name still Latin-only",
-      "Manufacturer plain-halva product category and Arabic terminology, plus independent 14kg Saudi distributor listing"
+    "research": "Manufacturer Lamb Weston offers Twisters; Saudi retail lists Lamb Weston 2.5 kg and trade catalogue 4x2.5 kg, but these are not evidence for Creator Fine-brand SKU-3542. No Fine manufacturer/authorized exact-pack source located; do not substitute brand, Arabic copy, GTIN, storage or image.",
+    "researchSources": [
+      "https://lambweston.eu/uk/product/twisters/twisters-en-gb",
+      "https://gcc.luluhypermarket.com/en-sa/lamb-weston-crunchy-seasoned-twister-2-5-kg/p/145890/",
+      "https://www.magnafoodservice.co.uk/wp-content/uploads/2024/01/Latest-Magna-Foodservice-Catalogue-2023-E.pdf"
     ],
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
-    "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic defect",
-    "limitations": "Creator code 9280 no-match not proof of change-feed completeness; per-record Modified_Time and timezone/boundary/pagination unverified. No authorized modification of existing nonblank Arabic field, despite manufacturer Arabic terminology and distributor listing. Native sync, gateway rollback, webhook auth and destination ACK unverified."
+    "qaEvidenceChecked": [
+      "GitHub issue #27 body and 21 comments, latest dated 29 Oct 2026",
+      "GitHub issue #36 body and 29 comments, latest dated 30 Oct 2026",
+      "Creator SKU-3542 exact-ID readback"
+    ],
+    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price vs cost, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts",
+    "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
+    "limitations": "Creator 9280 no-match is not proof of complete change feed. Per-record Modified_Time, timezone/boundary/pagination, native Books-Inventory-Commerce sync, gateway source/rollback, webhook authentication, destination ACK and authenticated checkout remain unverified."
   },
   "incrementalObservationHistory": [
     {
@@ -1407,6 +1428,55 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
       "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic defect",
       "limitations": "Creator code 9280 no-match not proof of change-feed completeness; per-record Modified_Time and timezone/boundary/pagination unverified. No authorized modification of existing nonblank Arabic field, despite manufacturer Arabic terminology and distributor listing. Native sync, gateway rollback, webhook auth and destination ACK unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-30T20:55:01.651+03:00",
+      "observedAtUTC": "2026-10-30T17:55:01.651Z",
+      "timeSource": "tool runtime UTC; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+      "creatorResult": "Creator code 9280: no records found matching criteria (connector surfaced failure; not proof of zero changes or feed completeness)",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "exactIdReadback": [
+        {
+          "creatorId": "4278439000009981040",
+          "sku": "SKU-3542",
+          "productName": "Fine Twister Potatoes 4 x 2.5 kg",
+          "brand": "Fine",
+          "unit": "ctn",
+          "translatedName": "",
+          "categoryEmpty": true,
+          "storefrontFlag": "No",
+          "productImagesEmpty": true,
+          "booksItemId": "4886172000053623001",
+          "result": "unchanged; exact manufacturer/variant unverified; no edit"
+        }
+      ],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "research": "Manufacturer Lamb Weston offers Twisters; Saudi retail lists Lamb Weston 2.5 kg and trade catalogue 4x2.5 kg, but these are not evidence for Creator Fine-brand SKU-3542. No Fine manufacturer/authorized exact-pack source located; do not substitute brand, Arabic copy, GTIN, storage or image.",
+      "researchSources": [
+        "https://lambweston.eu/uk/product/twisters/twisters-en-gb",
+        "https://gcc.luluhypermarket.com/en-sa/lamb-weston-crunchy-seasoned-twister-2-5-kg/p/145890/",
+        "https://www.magnafoodservice.co.uk/wp-content/uploads/2024/01/Latest-Magna-Foodservice-Catalogue-2023-E.pdf"
+      ],
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments, latest dated 29 Oct 2026",
+        "GitHub issue #36 body and 29 comments, latest dated 30 Oct 2026",
+        "Creator SKU-3542 exact-ID readback"
+      ],
+      "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price vs cost, VAT, cart, Buy Again, COD/credit or confirm-once checkout receipts",
+      "holds": "15 pending baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic localization defect",
+      "limitations": "Creator 9280 no-match is not proof of complete change feed. Per-record Modified_Time, timezone/boundary/pagination, native Books-Inventory-Commerce sync, gateway source/rollback, webhook authentication, destination ACK and authenticated checkout remain unverified."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -1739,6 +1809,22 @@
       "finding": "Manufacturer confirms 250 ml products in multiple flavors; Creator name omits flavor and manufacturer pages do not prove 30-pack case. Exact product/Arabic variant not identified.",
       "status": "FLAVOR_AND_PACK_UNVERIFIED_NO_EDIT",
       "researchDate": "2026-10-29"
+    },
+    {
+      "creatorId": "4278439000009981040",
+      "sku": "SKU-3542",
+      "creatorName": "Fine Twister Potatoes 4 x 2.5 kg",
+      "manufacturerSources": [
+        "https://lambweston.eu/uk/product/twisters/twisters-en-gb"
+      ],
+      "otherSources": [
+        "https://gcc.luluhypermarket.com/en-sa/lamb-weston-crunchy-seasoned-twister-2-5-kg/p/145890/",
+        "https://www.magnafoodservice.co.uk/wp-content/uploads/2024/01/Latest-Magna-Foodservice-Catalogue-2023-E.pdf"
+      ],
+      "finding": "Official Lamb Weston Twisters and independent Lamb Weston 2.5 kg/4x2.5 kg trade references are not a verified match to Creator Fine-brand Twister SKU-3542. Exact Fine manufacturer, SKU and packaging remain unverified. Do not change brand, unit, pack, GTIN, storage, Arabic copy, or image.",
+      "status": "BRAND_AND_EXACT_VARIANT_UNVERIFIED_NO_EDIT",
+      "researchDate": "2026-10-30",
+      "creatorExactIdReadback": true
     }
   ],
   "lastResearchOnlyObservation": {
