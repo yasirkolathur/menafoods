@@ -72,18 +72,18 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-30T18:46:11+03:00",
-    "observedAtUTC": "2026-10-30T15:46:11Z",
-    "timeSource": "automation execution context, not Creator Modified_Time",
+    "observedAtLocal": "2026-10-30T19:47:59+03:00",
+    "observedAtUTC": "2026-10-30T16:47:59Z",
+    "timeSource": "automation execution context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 12:00:00\"",
-    "creatorResult": "Zoho Creator code 9280: no matching records (connector error; not proof of no changes)",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+    "creatorResult": "Creator code 9280: no records matching criteria (connector surfaced error; not proof of no changes)",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "newlyObservedBaselineChangeCandidates": [],
     "verifiedBeforeAfterFieldDeltas": 0,
-    "creatorConnectorCallsObserved": 1,
+    "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -91,12 +91,13 @@
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and 21 existing comments; last issue update 2026-10-29T11:54:41Z",
-      "GitHub issue #36 body and 29 existing comments; last issue update 2026-10-29T23:52:26Z"
+      "GitHub issues #27 and #36 bodies, updated 2026-10-29; no new authenticated acceptance receipts in current issue metadata",
+      "Creator exact-ID readback of SKU-3334, Creator ID 4278439000006031019; Translated_Name still Latin-only",
+      "Manufacturer plain-halva product category and Arabic terminology, plus independent 14kg Saudi distributor listing"
     ],
-    "qaIssue27Status": "NO-GO; no newly supplied authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, customer price vs private cost, VAT, cart, Buy Again, COD/credit or confirm-once checkout evidence",
+    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
     "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic defect",
-    "limitations": "Creator 9280 no-match is a bounded observation only. Per-record Modified_Time, timezone/boundary/pagination/change-feed completeness and authenticated checkout receipts unverified. Native sync, deployed gateway rollback, webhook auth and destination ACK unverified."
+    "limitations": "Creator code 9280 no-match not proof of change-feed completeness; per-record Modified_Time and timezone/boundary/pagination unverified. No authorized modification of existing nonblank Arabic field, despite manufacturer Arabic terminology and distributor listing. Native sync, gateway rollback, webhook auth and destination ACK unverified."
   },
   "incrementalObservationHistory": [
     {
@@ -1378,6 +1379,34 @@
       "qaIssue27Status": "NO-GO; no newly supplied authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer-price/cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts",
       "holds": "13 unpublished SKUs; 2 Batch 8 identity holds; SKU-3334 Arabic defect; 4 duplicate-active holds; 15 pending baseline change candidates",
       "limitations": "Creator 9280 no-match is bounded observation only. Per-record Modified_Time, timezone/boundary/pagination/change-feed completeness and authenticated client acceptance remain unverified. Native Books-Inventory-Commerce sync, deployed gateway rollback, webhook authentication and destination ACK remain unverified; no edits."
+    },
+    {
+      "observedAtLocal": "2026-10-30T19:47:59+03:00",
+      "observedAtUTC": "2026-10-30T16:47:59Z",
+      "timeSource": "automation execution context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 14:00:00\"",
+      "creatorResult": "Creator code 9280: no records matching criteria (connector surfaced error; not proof of no changes)",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "newlyObservedBaselineChangeCandidates": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaEvidenceChecked": [
+        "GitHub issues #27 and #36 bodies, updated 2026-10-29; no new authenticated acceptance receipts in current issue metadata",
+        "Creator exact-ID readback of SKU-3334, Creator ID 4278439000006031019; Translated_Name still Latin-only",
+        "Manufacturer plain-halva product category and Arabic terminology, plus independent 14kg Saudi distributor listing"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price vs cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
+      "holds": "15 baseline change candidates; 13 unpublished SKUs; 4 duplicate-active holds; 2 Batch 8 identity holds; SKU-3334 Arabic defect",
+      "limitations": "Creator code 9280 no-match not proof of change-feed completeness; per-record Modified_Time and timezone/boundary/pagination unverified. No authorized modification of existing nonblank Arabic field, despite manufacturer Arabic terminology and distributor listing. Native sync, gateway rollback, webhook auth and destination ACK unverified."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -1404,7 +1433,7 @@
     {
       "findingKey": "AR-LOCALE-SKU-3334-20261028",
       "firstObservedAtLocal": "2026-10-28T16:46:47+03:00",
-      "status": "OPEN_UNVERIFIED_TRANSLATION",
+      "status": "OPEN_EXISTING_NONBLANK_LATIN_TRANSLATION_NOT_EDITED",
       "creatorId": "4278439000006031019",
       "sku": "SKU-3334",
       "productName": "Al Jameel Plain Halva 14kg",
@@ -1413,7 +1442,15 @@
       "storefrontVisible": true,
       "confirmedBy": "Zoho Creator Products_Books bounded report and exact-ID readback",
       "defect": "Arabic translation field contains Latin-only English product name, with no Arabic script; Arabic storefront localization cannot be accepted for this item without verified Arabic label/translation.",
-      "safeAction": "Do not auto-translate or write. Verify authoritative product label/approved Arabic copy and actual authenticated AR UI rendering, then correct only independently verified nonfinancial field and read back."
+      "safeAction": "Do not auto-translate or write. Verify authoritative product label/approved Arabic copy and actual authenticated AR UI rendering, then correct only independently verified nonfinancial field and read back.",
+      "latestReadbackAtLocal": "2026-10-30T19:47:59+03:00",
+      "latestCreatorTranslatedName": "Al Jameel Plain Halva 14kg",
+      "candidateArabicName": "الجميل حلاوة طحينية سادة 14 كجم",
+      "supportingSources": [
+        "https://aljameelfood.com/ar-halwa.html",
+        "https://www.platraw.com/ar/product/al-jameel-finest-halawa-plain-14-kg/prod_01JYYB8K8HWZYACT6TN43XY8XW",
+        "https://onesource.com.sa/ecom/brand/al-jameel"
+      ]
     }
   ],
   "pendingIncrementalNewCreatorIds": [
@@ -1705,24 +1742,19 @@
     }
   ],
   "lastResearchOnlyObservation": {
-    "date": "2026-10-29",
-    "creatorCriteria": "Modified_Time >= \"29-Oct-2026 00:00:00\"",
-    "creatorResult": "2 records, Creator code 3000, no cursor; same two IDs as preceding checkpoint",
-    "creatorReturnedIds": [
-      "4278439000000104184",
-      "4278439000007206019"
+    "observedAtLocal": "2026-10-30T19:47:59+03:00",
+    "creatorId": "4278439000006031019",
+    "sku": "SKU-3334",
+    "productName": "Al Jameel Plain Halva 14kg",
+    "currentTranslatedName": "Al Jameel Plain Halva 14kg",
+    "candidateArabicName": "الجميل حلاوة طحينية سادة 14 كجم",
+    "manufacturerSource": "https://aljameelfood.com/ar-halwa.html",
+    "exactSizeMarketSources": [
+      "https://www.platraw.com/ar/product/al-jameel-finest-halawa-plain-14-kg/prod_01JYYB8K8HWZYACT6TN43XY8XW",
+      "https://onesource.com.sa/ecom/brand/al-jameel"
     ],
-    "newCreatorIds": 0,
-    "verifiedFieldDeltas": 0,
-    "manufacturerSourceCandidatesReviewed": 3,
-    "verifiedExactProductMatches": 0,
-    "creatorConnectorCallsObserved": 1,
-    "billableApiUnits": "unavailable",
-    "creatorWrites": 0,
-    "financialWrites": 0,
-    "imagesPublished": 0,
-    "crossSystemWrites": 0,
-    "checkoutStatus": "NO-GO",
-    "sourceWatermarkAdvanced": false
+    "assessment": "Manufacturer confirms plain tahini halva and Arabic terminology; independent Saudi listings corroborate 14kg Al Jameel plain variant. Existing Translated_Name is nonblank Latin-only, so no edit under missing-fields-only restriction. Product label or authorized correction approval needed before modifying.",
+    "creatorEdits": 0,
+    "sourceRights": "No image rights established; no image staging or publishing."
   }
 }
