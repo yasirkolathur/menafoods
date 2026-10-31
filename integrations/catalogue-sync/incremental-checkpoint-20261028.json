@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue low-API overlapping bounded change checks, exact-ID verify only new candidates; keep watermark null and cross-system writes disabled. Financial owner must independently verify CR1009 price/Books ID before any publication; issue #27 remains NO-GO.",
+  "nextAction": "Continue low-API overlapping bounded Creator change checks; exact-ID read only new or genuinely changed candidates; keep source watermark null and all cross-system writes disabled. CR1009 financial verification required before publication; issue #27 remains NO-GO.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,52 +72,38 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T13:51:54+03:00",
-    "observedAtUTC": "2026-10-31T10:51:54Z",
+    "observedAtLocal": "2026-10-31T14:48:41+03:00",
+    "observedAtUTC": "2026-10-31T11:48:41Z",
     "timeSource": "scheduled run context, not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
-    "creatorResult": "Creator code 3000; 3 records returned, no record_cursor; change-feed completeness and actual modification times unverified.",
+    "creatorResult": "Creator code 3000; 3 records returned; no record_cursor; per-record Modified_Time not exposed.",
     "creatorReturnedIds": [
       "4278439000000106492",
       "4278439000000106182",
       "4278439000000101314"
     ],
-    "newlyObservedIdsComparedToPersistedHistory": [
-      "4278439000000106492"
-    ],
-    "previouslyObservedIdReappeared": [
-      "4278439000000106182",
-      "4278439000000101314"
-    ],
-    "candidatesReviewed": [
+    "newlyObservedIdsComparedToPersistedHistory": [],
+    "reviewedPreviouslyKnownCandidates": [
       {
         "creatorId": "4278439000000106492",
-        "baselineBatch": 7,
         "sku": "CR1755",
-        "name": "Zamil Frozen Tender Chicken Breast 2.5 Kg*4",
-        "storefrontFlag": "Yes",
-        "unit": "ctn",
-        "booksItemId": "4886172000001818842",
-        "metadata": "Brand, Arabic name, category and image reference present",
-        "assessment": "Exact-ID readback confirms report fields. No independently verified missing nonfinancial field; source/redistribution rights of image and authenticated storefront rendering not verified. No edit."
-      }
-    ],
-    "carriedForward": [
+        "assessment": "Previously exact-ID verified; returned in bounded filter again. No newly independently verified missing nonfinancial field; image rights and authenticated storefront rendering unverified."
+      },
       {
         "creatorId": "4278439000000106182",
         "sku": "CR1703",
-        "assessment": "Previously verified, returned again; no new independent field delta."
+        "assessment": "Previously exact-ID verified; returned again; no new independently verified missing nonfinancial field."
       },
       {
         "creatorId": "4278439000000101314",
         "sku": "CR1009",
-        "assessment": "Previously verified, remains unpublished with blank Books ID and observed selling price 0.39; financial owner verification pending, no edit."
+        "assessment": "Storefront No; Books ID blank; selling price 0.39. Financial owner verification required; no edit."
       }
     ],
     "verifiedBeforeAfterFieldDeltas": 0,
-    "creatorConnectorCallsObserved": 2,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -129,11 +115,11 @@
       "ids": 2122,
       "unique": 2122,
       "allComplete": true,
-      "strictAscending": true
+      "source": "existing persisted manifest/checkpoint; no full rescan this run"
     },
-    "qaIssue27Status": "NO-GO: issue #27 and 21 comments inspected; no new authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified.",
-    "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect. CR1009 remains unpublished with blank Books ID and 0.39 selling price; CR1755 has no verified metadata gap.",
-    "limitations": "Creator Modified_Time not returned per record; timezone, inclusive boundary, pagination and change-feed completeness unverified. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, end-to-end ACK and authenticated checkout receipts unverified."
+    "qaIssue27Status": "NO-GO: issue #27 open, last updated 2026-10-29; no new authenticated acceptance receipts independently tested this run.",
+    "holds": "15 baseline change candidates; 13 unpublished; 4 duplicate-active; 2 identity investigations; SKU-3334 Arabic localization; CR1009 unpublished and financial validation pending.",
+    "limitations": "Modified_Time absent from returned fields; timezone, boundary, pagination, webhook completeness unverified. No native sync, deployed gateway source/rollback, webhook auth, ACK or authenticated checkout receipts independently verified this run."
   },
   "incrementalObservationHistory": [
     {
@@ -2193,6 +2179,56 @@
       "qaIssue27Status": "NO-GO: issue #27 and 21 comments inspected; no new authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private-cost isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once checkout receipts verified.",
       "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect. CR1009 remains unpublished with blank Books ID and 0.39 selling price; CR1755 has no verified metadata gap.",
       "limitations": "Creator Modified_Time not returned per record; timezone, inclusive boundary, pagination and change-feed completeness unverified. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, end-to-end ACK and authenticated checkout receipts unverified."
+    },
+    {
+      "observedAtLocal": "2026-10-31T14:48:41+03:00",
+      "observedAtUTC": "2026-10-31T11:48:41Z",
+      "timeSource": "scheduled run context, not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+      "creatorResult": "Creator code 3000; 3 records returned; no record_cursor; per-record Modified_Time not exposed.",
+      "creatorReturnedIds": [
+        "4278439000000106492",
+        "4278439000000106182",
+        "4278439000000101314"
+      ],
+      "newlyObservedIdsComparedToPersistedHistory": [],
+      "reviewedPreviouslyKnownCandidates": [
+        {
+          "creatorId": "4278439000000106492",
+          "sku": "CR1755",
+          "assessment": "Previously exact-ID verified; returned in bounded filter again. No newly independently verified missing nonfinancial field; image rights and authenticated storefront rendering unverified."
+        },
+        {
+          "creatorId": "4278439000000106182",
+          "sku": "CR1703",
+          "assessment": "Previously exact-ID verified; returned again; no new independently verified missing nonfinancial field."
+        },
+        {
+          "creatorId": "4278439000000101314",
+          "sku": "CR1009",
+          "assessment": "Storefront No; Books ID blank; selling price 0.39. Financial owner verification required; no edit."
+        }
+      ],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "manifestValidation": {
+        "batches": 20,
+        "ids": 2122,
+        "unique": 2122,
+        "allComplete": true,
+        "source": "existing persisted manifest/checkpoint; no full rescan this run"
+      },
+      "qaIssue27Status": "NO-GO: issue #27 open, last updated 2026-10-29; no new authenticated acceptance receipts independently tested this run.",
+      "holds": "15 baseline change candidates; 13 unpublished; 4 duplicate-active; 2 identity investigations; SKU-3334 Arabic localization; CR1009 unpublished and financial validation pending.",
+      "limitations": "Modified_Time absent from returned fields; timezone, boundary, pagination, webhook completeness unverified. No native sync, deployed gateway source/rollback, webhook auth, ACK or authenticated checkout receipts independently verified this run."
     }
   ],
   "pendingCandidateCreatorIds": [
