@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue low-API bounded Creator reconciliation, compare persisted snapshots; exact-ID read only new IDs or proven field deltas. Keep watermark null and all cross-system writes blocked until complete sync and QA evidence.",
+  "nextAction": "Continue low-API bounded Creator reconciliation; exact-ID verify new IDs or actual field deltas. Keep source watermark null, four duplicate-active IDs blocked, cross-system writes disabled, checkout NO-GO until authenticated receipts.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,13 +72,13 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T22:49:56+03:00",
-    "observedAtUTC": "2026-10-31T19:49:56Z",
-    "timeSource": "scheduled run context, not Creator Modified_Time",
+    "observedAtLocal": "2026-10-31T23:47:00+03:00",
+    "observedAtUTC": "2026-10-31T20:47:00Z",
+    "timeSource": "scheduled run context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
-    "creatorResult": "Creator code 3000; three previously observed IDs; no record_cursor returned; per-record Modified_Time not exposed",
+    "creatorResult": "Creator code 3000; three previously observed IDs; no record_cursor; per-record Modified_Time not exposed",
     "creatorReturnedIds": [
       "4278439000000106492",
       "4278439000000106182",
@@ -113,9 +113,9 @@
       "lexicallySorted": true,
       "source": "GitHub manifest; no Creator baseline rescan"
     },
-    "qaIssue27Status": "NO-GO; GitHub issue #27 last updated 2026-10-29; no authenticated acceptance test executed this run",
+    "qaIssue27Status": "NO-GO; 21 existing comments, latest 2026-10-29; no authenticated acceptance tests executed in this run",
     "holds": "15 baseline candidates, 13 unpublished, 4 duplicate-active, 2 identity investigations, SKU-3334 Arabic locale, CR1009 missing Books ID/unverified pricing",
-    "limitations": "9 snapshot fields compared, including image ID references and storefront flags; image rights and actual storefront rendering not verified. Modified_Time absent from Creator report; timezone, boundaries, pagination and webhook completeness unverified; no deployed gateway rollback, native sync, signed webhook, destination ACK or authenticated checkout proof."
+    "limitations": "Nine snapshot fields compared; image rights and actual storefront rendering unverified. Modified_Time absent from Creator report; timezone/boundaries/pagination/webhook completeness unverified. No gateway rollback, native sync, signed webhook, destination ACK or authenticated checkout receipts."
   },
   "incrementalObservationHistory": [
     {
@@ -2553,6 +2553,52 @@
       "qaIssue27Status": "NO-GO; GitHub issue #27 last updated 2026-10-29; no authenticated acceptance test executed this run",
       "holds": "15 baseline candidates, 13 unpublished, 4 duplicate-active, 2 identity investigations, SKU-3334 Arabic locale, CR1009 missing Books ID/unverified pricing",
       "limitations": "9 snapshot fields compared, including image ID references and storefront flags; image rights and actual storefront rendering not verified. Modified_Time absent from Creator report; timezone, boundaries, pagination and webhook completeness unverified; no deployed gateway rollback, native sync, signed webhook, destination ACK or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-31T23:47:00+03:00",
+      "observedAtUTC": "2026-10-31T20:47:00Z",
+      "timeSource": "scheduled run context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+      "creatorResult": "Creator code 3000; three previously observed IDs; no record_cursor; per-record Modified_Time not exposed",
+      "creatorReturnedIds": [
+        "4278439000000106492",
+        "4278439000000106182",
+        "4278439000000101314"
+      ],
+      "newlyObservedIdsComparedToPersistedHistory": [],
+      "verifiedNonfinancialSnapshotFieldsCompared": [
+        "sku",
+        "name",
+        "brand",
+        "unit",
+        "category",
+        "arabicName",
+        "booksId",
+        "storefront",
+        "imageIds"
+      ],
+      "verifiedBeforeAfterFieldDeltas": [],
+      "verifiedFieldDeltaCount": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "manifestValidation": {
+        "batches": 20,
+        "ids": 2122,
+        "unique": 2122,
+        "allComplete": true,
+        "lexicallySorted": true,
+        "source": "GitHub manifest; no Creator baseline rescan"
+      },
+      "qaIssue27Status": "NO-GO; 21 existing comments, latest 2026-10-29; no authenticated acceptance tests executed in this run",
+      "holds": "15 baseline candidates, 13 unpublished, 4 duplicate-active, 2 identity investigations, SKU-3334 Arabic locale, CR1009 missing Books ID/unverified pricing",
+      "limitations": "Nine snapshot fields compared; image rights and actual storefront rendering unverified. Modified_Time absent from Creator report; timezone/boundaries/pagination/webhook completeness unverified. No gateway rollback, native sync, signed webhook, destination ACK or authenticated checkout receipts."
     }
   ],
   "pendingCandidateCreatorIds": [
