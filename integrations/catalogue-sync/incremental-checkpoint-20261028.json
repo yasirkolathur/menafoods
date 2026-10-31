@@ -72,8 +72,8 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T08:53:55+03:00",
-    "observedAtUTC": "2026-10-31T05:53:55Z",
+    "observedAtLocal": "2026-10-31T09:50:38+03:00",
+    "observedAtUTC": "2026-10-31T06:50:38Z",
     "timeSource": "scheduled run context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
@@ -89,7 +89,6 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "manifestValidation": "Verified 20/20 batches, 2,122 unique Creator IDs, ascending ordered, 106-107 per batch; no Creator baseline rescan",
     "qaEvidenceChecked": [
       "GitHub issue #27 body and 21 comments; no new authenticated acceptance receipts",
       "GitHub issue #36 body and 29 comments; no new sync/deployment verification receipts"
@@ -1931,6 +1930,32 @@
       "crossSystemWrites": 0,
       "sourceWatermarkAdvanced": false,
       "manifestValidation": "Verified 20/20 batches, 2,122 unique Creator IDs, ascending ordered, 106-107 per batch; no Creator baseline rescan",
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments; no new authenticated acceptance receipts",
+        "GitHub issue #36 body and 29 comments; no new sync/deployment verification receipts"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts missing",
+      "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
+      "limitations": "Modified_Time absent from report fields; timezone, inclusive boundary, pagination and feed completeness unverified. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, webhook authentication, destination ACK and authenticated checkout receipts not verified."
+    },
+    {
+      "observedAtLocal": "2026-10-31T09:50:38+03:00",
+      "observedAtUTC": "2026-10-31T06:50:38Z",
+      "timeSource": "scheduled run context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+      "creatorResult": "Zoho Creator code 9280: no records matching criteria; connector surfaced INVALID_ARGUMENT; does not prove complete change-feed coverage",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
       "qaEvidenceChecked": [
         "GitHub issue #27 body and 21 comments; no new authenticated acceptance receipts",
         "GitHub issue #36 body and 29 comments; no new sync/deployment verification receipts"
