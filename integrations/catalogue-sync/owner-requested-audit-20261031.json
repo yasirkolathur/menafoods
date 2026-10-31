@@ -24,7 +24,11 @@
     "visibleMissingUnit": 4,
     "visibleMissingBrand": 281,
     "visibleMissingDescription": 1053,
-    "visibleMissingPackageDetails": 145
+    "visibleMissingPackageDetails": 145,
+    "marginUnconfigured": 910,
+    "visibleMarginUnconfigured": 226,
+    "sellingBelowBase": 38,
+    "visibleSellingBelowBase": 3
   },
   "fullFieldExportComplete": false,
   "fullFieldDetailReads": 35,
@@ -1318,5 +1322,20 @@
     "Resolve six duplicate Books item mappings and verify Books–Inventory–Commerce native sync before cross-system writes.",
     "Integrate existing sync modules into verified current mf_zoho_gateway Development source, with existing registry/outbox, compare-only changed fields, source-event deduplication, per-field ownership and destination readback.",
     "Keep costs authoritative to verified Books Bills, stock to Inventory, customer prices scoped, and catalogue enrichment/admin content to Creator/Catalyst authorization."
-  ]
+  ],
+  "marginCheck": {
+    "source": "Existing complete 31 October Creator snapshot",
+    "configField": "Margin_Configured",
+    "unconfiguredTotal": 910,
+    "unconfiguredStorefront": 226,
+    "belowBaseTotal": 38,
+    "belowBaseStorefront": 3,
+    "belowBaseStorefrontSkus": [
+      "CR1755",
+      "CR1655",
+      "CR1640"
+    ],
+    "numericMarginRateCompleteness": "Pending full-field export; Margin_Percent not exposed in bulk report",
+    "pricingWrites": 0
+  }
 }
