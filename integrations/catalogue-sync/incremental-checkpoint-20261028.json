@@ -72,9 +72,9 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T16:52:00+03:00",
-    "observedAtUTC": "2026-10-31T13:52:00Z",
-    "timeSource": "scheduled run context; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-31T17:45:23+03:00",
+    "observedAtUTC": "2026-10-31T14:45:23Z",
+    "timeSource": "automation run context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
@@ -89,17 +89,17 @@
       {
         "creatorId": "4278439000000106492",
         "sku": "CR1755",
-        "assessment": "Existing storefront-enabled Zamil 2.5kg x4 CTN; Arabic name, brand, category and Books ID present. Image rights and authenticated UI unverified."
+        "assessment": "Storefront Yes; existing Arabic name, brand, category, Books ID and image reference; rights and authenticated display unverified."
       },
       {
         "creatorId": "4278439000000106182",
         "sku": "CR1703",
-        "assessment": "Existing storefront-enabled Mr Kino 4x2.5kg; Arabic name, brand, category and Books ID present. Image rights and authenticated UI unverified."
+        "assessment": "Storefront Yes; existing Arabic name, brand, category, Books ID and image reference; rights and authenticated display unverified."
       },
       {
         "creatorId": "4278439000000101314",
         "sku": "CR1009",
-        "assessment": "Unpublished Noor 1.5L x6 CTN; Books ID blank and SAR 0.39 selling price unverified; no financial edit."
+        "assessment": "Storefront No; Books ID blank; existing SAR 0.39 base/selling prices unverified. No financial edits."
       }
     ],
     "verifiedBeforeAfterFieldDeltas": 0,
@@ -118,9 +118,9 @@
       "sorted": true,
       "source": "persisted manifest, no full Creator rescan"
     },
-    "qaIssue27Status": "NO-GO; issue #27 remains open; 21 comments reviewed and no authenticated acceptance receipts established.",
+    "qaIssue27Status": "NO-GO; issue #27 open with 21 comments; no new authenticated acceptance receipts in issue comments.",
     "holds": "15 baseline change candidates; 13 unpublished; 4 duplicate-active; 2 identity investigations; SKU-3334 Arabic localization; CR1009 financial verification pending.",
-    "limitations": "Creator Modified_Time absent from returned records; timezone, boundary, pagination and webhook completeness unverified. No authenticated Catalog/Checkout tests or native sync/deployed gateway/rollback/webhook auth/end-to-end ACK verified this run."
+    "limitations": "Creator Modified_Time not returned per record; timezone, pagination, boundary, webhook completeness unverified. No authenticated Catalog/Checkout tests or native sync/deployed gateway/rollback/webhook auth/end-to-end ACK verified this run."
   },
   "incrementalObservationHistory": [
     {
@@ -2332,6 +2332,57 @@
       "qaIssue27Status": "NO-GO; issue #27 remains open; 21 comments reviewed and no authenticated acceptance receipts established.",
       "holds": "15 baseline change candidates; 13 unpublished; 4 duplicate-active; 2 identity investigations; SKU-3334 Arabic localization; CR1009 financial verification pending.",
       "limitations": "Creator Modified_Time absent from returned records; timezone, boundary, pagination and webhook completeness unverified. No authenticated Catalog/Checkout tests or native sync/deployed gateway/rollback/webhook auth/end-to-end ACK verified this run."
+    },
+    {
+      "observedAtLocal": "2026-10-31T17:45:23+03:00",
+      "observedAtUTC": "2026-10-31T14:45:23Z",
+      "timeSource": "automation run context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
+      "creatorResult": "Creator code 3000; 3 records returned; no record_cursor returned; per-record Modified_Time absent.",
+      "creatorReturnedIds": [
+        "4278439000000106492",
+        "4278439000000106182",
+        "4278439000000101314"
+      ],
+      "newlyObservedIdsComparedToPersistedHistory": [],
+      "reviewedPreviouslyKnownCandidates": [
+        {
+          "creatorId": "4278439000000106492",
+          "sku": "CR1755",
+          "assessment": "Storefront Yes; existing Arabic name, brand, category, Books ID and image reference; rights and authenticated display unverified."
+        },
+        {
+          "creatorId": "4278439000000106182",
+          "sku": "CR1703",
+          "assessment": "Storefront Yes; existing Arabic name, brand, category, Books ID and image reference; rights and authenticated display unverified."
+        },
+        {
+          "creatorId": "4278439000000101314",
+          "sku": "CR1009",
+          "assessment": "Storefront No; Books ID blank; existing SAR 0.39 base/selling prices unverified. No financial edits."
+        }
+      ],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "manifestValidation": {
+        "batches": 20,
+        "ids": 2122,
+        "unique": 2122,
+        "allComplete": true,
+        "sorted": true,
+        "source": "persisted manifest, no full Creator rescan"
+      },
+      "qaIssue27Status": "NO-GO; issue #27 open with 21 comments; no new authenticated acceptance receipts in issue comments.",
+      "holds": "15 baseline change candidates; 13 unpublished; 4 duplicate-active; 2 identity investigations; SKU-3334 Arabic localization; CR1009 financial verification pending.",
+      "limitations": "Creator Modified_Time not returned per record; timezone, pagination, boundary, webhook completeness unverified. No authenticated Catalog/Checkout tests or native sync/deployed gateway/rollback/webhook auth/end-to-end ACK verified this run."
     }
   ],
   "pendingCandidateCreatorIds": [
