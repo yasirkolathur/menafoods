@@ -72,8 +72,8 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T04:54:12+03:00",
-    "observedAtUTC": "2026-10-31T01:54:12Z",
+    "observedAtLocal": "2026-10-31T05:54:19+03:00",
+    "observedAtUTC": "2026-10-31T02:54:19Z",
     "timeSource": "automation run context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
@@ -82,7 +82,6 @@
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
-    "exactIdReadback": [],
     "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
@@ -90,15 +89,13 @@
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "researchSources": [],
-    "manifestIntegrity": "20 ordered, non-overlapping batches; 2,122 distinct Creator IDs; batch sizes 106–107; manifest checked by IDs only, no Creator full rescan",
     "qaEvidenceChecked": [
       "GitHub issue #27 body and 21 comments; no new authenticated acceptance receipts",
-      "GitHub issue #36 body and 29 comments; no new release/sync verification receipts"
+      "GitHub issue #36 body and 29 comments; no new sync/deployment verification receipts"
     ],
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer pricing/private-cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
+    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts missing",
     "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
-    "limitations": "Creator per-record Modified_Time, timezone, inclusive boundary, pagination and event completeness unverified; source watermark null. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK and authenticated checkout receipts not verified."
+    "limitations": "Modified_Time absent from returned records; timezone, inclusive boundary, pagination and change-feed completeness unverified. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, webhook authentication, destination ACK and authenticated checkout receipts not verified."
   },
   "incrementalObservationHistory": [
     {
@@ -1833,6 +1830,32 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, customer pricing/private-cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts still missing",
       "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
       "limitations": "Creator per-record Modified_Time, timezone, inclusive boundary, pagination and event completeness unverified; source watermark null. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK and authenticated checkout receipts not verified."
+    },
+    {
+      "observedAtLocal": "2026-10-31T05:54:19+03:00",
+      "observedAtUTC": "2026-10-31T02:54:19Z",
+      "timeSource": "automation run context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 22:00:00\"",
+      "creatorResult": "Zoho Creator code 9280: no records matching criteria; connector surfaced INVALID_ARGUMENT; not proof of complete change-feed coverage",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaEvidenceChecked": [
+        "GitHub issue #27 body and 21 comments; no new authenticated acceptance receipts",
+        "GitHub issue #36 body and 29 comments; no new sync/deployment verification receipts"
+      ],
+      "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, customer price/private cost, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout receipts missing",
+      "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
+      "limitations": "Modified_Time absent from returned records; timezone, inclusive boundary, pagination and change-feed completeness unverified. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, webhook authentication, destination ACK and authenticated checkout receipts not verified."
     }
   ],
   "pendingCandidateCreatorIds": [
