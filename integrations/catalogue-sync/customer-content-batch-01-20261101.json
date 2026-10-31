@@ -1,0 +1,484 @@
+{
+  "date": "2026-11-01",
+  "batch": 1,
+  "products": 20,
+  "source": "Existing exact Creator identities, explicit packing records and earlier manufacturer brand evidence. Formatting/translation is not independent manufacturer verification.",
+  "changes": [
+    {
+      "creatorId": "4278439000009782010",
+      "sku": "SKU-3489",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Fine Meze Grape Leaves — Bucket",
+        "Translated_Name": "ورق عنب فاين ميز — سطل",
+        "Description": "Fine Meze grape leaves supplied in a bucket.",
+        "Translated_Description": "ورق عنب من فاين ميز، معبأ في سطل.",
+        "Package_Details": "1 selling unit = 1 bucket.",
+        "Translated_Package": "وحدة البيع: سطل واحد."
+      }
+    },
+    {
+      "creatorId": "4278439000009654011",
+      "sku": "SKU-260924081109",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "AMG Australian Frozen Beef Tripe, 20 kg — Carton",
+        "Translated_Name": "كرشة بقري أسترالية مجمدة AMG، 20 كجم — كرتون",
+        "Description": "AMG frozen beef tripe from Australia, supplied in a 20 kg carton.",
+        "Translated_Description": "كرشة بقري مجمدة من AMG، بلد المنشأ أستراليا، معبأة في كرتون 20 كجم.",
+        "Package_Details": "1 carton × 20 kg.",
+        "Translated_Package": "كرتون واحد × 20 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000009713088",
+      "sku": "SKU-3480",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Arma Crystal Sunflower Oil, 17 L — Tin",
+        "Translated_Name": "زيت دوار الشمس كريستال أرما، 17 لتر — تنك",
+        "Description": "Crystal sunflower oil from Arma, supplied in a 17 L tin.",
+        "Translated_Description": "زيت دوار الشمس كريستال من أرما، معبأ في تنك سعة 17 لتر.",
+        "Package_Details": "1 tin × 17 L.",
+        "Translated_Package": "تنك واحد × 17 لتر."
+      }
+    },
+    {
+      "creatorId": "4278439000009645018",
+      "sku": "SKU-260924081433",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Classic Sheep Tripe, 15 kg — Carton",
+        "Translated_Name": "كرشة غنم كلاسيك، 15 كجم — كرتون",
+        "Description": "Classic sheep tripe supplied in a 15 kg carton.",
+        "Translated_Description": "كرشة غنم من كلاسيك، معبأة في كرتون 15 كجم.",
+        "Package_Details": "1 carton × 15 kg.",
+        "Translated_Package": "كرتون واحد × 15 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000003387011",
+      "sku": "SKU-2976",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "HEZAM Thermal Bags No.10, 6 Pieces — Pack",
+        "Translated_Name": "أكياس حرارية هيزام رقم 10، 6 قطع — عبوة",
+        "Brand": "HEZAM",
+        "Description": "HEZAM thermal bags, size No.10, supplied in a pack of 6.",
+        "Translated_Description": "أكياس حرارية من هيزام، مقاس رقم 10، عبوة تحتوي على 6 قطع.",
+        "Package_Details": "6 pieces per pack. Size reference: No.10.",
+        "Translated_Package": "6 قطع في العبوة. مرجع المقاس: رقم 10."
+      }
+    },
+    {
+      "creatorId": "4278439000009646016",
+      "sku": "SKU-260924081025",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Better Beef Brazilian Beef Feet — Per kg",
+        "Translated_Name": "أقدام بقري برازيلية بيتر بيف — بالكيلوجرام",
+        "Description": "Beef feet from Better Beef, Brazil. Sold per kilogram.",
+        "Translated_Description": "أقدام بقري من بيتر بيف، البرازيل. تباع بالكيلوجرام.",
+        "Package_Details": "Selling unit: 1 kg.",
+        "Translated_Package": "وحدة البيع: 1 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000004476007",
+      "sku": "SKU-3152",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Jack 'n Jill Chippy BBQ Chips, 50 × 110 g — Carton",
+        "Translated_Name": "شيبس تشيبي باربيكيو جاك إن جيل، 50 × 110 جم — كرتون",
+        "Description": "Jack 'n Jill Chippy barbecue-flavoured chips. Carton contains 50 packs of 110 g.",
+        "Translated_Description": "شيبس تشيبي بنكهة الباربيكيو من جاك إن جيل. يحتوي الكرتون على 50 عبوة، وزن كل عبوة 110 جم.",
+        "Package_Details": "50 × 110 g per carton.",
+        "Translated_Package": "50 × 110 جم في الكرتون."
+      }
+    },
+    {
+      "creatorId": "4278439000004484007",
+      "sku": "SKU-3158",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "MAGGI Magic Sarap Seasoning, 60 × (12 × 8 g) — Carton",
+        "Translated_Name": "توابل ماجي ماجيك ساراب، 60 × (12 × 8 جم) — كرتون",
+        "Description": "MAGGI Magic Sarap seasoning in 8 g sachets. Carton configuration: 60 packs of 12 sachets.",
+        "Translated_Description": "توابل ماجي ماجيك ساراب في أكياس 8 جم. يحتوي الكرتون على 60 عبوة، في كل عبوة 12 كيساً.",
+        "Package_Details": "60 packs × 12 sachets × 8 g.",
+        "Translated_Package": "60 عبوة × 12 كيساً × 8 جم."
+      }
+    },
+    {
+      "creatorId": "4278439000000103044",
+      "sku": "CR1231",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Food Choice Pure Honey, 6 × 1 kg — Carton",
+        "Translated_Name": "عسل نقي فود تشويس، 6 × 1 كجم — كرتون",
+        "Description": "Food Choice honey supplied in a carton of six 1 kg packs.",
+        "Translated_Description": "عسل فود تشويس، كرتون يحتوي على 6 عبوات، وزن كل عبوة 1 كجم.",
+        "Package_Details": "6 × 1 kg per carton; total net contents 6 kg.",
+        "Translated_Package": "6 × 1 كجم في الكرتون؛ إجمالي المحتوى 6 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000009981040",
+      "sku": "SKU-3542",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109051",
+        "Product_Name": "Fine Twister Potatoes, 4 × 2.5 kg — Carton",
+        "Translated_Name": "بطاطس تويستر فاين، 4 × 2.5 كجم — كرتون",
+        "Description": "Fine twister potatoes supplied in a carton containing four 2.5 kg packs.",
+        "Translated_Description": "بطاطس تويستر فاين، كرتون يحتوي على 4 عبوات، وزن كل عبوة 2.5 كجم.",
+        "Package_Details": "4 × 2.5 kg per carton; total 10 kg.",
+        "Translated_Package": "4 × 2.5 كجم في الكرتون؛ الإجمالي 10 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000000105360",
+      "sku": "CR1659",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Whole Coriander Seeds — Per kg",
+        "Translated_Name": "بذور كزبرة كاملة — بالكيلوجرام",
+        "Description": "Whole coriander seeds, sold per kilogram.",
+        "Translated_Description": "بذور كزبرة كاملة، تباع بالكيلوجرام.",
+        "Package_Details": "Selling unit: 1 kg.",
+        "Translated_Package": "وحدة البيع: 1 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000004486007",
+      "sku": "SKU-3166",
+      "fields": [
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Product_Name": "Granny Goose Tortillos Cheese Snacks, 50 × 100 g",
+        "Translated_Name": "سناك تورتيـلوس بالجبنة جراني جوس، 50 × 100 جم",
+        "Description": "Granny Goose Tortillos cheese-flavoured snacks supplied in 50 packs of 100 g.",
+        "Translated_Description": "سناك تورتيـلوس بنكهة الجبنة من جراني جوس، 50 عبوة، وزن كل عبوة 100 جم.",
+        "Package_Details": "50 × 100 g.",
+        "Translated_Package": "50 × 100 جم."
+      }
+    },
+    {
+      "creatorId": "4278439000009981061",
+      "sku": "SKU-3545",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109007",
+        "Product_Name": "Super Gold Butter, 10 × 2.5 kg — Carton",
+        "Translated_Name": "زبدة سوبر جولد، 10 × 2.5 كجم — كرتون",
+        "Description": "Super Gold butter supplied in a carton containing ten 2.5 kg packs.",
+        "Translated_Description": "زبدة سوبر جولد، كرتون يحتوي على 10 عبوات، وزن كل عبوة 2.5 كجم.",
+        "Package_Details": "10 × 2.5 kg per carton; total 25 kg.",
+        "Translated_Package": "10 × 2.5 كجم في الكرتون؛ الإجمالي 25 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000009981047",
+      "sku": "SKU-3543",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109051",
+        "Product_Name": "Lamb Weston Onion Rings, 6 × 1 kg — Carton",
+        "Translated_Name": "حلقات بصل لامب ويستون، 6 × 1 كجم — كرتون",
+        "Description": "Lamb Weston onion rings supplied in a carton containing six 1 kg packs.",
+        "Translated_Description": "حلقات بصل لامب ويستون، كرتون يحتوي على 6 عبوات، وزن كل عبوة 1 كجم.",
+        "Package_Details": "6 × 1 kg per carton; total 6 kg.",
+        "Translated_Package": "6 × 1 كجم في الكرتون؛ الإجمالي 6 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000009981054",
+      "sku": "SKU-3544",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109043",
+        "Product_Name": "Americana Tail-Off Prawns, 10 × 1 kg — Carton",
+        "Translated_Name": "روبيان أمريكانا منزوع الذيل، 10 × 1 كجم — كرتون",
+        "Description": "Americana tail-off prawns supplied in a carton containing ten 1 kg packs.",
+        "Translated_Description": "روبيان أمريكانا منزوع الذيل، كرتون يحتوي على 10 عبوات، وزن كل عبوة 1 كجم.",
+        "Package_Details": "10 × 1 kg per carton; total 10 kg.",
+        "Translated_Package": "10 × 1 كجم في الكرتون؛ الإجمالي 10 كجم."
+      }
+    },
+    {
+      "creatorId": "4278439000009981068",
+      "sku": "SKU-3546",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109007",
+        "Product_Name": "Pride Cheese Slices, 9 × 48 — Carton",
+        "Translated_Name": "شرائح جبن برايد، 9 × 48 — كرتون",
+        "Description": "Pride cheese slices supplied in a carton with pack configuration 9 × 48.",
+        "Translated_Description": "شرائح جبن برايد، كرتون بترتيب تعبئة 9 × 48.",
+        "Package_Details": "Pack configuration: 9 × 48.",
+        "Translated_Package": "ترتيب التعبئة: 9 × 48."
+      }
+    },
+    {
+      "creatorId": "4278439000009981082",
+      "sku": "SKU-3548",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109035",
+        "Product_Name": "Rabia Juice, 30 × 250 ml — Carton",
+        "Translated_Name": "عصير ربيع، 30 × 250 مل — كرتون",
+        "Description": "Rabia juice supplied in a carton containing thirty 250 ml packs.",
+        "Translated_Description": "عصير ربيع، كرتون يحتوي على 30 عبوة، سعة كل عبوة 250 مل.",
+        "Package_Details": "30 × 250 ml per carton; total 7.5 L.",
+        "Translated_Package": "30 × 250 مل في الكرتون؛ الإجمالي 7.5 لتر."
+      }
+    },
+    {
+      "creatorId": "4278439000009981075",
+      "sku": "SKU-3547",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109019",
+        "Product_Name": "Large Eggs No.4, 12 Trays × 30 — Carton",
+        "Translated_Name": "بيض كبير رقم 4، 12 طبقاً × 30 — كرتون",
+        "Description": "Eggs No.4 supplied in a carton of 12 trays, with 30 eggs per tray.",
+        "Translated_Description": "بيض رقم 4، كرتون يحتوي على 12 طبقاً، في كل طبق 30 بيضة.",
+        "Package_Details": "12 trays × 30 eggs; total 360 eggs per carton.",
+        "Translated_Package": "12 طبقاً × 30 بيضة؛ الإجمالي 360 بيضة في الكرتون."
+      }
+    },
+    {
+      "creatorId": "4278439000009981089",
+      "sku": "SKU-3549",
+      "fields": [
+        "Category",
+        "Product_Name",
+        "Translated_Name",
+        "Description",
+        "Package_Details"
+      ],
+      "coreVerified": true,
+      "notExposed": [
+        "Translated_Description",
+        "Translated_Package"
+      ],
+      "patch": {
+        "Category": "4278439000000109035",
+        "Product_Name": "Suntop Juice, 30 × 250 ml — Carton",
+        "Translated_Name": "عصير سن توب، 30 × 250 مل — كرتون",
+        "Description": "Suntop juice supplied in a carton containing thirty 250 ml packs.",
+        "Translated_Description": "عصير سن توب، كرتون يحتوي على 30 عبوة، سعة كل عبوة 250 مل.",
+        "Package_Details": "30 × 250 ml per carton; total 7.5 L.",
+        "Translated_Package": "30 × 250 مل في الكرتون؛ الإجمالي 7.5 لتر."
+      }
+    },
+    {
+      "creatorId": "4278439000002775003",
+      "sku": "SKU-2871",
+      "coreVerified": true,
+      "imageUploaded": true,
+      "imageRowId": "4278439000010021002",
+      "imageType": "AI-generated ingredient illustration; bilingual in-image label",
+      "title": "777 Black Chickpeas (Kala Chana), 15 kg — Bag"
+    }
+  ],
+  "priceWrites": 0,
+  "stockWrites": 0,
+  "visibilityWrites": 0,
+  "allReportFieldsExportedFor": 2135,
+  "percentageField": {
+    "blank": 1920,
+    "zero": 150,
+    "notPricingConfigurationCount": true
+  },
+  "categoryDefaults": "No default margin percentages in category records",
+  "crossSystemSyncVerified": false,
+  "mediaAcknowledgement": "Creator only; Commerce/Catalyst not verified"
+}
