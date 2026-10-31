@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 3,
+  "completedBatch": 4,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -56,7 +56,24 @@
     "4278439000000104122",
     "4278439000000104184",
     "4278439000000104242",
-    "4278439000000104370"
+    "4278439000000104370",
+    "4278439000000104440",
+    "4278439000000104482",
+    "4278439000000104490",
+    "4278439000000104526",
+    "4278439000000104540",
+    "4278439000000104572",
+    "4278439000000104580",
+    "4278439000000104602",
+    "4278439000000104608",
+    "4278439000000104612",
+    "4278439000000104654",
+    "4278439000000104658",
+    "4278439000000104894",
+    "4278439000000104942",
+    "4278439000000105036",
+    "4278439000000105044",
+    "4278439000000105052"
   ],
   "pendingProducts": [
     {
@@ -77,211 +94,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000104440",
-      "sku": "CR1487",
-      "name": "700g Sadia  Whole Chicken Griller Brazil (14x700g)",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104482",
-      "sku": "CR1493",
-      "name": "Perdix Brazilian Frozen Chicken Half Breast 4 * 2.5kg",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104490",
-      "sku": "CR1494",
-      "name": "Brazilian Frozen Chicken Shawarma 4 * 2.5kg Seara",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104526",
-      "sku": "CR1499",
-      "name": "Frozen Indian Boneless Buffalo – Rump Steak 20kg #45",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104540",
-      "sku": "CR1501",
-      "name": "Frozen Boneless Veal -   Tenderloin 18kg #99",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000104572",
-      "sku": "CR1505",
-      "name": "Frozen Cat Fish Steak 1kgx10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104580",
-      "sku": "CR1506",
-      "name": "Frozen Pangus Fish Steak 1 kg x 10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104602",
-      "sku": "CR1509",
-      "name": "VEGETABLE COOKING OIL Mr Chef 1*17 LITER",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104608",
-      "sku": "CR1510",
-      "name": "VEGETABLE COOKING OIL DALAL 1*17 LITER",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104612",
-      "sku": "CR1511",
-      "name": "VEGETABLE COOKING OIL ARABI 1*17 LITER",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104654",
-      "sku": "CR1521",
-      "name": "BLACK OLIVES COPOLIVA 12*100 GM",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104658",
-      "sku": "CR1522",
-      "name": "MOZZARELLA CHEESE STICKS LAMBWESTON 6*1 KG",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104894",
-      "sku": "CR1570",
-      "name": "MIXED VEGETABLE LIFE 20*400 GM",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104942",
-      "sku": "CR1582",
-      "name": "MOLOKHIA MONTANA 20*400 GM",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105008",
-      "sku": "CR1598",
-      "name": "OKRA FINE LIFE 20*400 GM",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000000105036",
-      "sku": "CR1605",
-      "name": "POTATO WEDGES DARI 10*1 KG",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105044",
-      "sku": "CR1607",
-      "name": "French Fries Dari 9/9 pieces 2.5kg x 4 - carton",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105052",
-      "sku": "CR1609",
-      "name": "LABNEH DARI 4*2750 GM",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000105124",
-      "sku": "CR1623",
-      "name": "31 - 40  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10 ) BAGS",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105132",
-      "sku": "CR1624",
-      "name": "26-30 RAW IQF WHITE SHRIMPS, P&D, TAIL-OFF",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -21969,6 +21781,43 @@
       ],
       "reason": "Ruman Sulthan Turkey identity and category ambiguous; label needed.",
       "heldBatch": 3
+    },
+    {
+      "id": "4278439000000105008",
+      "sku": "CR1598",
+      "name": "OKRA FINE LIFE 20*400 GM",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Fine Life brand/Arabic identity ambiguous; label required",
+      "heldBatch": 4
+    },
+    {
+      "id": "4278439000000105124",
+      "sku": "CR1623",
+      "name": "31 - 40  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10 ) BAGS",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "kg sale unit versus 10 × 1 kg bags; shrimp size basis unspecified",
+      "heldBatch": 4
+    },
+    {
+      "id": "4278439000000105132",
+      "sku": "CR1624",
+      "name": "26-30 RAW IQF WHITE SHRIMPS, P&D, TAIL-OFF",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "kg sale unit; 26–30 shrimp size basis and packaging unspecified",
+      "heldBatch": 4
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22284,8 +22133,165 @@
       ],
       "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
       "batch": 3
+    },
+    {
+      "id": "4278439000000104440",
+      "sku": "CR1487",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104482",
+      "sku": "CR1493",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104490",
+      "sku": "CR1494",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104526",
+      "sku": "CR1499",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104540",
+      "sku": "CR1501",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "margin_rule_pending"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104572",
+      "sku": "CR1505",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104580",
+      "sku": "CR1506",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104602",
+      "sku": "CR1509",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104608",
+      "sku": "CR1510",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104612",
+      "sku": "CR1511",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104654",
+      "sku": "CR1521",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104658",
+      "sku": "CR1522",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104894",
+      "sku": "CR1570",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000104942",
+      "sku": "CR1582",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000105036",
+      "sku": "CR1605",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000105044",
+      "sku": "CR1607",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
+    },
+    {
+      "id": "4278439000000105052",
+      "sku": "CR1609",
+      "reviewFields": [
+        "Description",
+        "margin_rule_pending"
+      ],
+      "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
+      "batch": 4
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-03-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-04-20261101.json",
   "lastUpdateDate": "2026-11-01"
 }
