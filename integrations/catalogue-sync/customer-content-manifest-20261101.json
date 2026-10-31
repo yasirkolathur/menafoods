@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 2,
+  "completedBatch": 3,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -39,7 +39,24 @@
     "4278439000000101742",
     "4278439000000101746",
     "4278439000000101774",
-    "4278439000000101778"
+    "4278439000000101778",
+    "4278439000000101816",
+    "4278439000000102980",
+    "4278439000000102992",
+    "4278439000000103088",
+    "4278439000000103176",
+    "4278439000000103494",
+    "4278439000000103936",
+    "4278439000000103976",
+    "4278439000000104044",
+    "4278439000000104050",
+    "4278439000000104082",
+    "4278439000000104094",
+    "4278439000000104116",
+    "4278439000000104122",
+    "4278439000000104184",
+    "4278439000000104242",
+    "4278439000000104370"
   ],
   "pendingProducts": [
     {
@@ -53,66 +70,6 @@
       ]
     },
     {
-      "id": "4278439000000101816",
-      "sku": "CR1107",
-      "name": "Al Jamel Tahina 15 kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000102980",
-      "sku": "CR1215",
-      "name": "Cucumber Pickles (small)  Food Choice 1 x 6kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000102992",
-      "sku": "CR1218",
-      "name": "Sliced Black Olives  Food Choice 1 x 5kg",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000103088",
-      "sku": "CR1242",
-      "name": "Basil Leaves 12/5 oz American Garden 12 x 142 gm",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000103176",
-      "sku": "CR1263",
-      "name": "Whole Peeled Tomatoes American Garden 6 x 2500g",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000103494",
-      "sku": "CR1327",
-      "name": "Frozen Salmon Portions skinless ISFJORD 200g",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
       "id": "4278439000000103918",
       "sku": "CR1400",
       "name": "Beef Meat Balls 500g * 20",
@@ -120,149 +77,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000103936",
-      "sku": "CR1404",
-      "name": "Americana Super Ground Beef 20 * 400g",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000103940",
-      "sku": "CR1405",
-      "name": "Mumthaz Super Minced Mutton 400 g x 18",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000103976",
-      "sku": "CR1414",
-      "name": "AMERICANA AlSayyad Breaded Shrimps 1kg x 10",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104044",
-      "sku": "CR1431",
-      "name": "White Sesame Seed whole (kg)",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104050",
-      "sku": "CR1432",
-      "name": "Tusan White Oats 24 * 400 g",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104082",
-      "sku": "CR1437",
-      "name": "Shams Sunflower Oil ( 4 * 2.9 litre)",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104094",
-      "sku": "CR1438",
-      "name": "Shams Sunflower Oil ( 6 * 1.8 litre)",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000104110",
-      "sku": "CR1440",
-      "name": "Canned Green Peas Luna 400g and 284g",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104116",
-      "sku": "CR1441",
-      "name": "Canned White Beans Luna 24 x 400g",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104122",
-      "sku": "CR1442",
-      "name": "Rana White Vinegar 30liters",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000104148",
-      "sku": "CR1445",
-      "name": "Frozen Ruman Sulthan Turkey 4 * 2KG",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104184",
-      "sku": "CR1450",
-      "name": "TOTAPURI MANGO PULP PREMIER 16*1 KG",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104242",
-      "sku": "CR1461",
-      "name": "French Fries Mondella 4* 2.5 kg 9/9 pieces",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000104370",
-      "sku": "CR1481",
-      "name": "1000g Astra Whole Chicken  10 pcs",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -22119,6 +21933,42 @@
       "reason": "450 g ×20a contains ambiguous 20a; do not assert a 20-pack carton without label.",
       "heldSince": "2026-11-01",
       "heldInBatch": 2
+    },
+    {
+      "id": "4278439000000103940",
+      "sku": "CR1405",
+      "name": "Mumthaz Super Minced Mutton 400 g x 18",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Mumthaz name conflicts with Americana Brand; label identity needed.",
+      "heldBatch": 3
+    },
+    {
+      "id": "4278439000000104110",
+      "sku": "CR1440",
+      "name": "Canned Green Peas Luna 400g and 284g",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "400 g versus 284 g weight ambiguity; label needed.",
+      "heldBatch": 3
+    },
+    {
+      "id": "4278439000000104148",
+      "sku": "CR1445",
+      "name": "Frozen Ruman Sulthan Turkey 4 * 2KG",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Ruman Sulthan Turkey identity and category ambiguous; label needed.",
+      "heldBatch": 3
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22279,8 +22129,163 @@
       ],
       "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
       "batch": 2
+    },
+    {
+      "id": "4278439000000101816",
+      "sku": "CR1107",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000102980",
+      "sku": "CR1215",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000102992",
+      "sku": "CR1218",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000103088",
+      "sku": "CR1242",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000103176",
+      "sku": "CR1263",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000103494",
+      "sku": "CR1327",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000103936",
+      "sku": "CR1404",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000103976",
+      "sku": "CR1414",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104044",
+      "sku": "CR1431",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104050",
+      "sku": "CR1432",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104082",
+      "sku": "CR1437",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104094",
+      "sku": "CR1438",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104116",
+      "sku": "CR1441",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104122",
+      "sku": "CR1442",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104184",
+      "sku": "CR1450",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104242",
+      "sku": "CR1461",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
+    },
+    {
+      "id": "4278439000000104370",
+      "sku": "CR1481",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; descriptions/packing not exposed by All_Products readback, unchanged pending source and verification",
+      "batch": 3
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-02-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-03-20261101.json",
   "lastUpdateDate": "2026-11-01"
 }
