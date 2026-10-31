@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 1,
+  "completedBatch": 2,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -22,132 +22,26 @@
     "4278439000009981068",
     "4278439000009981075",
     "4278439000009981082",
-    "4278439000009981089"
+    "4278439000009981089",
+    "4278439000000101280",
+    "4278439000000101298",
+    "4278439000000101302",
+    "4278439000000101350",
+    "4278439000000101526",
+    "4278439000000101554",
+    "4278439000000101650",
+    "4278439000000101654",
+    "4278439000000101680",
+    "4278439000000101710",
+    "4278439000000101718",
+    "4278439000000101728",
+    "4278439000000101734",
+    "4278439000000101742",
+    "4278439000000101746",
+    "4278439000000101774",
+    "4278439000000101778"
   ],
   "pendingProducts": [
-    {
-      "id": "4278439000000101280",
-      "sku": "CR1002",
-      "name": "Me butcher Beef Balls Pizza 4x4.5kg",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000101298",
-      "sku": "CR1005",
-      "name": "NAJEEB  Classic long Grain BASMATI Rice 40 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101302",
-      "sku": "CR1006",
-      "name": "Maha Vegetable Oil Tin (1 x17 ltr)",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101350",
-      "sku": "CR1016",
-      "name": "Marie Gold Butter Block 10 x 2.5 kg",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101526",
-      "sku": "CR1057",
-      "name": "Analogue Mozzarella Cheese(4X2.5Kg)",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101544",
-      "sku": "CR1060",
-      "name": "Brazilian Frozen Chicken Breast boneless 4 * 2.5 kg Jagua",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101554",
-      "sku": "CR1062",
-      "name": "Cucumber Pickles (Big) - 10kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000101560",
-      "sku": "CR1063",
-      "name": "Frozen Fish Fillet 1 kg x 2 pcs Packs",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101574",
-      "sku": "CR1066",
-      "name": "Frozen Chicken Liver  450 g ×20a Sadia",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101650",
-      "sku": "CR1081",
-      "name": "Salt Rustin 50 kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101654",
-      "sku": "CR1082",
-      "name": "Sasa Iodized Salt (24 X 700gm)",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101680",
-      "sku": "CR1086",
-      "name": "Golden Passion French fries 10 * 1 kg 7/7",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
     {
       "id": "4278439000000101684",
       "sku": "CR1087",
@@ -156,86 +50,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000101710",
-      "sku": "CR1092",
-      "name": "Frozen  Guava Plup 16 x 1000g Farm fresh",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101718",
-      "sku": "CR1094",
-      "name": "Frozen  Mango FARM FRESH  16 x 1000 g",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101728",
-      "sku": "CR1095",
-      "name": "Frozen Beef forequarter Brazil Naturafrig 18-24kg",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101734",
-      "sku": "CR1096",
-      "name": "Allana Frozen Indian Beef Forequarters Roll 18 kg #106",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101742",
-      "sku": "CR1097",
-      "name": "Tammam Indian Beef Forequarters Roll 18 kg #106",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101746",
-      "sku": "CR1098",
-      "name": "Frozen Beef Liver Australia AMH",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101774",
-      "sku": "CR1101",
-      "name": "Superior Wheat Flour 45kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000101778",
-      "sku": "CR1102",
-      "name": "Afia Corn Oil 6 x 1.8 Ltrs",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -22266,7 +22080,207 @@
         "Brand",
         "Description"
       ]
+    },
+    {
+      "id": "4278439000000101544",
+      "sku": "CR1060",
+      "name": "Brazilian Frozen Chicken Breast boneless 4 * 2.5 kg Jagua",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Jagua in title conflicts with Jague in Brand; manufacturer/label variant needed before rewriting.",
+      "heldSince": "2026-11-01",
+      "heldInBatch": 2
+    },
+    {
+      "id": "4278439000000101560",
+      "sku": "CR1063",
+      "name": "Frozen Fish Fillet 1 kg x 2 pcs Packs",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "1 kg x 2 pcs Packs is ambiguous about pack count versus pieces; do not invent packing.",
+      "heldSince": "2026-11-01",
+      "heldInBatch": 2
+    },
+    {
+      "id": "4278439000000101574",
+      "sku": "CR1066",
+      "name": "Frozen Chicken Liver  450 g ×20a Sadia",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "450 g ×20a contains ambiguous 20a; do not assert a 20-pack carton without label.",
+      "heldSince": "2026-11-01",
+      "heldInBatch": 2
     }
   ],
-  "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates."
+  "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
+  "deferredContentFields": [
+    {
+      "id": "4278439000000101280",
+      "sku": "CR1002",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101298",
+      "sku": "CR1005",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101302",
+      "sku": "CR1006",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101350",
+      "sku": "CR1016",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101526",
+      "sku": "CR1057",
+      "reviewFields": [
+        "Description",
+        "Brand_identity_check"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101554",
+      "sku": "CR1062",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "margin_rule_pending"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101650",
+      "sku": "CR1081",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101654",
+      "sku": "CR1082",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101680",
+      "sku": "CR1086",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101710",
+      "sku": "CR1092",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101718",
+      "sku": "CR1094",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101728",
+      "sku": "CR1095",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101734",
+      "sku": "CR1096",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101742",
+      "sku": "CR1097",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101746",
+      "sku": "CR1098",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101774",
+      "sku": "CR1101",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    },
+    {
+      "id": "4278439000000101778",
+      "sku": "CR1102",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title/Arabic name updated and read back; description/packing not exposed by current report readback, source evidence and verification pending",
+      "batch": 2
+    }
+  ],
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-02-20261101.json",
+  "lastUpdateDate": "2026-11-01"
 }
