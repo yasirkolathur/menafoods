@@ -3037,5 +3037,29 @@
         "4278439000000101318"
       ]
     }
+  },
+  "ownerRequestedFullCatalogueAudit": {
+    "date": "2026-10-31",
+    "evidencePath": "integrations/catalogue-sync/owner-requested-audit-20261031.json",
+    "counts": {
+      "total": 2135,
+      "published": 1198,
+      "missingBrand": 501,
+      "missingUnit": 355,
+      "missingSku": 207,
+      "missingArabic": 38,
+      "missingBooksId": 238,
+      "missingImages": 181,
+      "visibleMissingImages": 11,
+      "visibleMissingUnit": 4,
+      "visibleMissingBrand": 281,
+      "visibleMissingDescription": 1053,
+      "visibleMissingPackageDetails": 145
+    },
+    "fullFieldExportComplete": false,
+    "verifiedCreatorFieldCorrections": 7,
+    "imageWrites": 0,
+    "crossSystemSyncVerified": false,
+    "note": "Owner explicitly requested full refresh; routine scheduled runs should continue incremental reconciliation. Original 20-batch frozen manifest remains unchanged. Seven verified changes are recorded separately to avoid blind replay."
   }
 }
