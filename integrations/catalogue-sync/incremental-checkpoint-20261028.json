@@ -72,45 +72,18 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-10-31T02:47:17+03:00",
-    "observedAtUTC": "2026-10-30T23:47:17Z",
-    "timeSource": "automation run context; not Creator Modified_Time",
+    "observedAtLocal": "2026-10-31T03:45:56+03:00",
+    "observedAtUTC": "2026-10-31T00:45:56Z",
+    "timeSource": "automation runtime context; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 20:00:00\"",
-    "creatorResult": "Creator code 9280 no matching records (connector surfaced INVALID_ARGUMENT); this is not proof of change-feed completeness",
+    "creatorCriteria": "Modified_Time >= \"30-Oct-2026 22:00:00\"",
+    "creatorResult": "Zoho Creator code 9280: no records found matching criteria; connector surfaced INVALID_ARGUMENT; not proof of complete change-feed coverage",
     "creatorReturnedIds": [],
     "newlyObservedIds": [],
     "verifiedBeforeAfterFieldDeltas": 0,
-    "exactIdReadback": [
-      {
-        "creatorId": "4278439000009981117",
-        "sku": "SKU-3553",
-        "productName": "Date Roll 12 x 3",
-        "unit": "ctn",
-        "brand": "",
-        "translatedName": "",
-        "categoryEmpty": true,
-        "storefrontFlag": "No",
-        "productImagesEmpty": true,
-        "booksItemId": "4886172000053606002",
-        "assessment": "Product identity, producer, date-roll formulation, and 12 x 3 pack meaning ambiguous; no verified source or permitted field update; unchanged"
-      },
-      {
-        "creatorId": "4278439000009981124",
-        "sku": "SKU-3554",
-        "productName": "Cleaning Brush",
-        "unit": "pcs",
-        "brand": "",
-        "translatedName": "",
-        "categoryEmpty": true,
-        "storefrontFlag": "No",
-        "productImagesEmpty": true,
-        "booksItemId": "4886172000053621014",
-        "assessment": "Generic cleaning brush without manufacturer, material, dimensions, or exact product variant; no verified source or permitted field update; unchanged"
-      }
-    ],
-    "creatorConnectorCallsObserved": 3,
+    "exactIdReadback": [],
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -119,13 +92,12 @@
     "sourceWatermarkAdvanced": false,
     "researchSources": [],
     "qaEvidenceChecked": [
-      "GitHub issue #27 body and 21 comments; latest remains 29 Oct",
-      "GitHub issue #36 body and 29 comments",
-      "Creator exact-ID SKU-3553 and SKU-3554"
+      "Existing GitHub issue #27 body and 21 comments; no new authenticated QA receipts verified",
+      "Existing GitHub issue #36 body and 29 comments; stable manifest and prior checkpoint verified"
     ],
-    "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private cost isolation, VAT, cart, Buy Again, COD/credit, confirm-once checkout receipts not established",
+    "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, private cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts",
     "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
-    "limitations": "No Creator per-record Modified_Time, verified timezone/boundary/pagination/event completeness, native sync/gateway rollback/signed webhook/destination ACK, or authenticated checkout proof."
+    "limitations": "Creator per-record Modified_Time, timezone, inclusive boundary, pagination and event completeness unverified; source watermark null. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK and authenticated checkout receipts not verified."
   },
   "incrementalObservationHistory": [
     {
@@ -1803,6 +1775,34 @@
       "qaIssue27Status": "NO-GO; authenticated EN/AR RTL, product visibility/images, CTN/PCS/KG, private cost isolation, VAT, cart, Buy Again, COD/credit, confirm-once checkout receipts not established",
       "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
       "limitations": "No Creator per-record Modified_Time, verified timezone/boundary/pagination/event completeness, native sync/gateway rollback/signed webhook/destination ACK, or authenticated checkout proof."
+    },
+    {
+      "observedAtLocal": "2026-10-31T03:45:56+03:00",
+      "observedAtUTC": "2026-10-31T00:45:56Z",
+      "timeSource": "automation runtime context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"30-Oct-2026 22:00:00\"",
+      "creatorResult": "Zoho Creator code 9280: no records found matching criteria; connector surfaced INVALID_ARGUMENT; not proof of complete change-feed coverage",
+      "creatorReturnedIds": [],
+      "newlyObservedIds": [],
+      "verifiedBeforeAfterFieldDeltas": 0,
+      "exactIdReadback": [],
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "researchSources": [],
+      "qaEvidenceChecked": [
+        "Existing GitHub issue #27 body and 21 comments; no new authenticated QA receipts verified",
+        "Existing GitHub issue #36 body and 29 comments; stable manifest and prior checkpoint verified"
+      ],
+      "qaIssue27Status": "NO-GO; no authenticated EN/AR RTL, visibility/images, CTN/PCS/KG, private cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout receipts",
+      "holds": "15 baseline change candidates; 13 unpublished products; 4 duplicate-active holds; 2 identity investigations; SKU-3334 Arabic localization defect",
+      "limitations": "Creator per-record Modified_Time, timezone, inclusive boundary, pagination and event completeness unverified; source watermark null. Native Books–Inventory–Commerce sync, deployed gateway source/rollback, signed webhook, destination ACK and authenticated checkout receipts not verified."
     }
   ],
   "pendingCandidateCreatorIds": [
