@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 6,
+  "completedBatch": 7,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -95,7 +95,22 @@
     "4278439000000106202",
     "4278439000000106238",
     "4278439000000106242",
-    "4278439000000106280"
+    "4278439000000106280",
+    "4278439000000106290",
+    "4278439000000106298",
+    "4278439000000106330",
+    "4278439000000106338",
+    "4278439000000106348",
+    "4278439000000106364",
+    "4278439000000106388",
+    "4278439000000106400",
+    "4278439000000106406",
+    "4278439000000106428",
+    "4278439000000106432",
+    "4278439000000106436",
+    "4278439000000106440",
+    "4278439000000106446",
+    "4278439000000106454"
   ],
   "pendingProducts": [
     {
@@ -116,212 +131,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000106290",
-      "sku": "CR1723",
-      "name": "Frozen Black Pomfert Fish300/500 10 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106298",
-      "sku": "CR1725",
-      "name": "Allana Frozen Boneless Indian Beef Slice 20 * 900 g #11",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106320",
-      "sku": "CR1726",
-      "name": "Frozen Beef Liver New Zealand  Affco",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106330",
-      "sku": "CR1727",
-      "name": "Frozen Beef Feet 20 kg",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106338",
-      "sku": "CR1728",
-      "name": "Frozen Boneless Beef Tenderloin Friboi 8-16kg",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106348",
-      "sku": "CR1729",
-      "name": "FROZEN  POMEGRANATE KERNEL MARIETTA 8*1 KG",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106352",
-      "sku": "CR1730",
-      "name": "FROZEN STRAWBERRY MARIETTA 8*1 KG (M)",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106364",
-      "sku": "CR1733",
-      "name": "Marietta spinach 400gm * 20",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106368",
-      "sku": "CR1734",
-      "name": "TOTAPURI GUAVA PULP PREMIER 16*1 KG",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106376",
-      "sku": "CR1736",
-      "name": "FROZEN MANGO PULP ZAIN 16*1 KG (No Sugar)",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106380",
-      "sku": "CR1737",
-      "name": "FROZEN MANGO PULP MONTANA 16*1 KG",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106388",
-      "sku": "CR1739",
-      "name": "Frozen kingfish fish up to 3 kg 20kg Carton",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106400",
-      "sku": "CR1741",
-      "name": "Frozen Squid rings (1 kg * 10 )bags",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106406",
-      "sku": "CR1742",
-      "name": "Frozen Squid tube 1kg* 10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106428",
-      "sku": "CR1745",
-      "name": "Villa Germania - Whole Frozen Duck 1.8 kg*8",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106432",
-      "sku": "CR1746",
-      "name": "Frozen Crab 100/200 g ( 1* 8kg) bluk Box",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106436",
-      "sku": "CR1747",
-      "name": "Whole milk fish 400-600 g 10 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106440",
-      "sku": "CR1748",
-      "name": "21 - 25  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10 ) BAGS",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000106446",
-      "sku": "CR1749",
-      "name": "Frozen Shrimps Head-On 20-30 2 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000000106454",
-      "sku": "CR1750",
-      "name": "Frozen Shrimps Head-On 10-20 2 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
       ]
     },
     {
@@ -21590,6 +21399,71 @@
       ],
       "reason": "Chicken cheese sausage/frank wording ambiguous; require exact product label to disambiguate before changing title or packaging.",
       "batch": 6
+    },
+    {
+      "id": "4278439000000106320",
+      "sku": "CR1726",
+      "name": "Frozen Beef Liver New Zealand  Affco",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "New Zealand origin stated in title but origin field blank; require manufacturer/label confirmation before repeating origin claim in Arabic or description.",
+      "heldBatch": 7,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000106352",
+      "sku": "CR1730",
+      "name": "FROZEN STRAWBERRY MARIETTA 8*1 KG (M)",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title Marietta conflicts with Brand Meritta; confirm exact manufacturer spelling and pack variant.",
+      "heldBatch": 7,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000106368",
+      "sku": "CR1734",
+      "name": "TOTAPURI GUAVA PULP PREMIER 16*1 KG",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Totapuri typically denotes a mango variety, while product says guava; exact product identity requires label evidence.",
+      "heldBatch": 7,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000106376",
+      "sku": "CR1736",
+      "name": "FROZEN MANGO PULP ZAIN 16*1 KG (No Sugar)",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "No Sugar claim not independently label-verified; avoid editorially republishing a dietary claim.",
+      "heldBatch": 7,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000106380",
+      "sku": "CR1737",
+      "name": "FROZEN MANGO PULP MONTANA 16*1 KG",
+      "storefront": true,
+      "category": "Fruits & Vegetables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Brand field Mountana conflicts with product title Montana; confirm exact brand spelling.",
+      "heldBatch": 7,
+      "heldSince": "2026-11-01"
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22235,9 +22109,150 @@
       ],
       "reason": "Title/Arabic name verified by exact-ID readback; descriptions/packing not written because source verification and readback are unavailable",
       "batch": 6
+    },
+    {
+      "id": "4278439000000106290",
+      "sku": "CR1723",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106298",
+      "sku": "CR1725",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106330",
+      "sku": "CR1727",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106338",
+      "sku": "CR1728",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106348",
+      "sku": "CR1729",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106364",
+      "sku": "CR1733",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106388",
+      "sku": "CR1739",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106400",
+      "sku": "CR1741",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106406",
+      "sku": "CR1742",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106428",
+      "sku": "CR1745",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106432",
+      "sku": "CR1746",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106436",
+      "sku": "CR1747",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106440",
+      "sku": "CR1748",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106446",
+      "sku": "CR1749",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
+    },
+    {
+      "id": "4278439000000106454",
+      "sku": "CR1750",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or readback.",
+      "batch": 7
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-06-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-07-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -22307,12 +22322,12 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 6,
+    "batch": 7,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 12,
-    "verifiedTitleFieldsChanged": 24,
-    "held": 3,
-    "reviewedNoChange": 5,
-    "creatorConnectorCallsMinimum": 45
+    "verifiedProductsChanged": 15,
+    "verifiedTitleFieldsChanged": 30,
+    "held": 5,
+    "reviewedNoChange": 0,
+    "creatorConnectorCalls": 72
   }
 }
