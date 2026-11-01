@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-01",
+  "batch": 15,
+  "checkpointBefore": 14,
+  "products": 20,
+  "exactIdsRead": 20,
+  "changes": [
+    {
+      "creatorId": "4278439000001864055",
+      "sku": "ME-008",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Zain Classic Basmati Rice 40 Kg",
+          "after": "Zain Classic Basmati Rice, 40 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "زين الكلاسيكية البسمتي الأرز 40 كجم",
+          "after": "أرز زين كلاسيك بسمتي، كيس 40 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864063",
+      "sku": "ME-009",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Raisin (Zabeeb) Uzbekistan No.1 1*10 kg",
+          "after": "Uzbekistan No. 1 Raisins, 10 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "الزبيب (زبيب) أوزبكستان1 * 10 كجم",
+          "after": "زبيب أوزبكستان رقم 1، كرتون 10 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864067",
+      "sku": "ME-0010",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Raisins # 2 (India) 1*10kg",
+          "after": "Indian No. 2 Raisins, 10 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "الزبيب رقم 2 (الهند) 1 * 10 كجم",
+          "after": "زبيب هندي رقم 2، كرتون 10 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864099",
+      "sku": "ME-0018",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Dal Chana India (777) 1*15 kg",
+          "after": "777 Chana Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "دال تشانا الهند (777) 1*15 كجم",
+          "after": "دال تشانا 777، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864103",
+      "sku": "ME-0019",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Dal Moong 121 Brand 1 * 15 kg",
+          "after": "121 Moong Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "دال مونغ 121 العلامة التجارية 1 * 15 كجم",
+          "after": "دال مونج 121، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864111",
+      "sku": "ME-0021",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Dal Toor 88 Brand 1 * 15kg",
+          "after": "88 Toor Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "دال تور 88 العلامة التجارية 1 * 15 كجم",
+          "after": "دال تور 88، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864115",
+      "sku": "ME-0022",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Mutar Dal 1 * 20kg",
+          "after": "Mutar Dal, 20 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "موتار دال 1 * 20 كجم",
+          "after": "دال موتار، كيس 20 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864119",
+      "sku": "ME-0023",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Mash Split 1*15kg",
+          "after": "Split Mash Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "ماش تقسيم 1 * 15 كجم",
+          "after": "دال ماش مجروش، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864123",
+      "sku": "ME-0024",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Mash Whole 1 * 15 kg",
+          "after": "Whole Mash Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "ماش كامل 1 * 15 كجم",
+          "after": "دال ماش كامل، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864127",
+      "sku": "ME-0025",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Moong Split (777) 1 * 15 kg",
+          "after": "777 Split Moong Dal, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "مونغ سبليت (777) 1 * 15 كجم",
+          "after": "دال مونج مجروش 777، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864131",
+      "sku": "ME-0026",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Moong Whole India Melow 1 * 15kg",
+          "after": "Melow Whole Moong, India, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "مونغ كله الهند ذوبان 1 * 15kg",
+          "after": "مونج كامل ميلو، الهند، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864139",
+      "sku": "ME-0028",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Dal Masoor India (Mellow) 15kg",
+          "after": "Mellow Masoor Dal, India, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "دال مصور الهند (مخفوف) 15 كجم",
+          "after": "دال مسور ميلو، الهند، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864147",
+      "sku": "ME-0030",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Masoor Brown Whole Canada 1 * 15kg",
+          "after": "Canadian Whole Brown Masoor, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "مصور براون كله كندا 1 * 15 كجم",
+          "after": "عدس مسور بني كامل، كندا، كيس 15 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864151",
+      "sku": "ME-0031",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Fried Onion 2 x 4.5kg",
+          "after": "FAZCO Fried Onions, 2 × 4.5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "البصل المقلي 2 × 4.5 كجم",
+          "after": "بصل مقلي فازكو، كرتون 2 × 4.5 كجم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864155",
+      "sku": "ME-0032",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Fried Onion 24 * 400gm",
+          "after": "FAZCO Fried Onions, 24 × 400 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "البصل المقلي 24 * 400gm",
+          "after": "بصل مقلي فازكو، كرتون 24 × 400 جم"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    },
+    {
+      "creatorId": "4278439000001864159",
+      "sku": "ME-0033",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU and product title/brand/unit/pack notation; editorial correction, not manufacturer-certified",
+      "fields": {
+        "Product_Name": {
+          "before": "Lemon Juice Asfur 12 *  1000ML",
+          "after": "Asfur Lemon Juice, 12 × 1 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "عصير ليمون عصفور 12*1000مل",
+          "after": "عصير ليمون عصفور، كرتون 12 × 1 لتر"
+        }
+      },
+      "deferredFields": [
+        "Description",
+        "Translated_Description",
+        "Package_Details",
+        "Translated_Package"
+      ]
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000001864083",
+      "sku": "ME-0014",
+      "reason": "Selling unit Tin conflicts with 2 × 10 kg cashew pack notation; hold until variant/packing label verified"
+    },
+    {
+      "creatorId": "4278439000001864107",
+      "sku": "ME-0020",
+      "reason": "Brand blank while name includes (777); cannot promote brand or revise until variant checked"
+    },
+    {
+      "creatorId": "4278439000001864135",
+      "sku": "ME-0027",
+      "reason": "Masoor 'Football' variant and 'Mellow' name/brand not sufficiently established"
+    },
+    {
+      "creatorId": "4278439000001864143",
+      "sku": "ME-0029",
+      "reason": "Abu Juba Dal identity and brand uncertain; no safe product translation"
+    }
+  ],
+  "api": {
+    "creatorReadBefore": 20,
+    "creatorUpdateCalls": 20,
+    "creatorReadback": 17,
+    "totalCreatorCalls": 57,
+    "notes": "16 initial successful title updates + 3 corrective Arabic updates + 1 corrective English update; 16 final product readbacks plus 1 extra for ME-0022"
+  },
+  "writes": {
+    "titleFields": 32,
+    "products": 16,
+    "financial": 0,
+    "stock": 0,
+    "visibility": 0,
+    "images": 0,
+    "orders": 0,
+    "sync": 0
+  },
+  "readbackLimitations": "All_Products does not expose translated description/packing; these fields were not modified.",
+  "checkoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "reason": "No authenticated seven-role, server VAT/customer price, idempotent checkout or Development deployment receipts in this run."
+  },
+  "sync": {
+    "status": "NOT VERIFIED",
+    "fourWayEnabled": false
+  },
+  "sourceLimitations": "Existing Creator product identity, pack notation and brand only; no independent manufacturer certification. No external image redistribution rights established."
+}
