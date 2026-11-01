@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-01",
+  "batch": 10,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 13,
+    "verifiedTitleFieldsChanged": 26,
+    "held": 7,
+    "reviewedNoChange": 0,
+    "fullRescan": false
+  },
+  "source": "Existing Zoho Creator mena / All_Products exact ID, SKU, current EN/AR titles, brand, category, selling unit, and title-stated pack notation. Editorial normalization only; no independent manufacturer certification. Claims not verified were omitted or held.",
+  "changes": [
+    {
+      "creatorId": "4278439000001075023",
+      "sku": "CR1831",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Yummy Frozen Mixed Vegetables ( 20 × 400 g ) packs",
+          "after": "Yummy Frozen Mixed Vegetables, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "حزم الخضروات المختلطة المجمدة (20 × 400 غرام)",
+          "after": "خضروات مشكلة مجمدة يمي، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001075053",
+      "sku": "CR1832",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "YUMMY Freezers – Frozen Green Beans | Natural 100% ,  20 x 400 gm",
+          "after": "Yummy Frozen Green Beans, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "المجمدات لذيذة - الفاصوليا الخضراء المجمدة | طبيعي 100٪ ، 20 × 400 جم",
+          "after": "فاصوليا خضراء مجمدة يمي، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001076082",
+      "sku": "CR1833",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "YUMMY Freezers - Frozen Green Okra Zero, ( 400 gm X 20  ) packs",
+          "after": "Yummy Frozen Green Okra Zero, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "المجمدات YUMMY - حزم البكر الأخضر المجمدة صفر ، (400 جم × 20)",
+          "after": "بامية خضراء مجمدة يمي، مقاس زيرو، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001077049",
+      "sku": "CR1835",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "1000g  Whole Chicken Griller UNEF",
+          "after": "UNEF Whole Chicken Griller, 1,000 g"
+        },
+        "Translated_Name": {
+          "before": "1000g شواء الدجاج كله UNEF",
+          "after": "دجاج كامل للشوي يو إن إي إف، 1000 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001083026",
+      "sku": "CR1837",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "800g  Whole Chicken Griller UNEF",
+          "after": "UNEF Whole Chicken Griller, 800 g"
+        },
+        "Translated_Name": {
+          "before": "800g شواء الدجاج كله UNEF",
+          "after": "دجاج كامل للشوي يو إن إي إف، 800 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001109006",
+      "sku": "CR1838",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "YUMMY Freezers – Frozen Spinach (Chopped) 20 × 400 gm",
+          "after": "Yummy Frozen Chopped Spinach, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "المجمدات YUMMY - السبانخ المجمدة (مقطوعة) 20 × 400 جم",
+          "after": "سبانخ مفرومة مجمدة يمي، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001109012",
+      "sku": "CR1839",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Natura Frozen Green peas  20 × 400 g",
+          "after": "Natura Frozen Green Peas, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "البازلاء الخضراء المجمدة 20 × 400 غرام",
+          "after": "بازلاء خضراء مجمدة ناتورا، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001114026",
+      "sku": "CR1841",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Atlanta Pepper jalapeno sliced 2.8Kg",
+          "after": "Atlanta Sliced Jalapeño Peppers, 2.8 kg"
+        },
+        "Translated_Name": {
+          "before": "أتلانتا الفلفل جالابينو شرائح 2.8Kg",
+          "after": "فلفل هالبينو مقطع شرائح أتلانتا، 2.8 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001114036",
+      "sku": "CR1842",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Radwa Frozen Chicken Liver ( 500 g × 15 tray)",
+          "after": "Radwa Frozen Chicken Liver, 15 × 500 g Trays"
+        },
+        "Translated_Name": {
+          "before": "رضوة كبد الدجاج المجمد (500 غرام × 15 علبة)",
+          "after": "كبد دجاج مجمد رضوى، 15 صينية × 500 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001128011",
+      "sku": "CR1849",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Millac Gold Whipping Cream - 1 Litre x 12 pcs",
+          "after": "Millac Gold Whipping Cream, 12 × 1 L"
+        },
+        "Translated_Name": {
+          "before": "كريم جلد الذهب ميلاك - 1 لتر × 12 جهاز كمبيوتر شخصى",
+          "after": "كريمة خفق ميلاك جولد، 12 × 1 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001131025",
+      "sku": "CR1851",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Najah Red Pizza Box 24 x 24cm / 50 Pieces",
+          "after": "Najah Red Pizza Boxes, 24 × 24 cm, 50 Pieces"
+        },
+        "Translated_Name": {
+          "before": "علبة بيتزا نجاح حمراء 24 × 24 سم / 50 قطعة",
+          "after": "علب بيتزا حمراء نجاح، 24 × 24 سم، 50 قطعة"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001139007",
+      "sku": "CR1853",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Sadia Frozen Chicken Gizzards 450 g x 30 tray",
+          "after": "Sadia Frozen Chicken Gizzards, 30 × 450 g Trays"
+        },
+        "Translated_Name": {
+          "before": "سادية الدجاج المجمدة عاصفة 450 غرام × 30 علبة",
+          "after": "قوانص دجاج مجمدة ساديا، 30 صينية × 450 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001149007",
+      "sku": "CR1855",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU/title and pack notation; not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Nadec Milk Long Life Full Fat 1L × 12 Pieces",
+          "after": "Nadec Full-Fat Long-Life Milk, 12 × 1 L"
+        },
+        "Translated_Name": {
+          "before": "ناديك الحليب حياة طويلة الدهون الكاملة 1L × 12 قطعة",
+          "after": "حليب ناديك طويل الأجل كامل الدسم، 12 × 1 لتر"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "sku": "CR1843",
+      "creatorId": "4278439000001116011",
+      "reason": "Maza Creamy long-grain rice variant ambiguous; do not normalize without exact label."
+    },
+    {
+      "sku": "CR1844",
+      "creatorId": "4278439000001117031",
+      "reason": "Sugar-free/Duo Gold brand variant and selling unit 'out' require source and UOM verification."
+    },
+    {
+      "sku": "CR1846",
+      "creatorId": "4278439000001125007",
+      "reason": "Flag brand wording conflicts with Frenchs brand field; 4 × 2.97 kg pack requires label."
+    },
+    {
+      "sku": "CR1847",
+      "creatorId": "4278439000001126011",
+      "reason": "Creator selling unit kg conflicts with title 10 × 1 kg packs; confirm sale basis."
+    },
+    {
+      "sku": "CR1850",
+      "creatorId": "4278439000001131007",
+      "reason": "15 cm × 1000 carry-bag notation does not establish piece count/variant."
+    },
+    {
+      "sku": "CR1852",
+      "creatorId": "4278439000001132007",
+      "reason": "18 cm × 1000 carry-bag notation does not establish piece count/variant."
+    },
+    {
+      "sku": "CR1854",
+      "creatorId": "4278439000001140007",
+      "reason": "Buffalo meat and veal terminology conflict; #510 cut and 18 kg carton need label proof."
+    }
+  ],
+  "api": {
+    "creatorRecordReads": 20,
+    "creatorWrites": 13,
+    "creatorReadbacks": 13,
+    "creatorConnectorCalls": 46,
+    "billableUsage": "not exposed",
+    "githubReadWriteCalls": "tracked separately"
+  },
+  "writes": {
+    "financial": 0,
+    "price": 0,
+    "margin": 0,
+    "stock": 0,
+    "visibility": 0,
+    "image": 0,
+    "orders": 0,
+    "sync": 0,
+    "description": 0,
+    "packing": 0
+  },
+  "readbackLimitations": "All_Products does not expose translated description or translated packing for independent verification; none written. Product images were not checked in Commerce/Catalyst.",
+  "checkoutQA": "Issue #27 reviewed; no authenticated EN/AR RTL, CTN/PCS/KG, VAT, cart persistence, Buy Again, COD/credit or confirm-once test executed. NO-GO.",
+  "sync": "Four-way sync not verified. Existing Catalyst Development only; no webhook/ACK/deployment receipts; cross-system writes disabled."
+}
