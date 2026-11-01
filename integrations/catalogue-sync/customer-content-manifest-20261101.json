@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 16,
+  "completedBatch": 17,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -229,7 +229,25 @@
     "4278439000001864251",
     "4278439000001864255",
     "4278439000001864263",
-    "4278439000001864267"
+    "4278439000001864267",
+    "4278439000001864271",
+    "4278439000001864275",
+    "4278439000001864283",
+    "4278439000001864291",
+    "4278439000001864295",
+    "4278439000001864299",
+    "4278439000001864303",
+    "4278439000001864307",
+    "4278439000001864311",
+    "4278439000001864319",
+    "4278439000001864327",
+    "4278439000001864331",
+    "4278439000001864339",
+    "4278439000001864343",
+    "4278439000001864351",
+    "4278439000001864355",
+    "4278439000001864359",
+    "4278439000001864363"
   ],
   "pendingProducts": [
     {
@@ -250,207 +268,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001864271",
-      "sku": "ME-0059",
-      "name": "FAZCO Vermicillies 48*150 gm",
-      "storefront": true,
-      "category": "Pasta, Noodles & Vermicelli",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864275",
-      "sku": "ME-0060",
-      "name": "White Beans Egyptian 1 * 15kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864283",
-      "sku": "ME-0062",
-      "name": "Tapal Danedar (Jar) 12 * 1000 gm",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864287",
-      "sku": "ME-0063",
-      "name": "Tapal Danedar (Jar) 15 * 450gm",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864291",
-      "sku": "ME-0064",
-      "name": "Tapal Tea Bags 20 * 125 * 2gm",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864295",
-      "sku": "ME-0065",
-      "name": "TAPAL Family Mixture 900 g ( 12*900gm )",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864299",
-      "sku": "ME-0066",
-      "name": "Tapal Green Tea Jasmin  20 x30 x 1.5g",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864303",
-      "sku": "ME-0067",
-      "name": "Tapal Grn Tea Cardm 20 x 30 x 1.5g",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864307",
-      "sku": "ME-0068",
-      "name": "TAPAL Green Tea Mint 20 x 30 x 1.5g",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864311",
-      "sku": "ME-0069",
-      "name": "Tapal Green Tea Lemon 20 x 30 x 1 .5g",
-      "storefront": true,
-      "category": "Tea & Coffee",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864319",
-      "sku": "ME-0071",
-      "name": "Fazco Mayonnaise Gallon 4 * 3.78 Ltr",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864323",
-      "sku": "ME-0072",
-      "name": "FONTERA Newzland Milk Powder 25 Kg",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864327",
-      "sku": "ME-0073",
-      "name": "MANAL Sarson Ka Saag 12 X 450GM",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864331",
-      "sku": "ME-0074",
-      "name": "Manal Pineapple Chunks 565 gm ( 24*565 Gm )",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864339",
-      "sku": "ME-0076",
-      "name": "Baba Saffron Yellow Color 80 * 100gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864343",
-      "sku": "ME-0077",
-      "name": "Baba Saffron Yel Color 24 * 1000 gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864351",
-      "sku": "ME-0079",
-      "name": "Baba Orange Color 1000g ( 24 * 1000 gm)",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864355",
-      "sku": "ME-0080",
-      "name": "Baba Raspberry Color 80 * 100gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864359",
-      "sku": "ME-0081",
-      "name": "Baba Strawberry Color 100 g (80*100 gm)",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864363",
-      "sku": "ME-0082",
-      "name": "Baba Green Color 80 * 100 gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -20461,11 +20278,33 @@
         "Description"
       ],
       "holdReason": "SHIP tamarind 40 × 150 lacks an explicit unit; cannot assume grams"
+    },
+    {
+      "id": "4278439000001864287",
+      "sku": "ME-0063",
+      "name": "Tapal Danedar (Jar) 15 * 450gm",
+      "storefront": true,
+      "category": "Tea & Coffee",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Creator Brand 'TAPAL DANEDER' conflicts with product title Danedar; verify exact brand/variant before edit"
+    },
+    {
+      "id": "4278439000001864323",
+      "sku": "ME-0072",
+      "name": "FONTERA Newzland Milk Powder 25 Kg",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Creator Brand 'FONTERA' and product title FONTERA Newzland; exact manufacturer spelling and product variant unverified"
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-16-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-17-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -20561,13 +20400,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 16,
+    "batch": 17,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 15,
-    "verifiedTitleFieldsChanged": 30,
-    "held": 5,
+    "verifiedProductsChanged": 18,
+    "verifiedTitleFieldsChanged": 36,
+    "held": 2,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": 50
+    "creatorConnectorCalls": 56
   },
-  "deferredContentFieldsCount": 177
+  "deferredContentFieldsCount": 195
 }
