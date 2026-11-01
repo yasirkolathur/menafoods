@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "observedAtLocal": "2026-11-02T02:50:38+03:00",
+  "timeSource": "scheduled execution context, not Creator record Modified_Time",
+  "mode": "incremental_read_only",
+  "baselineCompletedBatches": 20,
+  "baselineUniqueCreatorIds": 2122,
+  "customerContentCompletedBatches": 20,
+  "creatorReport": "menafoods/mena/Products_Books",
+  "creatorCriteria": "Modified_Time >= \"01-Nov-2026 22:00:00\"",
+  "creatorResponse": {
+    "status": "failure",
+    "code": 9280,
+    "message": "No records found matching the given criteria. Try using a different search criteria."
+  },
+  "returnedRecordCount": 0,
+  "newCandidateIds": [],
+  "verifiedFieldChanges": [],
+  "creatorConnectorCallsObserved": 1,
+  "creatorBillableApiUnits": "unavailable",
+  "metadataWrites": 0,
+  "imageWrites": 0,
+  "financialWrites": 0,
+  "crossSystemWrites": 0,
+  "sourceWatermarkAdvanced": false,
+  "creatorChangeFeedVerified": false,
+  "unresolvedChangeCandidates": [
+    "CR1756",
+    "CR1703",
+    "CR1009"
+  ],
+  "qaIssue27": {
+    "state": "NO-GO",
+    "issueCommentsReviewed": 21,
+    "latestCommentDate": "2026-10-29",
+    "newAuthenticatedAcceptanceReceiptsFound": false
+  },
+  "limitations": "Creator Modified_Time is usable as criteria but not returned per record; no-match result cannot prove complete change coverage, timezone, inclusive boundary, pagination, webhook delivery, or event ACK. Four duplicate-active IDs remain blocked. No production deploy or order creation.",
+  "nextAction": "Continue overlapping bounded read-only reconciliation without advancing the Creator source watermark; preserve existing registry/outbox and checkout NO-GO gates."
+}
