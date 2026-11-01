@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-01",
+  "batch": 14,
+  "checkpointBefore": 13,
+  "products": 20,
+  "exactIdsRead": 20,
+  "changes": [
+    {
+      "creatorId": "4278439000001603023",
+      "sku": "CR1964",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Beef forequarter Brazil Frigol (kg)",
+          "after": "Frigol Brazilian Beef Forequarter — per kg"
+        },
+        "Translated_Name": {
+          "before": "لحوم البقر الفريغول البرازيل (كجم)",
+          "after": "لحم بقري برازيلي فريغول، ربع أمامي — بالكيلوغرام"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001604007",
+      "sku": "CR1965",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Plena Beef forequarter Brazil  (kg)",
+          "after": "Plena Brazilian Beef Forequarter — per kg"
+        },
+        "Translated_Name": {
+          "before": "بلينا لحوم البقر البرازيل (كيلوغرام)",
+          "after": "لحم بقري برازيلي بلينا، ربع أمامي — بالكيلوغرام"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001640143",
+      "sku": "CR2005",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Black Angus Shortloin",
+          "after": "Ebony Black Angus Beef Shortloin — per kg"
+        },
+        "Translated_Name": {
+          "before": "أسود الأنجوس شورتلين",
+          "after": "لحم بقري بلاك أنجوس إيبوني، شورت لوين — بالكيلوغرام"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001640155",
+      "sku": "CR2008",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Black Angus Burger Patties 150 gram",
+          "after": "Ebony Black Angus Beef Burger Patty, 150 g"
+        },
+        "Translated_Name": {
+          "before": "الأسود الأنجوس برغر الفطائر 150 غرام",
+          "after": "قرص برغر بقري بلاك أنجوس إيبوني، 150 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001659011",
+      "sku": "CR2014",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Afia Cooking Corn Oil 17l",
+          "after": "Afia Corn Cooking Oil, 17 L — Tin"
+        },
+        "Translated_Name": {
+          "before": "عافية الطبخ زيت الذرة 17l",
+          "after": "زيت ذرة عافية للطبخ، تنك 17 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001659026",
+      "sku": "CR2015",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Alsafi Long Life Full Fat Milk 1L × 12 Pieces",
+          "after": "Al Safi Long-Life Full-Fat Milk, 12 × 1 L"
+        },
+        "Translated_Name": {
+          "before": "الصافي حياة طويلة الحليب كامل الدسم 1 لتر × 12 قطعة",
+          "after": "حليب الصافي طويل الأجل كامل الدسم، 12 × 1 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001661015",
+      "sku": "CR2016",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baidar French Salad Dressing Gallon 3.78 L x 4",
+          "after": "Baidar French Salad Dressing, 4 × 3.78 L"
+        },
+        "Translated_Name": {
+          "before": "بيدر الفرنسية سلطة خلع الملابس غالون 3.78 لتر × 4",
+          "after": "صلصة سلطة فرنسية بيدر، 4 × 3.78 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001816017",
+      "sku": "SKU-2230",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "CENTURY Tuna  Flakes In Vegetable oil 180 G x 48",
+          "after": "Century Tuna Flakes in Vegetable Oil, 48 × 180 g"
+        },
+        "Translated_Name": {
+          "before": "رقائق التونة القرن في الزيوت النباتية 180 غرام × 48",
+          "after": "تونة سينشري مفتتة في زيت نباتي، 48 × 180 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001828007",
+      "sku": "SKU-2229",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "CENTURY Tuna Flakes Hot and Spicy   180G x 48",
+          "after": "Century Hot & Spicy Tuna Flakes, 48 × 180 g"
+        },
+        "Translated_Name": {
+          "before": "القرن رقائق التونة الساخنة والحارة 180G × 48",
+          "after": "تونة سينشري مفتتة حارة، 48 × 180 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001828041",
+      "sku": "SKU-2234",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "SWIFT CORN BEEF  24 X 200g",
+          "after": "Swift Corned Beef, 24 × 200 g"
+        },
+        "Translated_Name": {
+          "before": "سويفت كورن بيف 24 × 200 غرام",
+          "after": "لحم بقري معلب سويفت (كورند بيف)، 24 × 200 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001832011",
+      "sku": "SKU-2233",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "ARGENTINA Chicken luncheon Meat 24X200g",
+          "after": "Argentina Chicken Luncheon Meat, 24 × 200 g"
+        },
+        "Translated_Name": {
+          "before": "أرجنتينا غداء الدجاج اللحوم 24X200g",
+          "after": "لانشون دجاج أرجنتينا، 24 × 200 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864023",
+      "sku": "ME-003",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Kernel Shahzadi Rice 40 Kg ( 1*40 kg)",
+          "after": "Shahzadi Kernel Rice, 40 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "نواة شهزادي الأرز 40 كجم (1*40 كجم)",
+          "after": "أرز كيرنل شاهزادي، كيس 40 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864035",
+      "sku": "ME-006",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "SHAHZADI long Pure Basmati Rice 1 * 40  kg",
+          "after": "Shahzadi Long-Grain Pure Basmati Rice, 40 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "شاهزادي طويل الأرز البسمتي النقي 1 * 40 كجم",
+          "after": "أرز بسمتي شاهزادي نقي طويل الحبة، كيس 40 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864039",
+      "sku": "ME-007",
+      "readbackVerified": true,
+      "source": "Exact existing Creator record ID/SKU, product title, Brand, Unit and explicit pack notation; editorial correction only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Shahzadi (XL) Pure Basmati Rice 4 * 10kg",
+          "after": "Shahzadi XL Pure Basmati Rice, 4 × 10 kg"
+        },
+        "Translated_Name": {
+          "before": "شاهزادي (XL) الأرز البسمتي النقي 4 * 10 كجم",
+          "after": "أرز بسمتي شاهزادي XL نقي، 4 × 10 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000001640087",
+      "sku": "CR1991",
+      "reason": "MB 2-3 and ribeye lip-on grading/variant ambiguous; hold packaging and title"
+    },
+    {
+      "creatorId": "4278439000001689011",
+      "sku": "CR2017",
+      "reason": "Jasmine rice title conflicts with Basmati Rice collection; selling unit bag vs 8 × 5 kg needs confirmation"
+    },
+    {
+      "creatorId": "4278439000001692019",
+      "sku": "CR2020",
+      "reason": "Jasmine rice title conflicts with Basmati Rice collection; selling unit bag vs 4 × 10 kg needs confirmation"
+    },
+    {
+      "creatorId": "4278439000001825037",
+      "sku": "SKU-2232",
+      "reason": "Vienna sausage 24 × 200 g versus selling unit out and country/brand Argentina ambiguous"
+    },
+    {
+      "creatorId": "4278439000001830007",
+      "sku": "SKU-2231",
+      "reason": "Corned beef 24 × 200 g versus selling unit out; original 'Corn BEEF' spelling and product variant require verification"
+    },
+    {
+      "creatorId": "4278439000001864031",
+      "sku": "ME-005",
+      "reason": "Brand SHAZADI differs from SHAHZADI in sibling SKUs; 8 × 5 kg versus selling unit bag requires verification"
+    }
+  ],
+  "api": {
+    "creatorReadBefore": 20,
+    "creatorWriteRequests": 15,
+    "creatorReadAfter": 15,
+    "creatorConnectorCalls": 50,
+    "githubCheckpointReadAndWriteSeparate": true
+  },
+  "writes": {
+    "nonfinancialTitleFieldsVerified": 28,
+    "financial": 0,
+    "stock": 0,
+    "orders": 0,
+    "images": 0,
+    "sync": 0
+  },
+  "readbackLimitations": [
+    "All_Products API does not expose translated description/packing fields; none were written"
+  ],
+  "checkoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "reason": "Authenticated role testing, CTN/PCS/KG, VAT, customer pricing, persistence, Buy Again, COD/credit and exactly-once order verification not evidenced"
+  },
+  "deployment": "Not attempted. Development and production release gates unmet."
+}
