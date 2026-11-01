@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 12,
+  "completedBatch": 13,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -173,7 +173,18 @@
     "4278439000001480015",
     "4278439000001497011",
     "4278439000001501019",
-    "4278439000001504027"
+    "4278439000001504027",
+    "4278439000001523014",
+    "4278439000001525019",
+    "4278439000001526015",
+    "4278439000001528011",
+    "4278439000001529015",
+    "4278439000001530015",
+    "4278439000001595056",
+    "4278439000001596017",
+    "4278439000001596035",
+    "4278439000001600011",
+    "4278439000001601021"
   ],
   "pendingProducts": [
     {
@@ -194,169 +205,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001502015",
-      "sku": "CR1935",
-      "name": "Beef Striplion  Chain On Friboi 20 - 25 kg ( kg)",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001514007",
-      "sku": "CR1939",
-      "name": "3kg Up Kingfish Whole 20kg without ice",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001519007",
-      "sku": "CR1940",
-      "name": "Thyme Leaves  Powder 1 kg Salam",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001523014",
-      "sku": "CR1941",
-      "name": "Frozen Mackerel Fish up to 5 pcs per bags ( 1 kg x 10 bags)",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001525019",
-      "sku": "CR1942",
-      "name": "Al Zouq Frozen Chicken Mince 400g x 20pcs",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001526015",
-      "sku": "CR1943",
-      "name": "Frozen Whole Medium Murjan Fish 1 kg x 10 packets",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001526033",
-      "sku": "CR1944",
-      "name": "Frozen Keski fish 220 g X 24 blocks",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000001528011",
-      "sku": "CR1945",
-      "name": "Sadia Tender Chicken Breast 2 kg X 5 bags",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001529015",
-      "sku": "CR1946",
-      "name": "Frozen Fresh Water  Rohu Fish Steak 1 kg x 10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001530015",
-      "sku": "CR1947",
-      "name": "FrozenShrimps 51-60 12 x 400 g - Retail",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001595056",
-      "sku": "CR1955",
-      "name": "Coconut Shredded SeaShell ( 20 * 400 g) packs",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001596017",
-      "sku": "CR1957",
-      "name": "Frozen Mackerel Fish 8 to 10 pcs per bags ( 1 kg x 10 bags)",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001596035",
-      "sku": "CR1958",
-      "name": "Frozen Croaker Fish Steak 1kgx10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001600011",
-      "sku": "CR1960",
-      "name": "1100g Qualiko Frozen Whole Chicken Griller ( 1100g X 10)",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001600029",
-      "sku": "CR1961",
-      "name": "Frozen Whole Trevally 20kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001601021",
-      "sku": "CR1963",
-      "name": "MASTERO French Fries  4* 2.5 kg 6/6 pieces",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -20950,11 +20798,73 @@
       ],
       "reason": "Beef cooked topping versus beef balls ambiguous; hold classification.",
       "batch": 12
+    },
+    {
+      "id": "4278439000001502015",
+      "sku": "CR1935",
+      "name": "Beef Striplion  Chain On Friboi 20 - 25 kg ( kg)",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Striploin cut spelling and 20–25 kg carton notation versus kg selling unit require verified variant",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001514007",
+      "sku": "CR1939",
+      "name": "3kg Up Kingfish Whole 20kg without ice",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "3 kg+ size, 20 kg without ice and 'Mix Brands' require species/pack verification",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001519007",
+      "sku": "CR1940",
+      "name": "Thyme Leaves  Powder 1 kg Salam",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Leaves versus powder is contradictory; do not change form without packaging evidence",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001526033",
+      "sku": "CR1944",
+      "name": "Frozen Keski fish 220 g X 24 blocks",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Keski species, 220 g block and carton quantity need exact-product verification",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001600029",
+      "sku": "CR1961",
+      "name": "Frozen Whole Trevally 20kg",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "20 kg carton in title versus kg selling unit; needs pack and sales unit verification",
+      "batch": 13
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-12-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-13-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -21050,26 +20960,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 12,
+    "batch": 13,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 9,
-    "verifiedTitleFieldsChanged": 18,
-    "held": 11,
+    "verifiedProductsChanged": 15,
+    "verifiedTitleFieldsChanged": 30,
+    "held": 5,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": "at least 47"
+    "creatorConnectorCalls": "at least 50 across partial and completion"
   },
-  "deferredContentFieldsCount": 132,
-  "inProgressBatch13": {
-    "verifiedIds": [
-      "4278439000001480015",
-      "4278439000001497011",
-      "4278439000001501019",
-      "4278439000001504027"
-    ],
-    "verifiedProducts": 4,
-    "reviewed": 5,
-    "remainingForBatch": 15,
-    "evidence": "integrations/catalogue-sync/customer-content-batch-13-partial-20261101.json",
-    "status": "partial—not completed; one extra CR1935 read only"
-  }
+  "deferredContentFieldsCount": 132
 }
