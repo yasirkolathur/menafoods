@@ -401,11 +401,29 @@
   "checkoutQA": {
     "issue": 27,
     "status": "NO-GO",
-    "reason": "No authenticated seven-role, server VAT/customer price, idempotent checkout or Development deployment receipts in this run."
+    "reason": "No authenticated seven-role, server VAT/customer price, idempotent checkout or Development deployment receipts in this run.",
+    "evidence": "Issue #27 read; no authenticated Catalog/Checkout test or Development deployment evidence obtained. No financial orders created."
   },
   "sync": {
     "status": "NOT VERIFIED",
     "fourWayEnabled": false
   },
-  "sourceLimitations": "Existing Creator product identity, pack notation and brand only; no independent manufacturer certification. No external image redistribution rights established."
+  "sourceLimitations": "Existing Creator product identity, pack notation and brand only; no independent manufacturer certification. No external image redistribution rights established.",
+  "catalogueQAFindings": [
+    {
+      "sku": "ME-009",
+      "finding": "Raisins are currently categorized Masala, Salt & Sugar; taxonomy review needed before changing category.",
+      "action": "Held category unchanged."
+    },
+    {
+      "sku": "ME-0014",
+      "finding": "Cashew 2 × 10 kg listing has Creator selling unit Tin; pack/variant reconciliation required.",
+      "action": "Entire product held."
+    },
+    {
+      "sku": "ME-0020",
+      "finding": "Product name mentions 777 but Brand field is blank.",
+      "action": "Brand not inferred; product held."
+    }
+  ]
 }
