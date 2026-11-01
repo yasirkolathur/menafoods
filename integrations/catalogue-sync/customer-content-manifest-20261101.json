@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 9,
+  "completedBatch": 10,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -135,7 +135,20 @@
     "4278439000001039009",
     "4278439000001042011",
     "4278439000001046019",
-    "4278439000001048059"
+    "4278439000001048059",
+    "4278439000001075023",
+    "4278439000001075053",
+    "4278439000001076082",
+    "4278439000001077049",
+    "4278439000001083026",
+    "4278439000001109006",
+    "4278439000001109012",
+    "4278439000001114026",
+    "4278439000001114036",
+    "4278439000001128011",
+    "4278439000001131025",
+    "4278439000001139007",
+    "4278439000001149007"
   ],
   "pendingProducts": [
     {
@@ -156,206 +169,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001075023",
-      "sku": "CR1831",
-      "name": "Yummy Frozen Mixed Vegetables ( 20 × 400 g ) packs",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001075053",
-      "sku": "CR1832",
-      "name": "YUMMY Freezers – Frozen Green Beans | Natural 100% ,  20 x 400 gm",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001076082",
-      "sku": "CR1833",
-      "name": "YUMMY Freezers - Frozen Green Okra Zero, ( 400 gm X 20  ) packs",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001077049",
-      "sku": "CR1835",
-      "name": "1000g  Whole Chicken Griller UNEF",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001083026",
-      "sku": "CR1837",
-      "name": "800g  Whole Chicken Griller UNEF",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001109006",
-      "sku": "CR1838",
-      "name": "YUMMY Freezers – Frozen Spinach (Chopped) 20 × 400 gm",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001109012",
-      "sku": "CR1839",
-      "name": "Natura Frozen Green peas  20 × 400 g",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001114026",
-      "sku": "CR1841",
-      "name": "Atlanta Pepper jalapeno sliced 2.8Kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001114036",
-      "sku": "CR1842",
-      "name": "Radwa Frozen Chicken Liver ( 500 g × 15 tray)",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001116011",
-      "sku": "CR1843",
-      "name": "Mezban Long grain Rice  Maza Creamy 40 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001117031",
-      "sku": "CR1844",
-      "name": "Topping Royale Sugar Free Duo Gold 1L  x 12",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001125007",
-      "sku": "CR1846",
-      "name": "Imported flag brand Classic Yellow Mustard sauce 2.97kg*4 barrels",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001126011",
-      "sku": "CR1847",
-      "name": "Sanford Green  Half Shell Mussels 1Kg x 10 packs",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001128011",
-      "sku": "CR1849",
-      "name": "Millac Gold Whipping Cream - 1 Litre x 12 pcs",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001131007",
-      "sku": "CR1850",
-      "name": "Polythene Carry bag  ( 15 cm X 1000 )",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001131025",
-      "sku": "CR1851",
-      "name": "Najah Red Pizza Box 24 x 24cm / 50 Pieces",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001132007",
-      "sku": "CR1852",
-      "name": "Polythene Carry bag  ( 18 cm X 1000 )",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001139007",
-      "sku": "CR1853",
-      "name": "Sadia Frozen Chicken Gizzards 450 g x 30 tray",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001140007",
-      "sku": "CR1854",
-      "name": "Allana Frozen Boneless Buffalo Meat Veal Legs - 18 KG # 510",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001149007",
-      "sku": "CR1855",
-      "name": "Nadec Milk Long Life Full Fat 1L × 12 Pieces",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -21245,6 +21058,90 @@
       ],
       "reason": "Australia is stored as brand; sheep liver pack weight range and selling unit require label evidence",
       "batch": 9
+    },
+    {
+      "id": "4278439000001116011",
+      "sku": "CR1843",
+      "name": "Mezban Long grain Rice  Maza Creamy 40 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Maza Creamy long-grain rice variant ambiguous; do not normalize without exact label.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001117031",
+      "sku": "CR1844",
+      "name": "Topping Royale Sugar Free Duo Gold 1L  x 12",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Sugar-free/Duo Gold brand variant and selling unit 'out' require source and UOM verification.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001125007",
+      "sku": "CR1846",
+      "name": "Imported flag brand Classic Yellow Mustard sauce 2.97kg*4 barrels",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Flag brand wording conflicts with Frenchs brand field; 4 × 2.97 kg pack requires label.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001126011",
+      "sku": "CR1847",
+      "name": "Sanford Green  Half Shell Mussels 1Kg x 10 packs",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Creator selling unit kg conflicts with title 10 × 1 kg packs; confirm sale basis.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001131007",
+      "sku": "CR1850",
+      "name": "Polythene Carry bag  ( 15 cm X 1000 )",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "15 cm × 1000 carry-bag notation does not establish piece count/variant.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001132007",
+      "sku": "CR1852",
+      "name": "Polythene Carry bag  ( 18 cm X 1000 )",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "18 cm × 1000 carry-bag notation does not establish piece count/variant.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001140007",
+      "sku": "CR1854",
+      "name": "Allana Frozen Boneless Buffalo Meat Veal Legs - 18 KG # 510",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Buffalo meat and veal terminology conflict; #510 cut and 18 kg carton need label proof.",
+      "batch": 10
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22270,9 +22167,139 @@
       ],
       "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
       "batch": 9
+    },
+    {
+      "id": "4278439000001075023",
+      "sku": "CR1831",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001075053",
+      "sku": "CR1832",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001076082",
+      "sku": "CR1833",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001077049",
+      "sku": "CR1835",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001083026",
+      "sku": "CR1837",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001109006",
+      "sku": "CR1838",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001109012",
+      "sku": "CR1839",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001114026",
+      "sku": "CR1841",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001114036",
+      "sku": "CR1842",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001128011",
+      "sku": "CR1849",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001131025",
+      "sku": "CR1851",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001139007",
+      "sku": "CR1853",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
+    },
+    {
+      "id": "4278439000001149007",
+      "sku": "CR1855",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and independently read back; description/translated packing not written without verifiable source and field readback.",
+      "batch": 10
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-09-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-10-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -22368,12 +22395,12 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 9,
+    "batch": 10,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 11,
-    "verifiedTitleFieldsChanged": 22,
+    "verifiedProductsChanged": 13,
+    "verifiedTitleFieldsChanged": 26,
     "held": 7,
-    "reviewedNoChange": 2,
-    "creatorConnectorCalls": "at least 65"
+    "reviewedNoChange": 0,
+    "creatorConnectorCalls": 46
   }
 }
