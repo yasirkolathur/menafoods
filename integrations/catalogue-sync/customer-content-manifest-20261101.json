@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 17,
+  "completedBatch": 18,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -247,7 +247,24 @@
     "4278439000001864351",
     "4278439000001864355",
     "4278439000001864359",
-    "4278439000001864363"
+    "4278439000001864363",
+    "4278439000001864371",
+    "4278439000001864375",
+    "4278439000001864399",
+    "4278439000001864407",
+    "4278439000001864419",
+    "4278439000001864431",
+    "4278439000001864439",
+    "4278439000001864443",
+    "4278439000001864451",
+    "4278439000001864455",
+    "4278439000001864459",
+    "4278439000001864463",
+    "4278439000001864467",
+    "4278439000001864511",
+    "4278439000001935023",
+    "4278439000001954023",
+    "4278439000001957011"
   ],
   "pendingProducts": [
     {
@@ -268,212 +285,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001864371",
-      "sku": "ME-0084",
-      "name": "BABA Egg Color 80 * 100gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864375",
-      "sku": "ME-0085",
-      "name": "Baba Sugar Fine 1 * 10kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864399",
-      "sku": "ME-0091",
-      "name": "White Chana # 7 Russian 1 * 15kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864403",
-      "sku": "ME-0092",
-      "name": "Cumin Mathoon # 1 1 * 10kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864407",
-      "sku": "ME-0093",
-      "name": "Coriander powder # 1 1 * 10kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864419",
-      "sku": "ME-0096",
-      "name": "Black Pepper Whole #1 (5MM) 1*25kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864423",
-      "sku": "ME-0097",
-      "name": "Green Cardamom P3 1*40kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864431",
-      "sku": "ME-0099",
-      "name": "Black Cardamom India 1*10Kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864435",
-      "sku": "ME-00100",
-      "name": "Fazco White Meat Tuna 48 *1 60 Gm",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864439",
-      "sku": "ME-00101",
-      "name": "Fazco White Meat Tuna 48 * 95 Gm",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864443",
-      "sku": "ME-00102",
-      "name": "fazco Coconut Milk Powder 24 * 150 gm",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864451",
-      "sku": "ME-00103",
-      "name": "Fazco Full Cream Milk Pwd 6 * 1.8Kg",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864455",
-      "sku": "ME-00104",
-      "name": "Fazco Pure Sunflower Oil 5ltr (4 x 5 Ltr)",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864459",
-      "sku": "ME-00105",
-      "name": "Fazco Pure Sunflower Oil 6 * 3 Ltr",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864463",
-      "sku": "ME-00106",
-      "name": "FAZCO Tomato Ketchup 4 * 5 Kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864467",
-      "sku": "ME-00107",
-      "name": "FAZCO Tomato Ketchup Sachet 1000 * 8gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864511",
-      "sku": "SKU-2421",
-      "name": "1100g Sadia Frozen Whole Chicken  ( 1100g x 10 )",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001935023",
-      "sku": "SKU-2426",
-      "name": "Seniora Cheese Mozzarella block 2.3kg ( 2.3 kg x 4 )",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001954023",
-      "sku": "SKU-2428",
-      "name": "NAZ Cooking oil Sunflower 6 x 1.5 Ltr",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001957011",
-      "sku": "SKU-2429",
-      "name": "Urad Dal  India (121) 1 * 15kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -20300,11 +20111,46 @@
         "Description"
       ],
       "holdReason": "Creator Brand 'FONTERA' and product title FONTERA Newzland; exact manufacturer spelling and product variant unverified"
+    },
+    {
+      "id": "4278439000001864403",
+      "sku": "ME-0092",
+      "name": "Cumin Mathoon # 1 1 * 10kg",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "holdReason": "Mathoon in the existing cumin title is ambiguous (brand/ground form); no unsupported translation or variant change."
+    },
+    {
+      "id": "4278439000001864423",
+      "sku": "ME-0097",
+      "name": "Green Cardamom P3 1*40kg",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "holdReason": "Green cardamom P3 with 40 kg selling bag is an unusual variant; verify grade and package label before title correction."
+    },
+    {
+      "id": "4278439000001864435",
+      "sku": "ME-00100",
+      "name": "Fazco White Meat Tuna 48 *1 60 Gm",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Tuna pack '48 *1 60 Gm' is ambiguous between 160 g and 60 g; require exact label/packing evidence."
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-17-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-18-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -20400,13 +20246,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 17,
+    "batch": 18,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 18,
-    "verifiedTitleFieldsChanged": 36,
-    "held": 2,
+    "verifiedProductsChanged": 17,
+    "verifiedTitleFieldsChanged": 34,
+    "held": 3,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": 56
+    "creatorConnectorCalls": 54
   },
-  "deferredContentFieldsCount": 195
+  "deferredContentFieldsCount": 212
 }
