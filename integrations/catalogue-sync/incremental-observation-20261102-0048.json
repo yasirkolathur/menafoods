@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "date": "2026-11-02",
+  "mode": "incremental_read_only",
+  "observedAtLocal": "2026-11-02T00:48:26+03:00",
+  "timeSource": "automation run context; not Creator source Modified_Time",
+  "creatorReport": "menafoods/mena/Products_Books",
+  "criteria": "Modified_Time >= \"01-Nov-2026 22:00:00\"",
+  "creatorResult": {
+    "code": 9280,
+    "status": "failure",
+    "message": "No records found matching the given criteria. Try using a different search criteria.",
+    "returnedCount": 0,
+    "recordCursor": "not applicable",
+    "modifiedTimeExposed": false
+  },
+  "comparison": {
+    "newCandidateIds": [],
+    "verifiedFieldDeltas": [],
+    "existingPendingUnverifiedCandidateIds": [
+      "4278439000000101314",
+      "4278439000000106182",
+      "4278439000000106496"
+    ],
+    "sourceModificationProven": false
+  },
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "issueLastUpdatedAt": "2026-10-29T11:54:41Z",
+    "issueCommentsReviewed": 21,
+    "newAuthenticatedAcceptanceEvidenceFound": false,
+    "unverified": [
+      "EN/AR RTL",
+      "images/visibility",
+      "CTN/PCS/KG",
+      "customer price/cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "controls": {
+    "creatorConnectorCallsAttempted": 1,
+    "creatorBillableApiUnits": "unavailable",
+    "creatorWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "productionDeployment": false,
+    "fullRescan": false,
+    "sourceWatermarkAdvanced": false
+  },
+  "limitations": "A bounded no-match response does not prove no changes. Creator report does not expose Modified_Time; timezone, inclusive boundary, pagination completeness, native sync, webhook authentication/delivery and end-to-end ACK remain unverified. Existing duplicate-active IDs remain blocked; no customer checkout acceptance evidence."
+}
