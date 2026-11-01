@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "mode": "incremental_read_only",
+  "runStartLocal": "2026-11-01T23:51:11+03:00",
+  "timeSource": "scheduled run start; NOT Creator Modified_Time",
+  "creatorReport": "menafoods/mena/Products_Books",
+  "criteria": "Modified_Time >= \"01-Nov-2026 21:00:00\"",
+  "creatorResult": {
+    "code": 3000,
+    "returnedCount": 1,
+    "returnedIds": [
+      "4278439000000106496"
+    ],
+    "recordCursor": "not returned",
+    "modifiedTimeExposed": false
+  },
+  "exactIdReadback": {
+    "creatorId": "4278439000000106496",
+    "sku": "CR1756",
+    "name": "Frozen beef top India 20 kg Allana #41",
+    "brand": "Allana",
+    "unit": "ctn",
+    "category": "Meat",
+    "collection": "Indian Beef",
+    "arabicName": "#41 لحم بقر علوي مجمد الهند 20 كجم ألانا",
+    "storefront": "Yes",
+    "imageReferenceIds": [
+      "4278439000000106498",
+      "4278439000000106500"
+    ],
+    "booksIdPresent": true
+  },
+  "comparison": {
+    "source": "integrations/catalogue-sync/incremental-observation-20261101-2148.json",
+    "nonfinancialSnapshotMatches": true,
+    "newCandidateIds": [],
+    "verifiedFieldDeltas": [],
+    "sourceModificationProven": false
+  },
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "issueLastUpdatedAt": "2026-10-29T11:54:41Z",
+    "latestCommentsInspected": 3,
+    "newAuthenticatedAcceptanceEvidenceFound": false,
+    "unverified": [
+      "EN/AR RTL",
+      "images/visibility",
+      "CTN/PCS/KG",
+      "customer price/cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "controls": {
+    "creatorConnectorCalls": 2,
+    "billableApiUnits": "unavailable",
+    "creatorWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "productionDeployment": false,
+    "fullRescan": false,
+    "sourceWatermarkAdvanced": false
+  },
+  "limitations": "Modified_Time absent from Creator response; source timezone, boundary behavior, pagination completeness, webhook delivery and end-to-end ACK remain unverified. Existing four duplicate-active IDs remain held. Images referenced are not evidence of storefront rendering or rights."
+}
