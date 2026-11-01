@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 11,
+  "completedBatch": 12,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -160,7 +160,16 @@
     "4278439000001216029",
     "4278439000001224007",
     "4278439000001268015",
-    "4278439000001306007"
+    "4278439000001306007",
+    "4278439000001309007",
+    "4278439000001310007",
+    "4278439000001311011",
+    "4278439000001377023",
+    "4278439000001383011",
+    "4278439000001407010",
+    "4278439000001430011",
+    "4278439000001465007",
+    "4278439000001466011"
   ],
   "pendingProducts": [
     {
@@ -181,209 +190,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001308011",
-      "sku": "CR1892",
-      "name": "Organic Quinoa Rice - White 1 Kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001308029",
-      "sku": "CR1893",
-      "name": "French Dijon Mustard ( 200 g x 12 )",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001309007",
-      "sku": "CR1894",
-      "name": "Knorr Chicken Stock Powder ( 6 X 1000 gm )",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001310007",
-      "sku": "CR1896",
-      "name": "ALSHALAN LONG GRAIN MAZA RICE  40 KG",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001311011",
-      "sku": "CR1897",
-      "name": "ALRAED VEGETABLE COOKING OIL  1*17 LITER",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001311039",
-      "sku": "CR1899",
-      "name": "Juman Halloumi cheese 40 × 250g",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001313023",
-      "sku": "CR1900",
-      "name": "Frozen Smoked Salmon Scotland 16-20 kg carton",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001313033",
-      "sku": "CR1901",
-      "name": "Freshly Steak Sauce ( 284 g X 12 )",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001377023",
-      "sku": "CR1903",
-      "name": "NAQA Sunflower Oil ( 6 * 1.68 litre )",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001383011",
-      "sku": "CR1904",
-      "name": "Noor Al Hind  Indian Mazza Basmati Rice 40 kg Creamy indian rice",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001388019",
-      "sku": "CR1907",
-      "name": "Mansoor Football Mellow 1 * 15 Kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001394015",
-      "sku": "CR1908",
-      "name": "Mehran Chat Masala 48 * 50 Gm",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001395007",
-      "sku": "CR1909",
-      "name": "Rana Green Hot Salsa    12 * 250 Gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001407010",
-      "sku": "CR1910",
-      "name": "Cosmoplast Microwave Plastic Round Containers 450 ml Clear 250 pcs",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001430011",
-      "sku": "CR1914",
-      "name": "Cooking oil  Sunflower 20litres Hasad",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001455015",
-      "sku": "CR1918",
-      "name": "Siniora Smoked Turkey Breast approximately  12 -14 kg per  carton",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001457011",
-      "sku": "CR1921",
-      "name": "Hot sauce Rana 36*100ML",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001459067",
-      "sku": "CR1924",
-      "name": "Premier Food Beef Cooked Toppings (4 X 3Kg) ( beef balls )",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001465007",
-      "sku": "CR1928",
-      "name": "Dijon Mustard Catering 5 kg Cans  EURO GOURMET",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001466011",
-      "sku": "CR1929",
-      "name": "Burcu Sweet Pepper Paste 1600 gr",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
       ]
     },
     {
@@ -21047,11 +20853,145 @@
       ],
       "reason": "CPC coconut oil title conflicts with Creator Brand 'Fazco'; branded product identity unresolved.",
       "batch": 11
+    },
+    {
+      "id": "4278439000001308011",
+      "sku": "CR1892",
+      "name": "Organic Quinoa Rice - White 1 Kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "'Organic' certification and 'quinoa rice' identity are not independently evidenced; no unverified certification or brand addition.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001308029",
+      "sku": "CR1893",
+      "name": "French Dijon Mustard ( 200 g x 12 )",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Brand absent and selling unit 'out' cannot be reconciled to 12 × 200 g without pack evidence.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001311039",
+      "sku": "CR1899",
+      "name": "Juman Halloumi cheese 40 × 250g",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Creator Brand Hungarita conflicts with product title Juman; exact branded halloumi identity unresolved.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001313023",
+      "sku": "CR1900",
+      "name": "Frozen Smoked Salmon Scotland 16-20 kg carton",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Scotland origin, smoked/frozen classification and 16–20 kg carton vs kg selling unit lack independent evidence.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001313033",
+      "sku": "CR1901",
+      "name": "Freshly Steak Sauce ( 284 g X 12 )",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Selling unit 'out' versus 12 × 284 g carton needs a verified conversion.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001388019",
+      "sku": "CR1907",
+      "name": "Mansoor Football Mellow 1 * 15 Kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "'Mansoor Football Mellow' is not an unambiguous commodity/brand description; avoid guessing lentil type.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001394015",
+      "sku": "CR1908",
+      "name": "Mehran Chat Masala 48 * 50 Gm",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Selling unit 'out' versus 48 × 50 g pack remains unverified.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001395007",
+      "sku": "CR1909",
+      "name": "Rana Green Hot Salsa    12 * 250 Gm",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Selling unit 'out' versus 12 × 250 g pack remains unverified.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001455015",
+      "sku": "CR1918",
+      "name": "Siniora Smoked Turkey Breast approximately  12 -14 kg per  carton",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Turkey breast is assigned to Duck collection and sold per pcs despite approximate carton weight.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001457011",
+      "sku": "CR1921",
+      "name": "Hot sauce Rana 36*100ML",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Selling unit 'out' versus 36 × 100 mL pack remains unverified.",
+      "batch": 12
+    },
+    {
+      "id": "4278439000001459067",
+      "sku": "CR1924",
+      "name": "Premier Food Beef Cooked Toppings (4 X 3Kg) ( beef balls )",
+      "storefront": true,
+      "category": "Ready to Cook",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Beef cooked topping versus beef balls ambiguous; hold classification.",
+      "batch": 12
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-11-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-12-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -21147,12 +21087,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 11,
+    "batch": 12,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 12,
-    "verifiedTitleFieldsChanged": 24,
-    "held": 8,
+    "verifiedProductsChanged": 9,
+    "verifiedTitleFieldsChanged": 18,
+    "held": 11,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": 46
-  }
+    "creatorConnectorCalls": "at least 47"
+  },
+  "deferredContentFieldsCount": 132
 }
