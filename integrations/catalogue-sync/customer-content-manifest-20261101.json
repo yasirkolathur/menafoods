@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 18,
+  "completedBatch": 19,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -264,7 +264,20 @@
     "4278439000001864511",
     "4278439000001935023",
     "4278439000001954023",
-    "4278439000001957011"
+    "4278439000001957011",
+    "4278439000001965011",
+    "4278439000001976035",
+    "4278439000001986021",
+    "4278439000002004011",
+    "4278439000002016019",
+    "4278439000002058015",
+    "4278439000002108007",
+    "4278439000002127015",
+    "4278439000002128011",
+    "4278439000002129011",
+    "4278439000002143007",
+    "4278439000002167015",
+    "4278439000002298011"
   ],
   "pendingProducts": [
     {
@@ -285,211 +298,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001965011",
-      "sku": "SKU-2430",
-      "name": "Sweet Pepper Paste 4.5kg x 4",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001976035",
-      "sku": "SKU-2448",
-      "name": "SUNWHITE Calrose  Rice 1 KG X 20",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001986021",
-      "sku": "SKU-2440",
-      "name": "Cooking Corn oil Afia 17 litres",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000001987007",
-      "sku": "SKU-2434",
-      "name": "Beef Tenderlion Tammam 18 kg #31",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001989007",
-      "sku": "SKU-2439",
-      "name": "Cooking oil afia",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002004011",
-      "sku": "SKU-2449",
-      "name": "Luna Boofia Analogue Evaporated Milk 410g x 48 Pieces",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002016019",
-      "sku": "SKU-2454",
-      "name": "Chili Pepper Paste Wadi Alsham 1 x 14.5 kg",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002049015",
-      "sku": "SKU-2456",
-      "name": "Al Jameel Premium Finest Tahina Gallon, 3 Kg x 6",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002058015",
-      "sku": "SKU-2457",
-      "name": "Rana White Vinegar 4 x 3.78l",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002108007",
-      "sku": "SKU-2460",
-      "name": "Indian Beef Roll 18 kg  Samrah",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002120011",
-      "sku": "SKU-2461",
-      "name": "Pizza Boxes, Big Size ( 33cm x 33cm ) Plain",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002127015",
-      "sku": "SKU-2462",
-      "name": "1200g Whole Chicken Griller  SADIA",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002128011",
-      "sku": "SKU-2465",
-      "name": "1000g Whole Chicken Griller Cedrob 10 pcs",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002129011",
-      "sku": "SKU-2466",
-      "name": "1100g Whole Chicken Griller Cedrob 10 pcs",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002143007",
-      "sku": "SKU-2468",
-      "name": "Samrah boneless Beef slice 20 x 900g",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002167015",
-      "sku": "SKU-2470",
-      "name": "French fries Al Jouf 9/9 2.5 kg x4",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002195015",
-      "sku": "SKU-2474",
-      "name": "French fries Al Jouf 6/6 2.5 kg x 4",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002221015",
-      "sku": "SKU-2477",
-      "name": "8Whole Chicken Griller 10 x800g Hilal",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002227007",
-      "sku": "SKU-2476",
-      "name": "Indian Beef bobby veal 20 x900g 18 kg  Samrah",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002298011",
-      "sku": "SKU-2481",
-      "name": "Crystal Refreshing Raspberry Drink Box  725 ml  X12",
-      "storefront": true,
-      "category": "Bakery, Beverages & More",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -20146,11 +19954,91 @@
         "Description"
       ],
       "holdReason": "Tuna pack '48 *1 60 Gm' is ambiguous between 160 g and 60 g; require exact label/packing evidence."
+    },
+    {
+      "id": "4278439000001987007",
+      "sku": "SKU-2434",
+      "name": "Beef Tenderlion Tammam 18 kg #31",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "holdReason": "Brand field empty; Tammam in title and #31 beef variant require verified product label before brand or cut normalization."
+    },
+    {
+      "id": "4278439000001989007",
+      "sku": "SKU-2439",
+      "name": "Cooking oil afia",
+      "storefront": true,
+      "category": "Cooking Oils",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Afia cooking oil lacks size and precise variant; cannot assume 17 L or corn oil solely from collection."
+    },
+    {
+      "id": "4278439000002049015",
+      "sku": "SKU-2456",
+      "name": "Al Jameel Premium Finest Tahina Gallon, 3 Kg x 6",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Stored selling unit is tin, but title describes six 3 kg gallons; reconcile unit and pack variant before title edit."
+    },
+    {
+      "id": "4278439000002120011",
+      "sku": "SKU-2461",
+      "name": "Pizza Boxes, Big Size ( 33cm x 33cm ) Plain",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "holdReason": "Plain pizza box dimensions stated, but selling unit rpt and count per pack are unresolved; hold packaging edit."
+    },
+    {
+      "id": "4278439000002195015",
+      "sku": "SKU-2474",
+      "name": "French fries Al Jouf 6/6 2.5 kg x 4",
+      "storefront": true,
+      "category": "Ready to Cook",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "French fries 6/6 title conflicts with 9 × 9 collection; verify cut variant before correction."
+    },
+    {
+      "id": "4278439000002221015",
+      "sku": "SKU-2477",
+      "name": "8Whole Chicken Griller 10 x800g Hilal",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "UNEF brand field conflicts with Hilal title; identity and 800 g carton pack need confirmation."
+    },
+    {
+      "id": "4278439000002227007",
+      "sku": "SKU-2476",
+      "name": "Indian Beef bobby veal 20 x900g 18 kg  Samrah",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Indian beef 'bobby veal' designation is ambiguous; do not reinterpret animal class or cut."
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-18-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-19-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -20246,13 +20134,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 18,
+    "batch": 19,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 17,
-    "verifiedTitleFieldsChanged": 34,
-    "held": 3,
+    "verifiedProductsChanged": 13,
+    "verifiedTitleFieldsChanged": 26,
+    "held": 7,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": 54
+    "creatorConnectorCalls": 46
   },
   "deferredContentFieldsCount": 212
 }
