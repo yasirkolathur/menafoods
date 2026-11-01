@@ -169,7 +169,11 @@
     "4278439000001407010",
     "4278439000001430011",
     "4278439000001465007",
-    "4278439000001466011"
+    "4278439000001466011",
+    "4278439000001480015",
+    "4278439000001497011",
+    "4278439000001501019",
+    "4278439000001504027"
   ],
   "pendingProducts": [
     {
@@ -193,52 +197,11 @@
       ]
     },
     {
-      "id": "4278439000001480015",
-      "sku": "CR1930",
-      "name": "Coconut shredded Malabar ( 20 * 400 g) packs",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001497011",
-      "sku": "CR1932",
-      "name": "Frozen Green peas Natural 20 × 400 g",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001501019",
-      "sku": "CR1934",
-      "name": "Beef EyeRound Brazil Friboi (kg)",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
       "id": "4278439000001502015",
       "sku": "CR1935",
       "name": "Beef Striplion  Chain On Friboi 20 - 25 kg ( kg)",
       "storefront": true,
       "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001504027",
-      "sku": "CR1936",
-      "name": "AN NOOR Frozen Chicken Half Breasts Boneless & Skinless 2 * 7.5 kg 15 kg/carton",
-      "storefront": true,
-      "category": "Chicken & Eggs",
       "reviewFields": [
         "Description"
       ]
@@ -21095,5 +21058,18 @@
     "reviewedNoChange": 0,
     "creatorConnectorCalls": "at least 47"
   },
-  "deferredContentFieldsCount": 132
+  "deferredContentFieldsCount": 132,
+  "inProgressBatch13": {
+    "verifiedIds": [
+      "4278439000001480015",
+      "4278439000001497011",
+      "4278439000001501019",
+      "4278439000001504027"
+    ],
+    "verifiedProducts": 4,
+    "reviewed": 5,
+    "remainingForBatch": 15,
+    "evidence": "integrations/catalogue-sync/customer-content-batch-13-partial-20261101.json",
+    "status": "partial—not completed; one extra CR1935 read only"
+  }
 }
