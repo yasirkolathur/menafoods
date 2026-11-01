@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue bounded read-only overlapping Creator queries; investigate authoritative Modified_Time/audit trail for CR1756 and issue #27 authenticated checkout evidence. Do not advance source watermark, enable cross-system writes, or rescan all products.",
+  "nextAction": "Continue low-API overlapping bounded read-only Creator checks; do not infer a complete source change feed from 9280, advance source watermark or enable writes. Resolve CR1756 modification history and issue #27 authenticated checkout evidence.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,26 +72,22 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-11-01T23:51:11+03:00",
-    "timeSource": "automation run start; not Creator modification timestamp",
+    "observedAtLocal": "2026-11-02T00:48:26+03:00",
+    "timeSource": "automation run context; not Creator source Modified_Time",
     "mode": "incremental_read_only",
-    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261101-2351.json",
+    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0048.json",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 21:00:00\"",
-    "creatorResult": "Creator code 3000; one record; no cursor; Modified_Time not exposed",
-    "creatorReturnedIds": [
-      "4278439000000106496"
-    ],
+    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 22:00:00\"",
+    "creatorResult": "Creator code 9280; no records matching bounded criteria",
+    "creatorReturnedIds": [],
     "knownUnverifiedCandidateIds": [
+      "4278439000000101314",
+      "4278439000000106182",
       "4278439000000106496"
     ],
     "newCandidateIds": [],
-    "exactIdReadbackIds": [
-      "4278439000000106496"
-    ],
     "verifiedNonfinancialFieldChanges": [],
-    "matchedPriorNonfinancialSnapshot": true,
-    "creatorConnectorCallsObserved": 2,
+    "creatorConnectorCallsObserved": 1,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -99,7 +95,7 @@
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
     "qaIssue27Status": "NO-GO; no newly verified authenticated acceptance receipts",
-    "limitations": "CR1756 unchanged versus persisted 21:48 snapshot; no authoritative modification timestamp or historical pre-change snapshot. Source timezone, boundary and change-feed completeness, native sync, webhook authentication and ACK remain unverified. No deployment."
+    "limitations": "A bounded no-match response does not prove no changes. Creator report does not expose Modified_Time; timezone, inclusive boundary, pagination completeness, native sync, webhook authentication/delivery and end-to-end ACK remain unverified. Existing duplicate-active IDs remain blocked; no customer checkout acceptance evidence."
   },
   "incrementalObservationHistory": [
     {
@@ -2776,6 +2772,32 @@
       "sourceWatermarkAdvanced": false,
       "qaIssue27Status": "NO-GO; no newly verified authenticated acceptance receipts",
       "limitations": "CR1756 unchanged versus persisted 21:48 snapshot; no authoritative modification timestamp or historical pre-change snapshot. Source timezone, boundary and change-feed completeness, native sync, webhook authentication and ACK remain unverified. No deployment."
+    },
+    {
+      "observedAtLocal": "2026-11-02T00:48:26+03:00",
+      "timeSource": "automation run context; not Creator source Modified_Time",
+      "mode": "incremental_read_only",
+      "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0048.json",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"01-Nov-2026 22:00:00\"",
+      "creatorResult": "Creator code 9280; no records matching bounded criteria",
+      "creatorReturnedIds": [],
+      "knownUnverifiedCandidateIds": [
+        "4278439000000101314",
+        "4278439000000106182",
+        "4278439000000106496"
+      ],
+      "newCandidateIds": [],
+      "verifiedNonfinancialFieldChanges": [],
+      "creatorConnectorCallsObserved": 1,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no newly verified authenticated acceptance receipts",
+      "limitations": "A bounded no-match response does not prove no changes. Creator report does not expose Modified_Time; timezone, inclusive boundary, pagination completeness, native sync, webhook authentication/delivery and end-to-end ACK remain unverified. Existing duplicate-active IDs remain blocked; no customer checkout acceptance evidence."
     }
   ],
   "pendingCandidateCreatorIds": [
