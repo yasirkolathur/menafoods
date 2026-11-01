@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 4,
+  "completedBatch": 5,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -73,7 +73,17 @@
     "4278439000000104942",
     "4278439000000105036",
     "4278439000000105044",
-    "4278439000000105052"
+    "4278439000000105052",
+    "4278439000000105172",
+    "4278439000000105216",
+    "4278439000000105222",
+    "4278439000000105246",
+    "4278439000000105264",
+    "4278439000000105282",
+    "4278439000000105336",
+    "4278439000000105366",
+    "4278439000000105372",
+    "4278439000000105380"
   ],
   "pendingProducts": [
     {
@@ -94,226 +104,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000105152",
-      "sku": "CR1627",
-      "name": "21-25 CT RAW IQF WHITE SHRIMP, P&D, TAIL-On  1kg*10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000105158",
-      "sku": "CR1628",
-      "name": "16-20 RAW IQF WHITE SHRIMP, P&D, TAIL-On 1kg*10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000105166",
-      "sku": "CR1629",
-      "name": "11-15  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10) BAGS",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000105172",
-      "sku": "CR1630",
-      "name": "Frozen Shrimps H/ON 30/40 White 2kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105192",
-      "sku": "CR1632",
-      "name": "Norwegian Superior Smoked Kosher Salmon ( Kg )",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105216",
-      "sku": "CR1635",
-      "name": "Frozen Salmon Whole Fish 3 - 4 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105222",
-      "sku": "CR1636",
-      "name": "Frozen Lobster Whole 700/1000",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000000105246",
-      "sku": "CR1640",
-      "name": "Frozen Lobster Tail 8/10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000105264",
-      "sku": "CR1643",
-      "name": "Frozen Seafood Mix 1kg*10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000000105270",
-      "sku": "CR1644",
-      "name": "Frozen Half Shell Green Mussels ( 2 kg* 6 bags)",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105282",
-      "sku": "CR1646",
-      "name": "Fish Fillet White Bulk 10kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105288",
-      "sku": "CR1647",
-      "name": "Frozen Crab Stick 900g*10",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000000105292",
-      "sku": "CR1648",
-      "name": "Crab 150 -200 Bulk packing  1 *  8 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105314",
-      "sku": "CR1651",
-      "name": "Black Seeds ( kg)",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000105336",
-      "sku": "CR1655",
-      "name": "Cinnamon Whole (kg)",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000105342",
-      "sku": "CR1656",
-      "name": "Cumin Seeds Whole Syria (kg)",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000000105356",
-      "sku": "CR1658",
-      "name": "(RED) ZAFRAN BOSHAL 1.75gm x 12 - Carton",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105366",
-      "sku": "CR1660",
-      "name": "Dried Red Chili Whole",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand",
-        "Unit",
-        "Description",
-        "Package_Details",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000105372",
-      "sku": "CR1661",
-      "name": "Beef Chuck Roll Australia Black Angus Ebony Prime  10 -15 kg  approximately",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000000105380",
-      "sku": "CR1663",
-      "name": "Dried Kashmiri Chilli Whole",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Brand"
       ]
     },
     {
@@ -21818,6 +21608,147 @@
       ],
       "reason": "kg sale unit; 26–30 shrimp size basis and packaging unspecified",
       "heldBatch": 4
+    },
+    {
+      "id": "4278439000000105152",
+      "sku": "CR1627",
+      "name": "21-25 CT RAW IQF WHITE SHRIMP, P&D, TAIL-On  1kg*10",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 21–25 shrimp size basis unverified; require exact packing label.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105158",
+      "sku": "CR1628",
+      "name": "16-20 RAW IQF WHITE SHRIMP, P&D, TAIL-On 1kg*10",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 16–20 shrimp size basis unverified; require exact packing label.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105166",
+      "sku": "CR1629",
+      "name": "11-15  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10) BAGS",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 11–15 shrimp size basis unverified; require exact packing label.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105192",
+      "sku": "CR1632",
+      "name": "Norwegian Superior Smoked Kosher Salmon ( Kg )",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Kosher certification and smoked salmon identity require exact manufacturer/label evidence before customer-facing certification cleanup.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105270",
+      "sku": "CR1644",
+      "name": "Frozen Half Shell Green Mussels ( 2 kg* 6 bags)",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Selling UOM kg versus 6 × 2 kg bags; verify exact selling pack before changing bilingual title.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105288",
+      "sku": "CR1647",
+      "name": "Frozen Crab Stick 900g*10",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Selling UOM pcs versus 10 × 900 g pack; verify whether one piece means bag or carton.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105292",
+      "sku": "CR1648",
+      "name": "Crab 150 -200 Bulk packing  1 *  8 kg",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Crab size 150–200 basis unverified; confirm exact pack/size label before editorial rewrite.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105314",
+      "sku": "CR1651",
+      "name": "Black Seeds ( kg)",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Black Seeds ambiguous between Nigella/black cumin and other seeds; require label before translating product identity.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105342",
+      "sku": "CR1656",
+      "name": "Cumin Seeds Whole Syria (kg)",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Syria appears in title but origin field blank; require provenance/label before rephrasing origin.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000000105356",
+      "sku": "CR1658",
+      "name": "(RED) ZAFRAN BOSHAL 1.75gm x 12 - Carton",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Boshal/Pushal saffron grade/brand identity and 12 × 1.75 g pack require label verification.",
+      "heldBatch": 5,
+      "heldSince": "2026-11-01"
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22290,8 +22221,99 @@
       ],
       "reason": "Bilingual title updated and independently read back; descriptions/translated packing not exposed in All_Products readback, unchanged pending source evidence and verification",
       "batch": 4
+    },
+    {
+      "id": "4278439000000105172",
+      "sku": "CR1630",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105216",
+      "sku": "CR1635",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105222",
+      "sku": "CR1636",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105246",
+      "sku": "CR1640",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105264",
+      "sku": "CR1643",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105282",
+      "sku": "CR1646",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105336",
+      "sku": "CR1655",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105366",
+      "sku": "CR1660",
+      "reviewFields": [
+        "Description",
+        "Unit"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105372",
+      "sku": "CR1661",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
+    },
+    {
+      "id": "4278439000000105380",
+      "sku": "CR1663",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Bilingual title updated and independently read back; description/packing not exposed in All_Products readback and unchanged pending source evidence.",
+      "batch": 5
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-04-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-05-20261101.json",
   "lastUpdateDate": "2026-11-01"
 }
