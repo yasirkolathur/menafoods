@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 8,
+  "completedBatch": 9,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -124,7 +124,18 @@
     "4278439000001008019",
     "4278439000001013015",
     "4278439000001017007",
-    "4278439000001020007"
+    "4278439000001020007",
+    "4278439000001026015",
+    "4278439000001028019",
+    "4278439000001029007",
+    "4278439000001029043",
+    "4278439000001029067",
+    "4278439000001029095",
+    "4278439000001036007",
+    "4278439000001039009",
+    "4278439000001042011",
+    "4278439000001046019",
+    "4278439000001048059"
   ],
   "pendingProducts": [
     {
@@ -145,210 +156,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001024007",
-      "sku": "CR1803",
-      "name": "Al Mawasim Light Meat Tuna, 185G x 48",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001025011",
-      "sku": "CR1804",
-      "name": "Baidar Natural Cider Vinegar, 473 ml x 24",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001026015",
-      "sku": "CR1805",
-      "name": "Mama Sitas Achuete Annatto Powder All Natural (Pack of 60 x 10 Gram)",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001028019",
-      "sku": "SKU-230727072211",
-      "name": "Al tahi aluminum foil size 30 cm * 150 m / 6 Rolls",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001029007",
-      "sku": "CR1807",
-      "name": "Cooked Chicken Fajita Topping, 1KG x 10",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001029043",
-      "sku": "CR1808",
-      "name": "Americana Chicken  Nuggets ( 10 *  1 kg ) packs",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001029067",
-      "sku": "CR1809",
-      "name": "EXCEL  Frozen Tender Chicken Breast 2.5 kg x 4 packs",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001029095",
-      "sku": "CR1810",
-      "name": "De Cecco Extra Virgin Olive Oil 101.4 oz. Tin, PK4",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001036007",
-      "sku": "CR1813",
-      "name": "Americana Chicken Strips Plain (10 x 1 kg) packs",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001039009",
-      "sku": "CR1815",
-      "name": "French fries Mityfresh 2.5 kg  x 4 bags",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001042011",
-      "sku": "CR1817",
-      "name": "Aji-No-Moto Flavour Enhancer 454 g x 20 packs",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001046019",
-      "sku": "CR1818",
-      "name": "900g Qualiko Whole Chicken Griller Ukraine",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001046047",
-      "sku": "CR1819",
-      "name": "Egyptian White beans 15 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001048059",
-      "sku": "CR1821",
-      "name": "Frozen Mackerel Fish 4 to 6 pcs per bags ( 1 kg x 10 bags)",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001049015",
-      "sku": "CR1822",
-      "name": "Frozen whole Shrimps Head-On 30-40 2 kg X 6 boxs",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000001050007",
-      "sku": "CR1823",
-      "name": "Frozen kingfish fish up to 2 kg 20kg Carton",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001051011",
-      "sku": "CR1824",
-      "name": "Mozzarella Cheese Block 4x2.300gm - \rASTA",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001053039",
-      "sku": "CR1826",
-      "name": "Red kidney beans 15 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001059007",
-      "sku": "CR1829",
-      "name": "Tamamm Frozen Boneless Indian Beef Slice 20 * 900 g #11",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001073037",
-      "sku": "CR1830",
-      "name": "Affco Sheep Liver - Box Of 19 Pieces - (14 - 20) Kg",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -21353,6 +21160,91 @@
       "reason": "Existing Jagua title conflicts with Jague brand field; verify exact brand and pack variant.",
       "heldBatch": 8,
       "heldSince": "2026-11-01"
+    },
+    {
+      "id": "4278439000001024007",
+      "sku": "CR1803",
+      "name": "Al Mawasim Light Meat Tuna, 185G x 48",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Mawasim Arabic brand spelling and light-meat tuna description require exact label evidence",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001025011",
+      "sku": "CR1804",
+      "name": "Baidar Natural Cider Vinegar, 473 ml x 24",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Baidar product title conflicts with Baider brand field; confirm exact variant and Arabic brand",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001049015",
+      "sku": "CR1822",
+      "name": "Frozen whole Shrimps Head-On 30-40 2 kg X 6 boxs",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Selling unit kg conflicts with 2 kg × 6 boxes notation; avoid assuming sale quantity",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001050007",
+      "sku": "CR1823",
+      "name": "Frozen kingfish fish up to 2 kg 20kg Carton",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Selling unit kg conflicts with 20 kg carton description; no supported brand",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001051011",
+      "sku": "CR1824",
+      "name": "Mozzarella Cheese Block 4x2.300gm - \rASTA",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "4 × 2.300gm ASTA mozzarella notation ambiguous (weight/decimal); verify original pack",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001059007",
+      "sku": "CR1829",
+      "name": "Tamamm Frozen Boneless Indian Beef Slice 20 * 900 g #11",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Tamamm product title conflicts with Tammam brand field; confirm exact brand",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001073037",
+      "sku": "CR1830",
+      "name": "Affco Sheep Liver - Box Of 19 Pieces - (14 - 20) Kg",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Australia is stored as brand; sheep liver pack weight range and selling unit require label evidence",
+      "batch": 9
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
@@ -22268,9 +22160,119 @@
       ],
       "reason": "EN/AR titles independently read back; other requested content fields not changed without external label/manufacturer evidence and/or supported field readback.",
       "batch": 8
+    },
+    {
+      "id": "4278439000001026015",
+      "sku": "CR1805",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001028019",
+      "sku": "SKU-230727072211",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001029007",
+      "sku": "CR1807",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001029043",
+      "sku": "CR1808",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001029067",
+      "sku": "CR1809",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001029095",
+      "sku": "CR1810",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001036007",
+      "sku": "CR1813",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001039009",
+      "sku": "CR1815",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001042011",
+      "sku": "CR1817",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001046019",
+      "sku": "CR1818",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001048059",
+      "sku": "CR1821",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "EN/AR titles updated and read back; description/translated packing fields not independently verifiable via current All_Products readback or manufacturer label evidence.",
+      "batch": 9
     }
   ],
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-08-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-09-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -22337,15 +22339,41 @@
       ],
       "reason": "Accurate bilingual black pepper powder title; no verified brand to add.",
       "batch": 6
+    },
+    {
+      "id": "4278439000001046047",
+      "sku": "CR1819",
+      "name": "Egyptian White beans 15 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Existing Egyptian white beans bilingual title sufficient; unbranded product; no independently supported description.",
+      "batch": 9
+    },
+    {
+      "id": "4278439000001053039",
+      "sku": "CR1826",
+      "name": "Red kidney beans 15 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Existing red kidney beans bilingual title sufficient; unbranded product; no independently supported description.",
+      "batch": 9
     }
   ],
   "lastBatchStats": {
-    "batch": 8,
+    "batch": 9,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 14,
-    "verifiedTitleFieldsChanged": 28,
-    "held": 6,
-    "reviewedNoChange": 0,
-    "creatorConnectorCalls": 26
+    "verifiedProductsChanged": 11,
+    "verifiedTitleFieldsChanged": 22,
+    "held": 7,
+    "reviewedNoChange": 2,
+    "creatorConnectorCalls": "at least 65"
   }
 }
