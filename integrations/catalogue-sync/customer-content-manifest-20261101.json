@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 19,
+  "completedBatch": 20,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -277,7 +277,17 @@
     "4278439000002129011",
     "4278439000002143007",
     "4278439000002167015",
-    "4278439000002298011"
+    "4278439000002298011",
+    "4278439000002301007",
+    "4278439000002315011",
+    "4278439000002320011",
+    "4278439000002366003",
+    "4278439000002367003",
+    "4278439000002369019",
+    "4278439000002370011",
+    "4278439000002377011",
+    "4278439000002377039",
+    "4278439000002391007"
   ],
   "pendingProducts": [
     {
@@ -298,218 +308,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002301007",
-      "sku": "SKU-2482",
-      "name": "Rooh Afza Summer Drink 12 x 800ml",
-      "storefront": true,
-      "category": "Bakery, Beverages & More",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002315011",
-      "sku": "SKU-2486",
-      "name": "Dates Paste Saudi 5kg",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002320011",
-      "sku": "SKU-2487",
-      "name": "Sugar Powder Saudi fine 1 * 50kg",
-      "storefront": true,
-      "category": "Masala, Salt & Sugar",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002363015",
-      "sku": "SKU-2492",
-      "name": "Black Pomfret - Whole Cleaned, IQF  Preservative 800 - 1000 10 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000002364007",
-      "sku": "SKU-2493",
-      "name": "CRAFT ULBA ROUND 240Z+LID BOXAAT 200PCS",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002366003",
-      "sku": "SKU-2495",
-      "name": "FALCON FOIL WRAP SANDWICH PAPER (MALFW009) 500 Pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002367003",
-      "sku": "SKU-2496",
-      "name": "ASAS Altahi Aluminium Foil 45 cm",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002369019",
-      "sku": "SKU-2497",
-      "name": "CLEAR PLASTIC JUICE BOTTEI 1LTR 96 bottles",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002370011",
-      "sku": "SKU-2498",
-      "name": "CLEAR PLASTIC JUICE BOTTEI 1.5 LTR 48 bottles",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002373015",
-      "sku": "SKU-2499",
-      "name": "Black Gloves Xl",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002375011",
-      "sku": "SKU-2501",
-      "name": "SHOPPING BAG NO.15 WHITE HANA PACK 10KG",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002377011",
-      "sku": "SKU-2504",
-      "name": "SUFANA CLING FILM 45CM 5KG",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000002377039",
-      "sku": "SKU-2507",
-      "name": "SHOPPING BAG NO.18 WHITE HANA PACK 10KG",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002379007",
-      "sku": "SKU-2506",
-      "name": "Tissue roll single 4Kg",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000002381007",
-      "sku": "SKU-2509",
-      "name": "Cheese Cream MAEEN 900g ( 6 x 900g )",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002385011",
-      "sku": "SKU-2510",
-      "name": "FILLING FISH & CHIPS BOX 250 PCS KPS ( thermocol)",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002386011",
-      "sku": "SKU-2511",
-      "name": "50GM Sauce Cup with lid  White UAE 100PCS",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002388003",
-      "sku": "SKU-2513",
-      "name": "STRAW COLOUR 8ML EMDAD 20x100",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002391007",
-      "sku": "SKU-2514",
-      "name": "Cheddar Cheese Sauce 3kg - Freshly ( 6 x 3 kg )",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002392011",
-      "sku": "SKU-2515",
-      "name": "FORK BLACK JILANI 20-50",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
       ]
     },
     {
@@ -20034,11 +19832,124 @@
         "Description"
       ],
       "holdReason": "Indian beef 'bobby veal' designation is ambiguous; do not reinterpret animal class or cut."
+    },
+    {
+      "id": "4278439000002363015",
+      "sku": "SKU-2492",
+      "name": "Black Pomfret - Whole Cleaned, IQF  Preservative 800 - 1000 10 kg",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Unresolved 'IQF Preservative 800 - 1000' meaning, size variant and no verified brand; hold.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002364007",
+      "sku": "SKU-2493",
+      "name": "CRAFT ULBA ROUND 240Z+LID BOXAAT 200PCS",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Ambiguous '240Z' (possibly 24 oz), brand/pack designation; do not infer volume or brand.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002375011",
+      "sku": "SKU-2501",
+      "name": "SHOPPING BAG NO.15 WHITE HANA PACK 10KG",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "HANA in title versus BAITHUL HANNA brand field; 10 kg selling-unit interpretation needs confirmation.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002379007",
+      "sku": "SKU-2506",
+      "name": "Tissue roll single 4Kg",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Tissue roll single 4 kg weight/roll-pack interpretation unresolved; no supported brand.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002381007",
+      "sku": "SKU-2509",
+      "name": "Cheese Cream MAEEN 900g ( 6 x 900g )",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "English 'Cheese Cream' versus Arabic processed cream-flavoured cheese; verify exact product formulation/variant.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002385011",
+      "sku": "SKU-2510",
+      "name": "FILLING FISH & CHIPS BOX 250 PCS KPS ( thermocol)",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Package_Details"
+      ],
+      "reason": "Fish-and-chips box identity, 'FILLING' notation and unit 'rpt' require confirmation.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002386011",
+      "sku": "SKU-2511",
+      "name": "50GM Sauce Cup with lid  White UAE 100PCS",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "50 g sauce-cup size may be weight versus capacity; 100-piece pack not independently verified.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002388003",
+      "sku": "SKU-2513",
+      "name": "STRAW COLOUR 8ML EMDAD 20x100",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Straw '8ML' could mean 8 mm, but cannot infer; hold unit/pack variant.",
+      "batch": 20
+    },
+    {
+      "id": "4278439000002392011",
+      "sku": "SKU-2515",
+      "name": "FORK BLACK JILANI 20-50",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "JILANI fork '20-50' pack count/variant ambiguous.",
+      "batch": 20
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-19-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-20-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -20131,16 +20042,36 @@
       ],
       "reason": "Existing red kidney beans bilingual title sufficient; unbranded product; no independently supported description.",
       "batch": 9
+    },
+    {
+      "id": "4278439000002373015",
+      "sku": "SKU-2499",
+      "name": "Black Gloves Xl",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Black Gloves XL title already intelligible in both languages; brand blank with no independent brand evidence.",
+      "batch": 20
     }
   ],
   "lastBatchStats": {
-    "batch": 19,
+    "batch": 20,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 13,
-    "verifiedTitleFieldsChanged": 26,
-    "held": 7,
-    "reviewedNoChange": 0,
-    "creatorConnectorCalls": 46
+    "verifiedProductsChanged": 10,
+    "verifiedTitleFieldsChanged": 20,
+    "held": 9,
+    "reviewedNoChange": 1,
+    "creatorConnectorCalls": 42
   },
-  "deferredContentFieldsCount": 212
+  "deferredContentFieldsCount": 212,
+  "postBatch20": {
+    "phase": "incremental reconciliation with low API use; separate remaining customer-content backlog is not remediated",
+    "pendingContentProducts": 1597,
+    "baselineAudit": "20/20 completed previously, 2122 records",
+    "unverified": "Four-way sync, authenticated checkout QA, source Modified_Time watermark and image propagation"
+  }
 }
