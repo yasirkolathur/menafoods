@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-01",
+  "batch": 6,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 12,
+    "exactIdSkuNameReadbacks": 12,
+    "verifiedFieldsChanged": 24,
+    "held": 3,
+    "reviewedNoChange": 5,
+    "fullRescan": false
+  },
+  "changes": [
+    {
+      "creatorId": "4278439000000105392",
+      "sku": "CR1665",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Cardamom Whole",
+          "after": "Whole Cardamom"
+        },
+        "Translated_Name": {
+          "before": "الهيل كامل",
+          "after": "هيل حب"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105398",
+      "sku": "CR1666",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "White Pepper Whole",
+          "after": "Whole White Pepper"
+        },
+        "Translated_Name": {
+          "before": "أبيض الفلفل كله",
+          "after": "فلفل أبيض حب"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105404",
+      "sku": "CR1667",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Black Pepper Whole 25 kg bag",
+          "after": "Whole Black Pepper, 25 kg Bag"
+        },
+        "Translated_Name": {
+          "before": "الفلفل الأسود كيس 25 كجم كله",
+          "after": "فلفل أسود حب، كيس 25 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105466",
+      "sku": "CR1677",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Sumac Powder 1 kg Packets",
+          "after": "Al Salam Sumac Powder, 1 kg Packets"
+        },
+        "Translated_Name": {
+          "before": "مسحوق سوماك 1 كجم حزم",
+          "after": "سماق السلام المطحون، عبوات 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105534",
+      "sku": "CR1689",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Rana hot sauce gallon 4.5 L x 4",
+          "after": "Rana Hot Sauce, 4 × 4.5 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "رانا صلصة حارة جالون 4.5 لتر × 4",
+          "after": "صلصة رانا الحارة، كرتون 4 × 4.5 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106156",
+      "sku": "CR1697",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Whole Frozen Chicken 1000g * 10 \"qualiko\"",
+          "after": "Qualiko Frozen Whole Chicken, 10 × 1 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "دجاج كامل مجمد 1000 جم * 10 \"كواليكو\"",
+          "after": "دجاج كواليكو كامل مجمد، كرتون 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106168",
+      "sku": "CR1700",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Sadia Chicken HalfBreasts boneless  2.5kg * 4 Carton",
+          "after": "Sadia Boneless Chicken Half Breasts, 4 × 2.5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "دجاج ساديا نصف صدري بلا عظام 2.5 كجم * 4 كرتون",
+          "after": "أنصاف صدور دجاج ساديا بدون عظم، كرتون 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106182",
+      "sku": "CR1703",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Mr Kino French Fries 4* 2.5 kg 9/9 pieces",
+          "after": "Mr Kino Frozen French Fries, 9/9 Cut, 4 × 2.5 kg — Box"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية مجمدة مستر كينو 4 * 2.5 كجم 9/9 قطع",
+          "after": "بطاطس مستر كينو مجمدة، تقطيع 9/9، صندوق 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106202",
+      "sku": "CR1708",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Chicken Frank 24 * 400g regular doux",
+          "after": "Doux Frozen Chicken Franks, Regular, 24 × 400 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "دجاج فرانك مجمد 24 * 400 جرام دوكس عادي",
+          "after": "نقانق دجاج دوكس مجمدة (فرانك) عادية، كرتون 24 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106238",
+      "sku": "CR1715",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "French Fries Maestro 4* 2.5 kg 9/9 pieces",
+          "after": "Maestro Frozen French Fries, 9/9 Cut, 4 × 2.5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية مجمدة مايسترو 4 * 2.5 كجم 9/9 قطع",
+          "after": "بطاطس مايسترو مجمدة، تقطيع 9/9، كرتون 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106242",
+      "sku": "CR1716",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "French Fries Americana 4* 2.5 kg 9/9 pieces",
+          "after": "Americana Frozen French Fries, 9/9 Cut, 4 × 2.5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية مجمدة أمريكانا 4 * 2.5 كجم 9/9 قطع",
+          "after": "بطاطس أمريكانا مجمدة، تقطيع 9/9، كرتون 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106280",
+      "sku": "CR1722",
+      "readbackVerified": true,
+      "source": "Current Creator All_Products exact record ID/SKU, Product_Name, Translated_Name, Brand, Unit, Category and collection; editorial normalization only, not independently certified manufacturer label",
+      "fields": {
+        "Product_Name": {
+          "before": "Beef forequarter Brazil Friboi (kg)",
+          "after": "Friboi Brazilian Frozen Beef Forequarter — per kg"
+        },
+        "Translated_Name": {
+          "before": "لحوم البقر المقدمة البرازيل فريبوي (كيلوغرام)",
+          "after": "لحم بقري فريبوي برازيلي مجمد من الربع الأمامي — بالكيلو"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000000105384",
+      "sku": "CR1664",
+      "reason": "Selling Unit blank; no verified unit or package configuration. Existing title and Arabic translation already match identity; do not infer weight or brand."
+    },
+    {
+      "id": "4278439000000105448",
+      "sku": "CR1674",
+      "reason": "Selling Unit blank; pack quantity absent. Existing EN/AR title correct; do not infer unit, brand or packaging."
+    },
+    {
+      "id": "4278439000000106194",
+      "sku": "CR1706",
+      "reason": "Chicken cheese sausage/frank wording ambiguous; require exact product label to disambiguate before changing title or packaging."
+    }
+  ],
+  "reviewedNoChange": [
+    {
+      "id": "4278439000000105426",
+      "sku": "CR1671",
+      "reason": "Accurate bilingual cinnamon powder title; blank Brand not evidence of a missing branded product."
+    },
+    {
+      "id": "4278439000000105460",
+      "sku": "CR1676",
+      "reason": "Accurate bilingual cumin powder title; no supported new description or brand."
+    },
+    {
+      "id": "4278439000000105478",
+      "sku": "CR1679",
+      "reason": "Accurate bilingual turmeric powder title; no supported new description or brand."
+    },
+    {
+      "id": "4278439000000105488",
+      "sku": "CR1681",
+      "reason": "Accurate bilingual chili powder title; no supported new description or packaging."
+    },
+    {
+      "id": "4278439000000105494",
+      "sku": "CR1682",
+      "reason": "Accurate bilingual black pepper powder title; no verified brand to add."
+    }
+  ],
+  "sourcePolicy": "No new GTIN, origin, allergen, weight, supplier cost, margin, stock, shelf life or certification claims. Existing explicit pack expressions preserved; no blank brand filled for unbranded spices. No images or descriptions changed.",
+  "api": {
+    "creatorGetApplications": 1,
+    "creatorExactInitialReads": 20,
+    "creatorWritesConfirmed": 12,
+    "creatorReadbacksConfirmed": 12,
+    "creatorConnectorCallsMinimum": 45,
+    "exactConnectorCalls": "Unavailable: tool-call cap interrupted an intermediate readback attempt; all 12 writes independently read back in separate calls",
+    "billableUsage": "unavailable"
+  },
+  "writes": {
+    "name": 12,
+    "arabicName": 12,
+    "description": 0,
+    "packing": 0,
+    "brand": 0,
+    "category": 0,
+    "images": 0,
+    "price": 0,
+    "cost": 0,
+    "stock": 0,
+    "margin": 0,
+    "tax": 0,
+    "visibility": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "readbackLimitations": [
+    "All_Products does not expose translated description or packing; none written.",
+    "No independent image-rights or live Commerce/Catalyst rendering validation."
+  ],
+  "checkoutQA": {
+    "issue": 27,
+    "authenticatedTestsExecuted": false,
+    "status": "NO-GO",
+    "reason": "No authenticated seven-role checkout or financial order creation was performed."
+  },
+  "sync": {
+    "fourWayVerified": false,
+    "sourceWatermarkAdvanced": false,
+    "registryOutboxUnchanged": true
+  }
+}
