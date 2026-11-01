@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-01",
+  "batch": 18,
+  "products": 20,
+  "checkpointBefore": 17,
+  "changes": [
+    {
+      "creatorId": "4278439000001864371",
+      "sku": "ME-0084",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "BABA Egg Color 80 * 100gm",
+          "after": "BABA Egg Colour, 80 × 100 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "BABA لون البيض 80 * 100gm",
+          "after": "ملون البيض بابا، 80 × 100 جم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864375",
+      "sku": "ME-0085",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Sugar Fine 1 * 10kg",
+          "after": "BABA Fine Sugar, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "بابا سكر ناعم 1 * 10 كجم",
+          "after": "سكر ناعم بابا، كيس 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864399",
+      "sku": "ME-0091",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "White Chana # 7 Russian 1 * 15kg",
+          "after": "Russian White Chana #7, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "تشانا البيضاء رقم 7 الروسية 1 * 15kg",
+          "after": "حمص أبيض روسي رقم 7، كيس 15 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864407",
+      "sku": "ME-0093",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Coriander powder # 1 1 * 10kg",
+          "after": "Coriander Powder #1, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "مسحوق الكزبرة رقم 1 1 * 10 كجم",
+          "after": "مسحوق كزبرة رقم 1، كيس 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864419",
+      "sku": "ME-0096",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Black Pepper Whole #1 (5MM) 1*25kg",
+          "after": "Whole Black Pepper #1 (5 mm), 25 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الفلفل الأسود كله #1 (5MM) 1 * 25kg",
+          "after": "فلفل أسود حب رقم 1 (5 مم)، كيس 25 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864431",
+      "sku": "ME-0099",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Black Cardamom India 1*10Kg",
+          "after": "Indian Black Cardamom, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الهيل الأسود الهند 1 * 10Kg",
+          "after": "هيل أسود هندي، كيس 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864439",
+      "sku": "ME-00101",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Fazco White Meat Tuna 48 * 95 Gm",
+          "after": "FAZCO White Meat Tuna, 48 × 95 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "فازكو اللحوم البيضاء التونة 48 * 95 جم",
+          "after": "تونة لحم أبيض فازكو، 48 × 95 جم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864443",
+      "sku": "ME-00102",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "fazco Coconut Milk Powder 24 * 150 gm",
+          "after": "FAZCO Coconut Milk Powder, 24 × 150 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "مسحوق حليب جوز الهند فاسكو 24 * 150 جم",
+          "after": "مسحوق حليب جوز الهند فازكو، 24 × 150 جم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864451",
+      "sku": "ME-00103",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Fazco Full Cream Milk Pwd 6 * 1.8Kg",
+          "after": "FAZCO Full Cream Milk Powder, 6 × 1.8 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "فازكو كامل كريم الحليب PWD 6 * 1.8Kg",
+          "after": "حليب بودرة كامل الدسم فازكو، 6 × 1.8 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864455",
+      "sku": "ME-00104",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Fazco Pure Sunflower Oil 5ltr (4 x 5 Ltr)",
+          "after": "FAZCO Pure Sunflower Oil, 4 × 5 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "زيت عباد الشمس النقي من فازكو 5 لتر (4 × 5 لتر)",
+          "after": "زيت دوار الشمس النقي فازكو، 4 × 5 لتر — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864459",
+      "sku": "ME-00105",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Fazco Pure Sunflower Oil 6 * 3 Ltr",
+          "after": "FAZCO Pure Sunflower Oil, 6 × 3 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "فازكو زيت عباد الشمس النقي 6 * 3 لتر",
+          "after": "زيت دوار الشمس النقي فازكو، 6 × 3 لتر — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864463",
+      "sku": "ME-00106",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "FAZCO Tomato Ketchup 4 * 5 Kg",
+          "after": "FAZCO Tomato Ketchup, 4 × 5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "FAZCO الطماطم الكاتشب 4 * 5 كجم",
+          "after": "كاتشب الطماطم فازكو، 4 × 5 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864467",
+      "sku": "ME-00107",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "FAZCO Tomato Ketchup Sachet 1000 * 8gm",
+          "after": "FAZCO Tomato Ketchup Sachets, 1,000 × 8 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "FAZCO الطماطم الكاتشب الكيس 1000 * 8gm",
+          "after": "أكياس كاتشب الطماطم فازكو، 1000 × 8 جم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001864511",
+      "sku": "SKU-2421",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "1100g Sadia Frozen Whole Chicken  ( 1100g x 10 )",
+          "after": "Sadia Frozen Whole Chicken, 10 × 1.1 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "1100g سادية الدجاج الكامل المجمد (100g × 10)",
+          "after": "دجاج ساديا كامل مجمد، 10 × 1.1 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001935023",
+      "sku": "SKU-2426",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Seniora Cheese Mozzarella block 2.3kg ( 2.3 kg x 4 )",
+          "after": "Seniora Mozzarella Cheese Block, 4 × 2.3 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "كتلة موزاريلا الجبن سنيورا 2.3 كجم (2.3 كجم × 4)",
+          "after": "جبن موزاريلا قالب سنيورا، 4 × 2.3 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001954023",
+      "sku": "SKU-2428",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "NAZ Cooking oil Sunflower 6 x 1.5 Ltr",
+          "after": "NAZ Sunflower Cooking Oil, 6 × 1.5 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "ناز زيت الطبخ عباد الشمس 6 × 1.5 لتر",
+          "after": "زيت دوار الشمس للطبخ ناز، 6 × 1.5 لتر — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001957011",
+      "sku": "SKU-2429",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID, SKU, brand, selling unit, pack notation and original title; editorial normalization only; manufacturer/label certification not established",
+      "fields": {
+        "Product_Name": {
+          "before": "Urad Dal  India (121) 1 * 15kg",
+          "after": "Indian Urad Dal (121), 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "أوراد دال الهند (121) 1 * 15 كجم",
+          "after": "أوراد دال هندي (121)، كيس 15 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000001864403",
+      "sku": "ME-0092",
+      "name": "Cumin Mathoon # 1 1 * 10kg",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "holdReason": "Mathoon in the existing cumin title is ambiguous (brand/ground form); no unsupported translation or variant change."
+    },
+    {
+      "id": "4278439000001864423",
+      "sku": "ME-0097",
+      "name": "Green Cardamom P3 1*40kg",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "holdReason": "Green cardamom P3 with 40 kg selling bag is an unusual variant; verify grade and package label before title correction."
+    },
+    {
+      "id": "4278439000001864435",
+      "sku": "ME-00100",
+      "name": "Fazco White Meat Tuna 48 *1 60 Gm",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Tuna pack '48 *1 60 Gm' is ambiguous between 160 g and 60 g; require exact label/packing evidence."
+    }
+  ],
+  "api": {
+    "creatorExactIdReads": 20,
+    "creatorUpdateCalls": 17,
+    "creatorReadbackCalls": 17,
+    "creatorTotalCalls": 54,
+    "successful": 54
+  },
+  "writes": {
+    "titleFields": 34,
+    "verifiedProducts": 17,
+    "financial": 0,
+    "stock": 0,
+    "images": 0,
+    "orders": 0,
+    "visibility": 0,
+    "sync": 0
+  },
+  "readbackLimitations": [
+    "All_Products does not expose Translated_Description or Translated_Package; no changes attempted to these fields."
+  ],
+  "sourceLimit": "Title and pack formatting from exact existing Creator records, not independently verified manufacturer packaging. No new GTIN, origin, brand, allergen, shelf-life, or net-weight assertions.",
+  "checkoutQA": "Issue #27 remains NO-GO; authenticated EN/AR RTL, CTN/PCS/KG, customer-price isolation, VAT, cart, Buy Again, COD/credit and exactly-once test receipts unavailable. No order placed.",
+  "sync": "No Books–Inventory–Commerce native-sync ACK, deployed gateway source/rollback or webhook-auth proof; no cross-system writes/deploy."
+}
