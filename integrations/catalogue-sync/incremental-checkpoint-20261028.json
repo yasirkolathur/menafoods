@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Review new CR1756 change candidate against authoritative audit trail or future verified source timestamp; continue bounded overlapping Creator read-only probes, no full rescan. Keep source watermark null and checkout NO-GO.",
+  "nextAction": "Keep CR1756 as unverified candidate pending authoritative source timestamp or audit trail; continue bounded overlapping read-only Creator queries and QA evidence review; no full rescan or cross-system writes.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,48 +72,33 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-11-01T21:48:58+03:00",
-    "timeSource": "automation run context, not Creator source timestamp",
+    "observedAtLocal": "2026-11-01T22:51:26+03:00",
+    "timeSource": "automation runtime; not Creator Modified_Time",
     "mode": "incremental_read_only",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 19:00:00\"",
+    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
     "creatorResult": "Creator code 3000; one record; no record_cursor; Modified_Time not exposed",
     "creatorReturnedIds": [
       "4278439000000106496"
     ],
-    "newCandidateIds": [
+    "knownUnverifiedCandidateIds": [
       "4278439000000106496"
     ],
-    "baselineManifestBatch": 7,
-    "customerContentManifestStatus": "Not in 2,012-record customer-content manifest (distinct from 2,122 baseline)",
-    "verifiedRecordIdSku": true,
-    "creatorExactIdReadback": true,
+    "newCandidateIds": [],
+    "exactIdReadbackIds": [
+      "4278439000000106496"
+    ],
+    "verifiedNonfinancialFieldChanges": [],
+    "matchedPriorNonfinancialSnapshot": true,
     "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
-    "verifiedChangedFields": [],
-    "newNonfinancialSnapshot": {
-      "creatorId": "4278439000000106496",
-      "sku": "CR1756",
-      "name": "Frozen beef top India 20 kg Allana #41",
-      "brand": "Allana",
-      "unit": "ctn",
-      "category": "Meat",
-      "collection": "Indian Beef",
-      "arabicName": "#41 لحم بقر علوي مجمد الهند 20 كجم ألانا",
-      "storefront": "Yes",
-      "imageIds": [
-        "4278439000000106498",
-        "4278439000000106500"
-      ],
-      "booksIdPresent": true
-    },
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; authenticated checkout test evidence still outstanding",
-    "limitations": "No prior exact-ID nonfinancial snapshot for this record, so actual field change cannot be established. Modified_Time not returned, source timezone/boundary/pagination/event completeness unverified. Image references not proof of rights, visibility or storefront render."
+    "qaIssue27Status": "NO-GO; no authenticated EN/AR, VAT, unit, price-isolation, Buy Again, cart, or confirm-once checkout receipts",
+    "limitations": "Candidate CR1756 unchanged against persisted 21:48 nonfinancial snapshot; no source modification timestamp or historical pre-change snapshot. Timezone, change-feed completeness, pagination and webhook delivery remain unverified. No new edits or deployment."
   },
   "incrementalObservationHistory": [
     {
@@ -2731,6 +2716,35 @@
       "sourceWatermarkAdvanced": false,
       "qaIssue27Status": "NO-GO; authenticated checkout test evidence still outstanding",
       "limitations": "No prior exact-ID nonfinancial snapshot for this record, so actual field change cannot be established. Modified_Time not returned, source timezone/boundary/pagination/event completeness unverified. Image references not proof of rights, visibility or storefront render."
+    },
+    {
+      "observedAtLocal": "2026-11-01T22:51:26+03:00",
+      "timeSource": "automation runtime; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+      "creatorResult": "Creator code 3000; one record; no record_cursor; Modified_Time not exposed",
+      "creatorReturnedIds": [
+        "4278439000000106496"
+      ],
+      "knownUnverifiedCandidateIds": [
+        "4278439000000106496"
+      ],
+      "newCandidateIds": [],
+      "exactIdReadbackIds": [
+        "4278439000000106496"
+      ],
+      "verifiedNonfinancialFieldChanges": [],
+      "matchedPriorNonfinancialSnapshot": true,
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no authenticated EN/AR, VAT, unit, price-isolation, Buy Again, cart, or confirm-once checkout receipts",
+      "limitations": "Candidate CR1756 unchanged against persisted 21:48 nonfinancial snapshot; no source modification timestamp or historical pre-change snapshot. Timezone, change-feed completeness, pagination and webhook delivery remain unverified. No new edits or deployment."
     }
   ],
   "pendingCandidateCreatorIds": [
