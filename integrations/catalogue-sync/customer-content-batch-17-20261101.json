@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-01",
+  "batch": 17,
+  "products": 20,
+  "checkpointBefore": 16,
+  "changes": [
+    {
+      "creatorId": "4278439000001864271",
+      "sku": "ME-0059",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "FAZCO Vermicillies 48*150 gm",
+          "after": "FAZCO Vermicelli, 48 × 150 g"
+        },
+        "Translated_Name": {
+          "before": "فازكو فيرمسيليز 48 * 150 جم",
+          "after": "شعيرية فازكو، 48 × 150 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864275",
+      "sku": "ME-0060",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "White Beans Egyptian 1 * 15kg",
+          "after": "Egyptian White Beans, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الفاصوليا البيضاء المصرية 1 * 15 كجم",
+          "after": "فاصوليا بيضاء مصرية، كيس 15 كجم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864283",
+      "sku": "ME-0062",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Tapal Danedar (Jar) 12 * 1000 gm",
+          "after": "Tapal Danedar Tea, Jar, 12 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "تابال دانيدار (جار) 12 * 1000 جم",
+          "after": "شاي تابال دانيدار، عبوة، 12 × 1 كجم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864291",
+      "sku": "ME-0064",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Tapal Tea Bags 20 * 125 * 2gm",
+          "after": "Tapal Tea Bags, 20 × 125 × 2 g"
+        },
+        "Translated_Name": {
+          "before": "أكياس الشاي الصنبور 20 * 125 * 2gm",
+          "after": "أكياس شاي تابال، 20 × 125 × 2 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864295",
+      "sku": "ME-0065",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "TAPAL Family Mixture 900 g ( 12*900gm )",
+          "after": "Tapal Family Mixture Tea, 12 × 900 g"
+        },
+        "Translated_Name": {
+          "before": "TAPAL الأسرة خليط 900 غرام (12 * 900 غرام)",
+          "after": "شاي تابال فاميلي ميكستشر، 12 × 900 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864299",
+      "sku": "ME-0066",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Tapal Green Tea Jasmin  20 x30 x 1.5g",
+          "after": "Tapal Jasmine Green Tea, 20 × 30 × 1.5 g"
+        },
+        "Translated_Name": {
+          "before": "شاي تابال الأخضر ياسمين 20 × 30 × 1.5 غرام",
+          "after": "شاي تابال الأخضر بالياسمين، 20 × 30 × 1.5 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864303",
+      "sku": "ME-0067",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Tapal Grn Tea Cardm 20 x 30 x 1.5g",
+          "after": "Tapal Cardamom Green Tea, 20 × 30 × 1.5 g"
+        },
+        "Translated_Name": {
+          "before": "Tapal Grn الشاي Cardm 20 × 30 × 1.5g",
+          "after": "شاي تابال الأخضر بالهيل، 20 × 30 × 1.5 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864307",
+      "sku": "ME-0068",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "TAPAL Green Tea Mint 20 x 30 x 1.5g",
+          "after": "Tapal Mint Green Tea, 20 × 30 × 1.5 g"
+        },
+        "Translated_Name": {
+          "before": "TAPAL الشاي الأخضر النعناع 20 × 30 × 1.5g",
+          "after": "شاي تابال الأخضر بالنعناع، 20 × 30 × 1.5 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864311",
+      "sku": "ME-0069",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Tapal Green Tea Lemon 20 x 30 x 1 .5g",
+          "after": "Tapal Lemon Green Tea, 20 × 30 × 1.5 g"
+        },
+        "Translated_Name": {
+          "before": "لليمون الشاي الأخضر المبني 20 × 30 × 1.5G",
+          "after": "شاي تابال الأخضر بالليمون، 20 × 30 × 1.5 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864319",
+      "sku": "ME-0071",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Fazco Mayonnaise Gallon 4 * 3.78 Ltr",
+          "after": "FAZCO Mayonnaise, 4 × 3.78 L — Carton"
+        },
+        "Translated_Name": {
+          "before": "فازكو المايونيز غالون 4 * 3.78 لتر",
+          "after": "مايونيز فازكو، كرتون 4 × 3.78 لتر"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864327",
+      "sku": "ME-0073",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "MANAL Sarson Ka Saag 12 X 450GM",
+          "after": "Manal Sarson Ka Saag, 12 × 450 g"
+        },
+        "Translated_Name": {
+          "before": "مانال سارسون كا ساج 12 × 450GM",
+          "after": "مانال سارسون كا ساغ، 12 × 450 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864331",
+      "sku": "ME-0074",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Manal Pineapple Chunks 565 gm ( 24*565 Gm )",
+          "after": "Manal Pineapple Chunks, 24 × 565 g"
+        },
+        "Translated_Name": {
+          "before": "قطع الأناناس المنال 565 جم (24 * 565 جم)",
+          "after": "قطع أناناس مانال، 24 × 565 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864339",
+      "sku": "ME-0076",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Saffron Yellow Color 80 * 100gm",
+          "after": "BABA Saffron Yellow Colour, 80 × 100 g"
+        },
+        "Translated_Name": {
+          "before": "بابا الزعفران اللون الأصفر 80 * 100gm",
+          "after": "لون أصفر زعفراني بابا، 80 × 100 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864343",
+      "sku": "ME-0077",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Saffron Yel Color 24 * 1000 gm",
+          "after": "BABA Saffron Yellow Colour, 24 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "بابا الزعفران يل اللون 24 * 1000 جم",
+          "after": "لون أصفر زعفراني بابا، 24 × 1 كجم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864351",
+      "sku": "ME-0079",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Orange Color 1000g ( 24 * 1000 gm)",
+          "after": "BABA Orange Colour, 24 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "بابا اللون البرتقالي 1000g (24 * 1000 جم)",
+          "after": "لون برتقالي بابا، 24 × 1 كجم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864355",
+      "sku": "ME-0080",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Raspberry Color 80 * 100gm",
+          "after": "BABA Raspberry Colour, 80 × 100 g"
+        },
+        "Translated_Name": {
+          "before": "بابا التوت اللون 80 * 100gm",
+          "after": "لون توت العليق بابا، 80 × 100 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864359",
+      "sku": "ME-0081",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Strawberry Color 100 g (80*100 gm)",
+          "after": "BABA Strawberry Colour, 80 × 100 g"
+        },
+        "Translated_Name": {
+          "before": "بابا لون الفراولة 100 غرام (80 * 100 جم)",
+          "after": "لون فراولة بابا، 80 × 100 جم"
+        }
+      },
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000001864363",
+      "sku": "ME-0082",
+      "source": "Existing Creator exact ID/SKU, stored brand, original title and explicit pack notation, 2026-11-01; editorial EN/AR correction only, no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Green Color 80 * 100 gm",
+          "after": "BABA Green Colour, 80 × 100 g"
+        },
+        "Translated_Name": {
+          "before": "بابا اللون الأخضر 80 * 100 جم",
+          "after": "لون أخضر بابا، 80 × 100 جم"
+        }
+      },
+      "readbackVerified": true
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000001864287",
+      "sku": "ME-0063",
+      "name": "Tapal Danedar (Jar) 15 * 450gm",
+      "storefront": true,
+      "category": "Tea & Coffee",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Creator Brand 'TAPAL DANEDER' conflicts with product title Danedar; verify exact brand/variant before edit"
+    },
+    {
+      "id": "4278439000001864323",
+      "sku": "ME-0072",
+      "name": "FONTERA Newzland Milk Powder 25 Kg",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "holdReason": "Creator Brand 'FONTERA' and product title FONTERA Newzland; exact manufacturer spelling and product variant unverified"
+    }
+  ],
+  "api": {
+    "creatorGetById": 38,
+    "creatorUpdateById": 18,
+    "githubReads": 5,
+    "githubIssueReads": 2
+  },
+  "writes": {
+    "nonFinancialTitleFields": 36,
+    "financial": 0,
+    "stock": 0,
+    "visibility": 0,
+    "images": 0,
+    "sync": 0,
+    "orders": 0
+  },
+  "readbackLimitations": [
+    "All_Products API does not expose Translated_Description or Translated_Package; neither edited"
+  ],
+  "checkoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "note": "No authenticated customer/role test, VAT/price/stock/Buy Again/COD/credit/confirm-once receipts this run"
+  },
+  "sync": {
+    "issue": 36,
+    "status": "Not enabled; existing gateway source/rollback, native sync and end-to-end ACK not verified"
+  },
+  "sourceLimit": "Creator identity and stored pack values only; no external manufacturer claims or imagery"
+}
