@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-01",
+  "batch": 20,
+  "products": 20,
+  "checkpointBefore": 19,
+  "sourceLimit": "Exact-ID Creator All_Products pre-read plus original stored brand/name/unit/pack and category only; editorial normalization, NOT independent manufacturer/authorized pack certification.",
+  "changes": [
+    {
+      "creatorId": "4278439000002301007",
+      "sku": "SKU-2482",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "Rooh Afza Summer Drink 12 x 800ml",
+          "after": "Hamdard Rooh Afza Summer Drink, 12 × 800 ml"
+        },
+        "Translated_Name": {
+          "before": "Rooh Afza الصيف الشراب 12 × 800 مل",
+          "after": "شراب روح أفزا من همدرد، 12 × 800 مل"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002315011",
+      "sku": "SKU-2486",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "Dates Paste Saudi 5kg",
+          "after": "Saudi Dates Paste, 5 kg"
+        },
+        "Translated_Name": {
+          "before": "التمور لصق السعودية 5kg",
+          "after": "معجون تمر سعودي، 5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002320011",
+      "sku": "SKU-2487",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "Sugar Powder Saudi fine 1 * 50kg",
+          "after": "Saudi Fine Powdered Sugar, 50 kg Bag"
+        },
+        "Translated_Name": {
+          "before": "سكر بودرة سعودي ناعم 1*50 كيلو",
+          "after": "سكر بودرة سعودي ناعم، كيس 50 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002366003",
+      "sku": "SKU-2495",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "FALCON FOIL WRAP SANDWICH PAPER (MALFW009) 500 Pieces",
+          "after": "Falcon Sandwich Foil Wrap Paper (MALFW009), 500 Pieces"
+        },
+        "Translated_Name": {
+          "before": "فالكون النفط ملفوفة رملية آلة (MALFW009) 500 قطعة",
+          "after": "ورق تغليف الساندويتشات فالكون (MALFW009)، 500 قطعة"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002367003",
+      "sku": "SKU-2496",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "ASAS Altahi Aluminium Foil 45 cm",
+          "after": "ASAS Altahi Aluminium Foil, 45 cm"
+        },
+        "Translated_Name": {
+          "before": "ASAS Altahi رقائق الألومنيوم 45 سم",
+          "after": "رقائق ألمنيوم أساس الطهي، عرض 45 سم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002369019",
+      "sku": "SKU-2497",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "CLEAR PLASTIC JUICE BOTTEI 1LTR 96 bottles",
+          "after": "Clear Plastic Juice Bottles, 1 L × 96 Bottles"
+        },
+        "Translated_Name": {
+          "before": "عصير بلاستيكي نظيف بوتي 1LTR 96 زجاجات",
+          "after": "عبوات عصير بلاستيكية شفافة، 96 عبوة × 1 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002370011",
+      "sku": "SKU-2498",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "CLEAR PLASTIC JUICE BOTTEI 1.5 LTR 48 bottles",
+          "after": "Clear Plastic Juice Bottles, 1.5 L × 48 Bottles"
+        },
+        "Translated_Name": {
+          "before": "عصير بلاستيكي نظيف بوتي 1.5 LTR 48 زجاجات",
+          "after": "عبوات عصير بلاستيكية شفافة، 48 عبوة × 1.5 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002377011",
+      "sku": "SKU-2504",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "SUFANA CLING FILM 45CM 5KG",
+          "after": "Sufana Cling Film, 45 cm, 5 kg"
+        },
+        "Translated_Name": {
+          "before": "سوفانا كلينغ فيلم 45CM 5KG",
+          "after": "فيلم تغليف لاصق سوفانا، 45 سم، 5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002377039",
+      "sku": "SKU-2507",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "SHOPPING BAG NO.18 WHITE HANA PACK 10KG",
+          "after": "Hana White Shopping Bags No. 18, 10 kg Pack"
+        },
+        "Translated_Name": {
+          "before": "كيس تسوق رقم 18 عبوة هانا بيضاء 10 كجم",
+          "after": "أكياس تسوق هانا بيضاء رقم 18، عبوة 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002391007",
+      "sku": "SKU-2514",
+      "readbackVerified": true,
+      "source": "Creator All_Products exact ID/SKU; pre-existing title, brand and selling unit",
+      "fields": {
+        "Product_Name": {
+          "before": "Cheddar Cheese Sauce 3kg - Freshly ( 6 x 3 kg )",
+          "after": "Freshly Cheddar Cheese Sauce, 6 × 3 kg"
+        },
+        "Translated_Name": {
+          "before": "صلصة جبن الشيدر 3 كجم - طازجة (6 × 3 كجم)",
+          "after": "صلصة جبن الشيدر فريشلي، 6 × 3 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000002363015",
+      "sku": "SKU-2492",
+      "reason": "Unresolved 'IQF Preservative 800 - 1000' meaning, size variant and no verified brand; hold."
+    },
+    {
+      "creatorId": "4278439000002364007",
+      "sku": "SKU-2493",
+      "reason": "Ambiguous '240Z' (possibly 24 oz), brand/pack designation; do not infer volume or brand."
+    },
+    {
+      "creatorId": "4278439000002375011",
+      "sku": "SKU-2501",
+      "reason": "HANA in title versus BAITHUL HANNA brand field; 10 kg selling-unit interpretation needs confirmation."
+    },
+    {
+      "creatorId": "4278439000002379007",
+      "sku": "SKU-2506",
+      "reason": "Tissue roll single 4 kg weight/roll-pack interpretation unresolved; no supported brand."
+    },
+    {
+      "creatorId": "4278439000002381007",
+      "sku": "SKU-2509",
+      "reason": "English 'Cheese Cream' versus Arabic processed cream-flavoured cheese; verify exact product formulation/variant."
+    },
+    {
+      "creatorId": "4278439000002385011",
+      "sku": "SKU-2510",
+      "reason": "Fish-and-chips box identity, 'FILLING' notation and unit 'rpt' require confirmation."
+    },
+    {
+      "creatorId": "4278439000002386011",
+      "sku": "SKU-2511",
+      "reason": "50 g sauce-cup size may be weight versus capacity; 100-piece pack not independently verified."
+    },
+    {
+      "creatorId": "4278439000002388003",
+      "sku": "SKU-2513",
+      "reason": "Straw '8ML' could mean 8 mm, but cannot infer; hold unit/pack variant."
+    },
+    {
+      "creatorId": "4278439000002392011",
+      "sku": "SKU-2515",
+      "reason": "JILANI fork '20-50' pack count/variant ambiguous."
+    }
+  ],
+  "reviewedNoChange": [
+    {
+      "id": "4278439000002373015",
+      "sku": "SKU-2499",
+      "reason": "Black Gloves XL title already intelligible in both languages; brand blank with no independent brand evidence."
+    }
+  ],
+  "otherUnresolved": [
+    {
+      "sku": "SKU-2504",
+      "reason": "Collection labelled 'Poly Food Cans' although product is cling film; no category/collection edit without mapping approval."
+    },
+    {
+      "sku": "SKU-2495",
+      "reason": "Original 'foil wrap sandwich paper' material terminology remains ambiguous; no composition claim or image change."
+    }
+  ],
+  "api": {
+    "creatorConnectorCallsAttempted": 42,
+    "creatorCallsSucceeded": 42,
+    "preReads": 20,
+    "writeCalls": 12,
+    "readbackCalls": 10,
+    "billableUnits": "not exposed"
+  },
+  "writes": {
+    "nonFinancialCreatorProductsChanged": 10,
+    "verifiedTitleFields": 20,
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "images": 0,
+    "visibility": 0,
+    "syncConfig": 0,
+    "orders": 0
+  },
+  "readbackLimitations": "Only Product_Name and Translated_Name updated; translated descriptions and packing not exposed in All_Products API readback.",
+  "checkoutQA": "NO-GO; authenticated EN/AR RTL, visibility/image, CTN/PCS/KG, price/cost isolation, VAT, cart persistence, Buy Again, COD/credit and exactly-once checkout still lack verified end-to-end acceptance receipts.",
+  "sync": "Four duplicate-active holds remain blocked. No Books/Inventory/Commerce native-sync, gateway rollback, webhook authentication or cross-system ACK receipts; no four-way sync or deployment claims."
+}
