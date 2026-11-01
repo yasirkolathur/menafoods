@@ -1,0 +1,268 @@
+{
+  "date": "2026-11-01",
+  "batch": 9,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 11,
+    "verifiedTitleFieldsChanged": 22,
+    "held": 7,
+    "reviewedNoChange": 2,
+    "fullRescan": false
+  },
+  "source": "Zoho Creator mena / All_Products: exact record ID, SKU, current English and Arabic titles, existing pack notation and Unit. Editorial normalization/translation only. Not manufacturer-certified. No new label, origin, GTIN, allergens, claims or weights.",
+  "changes": [
+    {
+      "creatorId": "4278439000001026015",
+      "sku": "CR1805",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Mama Sitas Achuete Annatto Powder All Natural (Pack of 60 x 10 Gram)",
+          "after": "Mama Sita's Achuete (Annatto) Powder, 60 × 10 g"
+        },
+        "Translated_Name": {
+          "before": "ماما Sitas Achuete Annatto مسحوق كل شيء طبيعي (حزمة 60 × 10 غرام)",
+          "after": "مسحوق أشيوت (أناتو) ماما سيتا، 60 × 10 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001028019",
+      "sku": "SKU-230727072211",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Al tahi aluminum foil size 30 cm * 150 m / 6 Rolls",
+          "after": "Al Tahi Aluminium Foil, 6 Rolls × 30 cm × 150 m"
+        },
+        "Translated_Name": {
+          "before": "الطاهي رقائق الألومنيوم حجم 30 سم * 150 م / 6 رولز",
+          "after": "رقائق ألمنيوم الطاهي، 6 لفات × 30 سم × 150 م"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001029007",
+      "sku": "CR1807",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Cooked Chicken Fajita Topping, 1KG x 10",
+          "after": "Cooked Chicken Fajita Topping, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "مطبوخ الدجاج فاجيتا أعلى، 1KG × 10",
+          "after": "توبينغ فاهيتا دجاج مطهي، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001029043",
+      "sku": "CR1808",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Americana Chicken  Nuggets ( 10 *  1 kg ) packs",
+          "after": "Americana Chicken Nuggets, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "شذرات الدجاج أمريكانا (10 * 1 كجم) عبوات",
+          "after": "ناجتس دجاج أمريكانا، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001029067",
+      "sku": "CR1809",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "EXCEL  Frozen Tender Chicken Breast 2.5 kg x 4 packs",
+          "after": "Excel Frozen Tender Chicken Breast, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "EXCEL المجمدة العطاء الدجاج الثدي 2.5 كجم × 4 حزم",
+          "after": "صدور دجاج إكسل الطرية المجمدة، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001029095",
+      "sku": "CR1810",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "De Cecco Extra Virgin Olive Oil 101.4 oz. Tin, PK4",
+          "after": "De Cecco Extra Virgin Olive Oil, 4 × 101.4 oz Tins"
+        },
+        "Translated_Name": {
+          "before": "دي سيكو زيت الزيتون العذراء اضافية 101.4 أوقية. القصدير، PK4",
+          "after": "زيت زيتون بكر ممتاز دي تشيكو، 4 عبوات صفيح × 101.4 أونصة"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001036007",
+      "sku": "CR1813",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Americana Chicken Strips Plain (10 x 1 kg) packs",
+          "after": "Americana Plain Chicken Strips, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "أمريكانا شرائط الدجاج عادي (10 × 1 كجم) عبوات",
+          "after": "شرائح دجاج أمريكانا سادة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001039009",
+      "sku": "CR1815",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "French fries Mityfresh 2.5 kg  x 4 bags",
+          "after": "Mity Fresh French Fries, 4 × 2.5 kg Bags"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية ميتي فريش 2.5 كجم × 4 أكياس",
+          "after": "بطاطس مقلية ميتي فريش، 4 أكياس × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001042011",
+      "sku": "CR1817",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Aji-No-Moto Flavour Enhancer 454 g x 20 packs",
+          "after": "Aji-No-Moto Flavour Enhancer, 20 × 454 g"
+        },
+        "Translated_Name": {
+          "before": "آجي لا موتو نكهة المعزز 454 غرام × 20 حزم",
+          "after": "محسن النكهة آجي نو موتو، 20 عبوة × 454 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001046019",
+      "sku": "CR1818",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "900g Qualiko Whole Chicken Griller Ukraine",
+          "after": "Qualiko Whole Chicken Griller, 900 g, Ukraine"
+        },
+        "Translated_Name": {
+          "before": "900g كواليكو شواء الدجاج كله أوكرانيا",
+          "after": "دجاج كواليكو كامل للشوي، 900 جم، أوكرانيا"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001048059",
+      "sku": "CR1821",
+      "readbackVerified": true,
+      "source": "Current Creator record ID/SKU and original title pack notation; not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Mackerel Fish 4 to 6 pcs per bags ( 1 kg x 10 bags)",
+          "after": "Frozen Mackerel, 4–6 Pieces per 1 kg Bag, 10 Bags"
+        },
+        "Translated_Name": {
+          "before": "أسماك الماكريل المجمدة 4 إلى 6 قطع لكل كيس (1 كجم × 10 أكياس)",
+          "after": "سمك ماكريل مجمد، 4–6 قطع في كيس 1 كجم، 10 أكياس"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000001024007",
+      "sku": "CR1803",
+      "reason": "Mawasim Arabic brand spelling and light-meat tuna description require exact label evidence"
+    },
+    {
+      "creatorId": "4278439000001025011",
+      "sku": "CR1804",
+      "reason": "Baidar product title conflicts with Baider brand field; confirm exact variant and Arabic brand"
+    },
+    {
+      "creatorId": "4278439000001049015",
+      "sku": "CR1822",
+      "reason": "Selling unit kg conflicts with 2 kg × 6 boxes notation; avoid assuming sale quantity"
+    },
+    {
+      "creatorId": "4278439000001050007",
+      "sku": "CR1823",
+      "reason": "Selling unit kg conflicts with 20 kg carton description; no supported brand"
+    },
+    {
+      "creatorId": "4278439000001051011",
+      "sku": "CR1824",
+      "reason": "4 × 2.300gm ASTA mozzarella notation ambiguous (weight/decimal); verify original pack"
+    },
+    {
+      "creatorId": "4278439000001059007",
+      "sku": "CR1829",
+      "reason": "Tamamm product title conflicts with Tammam brand field; confirm exact brand"
+    },
+    {
+      "creatorId": "4278439000001073037",
+      "sku": "CR1830",
+      "reason": "Australia is stored as brand; sheep liver pack weight range and selling unit require label evidence"
+    }
+  ],
+  "reviewedNoChange": [
+    {
+      "creatorId": "4278439000001046047",
+      "sku": "CR1819",
+      "reason": "Existing Egyptian white beans bilingual title sufficient; unbranded product; no independently supported description."
+    },
+    {
+      "creatorId": "4278439000001053039",
+      "sku": "CR1826",
+      "reason": "Existing red kidney beans bilingual title sufficient; unbranded product; no independently supported description."
+    }
+  ],
+  "api": {
+    "creatorConnectorCallsThisRun": "at least 65 (including 20 initial reads, metadata, 24 prewrite/write/readbacks for first 8, 11 recovery readbacks, 9 final reads/writes/readbacks; connector tool-call limit interrupted first group)",
+    "billableCalls": "unavailable"
+  },
+  "writes": {
+    "titleFields": 22,
+    "financial": 0,
+    "stock": 0,
+    "visibility": 0,
+    "images": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "readbackLimitations": [
+    "All_Products API does not expose Translated_Description or Translated_Package; neither field edited.",
+    "No product images published or cross-system storefront renderings verified."
+  ],
+  "checkoutQA": {
+    "authenticatedTestsThisRun": 0,
+    "status": "NO-GO",
+    "issue": 27
+  },
+  "sync": {
+    "enabled": false,
+    "gateVerified": false
+  }
+}
