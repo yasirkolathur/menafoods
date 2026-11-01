@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "source": "Owner-authorized customer content remediation, distinct from completed 20 baseline audit batches",
-  "completedBatch": 13,
+  "completedBatch": 14,
   "completedProducts": [
     "4278439000000103044",
     "4278439000000105360",
@@ -184,7 +184,21 @@
     "4278439000001596017",
     "4278439000001596035",
     "4278439000001600011",
-    "4278439000001601021"
+    "4278439000001601021",
+    "4278439000001603023",
+    "4278439000001604007",
+    "4278439000001640143",
+    "4278439000001640155",
+    "4278439000001659011",
+    "4278439000001659026",
+    "4278439000001661015",
+    "4278439000001816017",
+    "4278439000001828007",
+    "4278439000001828041",
+    "4278439000001832011",
+    "4278439000001864023",
+    "4278439000001864035",
+    "4278439000001864039"
   ],
   "pendingProducts": [
     {
@@ -205,208 +219,6 @@
       "category": "Ready to Cook",
       "reviewFields": [
         "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000001603023",
-      "sku": "CR1964",
-      "name": "Beef forequarter Brazil Frigol (kg)",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001604007",
-      "sku": "CR1965",
-      "name": "Plena Beef forequarter Brazil  (kg)",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001640087",
-      "sku": "CR1991",
-      "name": "Black Angus Ribeye Lip On MB 2-3",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000001640143",
-      "sku": "CR2005",
-      "name": "Black Angus Shortloin",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000001640155",
-      "sku": "CR2008",
-      "name": "Black Angus Burger Patties 150 gram",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001659011",
-      "sku": "CR2014",
-      "name": "Afia Cooking Corn Oil 17l",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001659026",
-      "sku": "CR2015",
-      "name": "Alsafi Long Life Full Fat Milk 1L × 12 Pieces",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001661015",
-      "sku": "CR2016",
-      "name": "Baidar French Salad Dressing Gallon 3.78 L x 4",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001689011",
-      "sku": "CR2017",
-      "name": "Royal Umbrella Jasmin Rice Orange 8 x 5 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001692019",
-      "sku": "CR2020",
-      "name": "Royal Umbrella Jasmin Rice Orange 4 x 10 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001816017",
-      "sku": "SKU-2230",
-      "name": "CENTURY Tuna  Flakes In Vegetable oil 180 G x 48",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001825037",
-      "sku": "SKU-2232",
-      "name": "ARGENTINA Vienna Sausage  200g x 24",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001828007",
-      "sku": "SKU-2229",
-      "name": "CENTURY Tuna Flakes Hot and Spicy   180G x 48",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001828041",
-      "sku": "SKU-2234",
-      "name": "SWIFT CORN BEEF  24 X 200g",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001830007",
-      "sku": "SKU-2231",
-      "name": "Argentina Corn BEEF  200g x 24",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001832011",
-      "sku": "SKU-2233",
-      "name": "ARGENTINA Chicken luncheon Meat 24X200g",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864023",
-      "sku": "ME-003",
-      "name": "Kernel Shahzadi Rice 40 Kg ( 1*40 kg)",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864031",
-      "sku": "ME-005",
-      "name": "Kernel Shahzadi Rice 8 * 5 kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864035",
-      "sku": "ME-006",
-      "name": "SHAHZADI long Pure Basmati Rice 1 * 40  kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000001864039",
-      "sku": "ME-007",
-      "name": "Shahzadi (XL) Pure Basmati Rice 4 * 10kg",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
       ]
     },
     {
@@ -20860,11 +20672,84 @@
       ],
       "reason": "20 kg carton in title versus kg selling unit; needs pack and sales unit verification",
       "batch": 13
+    },
+    {
+      "id": "4278439000001640087",
+      "sku": "CR1991",
+      "name": "Black Angus Ribeye Lip On MB 2-3",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "MB 2-3 and ribeye lip-on grading/variant ambiguous; hold packaging and title",
+      "batch": 14
+    },
+    {
+      "id": "4278439000001689011",
+      "sku": "CR2017",
+      "name": "Royal Umbrella Jasmin Rice Orange 8 x 5 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Jasmine rice title conflicts with Basmati Rice collection; selling unit bag vs 8 × 5 kg needs confirmation",
+      "batch": 14
+    },
+    {
+      "id": "4278439000001692019",
+      "sku": "CR2020",
+      "name": "Royal Umbrella Jasmin Rice Orange 4 x 10 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Jasmine rice title conflicts with Basmati Rice collection; selling unit bag vs 4 × 10 kg needs confirmation",
+      "batch": 14
+    },
+    {
+      "id": "4278439000001825037",
+      "sku": "SKU-2232",
+      "name": "ARGENTINA Vienna Sausage  200g x 24",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Vienna sausage 24 × 200 g versus selling unit out and country/brand Argentina ambiguous",
+      "batch": 14
+    },
+    {
+      "id": "4278439000001830007",
+      "sku": "SKU-2231",
+      "name": "Argentina Corn BEEF  200g x 24",
+      "storefront": true,
+      "category": "Canned & Imported Items",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Corned beef 24 × 200 g versus selling unit out; original 'Corn BEEF' spelling and product variant require verification",
+      "batch": 14
+    },
+    {
+      "id": "4278439000001864031",
+      "sku": "ME-005",
+      "name": "Kernel Shahzadi Rice 8 * 5 kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Brand SHAZADI differs from SHAHZADI in sibling SKUs; 8 × 5 kg versus selling unit bag requires verification",
+      "batch": 14
     }
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-13-20261101.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-batch-14-20261101.json",
   "lastUpdateDate": "2026-11-01",
   "reviewedNoChangeProducts": [
     {
@@ -20960,13 +20845,13 @@
     }
   ],
   "lastBatchStats": {
-    "batch": 13,
+    "batch": 14,
     "exactIdsRead": 20,
-    "verifiedProductsChanged": 15,
-    "verifiedTitleFieldsChanged": 30,
-    "held": 5,
+    "verifiedProductsChanged": 14,
+    "verifiedTitleFieldsChanged": 28,
+    "held": 6,
     "reviewedNoChange": 0,
-    "creatorConnectorCalls": "at least 50 across partial and completion"
+    "creatorConnectorCalls": 50
   },
-  "deferredContentFieldsCount": 132
+  "deferredContentFieldsCount": 146
 }
