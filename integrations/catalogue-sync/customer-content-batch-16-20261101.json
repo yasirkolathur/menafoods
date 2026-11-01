@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-01",
+  "batch": 16,
+  "products": 20,
+  "checkpointBefore": 15,
+  "changes": [
+    {
+      "sku": "ME-0034",
+      "fields": {
+        "Product_Name": {
+          "before": "FAZCO Coconut Milk Powder12* 300 gm",
+          "after": "FAZCO Coconut Milk Powder, 12 × 300 g"
+        },
+        "Translated_Name": {
+          "before": "مسحوق حليب جوز الهند فازكو12 * 300 جم",
+          "after": "مسحوق حليب جوز الهند فازكو، 12 × 300 جم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0037",
+      "fields": {
+        "Product_Name": {
+          "before": "Rawan White Oats 24 * 400gm",
+          "after": "Rawan White Oats, 24 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "روان الشوفان الأبيض 24 * 400gm",
+          "after": "شوفان أبيض روان، 24 × 400 جم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0041",
+      "fields": {
+        "Product_Name": {
+          "before": "Cumin Whole India No.1 1*25kg",
+          "after": "Whole Cumin India No. 1, 25 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الكمون كله الهند لا.1 1 * 25 كجم",
+          "after": "كمون حب هندي رقم 1، كيس 25 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0045",
+      "fields": {
+        "Product_Name": {
+          "before": "Clove Whole Indonesia 1 * 10Kg",
+          "after": "Whole Cloves Indonesia, 10 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "القرنفل إندونيسيا كلها 1 * 10 كجم",
+          "after": "قرنفل حب إندونيسي، كرتون 10 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0046",
+      "fields": {
+        "Product_Name": {
+          "before": "Ajwain Whole India 777 Brand 1 * 10 Kg",
+          "after": "777 Whole Ajwain India, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "أجوين الهند بأكملها 777 العلامة التجارية 1 * 10 كجم",
+          "after": "بذور الأجوين الكاملة 777 هندي، كيس 10 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0047",
+      "fields": {
+        "Product_Name": {
+          "before": "Fennel Whole Indian 555  1 * 10 kg",
+          "after": "555 Whole Indian Fennel Seeds, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الشمر الهندي كله 555 1 * 10 كجم",
+          "after": "بذور شمر هندية كاملة 555، كيس 10 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0048",
+      "fields": {
+        "Product_Name": {
+          "before": "Kalonji 1 * 10 kg",
+          "after": "Kalonji Seeds, 10 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "كالونجي 1 * 10 كجم",
+          "after": "بذور حبة البركة، كيس 10 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0049",
+      "fields": {
+        "Product_Name": {
+          "before": "Sago Dana Thai 1 * 15kg",
+          "after": "Thai Sago Dana, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "ساغو دانا التايلاندية 1 * 15kg",
+          "after": "ساغو دانا تايلندي، كيس 15 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0050",
+      "fields": {
+        "Product_Name": {
+          "before": "Coriander Whole India 15 kg ( 1*15 kg )",
+          "after": "Whole Coriander Seeds India, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الكزبرة الهند بأكملها 15 كجم (1 * 15 كجم)",
+          "after": "بذور كزبرة هندية كاملة، كيس 15 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0051",
+      "fields": {
+        "Product_Name": {
+          "before": "Mustard Whole Pakistani 1* 15 kg",
+          "after": "Whole Mustard Seeds Pakistan, 15 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الخردل الباكستاني كله 1* 15 كجم",
+          "after": "بذور خردل باكستانية كاملة، كيس 15 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0053",
+      "fields": {
+        "Product_Name": {
+          "before": "Fava Bean  Split Fazco 1*18 Kg",
+          "after": "FAZCO Split Fava Beans, 18 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "فافا الفاصوليا تقسيم فازكو 1 * 18 كجم",
+          "after": "فول مجروش فازكو، كيس 18 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0054",
+      "fields": {
+        "Product_Name": {
+          "before": "Popcorn Argentina (Crown) 1 * 20kg",
+          "after": "Crown Popcorn Kernels Argentina, 20 kg — Bag"
+        },
+        "Translated_Name": {
+          "before": "الفشار الأرجنتين (تاج) 1 * 20kg",
+          "after": "حبوب فشار كراون أرجنتينية، كيس 20 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0055",
+      "fields": {
+        "Product_Name": {
+          "before": "Tamarind Ship Big 20 * 1Kg",
+          "after": "SHIP Tamarind, Large Pack, 20 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "سفينة تمار الهندية كبيرة 20 * 1Kg",
+          "after": "تمر هندي شيب، عبوة كبيرة، 20 × 1 كجم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0057",
+      "fields": {
+        "Product_Name": {
+          "before": "Tamarind Thai Ship 100*  150 gm",
+          "after": "SHIP Thai Tamarind, 100 × 150 g"
+        },
+        "Translated_Name": {
+          "before": "سفينة تامارند التايلاندية 100 * 150 جم",
+          "after": "تمر هندي شيب تايلندي، 100 × 150 جم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    },
+    {
+      "sku": "ME-0058",
+      "fields": {
+        "Product_Name": {
+          "before": "Manal Chana Bottle Big 12 * 560g",
+          "after": "Manal Chana, Large Bottle, 12 × 560 g"
+        },
+        "Translated_Name": {
+          "before": "زجاجة منال تشانا كبيرة 12 * 560g",
+          "after": "تشانا منال، عبوة كبيرة، 12 × 560 جم"
+        }
+      },
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand/unit/pack notation; editorial cleanup, not independently manufacturer-certified"
+    }
+  ],
+  "held": [
+    {
+      "sku": "ME-0038",
+      "reason": "Salsa product type and Tomato Paste collection conflict; cannot infer whether salsa, sauce or paste"
+    },
+    {
+      "sku": "ME-0039",
+      "reason": "Same salsa/tomato paste ambiguity; 3 × 4.5 kg variant held"
+    },
+    {
+      "sku": "ME-0042",
+      "reason": "Soori name/grade/origin ambiguity; avoid asserting Syrian origin without label evidence"
+    },
+    {
+      "sku": "ME-0043",
+      "reason": "Cassia (Girfa) Pipe product identity and pack variant need verification"
+    },
+    {
+      "sku": "ME-0056",
+      "reason": "SHIP tamarind 40 × 150 lacks an explicit unit; cannot assume grams"
+    }
+  ],
+  "api": {
+    "creatorExactReads": 20,
+    "creatorUpdates": 15,
+    "creatorReadbacks": 15,
+    "creatorCalls": 50
+  },
+  "writes": {
+    "nonfinancialTitleFields": 30,
+    "finance": 0,
+    "stock": 0,
+    "orders": 0,
+    "images": 0,
+    "categories": 0
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products readback; no edits to those fields.",
+  "checkoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "reason": "No authenticated EN/AR RTL, units, customer-price isolation, VAT, cart, Buy Again, COD/credit, confirm-once order QA receipts; Inventory OAuth and exactly-once SO proof outstanding"
+  },
+  "sync": {
+    "status": "NOT VERIFIED",
+    "productionDeploy": false,
+    "duplicateHoldsPreserved": true
+  },
+  "sourceNotes": "All 20 exact storefront records read by Creator ID; existing brand/unit/packing evidence only. No manufacturer-origin claim newly established. Two unrelated margin-rule-only pending records intentionally skipped."
+}
