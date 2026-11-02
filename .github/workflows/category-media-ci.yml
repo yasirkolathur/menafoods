@@ -1,0 +1,20 @@
+name: Category image sync contracts (source-only)
+on:
+  pull_request:
+    paths:
+      - 'integrations/catalogue-sync/catalogue-media-sync*'
+      - 'integrations/catalogue-sync/CATEGORY_MEDIA_HANDOFF.md'
+      - '.github/workflows/category-media-ci.yml'
+  push:
+    branches: ['fix/category-media-bidirectional-sync-20261102']
+permissions:
+  contents: read
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - run: node --test integrations/catalogue-sync/catalogue-media-sync.test.cjs
