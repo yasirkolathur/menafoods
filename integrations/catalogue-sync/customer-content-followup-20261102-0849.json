@@ -1,0 +1,345 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 08:49 Asia/Riyadh (automation context, not Creator source timestamp)",
+  "phase": "post-20/20 storefront customer-content followup; separate from completed baseline",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000002646007",
+    "4278439000002649007",
+    "4278439000002650007",
+    "4278439000002650032",
+    "4278439000002651011",
+    "4278439000002652011",
+    "4278439000002653011",
+    "4278439000002662007",
+    "4278439000002665027",
+    "4278439000002685026",
+    "4278439000002687007",
+    "4278439000002688007",
+    "4278439000002689007",
+    "4278439000002690007",
+    "4278439000002699003",
+    "4278439000002699024",
+    "4278439000002701011",
+    "4278439000002701044",
+    "4278439000002703252",
+    "4278439000002708003"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000002646007",
+      "sku": "SKU-2803",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002649007",
+      "sku": "SKU-2804",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002650007",
+      "sku": "SKU-2805",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002650032",
+      "sku": "SKU-2809",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002651011",
+      "sku": "SKU-2806",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002652011",
+      "sku": "SKU-2807",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002653011",
+      "sku": "SKU-2808",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002662007",
+      "sku": "SKU-2811",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002665027",
+      "sku": "SKU-2812",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002685026",
+      "sku": "SKU-2821",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002687007",
+      "sku": "SKU-2819",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002688007",
+      "sku": "SKU-2820",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002689007",
+      "sku": "SKU-2822",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002690007",
+      "sku": "SKU-2823",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002699003",
+      "sku": "SKU-2824",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002699024",
+      "sku": "SKU-2825",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002701011",
+      "sku": "SKU-2828",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002701044",
+      "sku": "SKU-2830",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002703252",
+      "sku": "SKU-2831",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002708003",
+      "sku": "SKU-2829",
+      "exactIdRead": "success"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 7,
+  "verifiedProductsChanged": 7,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 13,
+  "corrections": [
+    {
+      "creatorId": "4278439000002646007",
+      "sku": "SKU-2803",
+      "field": "Translated_Name",
+      "before": "البطاطس المقلية اختياري 2.5 كجم × 4",
+      "after": "بطاطس مقلية ماي تشويس، 2.5 كجم × 4",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002652011",
+      "sku": "SKU-2807",
+      "field": "Translated_Name",
+      "before": "ورق ساندويتش- RP 20PKT",
+      "after": "ورق ساندويتش RP، 20 عبوة",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002665027",
+      "sku": "SKU-2812",
+      "field": "Translated_Name",
+      "before": "المعكرونة Penne Lisce (لا.11)-450GM",
+      "after": "مكرونة بيني ليسّي (Penne Lisce) من قودي، رقم 11، 450 جم",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002685026",
+      "sku": "SKU-2821",
+      "field": "Translated_Name",
+      "before": "الدجاج الكامل المجمد (10x1300gms) - PHOENIX",
+      "after": "دجاج كامل مجمد جولدن فينيكس، 10 × 1300 جم",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002699003",
+      "sku": "SKU-2824",
+      "field": "Translated_Name",
+      "before": "مسحوق جوز الهند المستنزف 8 كجم (SRILANKA)",
+      "after": "مسحوق جوز الهند المجفف، 8 كجم",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002701044",
+      "sku": "SKU-2830",
+      "field": "Translated_Name",
+      "before": "فول مجروش الجرة 18 ك‎",
+      "after": "فول مجروش، 18 كجم",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002703252",
+      "sku": "SKU-2831",
+      "field": "Translated_Name",
+      "before": "حمص رقم ۷ روسی فودستور ۱۵۰ کیلو",
+      "after": "حمص مقاس 7 مم، 15 كجم",
+      "readback": "Independent exact-ID Creator Products_Books read returned same ID, SKU, Product_Name and updated Translated_Name",
+      "evidenceBasis": "Existing exact Creator English product name, brand where present, pack text; editorial Arabic normalization only, not independent manufacturer pack certification.",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2804",
+      "severity": "high",
+      "issue": "Saudia 1 L x12 has Creator Unit=out; exact selling-unit conversion to single pack vs 12-pack carton unverified."
+    },
+    {
+      "sku": "SKU-2805",
+      "severity": "high",
+      "issue": "Black food spoon Unit=box with no verified count or size; Brand and Package_Details blank."
+    },
+    {
+      "sku": "SKU-2809",
+      "severity": "medium",
+      "issue": "Corn starch English title misspelled 'Cron'; MESFCO/ARASCO brand/manufacturer relationship and exact pack identity unverified; no brand/category edits."
+    },
+    {
+      "sku": "SKU-2806",
+      "severity": "high",
+      "issue": "Sea salt Unit=bag without verified weight or brand; pack conversion cannot be set."
+    },
+    {
+      "sku": "SKU-2807",
+      "severity": "medium",
+      "issue": "RP 20PKT identifies 20 packets but Unit=box; pieces per packet and exact box conversion not established."
+    },
+    {
+      "sku": "SKU-2808",
+      "severity": "high",
+      "issue": "White paper bags 50 pieces with Unit=rpt; meaning of rpt and pack conversion unverified."
+    },
+    {
+      "sku": "SKU-2812",
+      "severity": "high",
+      "issue": "Goody Penne Lisce 450g has Unit=box; no verified consumer packs per box."
+    },
+    {
+      "sku": "SKU-2820",
+      "severity": "medium",
+      "issue": "Brand GOLDEN PHONIX differs from English title and adjacent Golden Phoenix variants; exact label not verified, Brand held."
+    },
+    {
+      "sku": "SKU-2830",
+      "severity": "medium",
+      "issue": "Split faba beans 18kg Unit=ctn; bag/carton configuration unverified. Unsubstantiated Arabic 'الجرة' removed."
+    },
+    {
+      "sku": "SKU-2831",
+      "severity": "high",
+      "issue": "Previous Arabic title implied 150kg, while exact Creator English record says 15kg; Arabic corrected/read back to 15kg. Origin/label remains unverified."
+    },
+    {
+      "sku": "SKU-2848",
+      "severity": "watch",
+      "issue": "Bounded Modified_Time query included this ID outside the current 20. Exact-ID read shows Zahrati Sunflower Oil 1.5L x6; no prior authoritative snapshot or per-record Modified_Time to establish an external delta; no edit."
+    }
+  ],
+  "unresolvedIssueCount": 11,
+  "sourcePolicy": "Creator exact-ID original English names, SKU, brand, units, category and Arabic readback used for editorial corrections; no independent manufacturer/authorized pack-size proof was claimed. No public source link available for these internal exact Creator records. Product identity and pack conflicts held.",
+  "creatorConnectorCallsObserved": 36,
+  "creatorBillableApiUnits": "unavailable",
+  "incrementalProbe": {
+    "criteria": "Modified_Time >= \"02-Nov-2026 07:00:00\"",
+    "returnedCount": 17,
+    "ownCurrentEdits": 7,
+    "previousKnownTitleEdits": 8,
+    "identityCandidates": [
+      "4278439000001256016",
+      "4278439000002739011"
+    ],
+    "newCandidateExactIdRead": "SKU-2848 Zahrati Cooking and Frying Sunflower Oil 1.5L x6; no delta proven",
+    "recordCursor": null,
+    "authoritativeModifiedTimeReadback": false,
+    "watermarkAdvanced": false
+  },
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "newAuthenticatedAcceptanceReceipts": 0,
+    "notVerified": [
+      "EN/AR RTL",
+      "visibility/images Commerce/Catalyst",
+      "CTN/PCS/KG conversions",
+      "customer price vs private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout",
+      "exactly-once Books SO ACK"
+    ],
+    "crossSystemWritesBlocked": true,
+    "fourDuplicateActiveIdsBlocked": true
+  },
+  "writes": {
+    "creatorNonfinancialRecords": 7,
+    "creatorNonfinancialFields": 7,
+    "prices": 0,
+    "margins": 0,
+    "costs": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "orders": 0,
+    "financial": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "readbackLimitations": "Description, Translated_Description, Package_Details and Translated_Package_Details not exposed by All_Products/Products_Books readback; no descriptions edited. Modified_Time not returned."
+}
