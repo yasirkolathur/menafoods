@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "observedAtLocal": "2026-11-02T04:53:26+03:00",
+  "timeSource": "scheduled execution context; not Creator Modified_Time",
+  "mode": "incremental_read_only",
+  "baselineCompletedBatches": 20,
+  "baselineUniqueCreatorIds": 2122,
+  "customerContentCompletedBatches": 20,
+  "customerContentStatus": {
+    "completed": 285,
+    "pending": 1597,
+    "held": 122,
+    "reviewedNoChange": 8
+  },
+  "creatorReport": "menafoods/mena/Products_Books",
+  "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+  "creatorResponse": {
+    "status": "success",
+    "code": 3000,
+    "returnedRecordCount": 1,
+    "returnedIds": [
+      "4278439000000106496"
+    ],
+    "recordCursor": "not returned",
+    "modifiedTimeExposed": false
+  },
+  "comparison": {
+    "previousExactIdSnapshot": "integrations/catalogue-sync/incremental-observation-20261101-2351.json",
+    "creatorId": "4278439000000106496",
+    "sku": "CR1756",
+    "matchedFields": [
+      "ID",
+      "SKU",
+      "Product_Name",
+      "Translated_Name",
+      "Brand",
+      "Unit",
+      "Category",
+      "Collection1.Collection_Name",
+      "Make_Product_Available_In_The_Storefront",
+      "Product_Images IDs",
+      "ZB_Item_ID presence"
+    ],
+    "newCandidateIds": [],
+    "verifiedNonfinancialFieldChanges": [],
+    "sourceModificationProven": false
+  },
+  "unresolvedChangeCandidates": [
+    "CR1756",
+    "CR1703",
+    "CR1009"
+  ],
+  "qaIssue27": {
+    "state": "NO-GO",
+    "issueCommentsReviewed": 21,
+    "issueUpdatedAt": "2026-10-29T11:54:41Z",
+    "newAuthenticatedAcceptanceReceiptsFound": false
+  },
+  "controls": {
+    "creatorConnectorCallsObserved": 2,
+    "creatorBillableApiUnits": "unavailable",
+    "creatorMetadataWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "productionDeployment": false,
+    "fullCatalogueRescan": false,
+    "sourceWatermarkAdvanced": false
+  },
+  "limitations": "Creator Modified_Time is usable as a criterion but absent from returned records; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation.",
+  "nextAction": "Keep overlapping bounded read-only queries and compare only new exact IDs/changed fields; source watermark stays null until authoritative evidence."
+}
