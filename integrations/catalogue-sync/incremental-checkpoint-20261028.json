@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue next 20 not-yet-reviewed storefront pending IDs, avoid replay using customer-content-manifest-20261101.json postBatch20.reviewedExactIds; overlapping low-API incremental probes only, no source watermark advancement or cross-system writes.",
+  "nextAction": "Continue next 20 non-overlapping storefront content IDs after SKU-2802 (postBatch20.reviewedExactIds), with exact-ID reads and source-backed nonfinancial edits; overlapping low-API incremental probes, no source watermark advancement, no financial/sync writes.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -3395,36 +3395,24 @@
     "note": "Owner explicitly requested full refresh; routine scheduled runs should continue incremental reconciliation. Original 20-batch frozen manifest remains unchanged. Seven verified changes are recorded separately to avoid blind replay."
   },
   "lastPostContentBatchIncrementalObservation": {
-    "observedAtLocal": "2026-11-02 06:52 Asia/Riyadh (scheduled context; not Creator source timestamp)",
-    "mode": "incremental_read_only",
-    "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0652.json",
-    "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
-    "creatorResult": "6 records: 4 verified own content corrections, earlier SKU-2531 and CR1756; no independent external delta established; no record_cursor",
-    "creatorReturnedIds": [
-      "4278439000002405007",
-      "4278439000002536015",
-      "4278439000002537011",
-      "4278439000000106496",
-      "4278439000002589070",
-      "4278439000002590146"
-    ],
-    "newCandidateIds": [],
+    "date": "2026-11-02",
+    "observedAtLocal": "2026-11-02 07:45 Asia/Riyadh (context only)",
+    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0745.json",
+    "exactCreatorIdsAudited": 20,
     "verifiedNonfinancialFieldChanges": [
       {
         "field": "Translated_Name",
-        "count": 4,
-        "source": "own Creator edits with exact-ID readback"
+        "count": 8,
+        "source": "own Creator edits independently read back by exact ID"
       }
     ],
-    "creatorConnectorCallsObserved": 29,
-    "creatorMetadataWrites": 4,
+    "creatorConnectorCallsObserved": 36,
+    "creatorMetadataWrites": 8,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; no authenticated end-to-end checkout receipt",
-    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0652.json",
-    "limitations": "Creator Modified_Time absent from report fields; timezone, change-feed completeness and webhook delivery unverified. Four duplicate-active IDs remain blocked."
+    "qaIssue27Status": "NO-GO; new glove material and pepperoni UOM/identity conflicts; no authenticated end-to-end checkout receipt",
+    "limitations": "Creator Modified_Time not returned, change-feed completeness and webhook delivery unverified; four duplicate-active IDs blocked."
   }
 }
