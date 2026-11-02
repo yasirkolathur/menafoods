@@ -312,7 +312,7 @@
   ],
   "unresolvedIssueCount": 11,
   "sourcePolicy": "Creator exact-ID English product identities only support editorial Arabic corrections. No independent manufacturer variant/pack certification. All weight/pack claims retained only where already in existing title; no new unsupported conversion.",
-  "creatorConnectorCallsObserved": 47,
+  "creatorConnectorCallsObserved": 34,
   "creatorBillableApiUnits": "unavailable",
   "incrementalProbe": "Not run; source watermark unverified and unchanged",
   "qa": {
@@ -340,5 +340,6 @@
     "crossSystem": 0,
     "deployment": 0
   },
-  "readbackLimitations": "Description, Translated_Description, Package_Details, Translated_Package and Modified_Time not exposed in Products_Books report; no claims of verifying those fields."
+  "readbackLimitations": "Description, Translated_Description, Package_Details, Translated_Package and Modified_Time not exposed in Products_Books report; no claims of verifying those fields.",
+  "creatorCallCountNote": "20 successful exact-ID reads + 7 successful Translated_Name updates + 7 independent successful exact-ID readbacks. One earlier orchestration attempt exceeded its tool-call limit; any attempted calls from that error are not observable and excluded."
 }
