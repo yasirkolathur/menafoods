@@ -28,7 +28,7 @@ function validate(event){
   const prefix='/api/v2.1/menafoods/mena/report/'+report+'/'+id+'/Image/download?filepath=';
   if(typeof m.locator!=='string'||!m.locator.startsWith(prefix)||!/^[\w.-]{1,220}$/.test(m.locator.slice(prefix.length)))reject('UNSAFE_SOURCE');
  }else{
-  const exact=new RegExp('^catalogue-media/'+event.kind+'/'+id+'/'+sha+'\\.(webp|png|jpg));
+  const exact=new RegExp('^catalogue-media/'+event.kind+'/'+id+'/'+sha+'\\.(webp|png|jpg)$');
   if(typeof m.locator!=='string'||!exact.test(m.locator))reject('UNSAFE_SOURCE');
  }
  return {...event,creatorId:id,media:{...m,sha256:sha}};
