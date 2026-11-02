@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Next 20 non-overlapping storefront pending customer-content exact IDs after SKU-2831, skip reviewedExactIds (80 total); bounded overlapping incremental read-only probe; do not advance watermark, enable sync writes or financial orders.",
+  "nextAction": "Resume next 20 unique storefront pending content IDs after SKU-2857; skip 100 reviewed IDs. Overlapping low-API Creator incremental probe, no watermark advance, no sync writes or orders.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -72,42 +72,43 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-11-02 08:49 Asia/Riyadh (scheduled context; not Creator source timestamp)",
+    "observedAtLocal": "2026-11-02 09:51 Asia/Riyadh (scheduled context; not Creator source timestamp)",
     "mode": "incremental_read_only_with_separate_customer_content_corrections",
-    "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0849.json",
+    "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0951.json",
     "creatorReport": "menafoods/mena/Products_Books",
-    "creatorCriteria": "Modified_Time >= \"02-Nov-2026 07:00:00\"",
-    "creatorResult": "17 matching records; 7 current exact-ID editorial corrections, 8 previous known editorial corrections, 2 unverified identity candidates; no record_cursor",
+    "creatorCriteria": "Modified_Time >= \"02-Nov-2026 08:30:00\"",
+    "creatorResult": "17 records in overlapping bounded query: 7 current own title corrections, 10 other prior/unknown; new unverified CR1878 exact-ID candidate; Modified_Time not exposed",
     "creatorReturnedIds": [
       "4278439000002652011",
       "4278439000002699003",
+      "4278439000002742040",
+      "4278439000002742065",
       "4278439000001256016",
       "4278439000002701044",
       "4278439000002703252",
-      "4278439000002607044",
-      "4278439000002601040",
-      "4278439000002602019",
-      "4278439000002638007",
-      "4278439000002637007",
+      "4278439000002725007",
       "4278439000002685026",
-      "4278439000002623003",
+      "4278439000002736036",
+      "4278439000002712007",
+      "4278439000002723007",
       "4278439000002665027",
+      "4278439000001215030",
       "4278439000002646007",
-      "4278439000002636007",
       "4278439000002739011",
-      "4278439000002616015"
+      "4278439000002736065"
     ],
     "newCandidateIds": [
-      "4278439000002739011"
+      "4278439000001215030"
     ],
     "previousIdentityCandidateIds": [
-      "4278439000001256016"
+      "4278439000001256016",
+      "4278439000002739011"
     ],
     "verifiedNonfinancialFieldChanges": [
       {
         "field": "Translated_Name",
         "count": 7,
-        "source": "own Creator edits with exact-ID readback"
+        "source": "own Creator exact-ID write and readback"
       }
     ],
     "creatorConnectorCallsObserved": 36,
@@ -117,8 +118,8 @@
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
     "qaIssue27Status": "NO-GO; no authenticated end-to-end checkout receipt",
-    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0849.json",
-    "limitations": "Modified_Time not exposed in Creator report readback; timezone, event completeness, source watermark and webhook ACK not verified. SKU-2848 is an observation only, not proven changed. Four duplicate-active IDs remain blocked."
+    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0951.json",
+    "limitations": "Modified_Time not returned in Creator record; no authoritative delta or watermark. CR1878 title suggests 4x4200g, Unit=pcs, conversion unverified. No images, finance, sync or deploy."
   },
   "incrementalObservationHistory": [
     {
@@ -2971,6 +2972,55 @@
       "qaIssue27Status": "NO-GO; no authenticated end-to-end checkout receipt",
       "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0849.json",
       "limitations": "Modified_Time not exposed in Creator report readback; timezone, event completeness, source watermark and webhook ACK not verified. SKU-2848 is an observation only, not proven changed. Four duplicate-active IDs remain blocked."
+    },
+    {
+      "observedAtLocal": "2026-11-02 08:49 Asia/Riyadh (scheduled context; not Creator source timestamp)",
+      "mode": "incremental_read_only_with_separate_customer_content_corrections",
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0849.json",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"02-Nov-2026 07:00:00\"",
+      "creatorResult": "17 matching records; 7 current exact-ID editorial corrections, 8 previous known editorial corrections, 2 unverified identity candidates; no record_cursor",
+      "creatorReturnedIds": [
+        "4278439000002652011",
+        "4278439000002699003",
+        "4278439000001256016",
+        "4278439000002701044",
+        "4278439000002703252",
+        "4278439000002607044",
+        "4278439000002601040",
+        "4278439000002602019",
+        "4278439000002638007",
+        "4278439000002637007",
+        "4278439000002685026",
+        "4278439000002623003",
+        "4278439000002665027",
+        "4278439000002646007",
+        "4278439000002636007",
+        "4278439000002739011",
+        "4278439000002616015"
+      ],
+      "newCandidateIds": [
+        "4278439000002739011"
+      ],
+      "previousIdentityCandidateIds": [
+        "4278439000001256016"
+      ],
+      "verifiedNonfinancialFieldChanges": [
+        {
+          "field": "Translated_Name",
+          "count": 7,
+          "source": "own Creator edits with exact-ID readback"
+        }
+      ],
+      "creatorConnectorCallsObserved": 36,
+      "creatorMetadataWrites": 7,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no authenticated end-to-end checkout receipt",
+      "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0849.json",
+      "limitations": "Modified_Time not exposed in Creator report readback; timezone, event completeness, source watermark and webhook ACK not verified. SKU-2848 is an observation only, not proven changed. Four duplicate-active IDs remain blocked."
     }
   ],
   "pendingCandidateCreatorIds": [
@@ -3372,6 +3422,13 @@
       "source": "Creator Products_Books criteria + exact-ID read 2026-11-01",
       "financialFieldsLocked": true,
       "evidence": "integrations/catalogue-sync/incremental-observation-20261101-2148.json"
+    },
+    {
+      "id": "4278439000001215030",
+      "sku": "CR1878",
+      "status": "unverified_change_candidate",
+      "reason": "Bounded Modified_Time query includes exact-ID record, but no prior authoritative source Modified_Time or confirmed delta; Unit pcs vs 4x4200g unresolved",
+      "observedAtLocal": "2026-11-02 09:51 Asia/Riyadh"
     }
   ],
   "lastNonfinancialSnapshots": {
