@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-02",
+  "localTime": "22:57 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 19",
+  "baseline": "Creator Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-2252.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000005144083",
+      "sku": "SKU-3238",
+      "productName": "Tuliva Light & Pure Oil ( Sunflower Oil ) – 17 Ltr",
+      "unit": "tin",
+      "category": "Cooking Oils",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005153007",
+      "sku": "SKU-3237",
+      "productName": "TWOYES GLOVES BLUE XL",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005161007",
+      "sku": "SKU-3239",
+      "productName": "Mama Creamy Ranch Sauce USG 3.78L x4 - carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005162007",
+      "sku": "SKU-3240",
+      "productName": "Marietta Ketchup 1000 Packets -Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005169116",
+      "sku": "SKU-3241",
+      "productName": "Frozen French fries Golden Seven 2.5kg x 4 - Carton",
+      "unit": "ctn",
+      "category": "Ready to Cook",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005193007",
+      "sku": "SKU-3243",
+      "productName": "ALM Frozen bobby veal Boneless 20 x 900g - Carton",
+      "unit": "ctn",
+      "category": "Meat",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005198082",
+      "sku": "SKU-3246",
+      "productName": "Victoria Instant Yeast 500g x 20 - Carton",
+      "unit": "ctn",
+      "category": "Rice, Pulses & Flours",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005402071",
+      "sku": "SKU-3249",
+      "productName": "Lipton Classic Loose Black Tea - 800g x 12 - Carton",
+      "unit": "ctn",
+      "category": "Tea & Coffee",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005427057",
+      "sku": "SKU-3252",
+      "productName": "Soyabean 20 kg bag",
+      "unit": "bag",
+      "category": "Rice, Pulses & Flours",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005441033",
+      "sku": "SKU-3253",
+      "productName": "Mehran Kasuri Methi Leaves , 12 x 50gm - Carton",
+      "unit": "out",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005441058",
+      "sku": "SKU-3255",
+      "productName": "Hand wash 30 l Local",
+      "unit": "gln",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005478015",
+      "sku": "SKU-3257",
+      "productName": "Golden Star 6 Hour Clean Burning  Dish Fuel 24 Pcs",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 3,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005592031",
+      "sku": "SKU-3262",
+      "productName": "Rocca",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005595011",
+      "sku": "SKU-3260",
+      "productName": "White onion",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005596011",
+      "sku": "SKU-3263",
+      "productName": "Fresh Green Lettuce Leaves Arabic",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005627011",
+      "sku": "SKU-3264",
+      "productName": "Garbage Bags 70 Gallon Trash Bags (130 * 150cm)240L 70 Gallon 10kg",
+      "unit": "bag",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005632017",
+      "sku": "SKU-3271",
+      "productName": "Fresh Green capsicum Whole",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005632042",
+      "sku": "SKU-3282",
+      "productName": "Fresh Orange",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005632089",
+      "sku": "SKU-3293",
+      "productName": "Green Cucumber",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005633027",
+      "sku": "SKU-3267",
+      "productName": "Cooking tomato Whole",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000005427057",
+      "sku": "SKU-3252",
+      "field": "Translated_Name",
+      "before": "حقيبة فول الصويا 20 كجم",
+      "after": "فول الصويا، كيس 20 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005441058",
+      "sku": "SKU-3255",
+      "field": "Translated_Name",
+      "before": "غسل اليدين 30 لتر محلي",
+      "after": "سائل غسل اليدين، 30 لتر",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005478015",
+      "sku": "SKU-3257",
+      "field": "Translated_Name",
+      "before": "وقود الأطباق جولدن ستار المحترق لمدة 6 ساعات، 24 قطعة",
+      "after": "وقود تسخين الأطباق جولدن ستار، احتراق نظيف لمدة 6 ساعات، 24 قطعة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005592031",
+      "sku": "SKU-3262",
+      "field": "Translated_Name",
+      "before": "جرجار",
+      "after": "جرجير",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005596011",
+      "sku": "SKU-3263",
+      "field": "Translated_Name",
+      "before": "الخس الأخضر الطازج يترك اللغة العربية",
+      "after": "أوراق خس أخضر طازج — نوع عربي",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005632017",
+      "sku": "SKU-3271",
+      "field": "Translated_Name",
+      "before": "كبسولة خضراء طازجة كامل",
+      "after": "فلفل رومي أخضر طازج كامل",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005633027",
+      "sku": "SKU-3267",
+      "field": "Translated_Name",
+      "before": "طبخ الطماطم الكاملة",
+      "after": "طماطم كاملة للطبخ",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Exact current Creator Product_Name, Translated_Name, SKU, Unit; bilingual editorial correction only, no manufacturer packaging certification",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3238",
+      "creatorId": "4278439000005144083",
+      "detail": "Tuliva in title vs TOLIVIA in Brand field; exact manufacturer spelling unverified; no brand change",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3237",
+      "creatorId": "4278439000005153007",
+      "detail": "TWOYES in title but Brand blank; exact manufacturer label/variant not independently verified; no brand inference",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3239",
+      "creatorId": "4278439000005161007",
+      "detail": "Mama Ranch 3.78L ×4 'USG' ambiguous; Brand blank; exact manufacturer packing evidence missing",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3243",
+      "creatorId": "4278439000005193007",
+      "detail": "ALM 'bobby veal' exact cut/identity unclear and Indian Beef collection may not match; hold identity/category",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3246",
+      "creatorId": "4278439000005198082",
+      "detail": "Victoria instant yeast under Rice, Pulses & Flours / Flours; category suitability requires approved taxonomy",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3249",
+      "creatorId": "4278439000005402071",
+      "detail": "Lipton in title but Brand blank; exact 800g ×12 pack manufacturer evidence not verified",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3253",
+      "creatorId": "4278439000005441033",
+      "detail": "Selling unit 'out' undefined despite 12 × 50g carton title; checkout UOM blocker",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3255",
+      "creatorId": "4278439000005441058",
+      "detail": "30 L hand wash uses selling unit 'gln'; no validated gallon-to-30 L conversion; checkout blocker",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3263",
+      "creatorId": "4278439000005596011",
+      "detail": "'Arabic' lettuce qualifier needs variant confirmation; only literal editorial translation updated",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3264",
+      "creatorId": "4278439000005627011",
+      "detail": "Garbage-bag title mixes 70 US gallons, 240 L, 130 ×150 cm and 10 kg; incompatible or ambiguous specs; hold packaging and UOM",
+      "heldForIdentityOrUnitChange": true
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not verified in this run",
+    "productVisibility": "Creator storefront flag Yes for 20; Commerce/Catalyst visibility not verified",
+    "images": "Creator image reference counts observed; image rights/Commerce rendering not verified",
+    "CTNPCSKG": "selling-unit risks held; no conversions changed",
+    "customerPriceVsCost": "not independently verified; financial fields not read into evidence",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency/Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; duplicate-active IDs blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package fields not exposed in All_Products readback; no such fields changed",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 7,
+    "verifiedProductsWithPartialCorrections": 7,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 10,
+    "creatorConnectorCallsObserved": 36,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 380,
+    "partialCorrectionsCumulative": 139
+  },
+  "constraints": {
+    "noNewProducts": true,
+    "noFinanceWrites": true,
+    "noImagesChanged": true,
+    "noCrossSystemWrites": true,
+    "noDeploy": true,
+    "manufacturerClaimsNotCertified": true,
+    "originalPrivateVendorCostNotExported": true
+  }
+}
