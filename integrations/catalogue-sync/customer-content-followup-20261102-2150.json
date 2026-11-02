@@ -1,0 +1,467 @@
+{
+  "date": "2026-11-02",
+  "localTime": "21:50 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 17",
+  "baseline": "Creator Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-2048.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000004728007",
+      "sku": "SKU-3184",
+      "productName": "Soft N Cool Tissue Nyl 200x2ply 5x6 - Carton",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004726052",
+      "sku": "SKU-3185",
+      "productName": "Esnad Hot and Spicy Soaking Mix 2 kg × 10 - Carton",
+      "unit": "bag",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004778019",
+      "sku": "SKU-3189",
+      "productName": "Paper Plate 9 Inch, 12 x 100 Pieces",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004787007",
+      "sku": "SKU-3190",
+      "productName": "The Holy Sauce Original BBQ Sauce 510g x 12-Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004821045",
+      "sku": "SKU-3191",
+      "productName": "AL Rai Cooking Cream 1l x 12 PIECES - Carton",
+      "unit": "rpt",
+      "category": "Dairy",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004808111",
+      "sku": "SKU-3192",
+      "productName": "Mondelle Mozzarella Sticks 1 kg x 6 - Carton",
+      "unit": "ctn",
+      "category": "Ready to Cook",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004842011",
+      "sku": "SKU-3193",
+      "productName": "SUFRA HANA PACK 500PCS",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004832040",
+      "sku": "SKU-3194",
+      "productName": "SELECT DISH WASH LEMON 30 LTR",
+      "unit": "gln",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004895011",
+      "sku": "SKU-3196",
+      "productName": "Luncheon Beet Golden Fields 340gm X 24 - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004898007",
+      "sku": "SKU-3197",
+      "productName": "Luncheon Chicken Golden Fields 340gm X 24 - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004899011",
+      "sku": "SKU-3198",
+      "productName": "555 Sardine Green In Tomatoes Sauce 150g x 50 cans - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004900007",
+      "sku": "SKU-3199",
+      "productName": "Anchovy Sauce Makati 340gm x 24 Cans - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004899036",
+      "sku": "SKU-3200",
+      "productName": "555 Sardine Red 155g x 50 Cans - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004897007",
+      "sku": "SKU-3201",
+      "productName": "Bean Thread Osais 300g x 40 - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004902011",
+      "sku": "SKU-3203",
+      "productName": "Century Tuna Hot And Spicy 180g x 48 bags- Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004896015",
+      "sku": "SKU-3205",
+      "productName": "Beef Corned Freshly 340g x 24 Cans - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004897032",
+      "sku": "SKU-3206",
+      "productName": "Fish Sauce Rufina Thai 750 ml x 12 Can - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004902036",
+      "sku": "SKU-3207",
+      "productName": "Lady's Choice Sandwich 220ml x 24 bottles - Carton",
+      "unit": "ctn",
+      "category": "Dairy",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004904007",
+      "sku": "SKU-3208",
+      "productName": "Luncheon Chicken Meat Argentina 200g x 24 - Carton",
+      "unit": "ctn",
+      "category": "Canned & Imported Items",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004905007",
+      "sku": "SKU-3209",
+      "productName": "Marcapina Soy Sauce 1lt x 12 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000004728007",
+      "sku": "SKU-3184",
+      "field": "Translated_Name",
+      "before": "مناديل ناعمة و باردة من نايلون 200×2 طبقة 5×6 - كرتون",
+      "after": "مناديل سوفت إن كول، 200 × طبقتين، 5 × 6 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004778019",
+      "sku": "SKU-3189",
+      "field": "Translated_Name",
+      "before": "لوحة الورق 9 بوصة ، 12 × 100 قطعة",
+      "after": "أطباق ورقية مقاس 9 بوصات، 12 × 100 قطعة",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004832040",
+      "sku": "SKU-3194",
+      "field": "Translated_Name",
+      "before": "اختيار غسل ليمون 30 لتر",
+      "after": "سائل غسيل الصحون سيليكت بالليمون، 30 لتر",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004898007",
+      "sku": "SKU-3197",
+      "field": "Translated_Name",
+      "before": "غداء الدجاج الحقول الذهبية 340gm X 24 - الكرتون",
+      "after": "لانشون دجاج جولدن فيلدز، 24 عبوة × 340 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004897007",
+      "sku": "SKU-3201",
+      "field": "Translated_Name",
+      "before": "فول خيط اوسيس 300 جرام × 40-كرتون",
+      "after": "شعيرية خيوط الفاصوليا أوسايس، 40 عبوة × 300 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004896015",
+      "sku": "SKU-3205",
+      "field": "Translated_Name",
+      "before": "لحم بقري مملح طازج 340 غرام × 24 علبة - كرتون",
+      "after": "كورند بيف فريشلي، 24 علبة × 340 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004902036",
+      "sku": "SKU-3207",
+      "field": "Translated_Name",
+      "before": "ساندويتش اختيار السيدة 220 مل × 24 زجاجة - كرتون",
+      "after": "ليديز تشويس للساندويتشات، 24 زجاجة × 220 مل — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004904007",
+      "sku": "SKU-3208",
+      "field": "Translated_Name",
+      "before": "لحم دجاج لانشون أرجنتيني 200 غرام × 24 - كرتون",
+      "after": "لانشون دجاج أرجنتينا، 24 عبوة × 200 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3184",
+      "creatorId": "4278439000004728007",
+      "detail": "Brand field HOT PACK conflicts with Soft N Cool title; 'Nyl' identity/packing qualifier undefined. No brand edit.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3185",
+      "creatorId": "4278439000004726052",
+      "detail": "Selling unit bag conflicts with title 2 kg × 10 carton; no conversion.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3189",
+      "creatorId": "4278439000004778019",
+      "detail": "FALCON brand in field but absent from title; exact product label needed before adding brand to copy.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3190",
+      "creatorId": "4278439000004787007",
+      "detail": "The Holy Sauce in title but Brand blank; requires exact label evidence.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3191",
+      "creatorId": "4278439000004821045",
+      "detail": "Undefined rpt selling unit despite 1 L × 12 carton description; checkout blocker.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3193",
+      "creatorId": "4278439000004842011",
+      "detail": "SUFRA HANA PACK 500PCS does not establish precise product type or pack hierarchy.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3194",
+      "creatorId": "4278439000004832040",
+      "detail": "Selling unit gln conflicts with 30 L product; gallon-to-30 L conversion unverified; checkout blocker.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3196",
+      "creatorId": "4278439000004895011",
+      "detail": "Luncheon 'Beet' may be typo for beef, but current Arabic interprets beetroot; hold identity, no change.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3197",
+      "creatorId": "4278439000004898007",
+      "detail": "Golden Fields in title vs Golden Field in Brand; verify exact branding.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3201",
+      "creatorId": "4278439000004897007",
+      "detail": "Osais in English title vs Oasis Brand field; verify exact manufacturer/variant before brand correction.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3203",
+      "creatorId": "4278439000004902011",
+      "detail": "180 g × 48 'bags' packaging requires label confirmation; no bag/pouch conversion.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3206",
+      "creatorId": "4278439000004897032",
+      "detail": "750 ml × 12 'Can' for fish sauce needs bottle/can verification; no change.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3207",
+      "creatorId": "4278439000004902036",
+      "detail": "Lady's Choice Sandwich listed under Dairy; actual product type/category and container type need exact label.",
+      "heldForIdentityOrUnitChange": true
+    }
+  ],
+  "unresolvedIssueCount": 13,
+  "fullyCompletedProducts": 0,
+  "creatorConnectorCallsConfirmedAtLeast": 40,
+  "creatorBillableApiUnits": "unknown",
+  "sourcePolicy": "No manufacturer or authorized pack source was independently established this run; corrections are narrowly limited to Arabic editorial translations of existing exact product identity. No GTIN, weight, origin, brand, pack conversions, media rights or allergen claims were invented.",
+  "qa": {
+    "status": "NO-GO",
+    "verifiedThisRun": "Exact Creator identity, SKU, storefront flag, product name, Arabic title, category, selling unit, Creator image-reference count; eight post-edit title readbacks",
+    "notVerified": "Authenticated EN/AR RTL, Commerce/Catalyst image propagation, customer-specific price privacy, VAT, CTN/PCS/KG conversion, cart persistence, Buy Again, COD/credit, confirm-once checkout, webhook/ACK or deployed gateway"
+  },
+  "writes": {
+    "creatorTranslatedName": 8,
+    "financial": 0,
+    "images": 0,
+    "orders": 0,
+    "sync": 0,
+    "deploy": 0
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed by All_Products API; not edited. Image references are not Commerce/Catalyst proof.",
+  "checkpoint": {
+    "reviewedExactIds": [
+      "4278439000004728007",
+      "4278439000004726052",
+      "4278439000004778019",
+      "4278439000004787007",
+      "4278439000004821045",
+      "4278439000004808111",
+      "4278439000004842011",
+      "4278439000004832040",
+      "4278439000004895011",
+      "4278439000004898007",
+      "4278439000004899011",
+      "4278439000004900007",
+      "4278439000004899036",
+      "4278439000004897007",
+      "4278439000004902011",
+      "4278439000004896015",
+      "4278439000004897032",
+      "4278439000004902036",
+      "4278439000004904007",
+      "4278439000004905007"
+    ],
+    "postCompletionReviewedUniqueAfter": 340,
+    "partialCorrectionsAfter": 123,
+    "fullRemediationsAfter": 285,
+    "pendingProductsAfter": 1597,
+    "heldProductsAfter": 122,
+    "next": "Continue 20 unreviewed storefront exact IDs after SKU-3209, starting SKU-3210; no financial/sync/deployment writes."
+  }
+}
