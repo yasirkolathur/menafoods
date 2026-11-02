@@ -358,7 +358,7 @@
   "unresolvedIssueCount": 15,
   "fullyCompletedProducts": 0,
   "sourcePolicy": "Existing exact Creator product identities support only editorial Arabic translations. Manufacturer packaging/GTIN/brand not independently verified; no other fields changed.",
-  "creatorConnectorCallsObserved": 37,
+  "creatorConnectorCallsObserved": 38,
   "creatorBillableApiUnits": null,
   "qa": {
     "issue": 27,
@@ -386,5 +386,6 @@
     "previousReviewedUniquePostCompletion": 220,
     "newReviewedUniquePostCompletion": 240,
     "nextAction": "Next 20 unreviewed storefront exact IDs after SKU-3068, excluding reviewed/held and margin-only records."
-  }
+  },
+  "connectorCallCountNote": "At least 38 successful Creator connector calls: 1 getApplications + 1 getReports + 20 exact-ID reads + 8 updates + 8 exact-ID readbacks. Failed over-limit orchestration not counted. Billable API units unknown."
 }
