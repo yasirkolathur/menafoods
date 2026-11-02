@@ -1,0 +1,376 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 15:46 Asia/Riyadh (run clock, not Creator Modified_Time)",
+  "phase": "post-20/20 customer-content storefront followup #11",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000003503064",
+    "4278439000003519019",
+    "4278439000003537007",
+    "4278439000003544035",
+    "4278439000003545043",
+    "4278439000003548007",
+    "4278439000003553019",
+    "4278439000003557007",
+    "4278439000003559007",
+    "4278439000003560007",
+    "4278439000003600107",
+    "4278439000003602011",
+    "4278439000003602036",
+    "4278439000003632015",
+    "4278439000003634007",
+    "4278439000003635011",
+    "4278439000003640007",
+    "4278439000003640032",
+    "4278439000003650007",
+    "4278439000003664007"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000003503064",
+      "sku": "SKU-2997",
+      "productName": "Americana Hot Chicken Strips 1 kg x 10 - Carton",
+      "unit": "box",
+      "category": "Ready to Cook",
+      "brand": "AMERICANA",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003519019",
+      "sku": "SKU-2998",
+      "productName": "HEZAM 50-GALLON TRASH BAGS 9 KG",
+      "unit": "bag",
+      "category": "Packaging and Consumables",
+      "brand": "HEZAM",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003537007",
+      "sku": "SKU-2999",
+      "productName": "Honey 17 liters",
+      "unit": "tin",
+      "category": "Canned & Imported Items",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003544035",
+      "sku": "SKU-3002",
+      "productName": "Bread Crumbs Panko Brmudca 1kgx10 Carton",
+      "unit": "ctn",
+      "category": "Pasta, Noodles & Vermicelli",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003545043",
+      "sku": "SKU-3001",
+      "productName": "CHICKEN BREAST FILLET - URUSSA 2.5kg x 4",
+      "unit": "ctn",
+      "category": "Chicken & Eggs",
+      "brand": "URUSSA",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003548007",
+      "sku": "SKU-3000",
+      "productName": "CHICKEN LEG (BONELESS, SKIN ON) - URUSSA 2.5kg x 4",
+      "unit": "ctn",
+      "category": "Chicken & Eggs",
+      "brand": "URUSSA",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003553019",
+      "sku": "SKU-3003",
+      "productName": "Brown paper No 7 - 5 kg",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003557007",
+      "sku": "SKU-3004",
+      "productName": "RKG Pure Ghee 5 kg",
+      "unit": "tin",
+      "category": "Dairy",
+      "brand": "RKG",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003559007",
+      "sku": "SKU-3005",
+      "productName": "Clorox Original White Jalaen Bleach 30 Liter",
+      "unit": "tin",
+      "category": "Packaging and Consumables",
+      "brand": "COLORX",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003560007",
+      "sku": "SKU-3006",
+      "productName": "White Caring Softness Detergent Powder, 25 Kg",
+      "unit": "bag",
+      "category": "Packaging and Consumables",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003600107",
+      "sku": "SKU-3010",
+      "productName": "Forsana Shredded Mozzarella Cheese Analogue 1 kg × 6 - Carton",
+      "unit": "box",
+      "category": "Dairy",
+      "brand": "FORSANA",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003602011",
+      "sku": "SKU-3008",
+      "productName": "Organic Green Raisins (kg)",
+      "unit": "kg",
+      "category": "Masala, Salt & Sugar",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003602036",
+      "sku": "SKU-3009",
+      "productName": "Oval aluminum Service plate No. 6550, silver - 150 pieces",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003632015",
+      "sku": "SKU-3014",
+      "productName": "JOODY LID 1635 ( Aluminum Container Lid 1335)",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "brand": "JOODY",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003634007",
+      "sku": "SKU-3013",
+      "productName": "JOODY 1335 N W/O LID 800 Pieces",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "brand": "JOODY",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003635011",
+      "sku": "SKU-3015",
+      "productName": "SUFRA WHITE 10 ROLL 110 x 85 - Carton",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003640007",
+      "sku": "SKU-3016",
+      "productName": "SAMBUSA NAKHLA 8 PS 600GM",
+      "unit": "box",
+      "category": "Ready to Cook",
+      "brand": "",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003640032",
+      "sku": "SKU-3020",
+      "productName": "Edami Cream Cheese 900g x 6 Pieces - Carton",
+      "unit": "box",
+      "category": "Dairy",
+      "brand": "EDAMI",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003650007",
+      "sku": "SKU-3017",
+      "productName": "Quaker White Oats 500 gm × 24 - Carton",
+      "unit": "box",
+      "category": "Pasta, Noodles & Vermicelli",
+      "brand": "Quicker",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003664007",
+      "sku": "SKU-3021",
+      "productName": "Frozen Beef Tenderloin (31) Samrah 18kg",
+      "unit": "ctn",
+      "category": "Meat",
+      "brand": "SAMRAH",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000003503064",
+      "sku": "SKU-2997",
+      "field": "Translated_Name",
+      "before": "شرائط الدجاج الساخنة أمريكانا 1 كجم × 10 - الكرتون",
+      "after": "ستربس دجاج حار أمريكانا، 1 كجم × 10 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Zoho Creator exact record, existing English product identity; editorial translation only",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003553019",
+      "sku": "SKU-3003",
+      "field": "Translated_Name",
+      "before": "ورقة بنية رقم 7 - 5 كجم",
+      "after": "ورق بني رقم 7 — 5 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Zoho Creator exact record, existing English product identity; editorial translation only",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003600107",
+      "sku": "SKU-3010",
+      "field": "Translated_Name",
+      "before": "فورسانا تمزيق موزاريلا جبن التناظرية 1 كجم × 6 - الكرتون",
+      "after": "بديل جبنة موزاريلا مبشور فورسانا، 1 كجم × 6 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Zoho Creator exact record, existing English product identity; editorial translation only",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003664007",
+      "sku": "SKU-3021",
+      "field": "Translated_Name",
+      "before": "مناقصة لحوم البقر المجمدة (31) السامرة 18kg",
+      "after": "فيليه لحم بقري مجمد سمرة (31)، 18 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Zoho Creator exact record, existing English product identity; editorial translation only",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2998",
+      "risk": "50-gallon and 9 kg are in title, but bag count per selling bag is unverified."
+    },
+    {
+      "sku": "SKU-2999",
+      "risk": "Honey 17 litres, tin, unbranded; volume/pack variant and honey identity require exact label verification."
+    },
+    {
+      "sku": "SKU-3002",
+      "risk": "Panko bread crumbs categorized as Pasta, Noodles & Vermicelli; Brmudca brand identity uncertain."
+    },
+    {
+      "sku": "SKU-3003",
+      "risk": "Selling unit 'rpt' undefined; 5 kg paper packaging hierarchy unknown."
+    },
+    {
+      "sku": "SKU-3005",
+      "risk": "Brand field COLORX conflicts with product name Clorox; 30 L 'Jalaen' pack wording ambiguous."
+    },
+    {
+      "sku": "SKU-3006",
+      "risk": "White Caring Softness could be descriptive or brand; do not invent Brand."
+    },
+    {
+      "sku": "SKU-3010",
+      "risk": "Cheese analogue must not be presented as dairy mozzarella; existing name corrected editorially, exact box/carton conversion not verified."
+    },
+    {
+      "sku": "SKU-3008",
+      "risk": "Organic certification/claim not independently verified; do not strengthen claim."
+    },
+    {
+      "sku": "SKU-3014",
+      "risk": "JOODY lid 1635 vs container lid 1335 product code and compatible pack quantity ambiguous."
+    },
+    {
+      "sku": "SKU-3015",
+      "risk": "SUFRA 110 x 85 dimensions lack unit; 10-roll carton conversion not independently verified."
+    },
+    {
+      "sku": "SKU-3016",
+      "risk": "Sambusa 8 PS / 600GM packaging and brand identity ambiguous."
+    },
+    {
+      "sku": "SKU-3017",
+      "risk": "Brand Quicker conflicts with Quaker product title; oats classified as Pasta, Noodles & Vermicelli."
+    },
+    {
+      "sku": "SKU-3021",
+      "risk": "Tenderloin variant '(31)' and 18 kg carton conversion unverified; Arabic title corrected only."
+    }
+  ],
+  "unresolvedIssueCount": 13,
+  "fullyCompletedProducts": 0,
+  "sourcePolicy": "Only existing exact Creator English identities support Arabic editorial corrections. No manufacturer pack/GTIN/brand verification performed; no other fields changed.",
+  "creatorConnectorCallsObserved": 28,
+  "creatorBillableApiUnits": null,
+  "incrementalProbe": "Not run; Creator authoritative Modified_Time watermark unavailable and no full rescan permitted.",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "authenticated EN/AR RTL rendering",
+      "Commerce/Catalyst image and visibility propagation",
+      "CTN/PCS/KG conversion and undefined units",
+      "customer price vs private cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit approval",
+      "confirm-once checkout and exactly-once Books sales order"
+    ]
+  },
+  "writes": {
+    "creatorNonfinancialTitleFields": 4,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed.",
+    "Creator image references do not establish Commerce/Catalyst propagation."
+  ]
+}
