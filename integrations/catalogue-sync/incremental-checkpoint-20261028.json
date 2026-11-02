@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Continue 20 unreviewed storefront exact IDs after SKU-2895; skip 120 reviewed. Low-API overlapping incremental query only when useful, no source watermark advance, no four-way sync or financial orders.",
+  "nextAction": "Review 20 new unreviewed storefront Creator exact IDs after SKU-2918, from existing customer-content manifest; keep ambiguous pack units blocked; no full scan, cross-system writes, finance writes or source watermark advancement.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -3543,26 +3543,19 @@
   },
   "lastCustomerContentReview": {
     "date": "2026-11-02",
-    "observedAtLocal": "2026-11-02 11:16 Asia/Riyadh (context only)",
-    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json",
-    "exactCreatorIdsAudited": 20,
-    "verifiedNonfinancialFieldChanges": [
-      {
-        "field": "Translated_Name",
-        "count": 8,
-        "source": "Creator exact-ID readback after own edits"
-      }
-    ],
-    "reviewedUniqueAfterScheduledContentBatches": 120,
-    "partialTitleCorrections": 35,
+    "localTime": "11:53 Asia/Riyadh",
+    "phase": "post-content followup #7",
+    "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1153.json",
+    "exactIdsAudited": 20,
+    "uniqueReviewedSinceBatch20": 140,
+    "verifiedTitleChanges": 7,
+    "partialCorrectionsTotal": 42,
+    "fullyRemediatedProducts": 285,
+    "pendingProducts": 1597,
+    "heldProducts": 122,
     "unresolvedIssueCount": 11,
-    "creatorConnectorCallsObserved": 36,
-    "creatorMetadataWrites": 8,
-    "financialWrites": 0,
-    "imageWrites": 0,
-    "crossSystemWrites": 0,
-    "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; no authenticated checkout receipts; eleven selling-unit/identity observations",
-    "limitations": "No Modified_Time readback, no verified change feed, no descriptions/packing readback. No incremental probe this followup."
+    "creatorConnectorCallsObserved": 34,
+    "creatorModifiedTimeWatermarkAdvanced": false,
+    "checkout": "NO-GO"
   }
 }
