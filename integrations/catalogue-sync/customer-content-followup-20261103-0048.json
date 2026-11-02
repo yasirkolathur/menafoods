@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-03",
+  "localTime": "00:48 Asia/Riyadh (run start)",
+  "phase": "post-baseline customer-content follow-up 21",
+  "baseline": "Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-2354.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000005641093",
+      "sku": "SKU-3292",
+      "productName": "Local Fresh Beetroot",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005642011",
+      "sku": "SKU-3270",
+      "productName": "Fresh Yellow capsicum Whole",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005642040",
+      "sku": "SKU-3277",
+      "productName": "Green Apple",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005642181",
+      "sku": "SKU-3294",
+      "productName": "Fresh Green Cabbage",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005642250",
+      "sku": "SKU-3297",
+      "productName": "Fresh Whole Garlic Bulb",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005643007",
+      "sku": "SKU-3272",
+      "productName": "Fresh Mint Leaves",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005643032",
+      "sku": "SKU-3280",
+      "productName": "Regala Leaf",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005643195",
+      "sku": "SKU-3300",
+      "productName": "Whole Fresh Pineapple",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005644011",
+      "sku": "SKU-3274",
+      "productName": "Coriander Leaves Loose - Fresh",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005649139",
+      "sku": "SKU-3299",
+      "productName": "Fresh Baby Spinach",
+      "unit": "out",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005666029",
+      "sku": "SKU-3304",
+      "productName": "Red Apple",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005670035",
+      "sku": "SKU-3305",
+      "productName": "Fresh Basil leaves",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005676011",
+      "sku": "SKU-3306",
+      "productName": "Baisan Chickpeas Powder No# 1 Quality 15 Kg",
+      "unit": "bag",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005676040",
+      "sku": "SKU-3307",
+      "productName": "Fresh Strawberries",
+      "unit": "out",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005698111",
+      "sku": "SKU-3310",
+      "productName": "Fresh Eggplant",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005701173",
+      "sku": "SKU-3311",
+      "productName": "Fresh Green Beans",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005704065",
+      "sku": "SKU-3309",
+      "productName": "Fresh Red Cabbage",
+      "unit": "kg",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005709079",
+      "sku": "SKU-3312",
+      "productName": "Fresh Zucchini Squash",
+      "unit": "kg",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005720211",
+      "sku": "SKU-3313",
+      "productName": "Al-Rai juice cocktail grapes and mango 24*125 ml",
+      "unit": "out",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005807125",
+      "sku": "SKU-3318",
+      "productName": "IORN WIPER 55 CM REX-101602",
+      "unit": "pcs",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000005641093",
+      "sku": "SKU-3292",
+      "field": "Translated_Name",
+      "before": "Beetroot Fresh",
+      "after": "شمندر طازج",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005642011",
+      "sku": "SKU-3270",
+      "field": "Translated_Name",
+      "before": "كابسيوم أصفر طازج كامل",
+      "after": "فلفل رومي أصفر طازج كامل",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005642250",
+      "sku": "SKU-3297",
+      "field": "Translated_Name",
+      "before": "لمبة الثوم كاملة الطازجة",
+      "after": "رؤوس ثوم طازجة كاملة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005643195",
+      "sku": "SKU-3300",
+      "field": "Translated_Name",
+      "before": "الأناناس الطازج بالكامل",
+      "after": "أناناس طازج كامل",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005649139",
+      "sku": "SKU-3299",
+      "field": "Translated_Name",
+      "before": "سبانخ الطفل الطازج",
+      "after": "سبانخ صغيرة طازجة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005666029",
+      "sku": "SKU-3304",
+      "field": "Translated_Name",
+      "before": "التفاحة الحمراء",
+      "after": "تفاح أحمر",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005698111",
+      "sku": "SKU-3310",
+      "field": "Translated_Name",
+      "before": "البذور الطازجة",
+      "after": "باذنجان طازج",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005709079",
+      "sku": "SKU-3312",
+      "field": "Translated_Name",
+      "before": "اسكواش زوكسيني الطازجة",
+      "after": "كوسا طازجة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/SKU/category plus unambiguous generic Arabic product vocabulary; editorial correction only, not manufacturer packing/origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only when reliable evidence is available"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3299",
+      "kind": "checkout_uom",
+      "detail": "Selling unit 'out' undefined for baby spinach; no conversion evidence."
+    },
+    {
+      "sku": "SKU-3307",
+      "kind": "checkout_uom",
+      "detail": "Selling unit 'out' undefined for fresh strawberries."
+    },
+    {
+      "sku": "SKU-3313",
+      "kind": "checkout_uom_and_pack",
+      "detail": "Selling unit 'out' undefined for Al-Rai juice; 24 × 125 mL pack stated in title but not independently label-verified."
+    },
+    {
+      "sku": "SKU-3280",
+      "kind": "identity",
+      "detail": "Regala Leaf identity uncertain; cannot translate as a particular leaf or species without reliable evidence."
+    },
+    {
+      "sku": "SKU-3306",
+      "kind": "identity_and_pack",
+      "detail": "Baisan Chickpeas Powder No#1 Quality 15 kg ambiguous brand/grade and bag pack; do not normalize to guessed branded besan."
+    },
+    {
+      "sku": "SKU-3318",
+      "kind": "identity",
+      "detail": "IORN WIPER REX-101602 ambiguous; current Arabic implies automotive windshield wiper without exact-product evidence; held."
+    },
+    {
+      "sku": "SKU-3292",
+      "kind": "origin",
+      "detail": "English title says Local, but actual origin unverified; Arabic corrected to generic fresh beetroot without origin claim."
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not verified in this run",
+    "productVisibility": "All 20 exact Creator records have storefront flag Yes; Commerce/Catalyst not verified",
+    "images": "Creator image references present; exact identity, redistribution rights and Commerce/Catalyst rendering unverified",
+    "CTNPCSKG": "three undefined 'out' selling units held; no conversions changed",
+    "customerPriceVsCost": "not independently verified; no financial edits",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency/Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; four duplicate-active IDs remain blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed. Eight Translated_Name edits independently verified.",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 8,
+    "verifiedProductsWithPartialCorrections": 8,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 7,
+    "creatorConnectorCallsConfirmed": 36,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 420,
+    "partialCorrectionsCumulative": 156
+  },
+  "constraints": {
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncSettingsWrites": 0,
+    "deployments": 0,
+    "createdProducts": 0
+  }
+}
