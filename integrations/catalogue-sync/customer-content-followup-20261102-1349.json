@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 13:49 Asia/Riyadh (automation clock; not Creator modification time)",
+  "phase": "post-20/20 customer-content storefront followup #9",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000003240031",
+    "4278439000003280011",
+    "4278439000003293007",
+    "4278439000003294015",
+    "4278439000003295011",
+    "4278439000003295044",
+    "4278439000003310035",
+    "4278439000003319015",
+    "4278439000003326007",
+    "4278439000003327007",
+    "4278439000003328057",
+    "4278439000003350019",
+    "4278439000003357011",
+    "4278439000003358007",
+    "4278439000003356035",
+    "4278439000003361007",
+    "4278439000003363011",
+    "4278439000003364007",
+    "4278439000003365007",
+    "4278439000003363040"
+  ],
+  "reviewedProducts": [
+    {
+      "sku": "SKU-2946",
+      "creatorId": "4278439000003240031",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2947",
+      "creatorId": "4278439000003280011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2949",
+      "creatorId": "4278439000003293007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2950",
+      "creatorId": "4278439000003294015",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2951",
+      "creatorId": "4278439000003295011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2952",
+      "creatorId": "4278439000003295044",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2953",
+      "creatorId": "4278439000003310035",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2954",
+      "creatorId": "4278439000003319015",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2955",
+      "creatorId": "4278439000003326007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2956",
+      "creatorId": "4278439000003327007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2957",
+      "creatorId": "4278439000003328057",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2958",
+      "creatorId": "4278439000003350019",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2959",
+      "creatorId": "4278439000003357011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2960",
+      "creatorId": "4278439000003358007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2961",
+      "creatorId": "4278439000003356035",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2962",
+      "creatorId": "4278439000003361007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2963",
+      "creatorId": "4278439000003363011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2964",
+      "creatorId": "4278439000003364007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2965",
+      "creatorId": "4278439000003365007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    },
+    {
+      "sku": "SKU-2966",
+      "creatorId": "4278439000003363040",
+      "exactIdRead": "success",
+      "source": "Zoho Creator mena/All_Products"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 9,
+  "verifiedProductsChanged": 9,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 11,
+  "corrections": [
+    {
+      "sku": "SKU-2946",
+      "creatorId": "4278439000003240031",
+      "field": "Translated_Name",
+      "before": "بطاطس مقلية مملوءة بالبرد 9 مم 2 × 5 كجم × 4",
+      "after": "بطاطس مقلية تشيل فيل، تقطيع 9 مم، 2 × 5 كجم × 4",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2949",
+      "creatorId": "4278439000003293007",
+      "field": "Translated_Name",
+      "before": "سمكة روهو كاملة في كرتونة (1500 جرام - 2000 جرام) 20 كجم",
+      "after": "سمك روهو كامل، 1500–2000 جم، كرتون 20 كجم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2950",
+      "creatorId": "4278439000003294015",
+      "field": "Translated_Name",
+      "before": "حبة سوداء كاملة مجمدة 300/500 20 كجم",
+      "after": "سمك بومفريت أسود كامل مجمد، 300/500، 20 كجم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2951",
+      "creatorId": "4278439000003295011",
+      "field": "Translated_Name",
+      "before": "تجميد بومفيرت الأسود كله 500/800 20kg",
+      "after": "سمك بومفريت أسود كامل مجمد، 500/800، 20 كجم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2952",
+      "creatorId": "4278439000003295044",
+      "field": "Translated_Name",
+      "before": "حبة سوداء كاملة مجمدة 800/1000 20 كجم",
+      "after": "سمك بومفريت أسود كامل مجمد، 800/1000، 20 كجم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2957",
+      "creatorId": "4278439000003328057",
+      "field": "Translated_Name",
+      "before": "عدس احمر قماش ( 777 ) 15 كيلو",
+      "after": "عدس مسور 777 ممتاز، 15 كجم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2958",
+      "creatorId": "4278439000003350019",
+      "field": "Translated_Name",
+      "before": "رولز الورق الحراري لبطاقة الائتمان - تسجيل النقدية رولز - شريط تسجيل متميز Pos ورقة الطابعة الحرارية",
+      "after": "رولات ورق حراري لطابعات الإيصالات وأجهزة نقاط البيع",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2964",
+      "creatorId": "4278439000003364007",
+      "field": "Translated_Name",
+      "before": "صلصة ماكاتي الحلوة الفلفل الحار 700 مل × 12 - الكرتون",
+      "after": "صلصة الفلفل الحار الحلوة ماكاتي، 12 × 700 مل — كرتون",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2966",
+      "creatorId": "4278439000003363040",
+      "field": "Translated_Name",
+      "before": "فول مودميس مالينج 24 قطعة × 400 جرام",
+      "after": "فول مدمس مالينج، 24 × 400 جم",
+      "readback": "Creator exact-ID, SKU and Translated_Name match",
+      "basis": "Existing exact Creator English product name and category/brand when present; editorial correction only; packaging claims not independently manufacturer-certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2946",
+      "severity": "high",
+      "issue": "2 × 5 kg × 4 packaging hierarchy is ambiguous; title preserved verbatim, carton conversion held."
+    },
+    {
+      "sku": "SKU-2949",
+      "severity": "critical",
+      "issue": "English title says 20 kg carton but Creator selling Unit=bag; selling-unit mapping unverified."
+    },
+    {
+      "sku": "SKU-2950/2951/2952",
+      "severity": "high",
+      "issue": "Pomfret 300/500, 500/800, 800/1000 grading has no independently verified measurement basis; no weight-per-fish inference."
+    },
+    {
+      "sku": "SKU-2953",
+      "severity": "medium",
+      "issue": "Samrah appears in title but Brand blank; exact producer identity not verified."
+    },
+    {
+      "sku": "SKU-2955",
+      "severity": "critical",
+      "issue": "Ice cream mix 12×1 L uses undefined selling Unit=out; carton conversion blocked."
+    },
+    {
+      "sku": "SKU-2956",
+      "severity": "critical",
+      "issue": "Vanilla ice cream mix 12×1 L uses undefined selling Unit=out; carton conversion blocked."
+    },
+    {
+      "sku": "SKU-2958",
+      "severity": "high",
+      "issue": "Thermal roll width, length and quantity per box not verified; brand absent; do not invent POS compatibility."
+    },
+    {
+      "sku": "SKU-2960",
+      "severity": "critical",
+      "issue": "Spaghetti English 30 400 × 20 grams is internally ambiguous; do not infer pack weight or count."
+    },
+    {
+      "sku": "SKU-2962",
+      "severity": "medium",
+      "issue": "Cheese Bottle Marya title suggests bottle but material and sale-unit hierarchy not independently verified."
+    },
+    {
+      "sku": "SKU-2963",
+      "severity": "high",
+      "issue": "China appears as origin in title, but country-of-origin and exact product identity are not independently verified; do not add brand or origin."
+    },
+    {
+      "sku": "SKU-2965/2966",
+      "severity": "medium",
+      "issue": "Product title contains Al Saidah/Maling while Brand is blank; hold brand changes pending exact label/manufacturer evidence."
+    }
+  ],
+  "unresolvedIssueCount": 11,
+  "sourcePolicy": "Editorial Arabic corrections only, supported by Creator exact ID/SKU/current English product identity and category. No new external manufacturer specification or inferred pack conversions. No customer-facing financial fields read into GitHub.",
+  "creatorConnectorCallsObserved": 41,
+  "creatorBillableApiUnits": "not available",
+  "creatorCallCountNote": "1 getApplications, 1 getReportMetadata, 20 getRecordByID, 1 getFormMetadata, 9 updateRecordByID, 9 getRecordByID readbacks; GitHub calls excluded",
+  "incrementalProbe": "Not run; source modification watermark remains unverified",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "authenticated EN/AR RTL rendering",
+      "Commerce/Catalyst image and visibility propagation",
+      "CTN/PCS/KG unit conversions",
+      "customer price versus private cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit approval",
+      "confirm-once checkout and exactly-once Books sales order"
+    ]
+  },
+  "writes": {
+    "creatorFields": [
+      "Translated_Name"
+    ],
+    "records": 9,
+    "images": 0,
+    "financial": 0,
+    "sync": 0,
+    "deploy": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback; neither modified.",
+    "No manufacturer-certified packaging readback; pack claims preserved from current product names without new assumptions."
+  ]
+}
