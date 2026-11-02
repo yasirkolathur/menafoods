@@ -19949,7 +19949,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0951.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json",
   "lastUpdateDate": "2026-11-02",
   "reviewedNoChangeProducts": [
     {
@@ -20076,13 +20076,13 @@
     "lastContentReview": {
       "date": "2026-11-02",
       "exactIdsAudited": 20,
-      "verifiedProductsWithPartialCopyCorrections": 7,
-      "verifiedFieldsChanged": 7,
+      "verifiedProductsWithPartialCopyCorrections": 8,
+      "verifiedFieldsChanged": 8,
       "fullyCompletedProducts": 0,
       "deferredOrStillPending": 20,
       "newIssueCount": 11,
-      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0951.json",
-      "reason": "Seven Arabic title-only corrections read back; description fields not exposed; exact selling units and brand/identity ambiguity held."
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json",
+      "reason": "Eight editorial Arabic titles independently read back; descriptions and exact pack variants remain unverified."
     },
     "reviewedExactIds": [
       "4278439000002392036",
@@ -20184,9 +20184,29 @@
       "4278439000002742040",
       "4278439000002742065",
       "4278439000002746011",
-      "4278439000002747011"
+      "4278439000002747011",
+      "4278439000002749011",
+      "4278439000002757003",
+      "4278439000002767011",
+      "4278439000002769011",
+      "4278439000002770011",
+      "4278439000002770040",
+      "4278439000002771015",
+      "4278439000002772003",
+      "4278439000002773003",
+      "4278439000002782007",
+      "4278439000002784007",
+      "4278439000002785007",
+      "4278439000002785028",
+      "4278439000002787007",
+      "4278439000002788007",
+      "4278439000002789007",
+      "4278439000002792003",
+      "4278439000002793024",
+      "4278439000002802007",
+      "4278439000002804007"
     ],
-    "nextAction": "Next 20 unique storefront pending Creator IDs after SKU-2857; skip reviewedExactIds (100); exact-ID reads, no full rescan; hold all ambiguous pack conversions and financial writes."
+    "nextAction": "Next 20 unique storefront pending Creator IDs after SKU-2895; skip 120 reviewed IDs. Exact-ID reads, no full rescan, hold ambiguous units and financial writes."
   },
   "partialCorrections": [
     {
@@ -20486,6 +20506,94 @@
         "Description"
       ],
       "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-0951.json"
+    },
+    {
+      "id": "4278439000002749011",
+      "sku": "SKU-2859",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002767011",
+      "sku": "SKU-2863",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002770040",
+      "sku": "SKU-2867",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002787007",
+      "sku": "SKU-2881",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002788007",
+      "sku": "SKU-2882",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002789007",
+      "sku": "SKU-2883",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002793024",
+      "sku": "SKU-2890",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
+    },
+    {
+      "id": "4278439000002804007",
+      "sku": "SKU-2895",
+      "fieldsVerified": [
+        "Translated_Name"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json"
     }
   ]
 }
