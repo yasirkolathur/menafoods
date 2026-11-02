@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 07:45 Asia/Riyadh (automation context, not source Modified_Time)",
+  "phase": "post-20/20 customer-content backlog",
+  "branch": "catalogue-sync-contract-20261024",
+  "creatorReport": "menafoods/mena/All_Products",
+  "auditedExactIds": [
+    "4278439000002601040",
+    "4278439000002602019",
+    "4278439000002606015",
+    "4278439000002607015",
+    "4278439000002607044",
+    "4278439000002608015",
+    "4278439000002610007",
+    "4278439000002616015",
+    "4278439000002620237",
+    "4278439000002623003",
+    "4278439000002625011",
+    "4278439000002626007",
+    "4278439000002631007",
+    "4278439000002633007",
+    "4278439000002635075",
+    "4278439000002636007",
+    "4278439000002637007",
+    "4278439000002638007",
+    "4278439000002640070",
+    "4278439000002644003"
+  ],
+  "recordCountAudited": 20,
+  "skuAndIdReadbackVerified": 20,
+  "verifiedProductsChanged": 8,
+  "verifiedFieldsChanged": 8,
+  "field": "Translated_Name",
+  "changes": [
+    {
+      "creatorId": "4278439000002601040",
+      "sku": "SKU-2783",
+      "field": "Translated_Name",
+      "before": "الأسترالي واغيو لحوم البقر ستريبلين 9+ الرخام",
+      "after": "ستريبلوين بقري واغيو أسترالي، درجة الترخيم 9+",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002602019",
+      "sku": "SKU-2776",
+      "field": "Translated_Name",
+      "before": "عمال المناجم برازيل (20-25KG)",
+      "after": "قطع أمامية من لحم البقر البرازيلي مينيرفا (20–25 كجم)",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [
+        "https://minervafoods.com/"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002607044",
+      "sku": "SKU-2780",
+      "field": "Translated_Name",
+      "before": "كريمة خفق الخضار هوبلا 1 لتر × 12",
+      "after": "كريمة خفق نباتية هوبلا، 1 لتر × 12",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [
+        "https://www.hopla.it/en/hopl%C3%A0-professional-whipping-and-cooking-cream",
+        "https://foodeal.com.sa/vAnPwyO"
+      ],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002623003",
+      "sku": "SKU-2789",
+      "field": "Translated_Name",
+      "before": "زجاج ماء بلاستيك 6 أونصة 50 قطعة × 20",
+      "after": "أكواب ماء بلاستيكية سعة 6 أونصات، 50 قطعة × 20",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002636007",
+      "sku": "SKU-2796",
+      "field": "Translated_Name",
+      "before": "زيت الماهر للشمس 17ليتر",
+      "after": "زيت دوار الشمس الماهر، 17 لترًا",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002637007",
+      "sku": "SKU-2797",
+      "field": "Translated_Name",
+      "before": "فيدا المجمدة توتابوري المانجو اللب 1 كجم × 16",
+      "after": "لب مانجو توتابوري مجمد من فيدا، 1 كجم × 16",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002638007",
+      "sku": "SKU-2798",
+      "field": "Translated_Name",
+      "before": "فيدا المجمدة الجوافة اللب 1 كجم × 16",
+      "after": "لب جوافة مجمد من فيدا، 1 كجم × 16",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002616015",
+      "sku": "SKU-2787",
+      "field": "Translated_Name",
+      "before": "سمك روهو مجمد ومنظف بالكامل وزن 2 كجم",
+      "after": "سمك روهو كامل ومنظف ومجمد، وزن 2 كجم فأكثر",
+      "readback": "exact Creator ID/SKU/Translated_Name independently matched",
+      "evidenceBasis": "Exact Creator English title, SKU, brand and original unit; Arabic semantic correction only. External sources where listed are contextual, not exact-SKU pack authorization.",
+      "sourceUrls": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    }
+  ],
+  "fullyCompletedProducts": 0,
+  "reviewedPendingIds": [
+    "4278439000002601040",
+    "4278439000002602019",
+    "4278439000002606015",
+    "4278439000002607015",
+    "4278439000002607044",
+    "4278439000002608015",
+    "4278439000002610007",
+    "4278439000002616015",
+    "4278439000002620237",
+    "4278439000002623003",
+    "4278439000002625011",
+    "4278439000002626007",
+    "4278439000002631007",
+    "4278439000002633007",
+    "4278439000002635075",
+    "4278439000002636007",
+    "4278439000002637007",
+    "4278439000002638007",
+    "4278439000002640070",
+    "4278439000002644003"
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2776",
+      "severity": "high",
+      "issue": "Variable-weight forequarter 20–25 kg with Unit=kg; actual shipment weight and checkout calculation not authenticated."
+    },
+    {
+      "sku": "SKU-2787",
+      "severity": "high",
+      "issue": "Whole Rohu >=2 kg but Unit=box; count/total weight per box unverified."
+    },
+    {
+      "sku": "SKU-2790",
+      "severity": "medium",
+      "issue": "Vanilla 20 g ×12×12 nested packing lacks authoritative hierarchy confirmation."
+    },
+    {
+      "sku": "SKU-2791",
+      "severity": "medium",
+      "issue": "Fish fillet 1 kg ×3 pcs packs: number of packs vs pieces and carton conversion ambiguous."
+    },
+    {
+      "sku": "SKU-2793",
+      "severity": "medium",
+      "issue": "Bakers Choice unsalted butter 'Bland' may be typo or a butter blend; exact formulation and label not verified."
+    },
+    {
+      "sku": "SKU-2799",
+      "severity": "critical",
+      "issue": "Product calls gloves both vinyl and latex; material and allergy-related claims conflict. Do not publish corrected material claims without exact label."
+    },
+    {
+      "sku": "SKU-2801",
+      "severity": "critical",
+      "issue": "Beef Pepperoni Pizza 1kg ×10 ambiguous as topping versus prepared pizza, Unit=pcs; pack conversion and category must be reconciled."
+    },
+    {
+      "sku": "SKU-2802",
+      "severity": "medium",
+      "issue": "Frozen fillet '2 PIECES 2kg ×5 bags' unclear whether 2kg per bag or per pair; exact pack conversion held."
+    }
+  ],
+  "unresolvedIssueCount": 8,
+  "otherReviewedUnchangedCount": 12,
+  "sourcePolicy": "No new factual product claims or GTIN/origin/ingredient/brand/pack sizes invented. Arabic title fixes grounded in existing exact Creator English records; Hopla manufacturer confirms 1000ml vegetable-based product but not 12-count specific SKU; no image rights inferred.",
+  "creatorConnectorCallsObserved": 36,
+  "creatorBillableApiUnits": "unavailable",
+  "writes": {
+    "creatorNonfinancialRecords": 8,
+    "creatorNonfinancialFields": 8,
+    "prices": 0,
+    "margins": 0,
+    "stock": 0,
+    "images": 0,
+    "financial": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "readbackLimitations": "Description, Translated_Description, Package_Details, Translated_Package unavailable in All_Products readback; no edits to these fields.",
+  "checkoutQA": "NO-GO: no authenticated EN/AR RTL, unit conversions, customer-price/cost isolation, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout or exactly-once order evidence. No financial test orders.",
+  "syncGates": "Existing Catalyst menafoodscustomermiddleware only. Four duplicate-active IDs blocked. No four-way sync receipts, native sync/webhook ACK or rollback proof. Source Modified_Time watermark unverified.",
+  "next": "Review 20 new storefront exact IDs after SKU-2802, skipping postBatch20.reviewedExactIds; overlapping low-API incremental reconciliation without watermark advancement."
+}
