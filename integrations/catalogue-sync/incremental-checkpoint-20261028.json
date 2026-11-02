@@ -72,27 +72,26 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-11-02T04:53:26+03:00",
-    "timeSource": "scheduled execution context; not Creator Modified_Time",
+    "observedAtLocal": "2026-11-02 05:52 Asia/Riyadh (scheduled context, not Creator source time)",
     "mode": "incremental_read_only",
-    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0453.json",
+    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0552.json",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
-    "creatorResult": "1 previously held candidate CR1756; exact-ID read matches persisted nonfinancial snapshot",
+    "creatorResult": "One previously tracked CR1756, no new candidates, no independently verified changes; no exact-ID read this probe",
     "creatorReturnedIds": [
       "4278439000000106496"
     ],
     "newCandidateIds": [],
     "verifiedNonfinancialFieldChanges": [],
-    "creatorConnectorCallsObserved": 2,
-    "creatorBillableApiUnits": "unavailable",
+    "creatorConnectorCallsObserved": 1,
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; no new authenticated acceptance evidence",
-    "limitations": "Creator Modified_Time usable as criterion but not exposed per record; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation."
+    "qaIssue27Status": "NO-GO; no new authenticated checkout receipt",
+    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0552.json",
+    "limitations": "Creator Modified_Time absent from returned fields; source completeness and timezone unverified. Four duplicate-active IDs blocked; no sync writes."
   },
   "incrementalObservationHistory": [
     {
@@ -2874,6 +2873,28 @@
       "sourceWatermarkAdvanced": false,
       "qaIssue27Status": "NO-GO; no new authenticated acceptance evidence",
       "limitations": "Creator Modified_Time usable as criterion but not exposed per record; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation."
+    },
+    {
+      "observedAtLocal": "2026-11-02 05:52 Asia/Riyadh (scheduled context, not Creator source time)",
+      "mode": "incremental_read_only",
+      "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0552.json",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+      "creatorResult": "One previously tracked CR1756, no new candidates, no independently verified changes; no exact-ID read this probe",
+      "creatorReturnedIds": [
+        "4278439000000106496"
+      ],
+      "newCandidateIds": [],
+      "verifiedNonfinancialFieldChanges": [],
+      "creatorConnectorCallsObserved": 1,
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no new authenticated checkout receipt",
+      "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0552.json",
+      "limitations": "Creator Modified_Time absent from returned fields; source completeness and timezone unverified. Four duplicate-active IDs blocked; no sync writes."
     }
   ],
   "pendingCandidateCreatorIds": [
