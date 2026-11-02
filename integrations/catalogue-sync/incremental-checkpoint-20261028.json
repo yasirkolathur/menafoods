@@ -72,19 +72,19 @@
     "validationLimitations": "Modified_Time filter accepts bounded criteria, but timestamp is absent from returned report fields. Source timezone, inclusive boundary behavior, event completeness, concurrent edits, and pagination under >200 matches remain unverified. No new changed IDs are proven from this probe."
   },
   "lastIncrementalObservation": {
-    "observedAtLocal": "2026-11-02T03:49:22+03:00",
+    "observedAtLocal": "2026-11-02T04:53:26+03:00",
     "timeSource": "scheduled execution context; not Creator Modified_Time",
     "mode": "incremental_read_only",
-    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0349.json",
+    "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0453.json",
     "creatorReport": "menafoods/mena/Products_Books",
     "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
-    "creatorResult": "1 previously held candidate CR1756; matches persisted nonfinancial snapshot",
+    "creatorResult": "1 previously held candidate CR1756; exact-ID read matches persisted nonfinancial snapshot",
     "creatorReturnedIds": [
       "4278439000000106496"
     ],
     "newCandidateIds": [],
     "verifiedNonfinancialFieldChanges": [],
-    "creatorConnectorCallsObserved": 1,
+    "creatorConnectorCallsObserved": 2,
     "creatorBillableApiUnits": "unavailable",
     "creatorMetadataWrites": 0,
     "financialWrites": 0,
@@ -92,7 +92,7 @@
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
     "qaIssue27Status": "NO-GO; no new authenticated acceptance evidence",
-    "limitations": "Creator Modified_Time is usable as a criterion but absent from returned records; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation."
+    "limitations": "Creator Modified_Time usable as criterion but not exposed per record; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation."
   },
   "incrementalObservationHistory": [
     {
@@ -2851,6 +2851,29 @@
       "creatorConnectorCallsObserved": 1,
       "sourceWatermarkAdvanced": false,
       "qaIssue27Status": "NO-GO"
+    },
+    {
+      "observedAtLocal": "2026-11-02T04:53:26+03:00",
+      "timeSource": "scheduled execution context; not Creator Modified_Time",
+      "mode": "incremental_read_only",
+      "evidencePath": "integrations/catalogue-sync/incremental-observation-20261102-0453.json",
+      "creatorReport": "menafoods/mena/Products_Books",
+      "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+      "creatorResult": "1 previously held candidate CR1756; exact-ID read matches persisted nonfinancial snapshot",
+      "creatorReturnedIds": [
+        "4278439000000106496"
+      ],
+      "newCandidateIds": [],
+      "verifiedNonfinancialFieldChanges": [],
+      "creatorConnectorCallsObserved": 2,
+      "creatorBillableApiUnits": "unavailable",
+      "creatorMetadataWrites": 0,
+      "financialWrites": 0,
+      "imageWrites": 0,
+      "crossSystemWrites": 0,
+      "sourceWatermarkAdvanced": false,
+      "qaIssue27Status": "NO-GO; no new authenticated acceptance evidence",
+      "limitations": "Creator Modified_Time usable as criterion but not exposed per record; timezone, boundary semantics, pagination, webhook completeness and ACK unverified. No native sync/deployed gateway rollback or authenticated checkout evidence. Four duplicate-active IDs remain blocked. No order creation."
     }
   ],
   "pendingCandidateCreatorIds": [
