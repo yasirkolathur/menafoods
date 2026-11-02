@@ -30,7 +30,7 @@
   },
   "pendingVerifiedChangedCreatorIds": [],
   "processedEventIds": [],
-  "nextAction": "Resume next 20 unique storefront pending content IDs after SKU-2857; skip 100 reviewed IDs. Overlapping low-API Creator incremental probe, no watermark advance, no sync writes or orders.",
+  "nextAction": "Continue 20 unreviewed storefront exact IDs after SKU-2895; skip 120 reviewed. Low-API overlapping incremental query only when useful, no source watermark advance, no four-way sync or financial orders.",
   "crossSystemWritesAllowed": false,
   "checkoutStatus": "NO-GO",
   "lastVerifiedBatch": 20,
@@ -3518,23 +3518,51 @@
   },
   "lastPostContentBatchIncrementalObservation": {
     "date": "2026-11-02",
-    "observedAtLocal": "2026-11-02 07:45 Asia/Riyadh (context only)",
-    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0745.json",
+    "observedAtLocal": "2026-11-02 11:16 Asia/Riyadh (context only)",
+    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json",
     "exactCreatorIdsAudited": 20,
     "verifiedNonfinancialFieldChanges": [
       {
         "field": "Translated_Name",
         "count": 8,
-        "source": "own Creator edits independently read back by exact ID"
+        "source": "Creator exact-ID readback after own edits"
       }
     ],
+    "reviewedUniqueAfterScheduledContentBatches": 120,
+    "partialTitleCorrections": 35,
+    "unresolvedIssueCount": 11,
     "creatorConnectorCallsObserved": 36,
     "creatorMetadataWrites": 8,
     "financialWrites": 0,
     "imageWrites": 0,
     "crossSystemWrites": 0,
     "sourceWatermarkAdvanced": false,
-    "qaIssue27Status": "NO-GO; new glove material and pepperoni UOM/identity conflicts; no authenticated end-to-end checkout receipt",
-    "limitations": "Creator Modified_Time not returned, change-feed completeness and webhook delivery unverified; four duplicate-active IDs blocked."
+    "qaIssue27Status": "NO-GO; no authenticated checkout receipts; eleven selling-unit/identity observations",
+    "limitations": "No Modified_Time readback, no verified change feed, no descriptions/packing readback. No incremental probe this followup.",
+    "mode": "content_review_only_no_incremental_probe"
+  },
+  "lastCustomerContentReview": {
+    "date": "2026-11-02",
+    "observedAtLocal": "2026-11-02 11:16 Asia/Riyadh (context only)",
+    "customerContentEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1116.json",
+    "exactCreatorIdsAudited": 20,
+    "verifiedNonfinancialFieldChanges": [
+      {
+        "field": "Translated_Name",
+        "count": 8,
+        "source": "Creator exact-ID readback after own edits"
+      }
+    ],
+    "reviewedUniqueAfterScheduledContentBatches": 120,
+    "partialTitleCorrections": 35,
+    "unresolvedIssueCount": 11,
+    "creatorConnectorCallsObserved": 36,
+    "creatorMetadataWrites": 8,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "sourceWatermarkAdvanced": false,
+    "qaIssue27Status": "NO-GO; no authenticated checkout receipts; eleven selling-unit/identity observations",
+    "limitations": "No Modified_Time readback, no verified change feed, no descriptions/packing readback. No incremental probe this followup."
   }
 }
