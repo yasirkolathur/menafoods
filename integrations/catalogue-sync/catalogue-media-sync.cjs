@@ -72,48 +72,4 @@ async function processMediaOutbox(row,{fetchAuthenticatedBytes,putAndVerify,ack,
   return {status};
  }
 }
-module.exports={validate,entityKey,eventKey,enqueueApprovedMedia,processMediaOutbox};);
-  if(typeof m.locator!=='string'||!exact.test(m.locator))reject('UNSAFE_SOURCE');
- }
- return {...event,creatorId:id,media:{...m,sha256:sha}};
-}
-function entityKey(e){return 'menafoods:'+e.kind+':'+e.creatorId;}
-function target(e){return e.origin==='creator'?'catalyst':'creator';}
-function eventKey(e){
- return createHash('sha256').update(JSON.stringify({entity:entityKey(e),origin:e.origin,event:e.rootEventId||e.eventId,revision:e.revision,hash:e.media.sha256})).digest('hex');
-}
-// Existing MF_Product_Sync_Outbox must be migrated to store category/collection entity kinds
-// before deploying; do not write category rows into current PRODUCT-only schema.
-async function enqueueApprovedMedia(raw,{registry,outbox,validateCreatorEntity}){
- const e=validate(raw);if(!registry||!outbox||typeof validateCreatorEntity!=='function')reject('ADAPTER_REQUIRED');
- await validateCreatorEntity(e.kind,e.creatorId,e.categoryCreatorId);
- const key=eventKey(e),ent=entityKey(e);
- return outbox.transaction(async tx=>{
-  if(await tx.hasIdempotencyKey(key))return {status:'already_processed',key};
-  const existing=await registry.getEntity(ent);
-  if(!existing||existing.tenantId!=='menafoods'||existing.revision!==e.revision)reject('REVISION_CONFLICT');
-  if(existing.mediaSha256===e.media.sha256)return {status:'unchanged',key};
-  await tx.enqueue({tenantId:'menafoods',entityKind:e.kind,entityId:ent,creatorId:e.creatorId,categoryCreatorId:e.categoryCreatorId||null,source:e.origin,destination:target(e),media:e.media,rootEventId:e.rootEventId||e.eventId,expectedRevision:e.revision,idempotencyKey:key,status:'PENDING',retryCount:0});
-  await tx.markIdempotencyKey(key);
-  return {status:'queued',key,destination:target(e)};
- });
-}
-async function processMediaOutbox(row,{fetchAuthenticatedBytes,putAndVerify,ack,fail}){
- if(!row||row.tenantId!=='menafoods'||!KINDS.has(row.entityKind)||!SYSTEMS.has(row.destination)||row.source===row.destination)reject('BAD_ROW');
- if(!['PENDING','RETRY'].includes(row.status))return {status:'skipped'};
- try{
-  const content=await fetchAuthenticatedBytes(row.source,row.media.locator);
-  if(!Buffer.isBuffer(content)||content.length!==row.media.bytes||createHash('sha256').update(content).digest('hex')!==row.media.sha256)reject('CHECKSUM_MISMATCH');
-  // putAndVerify MUST check source revision, upload using existing OAuth/Stratus,
-  // re-read destination bytes and return exact SHA-256. HTTP success alone is insufficient.
-  const receipt=await putAndVerify(row.destination,row.creatorId,content,row);
-  if(receipt?.verified!==true||receipt?.sha256!==row.media.sha256)reject('READBACK_FAILED');
-  await ack(row.idempotencyKey,receipt);
-  return {status:'ACK',destination:row.destination};
- }catch(err){
-  const retries=(row.retryCount||0)+1,status=retries>=5?'DEAD_LETTER':'RETRY';
-  await fail(row.idempotencyKey,{status,retries,errorCode:['CHECKSUM_MISMATCH','READBACK_FAILED'].includes(err.code)?err.code:'TRANSPORT_FAILED',retryAfterSeconds:status==='RETRY'?Math.min(3600,60*2**retries):null});
-  return {status};
- }
-}
 module.exports={validate,entityKey,eventKey,enqueueApprovedMedia,processMediaOutbox};
