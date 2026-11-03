@@ -19949,7 +19949,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run25.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run26.json",
   "lastUpdateDate": "2026-11-03",
   "reviewedNoChangeProducts": [
     {
@@ -20060,12 +20060,12 @@
   ],
   "lastBatchStats": {
     "recordsAudited": 20,
-    "verifiedTitleFieldsChanged": 4,
-    "verifiedProductsWithPartialCopyCorrections": 4,
+    "verifiedTitleFieldsChanged": 5,
+    "verifiedProductsWithPartialCopyCorrections": 5,
     "fullyCompletedProducts": 0,
-    "unresolvedIssueCount": 8,
-    "reviewedUniquePostCompletion": 500,
-    "creatorConnectorCallsConfirmed": 44
+    "unresolvedIssueCount": 6,
+    "reviewedUniquePostCompletion": 520,
+    "creatorConnectorCallsConfirmed": 31
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
@@ -20076,13 +20076,12 @@
     "lastContentReview": {
       "date": "2026-11-03",
       "exactIdsAudited": 20,
-      "verifiedProductsWithPartialCopyCorrections": 4,
-      "verifiedFieldsChanged": 4,
+      "verifiedProductsWithPartialCopyCorrections": 5,
+      "verifiedFieldsChanged": 5,
       "fullyCompletedProducts": 0,
       "deferredOrStillPending": 20,
-      "newIssueCount": 8,
-      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261103-run25.json",
-      "reason": "Four exact-ID Arabic editorial corrections verified by Creator readback; brand, unit, image, margin and duplicate concerns held."
+      "newIssueCount": 6,
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261103-run26.json"
     },
     "reviewedExactIds": [
       "4278439000002392036",
@@ -20584,9 +20583,29 @@
       "4278439000008269016",
       "4278439000008381013",
       "4278439000008393029",
-      "4278439000008562013"
+      "4278439000008562013",
+      "4278439000003507007",
+      "4278439000003510039",
+      "4278439000008564006",
+      "4278439000008576014",
+      "4278439000008587026",
+      "4278439000009154012",
+      "4278439000009565002",
+      "4278439000009565007",
+      "4278439000009565012",
+      "4278439000009565017",
+      "4278439000009565022",
+      "4278439000009565027",
+      "4278439000009565032",
+      "4278439000009565037",
+      "4278439000009565042",
+      "4278439000009565047",
+      "4278439000009641030",
+      "4278439000009641035",
+      "4278439000009641040",
+      "4278439000009641045"
     ],
-    "nextAction": "Continue next 20 previously unreviewed storefront IDs in persistent manifest order, beginning SKU-3420; no full rescan."
+    "nextAction": "Next unreviewed exact Creator IDs from manifest, prioritize storefront; no full scan"
   },
-  "partialCorrections": 190
+  "partialCorrections": 195
 }
