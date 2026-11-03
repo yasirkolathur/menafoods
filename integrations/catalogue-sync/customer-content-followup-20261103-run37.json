@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-03",
+  "followup": 37,
+  "baseline": "20/20 previously completed; this is customer-content follow-up",
+  "creatorReport": "menafoods/mena/All_Products",
+  "selection": "20 storefront exact IDs from persistent pending manifest; no full rescan",
+  "reviewedIds": [
+    "4278439000002489763",
+    "4278439000002489767",
+    "4278439000002489771",
+    "4278439000002489775",
+    "4278439000002489779",
+    "4278439000002489783",
+    "4278439000002489787",
+    "4278439000002489791",
+    "4278439000002489795",
+    "4278439000002489799",
+    "4278439000002489803",
+    "4278439000002489807",
+    "4278439000002489811",
+    "4278439000002489815",
+    "4278439000002489819",
+    "4278439000002489823",
+    "4278439000002489827",
+    "4278439000002527011",
+    "4278439000002527040",
+    "4278439000002536015"
+  ],
+  "recordsAudited": 20,
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000002489771",
+      "field": "Translated_Name",
+      "before": "الكبير محمول الدجاج حشو ساخن / سبايسي 750 جم × 8 قطع",
+      "after": "الكبير فيليه دجاج بالبقسماط حار 750 جم × 8 عبوات",
+      "source": "Existing exact Creator English product identity and recorded 750 g × 8 packet variant; editorial translation only, not manufacturer certification",
+      "readback": "Creator exact-ID read returned new Arabic title"
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "blank_sku",
+      "count": 17
+    },
+    {
+      "type": "ambiguous_product_or_brand",
+      "ids": [
+        "4278439000002489795",
+        "4278439000002489819",
+        "4278439000002489823",
+        "4278439000002489827"
+      ],
+      "note": "Do not infer brand or combo-piece count from abbreviations"
+    },
+    {
+      "type": "image_missing_or_rights_unverified",
+      "ids": [
+        "4278439000002489823"
+      ],
+      "note": "Other image references exist in Creator but rights and Commerce/Catalyst propagation unverified"
+    },
+    {
+      "type": "translated_description_readback",
+      "note": "Not exposed by All_Products API"
+    },
+    {
+      "type": "margin_policy",
+      "note": "Financial changes held; blank percent is not missing price"
+    },
+    {
+      "type": "checkout_sync_gate",
+      "note": "Authenticated QA, deployed gateway provenance, native sync and webhook ACK unverified"
+    }
+  ],
+  "sourceLinks": [],
+  "creatorConnectorCallsConfirmed": 5,
+  "creatorConnectorCallsBreakdown": "1 application discovery; 2 compact exact-ID filtered reads; 1 update; 1 readback = 5 calls",
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "deployments": 0,
+  "qaStatus": "NO-GO; no authenticated checkout execution",
+  "next": "Follow-up 38: select next up to 20 pending storefront exact IDs"
+}
