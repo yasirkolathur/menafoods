@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-04",
+  "followup": 43,
+  "source": "Creator All_Products compact exact-ID filter; current existing English identity and variants; editorial translation only, not manufacturer certification",
+  "auditedIds": [
+    "4278439000000101684",
+    "4278439000000103918",
+    "4278439000002392036",
+    "4278439000002393007",
+    "4278439000002393032",
+    "4278439000002394007",
+    "4278439000002395011",
+    "4278439000002396003",
+    "4278439000002397007",
+    "4278439000002399011",
+    "4278439000002399036",
+    "4278439000002400015",
+    "4278439000002401011",
+    "4278439000002402011",
+    "4278439000002403036",
+    "4278439000002404007",
+    "4278439000002405007",
+    "4278439000002414011",
+    "4278439000002414040",
+    "4278439000002415007"
+  ],
+  "auditedCount": 20,
+  "verifiedChanges": [
+    {
+      "id": "4278439000002414011",
+      "sku": "SKU-2532",
+      "before": "1000 قطعة 4 أوز المطبوعة أكواب ورق الحائط واحد",
+      "after": "أكواب ورقية مطبوعة بجدار واحد، 4 أونصات، 1000 قطعة",
+      "field": "Translated_Name",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002404007",
+      "sku": "SKU-2530",
+      "before": "عصير الزجاج ورقة حامل 2 ثقوب",
+      "after": "حامل أكواب عصير ورقي بفتحتين",
+      "field": "Translated_Name",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002399011",
+      "sku": "SKU-2523",
+      "before": "ياسكو غطاء نظيفة غرفة 8-16 أوز",
+      "after": "غطاء قبة شفاف من جاسكو للأكواب 8–16 أونصة",
+      "field": "Translated_Name",
+      "readbackVerified": true
+    }
+  ],
+  "issues": [
+    "Packaging quantities and selling UOM require label confirmation",
+    "Several customer Arabic names remain literal or ambiguous",
+    "Product images and redistribution rights not verified",
+    "Commerce/Catalyst propagation not verified",
+    "Translated description/packing not exposed in All_Products readback",
+    "Margin/category pricing policy remains on hold",
+    "Authenticated Catalog/Checkout and webhook/fan-out ACK evidence missing"
+  ],
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "creatorConnectorCallsObserved": 5,
+  "readback": "All 3 changed IDs independently retrieved and matched exact Arabic values",
+  "qaGate": "NO-GO"
+}
