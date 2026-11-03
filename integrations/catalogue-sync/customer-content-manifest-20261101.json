@@ -291,216 +291,6 @@
   ],
   "pendingProducts": [
     {
-      "id": "4278439000000101684",
-      "sku": "CR1087",
-      "name": "French fries Golden Passion 2.5kg x4 9/9 Cuts",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000000103918",
-      "sku": "CR1400",
-      "name": "Beef Meat Balls 500g * 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002392036",
-      "sku": "SKU-2520",
-      "name": "HAUTE COFFRE 24 OZ Round Black Base150 pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002393007",
-      "sku": "SKU-2516",
-      "name": "Janah Tissue (300) 6 Pack x 5 Pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002393032",
-      "sku": "SKU-2519",
-      "name": "HAUTE COFFRE 14 OZ Round Black Base 150  pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand"
-      ]
-    },
-    {
-      "id": "4278439000002394007",
-      "sku": "SKU-2517",
-      "name": "ZADO Toilet Roll 10+2×4",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002395011",
-      "sku": "SKU-2518",
-      "name": "HAUTE COFFRE 32 OZ Round Black Base150 pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002396003",
-      "sku": "SKU-2521",
-      "name": "Cork pizza box, medium size, white carton, 100 pieces RO 9",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002397007",
-      "sku": "SKU-2522",
-      "name": "SANITA SERV-U MAXI ROLL 300 M x 6",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002399011",
-      "sku": "SKU-2523",
-      "name": "JASCO LID CLEAR DOME 8-16 Oz",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002399036",
-      "sku": "SKU-2525",
-      "name": "JUICE CUP JASCO 8OZ CLEAR WIthout  LID 1000 pieces",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002400015",
-      "sku": "SKU-2524",
-      "name": "PIZZA FILLING FOAM  SPACK LARGE 100PCS R012",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002401011",
-      "sku": "SKU-2526",
-      "name": "JUICE CUP JASCO 12oz CLEAR W/O LID 1000 PIECES",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002402011",
-      "sku": "SKU-2527",
-      "name": "RICE ZAIQA KERNAL BASMATI 8X5KG",
-      "storefront": true,
-      "category": "Rice, Pulses & Flours",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002403036",
-      "sku": "SKU-2529",
-      "name": "SURRATI KEWRA WATER 24*270ML",
-      "storefront": true,
-      "category": "Bakery, Beverages & More",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002404007",
-      "sku": "SKU-2530",
-      "name": "Juice Glass Paper Holder 2 holes",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002405007",
-      "sku": "SKU-2531",
-      "name": "Chicken Wings Bone-In, Skin-On 900g - Sadia",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002414011",
-      "sku": "SKU-2532",
-      "name": "1000 Pieces 4 Oz Printed Single Wall Paper Cups",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002414040",
-      "sku": "SKU-2533",
-      "name": "Paper Cup 2.5 oz 50 Pieces (20 Packs )",
-      "storefront": true,
-      "category": "Eco-Friendly Packaging",
-      "reviewFields": [
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002415007",
-      "sku": "SKU-2534",
-      "name": "Frozen Indian Veal Leg 5 Star 5KG x 4",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
       "id": "4278439000002439015",
       "sku": "SKU-2536",
       "name": "Koi Fish  Whole 800 -1000 g 20 kg",
@@ -18460,7 +18250,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run42.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run43.json",
   "lastUpdateDate": "2026-11-04",
   "reviewedNoChangeProducts": [
     {
@@ -19782,24 +19572,235 @@
         "Description",
         "Package_Details"
       ]
+    },
+    {
+      "id": "4278439000000101684",
+      "sku": "CR1087",
+      "name": "French fries Golden Passion 2.5kg x4 9/9 Cuts",
+      "storefront": true,
+      "category": "Ready to Cook",
+      "reviewFields": [
+        "margin_rule_pending"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000000103918",
+      "sku": "CR1400",
+      "name": "Beef Meat Balls 500g * 20",
+      "storefront": true,
+      "category": "Ready to Cook",
+      "reviewFields": [
+        "margin_rule_pending"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002392036",
+      "sku": "SKU-2520",
+      "name": "HAUTE COFFRE 24 OZ Round Black Base150 pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002393007",
+      "sku": "SKU-2516",
+      "name": "Janah Tissue (300) 6 Pack x 5 Pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002393032",
+      "sku": "SKU-2519",
+      "name": "HAUTE COFFRE 14 OZ Round Black Base 150  pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002394007",
+      "sku": "SKU-2517",
+      "name": "ZADO Toilet Roll 10+2×4",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002395011",
+      "sku": "SKU-2518",
+      "name": "HAUTE COFFRE 32 OZ Round Black Base150 pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002396003",
+      "sku": "SKU-2521",
+      "name": "Cork pizza box, medium size, white carton, 100 pieces RO 9",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002397007",
+      "sku": "SKU-2522",
+      "name": "SANITA SERV-U MAXI ROLL 300 M x 6",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002399036",
+      "sku": "SKU-2525",
+      "name": "JUICE CUP JASCO 8OZ CLEAR WIthout  LID 1000 pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002400015",
+      "sku": "SKU-2524",
+      "name": "PIZZA FILLING FOAM  SPACK LARGE 100PCS R012",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Brand",
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002401011",
+      "sku": "SKU-2526",
+      "name": "JUICE CUP JASCO 12oz CLEAR W/O LID 1000 PIECES",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002402011",
+      "sku": "SKU-2527",
+      "name": "RICE ZAIQA KERNAL BASMATI 8X5KG",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002403036",
+      "sku": "SKU-2529",
+      "name": "SURRATI KEWRA WATER 24*270ML",
+      "storefront": true,
+      "category": "Bakery, Beverages & More",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002405007",
+      "sku": "SKU-2531",
+      "name": "Chicken Wings Bone-In, Skin-On 900g - Sadia",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002414040",
+      "sku": "SKU-2533",
+      "name": "Paper Cup 2.5 oz 50 Pieces (20 Packs )",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
+    },
+    {
+      "id": "4278439000002415007",
+      "sku": "SKU-2534",
+      "name": "Frozen Indian Veal Leg 5 Star 5KG x 4",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
+      "batch": 43
     }
   ],
   "lastBatchStats": {
     "recordsAudited": 20,
-    "verifiedTitleFieldsChanged": 0,
-    "verifiedProductsWithPartialCopyCorrections": 0,
+    "verifiedTitleFieldsChanged": 3,
+    "verifiedProductsWithPartialCopyCorrections": 3,
     "fullyCompletedProducts": 0,
     "unresolvedIssueCount": 7,
-    "reviewedUniquePostCompletion": 840,
-    "creatorConnectorCallsConfirmed": 2
+    "reviewedUniquePostCompletion": 860,
+    "creatorConnectorCallsConfirmed": 5
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
     "phase": "incremental reconciliation with low API use; separate customer-content backlog remediation ongoing",
-    "pendingContentProducts": 1457,
+    "pendingContentProducts": 1437,
     "baselineAudit": "20/20 completed previously, 2122 records",
     "unverified": "Four-way sync, authenticated checkout QA, source Modified_Time watermark and image propagation",
-    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run42.json",
+    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run43.json",
     "reviewedExactIds": [
       "4278439000002724011",
       "4278439000002725007",
@@ -19840,9 +19841,29 @@
       "4278439000002826011",
       "4278439000002827015",
       "4278439000002829011",
-      "4278439000002841015"
+      "4278439000002841015",
+      "4278439000000101684",
+      "4278439000000103918",
+      "4278439000002392036",
+      "4278439000002393007",
+      "4278439000002393032",
+      "4278439000002394007",
+      "4278439000002395011",
+      "4278439000002396003",
+      "4278439000002397007",
+      "4278439000002399011",
+      "4278439000002399036",
+      "4278439000002400015",
+      "4278439000002401011",
+      "4278439000002402011",
+      "4278439000002403036",
+      "4278439000002404007",
+      "4278439000002405007",
+      "4278439000002414011",
+      "4278439000002414040",
+      "4278439000002415007"
     ],
-    "nextAction": "Follow-up 41: next 20 unreviewed storefront exact IDs"
+    "nextAction": "Follow-up 44: select up to 20 unreviewed storefront exact IDs"
   },
-  "partialCorrections": 222
+  "partialCorrections": 225
 }
