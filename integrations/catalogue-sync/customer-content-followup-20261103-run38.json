@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-03",
+  "followup": 38,
+  "baseline": "20/20 completed earlier",
+  "creatorReport": "menafoods/mena/All_Products",
+  "selection": "20 previously unreviewed storefront IDs selected after follow-up 37; one compact exact-ID read",
+  "reviewedIds": [
+    "4278439000002537011",
+    "4278439000002549015",
+    "4278439000002566007",
+    "4278439000002568007",
+    "4278439000002570011",
+    "4278439000002571011",
+    "4278439000002572011",
+    "4278439000002585007",
+    "4278439000002586007",
+    "4278439000002587011",
+    "4278439000002589070",
+    "4278439000002590146",
+    "4278439000002593044",
+    "4278439000002593069",
+    "4278439000002601007",
+    "4278439000002601040",
+    "4278439000002602019",
+    "4278439000002606015",
+    "4278439000002607015",
+    "4278439000002607044"
+  ],
+  "recordsAudited": 20,
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000002549015",
+      "sku": "SKU-2760",
+      "field": "Translated_Name",
+      "before": "خردل أصفر طازج 3.78 كجم × 4",
+      "after": "خردل أصفر فرشلي، 4 × 3.78 كجم",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    },
+    {
+      "creatorId": "4278439000002570011",
+      "sku": "SKU-2764",
+      "field": "Translated_Name",
+      "before": "لحوم البقر فورور البرازيل ميتابوي",
+      "after": "قطع أمامية من لحم البقر البرازيلي ميتابوي",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    },
+    {
+      "creatorId": "4278439000002571011",
+      "sku": "SKU-2765",
+      "field": "Translated_Name",
+      "before": "قودي مايونيز أصلي برطمان 946 مل",
+      "after": "مايونيز قودي الأصلي، 12 برطمان × 946 مل",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    },
+    {
+      "creatorId": "4278439000002593044",
+      "sku": "SKU-2773",
+      "field": "Translated_Name",
+      "before": "تابيوكا مجمدة 700 جرام × 20 حبة   غاردن فريشل",
+      "after": "تابيوكا مجمدة جاردن فريش، 20 × 700 جم",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    },
+    {
+      "creatorId": "4278439000002601007",
+      "sku": "SKU-2775",
+      "field": "Translated_Name",
+      "before": "ثلاثة أبقار موزاريلا كتلة الجبن - مربع من 8 قطع - 2.3 كجم",
+      "after": "جبنة موزاريلا ثلاث بقرات، 8 قطع × 2.3 كجم",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    },
+    {
+      "creatorId": "4278439000002607015",
+      "sku": "SKU-2779",
+      "field": "Translated_Name",
+      "before": "كريم عبد النباتي 1 لتر × 12",
+      "after": "كريمة نباتية عابد، 12 × 1 لتر",
+      "source": "Existing exact Creator English title, brand and pack variant; editorial Arabic correction only, manufacturer-label certification pending",
+      "readback": "Exact-ID filtered Creator read returned updated value"
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "unverified_manufacturer_pack_and_media_rights",
+      "note": "Creator image references only; no Commerce/Catalyst acknowledgement"
+    },
+    {
+      "type": "unverified_unit",
+      "ids": [
+        "4278439000002570011",
+        "4278439000002568007"
+      ],
+      "note": "Empty or ambiguous selling UOM; no unit changes"
+    },
+    {
+      "type": "translated_description_readback",
+      "note": "Not exposed in All_Products"
+    },
+    {
+      "type": "margin_policy",
+      "note": "No financial edits; blank percentage does not imply missing price"
+    },
+    {
+      "type": "checkout_sync_gate",
+      "note": "Authenticated EN/AR, VAT, CTN/PCS/KG, cart, Buy Again, COD/credit, confirm-once and ACK not verified"
+    },
+    {
+      "type": "unverified_brand_and_origin",
+      "note": "No new brand/origin assertions or edits"
+    }
+  ],
+  "sourceLinks": [],
+  "creatorConnectorCallsConfirmed": 8,
+  "creatorConnectorCallsBreakdown": "1 compact exact-ID read, 6 individual title updates, 1 compact readback (excluding GitHub calls)",
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "deployments": 0,
+  "qaStatus": "NO-GO; no financial checkout executed",
+  "next": "Follow-up 39: select next up to 20 unreviewed storefront exact IDs"
+}
