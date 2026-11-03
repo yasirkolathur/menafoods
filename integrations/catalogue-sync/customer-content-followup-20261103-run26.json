@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 26",
+  "baseline": "20/20 completed previously",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "selection": "20 exact Creator IDs: 2 pending storefront with SKUs plus next 18 unreviewed IDs after run25; no full scan",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000003507007",
+      "sku": "SKU-2995",
+      "manifestStorefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003510039",
+      "sku": "SKU-2996",
+      "manifestStorefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008564006",
+      "sku": "SKU-3438",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008576014",
+      "sku": "SKU-3440",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008587026",
+      "sku": "SKU-3441",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009154012",
+      "sku": "SKU-3442",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565002",
+      "sku": "SKU-3443",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565007",
+      "sku": "SKU-3444",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565012",
+      "sku": "SKU-3445",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565017",
+      "sku": "SKU-3446",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565022",
+      "sku": "SKU-3447",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565027",
+      "sku": "SKU-3448",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565032",
+      "sku": "SKU-3449",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565037",
+      "sku": "SKU-3450",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565042",
+      "sku": "SKU-3451",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009565047",
+      "sku": "SKU-3452",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009641030",
+      "sku": "SKU-3456",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009641035",
+      "sku": "SKU-3457",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009641040",
+      "sku": "SKU-3458",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009641045",
+      "sku": "SKU-3459",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    }
+  ],
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000003507007",
+      "sku": "SKU-2995",
+      "field": "Translated_Name",
+      "before": "فيتا جبن الفلاحي القصدير 15 كجم",
+      "after": "جبنة فيتا الفلاحي، علبة صفيح 15 كجم",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing Creator product identity and recorded title/pack; Arabic editorial correction only; not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000008564006",
+      "sku": "SKU-3438",
+      "field": "Translated_Name",
+      "before": "فيلادلفيا الأصلي كريم كامل الجبن 1650 غرام × 4 - كرتون",
+      "after": "جبنة كريمية فيلادلفيا الأصلية كاملة الدسم، 1650 جم × 4 — كرتون",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing Creator product identity and recorded title/pack; Arabic editorial correction only; not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000008576014",
+      "sku": "SKU-3440",
+      "field": "Translated_Name",
+      "before": "شراب الذرة الخفيف الطازج، 24 أونصة × 12 زجاجة - كرتون",
+      "after": "شراب الذرة الخفيف فريشلي، 24 أونصة × 12 زجاجة — كرتون",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing Creator product identity and recorded title/pack; Arabic editorial correction only; not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000009641030",
+      "sku": "SKU-3456",
+      "field": "Translated_Name",
+      "before": "نوتيلا 750 غرام",
+      "after": "كريمة البندق والكاكاو نوتيلا، 750 جم",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing Creator product identity and recorded title/pack; Arabic editorial correction only; not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000009641045",
+      "sku": "SKU-3459",
+      "field": "Translated_Name",
+      "before": "ببروني شركة بريمر شيف - كيس",
+      "after": "بيبروني بريمر شيف — عبوة",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing Creator product identity and recorded title/pack; Arabic editorial correction only; not manufacturer certification"
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-2996",
+      "issue": "750MB could be mistaken capacity unit; Arabic currently says megabytes; requires label before correcting to mL"
+    },
+    {
+      "sku": "SKU-3441",
+      "issue": "Beef Bone in may mean bone-in beef rather than beef bones; ambiguous Arabic identity held"
+    },
+    {
+      "sku": "SKU-3457",
+      "issue": "Storefront Yes despite manifest false; missing image and no verified carton pack count"
+    },
+    {
+      "sku": "SKU-3458",
+      "issue": "Mama Dynamite Bag product identity/contents unclear; held"
+    },
+    {
+      "group": "SKU-3443–3452 and SKU-3456–3459",
+      "issue": "Multiple absent Creator images; no rights-cleared exact-variant assets uploaded"
+    },
+    {
+      "group": "Non-storefront SKUs",
+      "issue": "Margin and customer pricing held; no financial changes"
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 31,
+  "apiBillableUnits": "unavailable",
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "checkout": "NO-GO: no authenticated EN/AR/cart/checkout confirmation evidence",
+  "limitations": "Translated_Description and Translated_Package not exposed by All_Products readback. No Commerce/Catalyst image verification."
+}
