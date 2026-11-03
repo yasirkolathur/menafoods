@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 28",
+  "baseline": "20/20 complete",
+  "selection": "20 previously unreviewed storefront records by exact Creator ID from persistent manifest",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000002484007",
+      "manifestName": "Chtoura Garden Chickpeas With Tahini 380G  x 24",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489003",
+      "manifestName": "BEEF BURGER Small 200g x30",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489007",
+      "manifestName": "BEEF BURGER 24 1200g x 8",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489011",
+      "manifestName": "BEEF BURGER BAG 1kg x 9",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489015",
+      "manifestName": "CHARGRILLED JUMBO BEEF BURGER BAG 1kg x 6",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489019",
+      "manifestName": "CHICKEN BURGER Small 30 X 200 GMS",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489023",
+      "manifestName": "CHICKEN BURGER  8 Pcs 400g x 20",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489027",
+      "manifestName": "CHICKEN BURGER 1200g x 8",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489031",
+      "manifestName": "JUMBO CHICKEN BURGER 1kg x 6",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489035",
+      "manifestName": "CHICKEN BURGER Bags 1kg x 9",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489039",
+      "manifestName": "BREADED CHICKEN BURGER 400g x 12",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489043",
+      "manifestName": "BREADED CHICKEN BURGER H/S 400g x 12",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489047",
+      "manifestName": "BREADED CHICKEN BURGER 900g x 9",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489051",
+      "manifestName": "BREADED CHICKEN BURGER Jumbo 1kg x 6",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489055",
+      "manifestName": "BREADED CHICKEN BURGER Bulk 1kg x  6",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489063",
+      "manifestName": "VEGETABLE Burger 227g x 20",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489067",
+      "manifestName": "MEATLESS BURGER 200g x 24",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489071",
+      "manifestName": "MUTTON Samosas 240g x 20",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489075",
+      "manifestName": "CHICKEN Samosas 240g x 20",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    },
+    {
+      "creatorId": "4278439000002489079",
+      "manifestName": "AL KABEER CHEESE Samosas 240g x 20",
+      "sku": "",
+      "storefront": true,
+      "exactIdRead": "success",
+      "existingUnit": "ctn",
+      "existingImages": "present",
+      "contentAction": "held: manufacturer/label confirmation missing"
+    }
+  ],
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "type": "missing_sku",
+      "count": 20,
+      "action": "Creator SKU blank; preserve existing Books item IDs, do not invent SKU or create products"
+    },
+    {
+      "type": "missing_description",
+      "count": 20,
+      "action": "Descriptions not exposed in current read; manufacturer or label evidence needed before factual content updates"
+    },
+    {
+      "type": "variant_ambiguity",
+      "examples": [
+        "BEEF BURGER 24 1200g x 8",
+        "CHICKEN BURGER Small 30 X 200 GMS",
+        "BREADED CHICKEN BURGER H/S 400g x 12"
+      ],
+      "action": "Do not infer piece weights or meaning of H/S"
+    },
+    {
+      "type": "image_propagation",
+      "count": 20,
+      "action": "Creator images present, Commerce/Catalyst rights and rendering unverified"
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 21,
+  "apiBillableUnits": "unavailable",
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "checkout": "NO-GO; no authenticated checkout receipts",
+  "limitations": [
+    "No manufacturer/authorized label verification for these 20 variants",
+    "No authenticated EN/AR RTL, CTN/PCS/KG, cart, Buy Again, COD/credit, VAT or confirm-once test receipts",
+    "No deployed source/rollback, webhook authentication, native sync and ACK verification"
+  ]
+}
