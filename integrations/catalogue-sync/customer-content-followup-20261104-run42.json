@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-04",
+  "followup": 42,
+  "phase": "post-baseline customer-facing content remediation",
+  "baseline": "20/20 complete; 2122 baseline records",
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002770040",
+    "4278439000002771015",
+    "4278439000002772003",
+    "4278439000002773003",
+    "4278439000002782007",
+    "4278439000002784007",
+    "4278439000002785007",
+    "4278439000002785028",
+    "4278439000002787007",
+    "4278439000002788007",
+    "4278439000002789007",
+    "4278439000002792003",
+    "4278439000002793024",
+    "4278439000002802007",
+    "4278439000002804007",
+    "4278439000002824027",
+    "4278439000002826011",
+    "4278439000002827015",
+    "4278439000002829011",
+    "4278439000002841015"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorWrites": 0,
+  "readback": "Zoho Creator All_Products exact-ID compact criteria returned 20 matching records; no writes",
+  "products": [
+    {
+      "id": "4278439000002770040",
+      "sku": "SKU-2867",
+      "name": "NOOR SPOON BIG WHITE 1000 PCS",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002771015",
+      "sku": "SKU-2866",
+      "name": "Trash Bag 30 Gallon 9Kg",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002772003",
+      "sku": "SKU-2868",
+      "name": "Chicken Moshab Reg Americana 10 x 1 kg - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002773003",
+      "sku": "SKU-2869",
+      "name": "Chicken Moshab Hot Americana 10 * 1 kg",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002782007",
+      "sku": "SKU-2876",
+      "name": "White Flour Sada 45 kg",
+      "category": "Rice, Pulses & Flours",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002784007",
+      "sku": "SKU-2878",
+      "name": "Turmeric Powder Eastern 1 kg x 12",
+      "category": "Masala, Salt & Sugar",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002785007",
+      "sku": "SKU-2879",
+      "name": "Coriander Powder Eastern 12 x 1 kg",
+      "category": "Masala, Salt & Sugar",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002785028",
+      "sku": "SKU-2884",
+      "name": "Appron Kitchen 10 x 100 count - carton",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002787007",
+      "sku": "SKU-2881",
+      "name": "Eastern Meat Masala 12 x 1 kg",
+      "category": "Masala, Salt & Sugar",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002788007",
+      "sku": "SKU-2882",
+      "name": "Eastern Catering Coconut Oil 2 Litre - Pack of 6",
+      "category": "Cooking Oils",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002789007",
+      "sku": "SKU-2883",
+      "name": "Pure Pran Mustard Oil - 1L x12",
+      "category": "Cooking Oils",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002792003",
+      "sku": "SKU-2886",
+      "name": "PD Shrimps 100/200 (400 grams)",
+      "category": "Seafood",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002793024",
+      "sku": "SKU-2890",
+      "name": "Fairy Lemon Dish Washing Liquid Soap 1 Litre",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002802007",
+      "sku": "SKU-2894",
+      "name": "Mackerel, 400-600 g, Whole Round, Frozen, NW, 20 kg",
+      "category": "Seafood",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002804007",
+      "sku": "SKU-2895",
+      "name": "Badian Khatai - Badiyan Khatai - Chakra Phool - Star Anise",
+      "category": "Masala, Salt & Sugar",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002824027",
+      "sku": "SKU-2898",
+      "name": "French fries Golden Phoenix Straight Cut 9/9 mm  2.5 kg x 4",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002826011",
+      "sku": "SKU-2896",
+      "name": "Kamil Frozen Beef Forequarters Roll 4 x 4.5kg",
+      "category": "Meat",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002827015",
+      "sku": "SKU-2897",
+      "name": "KAMIL Frozen Indian Beef Rumpsteak 4 x 5 kg (20kg)",
+      "category": "Meat",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002829011",
+      "sku": "SKU-2899",
+      "name": "16 oz Clear Plastic Cups Carton of 1000pcs",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    },
+    {
+      "id": "4278439000002841015",
+      "sku": "SKU-2900",
+      "name": "Lunch Form Box DVD Double Lock LB2/3",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "review": "Creator exact identity, Arabic name, brand, category and selling unit inspected; no evidence-backed edit performed."
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "incorrect_translation_requires_product_identity_confirmation",
+      "ids": [
+        "4278439000002785028"
+      ],
+      "note": "Kitchen Appron title vs Arabic kitchen tissues; hold pending exact label."
+    },
+    {
+      "type": "ambiguous_frozen_chicken_variant",
+      "ids": [
+        "4278439000002772003",
+        "4278439000002773003"
+      ],
+      "note": "Moshab Regular/Hot names need authoritative SKU/label."
+    },
+    {
+      "type": "ambiguous_units_and_pack",
+      "ids": [
+        "4278439000002771015",
+        "4278439000002792003",
+        "4278439000002841015"
+      ],
+      "note": "Trash bag 9kg, shrimp 400g with kg selling unit, lunch-box variant need pack confirmation."
+    },
+    {
+      "type": "unverified_brand_and_origin",
+      "note": "Brand/origin claims and product variants not manufacturer certified."
+    },
+    {
+      "type": "image_rights_and_propagation",
+      "note": "No exact-image redistribution rights or Commerce/Catalyst receipts verified."
+    },
+    {
+      "type": "translated_field_readback_limit",
+      "note": "Translated_Description and Translated_Package not exposed by All_Products readback."
+    },
+    {
+      "type": "financial_and_checkout_release_hold",
+      "note": "Margin policy unapproved; no authenticated EN/AR RTL, VAT, cart, Buy Again, COD/credit, confirm-once checkout or cross-system ACK evidence."
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 2,
+  "creatorConnectorCallsDetail": "One app discovery and one compact exact-ID read; billable API units unknown",
+  "financialChanges": 0,
+  "syncChanges": 0,
+  "deployments": 0
+}
