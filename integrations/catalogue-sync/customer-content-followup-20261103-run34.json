@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-03",
+  "followup": 34,
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002489499",
+    "4278439000002489511",
+    "4278439000002489515",
+    "4278439000002489519",
+    "4278439000002489523",
+    "4278439000002489527",
+    "4278439000002489531",
+    "4278439000002489535",
+    "4278439000002489539",
+    "4278439000002489543",
+    "4278439000002489547",
+    "4278439000002489551",
+    "4278439000002489555",
+    "4278439000002489559",
+    "4278439000002489563",
+    "4278439000002489571",
+    "4278439000002489575",
+    "4278439000002489579",
+    "4278439000002489583",
+    "4278439000002489587"
+  ],
+  "verifiedChanges": [
+    {
+      "id": "4278439000002489547",
+      "field": "Translated_Name",
+      "before": "مكعبات زر الكبير مكعبات لحم الضأن 907 جرام × 20",
+      "after": "الكبير مكعبات لحم الضأن 907 جرام × 20",
+      "source": "Existing Creator exact-ID English identity and packing; Arabic editorial correction only, not manufacturer certification",
+      "readbackVerified": true
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "blank_sku",
+      "count": 20
+    },
+    {
+      "type": "image_rights_and_propagation",
+      "count": 20
+    },
+    {
+      "type": "translated_description_readback",
+      "count": 20
+    },
+    {
+      "type": "margin_policy_pending",
+      "detail": "Financial fields held unchanged"
+    },
+    {
+      "type": "product_identity_and_pack_certification",
+      "detail": "Manufacturer label confirmation pending; avoid guessing variants, country or GTIN"
+    },
+    {
+      "type": "checkout_sync_gate",
+      "detail": "Authenticated checkout and end-to-end ACK unverified; NO-GO"
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 23,
+  "financialChanges": 0,
+  "imagesChanged": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": "20 exact-ID Creator reads; one update and readback; application discovery call. No full rescan, no cross-system writes. No supplier details or private prices stored."
+}
