@@ -19466,102 +19466,282 @@
     {
       "id": "4278439000002724011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2839",
+      "name": "Jeerakasala Rice 20Kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002725007",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2840",
+      "name": "White Chana # 8  1*15kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002733007",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2842",
+      "name": "Hyfun French fries 6/6 mm 2.5 kg x 5 - Carton",
+      "storefront": true,
+      "category": "Ready to Cook",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002733040",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2843",
+      "name": "SMALL HAMBURGER 500 PC U-1 PACK (FOP)",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002736007",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2844",
+      "name": "Kamil Beef Bobby veal 900g x 20",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002736036",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2845",
+      "name": "Al Tamam Frozen Bobby Veal 900 g x 20",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002736065",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2849",
+      "name": "Kabous tea 24*100 bags",
+      "storefront": true,
+      "category": "Tea & Coffee",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002738015",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2847",
+      "name": "1131263 (25) Brown Kraft Box 25 oz 200 Count",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002740007",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2851",
+      "name": "Cosmoplast Plastic Sauce Cups CZ03 White with Clear Lids 1 oz 100 pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002741007",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2852",
+      "name": "AL BAKHERAH INDIAN SELLA PARMAL 40kg",
+      "storefront": true,
+      "category": "Rice, Pulses & Flours",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002742015",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2853",
+      "name": "Wooden tea & coffee stirrers, 500 pieces x 20 box",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002742040",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2854",
+      "name": "Clear Line 8\" x 12\" Seal Top Plastic Food Bag - 100/Pack x 10",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002742065",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2855",
+      "name": "Paper Plate 7 Inch, 12 x 100 Pieces",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002746011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2856",
+      "name": "BROWN PAPER NO.3-5 KG",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002747011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2857",
+      "name": "Brown paper No 5 - 5 kg",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002749011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2859",
+      "name": "FLEVA  LOOSE BLACK TEA POWDER 10KG",
+      "storefront": true,
+      "category": "Tea & Coffee",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002757003",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2861",
+      "name": "LUNCH BOX SADA DOUBLE LOCK LB2",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002767011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2863",
+      "name": "Disposable Plastic Hand Gloves",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002769011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2864",
+      "name": "Plastic round containers 115mm 350ml 12oz white",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     },
     {
       "id": "4278439000002770011",
       "reason": "Reviewed exact Creator identity and customer-facing fields; no independently substantiated correction.",
-      "batch": 41
+      "batch": 41,
+      "sku": "SKU-2865",
+      "name": "Plastic round containers Lid 200.250.350.500 ml white",
+      "storefront": true,
+      "category": "Packaging and Consumables",
+      "reviewFields": [
+        "Description",
+        "Package_Details",
+        "image"
+      ]
     }
   ],
   "lastBatchStats": {
