@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-03",
+  "run": 35,
+  "phase": "customer-content remediation",
+  "recordsAudited": 20,
+  "exactCreatorIds": [
+    "4278439000002489591",
+    "4278439000002489595",
+    "4278439000002489599",
+    "4278439000002489603",
+    "4278439000002489607",
+    "4278439000002489611",
+    "4278439000002489615",
+    "4278439000002489619",
+    "4278439000002489623",
+    "4278439000002489627",
+    "4278439000002489631",
+    "4278439000002489635",
+    "4278439000002489639",
+    "4278439000002489643",
+    "4278439000002489655",
+    "4278439000002489659",
+    "4278439000002489663",
+    "4278439000002489667",
+    "4278439000002489671",
+    "4278439000002489675"
+  ],
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000002489675",
+      "field": "Translated_Name",
+      "before": "لفائف التورتيلا حار و حار 875 جرام × 10",
+      "after": "لفائف تورتيلا الكبير الحارة 875 جرام × 10",
+      "source": "Existing Creator Product_Name, Brand and pack identity; editorial correction only",
+      "readbackVerified": true
+    }
+  ],
+  "issueGroups": [
+    "20 blank Creator SKU fields; no SKU generated",
+    "Manufacturer-label verification of pack variants outstanding",
+    "Existing image redistribution rights and Commerce/Catalyst propagation unverified",
+    "Translated description/packing API readback unavailable",
+    "Margin policy and validated cost basis absent; no financial changes",
+    "Authenticated Catalog/Checkout and sync ACK evidence unavailable"
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000002489671",
+      "reason": "H/S abbreviation in title not independently expanded; do not guess hot/spicy variant"
+    }
+  ],
+  "apiCallsObserved": 24,
+  "apiCallNote": "1 application discovery, 20 exact ID reads, 1 update, 1 readback, 1 manifest fetch; GitHub calls excluded; billable units unknown",
+  "safety": "No prices, costs, stock, tax, orders, images, settings or deployments changed."
+}
