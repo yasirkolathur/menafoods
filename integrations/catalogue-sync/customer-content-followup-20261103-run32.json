@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-03",
+  "followup": 32,
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002489319",
+    "4278439000002489323",
+    "4278439000002489327",
+    "4278439000002489331",
+    "4278439000002489335",
+    "4278439000002489339",
+    "4278439000002489343",
+    "4278439000002489347",
+    "4278439000002489351",
+    "4278439000002489355",
+    "4278439000002489359",
+    "4278439000002489363",
+    "4278439000002489367",
+    "4278439000002489371",
+    "4278439000002489375",
+    "4278439000002489379",
+    "4278439000002489383",
+    "4278439000002489387",
+    "4278439000002489391",
+    "4278439000002489395"
+  ],
+  "verifiedChanges": [
+    {
+      "id": "4278439000002489319",
+      "before": "الكبير روبيان مخبوز 250 جرام × 24",
+      "after": "الكبير روبيان مغطى بالبقسماط 250 جرام × 24",
+      "field": "Translated_Name",
+      "source": "Existing exact-ID Creator Product_Name and prior Translated_Name; editorial correction; manufacturer label not certified",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489335",
+      "before": "الكبير سمك فيليه مخبوز 330 جرام × 20",
+      "after": "الكبير فيليه سمك مغطى بالبقسماط 330 جرام × 20",
+      "field": "Translated_Name",
+      "source": "Existing exact-ID Creator Product_Name and prior Translated_Name; editorial correction; manufacturer label not certified",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489339",
+      "before": "الكبير - سمك فيليه مخبوز (سائب) 1 كجم × 5",
+      "after": "الكبير فيليه سمك مغطى بالبقسماط (عبوة كبيرة) 1 كجم × 5",
+      "field": "Translated_Name",
+      "source": "Existing exact-ID Creator Product_Name and prior Translated_Name; editorial correction; manufacturer label not certified",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489355",
+      "before": "أجنحة الكبير للشواء 400 غرام × 12",
+      "after": "الكبير أجنحة دجاج بصلصة الباربكيو 400 جرام × 12",
+      "field": "Translated_Name",
+      "source": "Existing exact-ID Creator Product_Name and prior Translated_Name; editorial correction; manufacturer label not certified",
+      "readbackVerified": true
+    }
+  ],
+  "issues": [
+    {
+      "type": "blank_sku",
+      "count": 20
+    },
+    {
+      "type": "customer_description_not_exposed_for_readback",
+      "count": 20
+    },
+    {
+      "type": "image_rights_and_commerce_catalyst_propagation_unverified",
+      "count": 20
+    },
+    {
+      "type": "margin_policy_pending",
+      "count": 17
+    },
+    {
+      "type": "authenticated_checkout_and_four_way_sync_unverified",
+      "count": 1
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 29,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "productionDeploys": 0,
+  "notes": "20 exact-ID reads, four title updates and four readbacks, plus application discovery; SKU blanks not filled. Existing carton units, pack variants, Books IDs and prices preserved. No external manufacturer claims."
+}
