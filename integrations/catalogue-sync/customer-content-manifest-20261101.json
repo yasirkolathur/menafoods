@@ -19949,7 +19949,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run27.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run28.json",
   "lastUpdateDate": "2026-11-03",
   "reviewedNoChangeProducts": [
     {
@@ -20064,7 +20064,7 @@
     "verifiedProductsWithPartialCopyCorrections": 0,
     "fullyCompletedProducts": 0,
     "unresolvedIssueCount": 4,
-    "reviewedUniquePostCompletion": 540,
+    "reviewedUniquePostCompletion": 560,
     "creatorConnectorCallsConfirmed": 21
   },
   "deferredContentFieldsCount": 212,
@@ -20081,7 +20081,7 @@
       "fullyCompletedProducts": 0,
       "deferredOrStillPending": 20,
       "newIssueCount": 4,
-      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261103-run27.json"
+      "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261103-run28.json"
     },
     "reviewedExactIds": [
       "4278439000002392036",
@@ -20623,7 +20623,27 @@
       "4278439000009701052",
       "4278439000009702002",
       "4278439000009702007",
-      "4278439000009710072"
+      "4278439000009710072",
+      "4278439000002484007",
+      "4278439000002489003",
+      "4278439000002489007",
+      "4278439000002489011",
+      "4278439000002489015",
+      "4278439000002489019",
+      "4278439000002489023",
+      "4278439000002489027",
+      "4278439000002489031",
+      "4278439000002489035",
+      "4278439000002489039",
+      "4278439000002489043",
+      "4278439000002489047",
+      "4278439000002489051",
+      "4278439000002489055",
+      "4278439000002489063",
+      "4278439000002489067",
+      "4278439000002489071",
+      "4278439000002489075",
+      "4278439000002489079"
     ],
     "nextAction": "Next unreviewed exact Creator IDs from manifest, prioritize storefront; no full scan"
   },
