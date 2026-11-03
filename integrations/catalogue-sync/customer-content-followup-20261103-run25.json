@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 25",
+  "baseline": "20/20 completed earlier",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "selection": "Next 20 exact IDs after prior run24 maximum Creator ID; storefront first, then non-storefront; no full scan",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000007708127",
+      "sku": "SKU-3420",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007842162",
+      "sku": "SKU-3425",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007847109",
+      "sku": "SKU-3424",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007968008",
+      "sku": "SKU-3427",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008056010",
+      "sku": "SKU-3428",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008101020",
+      "sku": "SKU-3430",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008121115",
+      "sku": "SKU-3432",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008161013",
+      "sku": "SKU-3433",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009734008",
+      "sku": "SKU-3484",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007722225",
+      "sku": "SKU-3422",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007725177",
+      "sku": "SKU-3421",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007843112",
+      "sku": "SKU-3423",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000007933008",
+      "sku": "SKU-3426",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008096060",
+      "sku": "SKU-3429",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008101027",
+      "sku": "SKU-3431",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008187152",
+      "sku": "SKU-3434",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008269016",
+      "sku": "SKU-3435",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008381013",
+      "sku": "SKU-3437",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008393029",
+      "sku": "SKU-3436",
+      "storefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000008562013",
+      "sku": "SKU-3439",
+      "storefront": false,
+      "exactIdRead": "success"
+    }
+  ],
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000008121115",
+      "sku": "SKU-3432",
+      "field": "Translated_Name",
+      "before": "البطاطس المقلية الفرنسية 2.5 كجم × 4 موجة ممتعة",
+      "after": "بطاطس مقلية فن ويف، 2.5 كجم × 4",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing exact Creator product name/brand and recorded pack only; editorial correction, not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000007725177",
+      "sku": "SKU-3421",
+      "field": "Translated_Name",
+      "before": "لحم البقر نالي 1KG (Bone MARROW)",
+      "after": "نالي بقري (عظم النخاع)، 1 كجم",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing exact Creator product name/brand and recorded pack only; editorial correction, not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000008393029",
+      "sku": "SKU-3436",
+      "field": "Translated_Name",
+      "before": "گرم مرچ پاؤڈر (گرم شیٹا پاؤڈر)",
+      "after": "مسحوق الفلفل الحار (شطة حارة)",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing exact Creator product name/brand and recorded pack only; editorial correction, not manufacturer certification"
+    },
+    {
+      "creatorId": "4278439000008562013",
+      "sku": "SKU-3439",
+      "field": "Translated_Name",
+      "before": "شراب البان كيك الأصلي الطازج 709 مل × 12 قطعة - علبة",
+      "after": "شراب بان كيك فريشلي الأصلي، 709 مل × 12 عبوة - كرتون",
+      "write": "success",
+      "readback": "verified",
+      "basis": "Existing exact Creator product name/brand and recorded pack only; editorial correction, not manufacturer certification"
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3433",
+      "kind": "brand mismatch",
+      "detail": "Product title Freshly Hot Paprika but Brand field SAUDIA; hold pending label evidence."
+    },
+    {
+      "sku": "SKU-3433",
+      "kind": "selling unit",
+      "detail": "Undefined rpt selling unit for carton claim; no conversion."
+    },
+    {
+      "sku": "SKU-3484",
+      "kind": "missing image",
+      "detail": "No linked image in Creator; hold until exact-product rights and upload verification."
+    },
+    {
+      "sku": "SKU-3429 / SKU-3431",
+      "kind": "possible duplicate",
+      "detail": "Two Creator IDs share essentially identical Forsana analogue cheese name and pack; hold mapping/merger."
+    },
+    {
+      "sku": "SKU-3424 / SKU-3428 / SKU-3430",
+      "kind": "margin review",
+      "detail": "Margin_Configured=No and selling price equals base price; no financial changes."
+    },
+    {
+      "sku": "SKU-3435",
+      "kind": "brand unknown",
+      "detail": "MATTANAD in title but Brand blank; do not infer manufacturer."
+    },
+    {
+      "sku": "SKU-3422",
+      "kind": "pack unknown",
+      "detail": "Green chili sauce has no validated net content/pack count."
+    },
+    {
+      "sku": "SKU-3437",
+      "kind": "pack unknown",
+      "detail": "Chicken powder has no confirmed brand or pack variant."
+    }
+  ],
+  "qa": "NO-GO; authenticated EN/AR RTL, CTN/PCS/KG, cart, VAT, COD/credit, Buy Again, confirm-once, Commerce/Catalyst image propagation and ACK not independently proven",
+  "readbackLimitations": [
+    "Translated_Description",
+    "Translated_Package"
+  ],
+  "financialEdits": 0,
+  "imageUploads": 0,
+  "deployments": 0,
+  "creatorConnectorCallsConfirmed": 44,
+  "apiUnits": "unavailable"
+}
