@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-05",
+  "run": "67",
+  "baselineAudit": "20/20 complete before customer content remediation",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run66.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000005815135",
+    "4278439000005870053",
+    "4278439000005878019",
+    "4278439000005922017",
+    "4278439000005923011",
+    "4278439000005926007",
+    "4278439000005975177",
+    "4278439000005977213",
+    "4278439000005988133",
+    "4278439000005993015",
+    "4278439000006031019",
+    "4278439000006032069",
+    "4278439000006058037",
+    "4278439000006058062",
+    "4278439000006059091",
+    "4278439000006064094",
+    "4278439000006064123",
+    "4278439000006065117",
+    "4278439000006068130",
+    "4278439000006068159"
+  ],
+  "allCreatorIdsAndSkusMatched": true,
+  "storefrontRecords": 20,
+  "verifiedFieldChanges": [],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3322",
+      "issue": "Napkin tissue pack quantity and bag selling unit unspecified"
+    },
+    {
+      "sku": "SKU-3320",
+      "issue": "Food colour brand/pack unspecified; dz selling unit not verified"
+    },
+    {
+      "sku": "SKU-3323",
+      "issue": "Rama versus ROMA brand discrepancy and out unit undefined"
+    },
+    {
+      "sku": "SKU-3325",
+      "issue": "Vijay brand blank despite name; needs exact label"
+    },
+    {
+      "sku": "SKU-3324",
+      "issue": "President versus Al Marai brand mismatch; out unit undefined"
+    },
+    {
+      "sku": "SKU-3329",
+      "issue": "SUFRA/HEZAM 130 x 130 and 400PCS ambiguous"
+    },
+    {
+      "sku": "SKU-3330",
+      "issue": "28 packs x 12 pieces ambiguous; rpt unit undefined"
+    },
+    {
+      "sku": "SKU-3328",
+      "issue": "Gulf bowl No.10 capacity and 50 pcs carton ambiguous"
+    },
+    {
+      "sku": "SKU-3332",
+      "issue": "20 packs x 50 pieces packaging not independently confirmed"
+    },
+    {
+      "sku": "SKU-3335",
+      "issue": "Fong versus Huy Fong brand and exact variant needs label"
+    },
+    {
+      "sku": "SKU-3340",
+      "issue": "6 x 300 roll sheet units unspecified; out unit undefined"
+    },
+    {
+      "sku": "SKU-3341",
+      "issue": "Extra large paper bag size/quantity unspecified"
+    },
+    {
+      "sku": "SKU-3343",
+      "issue": "HAUTE COFFRE product name and REC/HC container dimensions unclear"
+    },
+    {
+      "sku": "SKU-3347",
+      "issue": "5 x 5KG tissue roll weight unusual; rpt unit undefined and Mix brands non-specific"
+    },
+    {
+      "sku": "all",
+      "issue": "Exact-product image rights and Commerce/Catalyst acknowledgement unverified"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout QA missing"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "productWrites": 0,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000007036047",
+  "nextSku": "SKU-3355"
+}
