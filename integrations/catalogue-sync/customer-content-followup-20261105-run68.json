@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-05",
+  "run": "68",
+  "baselineAudit": "20/20 already completed",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run67.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000007036047",
+    "4278439000007093077",
+    "4278439000007094517",
+    "4278439000007098084",
+    "4278439000007102007",
+    "4278439000007102311",
+    "4278439000007104045",
+    "4278439000007129013",
+    "4278439000007172072",
+    "4278439000007183171",
+    "4278439000007184189",
+    "4278439000007195025",
+    "4278439000007197021",
+    "4278439000007201011",
+    "4278439000007206019",
+    "4278439000007246105",
+    "4278439000007246216",
+    "4278439000007250314",
+    "4278439000007321570",
+    "4278439000007323078"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "storefrontYesCount": 20,
+  "verifiedFieldChanges": [],
+  "unresolvedIssueCount": 14,
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3355",
+      "issue": "out selling unit undefined versus 18 x 500 ml carton"
+    },
+    {
+      "sku": "SKU-3360",
+      "issue": "Shrimp 16–20 sizing convention and per-kg vs 10kg case require source"
+    },
+    {
+      "sku": "SKU-3372",
+      "issue": "10×750 EGP ambiguous unit/origin; hold pack verification"
+    },
+    {
+      "sku": "SKU-3366",
+      "issue": "Forsana versus FURSAN brand mismatch; 184 slices / 8 pieces / 2.27kg ambiguous"
+    },
+    {
+      "sku": "SKU-3362",
+      "issue": "Safi may be fish type rather than brand; 0% glaze claim needs label"
+    },
+    {
+      "sku": "SKU-3373",
+      "issue": "Damaski brand blank; tin 10kg exact label needed"
+    },
+    {
+      "sku": "SKU-3374",
+      "issue": "Alrai brand and 12×1L carton exact packaging unverified"
+    },
+    {
+      "sku": "SKU-3379",
+      "issue": "bag selling unit versus 12×1kg carton"
+    },
+    {
+      "sku": "SKU-3380",
+      "issue": "Historical 'Buy' prefix differs from current product name; verify provenance"
+    },
+    {
+      "sku": "SKU-3385",
+      "issue": "Hilal brand blank despite product name; label required before write"
+    },
+    {
+      "sku": "SKU-3384",
+      "issue": "RAJA versus Maza Raja name mismatch; bag vs 4×10kg"
+    },
+    {
+      "sku": "SKU-3388",
+      "issue": "Dew Ulba identity ambiguous; out unit undefined; brand blank"
+    },
+    {
+      "sku": "all",
+      "issue": "Exact product image rights and Commerce/Catalyst delivery receipts missing"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated EN/AR RTL, UOM, price isolation, VAT, cart, Buy Again, COD/credit, confirm-once QA missing"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "productWrites": 0,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitation": "Translated description and translated packing fields not exposed in All_Products API; no such fields changed.",
+  "nextPendingId": "4278439000007326105",
+  "nextPendingSku": "SKU-3387"
+}
