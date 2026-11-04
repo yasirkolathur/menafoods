@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "run": 44,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002439015",
+    "4278439000002451007",
+    "4278439000002481007",
+    "4278439000002482015",
+    "4278439000002484007",
+    "4278439000002489003",
+    "4278439000002489007",
+    "4278439000002489011",
+    "4278439000002489015",
+    "4278439000002489019",
+    "4278439000002489023",
+    "4278439000002489027",
+    "4278439000002489031",
+    "4278439000002489035",
+    "4278439000002489039",
+    "4278439000002489043",
+    "4278439000002489047",
+    "4278439000002489051",
+    "4278439000002489055",
+    "4278439000002489063"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489039",
+      "field": "Translated_Name",
+      "before": "برجر دجاج مخبوز 400 جرام × 12",
+      "after": "برجر دجاج بالبقسماط 400 جم × 12"
+    },
+    {
+      "id": "4278439000002489051",
+      "field": "Translated_Name",
+      "before": "برجر دجاج مخبوز جامبو 1 كجم × 6",
+      "after": "برجر دجاج جامبو بالبقسماط 1 كجم × 6"
+    },
+    {
+      "id": "4278439000002451007",
+      "field": "Translated_Name",
+      "before": "البطاطس المقلية مايسا 2.5 كجم × 4 كرتون",
+      "after": "بطاطس مقلية مايسا 2.5 كجم × 4 عبوات"
+    }
+  ],
+  "verification": "Exact-ID Creator All_Products read; three targeted writes; independent compact readback matched all three Arabic values. Existing product names and pack identities only; not manufacturer-certified.",
+  "sources": [
+    "Zoho Creator All_Products existing product identities and translations (private authenticated connector; no public link)"
+  ],
+  "unresolvedIssues": [
+    "16 blank SKU fields in reviewed set; no SKU generation",
+    "Ambiguous burger pack count and weight combinations require manufacturer labels",
+    "Koi fish species/weight range and brand identity require verification",
+    "Existing image references do not establish rights or Commerce/Catalyst propagation",
+    "Translated description and packing fields not available in All_Products readback",
+    "Category margin policy absent; financial fields held",
+    "Authenticated Catalog/Checkout QA and end-to-end sync receipts remain unavailable"
+  ],
+  "connectorCallsObserved": 5,
+  "financialChanges": 0,
+  "imagesPublished": 0,
+  "checkoutOrdersCreated": 0,
+  "releaseGate": "NO-GO"
+}
