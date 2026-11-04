@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-04",
+  "run": "60",
+  "baselineComplete": "20/20",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run59.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004336023",
+    "4278439000004344007",
+    "4278439000004346023",
+    "4278439000004347011",
+    "4278439000004367053",
+    "4278439000004367082",
+    "4278439000004397011",
+    "4278439000004401007",
+    "4278439000004410149",
+    "4278439000004412035",
+    "4278439000004423007",
+    "4278439000004426007",
+    "4278439000004427007",
+    "4278439000004428011",
+    "4278439000004429007",
+    "4278439000004440019",
+    "4278439000004474007",
+    "4278439000004475011",
+    "4278439000004477036",
+    "4278439000004478007"
+  ],
+  "allSkuAndIdsMatched": true,
+  "storefrontRecords": 20,
+  "verifiedFieldChanges": [],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3131",
+      "issue": "Osoul product name versus Osuol brand mismatch"
+    },
+    {
+      "sku": "SKU-3133",
+      "issue": "9/9 cut dimension rendered as pieces; exact label needed"
+    },
+    {
+      "sku": "SKU-3134",
+      "issue": "50g sauce cup capacity may not represent container size; verify"
+    },
+    {
+      "sku": "SKU-3138",
+      "issue": "rpt unit undefined; ten-packet flour carton conversion uncertain"
+    },
+    {
+      "sku": "SKU-3143",
+      "issue": "bag selling unit versus four-bag product pack"
+    },
+    {
+      "sku": "SKU-3144",
+      "issue": "bag unit versus four-bag product pack; brand not independently verified"
+    },
+    {
+      "sku": "SKU-3147",
+      "issue": "Premier brand versus generic ممتازة Arabic wording; verify"
+    },
+    {
+      "sku": "SKU-3145",
+      "issue": "Low-fat pastry specification requires label evidence"
+    },
+    {
+      "sku": "SKU-3151",
+      "issue": "Jufran banana sauce variant needs exact-label verification"
+    },
+    {
+      "sku": "SKU-3154",
+      "issue": "Carton 50 x 85g requires exact-pack evidence"
+    },
+    {
+      "sku": "all",
+      "issue": "Images rights and Catalyst/Commerce receipts unverified"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated Catalog/Checkout EN/AR RTL, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit, confirm-once evidence unavailable"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "financialWrites": 0,
+  "productWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000004478032",
+  "nextSku": "SKU-3159"
+}
