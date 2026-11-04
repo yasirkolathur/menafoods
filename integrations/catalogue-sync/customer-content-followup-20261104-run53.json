@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-04",
+  "run": 53,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000003082011",
+    "4278439000003086007",
+    "4278439000003088011",
+    "4278439000003106015",
+    "4278439000003106040",
+    "4278439000003109019",
+    "4278439000003110049",
+    "4278439000003114035",
+    "4278439000003134011",
+    "4278439000003149007",
+    "4278439000003164011",
+    "4278439000003167007",
+    "4278439000003187011",
+    "4278439000003194015",
+    "4278439000003197019",
+    "4278439000003198027",
+    "4278439000003206100",
+    "4278439000003240031",
+    "4278439000003280011",
+    "4278439000003293007"
+  ],
+  "changes": [
+    {
+      "id": "4278439000003082011",
+      "sku": "SKU-2926",
+      "field": "Translated_Name",
+      "before": "جبنة كريمة بوك 500 جرام × 6",
+      "after": "جبنة كريمية بوك 900 جم × 6 عبوات",
+      "readbackVerified": true,
+      "source": "Existing exact Creator English product identity 6*900GM, not independent manufacturer label certification"
+    }
+  ],
+  "unresolvedIssues": [
+    "SKU-2944 Caesar/CEASER brand spelling and unit out require evidence",
+    "SKU-2942 Saudia tomato paste 48 x 8 x 135g ambiguous pack hierarchy and unit out",
+    "SKU-2928 burger packaging rpt selling unit undefined; product type ambiguous",
+    "SKU-2946 Chill Fill fries 2x5kg x4 ambiguous pack hierarchy",
+    "SKU-2949 whole Rohu fish bag selling unit conflicts with carton title; Mix brands unverified",
+    "Other box-to-carton inner pack conversion not independently confirmed",
+    "Existing product images present but exact match, redistribution rights and Commerce/Catalyst propagation unverified",
+    "Translated_Description and Translated_Package not exposed by All_Products readback",
+    "Margin category policy absent; no financial edits",
+    "Authenticated EN/AR RTL, cart, Buy Again, VAT, COD/credit, confirm-once and cross-system ACK QA still missing"
+  ],
+  "sources": [
+    "Authenticated MENAFoods Zoho Creator All_Products exact-ID report (private)"
+  ],
+  "verification": "20 exact-ID records read in one compact criteria query; one exact-ID update; independent getRecordByID verified product ID, SKU, name and Arabic title.",
+  "connectorCallsObserved": {
+    "creator": 3
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000003294015"
+}
