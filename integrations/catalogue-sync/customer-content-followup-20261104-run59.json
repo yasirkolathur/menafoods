@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "run": 59,
+  "sourceManifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run58.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004092011",
+    "4278439000004106023",
+    "4278439000004163015",
+    "4278439000004165029",
+    "4278439000004191011",
+    "4278439000004233011",
+    "4278439000004235031",
+    "4278439000004237007",
+    "4278439000004243011",
+    "4278439000004262019",
+    "4278439000004277015",
+    "4278439000004283011",
+    "4278439000004291027",
+    "4278439000004297015",
+    "4278439000004319019",
+    "4278439000004320044",
+    "4278439000004323011",
+    "4278439000004330007",
+    "4278439000004333015",
+    "4278439000004334015"
+  ],
+  "verifiedFieldChanges": [
+    {
+      "id": "4278439000004237007",
+      "sku": "SKU-3115",
+      "field": "Translated_Name",
+      "before": "الخضروات الملكية المختلطة المجمدة 20 × 400g - الكرتون",
+      "after": "خضروات رويال مشكلة مجمدة، 20 × 400 جم — كرتون",
+      "source": "Existing exact Creator English title and pack record; editorial Arabic wording only",
+      "readbackVerified": true
+    }
+  ],
+  "unresolvedIssueGroups": [
+    "SKU-3121 Rosanna peeled tomato 2.5 gm likely inconsistent; held",
+    "SKU-3120 pizza box size unit and rpt selling unit undefined",
+    "SKU-3116 fish fillet 2kg x 3 pcs carton packaging ambiguous",
+    "SKU-3112 FRIBOI brand not independently verified",
+    "SKU-3123 Premium brand versus generic descriptor ambiguous",
+    "SKU-3125 Golden fries brand/grade ambiguous",
+    "SKU-3122 and SKU-3121 box versus carton selling unit",
+    "Existing product images have no independently verified redistribution rights or Commerce/Catalyst propagation",
+    "Authenticated EN/AR RTL, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout and cross-system ACK evidence unavailable"
+  ],
+  "creatorCallsObserved": 3,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000004340000"
+}
