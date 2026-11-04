@@ -291,223 +291,6 @@
   ],
   "pendingProducts": [
     {
-      "id": "4278439000002489311",
-      "sku": "",
-      "name": "AL KABEER ZING FISH FILLET 390g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489315",
-      "sku": "",
-      "name": "AL KABEER ZING SHRIMPS 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489319",
-      "sku": "",
-      "name": "AL KABEER BREADED SHRIMPS 250g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489323",
-      "sku": "",
-      "name": "AL KABEER BREADED SHRIMPS (BULK) 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489327",
-      "sku": "",
-      "name": "JUMBO PRAWN CRISPIES 240g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489331",
-      "sku": "",
-      "name": "JUMBO PRAWN CRISPIES (BULK PACK) 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489335",
-      "sku": "",
-      "name": "AL KABEER BREADED FISH FILLETS 330g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489339",
-      "sku": "",
-      "name": "AL KABEER BREADED FISH FILLETS (BULK) 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489343",
-      "sku": "",
-      "name": "AL KABEER FISH FINGER 300g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489347",
-      "sku": "",
-      "name": "AL KABEER FISH STICK CATERING 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489351",
-      "sku": "",
-      "name": "AL KABEER JALAPENO & CHEESE STICKS 250g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489355",
-      "sku": "",
-      "name": "AL KABEER CHIKEN BBQ WINGS 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489359",
-      "sku": "",
-      "name": "AL KABEER CHICKEN TIKKA MAKHANI & PILAU RICE 450g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489363",
-      "sku": "",
-      "name": "AL KABEER CHICKEN BIRYANI 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489367",
-      "sku": "",
-      "name": "CHICKEN SEEKH KEBAB 320g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489371",
-      "sku": "",
-      "name": "AL KABEER BEEF SEEKH KEBAB 320g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489375",
-      "sku": "",
-      "name": "MUTTON SEEKH KEBAB 320g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489379",
-      "sku": "",
-      "name": "AL KABEER SHISH KEBAB 600g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489383",
-      "sku": "",
-      "name": "AL KABEER TURKISH CHICKEN KEBAB 360g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489387",
-      "sku": "",
-      "name": "AL KABEER TURKISH BEEF Kebab 360g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
       "id": "4278439000002489391",
       "sku": "",
       "name": "AL KABEER CHICKEN SEEKH KEBAB CATERING PACK 1kg x 5",
@@ -17383,7 +17166,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run47.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run48.json",
   "lastUpdateDate": "2026-11-04",
   "reviewedNoChangeProducts": [
     {
@@ -18986,14 +18769,58 @@
     "4278439000002489295",
     "4278439000002489299",
     "4278439000002489303",
-    "4278439000002489307"
+    "4278439000002489307",
+    "4278439000002489311",
+    "4278439000002489315",
+    "4278439000002489319",
+    "4278439000002489327",
+    "4278439000002489331",
+    "4278439000002489335",
+    "4278439000002489339",
+    "4278439000002489347",
+    "4278439000002489351",
+    "4278439000002489355",
+    "4278439000002489359",
+    "4278439000002489363",
+    "4278439000002489367",
+    "4278439000002489371",
+    "4278439000002489375",
+    "4278439000002489379",
+    "4278439000002489383",
+    "4278439000002489387"
   ],
   "lastBatchStats": {
     "run": 47,
     "reviewed": 20,
     "verifiedFieldChanges": 2,
     "unresolvedIssueGroups": 7,
-    "connectorCallsObserved": 4
+    "connectorCallsObserved": 4,
+    "reviewedExactIds": [
+      "4278439000002489311",
+      "4278439000002489315",
+      "4278439000002489319",
+      "4278439000002489323",
+      "4278439000002489327",
+      "4278439000002489331",
+      "4278439000002489335",
+      "4278439000002489339",
+      "4278439000002489343",
+      "4278439000002489347",
+      "4278439000002489351",
+      "4278439000002489355",
+      "4278439000002489359",
+      "4278439000002489363",
+      "4278439000002489367",
+      "4278439000002489371",
+      "4278439000002489375",
+      "4278439000002489379",
+      "4278439000002489383",
+      "4278439000002489387"
+    ],
+    "lastRun": 48,
+    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run48.json",
+    "nextAction": "Follow-up 49: select up to 20 pending storefront exact IDs",
+    "pendingContentProducts": 1337
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
@@ -19027,5 +18854,5 @@
     "nextAction": "Follow-up 48: select up to 20 pending storefront exact IDs",
     "lastRun": 47
   },
-  "partialCorrections": 235
+  "partialCorrections": 237
 }
