@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-04",
+  "run": 58,
+  "baselineBatchesComplete": 20,
+  "previousCheckpoint": "customer-content-checkpoint-20261104-run57.json",
+  "sourceManifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000003828061",
+    "4278439000003843015",
+    "4278439000003847007",
+    "4278439000003851035",
+    "4278439000003851089",
+    "4278439000003852035",
+    "4278439000003853042",
+    "4278439000003861031",
+    "4278439000003922029",
+    "4278439000003928035",
+    "4278439000003994036",
+    "4278439000003995007",
+    "4278439000003996011",
+    "4278439000003996036",
+    "4278439000003997007",
+    "4278439000003998019",
+    "4278439000004000007",
+    "4278439000004002011",
+    "4278439000004006076",
+    "4278439000004081043"
+  ],
+  "verifiedFieldChanges": [],
+  "changedFieldCount": 0,
+  "reviewMethod": "One authenticated Creator All_Products exact-ID criteria query. Checked IDs, SKUs, names EN/AR, brand, category, selling unit, storefront status, image metadata; no uncertain edits.",
+  "unresolvedIssueGroups": [
+    {
+      "skus": [
+        "SKU-3069",
+        "SKU-3081",
+        "SKU-3097",
+        "SKU-3103"
+      ],
+      "reason": "Brand or pack identity needs exact manufacturer/label confirmation"
+    },
+    {
+      "skus": [
+        "SKU-3073",
+        "SKU-3072"
+      ],
+      "reason": "Chill Fill cut sizes and exact carton pack variants require label verification"
+    },
+    {
+      "skus": [
+        "SKU-3076",
+        "SKU-3081",
+        "SKU-3082"
+      ],
+      "reason": "Packaging dimensions/inner quantities unavailable"
+    },
+    {
+      "skus": [
+        "SKU-3083"
+      ],
+      "reason": "30 L floor cleaner is labeled selling unit gln; do not assume gallon conversion"
+    },
+    {
+      "skus": [
+        "SKU-3074"
+      ],
+      "reason": "50 GRM microwave packaging identity ambiguous"
+    },
+    {
+      "skus": [
+        "SKU-3087",
+        "SKU-3086",
+        "SKU-3090"
+      ],
+      "reason": "Box unit versus carton/pack title requires orderable UOM check"
+    },
+    {
+      "skus": [
+        "SKU-3091"
+      ],
+      "reason": "13 g x 23 Packs 4 ambiguous pack count"
+    },
+    {
+      "skus": [
+        "SKU-3093",
+        "SKU-3099"
+      ],
+      "reason": "rpt selling unit undefined"
+    },
+    {
+      "skus": [
+        "SKU-3095",
+        "SKU-3094"
+      ],
+      "reason": "SABIC is a material/trademark claim, not necessarily manufacturer; verify label"
+    },
+    {
+      "skus": [
+        "SKU-3092"
+      ],
+      "reason": "12 pieces x 10 packs needs inner-pack confirmation"
+    },
+    {
+      "skus": [
+        "SKU-3090"
+      ],
+      "reason": "Brand unverified; margin policy pending"
+    },
+    {
+      "skus": [
+        "SKU-3069",
+        "SKU-3103"
+      ],
+      "reason": "Product image rights and Commerce/Catalyst propagation not independently verified"
+    },
+    {
+      "skus": [],
+      "reason": "Translated descriptions/packing not exposed in All_Products readback"
+    },
+    {
+      "skus": [],
+      "reason": "Authenticated EN/AR RTL, VAT, cart, Buy Again, COD/credit, confirm-once checkout and cross-system ACK evidence still missing"
+    }
+  ],
+  "creatorCallsObserved": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000004092011"
+}
