@@ -291,210 +291,6 @@
   ],
   "pendingProducts": [
     {
-      "id": "4278439000003082011",
-      "sku": "SKU-2926",
-      "name": "PUCK CHEESE CREAM 6*900GM",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003086007",
-      "sku": "SKU-2927",
-      "name": "Rana Tomato Ketchup Portion 1000*9gm",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000003088011",
-      "sku": "SKU-2928",
-      "name": "BURGER FILLING SPACK LARGE 500PCS HB2",
-      "storefront": true,
-      "category": "Packaging and Consumables",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003106015",
-      "sku": "SKU-2931",
-      "name": "Frozen Chicken Gizzards 500gm x 15 Trays",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003106040",
-      "sku": "SKU-2932",
-      "name": "Cooking oil  Sunflower 17liter",
-      "storefront": true,
-      "category": "Cooking Oils",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003109019",
-      "sku": "SKU-2930",
-      "name": "ROYAL CHICKEN FRANKS 24X340GM",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003110049",
-      "sku": "SKU-2933",
-      "name": "Frozen French fries 9/9 mm Vicky 2.5kg x 4",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003114035",
-      "sku": "SKU-2929",
-      "name": "Sadia Chicken Franks-340G x 24 packs",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003134011",
-      "sku": "SKU-2934",
-      "name": "Frozen Chicken shawarma boneless 2.5kg x 4 Confidence",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003149007",
-      "sku": "SKU-2935",
-      "name": "Sadia Frozen Chicken Thighs 900 g x 20",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003164011",
-      "sku": "SKU-2936",
-      "name": "Frozen Iskender Shawarma 2.5kg x 4",
-      "storefront": true,
-      "category": "Chicken & Eggs",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003167007",
-      "sku": "SKU-2937",
-      "name": "Juli Frozen Egyptian Strawberry 800 gm × 10",
-      "storefront": true,
-      "category": "Fruits & Vegetables",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003187011",
-      "sku": "SKU-2938",
-      "name": "Frozen French fries Nawaco 6/6 mm 2.5 kg x 4",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003194015",
-      "sku": "SKU-2940",
-      "name": "Delico Pure Vegetable Ghee 15 kg",
-      "storefront": true,
-      "category": "Dairy",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003197019",
-      "sku": "SKU-2944",
-      "name": "Caesar Mango Juice Bottles, 24 X 250 ml - Pack of 1",
-      "storefront": true,
-      "category": "Bakery, Beverages & More",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003198027",
-      "sku": "SKU-2942",
-      "name": "Saudia Tomato Paste 48 x 8 x 135g",
-      "storefront": true,
-      "category": "Sauces & Seasoning",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003206100",
-      "sku": "SKU-2945",
-      "name": "Chinese Noodles Long Life 227gm x 30",
-      "storefront": true,
-      "category": "Pasta, Noodles & Vermicelli",
-      "reviewFields": [
-        "Brand",
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003240031",
-      "sku": "SKU-2946",
-      "name": "Chill Fill French Fries 9mm 2x5 kg x 4",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003280011",
-      "sku": "SKU-2947",
-      "name": "Perfetto Pasta Fettuccini No.224 - 20 x 400 G",
-      "storefront": true,
-      "category": "Pasta, Noodles & Vermicelli",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000003293007",
-      "sku": "SKU-2949",
-      "name": "Whole Rohu Fish Carton (1500g-2000g) 20Kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
       "id": "4278439000003294015",
       "sku": "SKU-2950",
       "name": "Frozen Whole Black pomfert 300/500 20kg",
@@ -16322,7 +16118,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run52.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run53.json",
   "lastUpdateDate": "2026-11-04",
   "reviewedNoChangeProducts": [
     {
@@ -18023,72 +17819,92 @@
     "4278439000003020031",
     "4278439000003024007",
     "4278439000003040011",
-    "4278439000003066007"
+    "4278439000003066007",
+    "4278439000003082011",
+    "4278439000003086007",
+    "4278439000003088011",
+    "4278439000003106015",
+    "4278439000003106040",
+    "4278439000003109019",
+    "4278439000003110049",
+    "4278439000003114035",
+    "4278439000003134011",
+    "4278439000003149007",
+    "4278439000003164011",
+    "4278439000003167007",
+    "4278439000003187011",
+    "4278439000003194015",
+    "4278439000003197019",
+    "4278439000003198027",
+    "4278439000003206100",
+    "4278439000003240031",
+    "4278439000003280011",
+    "4278439000003293007"
   ],
   "lastBatchStats": {
-    "run": 52,
-    "lastRun": 52,
+    "run": 53,
+    "lastRun": 53,
     "reviewed": 20,
-    "verifiedFieldChanges": 4,
+    "verifiedFieldChanges": 1,
     "unresolvedIssueGroups": 10,
-    "connectorCallsObserved": 6,
+    "connectorCallsObserved": 3,
     "reviewedExactIds": [
-      "4278439000002489671",
-      "4278439000002489675",
-      "4278439000002847075",
-      "4278439000002853019",
-      "4278439000002861011",
-      "4278439000002879011",
-      "4278439000002880011",
-      "4278439000002886015",
-      "4278439000002887007",
-      "4278439000002906052",
-      "4278439000002960077",
-      "4278439000002963071",
-      "4278439000002964079",
-      "4278439000002966007",
-      "4278439000003006015",
-      "4278439000003018007",
-      "4278439000003020031",
-      "4278439000003024007",
-      "4278439000003040011",
-      "4278439000003066007"
+      "4278439000003082011",
+      "4278439000003086007",
+      "4278439000003088011",
+      "4278439000003106015",
+      "4278439000003106040",
+      "4278439000003109019",
+      "4278439000003110049",
+      "4278439000003114035",
+      "4278439000003134011",
+      "4278439000003149007",
+      "4278439000003164011",
+      "4278439000003167007",
+      "4278439000003187011",
+      "4278439000003194015",
+      "4278439000003197019",
+      "4278439000003198027",
+      "4278439000003206100",
+      "4278439000003240031",
+      "4278439000003280011",
+      "4278439000003293007"
     ],
     "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run51.json",
-    "nextAction": "Follow-up 53: select up to 20 pending storefront exact IDs",
-    "pendingContentProducts": 1257
+    "nextAction": "Follow-up 54: select up to 20 pending storefront exact IDs",
+    "pendingContentProducts": 1237
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
     "phase": "incremental reconciliation with low API use; separate customer-content backlog remediation ongoing",
-    "pendingContentProducts": 1257,
+    "pendingContentProducts": 1237,
     "baselineAudit": "20/20 completed previously, 2122 records",
     "unverified": "Four-way sync, authenticated checkout QA, source Modified_Time watermark and image propagation",
-    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run52.json",
+    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run53.json",
     "reviewedExactIds": [
-      "4278439000002489671",
-      "4278439000002489675",
-      "4278439000002847075",
-      "4278439000002853019",
-      "4278439000002861011",
-      "4278439000002879011",
-      "4278439000002880011",
-      "4278439000002886015",
-      "4278439000002887007",
-      "4278439000002906052",
-      "4278439000002960077",
-      "4278439000002963071",
-      "4278439000002964079",
-      "4278439000002966007",
-      "4278439000003006015",
-      "4278439000003018007",
-      "4278439000003020031",
-      "4278439000003024007",
-      "4278439000003040011",
-      "4278439000003066007"
+      "4278439000003082011",
+      "4278439000003086007",
+      "4278439000003088011",
+      "4278439000003106015",
+      "4278439000003106040",
+      "4278439000003109019",
+      "4278439000003110049",
+      "4278439000003114035",
+      "4278439000003134011",
+      "4278439000003149007",
+      "4278439000003164011",
+      "4278439000003167007",
+      "4278439000003187011",
+      "4278439000003194015",
+      "4278439000003197019",
+      "4278439000003198027",
+      "4278439000003206100",
+      "4278439000003240031",
+      "4278439000003280011",
+      "4278439000003293007"
     ],
-    "nextAction": "Follow-up 53: select up to 20 pending storefront exact IDs",
-    "lastRun": 52
+    "nextAction": "Follow-up 54: select up to 20 pending storefront exact IDs",
+    "lastRun": 53
   },
-  "partialCorrections": 252
+  "partialCorrections": 253
 }
