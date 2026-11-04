@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-04",
+  "run": 65,
+  "baselineAudit": "20/20 already complete",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run64.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000005633052",
+    "4278439000005635013",
+    "4278439000005635042",
+    "4278439000005635247",
+    "4278439000005636025",
+    "4278439000005637025",
+    "4278439000005637050",
+    "4278439000005637075",
+    "4278439000005638029",
+    "4278439000005638058",
+    "4278439000005638087",
+    "4278439000005638112",
+    "4278439000005639011",
+    "4278439000005639160",
+    "4278439000005640011",
+    "4278439000005640036",
+    "4278439000005640061",
+    "4278439000005640086",
+    "4278439000005641011",
+    "4278439000005641040"
+  ],
+  "reviewedSku": [
+    "SKU-3287",
+    "SKU-3276",
+    "SKU-3291",
+    "SKU-3295",
+    "SKU-3266",
+    "SKU-3275",
+    "SKU-3285",
+    "SKU-3288",
+    "SKU-3278",
+    "SKU-3281",
+    "SKU-3283",
+    "SKU-3289",
+    "SKU-3265",
+    "SKU-3298",
+    "SKU-3268",
+    "SKU-3273",
+    "SKU-3284",
+    "SKU-3286",
+    "SKU-3269",
+    "SKU-3279"
+  ],
+  "verifiedExactSkuIdMatches": 20,
+  "storefrontProducts": 20,
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3291",
+      "issue": "Bunch in title but selling UOM kg; confirm per-bunch versus per-kg presentation"
+    },
+    {
+      "sku": "SKU-3268",
+      "issue": "Undefined selling unit 'out'; block checkout until normalized with evidence"
+    },
+    {
+      "sku": "SKU-3295",
+      "issue": "400-piece packaging count from existing title only; exact carton/size variant and image rights not independently verified"
+    },
+    {
+      "sku": "SKU-3265",
+      "issue": "American lettuce variety descriptor not independently established"
+    },
+    {
+      "sku": "SKU-3266",
+      "issue": "Salad tomato descriptor is not a verified variety or pack specification"
+    },
+    {
+      "sku": "SKU-3298",
+      "issue": "Fresh mushroom variety and packaging unspecified; do not infer"
+    },
+    {
+      "sku": "all produce",
+      "issue": "Unbranded produce must remain unbranded; provenance/weights/GTIN not invented"
+    },
+    {
+      "sku": "all",
+      "issue": "Images not verified for exact match and redistribution rights"
+    },
+    {
+      "sku": "all",
+      "issue": "Translated descriptions and packing not exposed in All_Products API readback"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated EN/AR RTL, CTN/PCS/KG, price isolation, VAT, cart, Buy Again, COD/credit and confirm-once checkout evidence absent"
+    },
+    {
+      "sku": "all",
+      "issue": "Books–Inventory–Commerce native sync, deployed gateway/rollback, signed webhook and ACK evidence absent; duplicate-active IDs blocked"
+    }
+  ],
+  "creatorApiCallsObserved": 1,
+  "translatedDescriptionAndPackingNotExposed": true,
+  "financialWrites": 0,
+  "productWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000005641093",
+  "nextSku": "SKU-3292"
+}
