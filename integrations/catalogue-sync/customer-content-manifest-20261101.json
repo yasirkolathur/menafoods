@@ -291,221 +291,6 @@
   ],
   "pendingProducts": [
     {
-      "id": "4278439000002439015",
-      "sku": "SKU-2536",
-      "name": "Koi Fish  Whole 800 -1000 g 20 kg",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Brand",
-        "Description",
-        "Package_Details"
-      ]
-    },
-    {
-      "id": "4278439000002451007",
-      "sku": "SKU-2539",
-      "name": "French fries Maysa 2.5 kg x 4 carton",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002481007",
-      "sku": "SKU-2542",
-      "name": "Frozen Beef Topside India  20kg Moulana",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002482015",
-      "sku": "SKU-2543",
-      "name": "Zinger Chicken Fillet Americana 1 kg ( 10 bags) ",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002484007",
-      "sku": "",
-      "name": "Chtoura Garden Chickpeas With Tahini 380G  x 24",
-      "storefront": true,
-      "category": "Canned & Imported Items",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489003",
-      "sku": "",
-      "name": "BEEF BURGER Small 200g x30",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489007",
-      "sku": "",
-      "name": "BEEF BURGER 24 1200g x 8",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489011",
-      "sku": "",
-      "name": "BEEF BURGER BAG 1kg x 9",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489015",
-      "sku": "",
-      "name": "CHARGRILLED JUMBO BEEF BURGER BAG 1kg x 6",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489019",
-      "sku": "",
-      "name": "CHICKEN BURGER Small 30 X 200 GMS",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489023",
-      "sku": "",
-      "name": "CHICKEN BURGER  8 Pcs 400g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489027",
-      "sku": "",
-      "name": "CHICKEN BURGER 1200g x 8",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489031",
-      "sku": "",
-      "name": "JUMBO CHICKEN BURGER 1kg x 6",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489035",
-      "sku": "",
-      "name": "CHICKEN BURGER Bags 1kg x 9",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489039",
-      "sku": "",
-      "name": "BREADED CHICKEN BURGER 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489043",
-      "sku": "",
-      "name": "BREADED CHICKEN BURGER H/S 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489047",
-      "sku": "",
-      "name": "BREADED CHICKEN BURGER 900g x 9",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489051",
-      "sku": "",
-      "name": "BREADED CHICKEN BURGER Jumbo 1kg x 6",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489055",
-      "sku": "",
-      "name": "BREADED CHICKEN BURGER Bulk 1kg x  6",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489063",
-      "sku": "",
-      "name": "VEGETABLE Burger 227g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
       "id": "4278439000002489067",
       "sku": "",
       "name": "MEATLESS BURGER 200g x 24",
@@ -18250,7 +18035,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run43.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run44.json",
   "lastUpdateDate": "2026-11-04",
   "reviewedNoChangeProducts": [
     {
@@ -19783,16 +19568,31 @@
       ],
       "reason": "Exact Creator identity reviewed; no independently substantiated additional nonfinancial correction.",
       "batch": 43
-    }
+    },
+    "4278439000002439015",
+    "4278439000002481007",
+    "4278439000002482015",
+    "4278439000002484007",
+    "4278439000002489003",
+    "4278439000002489007",
+    "4278439000002489011",
+    "4278439000002489015",
+    "4278439000002489019",
+    "4278439000002489023",
+    "4278439000002489027",
+    "4278439000002489031",
+    "4278439000002489035",
+    "4278439000002489043",
+    "4278439000002489047",
+    "4278439000002489055",
+    "4278439000002489063"
   ],
   "lastBatchStats": {
-    "recordsAudited": 20,
-    "verifiedTitleFieldsChanged": 3,
-    "verifiedProductsWithPartialCopyCorrections": 3,
-    "fullyCompletedProducts": 0,
-    "unresolvedIssueCount": 7,
-    "reviewedUniquePostCompletion": 860,
-    "creatorConnectorCallsConfirmed": 5
+    "run": 44,
+    "reviewed": 20,
+    "verifiedFieldChanges": 3,
+    "unresolvedIssueGroups": 7,
+    "connectorCallsObserved": 5
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
@@ -19863,7 +19663,8 @@
       "4278439000002414040",
       "4278439000002415007"
     ],
-    "nextAction": "Follow-up 44: select up to 20 unreviewed storefront exact IDs"
+    "nextAction": "Follow-up 44: select up to 20 unreviewed storefront exact IDs",
+    "lastRun": 44
   },
-  "partialCorrections": 225
+  "partialCorrections": 228
 }
