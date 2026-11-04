@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-04",
+  "run": 50,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489491",
+    "4278439000002489495",
+    "4278439000002489499",
+    "4278439000002489511",
+    "4278439000002489515",
+    "4278439000002489519",
+    "4278439000002489523",
+    "4278439000002489527",
+    "4278439000002489531",
+    "4278439000002489535",
+    "4278439000002489539",
+    "4278439000002489543",
+    "4278439000002489547",
+    "4278439000002489551",
+    "4278439000002489555",
+    "4278439000002489559",
+    "4278439000002489563",
+    "4278439000002489571",
+    "4278439000002489575",
+    "4278439000002489579"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489491",
+      "field": "Translated_Name",
+      "before": "طاباروك  روبيان للطبخ 1 كجم × 10",
+      "after": "تبرك روبيان للطبخ 1 كجم × 10",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489571",
+      "field": "Translated_Name",
+      "before": "الكبير بيف بجانب 20 كجم",
+      "after": "الكبير لحم بقري توب سايد 20 كجم",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489575",
+      "field": "Translated_Name",
+      "before": "الكبير مانجو لب 1 كجم × 16",
+      "after": "الكبير لب المانجو 1 كجم × 16",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489511",
+      "field": "Translated_Name",
+      "before": "سمك بالحليب 500/800 جم 1 كجم × 10",
+      "after": "سمك ميلك فيش 500–800 جم، 1 كجم × 10",
+      "readbackVerified": true
+    }
+  ],
+  "verification": "One compact 20-exact-ID Creator All_Products query, four exact-ID updates, and separate compact four-ID readback. Editorial changes based on existing English product identities, not manufacturer packaging certification.",
+  "sources": [
+    "Authenticated Zoho Creator All_Products exact-ID records (private)"
+  ],
+  "unresolvedIssues": [
+    "All 20 SKUs blank; no SKU invented",
+    "Critical product brand mismatch: Creator 4278439000002489495 AL KABEER COOKING SHRIMPS has Brand TABARRUK; held for exact manufacturer verification",
+    "Milkfish 500–800 g versus 1 kg x 10 pack specification ambiguous; selling-unit conversion held",
+    "All 20 Unit values ctn; inner pack quantities are from existing names only, not independently label-verified",
+    "Images exist in Creator, but exact rights and Commerce/Catalyst propagation not independently verified",
+    "Translated_Description and Translated_Package not exposed by All_Products API readback",
+    "Margin policy and validated cost basis missing; no financial edits",
+    "Authenticated EN/AR RTL, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout and four-way ACK evidence missing"
+  ],
+  "connectorCallsObserved": {
+    "creator": 6,
+    "github": "checkpoint reads, evidence creation, manifest update, independent readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated checkout receipts",
+  "nextPendingId": "4278439000002489583"
+}
