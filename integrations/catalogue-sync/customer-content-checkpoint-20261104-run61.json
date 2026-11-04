@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-04",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run60.json",
+  "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261104-run61.json",
+  "reviewedThisRun": 20,
+  "skipPrefixCount": 160,
+  "nextId": "4278439000004726052",
+  "nextSku": "SKU-3185",
+  "remainingPending": 1077,
+  "rule": "Reconcile unchanged manifest and prior evidence, exclude first 160 pending exact IDs; never replay"
+}
