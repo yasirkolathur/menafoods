@@ -291,220 +291,6 @@
   ],
   "pendingProducts": [
     {
-      "id": "4278439000002489391",
-      "sku": "",
-      "name": "AL KABEER CHICKEN SEEKH KEBAB CATERING PACK 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489395",
-      "sku": "",
-      "name": "AL KABEER BEEF SHISH KEBAB CATERING PACK 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489399",
-      "sku": "",
-      "name": "AL KABEER CHICKEN MINCE CUTLETS 320g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489403",
-      "sku": "",
-      "name": "SPINACH CHEESE CUTLETS 320g x 24",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489407",
-      "sku": "",
-      "name": "AL KABEER CHICKEN KOFTA 300g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489411",
-      "sku": "",
-      "name": "AL KABEER ARABIC KOFTA 300g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489415",
-      "sku": "",
-      "name": "CHICKEN MEATBALLS 300g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489419",
-      "sku": "",
-      "name": "AL KABEER BEEF  MEATBALLS 300g x 20",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489423",
-      "sku": "",
-      "name": "CHEESE  KIBBAH 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489427",
-      "sku": "",
-      "name": "AL KABEER CHICKEN KIBBEH 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489431",
-      "sku": "",
-      "name": "AL KABEER BEEF KIBBEH 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489435",
-      "sku": "",
-      "name": "LAMB KIBBEH 400g x 12",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489439",
-      "sku": "",
-      "name": "AL KABEER LAMB KIBBEH CATERING PACK 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489443",
-      "sku": "",
-      "name": "AL KABEER CHICKEN MEATBALL CATERING PACK 1kg x 5",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489447",
-      "sku": "",
-      "name": "BEEF MEATBALL CATERING PACK 1kg x 6",
-      "storefront": true,
-      "category": "Ready to Cook",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489451",
-      "sku": "",
-      "name": "AL KABEER BEEF Franks 454g x 20",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489455",
-      "sku": "",
-      "name": "AL KABEER BEEF COCTAIL SAUSAGE 400g x 20",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
-      "id": "4278439000002489459",
-      "sku": "",
-      "name": "JUMBO HOT DOG 400g x 20",
-      "storefront": true,
-      "category": "Meat",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489475",
-      "sku": "",
-      "name": "AL KABEER SHRIMPS LARGE 400g x 20",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description",
-        "margin_rule_pending"
-      ]
-    },
-    {
-      "id": "4278439000002489487",
-      "sku": "",
-      "name": "AL KABEER JUMBO Prawns 1LB X10 PKT",
-      "storefront": true,
-      "category": "Seafood",
-      "reviewFields": [
-        "Description"
-      ]
-    },
-    {
       "id": "4278439000002489491",
       "sku": "",
       "name": "TABARRUK  COOKING SHRIMPS 1kg x 10",
@@ -17166,7 +16952,7 @@
   ],
   "policy": "Process at most 20 exact IDs per scheduled run. Read current values, enrich only source-backed customer-facing fields, no invented claims. Unbranded products need not have a brand. Keep costs/supplier/bill details out of customer text. Manufacturer pack images require exact variant; owner authorizes labelled original ingredient illustrations when no suitable photo is available. Margin rule remains pending; no automatic finance writes. Preserve duplicate holds and all sync gates.",
   "deferredContentFields": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]12",
-  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run48.json",
+  "lastEvidence": "integrations/catalogue-sync/customer-content-followup-20261104-run49.json",
   "lastUpdateDate": "2026-11-04",
   "reviewedNoChangeProducts": [
     {
@@ -18787,72 +18573,92 @@
     "4278439000002489375",
     "4278439000002489379",
     "4278439000002489383",
-    "4278439000002489387"
+    "4278439000002489387",
+    "4278439000002489391",
+    "4278439000002489395",
+    "4278439000002489399",
+    "4278439000002489403",
+    "4278439000002489407",
+    "4278439000002489411",
+    "4278439000002489415",
+    "4278439000002489419",
+    "4278439000002489423",
+    "4278439000002489427",
+    "4278439000002489431",
+    "4278439000002489435",
+    "4278439000002489439",
+    "4278439000002489443",
+    "4278439000002489447",
+    "4278439000002489451",
+    "4278439000002489455",
+    "4278439000002489459",
+    "4278439000002489475",
+    "4278439000002489487"
   ],
   "lastBatchStats": {
-    "run": 47,
+    "run": 49,
     "reviewed": 20,
-    "verifiedFieldChanges": 2,
+    "verifiedFieldChanges": 4,
     "unresolvedIssueGroups": 7,
-    "connectorCallsObserved": 4,
+    "connectorCallsObserved": 7,
     "reviewedExactIds": [
-      "4278439000002489311",
-      "4278439000002489315",
-      "4278439000002489319",
-      "4278439000002489323",
-      "4278439000002489327",
-      "4278439000002489331",
-      "4278439000002489335",
-      "4278439000002489339",
-      "4278439000002489343",
-      "4278439000002489347",
-      "4278439000002489351",
-      "4278439000002489355",
-      "4278439000002489359",
-      "4278439000002489363",
-      "4278439000002489367",
-      "4278439000002489371",
-      "4278439000002489375",
-      "4278439000002489379",
-      "4278439000002489383",
-      "4278439000002489387"
+      "4278439000002489391",
+      "4278439000002489395",
+      "4278439000002489399",
+      "4278439000002489403",
+      "4278439000002489407",
+      "4278439000002489411",
+      "4278439000002489415",
+      "4278439000002489419",
+      "4278439000002489423",
+      "4278439000002489427",
+      "4278439000002489431",
+      "4278439000002489435",
+      "4278439000002489439",
+      "4278439000002489443",
+      "4278439000002489447",
+      "4278439000002489451",
+      "4278439000002489455",
+      "4278439000002489459",
+      "4278439000002489475",
+      "4278439000002489487"
     ],
-    "lastRun": 48,
+    "lastRun": 49,
     "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run48.json",
-    "nextAction": "Follow-up 49: select up to 20 pending storefront exact IDs",
-    "pendingContentProducts": 1337
+    "nextAction": "Follow-up 50: select up to 20 pending storefront exact IDs",
+    "pendingContentProducts": 1317
   },
   "deferredContentFieldsCount": 212,
   "postBatch20": {
     "phase": "incremental reconciliation with low API use; separate customer-content backlog remediation ongoing",
-    "pendingContentProducts": 1357,
+    "pendingContentProducts": 1317,
     "baselineAudit": "20/20 completed previously, 2122 records",
     "unverified": "Four-way sync, authenticated checkout QA, source Modified_Time watermark and image propagation",
-    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run47.json",
+    "lastContentReview": "integrations/catalogue-sync/customer-content-followup-20261104-run49.json",
     "reviewedExactIds": [
-      "4278439000002489227",
-      "4278439000002489235",
-      "4278439000002489239",
-      "4278439000002489243",
-      "4278439000002489247",
-      "4278439000002489251",
-      "4278439000002489255",
-      "4278439000002489259",
-      "4278439000002489263",
-      "4278439000002489267",
-      "4278439000002489271",
-      "4278439000002489275",
-      "4278439000002489279",
-      "4278439000002489283",
-      "4278439000002489287",
-      "4278439000002489291",
-      "4278439000002489295",
-      "4278439000002489299",
-      "4278439000002489303",
-      "4278439000002489307"
+      "4278439000002489391",
+      "4278439000002489395",
+      "4278439000002489399",
+      "4278439000002489403",
+      "4278439000002489407",
+      "4278439000002489411",
+      "4278439000002489415",
+      "4278439000002489419",
+      "4278439000002489423",
+      "4278439000002489427",
+      "4278439000002489431",
+      "4278439000002489435",
+      "4278439000002489439",
+      "4278439000002489443",
+      "4278439000002489447",
+      "4278439000002489451",
+      "4278439000002489455",
+      "4278439000002489459",
+      "4278439000002489475",
+      "4278439000002489487"
     ],
-    "nextAction": "Follow-up 48: select up to 20 pending storefront exact IDs",
-    "lastRun": 47
+    "nextAction": "Follow-up 50: select up to 20 pending storefront exact IDs",
+    "lastRun": 49
   },
-  "partialCorrections": 237
+  "partialCorrections": 241
 }
