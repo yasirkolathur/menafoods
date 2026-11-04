@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-04",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run63.json",
+  "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261104-run64.json",
+  "reviewedThisRun": 20,
+  "skipPrefixCount": 220,
+  "nextId": "4278439000005633052",
+  "nextSku": "SKU-3287",
+  "remainingPending": 1017,
+  "rule": "Apply only to matching manifest SHA; exclude first 220 pending records after verifying prior evidence; never replay."
+}
