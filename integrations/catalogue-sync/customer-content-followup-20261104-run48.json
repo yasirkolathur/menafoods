@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-04",
+  "run": 48,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489311",
+    "4278439000002489315",
+    "4278439000002489319",
+    "4278439000002489323",
+    "4278439000002489327",
+    "4278439000002489331",
+    "4278439000002489335",
+    "4278439000002489339",
+    "4278439000002489343",
+    "4278439000002489347",
+    "4278439000002489351",
+    "4278439000002489355",
+    "4278439000002489359",
+    "4278439000002489363",
+    "4278439000002489367",
+    "4278439000002489371",
+    "4278439000002489375",
+    "4278439000002489379",
+    "4278439000002489383",
+    "4278439000002489387"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489323",
+      "field": "Translated_Name",
+      "before": "روبيان الكبير (سائب) 1 كجم × 5",
+      "after": "روبيان الكبير مغطى بالبقسماط (عبوة كبيرة) 1 كجم × 5"
+    },
+    {
+      "id": "4278439000002489343",
+      "field": "Translated_Name",
+      "before": "إصبع سمك الكبير 300 غرام × 20",
+      "after": "الكبير أصابع السمك 300 جم × 20 عبوة"
+    }
+  ],
+  "verification": "One compact exact-ID Creator All_Products query; two targeted Translated_Name writes; independent readback matched both values. Editorial wording derived from existing English product identities and pack variants, not manufacturer label certification.",
+  "sources": [
+    "Authenticated Zoho Creator All_Products exact-ID records (private; no public URL)"
+  ],
+  "unresolvedIssues": [
+    "20 SKU fields blank; no SKU generation",
+    "Brand and exact packaging of unbranded-title kebab variants need manufacturer evidence",
+    "Zing, jumbo prawns, fish stick catering variants need label confirmation",
+    "Image rights and Commerce/Catalyst propagation unverified",
+    "Translated_Description and Translated_Package not exposed in All_Products API readback",
+    "Category margin policy and validated cost basis absent; financial writes held",
+    "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, Buy Again, COD/credit, confirm-once and end-to-end sync ACK evidence missing"
+  ],
+  "connectorCallsObserved": {
+    "creator": 4,
+    "github": "manifest read, evidence create, manifest update, independent readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated test receipts",
+  "nextPendingId": "4278439000002489391"
+}
