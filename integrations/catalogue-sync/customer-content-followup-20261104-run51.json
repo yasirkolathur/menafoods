@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "run": 51,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489583",
+    "4278439000002489587",
+    "4278439000002489591",
+    "4278439000002489595",
+    "4278439000002489599",
+    "4278439000002489603",
+    "4278439000002489607",
+    "4278439000002489611",
+    "4278439000002489615",
+    "4278439000002489619",
+    "4278439000002489623",
+    "4278439000002489627",
+    "4278439000002489631",
+    "4278439000002489635",
+    "4278439000002489639",
+    "4278439000002489643",
+    "4278439000002489655",
+    "4278439000002489659",
+    "4278439000002489663",
+    "4278439000002489667"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489591",
+      "field": "Translated_Name",
+      "before": "الكبير جوافة 1كجم × 16",
+      "after": "الكبير لب الجوافة 1 كجم × 16",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489659",
+      "field": "Translated_Name",
+      "before": "الكبير براثا سادة 1.2 كيلو × 8",
+      "after": "الكبير براثا سادة (عبوة ترويجية) 1.2 كجم × 8",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489667",
+      "field": "Translated_Name",
+      "before": "مالابار براثا 400 جرام × 24 الكبير",
+      "after": "الكبير براثا مالابار 400 جم × 24",
+      "readbackVerified": true
+    }
+  ],
+  "verification": "One 20-ID compact All_Products read, 3 exact-ID Translated_Name writes and one 3-ID readback. Existing English identities used for editorial corrections; manufacturer pack not independently certified.",
+  "sources": [
+    "Authenticated MENAFoods Zoho Creator All_Products exact-ID records (private)"
+  ],
+  "unresolvedIssues": [
+    "All 20 SKU fields blank; no SKU generation",
+    "AL KABEER Mango Slice 1kg x 10 has TABARRUK Brand; held without label proof",
+    "MANGO PULP 1kg x 16 Brand TABARRUK but English title unbranded; brand not inserted into title",
+    "PARATHA Plain 400g x 24 has TAYEBAT Brand; confirm exact manufacturer/variant before naming",
+    "All 20 units ctn; pack counts only from existing product titles, not manufacturer-verified conversions",
+    "Image rights and Commerce/Catalyst propagation not verified",
+    "Translated_Description and Translated_Package not exposed in All_Products readback",
+    "Authenticated EN/AR RTL, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout and sync ACK remain unverified"
+  ],
+  "connectorCallsObserved": {
+    "creator": 5,
+    "github": "manifest/batch01/prior evidence reads, evidence create, manifest update and readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated test receipts",
+  "nextPendingId": "4278439000002489671"
+}
