@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-04",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261104-run54-56.json",
+  "completedExactIdCount": 60,
+  "verifiedArabicCorrections": [
+    "SKU-2955",
+    "SKU-2956",
+    "SKU-3000"
+  ],
+  "skipPrefixCount": 60,
+  "nextId": "4278439000003671011",
+  "remainingPending": 1177,
+  "rule": "Apply only if manifest blob SHA matches; do not replay the first 60. Reconcile this checkpoint before selecting any subsequent IDs."
+}
