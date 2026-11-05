@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-06",
+  "run": 93,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run92.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000105418",
+    "4278439000000105432",
+    "4278439000000105440",
+    "4278439000000105454",
+    "4278439000000105472",
+    "4278439000000105484",
+    "4278439000000105502",
+    "4278439000000105510",
+    "4278439000000105516",
+    "4278439000000105520",
+    "4278439000000105524",
+    "4278439000000105538",
+    "4278439000000105542",
+    "4278439000000105546",
+    "4278439000000105550",
+    "4278439000000106138",
+    "4278439000000106142",
+    "4278439000000106148",
+    "4278439000000106160",
+    "4278439000000106164"
+  ],
+  "reviewedSkus": [
+    "CR1670",
+    "CR1672",
+    "CR1673",
+    "CR1675",
+    "CR1678",
+    "CR1680",
+    "CR1683",
+    "CR1684",
+    "CR1685",
+    "CR1686",
+    "CR1687",
+    "CR1690",
+    "CR1691",
+    "CR1692",
+    "CR1693",
+    "CR1694",
+    "CR1695",
+    "CR1696",
+    "CR1698",
+    "CR1699"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 38,
+  "issues": [
+    {
+      "sku": "CR1670",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1670",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1672",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1673",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1675",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1675",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1678",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1680",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1680",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1683",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1683",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1684",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1684",
+      "type": "arabic_brand_translation_requires_verification"
+    },
+    {
+      "sku": "CR1684",
+      "type": "pack_variant_requires_label_verification"
+    },
+    {
+      "sku": "CR1685",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1685",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1685",
+      "type": "pack_variant_requires_label_verification"
+    },
+    {
+      "sku": "CR1686",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1686",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1686",
+      "type": "arabic_brand_translation_requires_verification"
+    },
+    {
+      "sku": "CR1687",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1687",
+      "type": "arabic_brand_translation_requires_verification"
+    },
+    {
+      "sku": "CR1691",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1691",
+      "type": "pack_variant_requires_label_verification"
+    },
+    {
+      "sku": "CR1692",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1692",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1693",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1693",
+      "type": "arabic_brand_translation_requires_verification"
+    },
+    {
+      "sku": "CR1694",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1694",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1695",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1695",
+      "type": "pack_variant_requires_label_verification"
+    },
+    {
+      "sku": "CR1696",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1696",
+      "type": "brand_requires_label_evidence"
+    },
+    {
+      "sku": "CR1696",
+      "type": "pack_variant_requires_label_verification"
+    },
+    {
+      "sku": "CR1698",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1699",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1699",
+      "type": "missing_books_mapping"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 30,
+  "excludedOutOfBatch": 10,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000106186",
+  "nextPendingSku": "CR1704",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "No edits: missing manufacturer/label evidence. Product identity and current nonfinancial fields verified via bounded Creator query. Manifest unchanged; immutable checkpoint overlay."
+}
