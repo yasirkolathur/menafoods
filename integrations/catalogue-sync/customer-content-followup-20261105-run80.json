@@ -1,0 +1,454 @@
+{
+  "date": "2026-11-05",
+  "run": 80,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run79.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103508",
+    "4278439000000103516",
+    "4278439000000103524",
+    "4278439000000103534",
+    "4278439000000103548",
+    "4278439000000103556",
+    "4278439000000103560",
+    "4278439000000103564",
+    "4278439000000103570",
+    "4278439000000103574",
+    "4278439000000103578",
+    "4278439000000103582",
+    "4278439000000103588",
+    "4278439000000103590",
+    "4278439000000103596",
+    "4278439000000103602",
+    "4278439000000103608",
+    "4278439000000103612",
+    "4278439000000103616",
+    "4278439000000103620"
+  ],
+  "reviewedSkus": [
+    "CR1329",
+    "CR1330",
+    "CR1331",
+    "CR1332",
+    "CR1333",
+    "CR1334",
+    "CR1335",
+    "CR1336",
+    "CR1337",
+    "CR1338",
+    "CR1339",
+    "CR1340",
+    "CR1341",
+    "CR1342",
+    "CR1343",
+    "CR1344",
+    "CR1345",
+    "CR1346",
+    "CR1347",
+    "CR1348"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 37,
+  "issues": [
+    {
+      "sku": "CR1329",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1329",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1330",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1330",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1331",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1332",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1332",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1333",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1333",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1333",
+      "type": "mixed_brand_and_variable_weight_unverified"
+    },
+    {
+      "sku": "CR1334",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1334",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1335",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1335",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1335",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1336",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1337",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1338",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1339",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1339",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1340",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1341",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1341",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1341",
+      "type": "variant_pack_and_brand_unverified"
+    },
+    {
+      "sku": "CR1342",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1342",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1343",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1343",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1344",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1344",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1344",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1345",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1345",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1346",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1346",
+      "type": "arabic_title_quality_requires_label_review"
+    },
+    {
+      "sku": "CR1347",
+      "type": "selling_unit_missing_unverified"
+    },
+    {
+      "sku": "CR1348",
+      "type": "selling_unit_missing_unverified"
+    }
+  ],
+  "observations": [
+    {
+      "id": "4278439000000103508",
+      "sku": "CR1329",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103516",
+      "sku": "CR1330",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103524",
+      "sku": "CR1331",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "kg",
+      "booksMapped": true,
+      "issues": [
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103534",
+      "sku": "CR1332",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103548",
+      "sku": "CR1333",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review",
+        "mixed_brand_and_variable_weight_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103556",
+      "sku": "CR1334",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103560",
+      "sku": "CR1335",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103564",
+      "sku": "CR1336",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103570",
+      "sku": "CR1337",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103574",
+      "sku": "CR1338",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103578",
+      "sku": "CR1339",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103582",
+      "sku": "CR1340",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "kg",
+      "booksMapped": false,
+      "issues": [
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103588",
+      "sku": "CR1341",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing",
+        "variant_pack_and_brand_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103590",
+      "sku": "CR1342",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103596",
+      "sku": "CR1343",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103602",
+      "sku": "CR1344",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "books_mapping_missing",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103608",
+      "sku": "CR1345",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103612",
+      "sku": "CR1346",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified",
+        "arabic_title_quality_requires_label_review"
+      ]
+    },
+    {
+      "id": "4278439000000103616",
+      "sku": "CR1347",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103620",
+      "sku": "CR1348",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_missing_unverified"
+      ]
+    }
+  ],
+  "source": "Zoho Creator mena/All_Products exact bounded ID criteria; current live read",
+  "creatorProductReadCalls": 1,
+  "limitations": [
+    "Arabic quality flags are screening findings, not manufacturer-verified corrections",
+    "Description and Package_Details unavailable in All_Products readback",
+    "No authenticated checkout test or four-way sync verification"
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000103636"
+}
