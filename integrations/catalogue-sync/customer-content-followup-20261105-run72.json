@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-05",
+  "run": 72,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run71.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000101436",
+    "4278439000000101440",
+    "4278439000000101444",
+    "4278439000000101448",
+    "4278439000000101452",
+    "4278439000000101456",
+    "4278439000000101464",
+    "4278439000000101470",
+    "4278439000000101474",
+    "4278439000000101480",
+    "4278439000000101484",
+    "4278439000000101488",
+    "4278439000000101492",
+    "4278439000000101496",
+    "4278439000000101502",
+    "4278439000000101514",
+    "4278439000000101520",
+    "4278439000000101532",
+    "4278439000000101538",
+    "4278439000000101550"
+  ],
+  "reviewedSkus": [
+    "CR1039",
+    "CR1040",
+    "CR1041",
+    "CR1042",
+    "CR1043",
+    "CR1044",
+    "CR1045",
+    "CR1046",
+    "CR1047",
+    "CR1048",
+    "CR1049",
+    "CR1050",
+    "CR1051",
+    "CR1052",
+    "CR1053",
+    "CR1055",
+    "CR1056",
+    "CR1058",
+    "CR1059",
+    "CR1061"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 27,
+  "issues": [
+    {
+      "sku": "CR1039",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1040",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1041",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1042",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1043",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1044",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1046",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1047",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1048",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1049",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1051",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1052",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1052",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1053",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1055",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1056",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1058",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1059",
+      "issue": "Books item mapping blank; sync gate held"
+    },
+    {
+      "sku": "CR1041",
+      "issue": "Sweet potato rib cut product identity/pack size needs label evidence"
+    },
+    {
+      "sku": "CR1042",
+      "issue": "Arabic skin-on fries is literal and misleading; exact label needed"
+    },
+    {
+      "sku": "CR1044",
+      "issue": "Aviko brand field not established by product title; verify variant"
+    },
+    {
+      "sku": "CR1047",
+      "issue": "Skin-on Arabic wording unnatural; verify exact label"
+    },
+    {
+      "sku": "CR1048",
+      "issue": "Arabic Super Crunch translated as crisis; verify product label"
+    },
+    {
+      "sku": "CR1050",
+      "issue": "Steakhouse fries translated as beef steak; verify label"
+    },
+    {
+      "sku": "CR1052",
+      "issue": "Kunafa lacks weight/pack count and unit"
+    },
+    {
+      "sku": "CR1056",
+      "issue": "Mozzarella title contains stray q and Arabic brand translation; pack ambiguity 2.300gm"
+    },
+    {
+      "sku": "CR1040",
+      "issue": "5×2270g sweet potato pack requires label verification"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "creatorMetadataCallsObserved": 0,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": "Exact-ID read of 20; all storefront=false. No writes to Creator; no customer checkout authenticated session. Translation/pack description readback unavailable."
+}
