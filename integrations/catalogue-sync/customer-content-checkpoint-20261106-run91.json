@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-06",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run90.json",
+  "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261106-run91.json",
+  "evidenceBlobSha": "5c3468f5e36ff09eb77dd28e2a478a89f4b13395",
+  "reviewedThisRun": 20,
+  "skipPrefixCount": 760,
+  "nextId": "4278439000000105102",
+  "nextSku": "CR1620",
+  "remainingPending": 477,
+  "rule": "Immutable manifest overlay; advance only with verified evidence and matching manifest SHA; no replay."
+}
