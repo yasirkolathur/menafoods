@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-05",
+  "run": 89,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run88.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104780",
+    "4278439000000104790",
+    "4278439000000104794",
+    "4278439000000104798",
+    "4278439000000104804",
+    "4278439000000104812",
+    "4278439000000104816",
+    "4278439000000104820",
+    "4278439000000104824",
+    "4278439000000104832",
+    "4278439000000104842",
+    "4278439000000104850",
+    "4278439000000104854",
+    "4278439000000104858",
+    "4278439000000104862",
+    "4278439000000104870",
+    "4278439000000104874",
+    "4278439000000104878",
+    "4278439000000104882",
+    "4278439000000104886"
+  ],
+  "reviewedSkus": [
+    "CR1548",
+    "CR1549",
+    "CR1550",
+    "CR1551",
+    "CR1552",
+    "CR1553",
+    "CR1554",
+    "CR1555",
+    "CR1556",
+    "CR1557",
+    "CR1558",
+    "CR1559",
+    "CR1560",
+    "CR1561",
+    "CR1562",
+    "CR1564",
+    "CR1565",
+    "CR1566",
+    "CR1567",
+    "CR1568"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 27,
+  "issues": [
+    {
+      "sku": "CR1552",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1553",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1554",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1555",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1556",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1560",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1562",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1562",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1564",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1564",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1565",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1565",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1566",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1566",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1567",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1567",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1568",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1548",
+      "type": "arabic_mutton_leg_rendered_generic_meat"
+    },
+    {
+      "sku": "CR1550",
+      "type": "arabic_unverified_premium_claim"
+    },
+    {
+      "sku": "CR1552",
+      "type": "brand_spelling_Flecther_vs_Fletcher"
+    },
+    {
+      "sku": "CR1555",
+      "type": "english_BOBY_veal_typo"
+    },
+    {
+      "sku": "CR1556",
+      "type": "lamb_misclassified_under_Australian_Beef"
+    },
+    {
+      "sku": "CR1557",
+      "type": "arabic_leg_bone_in_wording_ambiguous"
+    },
+    {
+      "sku": "CR1558",
+      "type": "arabic_6_way_cut_unidiomatic"
+    },
+    {
+      "sku": "CR1560",
+      "type": "arabic_repeated_potato_word"
+    },
+    {
+      "sku": "CR1564",
+      "type": "arabic_brand_Marietta_missing"
+    },
+    {
+      "sku": "CR1568",
+      "type": "packaging_source_unverified"
+    }
+  ],
+  "creatorProductReadCalls": 2,
+  "creatorRecordsReturned": 21,
+  "excludedOutOfBatch": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000104890",
+  "nextPendingSku": "CR1569",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "One Creator read during initial bounded verification and one independent exact-range read; no writes. No source-backed changes authorized. All reported issues derived from current fields; packaging and variant claims remain held."
+}
