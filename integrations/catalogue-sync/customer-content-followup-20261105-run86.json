@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-05",
+  "run": 86,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run85.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104286",
+    "4278439000000104292",
+    "4278439000000104296",
+    "4278439000000104304",
+    "4278439000000104314",
+    "4278439000000104318",
+    "4278439000000104322",
+    "4278439000000104326",
+    "4278439000000104330",
+    "4278439000000104334",
+    "4278439000000104338",
+    "4278439000000104352",
+    "4278439000000104362",
+    "4278439000000104380",
+    "4278439000000104394",
+    "4278439000000104408",
+    "4278439000000104414",
+    "4278439000000104458",
+    "4278439000000104462",
+    "4278439000000104498"
+  ],
+  "reviewedSkus": [
+    "CR1468",
+    "CR1469",
+    "CR1470",
+    "CR1471",
+    "CR1472",
+    "CR1473",
+    "CR1474",
+    "CR1475",
+    "CR1476",
+    "CR1477",
+    "CR1478",
+    "CR1479",
+    "CR1480",
+    "CR1482",
+    "CR1483",
+    "CR1484",
+    "CR1485",
+    "CR1488",
+    "CR1489",
+    "CR1495"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 31,
+  "issues": [
+    {
+      "sku": "CR1468",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1469",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1470",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1470",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1470",
+      "type": "pack_variant_unverified",
+      "detail": "Honey plastic/glass variants lack net weight"
+    },
+    {
+      "sku": "CR1471",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1471",
+      "type": "pack_variant_unverified",
+      "detail": "Honey plastic/glass variants lack net weight"
+    },
+    {
+      "sku": "CR1472",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1472",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1473",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1473",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1474",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1474",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1474",
+      "type": "category_mismatch",
+      "detail": "Minced mutton categorized Chicken & Eggs"
+    },
+    {
+      "sku": "CR1475",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1475",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1476",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1476",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1476",
+      "type": "category_mismatch",
+      "detail": "Minced mutton categorized Chicken & Eggs"
+    },
+    {
+      "sku": "CR1476",
+      "type": "arabic_title_quality"
+    },
+    {
+      "sku": "CR1478",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1479",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1480",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1482",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1483",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1484",
+      "type": "arabic_pack_count_mismatch",
+      "detail": "English 1100g x10, Arabic 100g x10; hold for verified correction"
+    },
+    {
+      "sku": "CR1485",
+      "type": "unbranded_variant",
+      "detail": "Brand left blank; no brand inferred"
+    },
+    {
+      "sku": "CR1488",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1489",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1489",
+      "type": "arabic_title_quality"
+    },
+    {
+      "sku": "CR1495",
+      "type": "missing_selling_unit"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 28,
+  "excludedOutOfBatch": 8,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "nextPendingId": "4278439000000104506",
+  "nextPendingSku": "CR1496"
+}
