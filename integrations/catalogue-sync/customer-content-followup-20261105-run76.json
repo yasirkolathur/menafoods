@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-05",
+  "run": 76,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run75.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103104",
+    "4278439000000103108",
+    "4278439000000103112",
+    "4278439000000103116",
+    "4278439000000103120",
+    "4278439000000103124",
+    "4278439000000103128",
+    "4278439000000103132",
+    "4278439000000103136",
+    "4278439000000103140",
+    "4278439000000103144",
+    "4278439000000103148",
+    "4278439000000103152",
+    "4278439000000103158",
+    "4278439000000103162",
+    "4278439000000103166",
+    "4278439000000103170",
+    "4278439000000103180",
+    "4278439000000103186",
+    "4278439000000103192"
+  ],
+  "reviewedSkus": [
+    "CR1246",
+    "CR1247",
+    "CR1248",
+    "CR1249",
+    "CR1250",
+    "CR1251",
+    "CR1252",
+    "CR1253",
+    "CR1254",
+    "CR1255",
+    "CR1256",
+    "CR1257",
+    "CR1258",
+    "CR1259",
+    "CR1260",
+    "CR1261",
+    "CR1262",
+    "CR1264",
+    "CR1265",
+    "CR1266"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 32,
+  "issues": [
+    {
+      "sku": "CR1246",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1247",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1247",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1248",
+      "type": "selling_unit_unverified",
+      "observed": "out"
+    },
+    {
+      "sku": "CR1248",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1249",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1249",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1250",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1250",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1253",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1254",
+      "type": "selling_unit_unverified",
+      "observed": "out"
+    },
+    {
+      "sku": "CR1254",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1254",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1255",
+      "type": "selling_unit_unverified",
+      "observed": "out"
+    },
+    {
+      "sku": "CR1255",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1255",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1256",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1256",
+      "type": "conflicting_pack",
+      "detail": "English title 25 oz versus 12x7 gm; no conversion inferred"
+    },
+    {
+      "sku": "CR1257",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1258",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1259",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1260",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1260",
+      "type": "arabic_title_quality",
+      "detail": "Literal/awkward translation; held for label-backed confirmation"
+    },
+    {
+      "sku": "CR1261",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1261",
+      "type": "conflicting_pack",
+      "detail": "2 oz versus 36x88 ml; verify exact variant"
+    },
+    {
+      "sku": "CR1262",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1264",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1264",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1265",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1265",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1266",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1266",
+      "type": "books_mapping_missing"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000103198",
+  "notes": "Exact-ID Creator read. All 20 are not storefront-enabled. No writes; customer content requires manufacturer/label evidence. Translated description/packing not exposed in All_Products API."
+}
