@@ -1,0 +1,450 @@
+{
+  "date": "2026-11-05",
+  "run": 79,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run78.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103400",
+    "4278439000000103404",
+    "4278439000000103408",
+    "4278439000000103414",
+    "4278439000000103418",
+    "4278439000000103422",
+    "4278439000000103426",
+    "4278439000000103432",
+    "4278439000000103438",
+    "4278439000000103446",
+    "4278439000000103450",
+    "4278439000000103458",
+    "4278439000000103464",
+    "4278439000000103468",
+    "4278439000000103472",
+    "4278439000000103478",
+    "4278439000000103482",
+    "4278439000000103486",
+    "4278439000000103490",
+    "4278439000000103502"
+  ],
+  "reviewedSkus": [
+    "CR1308",
+    "CR1309",
+    "CR1310",
+    "CR1311",
+    "CR1312",
+    "CR1313",
+    "CR1314",
+    "CR1315",
+    "CR1316",
+    "CR1317",
+    "CR1318",
+    "CR1319",
+    "CR1320",
+    "CR1321",
+    "CR1322",
+    "CR1323",
+    "CR1324",
+    "CR1325",
+    "CR1326",
+    "CR1328"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 36,
+  "issues": [
+    {
+      "sku": "CR1308",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1308",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1309",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1309",
+      "type": "arabic_pomace_mistranslated_as_garlic"
+    },
+    {
+      "sku": "CR1310",
+      "type": "arabic_sun_dried_tomato_mistranslated"
+    },
+    {
+      "sku": "CR1311",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1312",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1313",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1313",
+      "type": "500g_balsamic_vinegar_pack_requires_label"
+    },
+    {
+      "sku": "CR1314",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1314",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1315",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1315",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1316",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1316",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1317",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1318",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1318",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1319",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1319",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1320",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1321",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1321",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1322",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1322",
+      "type": "brand_literal_translation"
+    },
+    {
+      "sku": "CR1323",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1323",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1324",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1324",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1324",
+      "type": "arabic_turkey_mistranslated_as_country"
+    },
+    {
+      "sku": "CR1325",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1325",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1326",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1326",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1326",
+      "type": "conflicting_15kg_and_4x2_5kg_pack"
+    },
+    {
+      "sku": "CR1328",
+      "type": "selling_unit_unverified"
+    }
+  ],
+  "observations": [
+    {
+      "id": "4278439000000103400",
+      "sku": "CR1308",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103404",
+      "sku": "CR1309",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified",
+        "arabic_pomace_mistranslated_as_garlic"
+      ]
+    },
+    {
+      "id": "4278439000000103408",
+      "sku": "CR1310",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "box",
+      "booksMapped": true,
+      "issues": [
+        "arabic_sun_dried_tomato_mistranslated"
+      ]
+    },
+    {
+      "id": "4278439000000103414",
+      "sku": "CR1311",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103418",
+      "sku": "CR1312",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103422",
+      "sku": "CR1313",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified",
+        "500g_balsamic_vinegar_pack_requires_label"
+      ]
+    },
+    {
+      "id": "4278439000000103426",
+      "sku": "CR1314",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103432",
+      "sku": "CR1315",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103438",
+      "sku": "CR1316",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103446",
+      "sku": "CR1317",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103450",
+      "sku": "CR1318",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103458",
+      "sku": "CR1319",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103464",
+      "sku": "CR1320",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified"
+      ]
+    },
+    {
+      "id": "4278439000000103468",
+      "sku": "CR1321",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103472",
+      "sku": "CR1322",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified",
+        "brand_literal_translation"
+      ]
+    },
+    {
+      "id": "4278439000000103478",
+      "sku": "CR1323",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103482",
+      "sku": "CR1324",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing",
+        "arabic_turkey_mistranslated_as_country"
+      ]
+    },
+    {
+      "id": "4278439000000103486",
+      "sku": "CR1325",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000000103490",
+      "sku": "CR1326",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": false,
+      "issues": [
+        "selling_unit_unverified",
+        "books_mapping_missing",
+        "conflicting_15kg_and_4x2_5kg_pack"
+      ]
+    },
+    {
+      "id": "4278439000000103502",
+      "sku": "CR1328",
+      "creatorIdSkuMatched": true,
+      "storefront": "No",
+      "unit": "",
+      "booksMapped": true,
+      "issues": [
+        "selling_unit_unverified"
+      ]
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "creatorRecordsReturned": 21,
+  "nonManifestRecordIgnored": [
+    "CR1327"
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000103508",
+  "nextPendingSku": "CR1329",
+  "readbackLimitation": "Translated description/packing fields not exposed by All_Products; no writes made",
+  "policy": "Read-only exact manifest-ID audit; no financial/sync/deployment writes"
+}
