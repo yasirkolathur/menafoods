@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-05",
+  "run": 88,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run87.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104680",
+    "4278439000000104684",
+    "4278439000000104694",
+    "4278439000000104698",
+    "4278439000000104702",
+    "4278439000000104706",
+    "4278439000000104710",
+    "4278439000000104714",
+    "4278439000000104718",
+    "4278439000000104722",
+    "4278439000000104728",
+    "4278439000000104734",
+    "4278439000000104738",
+    "4278439000000104742",
+    "4278439000000104746",
+    "4278439000000104750",
+    "4278439000000104754",
+    "4278439000000104758",
+    "4278439000000104764",
+    "4278439000000104772"
+  ],
+  "reviewedSkus": [
+    "CR1527",
+    "CR1528",
+    "CR1530",
+    "CR1531",
+    "CR1532",
+    "CR1533",
+    "CR1534",
+    "CR1535",
+    "CR1536",
+    "CR1537",
+    "CR1538",
+    "CR1539",
+    "CR1540",
+    "CR1541",
+    "CR1542",
+    "CR1543",
+    "CR1544",
+    "CR1545",
+    "CR1546",
+    "CR1547"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 42,
+  "issues": [
+    {
+      "sku": "CR1527",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1527",
+      "type": "pack_variant_unspecified"
+    },
+    {
+      "sku": "CR1528",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1528",
+      "type": "pack_variant_unspecified"
+    },
+    {
+      "sku": "CR1530",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1531",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1531",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1531",
+      "type": "category_collection_cheddar_for_other_cheese"
+    },
+    {
+      "sku": "CR1532",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1532",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1532",
+      "type": "category_collection_cheddar_for_other_cheese"
+    },
+    {
+      "sku": "CR1533",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1533",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1534",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1534",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1534",
+      "type": "pack_variant_unspecified"
+    },
+    {
+      "sku": "CR1535",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1535",
+      "type": "arabic_evaporated_vs_concentrated_ambiguity"
+    },
+    {
+      "sku": "CR1536",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1536",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1537",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1537",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1537",
+      "type": "arabic_weight_unit_conflict_kg_vs_g"
+    },
+    {
+      "sku": "CR1538",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1539",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1539",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1539",
+      "type": "pack_variant_unspecified"
+    },
+    {
+      "sku": "CR1540",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1540",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1540",
+      "type": "category_mismatch_mutton"
+    },
+    {
+      "sku": "CR1541",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1541",
+      "type": "brand_conflict_Dari_vs_Habra"
+    },
+    {
+      "sku": "CR1542",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1543",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1543",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1544",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1544",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1544",
+      "type": "category_mismatch_mutton"
+    },
+    {
+      "sku": "CR1545",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1546",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1546",
+      "type": "variable_weight_pack_requires_confirmation"
+    },
+    {
+      "sku": "CR1547",
+      "type": "variable_weight_pack_requires_confirmation"
+    }
+  ],
+  "creatorProductReadCalls": 2,
+  "creatorRecordsReturned": 21,
+  "excludedOutOfBatch": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000104780",
+  "nextPendingSku": "CR1548",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "No Creator writes. Evidence based on current Creator fields and manifest; flagged ambiguities held. Bounded query performed twice due to verification."
+}
