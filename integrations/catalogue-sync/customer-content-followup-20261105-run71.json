@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-05",
+  "run": 71,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run70.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000101362",
+    "4278439000000101368",
+    "4278439000000101376",
+    "4278439000000101378",
+    "4278439000000101380",
+    "4278439000000101382",
+    "4278439000000101384",
+    "4278439000000101386",
+    "4278439000000101388",
+    "4278439000000101390",
+    "4278439000000101394",
+    "4278439000000101398",
+    "4278439000000101402",
+    "4278439000000101406",
+    "4278439000000101412",
+    "4278439000000101416",
+    "4278439000000101420",
+    "4278439000000101424",
+    "4278439000000101428",
+    "4278439000000101432"
+  ],
+  "reviewedSkus": [
+    "CR1018",
+    "CR1019",
+    "CR1020",
+    "CR1021",
+    "CR1022",
+    "CR1023",
+    "CR1024",
+    "CR1025",
+    "CR1026",
+    "CR1027",
+    "CR1029",
+    "CR1030",
+    "CR1031",
+    "CR1032",
+    "CR1033",
+    "CR1034",
+    "CR1035",
+    "CR1036",
+    "CR1037",
+    "CR1038"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 14,
+  "issues": [
+    {
+      "sku": "CR1019",
+      "issue": "Arabic brand translated literally as مرساة; 15l volume for feta needs label confirmation"
+    },
+    {
+      "sku": "CR1020",
+      "issue": "Marceral whole seafood identity and 11/15 grade ambiguous; no guessed species"
+    },
+    {
+      "sku": "CR1022",
+      "issue": "Nuggets manufacturer/brand unknown"
+    },
+    {
+      "sku": "CR1024",
+      "issue": "Hot and Crispy may be descriptor or brand; do not infer"
+    },
+    {
+      "sku": "CR1025",
+      "issue": "Sulthan brand not verified in Brand field"
+    },
+    {
+      "sku": "CR1027",
+      "issue": "Atoos brand not verified in Brand field"
+    },
+    {
+      "sku": "CR1030",
+      "issue": "Arabic translated as cauliflower instead of broccoli; verify authoritative identity before editing"
+    },
+    {
+      "sku": "CR1034",
+      "issue": "Arabic mixed vegetables contains untranslated VEG; no verified brand"
+    },
+    {
+      "sku": "CR1037",
+      "issue": "Box UOM versus six-pack needs pack hierarchy verification"
+    },
+    {
+      "sku": "CR1021",
+      "issue": "Spring roll wording may indicate pastry sheets versus prepared rolls; verify exact variant"
+    },
+    {
+      "sku": "CR1036",
+      "issue": "Herb diced potato description ambiguous; verify exact Aviko SKU"
+    },
+    {
+      "sku": "CR1038",
+      "issue": "5x2270g pack requires authoritative confirmation"
+    },
+    {
+      "sku": "CR1018",
+      "issue": "Cheddar block 1.8kg piece pack needs label evidence"
+    },
+    {
+      "sku": "CR1033",
+      "issue": "Aga name and molokhia pack label verification pending"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "creatorMetadataCallsObserved": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": "Exact-ID All_Products read; all 20 currently storefront=false in manifest. Translated description/packing readback not exposed; no unsupported writes. Existing checkout acceptance evidence remains missing."
+}
