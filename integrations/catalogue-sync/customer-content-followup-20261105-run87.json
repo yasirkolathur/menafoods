@@ -1,0 +1,212 @@
+{
+  "date": "2026-11-05",
+  "run": 87,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run86.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104506",
+    "4278439000000104510",
+    "4278439000000104514",
+    "4278439000000104532",
+    "4278439000000104548",
+    "4278439000000104556",
+    "4278439000000104564",
+    "4278439000000104594",
+    "4278439000000104616",
+    "4278439000000104622",
+    "4278439000000104626",
+    "4278439000000104630",
+    "4278439000000104634",
+    "4278439000000104644",
+    "4278439000000104646",
+    "4278439000000104650",
+    "4278439000000104662",
+    "4278439000000104666",
+    "4278439000000104670",
+    "4278439000000104674"
+  ],
+  "reviewedSkus": [
+    "CR1496",
+    "CR1497",
+    "CR1498",
+    "CR1500",
+    "CR1502",
+    "CR1503",
+    "CR1504",
+    "CR1508",
+    "CR1512",
+    "CR1513",
+    "CR1514",
+    "CR1515",
+    "CR1516",
+    "CR1518",
+    "CR1519",
+    "CR1520",
+    "CR1523",
+    "CR1524",
+    "CR1525",
+    "CR1526"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 32,
+  "issues": [
+    {
+      "sku": "CR1496",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1497",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1498",
+      "type": "supplier_grade_or_variant_unverified",
+      "detail": "Numeric grade needs source confirmation"
+    },
+    {
+      "sku": "CR1500",
+      "type": "brand_unverified",
+      "detail": "Do not infer from title"
+    },
+    {
+      "sku": "CR1500",
+      "type": "supplier_grade_or_variant_unverified",
+      "detail": "Numeric grade needs source confirmation"
+    },
+    {
+      "sku": "CR1502",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1502",
+      "type": "ambiguous_species_label",
+      "detail": "Buffalo versus beef requires exact label evidence"
+    },
+    {
+      "sku": "CR1502",
+      "type": "supplier_grade_or_variant_unverified",
+      "detail": "Numeric grade needs source confirmation"
+    },
+    {
+      "sku": "CR1503",
+      "type": "supplier_grade_or_variant_unverified",
+      "detail": "Numeric grade needs source confirmation"
+    },
+    {
+      "sku": "CR1504",
+      "type": "brand_unverified",
+      "detail": "Do not infer from title"
+    },
+    {
+      "sku": "CR1504",
+      "type": "supplier_grade_or_variant_unverified",
+      "detail": "Numeric grade needs source confirmation"
+    },
+    {
+      "sku": "CR1508",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1508",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1513",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1514",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1514",
+      "type": "pack_variant_unverified",
+      "detail": "Net weight or carton quantity not specified"
+    },
+    {
+      "sku": "CR1516",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1516",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1518",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1518",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1519",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1519",
+      "type": "pack_variant_unverified",
+      "detail": "Net weight or carton quantity not specified"
+    },
+    {
+      "sku": "CR1523",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1523",
+      "type": "english_title_quality",
+      "detail": "Spelling only; hold edit pending exact product evidence"
+    },
+    {
+      "sku": "CR1524",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1524",
+      "type": "english_title_quality",
+      "detail": "Spelling only; hold edit pending exact product evidence"
+    },
+    {
+      "sku": "CR1525",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1525",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1525",
+      "type": "english_title_quality",
+      "detail": "Spelling only; hold edit pending exact product evidence"
+    },
+    {
+      "sku": "CR1526",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1526",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1526",
+      "type": "english_title_quality",
+      "detail": "Spelling only; hold edit pending exact product evidence"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 30,
+  "excludedOutOfBatch": 10,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000104680",
+  "nextPendingSku": "CR1527",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products",
+  "notes": "No Creator writes. Issues from bounded read; ambiguous names and variants held."
+}
