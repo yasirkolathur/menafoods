@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-05",
+  "run": 74,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run73.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000101704",
+    "4278439000000101716",
+    "4278439000000101756",
+    "4278439000000101786",
+    "4278439000000101806",
+    "4278439000000101810",
+    "4278439000000102952",
+    "4278439000000102956",
+    "4278439000000102960",
+    "4278439000000102964",
+    "4278439000000102968",
+    "4278439000000102972",
+    "4278439000000102976",
+    "4278439000000102984",
+    "4278439000000102988",
+    "4278439000000102996",
+    "4278439000000103000",
+    "4278439000000103004",
+    "4278439000000103008",
+    "4278439000000103012"
+  ],
+  "reviewedSkus": [
+    "CR1091",
+    "CR1093",
+    "CR1099",
+    "CR1103",
+    "CR1105",
+    "CR1106",
+    "CR1208",
+    "CR1209",
+    "CR1210",
+    "CR1211",
+    "CR1212",
+    "CR1213",
+    "CR1214",
+    "CR1216",
+    "CR1217",
+    "CR1219",
+    "CR1220",
+    "CR1221",
+    "CR1222",
+    "CR1223"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 27,
+  "issues": [
+    {
+      "sku": "CR1091",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1093",
+      "issue": "No Creator image; exact match and rights required"
+    },
+    {
+      "sku": "CR1093",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1208",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1208",
+      "issue": "Books item mapping blank; sync blocked"
+    },
+    {
+      "sku": "CR1208",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1210",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1212",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1213",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1213",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1214",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1214",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1216",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1216",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1217",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1217",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1220",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1220",
+      "issue": "Tin vs carton sales variant requires verification"
+    },
+    {
+      "sku": "CR1221",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1221",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1221",
+      "issue": "Brand variant conflicts with product title; verify label"
+    },
+    {
+      "sku": "CR1222",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1222",
+      "issue": "Books item mapping blank; sync blocked"
+    },
+    {
+      "sku": "CR1222",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    },
+    {
+      "sku": "CR1223",
+      "issue": "Selling unit blank; do not infer CTN/PCS/KG"
+    },
+    {
+      "sku": "CR1223",
+      "issue": "Books item mapping blank; sync blocked"
+    },
+    {
+      "sku": "CR1223",
+      "issue": "Customer title/Arabic translation or pack identity requires exact-label confirmation"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "All 20 non-storefront; exact-ID read; no product writes; no authenticated checkout test. All_Products lacks translated description/packing readback."
+}
