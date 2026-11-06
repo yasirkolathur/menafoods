@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-06",
+  "run": 113,
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000009774029",
+    "4278439000009774036",
+    "4278439000009774043",
+    "4278439000009774050",
+    "4278439000009774057",
+    "4278439000009774064",
+    "4278439000009774071",
+    "4278439000009774078",
+    "4278439000009774085",
+    "4278439000009774092",
+    "4278439000009774099",
+    "4278439000009774106",
+    "4278439000009774113",
+    "4278439000009774120",
+    "4278439000009774127",
+    "4278439000009774134",
+    "4278439000009774141",
+    "4278439000009774148",
+    "4278439000009774155",
+    "4278439000009774162"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorReadCalls": 1,
+  "creatorWrites": 0,
+  "unresolvedIssueCount": 44,
+  "issues": [
+    {
+      "id": "4278439000009774029",
+      "sku": "SKU-3518",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774036",
+      "sku": "SKU-3519",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774043",
+      "sku": "SKU-3520",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank",
+        "pack_count_30x18_ambiguous"
+      ]
+    },
+    {
+      "id": "4278439000009774050",
+      "sku": "SKU-3521",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774057",
+      "sku": "SKU-3522",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774064",
+      "sku": "SKU-3523",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774071",
+      "sku": "SKU-3524",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774078",
+      "sku": "SKU-3525",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank",
+        "40x500g_bag_packaging_ambiguous"
+      ]
+    },
+    {
+      "id": "4278439000009774085",
+      "sku": "SKU-3526",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774092",
+      "sku": "SKU-3527",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774099",
+      "sku": "SKU-3528",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774106",
+      "sku": "SKU-3529",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774113",
+      "sku": "SKU-3530",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774120",
+      "sku": "SKU-3531",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774127",
+      "sku": "SKU-3532",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774134",
+      "sku": "SKU-3533",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774141",
+      "sku": "SKU-3534",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774148",
+      "sku": "SKU-3535",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank",
+        "24x6_packaging_ambiguous"
+      ]
+    },
+    {
+      "id": "4278439000009774155",
+      "sku": "SKU-3536",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank"
+      ]
+    },
+    {
+      "id": "4278439000009774162",
+      "sku": "SKU-3537",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_blank",
+        "carton_piece_count_unspecified"
+      ]
+    }
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "source": "Zoho Creator All_Products exact-ID filtered read, immutable manifest",
+  "readback": "All 20 exact IDs/SKUs/names matched. All have empty Translated_Name and Product_Images. No edits. Translated description/packing fields unavailable in All_Products API.",
+  "nextPendingId": "4278439000009778017"
+}
