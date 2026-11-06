@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-06",
+  "run": 109,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run108.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000006555041",
+    "4278439000006858347",
+    "4278439000006862161",
+    "4278439000006914017",
+    "4278439000006994061",
+    "4278439000006995031",
+    "4278439000006998025",
+    "4278439000007066007",
+    "4278439000007094131",
+    "4278439000007094247",
+    "4278439000007094451",
+    "4278439000007096188",
+    "4278439000007096227",
+    "4278439000007097018",
+    "4278439000007100409",
+    "4278439000007100517",
+    "4278439000007101381",
+    "4278439000007195085",
+    "4278439000007322287",
+    "4278439000007353112"
+  ],
+  "products": [
+    {
+      "id": "4278439000006555041",
+      "sku": "SKU-3348",
+      "name": "Mirasol Sunflower Oil 5L x 2 Pieces - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_spelling_mismatch_mirasol_mirsasol"
+      ],
+      "readback": {
+        "sku": "SKU-3348",
+        "name": "Mirasol Sunflower Oil 5L x 2 Pieces - Carton",
+        "arabic": "زيت دوار الشمس ميراسول 5 لتر × 2 قطعة",
+        "brand": "MIRSASOL",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006858347",
+      "sku": "SKU-3350",
+      "name": "Freshly Meat Tenderizer 5.75 oz x 12 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3350",
+        "name": "Freshly Meat Tenderizer 5.75 oz x 12 - Carton",
+        "arabic": "ملين لحم فريشلي 5.75 أونصة × 12 - كرتون",
+        "brand": "FRESHLY",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006862161",
+      "sku": "SKU-3349",
+      "name": "INSTANT TOM YUM PASTE 227 g",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_product_identity_ambiguous",
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3349",
+        "name": "INSTANT TOM YUM PASTE 227 g",
+        "arabic": "معجون توم يام سريع التحضير 227 غرام",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006914017",
+      "sku": "SKU-3351",
+      "name": "Raw Cashew whole (kg)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3351",
+        "name": "Raw Cashew whole (kg)",
+        "arabic": "الكاجو النيء الكامل (كجم)",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006994061",
+      "sku": "SKU-3353",
+      "name": "PRAN Mughal Mustard Oil 400 ml x 20 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "books_mapping_missing",
+        "duplicate_active_variant_requires_reconciliation"
+      ],
+      "readback": {
+        "sku": "SKU-3353",
+        "name": "PRAN Mughal Mustard Oil 400 ml x 20 - Carton",
+        "arabic": "زيت الخردل المغولي من بران، 400 مل × 20 عبوة - كرتون",
+        "brand": "PRAN",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006995031",
+      "sku": "SKU-3354",
+      "name": "Mutton Shank Fletcher Front",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3354",
+        "name": "Mutton Shank Fletcher Front",
+        "arabic": "ساق لحم ضأن فليتشر فرونت",
+        "brand": "FLETCHER",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006998025",
+      "sku": "SKU-3352",
+      "name": "PRAN Mughal Mustard Oil 400 ml x 20 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "duplicate_active_variant_requires_reconciliation"
+      ],
+      "readback": {
+        "sku": "SKU-3352",
+        "name": "PRAN Mughal Mustard Oil 400 ml x 20 - Carton",
+        "arabic": "زيت الخردل المغولي من بران، 400 مل × 20 عبوة - كرتون",
+        "brand": "PRAN",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007066007",
+      "sku": "SKU-3356",
+      "name": "LINA STAR PRICING LABELS 16x26x1000/36 rolls",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3356",
+        "name": "LINA STAR PRICING LABELS 16x26x1000/36 rolls",
+        "arabic": "ملصقات أسعار لينا ستار 16×26×1000/36 لفة",
+        "brand": "LINA STAR",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007094131",
+      "sku": "SKU-3363",
+      "name": "Smoked Paprika Small 92g x12 Freshly",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_unverified"
+      ],
+      "readback": {
+        "sku": "SKU-3363",
+        "name": "Smoked Paprika Small 92g x12 Freshly",
+        "arabic": "بابريكا مدخنة صغيرة 92 غرام × 12",
+        "brand": "FRESHLY",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007094247",
+      "sku": "SKU-3367",
+      "name": "Americana Chicken Nuggets 18 x 400g - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_hold",
+        "malformed_arabic_title_requires_source_verified_correction"
+      ],
+      "readback": {
+        "sku": "SKU-3367",
+        "name": "Americana Chicken Nuggets 18 x 400g - Carton",
+        "arabic": "l قطع دجاج أمريكانا ناجتس 18 × 400 غرام - كرتون",
+        "brand": "AMERICANA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007094451",
+      "sku": "SKU-3370",
+      "name": "Badia Cayenne Pepper 453.6g",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3370",
+        "name": "Badia Cayenne Pepper 453.6g",
+        "arabic": "فلفل كايين باديا 453.6 غرام",
+        "brand": "BADIA",
+        "unit": "pcs",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007096188",
+      "sku": "SKU-3364",
+      "name": "Worcestershire Sauce (Freshly) 295ml x 12",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_unverified"
+      ],
+      "readback": {
+        "sku": "SKU-3364",
+        "name": "Worcestershire Sauce (Freshly) 295ml x 12",
+        "arabic": "صلصة ورشستر ) فرشلي ( 295 مل × 12 عادي",
+        "brand": "FRESHLY",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007096227",
+      "sku": "SKU-3365",
+      "name": "Rana Apple Vinegar 474 ML x 12 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_unverified",
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3365",
+        "name": "Rana Apple Vinegar 474 ML x 12 - Carton",
+        "arabic": "خل التفاح رنا 474 مل × 12-كرتون",
+        "brand": "RANA",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007097018",
+      "sku": "SKU-3358",
+      "name": "French fries 6/6 Golden Finger2.5kg x 4 -carton",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3358",
+        "name": "French fries 6/6 Golden Finger2.5kg x 4 -carton",
+        "arabic": "بطاطس مقلية 6/6 أصابع ذهبية 2.5 كجم × 4 - كرتون",
+        "brand": "GOLDEN FINGER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007100409",
+      "sku": "SKU-3368",
+      "name": "Strips Chicken Americana 320gmx18pc",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "arabic_title_omits_carton_pack_count"
+      ],
+      "readback": {
+        "sku": "SKU-3368",
+        "name": "Strips Chicken Americana 320gmx18pc",
+        "arabic": "امريكانا ميني تشيكن ستربس 320 جم",
+        "brand": "AMERICANA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007100517",
+      "sku": "SKU-3371",
+      "name": "Bakemate High Power Multi-Purpose (0.02%) 500 GM",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3371",
+        "name": "Bakemate High Power Multi-Purpose (0.02%) 500 GM",
+        "arabic": "بيكميت متعدد الأغراض عالي الطاقة (0.02%) 500 غرام",
+        "brand": "Bakemate",
+        "unit": "pcs",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007101381",
+      "sku": "SKU-3369",
+      "name": "Original Oreo Large 36x 24x 6g",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3369",
+        "name": "Original Oreo Large 36x 24x 6g",
+        "arabic": "أوريو الأصلي الكبير 36x 24x 6g",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007195085",
+      "sku": "SKU-3382",
+      "name": "Water 500ml",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "image_missing",
+        "brand_or_product_identity_ambiguous",
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3382",
+        "name": "Water 500ml",
+        "arabic": "المياه 500 مل",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007322287",
+      "sku": "SKU-3389",
+      "name": "French Fries Holland 9/9 1kg x 10 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "image_missing",
+        "brand_or_product_identity_ambiguous"
+      ],
+      "readback": {
+        "sku": "SKU-3389",
+        "name": "French Fries Holland 9/9 1kg x 10 - Carton",
+        "arabic": "بطاطس مقلية هولندية 9/9، 1 كجم × 10 - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000007353112",
+      "sku": "SKU-3401",
+      "name": "Al Khair Liquid Milk 48 X 410ml",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3401",
+        "name": "Al Khair Liquid Milk 48 X 410ml",
+        "arabic": "الخير الحليب السائل 48 × 410 مل",
+        "brand": "A lKhair",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 22,
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000007354158",
+  "notes": [
+    "Exact-ID report readback; translated description/packing not exposed.",
+    "No manufacturer/authorized evidence to support safe content writes; all ambiguous edits held.",
+    "PRAN Mughal Mustard Oil SKU-3353 and SKU-3352 identical product name and pack; distinct Creator IDs, one lacks Books mapping; do not merge.",
+    "No authenticated checkout QA performed."
+  ]
+}
