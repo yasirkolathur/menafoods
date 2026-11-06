@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-06",
+  "run": 111,
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000008576014",
+    "4278439000008587026",
+    "4278439000009154012",
+    "4278439000009565002",
+    "4278439000009565007",
+    "4278439000009565012",
+    "4278439000009565017",
+    "4278439000009565022",
+    "4278439000009565027",
+    "4278439000009565032",
+    "4278439000009565037",
+    "4278439000009565042",
+    "4278439000009565047",
+    "4278439000009641030",
+    "4278439000009641035",
+    "4278439000009641040",
+    "4278439000009641045",
+    "4278439000009641050",
+    "4278439000009641055",
+    "4278439000009643042"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorReadCalls": 1,
+  "creatorWrites": 0,
+  "unresolvedIssueCount": 26,
+  "issues": [
+    {
+      "id": "4278439000009565002",
+      "sku": "SKU-3443",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565007",
+      "sku": "SKU-3444",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565012",
+      "sku": "SKU-3445",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565022",
+      "sku": "SKU-3447",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565042",
+      "sku": "SKU-3451",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009641030",
+      "sku": "SKU-3456",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565037",
+      "sku": "SKU-3450",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009641055",
+      "sku": "SKU-3461",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009641035",
+      "sku": "SKU-3457",
+      "findings": [
+        "no_creator_image",
+        "manifest_storefront_flag_false_but_creator_yes",
+        "carton_pack_count_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009565017",
+      "sku": "SKU-3446",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009154012",
+      "sku": "SKU-3442",
+      "findings": [
+        "brand_blank_unbranded_hold_no_inference"
+      ]
+    },
+    {
+      "id": "4278439000009641045",
+      "sku": "SKU-3459",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000008587026",
+      "sku": "SKU-3441",
+      "findings": [
+        "arabic_title_says_beef_bones_instead_of_bone_in_beef",
+        "zero_selling_price_financial_hold",
+        "box_vs_20_packets_variant_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009641040",
+      "sku": "SKU-3458",
+      "findings": [
+        "no_creator_image",
+        "bag_product_specification_ambiguous"
+      ]
+    },
+    {
+      "id": "4278439000009643042",
+      "sku": "SKU-3463",
+      "findings": [
+        "no_creator_image",
+        "selling_price_blank_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000009565027",
+      "sku": "SKU-3448",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565032",
+      "sku": "SKU-3449",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009565047",
+      "sku": "SKU-3452",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009641050",
+      "sku": "SKU-3460",
+      "findings": [
+        "no_creator_image",
+        "ranch_dressing_pack_size_missing"
+      ]
+    }
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "source": "Zoho Creator All_Products filtered exact-ID read; immutable manifest; no manufacturer/label evidence supporting edits",
+  "nextPendingId": "4278439000009643047",
+  "readback": "All 20 IDs/SKUs/names matched. Translated description and packing fields not exposed. Creator storefront flag differs from immutable manifest for SKU-3457; requires separate QA."
+}
