@@ -1,0 +1,449 @@
+{
+  "date": "2026-11-06",
+  "run": 106,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run105.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000003851064",
+    "4278439000003854049",
+    "4278439000003858501",
+    "4278439000003862037",
+    "4278439000003864136",
+    "4278439000003886069",
+    "4278439000003917013",
+    "4278439000003959039",
+    "4278439000003994007",
+    "4278439000004006043",
+    "4278439000004027011",
+    "4278439000004039035",
+    "4278439000004041003",
+    "4278439000004137011",
+    "4278439000004148017",
+    "4278439000004150011",
+    "4278439000004192011",
+    "4278439000004320015",
+    "4278439000004462007",
+    "4278439000004620051"
+  ],
+  "products": [
+    {
+      "id": "4278439000003851064",
+      "sku": "SKU-3080",
+      "name": "DCLEAN FOAM HAND WASH 3L",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3080",
+        "name": "DCLEAN FOAM HAND WASH 3L",
+        "arabic": "غسول اليدين دي كلين فوم 3 لتر",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003854049",
+      "sku": "SKU-3078",
+      "name": "Napkin Roll 5kg x 5 rolls",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3078",
+        "name": "Napkin Roll 5kg x 5 rolls",
+        "arabic": "لفافة مناديل 5 كجم × 5 لفات",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003858501",
+      "sku": "SKU-3075",
+      "name": "BLACK MICROWAVE 50 GRM ARNON 100 PC",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_books_mapping_hold",
+        "description_or_pack_requires_source_evidence",
+        "packaging_product_identity_50_grm_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3075",
+        "name": "BLACK MICROWAVE 50 GRM ARNON 100 PC",
+        "arabic": "ميكروويف أسود 50 جرام أرنون 100 قطعة",
+        "brand": "ARNON",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003862037",
+      "sku": "SKU-3079",
+      "name": "Cetris Multi Purpose Cleaner 1Ltr x 12 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3079",
+        "name": "Cetris Multi Purpose Cleaner 1Ltr x 12 - Carton",
+        "arabic": "منظف متعدد الأغراض من سيتريس، 1 لتر × 12 - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003864136",
+      "sku": "SKU-3077",
+      "name": "PRINTED BEEF SWARMA SANDWICH PAPER JOODY 8×275-516",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3077",
+        "name": "PRINTED BEEF SWARMA SANDWICH PAPER JOODY 8×275-516",
+        "arabic": "ورق ساندويتش لحم بقري سوارما مطبوع جودي 8×275-516",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003886069",
+      "sku": "SKU-3084",
+      "name": "Tasmanian Grass Fed Side of Frozen  Lamb [Approximately 8-12 kg]",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3084",
+        "name": "Tasmanian Grass Fed Side of Frozen  Lamb [Approximately 8-12 kg]",
+        "arabic": "جانب من لحم الضأن المجمد المُغذّى على العشب من تسمانيا [حوالي 8-12 كجم]",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003917013",
+      "sku": "SKU-3085",
+      "name": "Al Noor Frozen Boneless Chicken Shawarma 7.5 kg × 2 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3085",
+        "name": "Al Noor Frozen Boneless Chicken Shawarma 7.5 kg × 2 - Carton",
+        "arabic": "النور المجمدة الدجاج بلا عظام شاورما 7.5 كجم × 2 - الكرتون",
+        "brand": "NOOR",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003959039",
+      "sku": "SKU-3088",
+      "name": "Falcon Baking Paper (10 M x 30 Cm) 1 x 24 Pieces - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only"
+      ],
+      "readback": {
+        "sku": "SKU-3088",
+        "name": "Falcon Baking Paper (10 M x 30 Cm) 1 x 24 Pieces - Carton",
+        "arabic": "ورق خبز الصقر (10 م × 30 سم) 1 × 24 قطعة - الكرتون",
+        "brand": "FALCON PACK",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003994007",
+      "sku": "SKU-3089",
+      "name": "Abu Al-Walad Cheese 24 Triangles 24 x 360 g",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3089",
+        "name": "Abu Al-Walad Cheese 24 Triangles 24 x 360 g",
+        "arabic": "أبو الولاد جبن 24 مثلث 24 × 360 غرام",
+        "brand": "Abu Al-Walad",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004006043",
+      "sku": "SKU-3098",
+      "name": "Milk Powder 10kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3098",
+        "name": "Milk Powder 10kg",
+        "arabic": "مسحوق الحليب 10 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004027011",
+      "sku": "SKU-3100",
+      "name": "Indofood Lampung Hot Sauce 140ml x 48",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence",
+        "arabic_name_mistranslation_lampung_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3100",
+        "name": "Indofood Lampung Hot Sauce 140ml x 48",
+        "arabic": "صلصة مصباح داخلي 140 مل × 48",
+        "brand": "",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004039035",
+      "sku": "SKU-3102",
+      "name": "Myres French fries 6/6 2.5 kg x 5",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_product_image_hold",
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3102",
+        "name": "Myres French fries 6/6 2.5 kg x 5",
+        "arabic": "البطاطس المقلية ميريس 6/6 2.5 كجم × 5",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004041003",
+      "sku": "SKU-3101",
+      "name": "Crispy Crunchy French fries Straight 9/9 2.5 kg x 4",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_product_image_hold",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence",
+        "arabic_fries_cut_translation_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3101",
+        "name": "Crispy Crunchy French fries Straight 9/9 2.5 kg x 4",
+        "arabic": "البطاطس المقلية المقرمشة على التوالي 9/9 2.5 كجم × 4",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004137011",
+      "sku": "SKU-3106",
+      "name": "White Paper bag No : 9",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3106",
+        "name": "White Paper bag No : 9",
+        "arabic": "كيس الورق الأبيض رقم: 9",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004148017",
+      "sku": "SKU-3109",
+      "name": "French fries Sadia Potato Wedges 750gm x 12 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3109",
+        "name": "French fries Sadia Potato Wedges 750gm x 12 - Carton",
+        "arabic": "بطاطس مقلية ساديا بطاطس ودجز 750 جرام × 12 - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004150011",
+      "sku": "SKU-3108",
+      "name": "1200g Whole Chicken Brazil Perdix 1.2 kg x 10 - carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_books_mapping_hold"
+      ],
+      "readback": {
+        "sku": "SKU-3108",
+        "name": "1200g Whole Chicken Brazil Perdix 1.2 kg x 10 - carton",
+        "arabic": "1200g الدجاج كله البرازيل بيرديكس 1.2 كجم × 10 - الكرتون",
+        "brand": "PERDIX",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004192011",
+      "sku": "SKU-3113",
+      "name": "Mondelle Crispy Onion Rings 1 kg x 6 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3113",
+        "name": "Mondelle Crispy Onion Rings 1 kg x 6 - Carton",
+        "arabic": "مونديل متموج خواتم البصل 1 كجم × 6 - الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004320015",
+      "sku": "SKU-3124",
+      "name": "Frozen Whole chicken GT 1100g x 10 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3124",
+        "name": "Frozen Whole chicken GT 1100g x 10 - Carton",
+        "arabic": "دجاجة كاملة مجمدة جي تي 1100 غرام × 10 - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004462007",
+      "sku": "SKU-3149",
+      "name": "Urussa Whole chicken 1000g x 10 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3149",
+        "name": "Urussa Whole chicken 1000g x 10 - Carton",
+        "arabic": "أوروسا الدجاج كله 1000g × 10 - الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004620051",
+      "sku": "SKU-3179",
+      "name": "Frozen Entaj Chicken liver 20 x 400 g",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3179",
+        "name": "Frozen Entaj Chicken liver 20 x 400 g",
+        "arabic": "كبد دجاج إنتاج المجمد 20 × 400 غرام",
+        "brand": "Entaj",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 49,
+  "creatorProductReadCallsThisRun": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitation": "Translated description and packing fields unavailable in All_Products report",
+  "nextPendingId": "4278439000004690027"
+}
