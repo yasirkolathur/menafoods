@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-06",
+  "run": 96,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run95.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001077025",
+    "4278439000001079075",
+    "4278439000001113016",
+    "4278439000001127007",
+    "4278439000001152022",
+    "4278439000001176039",
+    "4278439000001176053",
+    "4278439000001179011",
+    "4278439000001179025",
+    "4278439000001183011",
+    "4278439000001184011",
+    "4278439000001185025",
+    "4278439000001209007",
+    "4278439000001258004",
+    "4278439000001309021",
+    "4278439000001360015",
+    "4278439000001387007",
+    "4278439000001454017",
+    "4278439000001456011",
+    "4278439000001459049"
+  ],
+  "products": [
+    {
+      "sku": "CR1834",
+      "id": "4278439000001077025",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1836",
+      "id": "4278439000001079075",
+      "issues": [
+        "missing_books_mapping"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1840",
+      "id": "4278439000001113016",
+      "issues": [
+        "missing_selling_unit"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1848",
+      "id": "4278439000001127007",
+      "issues": [
+        "missing_selling_unit",
+        "missing_books_mapping",
+        "arabic_title_requires_review"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1856",
+      "id": "4278439000001152022",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1859",
+      "id": "4278439000001176039",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1860",
+      "id": "4278439000001176053",
+      "issues": [
+        "arabic_pack_weight_conflict_100g_vs_1200g"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1861",
+      "id": "4278439000001179011",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1862",
+      "id": "4278439000001179025",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1866",
+      "id": "4278439000001183011",
+      "issues": [
+        "arabic_pack_weight_conflict_100g_vs_1200g"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1867",
+      "id": "4278439000001184011",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1869",
+      "id": "4278439000001185025",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1872",
+      "id": "4278439000001209007",
+      "issues": [
+        "missing_selling_unit",
+        "brand_unverified"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1887",
+      "id": "4278439000001258004",
+      "issues": [
+        "brand_title_mismatch_Fazco_vs_Santa_Fe",
+        "product_variant_underspecified"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1895",
+      "id": "4278439000001309021",
+      "issues": [
+        "brand_Foodstore_not_in_title_requires_evidence"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1902",
+      "id": "4278439000001360015",
+      "issues": [
+        "arabic_title_mistranslates_tenderloin"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1905",
+      "id": "4278439000001387007",
+      "issues": [
+        "origin_Thailand_not_independently_verified"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1917",
+      "id": "4278439000001454017",
+      "issues": [
+        "fish_species_ambiguous_Marceral",
+        "arabic_title_does_not_preserve_species"
+      ],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1919",
+      "id": "4278439000001456011",
+      "issues": [],
+      "verifiedFieldChanges": []
+    },
+    {
+      "sku": "CR1923",
+      "id": "4278439000001459049",
+      "issues": [
+        "irish_origin_and_black_angus_claim_unverified"
+      ],
+      "verifiedFieldChanges": []
+    }
+  ],
+  "unresolvedIssueCount": 17,
+  "verifiedChanges": [],
+  "creatorReadCalls": 2,
+  "readback": "Creator exact-ID query returned all 20 matching IDs and SKUs; no writes made",
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "storefront": "All 20 records currently No",
+  "checkoutStatus": "NO-GO; no authenticated QA evidence obtained this run",
+  "sources": [
+    {
+      "type": "existing_creator_report",
+      "name": "All_Products",
+      "method": "exact ID OR criteria"
+    },
+    {
+      "type": "immutable_manifest",
+      "sha": "719c55c0bdd12edf0b87319a309636c28baf88ad"
+    }
+  ],
+  "limitations": [
+    "No independently verified manufacturer/label evidence for proposed field corrections",
+    "No Creator field writes attempted",
+    "No authenticated customer checkout tests performed"
+  ]
+}
