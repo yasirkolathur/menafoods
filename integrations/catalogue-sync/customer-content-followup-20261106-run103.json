@@ -1,0 +1,419 @@
+{
+  "date": "2026-11-06",
+  "run": 103,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run102.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002674007",
+    "4278439000002682150",
+    "4278439000002699045",
+    "4278439000002700003",
+    "4278439000002713007",
+    "4278439000002721036",
+    "4278439000002735076",
+    "4278439000002737007",
+    "4278439000002747052",
+    "4278439000002755007",
+    "4278439000002776007",
+    "4278439000002779007",
+    "4278439000002780007",
+    "4278439000002781003",
+    "4278439000002786007",
+    "4278439000002791007",
+    "4278439000002794028",
+    "4278439000002795007",
+    "4278439000002795028",
+    "4278439000002796007"
+  ],
+  "products": [
+    {
+      "id": "4278439000002674007",
+      "sku": "SKU-2817",
+      "name": "Pure Butter Ghee 1.6 kg",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "name_or_pack_requires_source_verification",
+        "arabic_translation_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "زبدة نقية السمن 1.6 كجم",
+        "brand": "",
+        "unit": "pcs",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002682150",
+      "sku": "SKU-2818",
+      "name": "Frozen Whole Chicken 10x1000gms-GOLDEN PHOENIX",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "دجاجة كاملة مجمدة (10x1000 جرام)-جولدن فينيكس",
+        "brand": "GOLDEN PHOENIX",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002699045",
+      "sku": "SKU-2826",
+      "name": "liptop tea bag ",
+      "issues": [
+        "missing_selling_unit",
+        "missing_image",
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "كيس شاي الشفاه",
+        "brand": "",
+        "unit": "",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002700003",
+      "sku": "SKU-2827",
+      "name": "plastic container (curry container 2650038)",
+      "issues": [
+        "missing_selling_unit",
+        "missing_image",
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "حاوية بلاستيكية (حاوية الكاري 2650038)",
+        "brand": "",
+        "unit": "",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002713007",
+      "sku": "SKU-2834",
+      "name": "Hayat Mayonnaise 946 ml x 12",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "حياة المايونيز 946 مل × 12",
+        "brand": "HAYAT",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002721036",
+      "sku": "SKU-2841",
+      "name": "Dalda Tin 15 kg",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification",
+        "arabic_translation_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "دالدا تين 15 كجم",
+        "brand": "",
+        "unit": "tin",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002735076",
+      "sku": "SKU-2850",
+      "name": "Nescafe Classic Instant Coffee 190g x 12",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "القهوة الفورية الكلاسيكية Nescafe 190g × 12",
+        "brand": "NESCAFE",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002737007",
+      "sku": "SKU-2846",
+      "name": "SuperStar Frozen Bobby Veal 900 g x 20",
+      "issues": [
+        "name_or_pack_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "سوبر ستار المجمدة بوبي العجل 900 غرام × 20",
+        "brand": "SUPERSTAR",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002747052",
+      "sku": "SKU-2858",
+      "name": "Eastern Lime Pickle, 5 Kg",
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مخلل الجير الشرقي، 5 كجم",
+        "brand": "EASTERN",
+        "unit": "tin",
+        "booksMappingPresent": true,
+        "imageCount": 5,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002755007",
+      "sku": "SKU-2860",
+      "name": "White Paper Bag No 7 5 kg",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "كيس الورق الأبيض رقم 7 5 كجم",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002776007",
+      "sku": "SKU-2872",
+      "name": "Eastern Coconut Milk Tin 24 x 400ml",
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "علبة حليب جوز الهند الشرقية 24 × 400 مل",
+        "brand": "EASTERN",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002779007",
+      "sku": "SKU-2873",
+      "name": "Indofood Swwet Soy Sauce 340ml x12",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "صلصة فول الصويا الداخلية 340 مل × 12",
+        "brand": "INDOFOOD",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002780007",
+      "sku": "SKU-2874",
+      "name": "Black Salt Powder 10 kg",
+      "issues": [
+        "brand_unverified_or_unbranded"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مسحوق الملح الأسود 10 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002781003",
+      "sku": "SKU-2875",
+      "name": "Indian Ajwan 10 kg",
+      "issues": [
+        "missing_image",
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "أجوان الهندي 10 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002786007",
+      "sku": "SKU-2880",
+      "name": "Eastern Chicken Masala 12 x 1 kg",
+      "issues": [
+        "arabic_translation_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الدجاج الشرقي ماسالا 12 × 1 كجم",
+        "brand": "EASTERN",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002791007",
+      "sku": "SKU-2885",
+      "name": "Head on Shrimps U15 2 kg",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "رأس على الروبيان U15 2 كجم",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002794028",
+      "sku": "SKU-2893",
+      "name": "1131263 (40) Brown Kraft Box 40 oz 200 Count",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification",
+        "arabic_translation_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "1131263 (40) براون كرافت مربع 40 أوقية 200 العد",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002795007",
+      "sku": "SKU-2887",
+      "name": "Mehran Kasuri Methi Leaves 48 x 50g",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification",
+        "arabic_translation_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مهران كاسوري ميثي يغادر 48 × 50 غرام",
+        "brand": "MEHRAN",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002795028",
+      "sku": "SKU-2889",
+      "name": "Washing Powder",
+      "issues": [
+        "missing_image",
+        "brand_unverified_or_unbranded"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مسحوق الغسيل",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002796007",
+      "sku": "SKU-2888",
+      "name": "Reihan Baking Powder 100g x 12 x 6",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "name_or_pack_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مسحوق الخبز ريحان 100 جرام × 12 × 6",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 43,
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "Read-only exact-ID review; translated description and packing fields unavailable in All_Products readback. Product descriptions and packaging require independent source verification. No pricing changes."
+}
