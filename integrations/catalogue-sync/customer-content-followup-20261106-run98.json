@@ -1,0 +1,515 @@
+{
+  "date": "2026-11-06",
+  "run": 98,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run97.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001640047",
+    "4278439000001640051",
+    "4278439000001640055",
+    "4278439000001640059",
+    "4278439000001640063",
+    "4278439000001640067",
+    "4278439000001640071",
+    "4278439000001640075",
+    "4278439000001640079",
+    "4278439000001640083",
+    "4278439000001640091",
+    "4278439000001640095",
+    "4278439000001640099",
+    "4278439000001640103",
+    "4278439000001640107",
+    "4278439000001640111",
+    "4278439000001640115",
+    "4278439000001640119",
+    "4278439000001640123",
+    "4278439000001640127"
+  ],
+  "products": [
+    {
+      "id": "4278439000001640047",
+      "sku": "CR1981",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "creekstone_australian_collection_origin_conflict",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1981",
+        "productName": "Rib Eye B/In Steak 300Gm Premium Choice",
+        "translatedName": "ضلع العين B / في شريحة لحم 300Gm اختيار قسط",
+        "brand": "Creekstone",
+        "origin": "",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640051",
+      "sku": "CR1982",
+      "issues": [
+        "no_product_image",
+        "zero_selling_price_held",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1982",
+        "productName": "Tomahawk Steak 1300Gm Prime",
+        "translatedName": "توماهوك شريحة لحم 1300Gm Prime",
+        "brand": "Creekstone",
+        "origin": "",
+        "collection": "",
+        "booksMappingPresent": true,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640055",
+      "sku": "CR1983",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1983",
+        "productName": "Tomahawk Steak 1300Gm Premium Choice",
+        "translatedName": "توماهوك شريحة لحم 1300Gm قسط الاختيار",
+        "brand": "Creekstone",
+        "origin": "",
+        "collection": "American Prime & Choice Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640059",
+      "sku": "CR1984",
+      "issues": [
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1984",
+        "productName": "Ribeye Steak 250Gm Premium Choice",
+        "translatedName": "Ribeye شريحة لحم 250Gm قسط الاختيار",
+        "brand": "Creekstone",
+        "origin": "",
+        "collection": "",
+        "booksMappingPresent": true,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640063",
+      "sku": "CR1985",
+      "issues": [
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1985",
+        "productName": "Striploin Steak 250Gm Premium Choice",
+        "translatedName": "ستيبلوين شريحة لحم 250Gm قسط الاختيار",
+        "brand": "Creekstone",
+        "origin": "",
+        "collection": "",
+        "booksMappingPresent": true,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640067",
+      "sku": "CR1986",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1986",
+        "productName": "Tenderloin Chain off MB 4+",
+        "translatedName": "سلسلة المناقصة قبالة ميغابايت 4 +",
+        "brand": "Ebony Prime",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640071",
+      "sku": "CR1987",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1987",
+        "productName": "Ribeye Lip On MB 4+",
+        "translatedName": "شفاه Ribeye على ميغابايت 4+",
+        "brand": "Ebony Prime",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640075",
+      "sku": "CR1988",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1988",
+        "productName": "Striploin MB 4+",
+        "translatedName": "ستريبلوين ميغابايت 4+",
+        "brand": "Ebony Prime",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640079",
+      "sku": "CR1989",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1989",
+        "productName": "OP Ribs 4+",
+        "translatedName": "الأضلاع 4+",
+        "brand": "Ebony Prime",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640083",
+      "sku": "CR1990",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1990",
+        "productName": "Tenderloin Chain off MB 2-3",
+        "translatedName": "سلسلة المناقصة قبالة ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640091",
+      "sku": "CR1992",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1992",
+        "productName": "OP Ribs Bone In MB 2-3",
+        "translatedName": "OP الأضلاع العظام في ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640095",
+      "sku": "CR1993",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1993",
+        "productName": "Striploin MB 2-3",
+        "translatedName": "ستريبلوين ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640099",
+      "sku": "CR1994",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1994",
+        "productName": "Back Ribs",
+        "translatedName": "الأضلاع الخلفية",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640103",
+      "sku": "CR1995",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1995",
+        "productName": "D- Rump MB 2-3",
+        "translatedName": "D- رامب ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640107",
+      "sku": "CR1996",
+      "issues": [
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1996",
+        "productName": "Brisket Pedo MB 2-3",
+        "translatedName": "بريسكيت بيدو ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": true,
+        "imageCount": 2
+      }
+    },
+    {
+      "id": "4278439000001640111",
+      "sku": "CR1997",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1997",
+        "productName": "Plate Short Ribs-3 Rib MB 2-3",
+        "translatedName": "لوحة الأضلاع القصيرة-3 الضلع ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640115",
+      "sku": "CR1998",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1998",
+        "productName": "Cheeks MB 2-3",
+        "translatedName": "الخدين ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640119",
+      "sku": "CR1999",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR1999",
+        "productName": "Rump Cap picania MB 2-3",
+        "translatedName": "رمب كاب بيكانيا MB 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640123",
+      "sku": "CR2000",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR2000",
+        "productName": "Chuck Ribs 4 ribs plate MB 2-3",
+        "translatedName": "تشاك الأضلاع 4 الأضلاع لوحة ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    },
+    {
+      "id": "4278439000001640127",
+      "sku": "CR2001",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held",
+        "arabic_cut_or_grade_mistranslation",
+        "grade_claim_requires_label_evidence"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "unit": "kg",
+      "readback": {
+        "sku": "CR2001",
+        "productName": "Chuck roll  MB 2-3",
+        "translatedName": "تشاك لفة ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "booksMappingPresent": false,
+        "imageCount": 0
+      }
+    }
+  ],
+  "unresolvedIssueCount": 88,
+  "verifiedChanges": [],
+  "creatorReadCalls": 1,
+  "readback": "All 20 ID/SKU matched bounded Creator report response; no writes; descriptions/packing not exposed",
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "sources": [
+    "Zoho Creator All_Products exact bounded ID query; current readback"
+  ],
+  "limitations": [
+    "No external manufacturer/label evidence for claims or grades",
+    "No authenticated checkout QA",
+    "No translated description/packing API readback"
+  ]
+}
