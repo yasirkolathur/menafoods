@@ -1,0 +1,431 @@
+{
+  "date": "2026-11-06",
+  "run": 108,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run107.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000005446087",
+    "4278439000005447067",
+    "4278439000005461087",
+    "4278439000005467049",
+    "4278439000005595040",
+    "4278439000005633431",
+    "4278439000005642451",
+    "4278439000005644122",
+    "4278439000005649059",
+    "4278439000005649088",
+    "4278439000005703093",
+    "4278439000005718119",
+    "4278439000005814077",
+    "4278439000005820035",
+    "4278439000005821237",
+    "4278439000005879037",
+    "4278439000005974147",
+    "4278439000005981031",
+    "4278439000005985015",
+    "4278439000006019011"
+  ],
+  "products": [
+    {
+      "id": "4278439000005446087",
+      "sku": "SKU-3256",
+      "name": "Doux Tender Chicken Breast 2 kg x 5 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3256",
+        "name": "Doux Tender Chicken Breast 2 kg x 5 - Carton",
+        "arabic": "Doux Tender Chicken Breast 2 kg x 5 - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005447067",
+      "sku": "SKU-3254",
+      "name": "Raw Peanuts with Skin | 10 Kg",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3254",
+        "name": "Raw Peanuts with Skin | 10 Kg",
+        "arabic": "فول سوداني خام مع القشرة | 10 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005461087",
+      "sku": "SKU-3258",
+      "name": "Freshly Frozen Parrot Fish Whole  ORIGINAL UAE",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review",
+        "origin_freshness_or_species_claim_requires_label_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3258",
+        "name": "Freshly Frozen Parrot Fish Whole  ORIGINAL UAE",
+        "arabic": "سمكة ببغاء طازجة مجمدة كاملة أصلية من الإمارات العربية المتحدة",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005467049",
+      "sku": "SKU-3259",
+      "name": "Freshly Frozen Summan Hamour Whole SAUDI MEDIUM",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review",
+        "origin_freshness_or_species_claim_requires_label_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3259",
+        "name": "Freshly Frozen Summan Hamour Whole SAUDI MEDIUM",
+        "arabic": "السومان المتجمد حديثًا حمور كامل الوسيط السعودي",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005595040",
+      "sku": "SKU-3261",
+      "name": "Broccoli",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3261",
+        "name": "Broccoli",
+        "arabic": "بروكولي",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005633431",
+      "sku": "SKU-3303",
+      "name": "800g Whole Chicken Sadia - 10 x 800g Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3303",
+        "name": "800g Whole Chicken Sadia - 10 x 800g Carton",
+        "arabic": "800g الدجاج الكامل Sadia - 10 × 800g الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005642451",
+      "sku": "SKU-3302",
+      "name": "900g Whole Chicken Sadia - 10 x 900g Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3302",
+        "name": "900g Whole Chicken Sadia - 10 x 900g Carton",
+        "arabic": "900g الدجاج الكامل Sadia - 10 × 900g الكرتون",
+        "brand": "Sadia",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005644122",
+      "sku": "SKU-3301",
+      "name": "1000g Whole Chicken Sadia - 10 x 1000g Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3301",
+        "name": "1000g Whole Chicken Sadia - 10 x 1000g Carton",
+        "arabic": "دجاجة سعدية كاملة ١٠٠٠ غرام - كرتون ١٠ × ١٠٠٠ غرام",
+        "brand": "SADIA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005649059",
+      "sku": "SKU-3290",
+      "name": "Disposable White Square Paper Plate",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_requires_confirmation",
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3290",
+        "name": "Disposable White Square Paper Plate",
+        "arabic": "يمكن التخلص منها لوحة ورقية ساحة بيضاء",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005649088",
+      "sku": "SKU-3296",
+      "name": "French fries Paper Cup Small Nawras",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3296",
+        "name": "French fries Paper Cup Small Nawras",
+        "arabic": "البطاطس المقلية الفرنسية كأس ورقية صغيرة Nawras",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005703093",
+      "sku": "SKU-3308",
+      "name": "MELON SEEDS 7 OZ (CHARMAGAZ)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3308",
+        "name": "MELON SEEDS 7 OZ (CHARMAGAZ)",
+        "arabic": "بذور البطيخ 7 أوقية (شارماغاز)",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005718119",
+      "sku": "SKU-3314",
+      "name": "Al-Rai juice cocktail grapes and mango 24*125 ml",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_books_mapping_hold",
+        "selling_unit_requires_confirmation",
+        "brand_or_unbranded_identity_unverified"
+      ],
+      "readback": {
+        "sku": "SKU-3314",
+        "name": "Al-Rai juice cocktail grapes and mango 24*125 ml",
+        "arabic": "عصير الراي كوكتيل العنب والمانجو 24*125 مل",
+        "brand": "",
+        "unit": "out",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005814077",
+      "sku": "SKU-3315",
+      "name": "Mehran Tikka And Boti Masala 50g 48 pieces - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_requires_confirmation"
+      ],
+      "readback": {
+        "sku": "SKU-3315",
+        "name": "Mehran Tikka And Boti Masala 50g 48 pieces - Carton",
+        "arabic": "مهران تيكا وبوتي ماسالا 50 جم 48 قطعة - كرتون",
+        "brand": "MEHRAN",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005820035",
+      "sku": "SKU-3316",
+      "name": "Ginger Powder (kg)",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3316",
+        "name": "Ginger Powder (kg)",
+        "arabic": "مسحوق الزنجبيل (كجم)",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005821237",
+      "sku": "SKU-3319",
+      "name": "Goody Spaghetti Pasta No 20 450g x 24 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3319",
+        "name": "Goody Spaghetti Pasta No 20 450g x 24 - Carton",
+        "arabic": "معكرونة إسباجيتي جودي رقم 20، 450 جم × 24 - كرتون",
+        "brand": "Goody",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005879037",
+      "sku": "SKU-3321",
+      "name": "Saffron",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3321",
+        "name": "Saffron",
+        "arabic": "الزعفران",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005974147",
+      "sku": "SKU-3331",
+      "name": "Tea Cup 6oz 20 x 50 pieces - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified"
+      ],
+      "readback": {
+        "sku": "SKU-3331",
+        "name": "Tea Cup 6oz 20 x 50 pieces - Carton",
+        "arabic": "كوب شاي 6 أونصة 20 × 50 قطعة - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005981031",
+      "sku": "SKU-3327",
+      "name": "Makati Chinese Noodles 400 g x 12 - Outer",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "selling_unit_requires_confirmation",
+        "brand_or_unbranded_identity_unverified",
+        "arabic_or_pack_identity_requires_label_review"
+      ],
+      "readback": {
+        "sku": "SKU-3327",
+        "name": "Makati Chinese Noodles 400 g x 12 - Outer",
+        "arabic": "نودلز ماكاتي الصينية 400 غرام × 12 - خارجي",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005985015",
+      "sku": "SKU-3326",
+      "name": "Delico Ranch Dressing Sauce 3.78l x 4 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3326",
+        "name": "Delico Ranch Dressing Sauce 3.78l x 4 - Carton",
+        "arabic": "صلصة رانش ديليكو 3.78 لتر × 4 - كرتون",
+        "brand": "DELICO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000006019011",
+      "sku": "SKU-3333",
+      "name": "Sesame Oil  12 x 250 ml Bottles - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_or_unbranded_identity_unverified"
+      ],
+      "readback": {
+        "sku": "SKU-3333",
+        "name": "Sesame Oil  12 x 250 ml Bottles - Carton",
+        "arabic": "زيت السمسم 12 × 250 مل زجاجات - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 28,
+  "creatorReadCallsObserved": 1,
+  "githubReadsObserved": 3,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO; authenticated EN/AR RTL, units, VAT, prices, cart, Buy Again, COD/credit and confirm-once checkout not verified",
+  "readbackLimitation": "All_Products does not expose translated description and packing fields; no claims of their verification",
+  "sources": [
+    {
+      "type": "Zoho Creator All_Products exact-ID criteria read",
+      "verified": true
+    }
+  ],
+  "nextPendingId": "4278439000006555041",
+  "nextPendingSku": "SKU-3348"
+}
