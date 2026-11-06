@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-06",
+  "run": 101,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run100.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001973027",
+    "4278439000001975041",
+    "4278439000001978015",
+    "4278439000001978025",
+    "4278439000001980011",
+    "4278439000002020027",
+    "4278439000002034043",
+    "4278439000002081015",
+    "4278439000002127047",
+    "4278439000002157019",
+    "4278439000002174007",
+    "4278439000002175007",
+    "4278439000002209015",
+    "4278439000002352019",
+    "4278439000002365007",
+    "4278439000002387003",
+    "4278439000002441015",
+    "4278439000002452011",
+    "4278439000002489059",
+    "4278439000002489231"
+  ],
+  "products": [
+    {
+      "id": "4278439000001973027",
+      "sku": "SKU-2431",
+      "issues": [
+        "missing_selling_unit",
+        "missing_books_mapping"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Shams Sunflower Oil ( 4 * 3.5 litre)",
+        "translatedName": "زيت عباد الشمس شمس (4 * 3.5 لتر)",
+        "brand": "Shams",
+        "unit": "",
+        "booksMappingPresent": false,
+        "imageCount": 5,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001975041",
+      "sku": "SKU-2447",
+      "issues": [
+        "missing_books_mapping",
+        "ambiguous_product_identity_or_variant"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Beef Russian MIRATORG 20 kg",
+        "translatedName": "لحوم البقر الروسية ميراتورغ 20 كجم",
+        "brand": "MIRATORG",
+        "unit": "kg",
+        "booksMappingPresent": false,
+        "imageCount": 4,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001978015",
+      "sku": "SKU-2436",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Sunlife Cooking sunflower oil 5 litres ( 3 x 5 LTRs )",
+        "translatedName": "زيت عباد الشمس الطبخ 5 لترات (3 × 5 لتر)",
+        "brand": "Sun Life",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001978025",
+      "sku": "SKU-2437",
+      "issues": [
+        "ambiguous_product_identity_or_variant"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Cooking oil Premi",
+        "translatedName": "زيت الطهي Premi",
+        "brand": "PREMI",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001980011",
+      "sku": "SKU-2435",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Beef burger Americana catering 6 x 24 pcs",
+        "translatedName": "برغر لحوم البقر أمريكانا المطاعم 6 × 24 جهاز كمبيوتر شخصى",
+        "brand": "AMERICANA",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002020027",
+      "sku": "SKU-2450",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Tapioca Pepco 20 x 700 g",
+        "translatedName": "تابيوكا بيبكو 20 × 700 غرام",
+        "brand": "PEPCO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002034043",
+      "sku": "SKU-2455",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Greenfield Okra One 20x400g",
+        "translatedName": "غرينفيلد أوكرا واحد 20x400g",
+        "brand": "GREENFIELD",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002081015",
+      "sku": "SKU-2459",
+      "issues": [
+        "arabic_translation_requires_verification",
+        "ambiguous_product_identity_or_variant"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Black Pomfret - Whole Cleaned, Preservative 500 - 800g",
+        "translatedName": "بومفريت الأسود - تنظيف كامل ، مادة حافظة 500 - 800 غرام",
+        "brand": "Abeer",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002127047",
+      "sku": "SKU-2464",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "900g Whole Chicken Griller Cedrob 10 pcs",
+        "translatedName": "900g الدجاج كله المراوي الأرز 10 قطع",
+        "brand": "CEDROB",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002157019",
+      "sku": "SKU-2469",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Frozen Chicken Mixed Parts 8 packs  QUALIKO",
+        "translatedName": "الدجاج المجمد أجزاء مختلطة 8 حزم QUALIKO",
+        "brand": "QUALIKO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002174007",
+      "sku": "SKU-2472",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Frozen Strawberry 800 g x 10 - Qualiko",
+        "translatedName": "الفراولة المجمدة 800 غرام × 10 - كواليكو",
+        "brand": "QUALIKO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002175007",
+      "sku": "SKU-2473",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Frozen Pomegranate 8 x 1kg - Qualiko",
+        "translatedName": "الرمان المجمد 8 × 1 كجم - كواليكو",
+        "brand": "QUALIKO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002209015",
+      "sku": "SKU-2475",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Chicken Breast Boneless Skin less ( 4 x 2.5 kg ) UNEF",
+        "translatedName": "جلد ثدي الدجاج بلا عظام أقل (4 × 2.5 كجم) UNEF",
+        "brand": "UNEF",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002352019",
+      "sku": "SKU-2489",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Frozen Tuna Fillet - RAW 1kg ( 1 kg X10 )",
+        "translatedName": "فيليه التونة المجمدة - راو 1 كجم (1 كجم × 10 )",
+        "brand": "ROYAL FUTURE",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 4,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002365007",
+      "sku": "SKU-2494",
+      "issues": [
+        "missing_books_mapping",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Black Rectangular 3 compartment Container With Lid 200 Pieces",
+        "translatedName": "أسود مستطيل 3 مقصورة الحاوية مع غطاء 200 قطعة",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002387003",
+      "sku": "SKU-2512",
+      "issues": [
+        "missing_image"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Chicken breast boneless 2.5 kg x 4",
+        "translatedName": "صدر الدجاج بدون عظام 2.5 كجم × 4",
+        "brand": "MAYDA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002441015",
+      "sku": "SKU-2537",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Qualiko Zing Chicken Crisper Strips 420g 12 packs",
+        "translatedName": "Qualiko Zing الدجاج رقائق 420g 12 حزم",
+        "brand": "QUALIKO",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002452011",
+      "sku": "SKU-2540",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Hot and Crispy French fries Wedges 4 x 2.5kg",
+        "translatedName": "Kg البطاطس المقلية الساخنة والمقرشة الأوتاد 4 × 2.5",
+        "brand": "HOT AND CRISPY",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489059",
+      "sku": "",
+      "issues": [
+        "missing_sku",
+        "ambiguous_product_identity_or_variant"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "BREADED CHICKEN BURGER H/S Bulk 1kg x  5",
+        "translatedName": "برجر دجاج مخبوز حجم كبير 1 كجم × 5",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489231",
+      "sku": "",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "AL KABEER BREADED CHICKEN FILLET (BULK PACK) 1kg x 5",
+        "translatedName": "الكبير فيليه دجاج بالبقسماط (عبوة كبيرة) 1 كجم × 5",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 19,
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 153,
+  "nonTargetRecordsExcluded": 133,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": "Exact manifest identity and SKU/name matched for all 20. Review only; no verified field updates. Arabic/title/pack ambiguities held. All 20 currently storefront No. Native sync, authenticated checkout and gateway deployment evidence not established."
+}
