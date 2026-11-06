@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-06",
+  "run": 99,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run98.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001640131",
+    "4278439000001640135",
+    "4278439000001640139",
+    "4278439000001640147",
+    "4278439000001640151",
+    "4278439000001700007",
+    "4278439000001712011",
+    "4278439000001825019",
+    "4278439000001826027",
+    "4278439000001828056",
+    "4278439000001830017",
+    "4278439000001832021",
+    "4278439000001864011",
+    "4278439000001864019",
+    "4278439000001864027",
+    "4278439000001864071",
+    "4278439000001864075",
+    "4278439000001864079",
+    "4278439000001864091",
+    "4278439000001864095"
+  ],
+  "products": [
+    {
+      "id": "4278439000001640131",
+      "sku": "CR2002",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Chuck & Blade",
+        "translatedName": "تشاك آند بليد",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "unit": "kg",
+        "booksMappingPresent": false,
+        "imageCount": 0,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001640135",
+      "sku": "CR2003",
+      "issues": [
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Flap Meat MB 2-3",
+        "translatedName": "رفرف اللحوم ميغابايت 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001640139",
+      "sku": "CR2004",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Topside MB 2-3",
+        "translatedName": "الجانب العلوي MB 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "unit": "kg",
+        "booksMappingPresent": false,
+        "imageCount": 0,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001640147",
+      "sku": "CR2006",
+      "issues": [
+        "missing_books_mapping",
+        "no_product_image",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Flank Steak MB 2-3",
+        "translatedName": "جناح شريحة لحم MB 2-3",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "unit": "kg",
+        "booksMappingPresent": false,
+        "imageCount": 0,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001640151",
+      "sku": "CR2007",
+      "issues": [
+        "80CL_specification_ambiguous"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Angus Ground Beef 80 CL",
+        "translatedName": "أنجوس لحوم البقر الأرض 80 CL",
+        "brand": "Ebony",
+        "origin": "Australia",
+        "collection": "Australian Black Angus Beef – ( Grain Fed )",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001700007",
+      "sku": "CR2021",
+      "issues": [
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Shahzadi Kernal  Basmathi Long Grain Rice 40 kg",
+        "translatedName": "شاهزادي كيرنال باسمثي الأرز الطويل الحبوب 40 كجم",
+        "brand": "Shazadi",
+        "origin": "Pakistan",
+        "collection": "Basmati Rice",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001712011",
+      "sku": "CR2024",
+      "issues": [
+        "zero_selling_price_held",
+        "seafood_species_and_size_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "SHAOUR WHOLE 500/700  ( 1X6 KG )",
+        "translatedName": "شاور 500/700 (1X6 كجم)",
+        "brand": "",
+        "origin": "",
+        "collection": "Whole Raw Fish",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001825019",
+      "sku": "SKU-2228",
+      "issues": [
+        "mutton_loin_typo_and_arabic_lion_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Frozen Mutton-lion Australia",
+        "translatedName": "أسد لحم الضأن المجمد أستراليا",
+        "brand": "Midfield",
+        "origin": "Australia",
+        "collection": "Lamb and Mutton cuts",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 4,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001826027",
+      "sku": "SKU-2235",
+      "issues": [
+        "missing_books_mapping",
+        "origin_requires_label_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Lobster RAMEN HOT Noodles 8 X 5 X 112 g",
+        "translatedName": "جراد البحر رامن المعكرونة الساخنة 8 × 5 × 112 غرام",
+        "brand": "RAMEN",
+        "origin": "Korea North",
+        "collection": "Noodles",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 2,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001828056",
+      "sku": "SKU-2236",
+      "issues": [
+        "missing_books_mapping",
+        "zero_selling_price_held",
+        "origin_requires_label_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Samyang Buldak Hot Chicken Flavour Ramen - Cheese 140g (Pack Of 40)",
+        "translatedName": "ساميانغ بولداك نكهة الدجاج الساخنة رامن - الجبن 140g (حزمة من 40)",
+        "brand": "Samyang",
+        "origin": "Korea North",
+        "collection": "Noodles",
+        "unit": "box",
+        "booksMappingPresent": false,
+        "imageCount": 2,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001830017",
+      "sku": "SKU-2238",
+      "issues": [
+        "missing_books_mapping",
+        "zero_selling_price_held",
+        "brand_missing_requires_manufacturer_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "JACK N JILL CHIPPY CHILI&CHEESE CHIPS 50 X 110GM",
+        "translatedName": "جاك ني جيل رقائق تشيلي آند تشيز 50 × 110GM",
+        "brand": "",
+        "origin": "",
+        "collection": "",
+        "unit": "box",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001832021",
+      "sku": "SKU-2239",
+      "issues": [
+        "missing_books_mapping",
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Jack N Jill Piattos Sour Cream Onion 85 g x 50",
+        "translatedName": "جاك ن جيل بياتوس كريم حامض البصل 85 غرام × 50",
+        "brand": "Jack 'n Jill",
+        "origin": "",
+        "collection": "",
+        "unit": "box",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001864011",
+      "sku": "ME-001",
+      "issues": [
+        "brand_missing_requires_manufacturer_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Royal Umbrella Thai Jasmine Rice 1*40 kg",
+        "translatedName": "المظلة الملكية التايلاندية الياسمين الأرز 1 * 40 كجم",
+        "brand": "",
+        "origin": "",
+        "collection": "Rice",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864019",
+      "sku": "ME-002",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Royal Umbrella Jasmine Rice 10 kg  (ORANGE BAG) (4 * 10 kg)",
+        "translatedName": "المظلة الملكية الياسمين الأرز 10 كجم (حقيبة نموذجية) (4 * 10 كجم)",
+        "brand": "ROYAL UMBRELLA",
+        "origin": "Thailand",
+        "collection": "Rice",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864027",
+      "sku": "ME-004",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Kernel Shahzadi Rice 4 * 10kg",
+        "translatedName": "نواة شهزادي الأرز 4 * 10 كجم",
+        "brand": "SHAZADI",
+        "origin": "",
+        "collection": "Rice",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864071",
+      "sku": "ME-0011",
+      "issues": [
+        "no_product_image",
+        "unbranded_nuts_no_brand_invented"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Almond American 30/32 22.68kg",
+        "translatedName": "لوز أمريكي كامل مقاس 30/32، كرتون 22.68 كجم",
+        "brand": "",
+        "origin": "United States",
+        "collection": "Nuts",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864075",
+      "sku": "ME-0012",
+      "issues": [
+        "unbranded_nuts_no_brand_invented"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Almond American 27/30  22.68",
+        "translatedName": "اللوز الأمريكي 27/30 22.68",
+        "brand": "",
+        "origin": "",
+        "collection": "Nuts",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864079",
+      "sku": "ME-0013",
+      "issues": [
+        "zero_selling_price_held"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Walnut China ( Fazco Brand ) 1*10kg",
+        "translatedName": "الجوز الصين (Fazco العلامة التجارية) 1 * 10kg",
+        "brand": "FAZCO",
+        "origin": "",
+        "collection": "Nuts",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "zeroSellingPrice": true
+      }
+    },
+    {
+      "id": "4278439000001864091",
+      "sku": "ME-0016",
+      "issues": [
+        "unbranded_nuts_no_brand_invented"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Pistachio In Shell American 21/27 1*11.34 kg",
+        "translatedName": "الفستق في شل الأمريكية 21/27 1 * 11.34 كجم",
+        "brand": "",
+        "origin": "",
+        "collection": "Nuts",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": false
+      }
+    },
+    {
+      "id": "4278439000001864095",
+      "sku": "ME-0017",
+      "issues": [
+        "unbranded_nuts_no_brand_invented"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No",
+      "readback": {
+        "productName": "Natural Peeled Pista, Packaging Size: 10 Kg",
+        "translatedName": "بيستا مقشر الطبيعي ، حجم التعبئة والتغليف: 10 كجم",
+        "brand": "",
+        "origin": "",
+        "collection": "Nuts",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "zeroSellingPrice": false
+      }
+    }
+  ],
+  "verifiedFieldChanges": [],
+  "unresolvedIssueCount": 33,
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": [
+    "All exact Creator IDs, SKUs and names matched immutable manifest.",
+    "All_Products omits translated description and packing readback; no changes attempted.",
+    "No manufacturer/label proof available for content corrections; flagged for verification.",
+    "Customer checkout authenticated QA and cross-system ACK not verified."
+  ]
+}
