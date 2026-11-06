@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-01",
+  "batch": 8,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 14,
+    "exactIdSkuNameReadbacks": 14,
+    "verifiedTitleFieldsChanged": 28,
+    "held": 6,
+    "reviewedNoChange": 0,
+    "fullRescan": false
+  },
+  "source": "Zoho Creator mena / All_Products exact record ID/SKU, current EN/AR title, brand, category, unit and existing title-stated packing. Editorial normalization only; no independent manufacturer certification or external label claim.",
+  "changes": [
+    {
+      "creatorId": "4278439000000106460",
+      "sku": "CR1751",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "41-50 RAW IQF WHITE SHRIMP, P&D, TAIL-Off 1kg*10",
+          "after": "Raw IQF White Shrimp, Peeled & Deveined, Tail-Off, 41–50, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "روبيان مجمد ,منظف و مقشر بدون ذيل 41-50 ١كيلو *١٠",
+          "after": "روبيان أبيض نيء مجمد فردياً (IQF)، مقشر ومنظف، بدون ذيل، مقاس 41–50، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106476",
+      "sku": "CR1753",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Black Pomfert 500-700 10 kg",
+          "after": "Frozen Black Pomfret, 500–700, 10 kg"
+        },
+        "Translated_Name": {
+          "before": "سمكة بومفرت سوداء مجمدة 500-700 10 كجم",
+          "after": "سمك بومفريت أسود مجمد، مقاس 500–700، 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106492",
+      "sku": "CR1755",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Zamil Frozen Tender Chicken Breast 2.5 Kg*4",
+          "after": "Zamil Frozen Tender Chicken Breast, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "زامل - صدور دجاج مجمدة 2.5 كجم * 4",
+          "after": "صدور دجاج زامل طرية مجمدة، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106506",
+      "sku": "CR1758",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Taiba Topside Beef India 20 kg # 41",
+          "after": "Taiba Frozen Indian Beef Topside, #41, 20 kg"
+        },
+        "Translated_Name": {
+          "before": "الطيبة المجمدة أعلى لحوم البقر الهند 20 كجم # 41",
+          "after": "لحم بقري توب سايد هندي مجمد من الطيبة، رقم 41، 20 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106528",
+      "sku": "CR1762",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen French Fries Miti Fresh 4* 2.5 kg 9/9 pieces",
+          "after": "Miti Fresh Frozen French Fries, 9/9 Cut, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية مجمدة ميتي فريش 4 * 2.5 كجم 9/9 قطع",
+          "after": "بطاطس مقلية مجمدة ميتي فريش، تقطيع 9/9، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000938007",
+      "sku": "CR1776",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Happy Sella Basmati Rice 40 kg",
+          "after": "Happy Sella Basmati Rice, 40 kg"
+        },
+        "Translated_Name": {
+          "before": "سعيد سيلا البسمتي الأرز 40 كجم",
+          "after": "أرز بسمتي سيلا هابي، 40 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000940007",
+      "sku": "CR1779",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Acorsa Green sliced olives 1.5l",
+          "after": "Acorsa Sliced Green Olives, 1.5 L"
+        },
+        "Translated_Name": {
+          "before": "أكورسا شرائح الزيتون الأخضر 1.5 لتر",
+          "after": "زيتون أخضر مقطع شرائح أكورسا، 1.5 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000941007",
+      "sku": "CR1781",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Anchor Jar Spread Cream Cheese, 900 g  x 6 jar",
+          "after": "Anchor Spreadable Cream Cheese, 6 × 900 g Jars"
+        },
+        "Translated_Name": {
+          "before": "مرساة جرة انتشار كريم الجبن، 900 غرام × 6 جرة",
+          "after": "جبنة كريمية قابلة للدهن من أنكور، 6 مرطبانات × 900 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001006019",
+      "sku": "CR1789",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "800g Qualiko Whole Chicken Griller Ukraine",
+          "after": "Qualiko Whole Chicken Griller, 800 g, Ukraine"
+        },
+        "Translated_Name": {
+          "before": "800g Qualiko كامل شواء الدجاج أوكرانيا",
+          "after": "دجاج كواليكو كامل للشوي، 800 جم، أوكرانيا"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001007047",
+      "sku": "CR1791",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Astra Whole Chicken 800 gm * 10",
+          "after": "Astra Whole Chicken, 10 × 800 g"
+        },
+        "Translated_Name": {
+          "before": "أسترا الدجاج كله 800 جم * 10",
+          "after": "دجاج أسترا كامل، 10 × 800 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001008019",
+      "sku": "CR1794",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "WHOLE CHICKEN QUALIKO 1200g x 10 PIECES",
+          "after": "Qualiko Whole Chicken, 10 × 1,200 g"
+        },
+        "Translated_Name": {
+          "before": "دجاج كواليكو كامل 1200 جرام × 10 قطع",
+          "after": "دجاج كواليكو كامل، 10 × 1200 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001013015",
+      "sku": "CR1798",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Kamil Frozen Veal Tenderloin 18 kg #31",
+          "after": "Kamil Frozen Veal Tenderloin, #31, 18 kg"
+        },
+        "Translated_Name": {
+          "before": "كميل العجل المجمد مناقصة 18 كجم #31",
+          "after": "فيليه عجل مجمد من كميل، رقم 31، 18 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001017007",
+      "sku": "CR1800",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Cooking Corn oil Mazola 2 x 9 l",
+          "after": "Mazola Corn Cooking Oil, 2 × 9 L"
+        },
+        "Translated_Name": {
+          "before": "طهي زيت الذرة مازولا 2 × 9 لتر",
+          "after": "زيت ذرة مازولا للطبخ، 2 × 9 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001020007",
+      "sku": "CR1801",
+      "readbackVerified": true,
+      "source": "Existing Zoho Creator exact record and pack notation; formatting/translation only",
+      "fields": {
+        "Product_Name": {
+          "before": "Baba Sugar Fine 1 x 5 kg",
+          "after": "Baba Fine Sugar, 5 kg"
+        },
+        "Translated_Name": {
+          "before": "باب�� السكر غرامة 1 × 5 كجم",
+          "after": "سكر بابا ناعم، 5 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000000106532",
+      "sku": "CR1763",
+      "name": "Allana  Bobby Veal  Frozen Indian Beef 20 x 900 g #23",
+      "reason": "Allana Bobby Veal/Indian Beef naming may refer to a distinct cut or product type; do not reinterpret Bobby Veal without exact label evidence."
+    },
+    {
+      "creatorId": "4278439000000943011",
+      "sku": "CR1783",
+      "name": "Olive oil 10l al qaria",
+      "reason": "Al Qariya brand transliteration and Arabic label spelling not independently verified; avoid guessing Arabic brand name."
+    },
+    {
+      "creatorId": "4278439000000943035",
+      "sku": "CR1784",
+      "name": "Frozen Fish Fillet Grade A 2 kg x 3pcs",
+      "reason": "2 kg × 3 pcs does not establish whether three packs, pieces or a total carton weight; Mixed brands is not an exact brand."
+    },
+    {
+      "creatorId": "4278439000001004011",
+      "sku": "CR1786",
+      "name": "kamil  Frozen Veal Leg Boneless Indian Beef 18 kg # 510.",
+      "reason": "Existing description mixes veal leg and Indian beef; confirm exact animal/product cut before translating."
+    },
+    {
+      "creatorId": "4278439000001004041",
+      "sku": "CR1787",
+      "name": "Frozen Veal Leg Boneless Indian Beef 18kg # 510. ALM",
+      "reason": "Existing description mixes veal leg and Indian beef; ALM pack variant/identity requires label verification."
+    },
+    {
+      "creatorId": "4278439000001012007",
+      "sku": "CR1797",
+      "name": "Brazilian Frozen Chicken Shawarma 4 * 2.5kg Jagua",
+      "reason": "Existing Jagua title conflicts with Jague brand field; verify exact brand and pack variant."
+    }
+  ],
+  "api": {
+    "creatorConnectorCallsThisRun": 26,
+    "billableCalls": "unavailable",
+    "groupedExactIdReads": true
+  },
+  "writes": {
+    "titleFields": 28,
+    "financial": 0,
+    "stock": 0,
+    "visibility": 0,
+    "images": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "readbackLimitations": [
+    "All_Products API does not expose Translated_Description or Translated_Package; these were not edited.",
+    "No independent manufacturer/label evidence used to add new brand, origin, GTIN, allergen, shelf-life, weight or claims."
+  ],
+  "checkoutQA": {
+    "authenticatedTestsThisRun": 0,
+    "status": "NO-GO",
+    "issue": 27
+  },
+  "sync": {
+    "enabled": false,
+    "gateVerified": false
+  }
+}

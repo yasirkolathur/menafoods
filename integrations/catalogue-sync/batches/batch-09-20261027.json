@@ -1,0 +1,236 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "batch": 9,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "verifiedCreatorIds": [
+    "4278439000001600029",
+    "4278439000001601007",
+    "4278439000001601021",
+    "4278439000001603023",
+    "4278439000001604007",
+    "4278439000001621004",
+    "4278439000001621010",
+    "4278439000001622002",
+    "4278439000001622008",
+    "4278439000001640003",
+    "4278439000001640007",
+    "4278439000001640011",
+    "4278439000001640015",
+    "4278439000001640019",
+    "4278439000001640023",
+    "4278439000001640027",
+    "4278439000001640031",
+    "4278439000001640035",
+    "4278439000001640039",
+    "4278439000001640043",
+    "4278439000001640047",
+    "4278439000001640051",
+    "4278439000001640055",
+    "4278439000001640059",
+    "4278439000001640063",
+    "4278439000001640067",
+    "4278439000001640071",
+    "4278439000001640075",
+    "4278439000001640079",
+    "4278439000001640083",
+    "4278439000001640087",
+    "4278439000001640091",
+    "4278439000001640095",
+    "4278439000001640099",
+    "4278439000001640103",
+    "4278439000001640107",
+    "4278439000001640111",
+    "4278439000001640115",
+    "4278439000001640119",
+    "4278439000001640123",
+    "4278439000001640127",
+    "4278439000001640131",
+    "4278439000001640135",
+    "4278439000001640139",
+    "4278439000001640143",
+    "4278439000001640147",
+    "4278439000001640151",
+    "4278439000001640155",
+    "4278439000001647002",
+    "4278439000001648002",
+    "4278439000001649002",
+    "4278439000001650002",
+    "4278439000001651002",
+    "4278439000001659011",
+    "4278439000001659026",
+    "4278439000001661015",
+    "4278439000001689011",
+    "4278439000001689026",
+    "4278439000001691019",
+    "4278439000001692019",
+    "4278439000001700007",
+    "4278439000001701011",
+    "4278439000001701026",
+    "4278439000001712011",
+    "4278439000001816017",
+    "4278439000001825019",
+    "4278439000001825037",
+    "4278439000001826027",
+    "4278439000001828007",
+    "4278439000001828041",
+    "4278439000001828056",
+    "4278439000001829015",
+    "4278439000001830007",
+    "4278439000001830017",
+    "4278439000001832011",
+    "4278439000001832021",
+    "4278439000001864011",
+    "4278439000001864019",
+    "4278439000001864023",
+    "4278439000001864027",
+    "4278439000001864031",
+    "4278439000001864035",
+    "4278439000001864039",
+    "4278439000001864055",
+    "4278439000001864063",
+    "4278439000001864067",
+    "4278439000001864071",
+    "4278439000001864075",
+    "4278439000001864079",
+    "4278439000001864083",
+    "4278439000001864087",
+    "4278439000001864091",
+    "4278439000001864095",
+    "4278439000001864099",
+    "4278439000001864103",
+    "4278439000001864107",
+    "4278439000001864111",
+    "4278439000001864115",
+    "4278439000001864119",
+    "4278439000001864123",
+    "4278439000001864127",
+    "4278439000001864131",
+    "4278439000001864135",
+    "4278439000001864139",
+    "4278439000001864143",
+    "4278439000001864147"
+  ],
+  "creatorIdRange": [
+    "4278439000001600029",
+    "4278439000001864147"
+  ],
+  "verification": "Creator compact ID range; exact frozen manifest membership and uniqueness; two exact-ID+SKU+blank-Brand conditional writes with form workflow skipped, each independently read back; full batch re-read after edits",
+  "countsAfterEdits": {
+    "missingUnit": 0,
+    "missingBrand": 21,
+    "missingBooksMapping": 24,
+    "missingArabic": 0,
+    "missingImages": 34,
+    "storefrontVisible": 53,
+    "storefrontMissingImages": 0,
+    "storefrontMissingBrand": 14,
+    "storefrontZeroOrMissingSellingPrice": 0,
+    "zeroOrMissingSellingPrice": 37
+  },
+  "verifiedFieldsChanged": 2,
+  "changes": [
+    {
+      "creatorId": "4278439000001832021",
+      "sku": "SKU-2239",
+      "product": "Jack N Jill Piattos Sour Cream Onion 85 g x 50",
+      "field": "Brand",
+      "before": "",
+      "after": "Jack 'n Jill",
+      "readbackVerified": true,
+      "sources": [
+        "https://www.urc.co.id/profile/",
+        "https://www.wowfooddistributor.com/products/piattos-sour-cream-onion-85g",
+        "https://afodltd.com/wp-content/uploads/2021/12/product-catalog-compressed.pdf"
+      ],
+      "note": "Manufacturer confirms brand; distributor verifies sour cream/onion 85g x50 case. No GTIN or pack fields changed."
+    },
+    {
+      "creatorId": "4278439000001830007",
+      "sku": "SKU-2231",
+      "product": "Argentina Corn BEEF 200g x 24",
+      "field": "Brand",
+      "before": "",
+      "after": "Argentina",
+      "readbackVerified": true,
+      "sources": [
+        "https://www.centurypacific.com.ph/brands/",
+        "https://www.menakart.com/argentina-corned-beef-200g-pack-of-24.html",
+        "https://sanadeeg.com/shop/product/argentina-corned-beef-200g"
+      ],
+      "note": "Manufacturer confirms Argentina Corned Beef brand; distributors verify 200g x24 case. No GTIN or pack fields changed."
+    }
+  ],
+  "collisions": [
+    {
+      "issueKey": "CATALOG-BOOKS-ID-COLLISION-009",
+      "booksItemId": "4886172000001817715",
+      "creatorRecords": [
+        {
+          "id": "4278439000001691019",
+          "sku": "CR2019",
+          "storefront": true
+        },
+        {
+          "id": "4278439000001864087",
+          "sku": "ME-0015",
+          "storefront": true
+        }
+      ],
+      "name": "Kaju White W-320 Vietnam 2 * 10 Kg",
+      "action": "BLOCK registry/outbox enrollment and fanout for both until Books authoritative identity, SKU and pack verified",
+      "acceptanceTests": [
+        "One authoritative Books item maps to exactly one approved Creator record, or separately justified variant IDs",
+        "Both duplicate-active storefront products cannot create separate synchronized stock/order lines from one Books item",
+        "No auto-merge or overwrite; registry/outbox ACK evidence reviewed before re-enable"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "key": "CATALOG-BRAND-009",
+      "count": 21,
+      "action": "Require manufacturer and exact pack/variant corroboration before edit"
+    },
+    {
+      "key": "CATALOG-IMAGES-009",
+      "count": 34,
+      "storefrontCount": 0,
+      "action": "Do not publish without exact SKU and redistribution rights"
+    },
+    {
+      "key": "CATALOG-BOOKS-MAPPING-009",
+      "count": 24,
+      "action": "No name-only Books mapping; finance fields unchanged"
+    },
+    {
+      "key": "CATALOG-BOOKS-ID-COLLISION-009",
+      "count": 1,
+      "action": "Hold both active Creator IDs from sync until reconciled"
+    },
+    {
+      "key": "CHECKOUT-PREVIEW-027",
+      "count": null,
+      "action": "Authenticated EN/AR, price privacy, VAT, cart persistence, Buy Again, COD/credit, confirm-once tests remain pending; no live financial order"
+    }
+  ],
+  "apiCallCountsObserved": {
+    "creatorConnector": 8,
+    "githubConnectorIncludingCheckpoint": 8,
+    "webSearchBatches": 2,
+    "platformInternalApiCalls": "not exposed"
+  },
+  "safety": {
+    "financeChanged": false,
+    "inventoryChanged": false,
+    "imagesPublished": false,
+    "crossSystemSyncEnabled": false,
+    "checkoutFinancialWrites": false,
+    "formWorkflowSkippedForBrandUpdates": true
+  },
+  "nextBatch": 10
+}

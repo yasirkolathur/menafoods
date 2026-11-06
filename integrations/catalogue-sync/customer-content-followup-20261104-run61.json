@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-04",
+  "run": "61",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run60.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004478032",
+    "4278439000004479032",
+    "4278439000004480007",
+    "4278439000004482011",
+    "4278439000004485007",
+    "4278439000004507015",
+    "4278439000004507044",
+    "4278439000004508007",
+    "4278439000004518023",
+    "4278439000004523015",
+    "4278439000004523044",
+    "4278439000004524007",
+    "4278439000004526043",
+    "4278439000004526084",
+    "4278439000004550011",
+    "4278439000004573013",
+    "4278439000004600015",
+    "4278439000004693033",
+    "4278439000004708007",
+    "4278439000004726011"
+  ],
+  "reviewedSkus": [
+    "SKU-3159",
+    "SKU-3161",
+    "SKU-3156",
+    "SKU-3160",
+    "SKU-3163",
+    "SKU-3168",
+    "SKU-3169",
+    "SKU-3167",
+    "SKU-3170",
+    "SKU-3171",
+    "SKU-3173",
+    "SKU-3172",
+    "SKU-3174",
+    "SKU-3175",
+    "SKU-3176",
+    "SKU-3177",
+    "SKU-3178",
+    "SKU-3181",
+    "SKU-3182",
+    "SKU-3183"
+  ],
+  "allExactIdSkuMatches": true,
+  "storefrontRecords": 20,
+  "verifiedChanges": [],
+  "sources": [
+    "Existing Creator All_Products exact-ID query; no independent manufacturer or label evidence"
+  ],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3159",
+      "issue": "50g × 72 packs × 3 boxes ambiguous: 216 packs per carton requires exact label"
+    },
+    {
+      "sku": "SKU-3156",
+      "issue": "Golden Me brand absent; require verified maker identity"
+    },
+    {
+      "sku": "SKU-3160",
+      "issue": "Afta brand absent; exact packaging and maker unverified"
+    },
+    {
+      "sku": "SKU-3167",
+      "issue": "JOOD 10kg brand blank despite product name; verify label"
+    },
+    {
+      "sku": "SKU-3170",
+      "issue": "AlQURESH brand blank; exact producer/variant unverified"
+    },
+    {
+      "sku": "SKU-3171",
+      "issue": "Eggplant plup typo; exact pulp form needs label evidence"
+    },
+    {
+      "sku": "SKU-3174",
+      "issue": "Sugar Crystal ambiguous generic versus branded; avoid invented brand"
+    },
+    {
+      "sku": "SKU-3177",
+      "issue": "Al Noor name versus NOOR brand requires exact identity verification"
+    },
+    {
+      "sku": "SKU-3181",
+      "issue": "2.5-4 BAGS ambiguous notation; 4 × 2.5kg not confirmed from label"
+    },
+    {
+      "sku": "SKU-3182",
+      "issue": "Fish species, 4 pieces per bag, and pack details unverified"
+    },
+    {
+      "sku": "SKU-3183",
+      "issue": "Glove brand and food-contact suitability unverified"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Exact-product image redistribution rights unverified"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Authenticated Catalog/Checkout and cross-system ACK evidence missing"
+    }
+  ],
+  "creatorApiCallsObserved": 1,
+  "productWrites": 0,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitation": "Translated description and translated packing fields not exposed by All_Products report",
+  "nextId": "4278439000004726052",
+  "nextSku": "SKU-3185"
+}

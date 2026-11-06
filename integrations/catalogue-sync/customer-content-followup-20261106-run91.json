@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-06",
+  "run": 91,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run90.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104992",
+    "4278439000000104996",
+    "4278439000000105000",
+    "4278439000000105004",
+    "4278439000000105012",
+    "4278439000000105016",
+    "4278439000000105020",
+    "4278439000000105024",
+    "4278439000000105032",
+    "4278439000000105040",
+    "4278439000000105048",
+    "4278439000000105060",
+    "4278439000000105064",
+    "4278439000000105072",
+    "4278439000000105076",
+    "4278439000000105080",
+    "4278439000000105084",
+    "4278439000000105088",
+    "4278439000000105092",
+    "4278439000000105098"
+  ],
+  "reviewedSkus": [
+    "CR1594",
+    "CR1595",
+    "CR1596",
+    "CR1597",
+    "CR1599",
+    "CR1600",
+    "CR1601",
+    "CR1602",
+    "CR1604",
+    "CR1606",
+    "CR1608",
+    "CR1610",
+    "CR1611",
+    "CR1613",
+    "CR1614",
+    "CR1615",
+    "CR1616",
+    "CR1617",
+    "CR1618",
+    "CR1619"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 37,
+  "issues": [
+    {
+      "sku": "CR1594",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1595",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1597",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1597",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1599",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1599",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1600",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1600",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1601",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1602",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1604",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1606",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1606",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1608",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1608",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1610",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1611",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1611",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1613",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1614",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1615",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1615",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1617",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1618",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1618",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1619",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1619",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1594",
+      "type": "brand_field_marietta_conflicts_montana_title"
+    },
+    {
+      "sku": "CR1610",
+      "type": "arabic_title_ulker_conflicts_president_english_title"
+    },
+    {
+      "sku": "CR1611",
+      "type": "arabic_brand_sunbullah_mistranslated"
+    },
+    {
+      "sku": "CR1616",
+      "type": "english_pulp_typo_and_arabic_latin_fragment"
+    },
+    {
+      "sku": "CR1618",
+      "type": "arabic_brand_truncated"
+    },
+    {
+      "sku": "CR1619",
+      "type": "arabic_size_200_300_conflicts_english_300_500"
+    },
+    {
+      "sku": "CR1604",
+      "type": "6_6_cut_size_mistranslated_as_piece_count"
+    },
+    {
+      "sku": "CR1606",
+      "type": "9_9_cut_size_requires_pack_variant_confirmation"
+    },
+    {
+      "sku": "CR1596",
+      "type": "arabic_title_contains_untranslated_GM"
+    },
+    {
+      "sku": "CR1600",
+      "type": "crisscuts_product_variant_requires_label_evidence"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 25,
+  "excludedOutOfBatch": 5,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000105102",
+  "nextPendingSku": "CR1620",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "Exact bounded Creator read and manifest identity comparison; no modifications or publication. Product-source claims held pending authoritative label evidence."
+}

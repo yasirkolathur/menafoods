@@ -1,0 +1,429 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 24",
+  "baseline": "Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run23.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000007326105",
+      "sku": "SKU-3387",
+      "productNameFromManifest": "7up 320 ml ( Carton 24 Bottles )",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007326235",
+      "sku": "SKU-3390",
+      "productNameFromManifest": "Hyfarm french fries 6/6 2.5 kg x 4 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007331127",
+      "sku": "SKU-3386",
+      "productNameFromManifest": "7up diet 320 ml ( Carton 24 Bottles )",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007355162",
+      "sku": "SKU-3392",
+      "productNameFromManifest": "Kings Crown Sunflower oil 17 l",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007355218",
+      "sku": "SKU-3399",
+      "productNameFromManifest": "AROMA VELVET Watermelon 6X925G",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007359112",
+      "sku": "SKU-3395",
+      "productNameFromManifest": "Frozen Mango Slice Premier 1Kg x 16 carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007361168",
+      "sku": "SKU-3396",
+      "productNameFromManifest": "AROMA VELVET GRENADINE 6X925G",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007367067",
+      "sku": "SKU-3393",
+      "productNameFromManifest": "Kamil Beef tenderloin India - 18kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007371090",
+      "sku": "SKU-3398",
+      "productNameFromManifest": "AROMA VELVET STRAWBERRY 6X925G",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007502105",
+      "sku": "SKU-3406",
+      "productNameFromManifest": "Zain Beson Powder (Gram Flour) 1*15kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007506039",
+      "sku": "SKU-3405",
+      "productNameFromManifest": "Rice Kernal Zaiqa Punjabi 40kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007510186",
+      "sku": "SKU-3407",
+      "productNameFromManifest": "Herman's French Sauce (Gwalin) 4 - 3.78 Liters",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007557083",
+      "sku": "SKU-3408",
+      "productNameFromManifest": "2Oz 50 GMWhite PP Sauce Cup WHITE JASCO + LID 100 PCs",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007578023",
+      "sku": "SKU-3409",
+      "productNameFromManifest": "Bottle Juice Rectangular Clear  With Black Lid 200 ml  Carton 192 pcs",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007587086",
+      "sku": "SKU-3411",
+      "productNameFromManifest": "Frozen Mango Pulp Premium 1kg x 16 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007615035",
+      "sku": "SKU-3414",
+      "productNameFromManifest": "Rita Red Power Sparkling Drink Can 240 ml x 30 - Outer",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007620007",
+      "sku": "SKU-3413",
+      "productNameFromManifest": "Code Red Energy Drink 185 ml × 30 - Outer",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007621011",
+      "sku": "SKU-3415",
+      "productNameFromManifest": "Rita Red Sparkling Drink Can 240 ml x 30 - Outer",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007674036",
+      "sku": "SKU-3417",
+      "productNameFromManifest": "Frozen Beef Whole leg kamil NO 172",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007693138",
+      "sku": "SKU-3419",
+      "productNameFromManifest": "Hala Fresh Avocado Pulp Frozen 1Kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000007355162",
+      "sku": "SKU-3392",
+      "field": "Translated_Name",
+      "before": "زيت الملوك دوار شمس 17 لتر‎",
+      "after": "زيت دوار الشمس كينغز كراون، 17 لتر",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007359112",
+      "sku": "SKU-3395",
+      "field": "Translated_Name",
+      "before": "Frozen Mango Slice Premier 1Kg x 16 carton",
+      "after": "شرائح مانجو مجمدة بريميير، 16 × 1 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007367067",
+      "sku": "SKU-3393",
+      "field": "Translated_Name",
+      "before": "لحم البقر الكامل الهند - 18 كجم",
+      "after": "فيليه بقري KAMIL، 18 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007502105",
+      "sku": "SKU-3406",
+      "field": "Translated_Name",
+      "before": "مسحوق زين بيسون (غرام الدقيق) 1*15 كجم",
+      "after": "دقيق الحمص (بيسان) زين، 15 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007506039",
+      "sku": "SKU-3405",
+      "field": "Translated_Name",
+      "before": "نواة الأرز زايكا البنجابية 40 كجم",
+      "after": "أرز زايقا بنجابي، 40 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007510186",
+      "sku": "SKU-3407",
+      "field": "Translated_Name",
+      "before": "صلصة فرنسية هيرمان ) جوالين ) 4 - 3.78 لتر",
+      "after": "صلصة فرنسية هيرمانز، 4 × 3.78 لتر",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007587086",
+      "sku": "SKU-3411",
+      "field": "Translated_Name",
+      "before": "لب مانجو مجمد ممتاز، 16 كيلوغرام × كرتون",
+      "after": "لب مانجو مجمد بريميوم، 16 × 1 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007621011",
+      "sku": "SKU-3415",
+      "field": "Translated_Name",
+      "before": "يمكن لمشروب ريتا الأحمر المتلألئ 240 مل × 30 - الخارج",
+      "after": "مشروب ريتا ريد الفوار، 30 علبة × 240 مل — عبوة خارجية",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007674036",
+      "sku": "SKU-3417",
+      "field": "Translated_Name",
+      "before": "فخذ بقري كامل مجمد رقم 172",
+      "after": "فخذ بقري كامل مجمد KAMIL، رقم 172",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    },
+    {
+      "creatorId": "4278439000007693138",
+      "sku": "SKU-3419",
+      "field": "Translated_Name",
+      "before": "لب الأفوكادو الطازج من هالا، مجمد، 1 كجم",
+      "after": "لب أفوكادو هلا فريش مجمد، 1 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Current exact-ID Creator Product_Name, existing translated title and variant; editorial translation correction only; no independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details only if independently evidenced"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3387",
+      "creatorId": "4278439000007326105",
+      "reason": "Unit out undefined for 24×320 ml 7UP carton; hold checkout conversion.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3386",
+      "creatorId": "4278439000007331127",
+      "reason": "Unit out undefined for 24×320 ml 7UP Diet carton; hold checkout conversion.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3399",
+      "creatorId": "4278439000007355218",
+      "reason": "Unit pcs vs 6×925 g Aroma Velvet watermelon; confirm whether price is per piece or multipack.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3396",
+      "creatorId": "4278439000007361168",
+      "reason": "Unit pcs vs 6×925 g Aroma Velvet grenadine; confirm selling variant.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3398",
+      "creatorId": "4278439000007371090",
+      "reason": "Unit pcs vs 6×925 g Aroma Velvet strawberry; confirm selling variant.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3408",
+      "creatorId": "4278439000007557083",
+      "reason": "2 oz sauce cup described as 50 g; volume/mass ambiguity and 100-piece pack unverified; hold capacity rewrite.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3414",
+      "creatorId": "4278439000007615035",
+      "reason": "Unit out undefined for 30×240 ml Rita Red Power outer.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3413",
+      "creatorId": "4278439000007620007",
+      "reason": "Unit out undefined for 30×185 ml Code Red outer.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3415",
+      "creatorId": "4278439000007621011",
+      "reason": "Unit out undefined for 30×240 ml Rita Red outer; Arabic copy fixed but selling unit unchanged.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3419",
+      "creatorId": "4278439000007693138",
+      "reason": "Unit ctn with only 1 kg frozen avocado pulp stated; carton count not verified.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3411",
+      "creatorId": "4278439000007587086",
+      "reason": "Brand PREMIUM could be a grade adjective rather than manufacturer; unchanged pending label proof.",
+      "status": "held_no_conversion_or_claim"
+    },
+    {
+      "sku": "SKU-3393",
+      "creatorId": "4278439000007367067",
+      "reason": "India-origin assertion appears only in original title; independently unverified, omitted from corrected Arabic copy.",
+      "status": "held_no_conversion_or_claim"
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not independently verified in this run",
+    "productVisibility": "All 20 Creator exact-ID records match storefront-marked manifest; Commerce/Catalyst unverified",
+    "images": "Creator image references present but exact-match rights and Commerce/Catalyst rendering not verified; no images changed",
+    "CTNPCSKG": "Undefined out/pcs/ctn conversions held",
+    "customerPriceVsCost": "not independently verified; no financial edits",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency or Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; four duplicate-active IDs remain blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed. All 10 Translated_Name edits read back independently.",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 10,
+    "verifiedProductsWithPartialCorrections": 10,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 12,
+    "creatorConnectorCallsConfirmed": 43,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 480,
+    "partialCorrectionsCumulative": 186
+  },
+  "constraints": {
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncSettingsWrites": 0,
+    "deployments": 0,
+    "createdProducts": 0
+  },
+  "nextAction": "Continue next 20 previously unreviewed storefront IDs in persistent manifest order, beginning SKU-3420; no full rescan."
+}

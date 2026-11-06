@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-02",
+  "localTime": "20:48 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 16",
+  "baseline": "Creator Products_Books 2122 records; original 20/20 audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1950.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000004478032",
+      "sku": "SKU-3159",
+      "productName": "Mama Sita's Tamarind Sinigang Seasoning Mix 50g x 72 Packs  x 3 Box - Carton",
+      "category": "Sauces & Seasoning",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004482011",
+      "sku": "SKU-3160",
+      "productName": "Noodle Pancit Canton Afta 227gm X 30 packs - Carton",
+      "category": "Pasta, Noodles & Vermicelli",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004479032",
+      "sku": "SKU-3161",
+      "productName": "Vinegar Datu Puti 1ltr x 12 bottles - Carton",
+      "category": "Sauces & Seasoning",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004477036",
+      "sku": "SKU-3162",
+      "productName": "Silver Swan Special Soy Sauce 1 Litre x 12 bottles - Carton",
+      "category": "Sauces & Seasoning",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004485007",
+      "sku": "SKU-3163",
+      "productName": "Banana Sauce Jufran Hot 340g x 24 Bottles - Carton",
+      "category": "Sauces & Seasoning",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004508007",
+      "sku": "SKU-3167",
+      "productName": "Milk Powder JOOD 10KG",
+      "category": "Dairy",
+      "unit": "bag",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004507015",
+      "sku": "SKU-3168",
+      "productName": "Milk Powder JOOD 25KG",
+      "category": "Dairy",
+      "unit": "bag",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004507044",
+      "sku": "SKU-3169",
+      "productName": "Hafel Tuna With Sunflower Oil, 95G x 48 - Carton",
+      "category": "Canned & Imported Items",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004518023",
+      "sku": "SKU-3170",
+      "productName": "AlQURESH Frozen Indian Beef Forequarter Roll 4 x 4.5kg - Carton",
+      "category": "Meat",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004523015",
+      "sku": "SKU-3171",
+      "productName": "Alkadour Eggplant plup 2.5kg x 6 - Carton",
+      "category": "Canned & Imported Items",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 3,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004524007",
+      "sku": "SKU-3172",
+      "productName": "French Fries Maestro 10/10 (10x1kg) - Carton",
+      "category": "Ready to Cook",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004523044",
+      "sku": "SKU-3173",
+      "productName": "FROZEN INDIAN VEAL CUBE STAR ONE 900GM X 20PKT - CARTON",
+      "category": "Meat",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004526043",
+      "sku": "SKU-3174",
+      "productName": "Sugar Crystal 50kg",
+      "category": "Masala, Salt & Sugar",
+      "unit": "bag",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004526084",
+      "sku": "SKU-3175",
+      "productName": "White rice ( kg)",
+      "category": "Rice, Pulses & Flours",
+      "unit": "kg",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004550011",
+      "sku": "SKU-3176",
+      "productName": "Yasmin Triangle Cheese 36 x  112gm - Carton",
+      "category": "Dairy",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004573013",
+      "sku": "SKU-3177",
+      "productName": "Al Noor Frozen Whole chicken 1200g x 10 - carton",
+      "category": "Chicken & Eggs",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004600015",
+      "sku": "SKU-3178",
+      "productName": "Al Ali Beef Forequarter Roll 4.5 kg x 4 - Carton",
+      "category": "Meat",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 3,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004693033",
+      "sku": "SKU-3181",
+      "productName": "MAXFRITES (STRAIGHT CUT 9-9) FRENCH FRIES ( 2.5-4 BAGS) 10 KG",
+      "category": "Ready to Cook",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004708007",
+      "sku": "SKU-3182",
+      "productName": "Fish fillet 2 kg  ( 4 Pieces)x 5 bags",
+      "category": "Seafood",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 1,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004726011",
+      "sku": "SKU-3183",
+      "productName": "Disposable Gloves, Clear Vinyl Gloves, Powder Free, Latex Free XL 100 Pieces X 10 - Carton",
+      "category": "Packaging and Consumables",
+      "unit": "ctn",
+      "storefront": true,
+      "creatorImageReferences": 2,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000004482011",
+      "sku": "SKU-3160",
+      "field": "Translated_Name",
+      "before": "المعكرونة بانسيت كانتون أفتا 227gm X 30 حزم - الكرتون",
+      "after": "نودلز بانسيت كانتون أفتا، 30 عبوة × 227 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004477036",
+      "sku": "SKU-3162",
+      "field": "Translated_Name",
+      "before": "البجعة الفضية صلصة الصويا الخاصة 1 لتر × 12 زجاجة - الكرتون",
+      "after": "صلصة الصويا الخاصة سيلفر سوان، 12 زجاجة × 1 لتر — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004485007",
+      "sku": "SKU-3163",
+      "field": "Translated_Name",
+      "before": "صلصة الموز الجوفران الساخنة 340g × 24 زجاجات - الكرتون",
+      "after": "صلصة الموز الحارة جوفران، 24 زجاجة × 340 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004507015",
+      "sku": "SKU-3168",
+      "field": "Translated_Name",
+      "before": "مسحوق الحليب JOOD 25KG",
+      "after": "حليب جود المجفف، 25 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004507044",
+      "sku": "SKU-3169",
+      "field": "Translated_Name",
+      "before": "هافل تونة مع زيت عباد الشمس، 95G × 48 - الكرتون",
+      "after": "تونة هافل بزيت دوار الشمس، 48 عبوة × 95 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004526084",
+      "sku": "SKU-3175",
+      "field": "Product_Name",
+      "before": "White rice ( kg)",
+      "after": "White Rice — Per kg",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004526084",
+      "sku": "SKU-3175",
+      "field": "Translated_Name",
+      "before": "الأرز الأبيض (كيلوغرام)",
+      "after": "أرز أبيض — بالكيلوجرام",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004600015",
+      "sku": "SKU-3178",
+      "field": "Translated_Name",
+      "before": "العلي لحوم البقر لفة 4.5 كجم × 4 - الكرتون",
+      "after": "رول لحم بقري من الربع الأمامي من العلي، 4 × 4.5 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004693033",
+      "sku": "SKU-3181",
+      "field": "Translated_Name",
+      "before": "ماكسفريتس (قطع مستقيم 9-9) الأصدقاء الفرنسيون (2.5-4 باغس) 10 كجم",
+      "after": "بطاطس مقلية ماكسفريتس، تقطيع مستقيم 9/9، 10 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Exact current Creator Product_Name, existing Translated_Name, SKU and Unit; editorial correction only, not independent manufacturer certification",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3159",
+      "risk": "50 g × 72 packs × 3 boxes hierarchy ambiguous; do not calculate sachets per carton or edit pack count."
+    },
+    {
+      "sku": "SKU-3160",
+      "risk": "Afta appears in title but Brand field blank; independent manufacturer/label identity unavailable, so Brand held."
+    },
+    {
+      "sku": "SKU-3167",
+      "risk": "JOOD appears in 10 kg milk powder title but Brand field blank; manufacturer identity and bag variant not independently verified."
+    },
+    {
+      "sku": "SKU-3168",
+      "risk": "25 kg milk powder sold as `bag`, but title does not independently establish packaging; no packing conversion edited."
+    },
+    {
+      "sku": "SKU-3170",
+      "risk": "AlQURESH appears in title while Brand field is blank; brand and exact 4 × 4.5 kg variant need independent evidence."
+    },
+    {
+      "sku": "SKU-3171",
+      "risk": "`Eggplant plup` is ambiguous/misspelled; cannot assume pulp versus puree. Description and variant held."
+    },
+    {
+      "sku": "SKU-3174",
+      "risk": "`Sugar Crystal` could denote a brand or crystalline sugar; Brand left blank pending evidence."
+    },
+    {
+      "sku": "SKU-3181",
+      "risk": "9/9 cut dimension and `(2.5-4 bags)` hierarchy unclear; Arabic correction deliberately omitted any inferred mm or bag count."
+    },
+    {
+      "sku": "SKU-3182",
+      "risk": "`2 kg (4 pieces) × 5 bags` does not unambiguously establish piece/bag conversion; UOM and pack fields unchanged."
+    }
+  ],
+  "unresolvedIssueCount": 9,
+  "fullyCompletedProducts": 0,
+  "creatorConnectorCallsConfirmed": 38,
+  "creatorBillableApiUnits": "unknown",
+  "sourcePolicy": "Only existing exact Creator identity and Arabic editorial corrections; no independent manufacturer pack, GTIN, origin, storage, brand, barcode or media rights verification. No external manufacturer source links used.",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "EN/AR RTL",
+      "storefront visibility and image propagation",
+      "CTN/PCS/KG mapping",
+      "customer price versus private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "writes": {
+    "creatorNonfinancialFields": 9,
+    "creatorProductsChanged": 8,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback; neither edited.",
+    "Creator image references are not Commerce/Catalyst propagation or image rights evidence.",
+    "Creator Modified_Time watermark unavailable; not advanced."
+  ],
+  "checkpoint": {
+    "previousReviewedUniquePostCompletion": 300,
+    "newReviewedUniquePostCompletion": 320,
+    "nextAction": "Continue next 20 unreviewed storefront exact IDs after SKU-3183; no financial/sync/deployment writes; checkout NO-GO."
+  }
+}

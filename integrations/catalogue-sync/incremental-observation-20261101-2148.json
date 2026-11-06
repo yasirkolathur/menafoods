@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "date": "2026-11-01",
+  "observation": {
+    "observedAtLocal": "2026-11-01T21:48:58+03:00",
+    "timeSource": "automation run context, not Creator source timestamp",
+    "mode": "incremental_read_only",
+    "creatorReport": "menafoods/mena/Products_Books",
+    "creatorCriteria": "Modified_Time >= \"01-Nov-2026 19:00:00\"",
+    "creatorResult": "Creator code 3000; one record; no record_cursor; Modified_Time not exposed",
+    "creatorReturnedIds": [
+      "4278439000000106496"
+    ],
+    "newCandidateIds": [
+      "4278439000000106496"
+    ],
+    "baselineManifestBatch": 7,
+    "customerContentManifestStatus": "Not in 2,012-record customer-content manifest (distinct from 2,122 baseline)",
+    "verifiedRecordIdSku": true,
+    "creatorExactIdReadback": true,
+    "creatorConnectorCallsObserved": 2,
+    "creatorBillableApiUnits": "unavailable",
+    "verifiedChangedFields": [],
+    "newNonfinancialSnapshot": {
+      "creatorId": "4278439000000106496",
+      "sku": "CR1756",
+      "name": "Frozen beef top India 20 kg Allana #41",
+      "brand": "Allana",
+      "unit": "ctn",
+      "category": "Meat",
+      "collection": "Indian Beef",
+      "arabicName": "#41 لحم بقر علوي مجمد الهند 20 كجم ألانا",
+      "storefront": "Yes",
+      "imageIds": [
+        "4278439000000106498",
+        "4278439000000106500"
+      ],
+      "booksIdPresent": true
+    },
+    "creatorMetadataWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "sourceWatermarkAdvanced": false,
+    "qaIssue27Status": "NO-GO; authenticated checkout test evidence still outstanding",
+    "limitations": "No prior exact-ID nonfinancial snapshot for this record, so actual field change cannot be established. Modified_Time not returned, source timezone/boundary/pagination/event completeness unverified. Image references not proof of rights, visibility or storefront render."
+  },
+  "priorCheckpointObservedAtLocal": "2026-11-01T20:48:02+03:00",
+  "priorWindowCriteria": "Modified_Time >= \"01-Nov-2026 18:00:00\"",
+  "priorWindowIds": [
+    "4278439000002301007",
+    "4278439000002366003",
+    "4278439000002367003",
+    "4278439000002377039",
+    "4278439000002391007",
+    "4278439000002369019",
+    "4278439000002370011",
+    "4278439000002315011",
+    "4278439000002377011",
+    "4278439000002320011"
+  ],
+  "source": "Live Creator Products_Books criteria query and exact-ID readback; existing baseline manifest and customer-content manifest",
+  "findings": [
+    {
+      "severity": "review",
+      "id": "4278439000000106496",
+      "sku": "CR1756",
+      "finding": "New storefront-enabled baseline ID surfaced in bounded Modified_Time result; no prior persisted exact-ID snapshot to determine what changed.",
+      "action": "Hold edits and sync writes; compare against future bounded changes or authoritative audit trail; do not infer price, packaging or image correctness."
+    }
+  ],
+  "writePolicy": "No Creator, Books, Inventory, Commerce, Catalyst, image, order, tax or price writes.",
+  "qa": "Read-only Creator fields only; authenticated EN/AR RTL, cart, price isolation, VAT, Buy Again and confirm-once checkout not independently tested."
+}

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "date": "2026-11-02",
+  "mode": "incremental_read_only",
+  "observedAtLocal": "2026-11-02T01:50:46+03:00",
+  "timeSource": "scheduled run context, not Creator Modified_Time",
+  "creatorReport": "menafoods/mena/Products_Books",
+  "criteria": "Modified_Time >= \"01-Nov-2026 21:00:00\"",
+  "creatorResult": {
+    "code": 3000,
+    "returnedCount": 1,
+    "returnedIds": [
+      "4278439000000106496"
+    ],
+    "recordCursor": "not returned",
+    "modifiedTimeExposed": false
+  },
+  "comparison": {
+    "matchedPreviouslyHeldCandidate": "4278439000000106496",
+    "sku": "CR1756",
+    "comparedNonfinancialKeys": [
+      "creatorId",
+      "sku",
+      "name",
+      "brand",
+      "unit",
+      "category",
+      "collection",
+      "arabicName",
+      "storefront",
+      "imageIds",
+      "booksIdPresent"
+    ],
+    "verifiedFieldDeltas": [],
+    "newCandidateIds": [],
+    "sourceModificationProven": false,
+    "unchangedAgainstCheckpoint": true
+  },
+  "qa": {
+    "issue": 27,
+    "issueCommentsReviewed": 21,
+    "newAuthenticatedAcceptanceEvidenceFound": false,
+    "status": "NO-GO",
+    "unverified": [
+      "EN/AR RTL",
+      "visibility and image rights",
+      "CTN/PCS/KG",
+      "customer price/cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "controls": {
+    "creatorConnectorCallsAttempted": 1,
+    "creatorBillableApiUnits": "unavailable",
+    "creatorWrites": 0,
+    "financialWrites": 0,
+    "imageWrites": 0,
+    "crossSystemWrites": 0,
+    "productionDeployment": false,
+    "fullRescan": false,
+    "sourceWatermarkAdvanced": false
+  },
+  "limitations": "Modified_Time absent in returned report; timezone, inclusive boundary, pagination completeness and webhook coverage unverified. CR1756 source modification history unproven; three candidates remain held. No native sync, deployed gateway rollback, webhook auth, destination ACK or authenticated checkout acceptance receipts. Four duplicate-active IDs blocked."
+}

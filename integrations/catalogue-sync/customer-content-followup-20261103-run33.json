@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-03",
+  "followup": 33,
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002489399",
+    "4278439000002489403",
+    "4278439000002489407",
+    "4278439000002489411",
+    "4278439000002489415",
+    "4278439000002489419",
+    "4278439000002489423",
+    "4278439000002489427",
+    "4278439000002489431",
+    "4278439000002489435",
+    "4278439000002489439",
+    "4278439000002489443",
+    "4278439000002489447",
+    "4278439000002489451",
+    "4278439000002489455",
+    "4278439000002489459",
+    "4278439000002489475",
+    "4278439000002489487",
+    "4278439000002489491",
+    "4278439000002489495"
+  ],
+  "verifiedChanges": [
+    {
+      "id": "4278439000002489431",
+      "field": "Translated_Name",
+      "before": "الكبير بيف كيبح 400 غرام × 12",
+      "after": "الكبير كبة لحم بقري 400 جرام × 12",
+      "source": "Existing Creator exact-ID English product identity; Arabic editorial correction, manufacturer label not certified",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489475",
+      "field": "Translated_Name",
+      "before": "الكبير شريمب كبيرة 400 غرام × 20",
+      "after": "الكبير روبيان كبير 400 جرام × 20",
+      "source": "Existing Creator exact-ID English product identity; Arabic editorial correction, manufacturer label not certified",
+      "readbackVerified": true
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "blank_sku",
+      "count": 20
+    },
+    {
+      "type": "brand_conflict",
+      "ids": [
+        "4278439000002489495"
+      ],
+      "detail": "AL KABEER in English title but TABARRUK in Brand; hold pending verified identity"
+    },
+    {
+      "type": "unverified_images",
+      "count": 20,
+      "detail": "Image existence in Creator does not verify rights or Commerce/Catalyst propagation"
+    },
+    {
+      "type": "description_readback",
+      "count": 20,
+      "detail": "Translated description/packing not exposed by All_Products API"
+    },
+    {
+      "type": "margin_policy",
+      "count": 13,
+      "detail": "Margin_Configured=No; no price changes"
+    },
+    {
+      "type": "checkout_sync_gate",
+      "detail": "No authenticated checkout or four-way ACK evidence; remains NO-GO"
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 25,
+  "financialChanges": 0,
+  "imagesChanged": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": "20 exact-ID reads; 2 edits and 2 independent readbacks; one application discovery. No full rescan. No external manufacturer certification."
+}

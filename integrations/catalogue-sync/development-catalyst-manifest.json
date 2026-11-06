@@ -1,0 +1,60 @@
+{
+  "project": "menafoodscustomermiddleware",
+  "projectId": "17990000000237407",
+  "org": "809407193",
+  "environment": "Development",
+  "function": "mf_zoho_gateway",
+  "status": "schema-created-processor-not-deployed",
+  "notes": "Native Books–Inventory–Commerce integration must be verified at runtime before writes. This manifest contains no secrets.",
+  "tables": {
+    "registry": {
+      "name": "MF_Product_Sync_Registry",
+      "id": "17990000000471023",
+      "records": 1194,
+      "admin": [
+        "SELECT",
+        "INSERT",
+        "UPDATE"
+      ],
+      "appUser": [],
+      "unique": [
+        "CANONICAL_PRODUCT_ID"
+      ]
+    },
+    "outbox": {
+      "name": "MF_Product_Sync_Outbox",
+      "id": "17990000000474013",
+      "records": 0,
+      "admin": [
+        "SELECT",
+        "INSERT",
+        "UPDATE"
+      ],
+      "appUser": [],
+      "unique": [
+        "IDEMPOTENCY_KEY"
+      ]
+    }
+  },
+  "conflicts": {
+    "duplicateBooksIds": 6,
+    "affectedCreatorRows": 12,
+    "storefrontRowsExcluded": 4
+  },
+  "originalSources": {
+    "creatorOwner": "menafoods",
+    "creatorApp": "mena",
+    "report": "Products_Books",
+    "booksOrg": "844477749",
+    "commerceDomain": "b2b.menafoods.store"
+  },
+  "smokeTests": [
+    "verify Books/Inventory/Commerce native two-way sync",
+    "verify ID coverage and conflicts",
+    "verify no App User ACL on registry/outbox",
+    "verify webhook signature HMAC/replay",
+    "dry-run changed item through secure Creator/Books API",
+    "verify outbox ACKs, no loops, price separation",
+    "capture v12.3.27 running code hash before Development function deployment"
+  ]
+}

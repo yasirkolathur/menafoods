@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-04",
+  "run": 45,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489067",
+    "4278439000002489071",
+    "4278439000002489075",
+    "4278439000002489079",
+    "4278439000002489083",
+    "4278439000002489087",
+    "4278439000002489091",
+    "4278439000002489095",
+    "4278439000002489099",
+    "4278439000002489103",
+    "4278439000002489107",
+    "4278439000002489111",
+    "4278439000002489115",
+    "4278439000002489119",
+    "4278439000002489123",
+    "4278439000002489127",
+    "4278439000002489131",
+    "4278439000002489135",
+    "4278439000002489139",
+    "4278439000002489143"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489071",
+      "field": "Translated_Name",
+      "before": "لحم ضأن سمبوسة 240 جرام × 20",
+      "after": "سمبوسة لحم ضأن 240 جم × 20 عبوة"
+    },
+    {
+      "id": "4278439000002489123",
+      "field": "Translated_Name",
+      "before": "الكبير دجاج سبرينج رول السائبة 1.12 كجم × 5 باكت",
+      "after": "الكبير سبرينج رول بالدجاج، عبوة كبيرة 1.12 كجم × 5 عبوات"
+    },
+    {
+      "id": "4278439000002489127",
+      "field": "Translated_Name",
+      "before": "الكبير سبرنج رول خضار 1.12 كيلو × 5 باكت",
+      "after": "الكبير سبرينج رول بالخضار، عبوة كبيرة 1.12 كجم × 5 عبوات"
+    }
+  ],
+  "verification": "One compact exact-ID Creator All_Products read, three exact-ID Translated_Name updates, one compact independent readback. All three values matched. Existing product/pack identities support editorial Arabic; manufacturer labels not independently certified.",
+  "sources": [
+    "Zoho Creator All_Products authenticated current records; existing product names and pack variants (private connector, no public URL)"
+  ],
+  "unresolvedIssues": [
+    "20 reviewed products have blank SKU fields; do not synthesize SKUs",
+    "Al Kabeer brand absent from several English titles while Brand field says AL KABEER; manufacturer identity unverified",
+    "Samosa and spring-roll carton pack counts and catering/bulk variants lack independent label confirmation",
+    "Existing image references do not establish image rights or Commerce/Catalyst propagation",
+    "Translated description and translated packing not available through All_Products readback",
+    "Margin policy and validated cost basis unavailable; financial fields held",
+    "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit, confirm-once checkout and end-to-end sync evidence missing"
+  ],
+  "connectorCallsObserved": 5,
+  "financialChanges": 0,
+  "imagesPublished": 0,
+  "checkoutOrdersCreated": 0,
+  "releaseGate": "NO-GO"
+}

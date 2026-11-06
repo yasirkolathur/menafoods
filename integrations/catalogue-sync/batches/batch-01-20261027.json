@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "batch": 1,
+  "totalBatches": 20,
+  "expected": 107,
+  "processed": 107,
+  "creatorIdsMatched": 107,
+  "scope": "mena.Products_Books",
+  "verification": "Creator report readback after exact-ID updates",
+  "before": {
+    "missingBrand": 29,
+    "missingUnit": 65,
+    "missingImages": 14,
+    "missingZohoBooksId": 32,
+    "missingSellingPrice": 69,
+    "missingArabic": 0
+  },
+  "after": {
+    "missingBrand": 9,
+    "missingUnit": 13,
+    "missingImages": 14,
+    "missingZohoBooksId": 32,
+    "missingSellingPrice": 69,
+    "missingArabic": 0
+  },
+  "confirmedFieldCorrections": {
+    "Brand": 20,
+    "Unit": 52,
+    "total": 72
+  },
+  "source": "Brand names from existing Creator Product_Name; carton unit only where explicit multipack quantities in product title. No independent manufacturer verification for unresolved or ambiguous records.",
+  "hold": {
+    "uncertainBrandCount": 9,
+    "uncertainUnitCount": 13,
+    "missingImageCount": 14,
+    "unmappedBooksCount": 32,
+    "missingPriceCount": 69,
+    "reason": "Never fabricate brand/unit; no photo redistribution rights check yet; Books IDs and prices are not guessed."
+  },
+  "finance": "No selling price, margin, supplier cost, inventory balance, tax, Books invoice, or customer-specific price modified.",
+  "crossSystem": "Creator readback verified; no live Books, Commerce or Catalyst destination ACK proven. Existing sync outbox worker remains staged, not deployed.",
+  "note": "The 52-record bulk update returned a client/tool error, but an immediate Creator readback confirmed missing-unit count fell from 65 to 13. Five exact records were safely re-asserted as ctn before this was discovered. Creator confirmed final state. Do not blindly retry writes after ambiguous errors.",
+  "state": "audit_enrichment_pass_complete_with_exceptions",
+  "completed": true
+}

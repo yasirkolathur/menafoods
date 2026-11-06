@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-06",
+  "run": 92,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run91.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000105102",
+    "4278439000000105110",
+    "4278439000000105118",
+    "4278439000000105146",
+    "4278439000000105184",
+    "4278439000000105228",
+    "4278439000000105234",
+    "4278439000000105240",
+    "4278439000000105252",
+    "4278439000000105258",
+    "4278439000000105276",
+    "4278439000000105300",
+    "4278439000000105308",
+    "4278439000000105318",
+    "4278439000000105324",
+    "4278439000000105330",
+    "4278439000000105350",
+    "4278439000000105376",
+    "4278439000000105410",
+    "4278439000000105414"
+  ],
+  "reviewedSkus": [
+    "CR1620",
+    "CR1621",
+    "CR1622",
+    "CR1626",
+    "CR1631",
+    "CR1637",
+    "CR1638",
+    "CR1639",
+    "CR1641",
+    "CR1642",
+    "CR1645",
+    "CR1649",
+    "CR1650",
+    "CR1652",
+    "CR1653",
+    "CR1654",
+    "CR1657",
+    "CR1662",
+    "CR1668",
+    "CR1669"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 29,
+  "issues": [
+    {
+      "sku": "CR1620",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1620",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1620",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1631",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1631",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1637",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1638",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1639",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1639",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1639",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1641",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1641",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1641",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1642",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1642",
+      "type": "seafood_size_or_pack_variant_requires_label_evidence"
+    },
+    {
+      "sku": "CR1645",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1645",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1649",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1650",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1650",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1652",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1653",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1654",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1654",
+      "type": "arabic_title_translation_quality_requires_review"
+    },
+    {
+      "sku": "CR1657",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1662",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1668",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1669",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1669",
+      "type": "missing_books_mapping"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 50,
+  "excludedOutOfBatch": 30,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000105418",
+  "nextPendingSku": "CR1670",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "Exact bounded Creator read, identity verification against immutable manifest; no content changes without reliable label evidence. No financial or deployment changes."
+}

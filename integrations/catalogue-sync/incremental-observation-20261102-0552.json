@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "mode": "incremental_read_only",
+  "creatorReport": "menafoods/mena/Products_Books",
+  "creatorCriteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+  "returnedCount": 1,
+  "returnedIds": [
+    "4278439000000106496"
+  ],
+  "candidate": "CR1756 previously tracked; exact-ID was not re-read in this observation",
+  "newCandidateIds": [],
+  "verifiedChangedFields": [],
+  "creatorConnectorCallsForIncremental": 1,
+  "sourceWatermarkAdvanced": false,
+  "creatorSourceWatermark": null,
+  "sourceCompletenessVerified": false,
+  "limitations": "Modified_Time returned only via filter, not in record readback. Timezone/boundary/pagination/event completeness unverified. Do not infer full change feed or four-way sync.",
+  "customerContentReviewEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-0552.json",
+  "financialWrites": 0,
+  "crossSystemWrites": 0,
+  "qaStatus": "NO-GO"
+}

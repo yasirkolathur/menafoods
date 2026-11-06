@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 14:52 Asia/Riyadh (automation clock, not Creator Modified_Time)",
+  "phase": "post-20/20 customer-content storefront followup #10",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000003363065",
+    "4278439000003363094",
+    "4278439000003368007",
+    "4278439000003374075",
+    "4278439000003379011",
+    "4278439000003392003",
+    "4278439000003395003",
+    "4278439000003409027",
+    "4278439000003412003",
+    "4278439000003412028",
+    "4278439000003421039",
+    "4278439000003425011",
+    "4278439000003448003",
+    "4278439000003456007",
+    "4278439000003463011",
+    "4278439000003478090",
+    "4278439000003484003",
+    "4278439000003492029",
+    "4278439000003498011",
+    "4278439000003503019"
+  ],
+  "reviewedProducts": [
+    {
+      "sku": "SKU-2969",
+      "creatorId": "4278439000003363065",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2971",
+      "creatorId": "4278439000003363094",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2970",
+      "creatorId": "4278439000003368007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2973",
+      "creatorId": "4278439000003374075",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2972",
+      "creatorId": "4278439000003379011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2974",
+      "creatorId": "4278439000003392003",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2975",
+      "creatorId": "4278439000003395003",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2977",
+      "creatorId": "4278439000003409027",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2978",
+      "creatorId": "4278439000003412003",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2979",
+      "creatorId": "4278439000003412028",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2980",
+      "creatorId": "4278439000003421039",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2982",
+      "creatorId": "4278439000003425011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2984",
+      "creatorId": "4278439000003448003",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2986",
+      "creatorId": "4278439000003456007",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2987",
+      "creatorId": "4278439000003463011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2988",
+      "creatorId": "4278439000003478090",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2989",
+      "creatorId": "4278439000003484003",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2993",
+      "creatorId": "4278439000003492029",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2992",
+      "creatorId": "4278439000003498011",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    },
+    {
+      "sku": "SKU-2994",
+      "creatorId": "4278439000003503019",
+      "exactIdRead": "success",
+      "source": "Zoho Creator menafoods/mena/All_Products"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 12,
+  "verifiedProductsChanged": 12,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 8,
+  "corrections": [
+    {
+      "sku": "SKU-2971",
+      "creatorId": "4278439000003363094",
+      "field": "Translated_Name",
+      "before": "لحم عجل ألينا #99 18 كجم",
+      "after": "فيليه عجل ألانا رقم 99، 18 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2973",
+      "creatorId": "4278439000003374075",
+      "field": "Translated_Name",
+      "before": "عصير مزدوج البلاستيك حمل حقيبة 20 × 50",
+      "after": "أكياس حمل بلاستيكية للعصائر مزدوجة، 20 × 50",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2972",
+      "creatorId": "4278439000003379011",
+      "field": "Translated_Name",
+      "before": "عصير واحد البلاستيك حمل حقيبة 20 × 50",
+      "after": "أكياس حمل بلاستيكية للعصائر مفردة، 20 × 50",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2974",
+      "creatorId": "4278439000003392003",
+      "field": "Translated_Name",
+      "before": "الديوان بسماتي الأرز مازا - 40 كجم",
+      "after": "أرز بسمتي الديوان مزة، كيس 40 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2977",
+      "creatorId": "4278439000003409027",
+      "field": "Translated_Name",
+      "before": "تبخر قوس قزح الحليب 410 غرام 48 قطعة",
+      "after": "حليب مبخر رينبو، 48 × 410 جم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2980",
+      "creatorId": "4278439000003421039",
+      "field": "Translated_Name",
+      "before": "حقيبة بولغور غرامة (15 كجم) أسفور",
+      "after": "برغل ناعم عصفور، كيس 15 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2982",
+      "creatorId": "4278439000003425011",
+      "field": "Translated_Name",
+      "before": "كاماريا بوثر غي (1 كجم)",
+      "after": "سمن زبدة كاماريا، 1 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2986",
+      "creatorId": "4278439000003456007",
+      "field": "Translated_Name",
+      "before": "مسحوق حليب الغاردو ، حقيبة 25 كجم",
+      "after": "حليب مجفف غاردو، كيس 25 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2989",
+      "creatorId": "4278439000003484003",
+      "field": "Translated_Name",
+      "before": "بطاطس مقلية مجمدة من فيدا مقاس 9/9 مم، 2.5 كجم × 4 كرتون",
+      "after": "بطاطس مقلية مجمدة فيدا AA، تقطيع 9 × 9 مم، كرتون 4 × 2.5 كجم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2993",
+      "creatorId": "4278439000003492029",
+      "field": "Translated_Name",
+      "before": "مزارع كبد البقر الفضية في نيوزيلندا",
+      "after": "كبد بقري سيلفر فارمز، بالكيلوجرام",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2992",
+      "creatorId": "4278439000003498011",
+      "field": "Translated_Name",
+      "before": "كيس الشاي ليبتون 100 كيس × 35 الكرتون المطاعم",
+      "after": "شاي ليبتون أكياس للتموين، كرتون 35 × 100 كيس",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2994",
+      "creatorId": "4278439000003503019",
+      "field": "Translated_Name",
+      "before": "جبنة سائل \" الصقر - 900   6 جرام",
+      "after": "جبنة كريمية فالكون، كرتون 6 × 900 جم",
+      "readback": "Zoho Creator exact ID+SKU+Translated_Name matched",
+      "basis": "Existing exact Creator English product identity, unit and brand/collection where available; editorial only; manufacturer pack not independently certified",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2970",
+      "severity": "high",
+      "issue": "Tea lid sold as box but lid diameter, count and compatible cup not verified; no unit conversion."
+    },
+    {
+      "sku": "SKU-2972/2973",
+      "severity": "high",
+      "issue": "20 × 50 carry-bag specification lacks measurement/count semantics; Arabic title preserves numbers without assuming units."
+    },
+    {
+      "sku": "SKU-2975",
+      "severity": "critical",
+      "issue": "HARARA HANA PACK 6x10 uses undefined Creator selling Unit=rpt; conversion blocked."
+    },
+    {
+      "sku": "SKU-2979",
+      "severity": "high",
+      "issue": "English title Taj Al Madha vs Brand TAJ AL MAZZA conflict; 10 kg × 4 bags with Unit=bag needs selling hierarchy confirmation; no brand/title edit."
+    },
+    {
+      "sku": "SKU-2971",
+      "severity": "high",
+      "issue": "Veal tenderloin title appears under Indian Beef collection; cut/species and Allana #99 pack variant not independently manufacturer verified."
+    },
+    {
+      "sku": "SKU-2977",
+      "severity": "medium",
+      "issue": "Rainbow 48 × 410 g pack count from existing record only; no manufacturer or label confirmation; no packing-field edit."
+    },
+    {
+      "sku": "SKU-2982",
+      "severity": "medium",
+      "issue": "Kamaria butter ghee product composition and 1 kg tin variant not independently label verified; title editorial only."
+    },
+    {
+      "sku": "SKU-2987",
+      "severity": "critical",
+      "issue": "Sunbulah 400 g × 18 carton in title but Creator Unit=box; conversion and actual checkout selling unit unverified."
+    },
+    {
+      "sku": "SKU-2989",
+      "severity": "medium",
+      "issue": "Vida 4 × 2.5 kg carton from existing title; exact AA/9x9 manufacturer pack not independently verified."
+    },
+    {
+      "sku": "SKU-2993",
+      "severity": "high",
+      "issue": "Existing Newzland origin claim lacks independent evidence; Arabic title now omits unverified origin, English original preserved."
+    },
+    {
+      "sku": "SKU-2992",
+      "severity": "medium",
+      "issue": "Lipton 35 × 100 tea bags carton inferred only from existing English title; no independent label/pack verification."
+    },
+    {
+      "sku": "SKU-2994",
+      "severity": "high",
+      "issue": "Falcon cream cheese vs liquid/processed cheese ambiguity in old Arabic; exact product type and 6 × 900 g carton require label confirmation."
+    }
+  ],
+  "unresolvedIssueCount": 12,
+  "sourcePolicy": "No manufacturer or authorized-source pack verification this run. Changes are Arabic editorial corrections grounded in exact Creator English identities; no unverified claims, pack conversions, brand, GTIN or origin added.",
+  "creatorConnectorCallsObserved": "At least 45 successful calls (1 application discovery, 20 exact reads, 12 writes, 12 exact readbacks); billable units and failed oversized-call accounting unknown",
+  "creatorBillableApiUnits": null,
+  "incrementalProbe": "Not run: authoritative Creator Modified_Time watermark not exposed; no full scan",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "authenticated EN/AR RTL rendering",
+      "Commerce/Catalyst image and visibility propagation",
+      "CTN/PCS/KG unit conversions",
+      "customer price vs private cost isolation",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit approval",
+      "confirm-once checkout and exactly-once Books sales order"
+    ]
+  },
+  "writes": {
+    "creatorNonfinancialTitleFields": 12,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback; no such fields changed.",
+    "Image references in Creator do not prove Commerce/Catalyst image propagation."
+  ]
+}

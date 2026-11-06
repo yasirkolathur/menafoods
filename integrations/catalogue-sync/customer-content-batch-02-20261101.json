@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-01",
+  "batch": 2,
+  "kind": "customer-facing-title-and-translation-remediation",
+  "scope": {
+    "exactProductsReviewed": 20,
+    "recordsUpdatedAndReadBack": 17,
+    "fieldsVerifiedChanged": 31,
+    "held": 3,
+    "storefrontProductsReviewed": 20
+  },
+  "changes": [
+    {
+      "creatorId": "4278439000000101280",
+      "sku": "CR1002",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Me butcher Beef Balls Pizza 4x4.5kg",
+          "after": "Mr Butcher Beef Balls for Pizza, 4 × 4.5 kg"
+        },
+        "Translated_Name": {
+          "before": "لي جزار كرات لحوم البقر بيتزا 4x4.5kg",
+          "after": "كرات لحم بقري للبيتزا من مستر بوتشر، 4 × 4.5 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101298",
+      "sku": "CR1005",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "NAJEEB  Classic long Grain BASMATI Rice 40 kg",
+          "after": "Najeeb Classic Long-Grain Basmati Rice, 40 kg"
+        },
+        "Translated_Name": {
+          "before": "NAJEEB الكلاسيكية طويلة الحبوب BASMATI الأرز 40 كجم",
+          "after": "أرز بسمتي نجيب كلاسيك طويل الحبة، 40 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101302",
+      "sku": "CR1006",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Maha Vegetable Oil Tin (1 x17 ltr)",
+          "after": "Maha Vegetable Oil, 17 L Tin"
+        },
+        "Translated_Name": {
+          "before": "قصدير الزيت النباتي مها (1 × 17 لتر)",
+          "after": "زيت نباتي مها، تنكة 17 لتر"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101350",
+      "sku": "CR1016",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Marie Gold Butter Block 10 x 2.5 kg",
+          "after": "Marie Gold Butter Blocks, 10 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "ماري الذهب الزبدة كتلة 10 × 2.5 كجم",
+          "after": "زبدة ماري جولد قوالب، 10 × 2.5 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101526",
+      "sku": "CR1057",
+      "readbackVerified": true,
+      "fields": {
+        "Translated_Name": {
+          "before": "جبن موزاريلا التناظرية (4X2.5Kg)",
+          "after": "جبن موزاريلا بديل (أنالوج)، 4 × 2.5 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101554",
+      "sku": "CR1062",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Cucumber Pickles (Big) - 10kg",
+          "after": "Cucumber Pickles (Large), 10 kg"
+        },
+        "Translated_Name": {
+          "before": "مخللات الخيار (كبيرة) - 10 كجم",
+          "after": "مخلل خيار كبير، 10 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101650",
+      "sku": "CR1081",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Salt Rustin 50 kg",
+          "after": "Rustin Salt, 50 kg"
+        },
+        "Translated_Name": {
+          "before": "الملح الصدأ 50 كجم",
+          "after": "ملح راستن، 50 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101654",
+      "sku": "CR1082",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Sasa Iodized Salt (24 X 700gm)",
+          "after": "Sasa Iodized Salt, 24 × 700 g"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101680",
+      "sku": "CR1086",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Golden Passion French fries 10 * 1 kg 7/7",
+          "after": "Golden Passion French Fries, 7/7 Cut, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "البطاطس المقلية العاطفة الذهبية 10 * 1 كجم 7/7",
+          "after": "بطاطس مقلية جولدن باشن، تقطيع 7/7، 10 × 1 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101710",
+      "sku": "CR1092",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen  Guava Plup 16 x 1000g Farm fresh",
+          "after": "Farm Fresh Frozen Guava Pulp, 16 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "مجمدة الجوافة Plup 16 × 1000g مزرعة طازجة",
+          "after": "لب جوافة مجمد فارم فريش، 16 × 1 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101718",
+      "sku": "CR1094",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen  Mango FARM FRESH  16 x 1000 g",
+          "after": "Farm Fresh Frozen Mango, 16 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "مزرعة المانجو المجمدة الطازجة 16 × 1000 غرام",
+          "after": "مانجو مجمدة فارم فريش، 16 × 1 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101728",
+      "sku": "CR1095",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Beef forequarter Brazil Naturafrig 18-24kg",
+          "after": "Naturafrig Brazilian Frozen Beef Forequarter, 18–24 kg"
+        },
+        "Translated_Name": {
+          "before": "لحوم البقر المجمدة الفصل الأمامي البرازيل ناترافريج 18-24kg",
+          "after": "ربع أمامي بقري برازيلي مجمد ناتورافريج، 18–24 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101734",
+      "sku": "CR1096",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Allana Frozen Indian Beef Forequarters Roll 18 kg #106",
+          "after": "Allana Indian Frozen Beef Forequarter Roll, 18 kg, #106"
+        },
+        "Translated_Name": {
+          "before": "ألانا المجمدة لحوم البقر الهندية فورور لفة 18 كجم #106",
+          "after": "لفة ربع أمامي بقري هندي مجمد ألانا، 18 كجم، رقم 106"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101742",
+      "sku": "CR1097",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Tammam Indian Beef Forequarters Roll 18 kg #106",
+          "after": "Tammam Indian Beef Forequarter Roll, 18 kg, #106"
+        },
+        "Translated_Name": {
+          "before": "التمام الهندي لحوم البقر لفة 18 كجم #106",
+          "after": "لفة ربع أمامي بقري هندي تمام، 18 كجم، رقم 106"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101746",
+      "sku": "CR1098",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Beef Liver Australia AMH",
+          "after": "AMH Frozen Australian Beef Liver — per kg"
+        },
+        "Translated_Name": {
+          "before": "كبد لحوم البقر المجمدة أستراليا AMH",
+          "after": "كبد بقري أسترالي مجمد AMH — بالكيلوجرام"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101774",
+      "sku": "CR1101",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Superior Wheat Flour 45kg",
+          "after": "Superior Wheat Flour, 45 kg"
+        },
+        "Translated_Name": {
+          "before": "متفوقة القمح الدقيق 45kg",
+          "after": "دقيق قمح سوبيريور، 45 كجم"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    },
+    {
+      "creatorId": "4278439000000101778",
+      "sku": "CR1102",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Afia Corn Oil 6 x 1.8 Ltrs",
+          "after": "Afia Corn Oil, 6 × 1.8 L"
+        }
+      },
+      "source": "Exact Creator All_Products ID/SKU and pre-existing product/packing text; editorial cleanup/translation, not independent manufacturer attestation."
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000000101544",
+      "sku": "CR1060",
+      "reason": "Jagua in title conflicts with Jague in Brand; manufacturer/label variant needed before rewriting."
+    },
+    {
+      "creatorId": "4278439000000101560",
+      "sku": "CR1063",
+      "reason": "1 kg x 2 pcs Packs is ambiguous about pack count versus pieces; do not invent packing."
+    },
+    {
+      "creatorId": "4278439000000101574",
+      "sku": "CR1066",
+      "reason": "450 g ×20a contains ambiguous 20a; do not assert a 20-pack carton without label."
+    }
+  ],
+  "sourcePolicy": "Current Creator exact-ID product titles, brand and UOM used for editorial corrections; no new product facts or manufacturer certification. Existing descriptions and package details not exposed by All_Products/Products_Books readback, so they were NOT overwritten. Product image rights and actual Commerce/Catalyst rendering unverified.",
+  "deferredFields": "Description/Package_Details/Translated_Description/Translated_Package remain unverified; brand Analogue on CR1057 needs label review.",
+  "api": {
+    "creatorConnectorCalls": 62,
+    "billableCalls": "not available",
+    "fullCatalogRescan": false
+  },
+  "writes": {
+    "creatorTitleOrArabicNameOnly": 17,
+    "description": 0,
+    "package": 0,
+    "category": 0,
+    "brand": 0,
+    "images": 0,
+    "price": 0,
+    "cost": 0,
+    "stock": 0,
+    "margin": 0,
+    "visibility": 0,
+    "orders": 0,
+    "crossSystemSyncEnable": 0
+  },
+  "checkoutQA": {
+    "issue": 27,
+    "authenticatedTestsExecuted": false,
+    "status": "NO-GO",
+    "blockersUnchanged": true
+  },
+  "sync": {
+    "project": "menafoodscustomermiddleware",
+    "fourWaySyncVerified": false,
+    "watermarkAdvanced": false
+  }
+}

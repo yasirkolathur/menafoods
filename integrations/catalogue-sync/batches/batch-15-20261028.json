@@ -1,0 +1,431 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "auditedAt": "2026-10-28",
+  "batch": 15,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "scope": "mena.Products_Books",
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "creatorIdRange": [
+    "4278439000002841015",
+    "4278439000003559007"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000002841015",
+    "4278439000002847075",
+    "4278439000002853019",
+    "4278439000002861011",
+    "4278439000002879011",
+    "4278439000002880011",
+    "4278439000002884011",
+    "4278439000002885011",
+    "4278439000002886015",
+    "4278439000002887007",
+    "4278439000002888007",
+    "4278439000002906052",
+    "4278439000002960077",
+    "4278439000002963071",
+    "4278439000002964079",
+    "4278439000002966007",
+    "4278439000003006015",
+    "4278439000003018007",
+    "4278439000003020031",
+    "4278439000003024007",
+    "4278439000003037007",
+    "4278439000003040011",
+    "4278439000003063003",
+    "4278439000003064003",
+    "4278439000003066007",
+    "4278439000003080047",
+    "4278439000003082011",
+    "4278439000003086007",
+    "4278439000003088011",
+    "4278439000003106015",
+    "4278439000003106040",
+    "4278439000003109019",
+    "4278439000003110049",
+    "4278439000003114035",
+    "4278439000003134011",
+    "4278439000003149007",
+    "4278439000003164011",
+    "4278439000003167007",
+    "4278439000003187011",
+    "4278439000003194015",
+    "4278439000003197019",
+    "4278439000003198027",
+    "4278439000003199025",
+    "4278439000003204007",
+    "4278439000003206015",
+    "4278439000003206100",
+    "4278439000003240031",
+    "4278439000003280011",
+    "4278439000003292011",
+    "4278439000003293007",
+    "4278439000003294015",
+    "4278439000003295011",
+    "4278439000003295044",
+    "4278439000003310035",
+    "4278439000003319015",
+    "4278439000003326007",
+    "4278439000003327007",
+    "4278439000003328057",
+    "4278439000003350019",
+    "4278439000003356035",
+    "4278439000003357011",
+    "4278439000003358007",
+    "4278439000003361007",
+    "4278439000003363011",
+    "4278439000003363040",
+    "4278439000003363065",
+    "4278439000003363094",
+    "4278439000003364007",
+    "4278439000003364032",
+    "4278439000003365007",
+    "4278439000003366007",
+    "4278439000003368007",
+    "4278439000003374075",
+    "4278439000003379011",
+    "4278439000003387011",
+    "4278439000003392003",
+    "4278439000003395003",
+    "4278439000003409027",
+    "4278439000003412003",
+    "4278439000003412028",
+    "4278439000003420015",
+    "4278439000003421039",
+    "4278439000003423015",
+    "4278439000003425011",
+    "4278439000003448003",
+    "4278439000003451009",
+    "4278439000003456007",
+    "4278439000003463011",
+    "4278439000003478090",
+    "4278439000003484003",
+    "4278439000003492029",
+    "4278439000003494023",
+    "4278439000003495007",
+    "4278439000003498011",
+    "4278439000003503019",
+    "4278439000003503064",
+    "4278439000003507007",
+    "4278439000003510039",
+    "4278439000003519019",
+    "4278439000003537007",
+    "4278439000003544035",
+    "4278439000003545043",
+    "4278439000003548007",
+    "4278439000003553019",
+    "4278439000003557007",
+    "4278439000003559007"
+  ],
+  "verification": "106/106 frozen Creator IDs matched exactly; compact ID-range fetch; exact-ID before and after readback for the sole edit",
+  "counts": {
+    "storefrontVisible": 91,
+    "missingSKU": 0,
+    "visibleMissingSKU": 0,
+    "missingUnit": 0,
+    "visibleMissingUnit": 0,
+    "missingBrand": 24,
+    "visibleMissingBrand": 22,
+    "missingBooksMapping": 1,
+    "visibleMissingBooksMapping": 0,
+    "missingArabic": 0,
+    "visibleMissingArabic": 0,
+    "missingImages": 3,
+    "visibleMissingImages": 1,
+    "zeroOrMissingSellingPrice": 8,
+    "visibleZeroOrMissingSellingPrice": 0
+  },
+  "verifiedFieldsChanged": 1,
+  "changes": [
+    {
+      "creatorId": "4278439000003199025",
+      "SKU": "SKU-2941",
+      "productName": "Orient Gardens Pomegranate Molasses 12 x 500g",
+      "field": "Brand",
+      "before": "",
+      "after": "Orient Gardens",
+      "readBackVerified": true,
+      "source": "https://chevel.net/assets/catalogs/Orient_Gardens.pdf",
+      "corroboration": "https://www.fifoplus.com/pomegranate-molasses-orient-gardens-12-500g.html",
+      "note": "Authorized distributor catalogue lists Orient Gardens Pomegranate Molasses 12/500g. Changed Brand only. Creator SKU/Books ID/Unit/price/visibility unchanged. Form workflow skipped to avoid uncontrolled sync fanout."
+    }
+  ],
+  "sourceLinks": [
+    "https://chevel.net/assets/catalogs/Orient_Gardens.pdf",
+    "https://www.fifoplus.com/pomegranate-molasses-orient-gardens-12-500g.html"
+  ],
+  "exceptionIds": {
+    "missingSKU": [],
+    "missingUnit": [],
+    "missingBrand": [
+      {
+        "creatorId": "4278439000002841015",
+        "sku": "SKU-2900",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000002906052",
+        "sku": "SKU-2911",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003024007",
+        "sku": "SKU-2919",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003063003",
+        "sku": "SKU-2922",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003064003",
+        "sku": "SKU-2923",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003088011",
+        "sku": "SKU-2928",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003106040",
+        "sku": "SKU-2932",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003206100",
+        "sku": "SKU-2945",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003295011",
+        "sku": "SKU-2951",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003310035",
+        "sku": "SKU-2953",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003350019",
+        "sku": "SKU-2958",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003358007",
+        "sku": "SKU-2960",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003363011",
+        "sku": "SKU-2963",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003363040",
+        "sku": "SKU-2966",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003365007",
+        "sku": "SKU-2965",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003368007",
+        "sku": "SKU-2970",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003374075",
+        "sku": "SKU-2973",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003379011",
+        "sku": "SKU-2972",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003387011",
+        "sku": "SKU-2976",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003395003",
+        "sku": "SKU-2975",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003510039",
+        "sku": "SKU-2996",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003537007",
+        "sku": "SKU-2999",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003544035",
+        "sku": "SKU-3002",
+        "visible": true
+      },
+      {
+        "creatorId": "4278439000003553019",
+        "sku": "SKU-3003",
+        "visible": true
+      }
+    ],
+    "missingBooksMapping": [
+      {
+        "creatorId": "4278439000003064003",
+        "sku": "SKU-2923",
+        "visible": false
+      }
+    ],
+    "missingArabic": [],
+    "missingImages": [
+      {
+        "creatorId": "4278439000003063003",
+        "sku": "SKU-2922",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003064003",
+        "sku": "SKU-2923",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003387011",
+        "sku": "SKU-2976",
+        "visible": true
+      }
+    ],
+    "zeroOrMissingSellingPrice": [
+      {
+        "creatorId": "4278439000003064003",
+        "sku": "SKU-2923",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003080047",
+        "sku": "SKU-2925",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003199025",
+        "sku": "SKU-2941",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003206015",
+        "sku": "SKU-2943",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003364032",
+        "sku": "SKU-2967",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003366007",
+        "sku": "SKU-2968",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003423015",
+        "sku": "SKU-2981",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003494023",
+        "sku": "SKU-2991",
+        "visible": false
+      }
+    ]
+  },
+  "duplicateNonblankSKUsWithinBatch": [],
+  "duplicateNonblankBooksIdsWithinBatch": [],
+  "identityReview": {
+    "sameNameDifferentSku": [
+      {
+        "creatorId": "4278439000003063003",
+        "sku": "SKU-2922",
+        "booksId": "4886172000012651021",
+        "visible": false
+      },
+      {
+        "creatorId": "4278439000003064003",
+        "sku": "SKU-2923",
+        "booksId": "",
+        "visible": false
+      }
+    ],
+    "note": "Same name is not evidence of duplicate; reconcile physical variants and Books mappings before any merge."
+  },
+  "unresolvedIssues": [
+    {
+      "key": "CATALOG-MISSING-BRAND-015",
+      "count": 24,
+      "visible": 22,
+      "action": "Manufacturer/authorized exact variant evidence needed; do not infer generic brands."
+    },
+    {
+      "key": "CATALOG-MISSING-IMAGE-015",
+      "count": 3,
+      "visible": 1,
+      "affectedVisibleSKUs": [
+        "SKU-2976"
+      ],
+      "action": "Exact-product match plus redistribution rights required; no image publication."
+    },
+    {
+      "key": "CATALOG-BOOKS-MAPPING-015",
+      "count": 1,
+      "visible": 0,
+      "action": "Verify exact Books identity before linking."
+    },
+    {
+      "key": "CATALOG-ZERO-PRICE-015",
+      "count": 8,
+      "visible": 0,
+      "action": "All affected rows hidden; no price writes."
+    },
+    {
+      "key": "CATALOG-SAME-NAME-REVIEW-015",
+      "count": 2,
+      "action": "Two red lentils 15 kg records have different SKUs; compare verified pack variant before deduplication."
+    },
+    {
+      "key": "CATALOG-COLLISION-SYNC-GATE",
+      "action": "Keep four known duplicate-active IDs and prior cross-batch Books collisions blocked; within-batch clean does not clear global collisions."
+    },
+    {
+      "key": "CHECKOUT-PREVIEW-027",
+      "action": "Authenticated EN/AR RTL, product visibility, CTN/PCS/KG, customer price/cost isolation, VAT, cart persistence, Buy Again, COD/credit and confirm-once remain unverified; no financial order created."
+    }
+  ],
+  "issueCategoryCount": 7,
+  "crossSystemSync": "NO-GO; native Books–Inventory–Commerce sync, deployed gateway source+rollback, signed webhook and end-to-end ACK not independently verified. Existing Catalyst project only; no cross-system writes enabled.",
+  "customerCatalogCheckoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "newBatchFinding": "Storefront-visible SKU-2976 (HEZAM THERMAL BAG NO:10×6PCS) has no image record.",
+    "authenticatedTestsPerformed": 0,
+    "financialOrdersCreated": 0
+  },
+  "apiCallsObservedInRun": {
+    "creatorReadCalls": 5,
+    "creatorWriteCalls": 1,
+    "creatorMetadataCalls": 2,
+    "githubCalls": "multiple; exact count unavailable",
+    "notes": "Connector invocation counts are approximate; upstream API unit consumption not exposed."
+  },
+  "nextBatch": 16
+}

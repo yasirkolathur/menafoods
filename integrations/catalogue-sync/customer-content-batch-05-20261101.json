@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-01",
+  "batch": 5,
+  "kind": "customer-facing-bilingual-title-editorial-cleanup",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 10,
+    "exactIdSkuNameReadbacks": 10,
+    "verifiedFieldsChanged": 20,
+    "held": 10
+  },
+  "changes": [
+    {
+      "creatorId": "4278439000000105172",
+      "sku": "CR1630",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Shrimps H/ON 30/40 White 2kg",
+          "after": "Frozen White Shrimp, Head-On, Size 30/40, 2 kg"
+        },
+        "Translated_Name": {
+          "before": "روبيان مجمد H/ON 30/40 أبيض 2 كجم",
+          "after": "روبيان أبيض مجمد بالرأس، مقاس 30/40، 2 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105216",
+      "sku": "CR1635",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Salmon Whole Fish 3 - 4 kg",
+          "after": "Frozen Whole Salmon, 3–4 kg"
+        },
+        "Translated_Name": {
+          "before": "سمك السلمون المجمد سمك السلمون كله 3 - 4 كجم",
+          "after": "سلمون كامل مجمد، 3–4 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105222",
+      "sku": "CR1636",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Lobster Whole 700/1000",
+          "after": "Frozen Whole Lobster, Size 700/1000"
+        },
+        "Translated_Name": {
+          "before": "جراد البحر المجمدة كله 700/1000",
+          "after": "لوبستر كامل مجمد، مقاس 700/1000"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105246",
+      "sku": "CR1640",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Lobster Tail 8/10",
+          "after": "Frozen Lobster Tails, Size 8/10"
+        },
+        "Translated_Name": {
+          "before": "المجمدة جراد البحر الذيل 8/10",
+          "after": "ذيول لوبستر مجمدة، مقاس 8/10"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105264",
+      "sku": "CR1643",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Seafood Mix 1kg*10",
+          "after": "Frozen Seafood Mix, 10 × 1 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "١كيلو*١٠  المجمده مزيج المأكولات البحرية",
+          "after": "مزيج مأكولات بحرية مجمد، 10 × 1 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105282",
+      "sku": "CR1646",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Fish Fillet White Bulk 10kg",
+          "after": "White Fish Fillets, Bulk, 10 kg — Box"
+        },
+        "Translated_Name": {
+          "before": "سمك فيليه أبيض السائبة 10 كجم",
+          "after": "فيليه سمك أبيض، تعبئة جملة 10 كجم — صندوق"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105336",
+      "sku": "CR1655",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Cinnamon Whole (kg)",
+          "after": "Whole Cinnamon — Per kg"
+        },
+        "Translated_Name": {
+          "before": "القرفة بأكملها (كلغ)",
+          "after": "قرفة كاملة — بالكيلوجرام"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105366",
+      "sku": "CR1660",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Dried Red Chili Whole",
+          "after": "Whole Dried Red Chillies"
+        },
+        "Translated_Name": {
+          "before": "فلفل أحمر مجفف كامل",
+          "after": "فلفل أحمر حار كامل مجفف"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105372",
+      "sku": "CR1661",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Beef Chuck Roll Australia Black Angus Ebony Prime  10 -15 kg  approximately",
+          "after": "Ebony Prime Australian Black Angus Beef Chuck Roll, approx. 10–15 kg"
+        },
+        "Translated_Name": {
+          "before": "لحوم البقر تشاك لفة أستراليا الأسود الأنجوس الأبنوس رئيس الوزراء 10-15 كجم تقريبا",
+          "after": "تشاك رول بقري بلاك أنجوس أسترالي إيبوني برايم، حوالي 10–15 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000105380",
+      "sku": "CR1663",
+      "readbackVerified": true,
+      "source": "Existing Creator All_Products product name, translated name, collection, category and unit; editorial normalization only, not independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Dried Kashmiri Chilli Whole",
+          "after": "Whole Dried Kashmiri Chillies"
+        },
+        "Translated_Name": {
+          "before": "المجفف الكشميري الفلفل الحار كله",
+          "after": "فلفل كشميري مجفف كامل"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000000105152",
+      "sku": "CR1627",
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 21–25 shrimp size basis unverified; require exact packing label."
+    },
+    {
+      "id": "4278439000000105158",
+      "sku": "CR1628",
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 16–20 shrimp size basis unverified; require exact packing label."
+    },
+    {
+      "id": "4278439000000105166",
+      "sku": "CR1629",
+      "reason": "Selling UOM kg conflicts with 10 × 1 kg bags in title; 11–15 shrimp size basis unverified; require exact packing label."
+    },
+    {
+      "id": "4278439000000105192",
+      "sku": "CR1632",
+      "reason": "Kosher certification and smoked salmon identity require exact manufacturer/label evidence before customer-facing certification cleanup."
+    },
+    {
+      "id": "4278439000000105270",
+      "sku": "CR1644",
+      "reason": "Selling UOM kg versus 6 × 2 kg bags; verify exact selling pack before changing bilingual title."
+    },
+    {
+      "id": "4278439000000105288",
+      "sku": "CR1647",
+      "reason": "Selling UOM pcs versus 10 × 900 g pack; verify whether one piece means bag or carton."
+    },
+    {
+      "id": "4278439000000105292",
+      "sku": "CR1648",
+      "reason": "Crab size 150–200 basis unverified; confirm exact pack/size label before editorial rewrite."
+    },
+    {
+      "id": "4278439000000105314",
+      "sku": "CR1651",
+      "reason": "Black Seeds ambiguous between Nigella/black cumin and other seeds; require label before translating product identity."
+    },
+    {
+      "id": "4278439000000105342",
+      "sku": "CR1656",
+      "reason": "Syria appears in title but origin field blank; require provenance/label before rephrasing origin."
+    },
+    {
+      "id": "4278439000000105356",
+      "sku": "CR1658",
+      "reason": "Boshal/Pushal saffron grade/brand identity and 12 × 1.75 g pack require label verification."
+    }
+  ],
+  "sourcePolicy": "Existing exact Creator identity, unit, category and explicit title packing only. No new brand, origin, GTIN, allergen, price, cost, storage or certification claims. Ambiguous product identity and selling-pack variants held. Images unchanged.",
+  "api": {
+    "creatorGetApplications": 1,
+    "creatorExactReads": 21,
+    "creatorWrites": 10,
+    "creatorReadbacks": 10,
+    "creatorConnectorCalls": 42,
+    "billableUsage": "unavailable",
+    "fullRescan": false
+  },
+  "writes": {
+    "name": 10,
+    "arabicName": 10,
+    "description": 0,
+    "packing": 0,
+    "brand": 0,
+    "category": 0,
+    "images": 0,
+    "price": 0,
+    "cost": 0,
+    "stock": 0,
+    "margin": 0,
+    "tax": 0,
+    "visibility": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "readbackLimitations": [
+    "All_Products does not expose translated description or packing fields; these were not written or verified.",
+    "Title size codes 30/40, 700/1000 and 8/10 were retained without asserting a measurement basis.",
+    "CR1660 selling unit remains blank pending verified unit evidence."
+  ],
+  "checkoutQA": {
+    "issue": 27,
+    "authenticatedTestsExecuted": false,
+    "status": "NO-GO",
+    "reason": "No authenticated checkout or order creation was performed."
+  },
+  "sync": {
+    "fourWayVerified": false,
+    "sourceWatermarkAdvanced": false,
+    "registryOutboxUnchanged": true
+  }
+}

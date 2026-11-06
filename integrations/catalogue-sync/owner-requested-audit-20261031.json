@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Riyadh",
+  "request": "Owner-requested full refresh after prior 20/20 audit",
+  "source": "Creator menafoods/mena All_Products + Product_Images",
+  "pagination": {
+    "products": 2135,
+    "productUniqueIds": 2135,
+    "productPages": 11,
+    "imageReferenceProducts": 2135,
+    "imagePages": 11,
+    "complete": true
+  },
+  "counts": {
+    "total": 2135,
+    "published": 1198,
+    "missingBrand": 501,
+    "missingUnit": 355,
+    "missingSku": 207,
+    "missingArabic": 38,
+    "missingBooksId": 238,
+    "missingImages": 181,
+    "visibleMissingImages": 11,
+    "visibleMissingUnit": 4,
+    "visibleMissingBrand": 281,
+    "visibleMissingDescription": 1053,
+    "visibleMissingPackageDetails": 145,
+    "marginUnconfigured": 910,
+    "visibleMarginUnconfigured": 226,
+    "sellingBelowBase": 38,
+    "visibleSellingBelowBase": 3
+  },
+  "fullFieldExportComplete": false,
+  "fullFieldDetailReads": 35,
+  "verifiedChanges": [
+    {
+      "id": "4278439000000104148",
+      "field": "Unit",
+      "value": "ctn",
+      "source": "Existing Package_Details explicitly states Price Per: Carton and 2kg * 4Packs/Carton",
+      "before": "",
+      "after": "ctn",
+      "verified": true,
+      "recordName": "Frozen Ruman Sulthan Turkey 4 * 2KG"
+    },
+    {
+      "id": "4278439000000103044",
+      "field": "Unit",
+      "value": "ctn",
+      "source": "Existing Package_Details explicitly states 6x1 kg/CTN and Carton",
+      "before": "",
+      "after": "ctn",
+      "verified": true,
+      "recordName": "Food Choice Pure Honey 6x1 kg"
+    },
+    {
+      "id": "4278439000000105360",
+      "field": "Unit",
+      "value": "kg",
+      "source": "Existing Package_Details explicitly states Price Per 1 Kilogram",
+      "before": "",
+      "after": "kg",
+      "verified": true,
+      "recordName": "Coriander Seed Whole"
+    },
+    {
+      "id": "4278439000000101554",
+      "field": "Unit",
+      "value": "tin",
+      "source": "Existing Package_Details explicitly states Price per unit: Tin",
+      "before": "",
+      "after": "tin",
+      "verified": true,
+      "recordName": "Cucumber Pickles (Big) - 10kg"
+    },
+    {
+      "id": "4278439000004484007",
+      "field": "Brand",
+      "value": "MAGGI",
+      "source": "https://www.maggi.ph/product/8g-maggir-magic-sarapr/",
+      "before": "",
+      "after": "MAGGI",
+      "verified": true,
+      "recordName": "Magic Sarap 12 x 8G x60 packs- Carton"
+    },
+    {
+      "id": "4278439000004476007",
+      "field": "Brand",
+      "value": "Jack 'n Jill",
+      "source": "https://www.urc.com.ph/stories/life-fun/delightful-facts-about-urc-s-classic-snacks",
+      "before": "",
+      "after": "Jack 'n Jill",
+      "verified": true,
+      "recordName": "Chips Chippy BBQ 110gm x 50 Packs - Carton"
+    },
+    {
+      "id": "4278439000004486007",
+      "field": "Brand",
+      "value": "Granny Goose",
+      "source": "https://www.jgsummit.com.ph/docs/20160411/JGSHI_AR_2011.pdf",
+      "before": "",
+      "after": "Granny Goose",
+      "verified": true,
+      "recordName": "Chips Tortillos Cheese 100gm x 50 Packs - Carton"
+    }
+  ],
+  "newCreatorIds": [
+    "4278439000009981040",
+    "4278439000009981047",
+    "4278439000009981054",
+    "4278439000009981061",
+    "4278439000009981068",
+    "4278439000009981075",
+    "4278439000009981082",
+    "4278439000009981089",
+    "4278439000009981096",
+    "4278439000009981103",
+    "4278439000009981110",
+    "4278439000009981117",
+    "4278439000009981124"
+  ],
+  "missingImageProducts": [
+    {
+      "creatorId": "4278439000002489831",
+      "sku": "",
+      "name": "ZING CHKN FILLET SPICY 1 KG + CHICKEN NUGGET 750GM X 3 Pieces",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701002",
+      "sku": "SKU-3466",
+      "name": "Farfasha Chili Lemon Potato Chips 75g - Piece",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701007",
+      "sku": "SKU-3467",
+      "name": "Diamond Butter 2.5kg - Piece",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701012",
+      "sku": "SKU-3468",
+      "name": "Emborg Yellow Cheddar Cheese Block 2.5kg - Piece",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701017",
+      "sku": "SKU-3469",
+      "name": "EDCO Pack Large Blue Cleaning Roll 475 Sheets - Roll",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701022",
+      "sku": "SKU-3470",
+      "name": "Esnad Crispy Coating Mix 227g - Pack",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701027",
+      "sku": "SKU-3471",
+      "name": "Kraft Paper Bag #6 10kg 160pcs - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701032",
+      "sku": "SKU-3472",
+      "name": "Freshly Pizza Sauce 454g x 12 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701037",
+      "sku": "SKU-3473",
+      "name": "Siniora Hardwood Smoked Turkey Breast 1kg - Piece",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701042",
+      "sku": "SKU-3477",
+      "name": "Aram Al Emarat Blue Gloves Medium - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701047",
+      "sku": "SKU-3478",
+      "name": "Najah Red Pizza Box 29 x 29cm / 50 Pieces",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009701052",
+      "sku": "SKU-3479",
+      "name": "Century Jumbo Wiper Roll Blue 475 Sheets - Roll",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009702002",
+      "sku": "SKU-3474",
+      "name": "Baider Tomato Ketchup Sachets 9g x 1000 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009702007",
+      "sku": "SKU-3475",
+      "name": "Sadia Chicken Breast 4 x 2.5kg - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009710072",
+      "sku": "SKU-3476",
+      "name": "Maestro Potato Wedges 4 x 2.5kg - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009736009",
+      "sku": "SKU-3485",
+      "name": "Corn Flour Nisha 25kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009736014",
+      "sku": "SKU-3486",
+      "name": "Salt Local Ujaj 50kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981040",
+      "sku": "SKU-3542",
+      "name": "Fine Twister Potatoes 4 x 2.5 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981047",
+      "sku": "SKU-3543",
+      "name": "Lamb Weston Onion Rings 6 x 1 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981054",
+      "sku": "SKU-3544",
+      "name": "Americana Prawns Tail Off 10 x 1 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981061",
+      "sku": "SKU-3545",
+      "name": "Super Gold Butter 10 x 2.5 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981068",
+      "sku": "SKU-3546",
+      "name": "Pride Cheese Slices 9 x 48",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981075",
+      "sku": "SKU-3547",
+      "name": "Large Eggs No.4 12 x 30",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981082",
+      "sku": "SKU-3548",
+      "name": "Rabia Juice Big 30 x 250 ml",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981089",
+      "sku": "SKU-3549",
+      "name": "Suntop Juice Big 30 x 250 ml",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981096",
+      "sku": "SKU-3550",
+      "name": "B Cola Medium 30 x 230 ml",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981103",
+      "sku": "SKU-3551",
+      "name": "Aluminium Foil Long 45 x 150",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981110",
+      "sku": "SKU-3552",
+      "name": "Face Mask 50 pcs",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981117",
+      "sku": "SKU-3553",
+      "name": "Date Roll 12 x 3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009981124",
+      "sku": "SKU-3554",
+      "name": "Cleaning Brush",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000007195085",
+      "sku": "SKU-3382",
+      "name": "Water 500ml",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565002",
+      "sku": "SKU-3443",
+      "name": "Mirinda Citrus 320ml x 24 Cans",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565007",
+      "sku": "SKU-3444",
+      "name": "Pepsi Diet 320ml x 24 Cans",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565012",
+      "sku": "SKU-3445",
+      "name": "Pepsi Regular 320ml x 24 Cans",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565022",
+      "sku": "SKU-3447",
+      "name": "Safa Makkah Water 330ml x 40",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565042",
+      "sku": "SKU-3451",
+      "name": "Vimto Cordial Concentrate 710ml x 12",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009641030",
+      "sku": "SKU-3456",
+      "name": "Nutella Hazelnut Spread 750 g",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774148",
+      "sku": "SKU-3535",
+      "name": "Oreo Cookies 24 x 6 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774155",
+      "sku": "SKU-3536",
+      "name": "Teashop Tea Biscuit - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774162",
+      "sku": "SKU-3537",
+      "name": "Flake Chocolate 15 g - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774120",
+      "sku": "SKU-3531",
+      "name": "Indian White Cashew W320 10 kg - Tin",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565037",
+      "sku": "SKU-3450",
+      "name": "Hayel Tuna 1700g x 6",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009652031",
+      "sku": "SKU-3462",
+      "name": "Sliced Olives Acorsa - 6 pcs",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009782010",
+      "sku": "SKU-3489",
+      "name": "Fine Meze Grape Leaves - Bucket",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000003667003",
+      "sku": "SKU-3022",
+      "name": "Testing",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000002387003",
+      "sku": "SKU-2512",
+      "name": "Chicken breast boneless 2.5 kg x 4",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774029",
+      "sku": "SKU-3518",
+      "name": "Afia Corn Oil 2 x 9 L - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000104644",
+      "sku": "CR1518",
+      "name": "VEGETABLE COOKING OIL MARIETTA 1*18 LITER",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009713093",
+      "sku": "SKU-3481",
+      "name": "DUPLICATE HOLD - Zahrati Sunflower Oil 1.5L x 6 (do not use)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009713088",
+      "sku": "SKU-3480",
+      "name": "Crystal Sunflower Oil 17L Tin (Arma)",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009641035",
+      "sku": "SKU-3457",
+      "name": "Radwa Mozzarella Cheese - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009641055",
+      "sku": "SKU-3461",
+      "name": "Kiri Cheese Block 1 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009874010",
+      "sku": "SKU-3539",
+      "name": "Almarai Butter Portion 200g x 24 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009734008",
+      "sku": "SKU-3484",
+      "name": "Almarai Butter Portion 100g x 40 - Carton",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000000103588",
+      "sku": "CR1341",
+      "name": "Palatina Mild Red Cheddar Cheese",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774085",
+      "sku": "SKU-3526",
+      "name": "Paris Cow Ghee 15 kg - Tin",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774141",
+      "sku": "SKU-3534",
+      "name": "Saudia Milk 6 x 2 L - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565017",
+      "sku": "SKU-3446",
+      "name": "Frozen Strawberry Farm Food 1kg x 8",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009643047",
+      "sku": "SKU-3464",
+      "name": "Roselle Mixed Vegetables 20 x 400g",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101716",
+      "sku": "CR1093",
+      "name": "Frozen  Mango Plup 16 x 1000 g Safiya",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101648",
+      "sku": "CR1080",
+      "name": "STRAWBERRY WaIima 8*1 KG",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101640",
+      "sku": "CR1076",
+      "name": "GREEN BEANS  20*400 GM Royal",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101642",
+      "sku": "CR1077",
+      "name": "GREEN BEANS AGA 20*400 GM",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101644",
+      "sku": "CR1078",
+      "name": "OKRA 20*400 GM Royal",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101646",
+      "sku": "CR1079",
+      "name": "Frozen Okra Zero  400 gm * 20 ZAD",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002781003",
+      "sku": "SKU-2875",
+      "name": "Indian Ajwan 10 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774057",
+      "sku": "SKU-3522",
+      "name": "Lemon Salt (Citric Acid) 25 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774113",
+      "sku": "SKU-3530",
+      "name": "Black Seeds (Habbat Al Baraka) 10 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774106",
+      "sku": "SKU-3529",
+      "name": "Indian Sesame Seeds 10 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774071",
+      "sku": "SKU-3524",
+      "name": "Red Sumac 20 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774078",
+      "sku": "SKU-3525",
+      "name": "Green Zaatar 40 x 500 g - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001864387",
+      "sku": "ME-0088",
+      "name": "Ajinomoto Shangrila 20 * 400 gm",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001864195",
+      "sku": "ME-0040",
+      "name": "White Pepper Whole 1*25kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000004761007",
+      "sku": "SKU-3186",
+      "name": "Honey Atlas 21kg (TIN)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774127",
+      "sku": "SKU-3532",
+      "name": "Nayam Sugar 50 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640007",
+      "sku": "CR1971",
+      "name": "Long Bone Tomahawk Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640019",
+      "sku": "CR1974",
+      "name": "Brisket Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640023",
+      "sku": "CR1975",
+      "name": "Brisket Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640027",
+      "sku": "CR1976",
+      "name": "Outside Skirt Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640031",
+      "sku": "CR1977",
+      "name": "Inside Skirt Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640035",
+      "sku": "CR1978",
+      "name": "Short Ribs Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640039",
+      "sku": "CR1979",
+      "name": "Short Ribs Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640043",
+      "sku": "CR1980",
+      "name": "Flank Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640051",
+      "sku": "CR1982",
+      "name": "Tomahawk Steak 1300Gm Prime",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640059",
+      "sku": "CR1984",
+      "name": "Ribeye Steak 250Gm Premium Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640063",
+      "sku": "CR1985",
+      "name": "Striploin Steak 250Gm Premium Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640135",
+      "sku": "CR2003",
+      "name": "Flap Meat MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009641045",
+      "sku": "SKU-3459",
+      "name": "Bremer Chef Pepperoni - Packet",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009643052",
+      "sku": "SKU-3465",
+      "name": "Mutton Carcass OJA DE AGUEA",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009908004",
+      "sku": "SKU-3541",
+      "name": "Beef Liver Poland (per KG)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640015",
+      "sku": "CR1973",
+      "name": "Ribeye  Lip On Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640055",
+      "sku": "CR1983",
+      "name": "Tomahawk Steak 1300Gm Premium Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640003",
+      "sku": "CR1970",
+      "name": "Long Bone Tomahawk Premium Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640047",
+      "sku": "CR1981",
+      "name": "Rib Eye B/In Steak 300Gm Premium Choice",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640067",
+      "sku": "CR1986",
+      "name": "Tenderloin Chain off MB 4+",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640071",
+      "sku": "CR1987",
+      "name": "Ribeye Lip On MB 4+",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640075",
+      "sku": "CR1988",
+      "name": "Striploin MB 4+",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640079",
+      "sku": "CR1989",
+      "name": "OP Ribs 4+",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640083",
+      "sku": "CR1990",
+      "name": "Tenderloin Chain off MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640091",
+      "sku": "CR1992",
+      "name": "OP Ribs Bone In MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640095",
+      "sku": "CR1993",
+      "name": "Striploin MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640099",
+      "sku": "CR1994",
+      "name": "Back Ribs",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640103",
+      "sku": "CR1995",
+      "name": "D- Rump MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640111",
+      "sku": "CR1997",
+      "name": "Plate Short Ribs-3 Rib MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640115",
+      "sku": "CR1998",
+      "name": "Cheeks MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640119",
+      "sku": "CR1999",
+      "name": "Rump Cap picania MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640123",
+      "sku": "CR2000",
+      "name": "Chuck Ribs 4 ribs plate MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640127",
+      "sku": "CR2001",
+      "name": "Chuck roll  MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640131",
+      "sku": "CR2002",
+      "name": "Chuck & Blade",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640139",
+      "sku": "CR2004",
+      "name": "Topside MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001640147",
+      "sku": "CR2006",
+      "name": "Flank Steak MB 2-3",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009781010",
+      "sku": "SKU-3487",
+      "name": "Frozen Beef Liver Australia Kilcoy (per KG)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009646016",
+      "sku": "SKU-260924081025",
+      "name": "BEEF FEET BETTER BEEF BRAZIL",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009654011",
+      "sku": "SKU-260924081109",
+      "name": "BEEF TRIPE AMG AUS 20 KG",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000002613003",
+      "sku": "SKU-2785",
+      "name": "Australian Wagyu Beef Short Ribs MB 6-7",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101584",
+      "sku": "CR1068",
+      "name": "Lamb Rack Australia Beaufort",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009645018",
+      "sku": "SKU-260924081433",
+      "name": "SHEEP TRIPE CLASSIC 15 KG",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009641040",
+      "sku": "SKU-3458",
+      "name": "Mama Dynamite Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002757003",
+      "sku": "SKU-2861",
+      "name": "LUNCH BOX SADA DOUBLE LOCK LB2",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000003387011",
+      "sku": "SKU-2976",
+      "name": "HEZAM THERMAL BAG NO:10×6PCS",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009778042",
+      "sku": "SKU-3497",
+      "name": "Gold Round Cake Board 30cm - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778047",
+      "sku": "SKU-3498",
+      "name": "Gold Round Cake Board 22cm - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002795028",
+      "sku": "SKU-2889",
+      "name": "Washing Powder",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778057",
+      "sku": "SKU-3500",
+      "name": "Tide Original Washing Powder 19kg + 1kg Free - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778102",
+      "sku": "SKU-3509",
+      "name": "Clear Dessert Fork Model 180 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778107",
+      "sku": "SKU-3510",
+      "name": "Clear Dessert Fork 1612 20x100 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778127",
+      "sku": "SKU-3514",
+      "name": "Foam Broast Meal Tray 100pcs - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778132",
+      "sku": "SKU-3515",
+      "name": "Foam Half-Meal Potato Tray - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778027",
+      "sku": "SKU-3494",
+      "name": "Gold Low-Profile Food Container 2103 Reef 200pcs - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778032",
+      "sku": "SKU-3495",
+      "name": "Premium Metal Tin 20 x 20 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778112",
+      "sku": "SKU-3511",
+      "name": "Al Rasheed TR12 500ml Round Container 60pcs - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778067",
+      "sku": "SKU-3502",
+      "name": "Plastic Aprons 70x10 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778072",
+      "sku": "SKU-3503",
+      "name": "Black Disposable Hair Caps 10 x 100pcs - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778077",
+      "sku": "SKU-3504",
+      "name": "Falcon Clear Disposable Gloves XL 100 x 10 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778082",
+      "sku": "SKU-3505",
+      "name": "Falcon Clear Disposable Gloves Large 100 x 10 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778087",
+      "sku": "SKU-3506",
+      "name": "Black Filter Face Masks 40 x 50 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778017",
+      "sku": "SKU-3492",
+      "name": "Gold Thick Round Dessert Plate Size 18 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778022",
+      "sku": "SKU-3493",
+      "name": "Gold Small Teardrop Plate S490 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778037",
+      "sku": "SKU-3496",
+      "name": "Gold Rectangular Serving Plate No.56 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778052",
+      "sku": "SKU-3499",
+      "name": "Gold Thick Round Dessert Plate Size 22 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778092",
+      "sku": "SKU-3507",
+      "name": "Gold Thick Dessert Plate No.27 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778097",
+      "sku": "SKU-3508",
+      "name": "Gold Thick Round Dessert Plate Size 30 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778117",
+      "sku": "SKU-3512",
+      "name": "Mor Gold Oval Serving Plate 1029 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778122",
+      "sku": "SKU-3513",
+      "name": "Small Gold Oval Plate S487 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009781017",
+      "sku": "SKU-3490",
+      "name": "Mor Gold Round Serving Plate 1718 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009781022",
+      "sku": "SKU-3491",
+      "name": "Food Cling Wrap Film 45cm x 7.5kg - Roll",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002700003",
+      "sku": "SKU-2827",
+      "name": "plastic container (curry container 2650038)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009778062",
+      "sku": "SKU-3501",
+      "name": "Sabaco Economy Garbage Bags 55 Gallon - Bale",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101380",
+      "sku": "CR1022",
+      "name": "Nuggets Hot And Crispy 1kg x10",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101382",
+      "sku": "CR1023",
+      "name": "lambweston Twister Potatoes 4*2.5 KG",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101384",
+      "sku": "CR1024",
+      "name": "Twister Potatoes 4*2.5 KG Hot and Crispy",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101386",
+      "sku": "CR1025",
+      "name": "French fries 6/6 Sulthan - 2.5kg X 4",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101388",
+      "sku": "CR1026",
+      "name": "Sadia French fries 4* 2.5 kg 7/7",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101390",
+      "sku": "CR1027",
+      "name": "French fries 9/9 Atoos - 2.5kg X 4",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009643042",
+      "sku": "SKU-3463",
+      "name": "Golden Meat French Fries 18kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002489823",
+      "sku": "",
+      "name": "ZING CHI FILLET N/S 750GM + BRD CHI FILLET SPICY 750GM X 4 Pieces",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009781029",
+      "sku": "SKU-3516",
+      "name": "Gulash Pastry Leaves 12 x 500g - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000004039035",
+      "sku": "SKU-3102",
+      "name": "Myres French fries 6/6 2.5 kg x 5",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000004041003",
+      "sku": "SKU-3101",
+      "name": "Crispy Crunchy French fries Straight 9/9 2.5 kg x 4",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000007322287",
+      "sku": "SKU-3389",
+      "name": "French Fries Holland 9/9 1kg x 10 - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000000101378",
+      "sku": "CR1021",
+      "name": "SPRING ROLL 24x160g- Sunbulah",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774064",
+      "sku": "SKU-3523",
+      "name": "Turkish Fine White Bulgur 15 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002775003",
+      "sku": "SKU-2871",
+      "name": "Black channa India 777 15kg",
+      "storefrontFlag": "Yes"
+    },
+    {
+      "creatorId": "4278439000009774022",
+      "sku": "SKU-3517",
+      "name": "Flour Powder 45 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774134",
+      "sku": "SKU-3533",
+      "name": "Fine White Flour 45 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000003063003",
+      "sku": "SKU-2922",
+      "name": "Red lentils 15 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000003064003",
+      "sku": "SKU-2923",
+      "name": "Red lentils 15 kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000001864071",
+      "sku": "ME-0011",
+      "name": "Almond American 30/32 22.68kg",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774099",
+      "sku": "SKU-3528",
+      "name": "Emirati Semolina 15 kg - Bag",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565027",
+      "sku": "SKU-3448",
+      "name": "Crystal Hot Sauce Medium 200ml x 24",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565032",
+      "sku": "SKU-3449",
+      "name": "Baidar Mayonnaise 946g x 12",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009565047",
+      "sku": "SKU-3452",
+      "name": "Indofood Sweet Soy Sauce 625ml x 12",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009641050",
+      "sku": "SKU-3460",
+      "name": "Monte Ranch Dressing",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009876010",
+      "sku": "SKU-3538",
+      "name": "Rana Tomato Ketchup 5kg (4 x 5kg Pack)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009880012",
+      "sku": "SKU-3540",
+      "name": "Golden Fields Sweet Pepper Paste 4kg - Jar",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774043",
+      "sku": "SKU-3520",
+      "name": "Maggi Original Chicken Stock 30 x 18 Packs - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774092",
+      "sku": "SKU-3527",
+      "name": "Tosan Sauce 12 x 1 kg - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009697089",
+      "sku": "SKU-3482",
+      "name": "DUPLICATE - DO NOT USE - RONSI Sweet Pepper 4x4kg (use SKU-2985)",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774050",
+      "sku": "SKU-3521",
+      "name": "Al Sawsan Pomegranate Molasses 12 x 1000 ml - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000009774036",
+      "sku": "SKU-3519",
+      "name": "Rena Ketchup Gallons 4 x 5 L - Carton",
+      "storefrontFlag": "No"
+    },
+    {
+      "creatorId": "4278439000002699045",
+      "sku": "SKU-2826",
+      "name": "liptop tea bag ",
+      "storefrontFlag": "No"
+    }
+  ],
+  "duplicateBooksGroups": [
+    {
+      "value": "4886172000001521198",
+      "records": [
+        {
+          "id": "4278439000000104466",
+          "name": "Tender Chicken Breast Seara 1kg *10",
+          "published": "No"
+        },
+        {
+          "id": "4278439000001056011",
+          "name": "Tender Chicken Breast Seara 1kg *10",
+          "published": "No"
+        }
+      ]
+    },
+    {
+      "value": "4886172000001819670",
+      "records": [
+        {
+          "id": "4278439000001182011",
+          "name": "1000 Gm  Whole Chicken Fakih( 1000g X 10 )",
+          "published": "No"
+        },
+        {
+          "id": "4278439000001180011",
+          "name": "1000 Gm  Whole Chicken Fakih( 1000g X 10 )",
+          "published": "Yes"
+        }
+      ]
+    },
+    {
+      "value": "4886172000001817715",
+      "records": [
+        {
+          "id": "4278439000001864087",
+          "name": "Kaju White W-320 Vietnam 2 * 10 Kg",
+          "published": "Yes"
+        },
+        {
+          "id": "4278439000001691019",
+          "name": "Kaju White W-320 Vietnam 2 * 10 Kg",
+          "published": "Yes"
+        }
+      ]
+    },
+    {
+      "value": "4886172000001454228",
+      "records": [
+        {
+          "id": "4278439000001448049",
+          "name": "Ireland Chuck Roll Black Angus (B) approximately 20- 30 kg per Carton",
+          "published": "No"
+        },
+        {
+          "id": "4278439000001459023",
+          "name": "Ireland Chuck Roll Black Angus (B) approximately 20- 30 kg per Carton",
+          "published": "No"
+        }
+      ]
+    },
+    {
+      "value": "4886172000001825619",
+      "records": [
+        {
+          "id": "4278439000000104204",
+          "name": "Frozen French Fries Del Monte 4* 2.5 kg 9/9 pieces",
+          "published": "No"
+        },
+        {
+          "id": "4278439000000104208",
+          "name": "Frozen French Fries Del Monte 4* 2.5 kg 9/9 pieces",
+          "published": "No"
+        }
+      ]
+    },
+    {
+      "value": "4886172000001817573",
+      "records": [
+        {
+          "id": "4278439000000105204",
+          "name": "Frozen Salmon fillet skin off",
+          "published": "No"
+        },
+        {
+          "id": "4278439000000105210",
+          "name": "Frozen Salmon fillet skin off",
+          "published": "Yes"
+        }
+      ]
+    }
+  ],
+  "sync": {
+    "environment": "Development",
+    "registrySampleCount": 5,
+    "registrySampleStatus": "BASELINE_UNVERIFIED",
+    "outboxRowsReturned": 0,
+    "crossSystemSyncVerified": false,
+    "nativeFinanceSyncVerified": false,
+    "creatorSourceWatermark": null,
+    "deployedWorkerVerified": false
+  },
+  "limitations": [
+    "Image references have not been downloaded or rendered. Reference present does not establish image validity, exact variant or usage rights.",
+    "Country of origin, brand and names may be populated but unverified. Missing values are distinct from incorrect values.",
+    "No Books/Inventory/Commerce API connector currently available in this session. Native finance sync and destination readbacks could not be verified.",
+    "Current deployed gateway source and rollback are not verified. Reference sync modules are not a deployed processor.",
+    "Creator bulk connector returns 200 records per page and omits field_config/max_records; complete all-field export remains pending. Zoho REST supports up to 1000 records and field_config=all/custom."
+  ],
+  "nextActions": [
+    "Use an authorized Creator bulk reader with field_config=all or explicit custom fields and max_records=1000; current list connector only exposes quick-view projections. Avoid 2,135 individual reads.",
+    "Prioritize 11 storefront image gaps and exact supplier/manufacturer pack photos. Do not substitute uncertain variants.",
+    "Resolve six duplicate Books item mappings and verify Books–Inventory–Commerce native sync before cross-system writes.",
+    "Integrate existing sync modules into verified current mf_zoho_gateway Development source, with existing registry/outbox, compare-only changed fields, source-event deduplication, per-field ownership and destination readback.",
+    "Keep costs authoritative to verified Books Bills, stock to Inventory, customer prices scoped, and catalogue enrichment/admin content to Creator/Catalyst authorization."
+  ],
+  "marginCheck": {
+    "source": "Existing complete 31 October Creator snapshot",
+    "configField": "Margin_Configured",
+    "unconfiguredTotal": 910,
+    "unconfiguredStorefront": 226,
+    "belowBaseTotal": 38,
+    "belowBaseStorefront": 3,
+    "belowBaseStorefrontSkus": [
+      "CR1755",
+      "CR1655",
+      "CR1640"
+    ],
+    "numericMarginRateCompleteness": "Pending full-field export; Margin_Percent not exposed in bulk report",
+    "pricingWrites": 0
+  }
+}

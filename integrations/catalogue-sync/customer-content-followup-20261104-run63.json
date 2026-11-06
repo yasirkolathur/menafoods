@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-04",
+  "run": 63,
+  "baselineAudit": "20/20 already complete",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run62.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004903036",
+    "4278439000004904007",
+    "4278439000004905007",
+    "4278439000004905032",
+    "4278439000004906011",
+    "4278439000004906036",
+    "4278439000004907007",
+    "4278439000004908007",
+    "4278439000004928064",
+    "4278439000004933043",
+    "4278439000004937011",
+    "4278439000004938011",
+    "4278439000004941029",
+    "4278439000005044067",
+    "4278439000005047007",
+    "4278439000005054019",
+    "4278439000005061085",
+    "4278439000005075015",
+    "4278439000005118095",
+    "4278439000005123007"
+  ],
+  "verifiedExactSkuIdMatches": 20,
+  "storefrontProducts": 20,
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3225",
+      "issue": "Bay leaves 'Tez Pata' name ambiguous; do not assume spice species/pack"
+    },
+    {
+      "sku": "SKU-3223",
+      "issue": "Curry Powder No.1 identity and unbranded packaging need label"
+    },
+    {
+      "sku": "SKU-3229",
+      "issue": "Mackerel fish 'White' and bulk size/specification ambiguous"
+    },
+    {
+      "sku": "SKU-3230",
+      "issue": "Unbranded fish fillet species and pack require label; Arabic readback independently confirmed"
+    },
+    {
+      "sku": "SKU-3235",
+      "issue": "1oz sauce cup specification and UAE origin not independently verified"
+    },
+    {
+      "sku": "SKU-3227",
+      "issue": "Chicken soaker product type ambiguous"
+    },
+    {
+      "sku": "SKU-3231",
+      "issue": "Veal cut/origin and exact pack need label verification"
+    },
+    {
+      "sku": "SKU-3215",
+      "issue": "Filipino Style 48 x 250g pack needs label"
+    },
+    {
+      "sku": "SKU-3216",
+      "issue": "Sweet Style 24 x 250g pack needs label"
+    },
+    {
+      "sku": "SKU-3224",
+      "issue": "Coffee bottle-versus-jar packaging needs label"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Image rights and exact-match Commerce/Catalyst receipts missing"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, price isolation, cart, Buy Again, COD/credit and confirm-once checkout evidence missing"
+    }
+  ],
+  "creatorApiCallsObserved": 2,
+  "creatorQueryCalls": 1,
+  "creatorIndividualReadbacks": 1,
+  "translatedDescriptionAndPackingNotExposed": true,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000005144083",
+  "nextSku": "SKU-3238"
+}

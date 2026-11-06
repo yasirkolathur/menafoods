@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-04",
+  "run": 46,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489147",
+    "4278439000002489151",
+    "4278439000002489155",
+    "4278439000002489159",
+    "4278439000002489163",
+    "4278439000002489167",
+    "4278439000002489171",
+    "4278439000002489175",
+    "4278439000002489179",
+    "4278439000002489183",
+    "4278439000002489187",
+    "4278439000002489191",
+    "4278439000002489195",
+    "4278439000002489199",
+    "4278439000002489203",
+    "4278439000002489207",
+    "4278439000002489211",
+    "4278439000002489215",
+    "4278439000002489219",
+    "4278439000002489223"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489167",
+      "field": "Translated_Name",
+      "before": "الكبيرجامبو دجاج ناجت 1 كجم × 5",
+      "after": "الكبير ناجتس دجاج جامبو 1 كجم × 5 عبوات"
+    },
+    {
+      "id": "4278439000002489219",
+      "field": "Translated_Name",
+      "before": "الكبير فشار دجاج 400 جرام × 12",
+      "after": "الكبير قطع دجاج بوب كورن 400 جم × 12 عبوة"
+    }
+  ],
+  "verification": "One compact exact-ID Creator All_Products read, two targeted Translated_Name writes, one independent compact readback; both values matched. Editorial Arabic based on current exact Creator product identity/pack records; manufacturer label not independently verified.",
+  "sources": [
+    "Authenticated Zoho Creator All_Products current exact-ID records (private source; no public URL)"
+  ],
+  "unresolvedIssues": [
+    "All 20 selected records have blank SKU; do not invent identifiers",
+    "C.VEGETABLE FELAFAL and CHICKEN VEGETABLE FELAFAL identities are ambiguous; hold translation changes",
+    "Chicken Tandoori, Krazy, Jumbo and catering variants require independent manufacturer label/pack evidence",
+    "Existing image references do not prove redistribution rights, image content or Commerce/Catalyst propagation",
+    "Translated_Description and Translated_Package not exposed by All_Products readback",
+    "Category margin policy and validated cost basis missing; no financial updates",
+    "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit, confirm-once checkout and ACK evidence unavailable"
+  ],
+  "connectorCallsObserved": {
+    "creator": 4,
+    "github": "manifest read + evidence create + manifest update + readback pending"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated test receipts",
+  "nextPendingId": "4278439000002489227"
+}

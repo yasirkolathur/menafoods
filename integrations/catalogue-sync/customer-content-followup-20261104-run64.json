@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-04",
+  "run": "64",
+  "baselineAudit": "20/20 completed previously; this is customer-facing follow-up",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run63.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000005144083",
+    "4278439000005153007",
+    "4278439000005161007",
+    "4278439000005162007",
+    "4278439000005169116",
+    "4278439000005193007",
+    "4278439000005198082",
+    "4278439000005402071",
+    "4278439000005427057",
+    "4278439000005441033",
+    "4278439000005441058",
+    "4278439000005478015",
+    "4278439000005592031",
+    "4278439000005595011",
+    "4278439000005596011",
+    "4278439000005627011",
+    "4278439000005632017",
+    "4278439000005632042",
+    "4278439000005632089",
+    "4278439000005633027"
+  ],
+  "reviewedSku": [
+    "SKU-3238",
+    "SKU-3237",
+    "SKU-3239",
+    "SKU-3240",
+    "SKU-3241",
+    "SKU-3243",
+    "SKU-3246",
+    "SKU-3249",
+    "SKU-3252",
+    "SKU-3253",
+    "SKU-3255",
+    "SKU-3257",
+    "SKU-3262",
+    "SKU-3260",
+    "SKU-3263",
+    "SKU-3264",
+    "SKU-3271",
+    "SKU-3282",
+    "SKU-3293",
+    "SKU-3267"
+  ],
+  "verifiedExactSkuIdMatches": 20,
+  "storefrontProducts": 20,
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3238",
+      "issue": "Tuliva title versus TOLIVIA brand spelling mismatch"
+    },
+    {
+      "sku": "SKU-3237",
+      "issue": "TWOYES brand and carton contents unverified"
+    },
+    {
+      "sku": "SKU-3239",
+      "issue": "Mama brand blank; USG volume notation requires exact label"
+    },
+    {
+      "sku": "SKU-3240",
+      "issue": "1000 ketchup packets: per-sachet net weight unspecified"
+    },
+    {
+      "sku": "SKU-3243",
+      "issue": "Bobby veal cut/variant identity requires exact label"
+    },
+    {
+      "sku": "SKU-3246",
+      "issue": "Victoria yeast brand blank; exact variant verification needed"
+    },
+    {
+      "sku": "SKU-3249",
+      "issue": "Lipton brand blank; exact pack variant verification needed"
+    },
+    {
+      "sku": "SKU-3253",
+      "issue": "Undefined out selling unit conflicts with 12 x 50g carton"
+    },
+    {
+      "sku": "SKU-3255",
+      "issue": "30L handwash labeled gln: unit/volume conflict"
+    },
+    {
+      "sku": "SKU-3264",
+      "issue": "70 US gal versus 240 L capacity discrepancy; 10 kg pack weight ambiguous"
+    },
+    {
+      "sku": "SKU-3263",
+      "issue": "Arabic lettuce variant needs precise identity confirmation"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Exact-product image rights and Commerce/Catalyst receipt evidence missing"
+    },
+    {
+      "sku": "ALL",
+      "issue": "Authenticated EN/AR RTL, CTN/PCS/KG, VAT, customer pricing, cart, Buy Again, COD/credit, confirm-once checkout evidence unavailable"
+    }
+  ],
+  "creatorApiCallsObserved": 1,
+  "translatedDescriptionAndPackingNotExposed": true,
+  "financialWrites": 0,
+  "productWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000005633052",
+  "nextSku": "SKU-3287"
+}

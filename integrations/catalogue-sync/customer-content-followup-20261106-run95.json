@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-06",
+  "run": 95,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run94.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000106536",
+    "4278439000000142007",
+    "4278439000000167029",
+    "4278439000000364052",
+    "4278439000000621007",
+    "4278439000000832002",
+    "4278439000000939059",
+    "4278439000000940035",
+    "4278439000000942007",
+    "4278439000001004097",
+    "4278439000001007019",
+    "4278439000001007071",
+    "4278439000001009019",
+    "4278439000001010019",
+    "4278439000001015007",
+    "4278439000001023011",
+    "4278439000001038011",
+    "4278439000001041007",
+    "4278439000001048031",
+    "4278439000001057015"
+  ],
+  "reviewedSkus": [
+    "CR1764",
+    "CR1765",
+    "CR1767",
+    "CR1771",
+    "CR1772",
+    "CR1775",
+    "CR1778",
+    "CR1780",
+    "CR1782",
+    "CR1788",
+    "CR1790",
+    "CR1792",
+    "CR1795",
+    "CR1796",
+    "CR1799",
+    "CR1802",
+    "CR1814",
+    "CR1816",
+    "CR1820",
+    "CR1828"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 25,
+  "issues": [
+    {
+      "sku": "CR1764",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1764",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1764",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1765",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1767",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1767",
+      "type": "brand_or_species_ambiguity"
+    },
+    {
+      "sku": "CR1771",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1772",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1772",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1778",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1778",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1778",
+      "type": "brand_or_species_ambiguity"
+    },
+    {
+      "sku": "CR1780",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1782",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1788",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1788",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1790",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1792",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1792",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1792",
+      "type": "brand_or_species_ambiguity"
+    },
+    {
+      "sku": "CR1799",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1820",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1820",
+      "type": "variant_or_pack_requires_evidence"
+    },
+    {
+      "sku": "CR1828",
+      "type": "arabic_translation_requires_label_review"
+    },
+    {
+      "sku": "CR1828",
+      "type": "variant_or_pack_requires_evidence"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 63,
+  "excludedOutOfBatch": 43,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO; authenticated QA and sync receipts not verified",
+  "nextPendingId": "4278439000001077025",
+  "nextPendingSku": "CR1834",
+  "readbackLimitations": "All_Products does not expose translated description/packing fields",
+  "notes": "Read-only audit; no speculative corrections. No cost, price, vendor or invoice values persisted."
+}

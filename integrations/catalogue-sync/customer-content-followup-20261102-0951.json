@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 09:51 Asia/Riyadh (automation context, not Creator source timestamp)",
+  "phase": "post-20/20 storefront customer-content followup; separate from completed 2122-record baseline",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000002712007",
+    "4278439000002714007",
+    "4278439000002721011",
+    "4278439000002722007",
+    "4278439000002723007",
+    "4278439000002724011",
+    "4278439000002725007",
+    "4278439000002733007",
+    "4278439000002733040",
+    "4278439000002736007",
+    "4278439000002736036",
+    "4278439000002736065",
+    "4278439000002738015",
+    "4278439000002740007",
+    "4278439000002741007",
+    "4278439000002742015",
+    "4278439000002742040",
+    "4278439000002742065",
+    "4278439000002746011",
+    "4278439000002747011"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000002712007",
+      "sku": "SKU-2833",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002714007",
+      "sku": "SKU-2835",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002721011",
+      "sku": "SKU-2836",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002722007",
+      "sku": "SKU-2837",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002723007",
+      "sku": "SKU-2838",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002724011",
+      "sku": "SKU-2839",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002725007",
+      "sku": "SKU-2840",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002733007",
+      "sku": "SKU-2842",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002733040",
+      "sku": "SKU-2843",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002736007",
+      "sku": "SKU-2844",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002736036",
+      "sku": "SKU-2845",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002736065",
+      "sku": "SKU-2849",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002738015",
+      "sku": "SKU-2847",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002740007",
+      "sku": "SKU-2851",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002741007",
+      "sku": "SKU-2852",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002742015",
+      "sku": "SKU-2853",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002742040",
+      "sku": "SKU-2854",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002742065",
+      "sku": "SKU-2855",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002746011",
+      "sku": "SKU-2856",
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000002747011",
+      "sku": "SKU-2857",
+      "exactIdRead": "success"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 7,
+  "verifiedProductsChanged": 7,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 13,
+  "corrections": [
+    {
+      "creatorId": "4278439000002712007",
+      "sku": "SKU-2833",
+      "field": "Translated_Name",
+      "before": "بيف كابا الوها 1KGX10",
+      "after": "كباب لحم بقري الواحة، 1 كجم × 10",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002723007",
+      "sku": "SKU-2838",
+      "field": "Translated_Name",
+      "before": "آر كي جي 12 × 1 لتر",
+      "after": "سمن آر كي جي، 12 × 1 لتر",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002725007",
+      "sku": "SKU-2840",
+      "field": "Translated_Name",
+      "before": "حمص أبيض رقم 8 1*15كجم",
+      "after": "حمص أبيض رقم 8، 1 × 15 كجم",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002736036",
+      "sku": "SKU-2845",
+      "field": "Translated_Name",
+      "before": "التمام المجمدة بوبي العجل 900 غرام × 20",
+      "after": "لحم عجل بوبي مجمد من التمام، 900 جم × 20",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002736065",
+      "sku": "SKU-2849",
+      "field": "Translated_Name",
+      "before": "شاي كابوس 24*100 كيس",
+      "after": "شاي الكبوس، 24 × 100 كيس",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002742040",
+      "sku": "SKU-2854",
+      "field": "Translated_Name",
+      "before": "خط واضح 8 \"× 12\" ختم أعلى كيس الغذاء البلاستيكية - 100 / حزمة × 10",
+      "after": "أكياس بلاستيكية لحفظ الطعام بإغلاق علوي، 8 × 12 بوصة، 100 كيس/عبوة × 10 عبوات",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "creatorId": "4278439000002742065",
+      "sku": "SKU-2855",
+      "field": "Translated_Name",
+      "before": "لوحة الورق 7 بوصة ، 12 × 100 قطعة",
+      "after": "أطباق ورقية مقاس 7 بوصات، 12 × 100 قطعة",
+      "readback": "Independent Creator exact-ID read matched ID, SKU, Product_Name, Translated_Name, storefront Yes",
+      "evidenceBasis": "Exact current Creator English product identity and existing pack text; Arabic editorial correction only; no external pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2836",
+      "severity": "high",
+      "issue": "8 oz handleless tea cups: Unit=box, 50pcs in title, box-to-piece conversion unverified."
+    },
+    {
+      "sku": "SKU-2837",
+      "severity": "medium",
+      "issue": "Vegetable ghee is categorized Dairy; category taxonomy and whether vegetable-fat goods belong in Dairy unverified. No category edit."
+    },
+    {
+      "sku": "SKU-2843",
+      "severity": "high",
+      "issue": "'SMALL HAMBURGER 500 PC U-1 PACK (FOP)' is classified Packaging, but product identity (container vs food) and Unit=rpt unresolved; hold conversion."
+    },
+    {
+      "sku": "SKU-2847",
+      "severity": "high",
+      "issue": "25oz brown kraft box 200 count, Unit=rpt; meaning of rpt and whether 200 is the sale-unit count unverified."
+    },
+    {
+      "sku": "SKU-2851",
+      "severity": "high",
+      "issue": "Cosmoplast sauce cups 1oz 100 pieces with Unit=ctn; exact carton count vs inner pack unknown."
+    },
+    {
+      "sku": "SKU-2853",
+      "severity": "medium",
+      "issue": "Wooden stirrers 500 pieces x20 box with Unit=ctn; nested pack meaning not independently verified."
+    },
+    {
+      "sku": "SKU-2854",
+      "severity": "medium",
+      "issue": "Clear Line may be a brand or descriptor, Creator Brand blank; do not assert brand. 100/pack x10 packaging remains manufacturer-unverified."
+    },
+    {
+      "sku": "SKU-2856",
+      "severity": "high",
+      "issue": "Brown paper No.3-5KG with Unit=rpt: whether 5kg is bag capacity or net pack weight and rpt conversion unverified."
+    },
+    {
+      "sku": "SKU-2857",
+      "severity": "high",
+      "issue": "Brown paper No.5-5kg with Unit=rpt: whether 5kg is bag capacity or net pack weight and rpt conversion unverified."
+    },
+    {
+      "sku": "SKU-2849",
+      "severity": "medium",
+      "issue": "Kabous tea 24x100 bags with Unit=box; title suggests nested packs, but exact box-to-single pack conversion unverified."
+    },
+    {
+      "sku": "CR1878",
+      "severity": "watch",
+      "issue": "New bounded Modified_Time candidate: Burcu Sweet Chili Paste 4x4200g, Unit=pcs; exact prior delta and single-vs-case unit not proven. No edit."
+    }
+  ],
+  "unresolvedIssueCount": 11,
+  "sourcePolicy": "No manufacturer/authorized product packaging evidence newly established; corrections restricted to editorial Arabic title normalization of existing exact Creator records. No GTIN, allergens, origin, pack conversion or manufacturer claims added.",
+  "creatorConnectorCallsObserved": 36,
+  "creatorBillableApiUnits": "unavailable",
+  "incrementalProbe": {
+    "criteria": "Modified_Time >= \"02-Nov-2026 08:30:00\"",
+    "returnedCount": 17,
+    "ownCurrentEdits": 7,
+    "otherMatchedOrUnverified": 10,
+    "newUnverifiedCandidate": "4278439000001215030 / CR1878",
+    "authoritativeModifiedTimeReadback": false,
+    "watermarkAdvanced": false
+  },
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "newAuthenticatedAcceptanceReceipts": 0,
+    "notVerified": [
+      "EN/AR RTL",
+      "Commerce/Catalyst image and visibility propagation",
+      "CTN/PCS/KG conversions",
+      "customer price vs private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout",
+      "exactly-once Books SO ACK"
+    ],
+    "crossSystemWritesBlocked": true,
+    "fourDuplicateActiveIdsBlocked": true
+  },
+  "writes": {
+    "creatorNonfinancialRecords": 7,
+    "creatorNonfinancialFields": 7,
+    "prices": 0,
+    "margins": 0,
+    "costs": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "orders": 0,
+    "financial": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "readbackLimitations": "Description, Translated_Description, Package_Details and Translated_Package_Details not exposed by Products_Books readback; no descriptions edited. Modified_Time absent."
+}

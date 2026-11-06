@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 27",
+  "baseline": "20/20 previously completed",
+  "selection": "Next 20 unreviewed exact Creator IDs after run26 checkpoint; all currently non-storefront",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000009641050",
+      "sku": "SKU-3460",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009641055",
+      "sku": "SKU-3461",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009643042",
+      "sku": "SKU-3463",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009643047",
+      "sku": "SKU-3464",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009643052",
+      "sku": "SKU-3465",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009652031",
+      "sku": "SKU-3462",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701002",
+      "sku": "SKU-3466",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701007",
+      "sku": "SKU-3467",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701012",
+      "sku": "SKU-3468",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701017",
+      "sku": "SKU-3469",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701022",
+      "sku": "SKU-3470",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701027",
+      "sku": "SKU-3471",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701032",
+      "sku": "SKU-3472",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701037",
+      "sku": "SKU-3473",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701042",
+      "sku": "SKU-3477",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701047",
+      "sku": "SKU-3478",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009701052",
+      "sku": "SKU-3479",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009702002",
+      "sku": "SKU-3474",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009702007",
+      "sku": "SKU-3475",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000009710072",
+      "sku": "SKU-3476",
+      "manifestStorefront": false,
+      "exactIdRead": "success"
+    }
+  ],
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "type": "missing_product_images",
+      "count": 20,
+      "action": "Hold image publishing until exact variant rights or approved original illustration and upload/readback"
+    },
+    {
+      "type": "missing_category",
+      "count": 14,
+      "action": "Hold category edits pending verified category mapping; no guessed classifications"
+    },
+    {
+      "type": "selling_unit_ambiguity",
+      "skus": [
+        "SKU-3462",
+        "SKU-3473",
+        "SKU-3478"
+      ],
+      "action": "6 pcs olives vs pcs; turkey piece vs kg; undefined rpt for pizza box; verify pack and units"
+    },
+    {
+      "type": "financial_configuration_review_only",
+      "skus": [
+        "SKU-3463",
+        "SKU-3464",
+        "SKU-3465",
+        "SKU-3466",
+        "SKU-3467",
+        "SKU-3468",
+        "SKU-3469",
+        "SKU-3470",
+        "SKU-3471",
+        "SKU-3473",
+        "SKU-3476"
+      ],
+      "action": "Missing margins or selling price equals base price; no financial edits"
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 21,
+  "apiBillableUnits": "unavailable",
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "checkout": "NO-GO; no authenticated end-to-end checkout evidence",
+  "limitations": [
+    "All_Products API excludes translated description and translated packaging readback",
+    "No manufacturer/label evidence for additional factual fields; no speculative edits",
+    "No images in 20 exact Creator records; no rights or propagation verification",
+    "No storefront-available records in selected next 20; checkout not exercised",
+    "Four-way sync not verified; no cross-system writes"
+  ]
+}

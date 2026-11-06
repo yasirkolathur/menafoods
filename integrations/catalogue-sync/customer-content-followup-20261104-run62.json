@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-04",
+  "run": "62",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261104-run61.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004726052",
+    "4278439000004728007",
+    "4278439000004778019",
+    "4278439000004787007",
+    "4278439000004808111",
+    "4278439000004821045",
+    "4278439000004832040",
+    "4278439000004842011",
+    "4278439000004895011",
+    "4278439000004896015",
+    "4278439000004897007",
+    "4278439000004897032",
+    "4278439000004898007",
+    "4278439000004899011",
+    "4278439000004899036",
+    "4278439000004900007",
+    "4278439000004900032",
+    "4278439000004900057",
+    "4278439000004902011",
+    "4278439000004902036"
+  ],
+  "reviewedSkus": [
+    "SKU-3185",
+    "SKU-3184",
+    "SKU-3189",
+    "SKU-3190",
+    "SKU-3192",
+    "SKU-3191",
+    "SKU-3194",
+    "SKU-3193",
+    "SKU-3196",
+    "SKU-3205",
+    "SKU-3201",
+    "SKU-3206",
+    "SKU-3197",
+    "SKU-3198",
+    "SKU-3200",
+    "SKU-3199",
+    "SKU-3211",
+    "SKU-3212",
+    "SKU-3203",
+    "SKU-3207"
+  ],
+  "allExactIdSkuMatches": true,
+  "storefrontRecords": 20,
+  "verifiedChanges": [],
+  "sources": [
+    "Zoho Creator All_Products exact-ID readback (20 records)",
+    "Existing customer-content manifest; no independently authenticated manufacturer/label evidence"
+  ],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3185",
+      "issue": "bag selling unit versus 10-pack carton; brand blank"
+    },
+    {
+      "sku": "SKU-3184",
+      "issue": "HOT PACK brand may refer to distributor rather than Soft N Cool"
+    },
+    {
+      "sku": "SKU-3189",
+      "issue": "FALCON brand not reflected in generic title; exact label needed"
+    },
+    {
+      "sku": "SKU-3190",
+      "issue": "Brand blank; verify exact brand"
+    },
+    {
+      "sku": "SKU-3191",
+      "issue": "rpt unit undefined for 12-piece carton"
+    },
+    {
+      "sku": "SKU-3194",
+      "issue": "gln unit and 30L volume conversion; brand blank"
+    },
+    {
+      "sku": "SKU-3193",
+      "issue": "500pcs packaging type ambiguous; brand blank"
+    },
+    {
+      "sku": "SKU-3196",
+      "issue": "English 'Beet' likely beef; Arabic currently says beetroot; exact packaging required before correction"
+    },
+    {
+      "sku": "SKU-3206",
+      "issue": "Rufina Thai fish sauce brand blank; can vs bottle uncertain"
+    },
+    {
+      "sku": "SKU-3201",
+      "issue": "Osais vs Oasis brand spelling requires label"
+    },
+    {
+      "sku": "SKU-3203",
+      "issue": "48 bags/pouches for tuna requires exact-pack verification"
+    },
+    {
+      "sku": "SKU-3207",
+      "issue": "Dairy category appears inconsistent with sandwich spread; confirm product category"
+    },
+    {
+      "sku": "all",
+      "issue": "Images rights and exact product matches unverified"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated checkout and native sync/gateway ACK evidence unavailable"
+    }
+  ],
+  "creatorApiCallsObserved": 1,
+  "productWrites": 0,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitation": "Translated description and translated packing fields not exposed by All_Products",
+  "nextId": "4278439000004903036",
+  "nextSku": "SKU-3210"
+}

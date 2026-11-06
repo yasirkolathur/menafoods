@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-06",
+  "run": 97,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run96.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001461019",
+    "4278439000001462019",
+    "4278439000001481019",
+    "4278439000001498011",
+    "4278439000001505011",
+    "4278439000001507015",
+    "4278439000001595033",
+    "4278439000001599011",
+    "4278439000001601007",
+    "4278439000001640003",
+    "4278439000001640007",
+    "4278439000001640011",
+    "4278439000001640015",
+    "4278439000001640019",
+    "4278439000001640023",
+    "4278439000001640027",
+    "4278439000001640031",
+    "4278439000001640035",
+    "4278439000001640039",
+    "4278439000001640043"
+  ],
+  "products": [
+    {
+      "id": "4278439000001461019",
+      "sku": "CR1925",
+      "issues": [
+        "missing_books_mapping",
+        "irish_origin_vs_australian_collection"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001462019",
+      "sku": "CR1926",
+      "issues": [
+        "irish_origin_vs_australian_collection"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001481019",
+      "sku": "CR1931",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001498011",
+      "sku": "CR1933",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001505011",
+      "sku": "CR1937",
+      "issues": [
+        "missing_books_mapping"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001507015",
+      "sku": "CR1938",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001595033",
+      "sku": "CR1954",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001599011",
+      "sku": "CR1959",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001601007",
+      "sku": "CR1962",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640003",
+      "sku": "CR1970",
+      "issues": [
+        "no_product_image",
+        "creekstone_australian_origin_requires_label_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640007",
+      "sku": "CR1971",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "arabic_meat_cut_or_grade_mistranslation",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640011",
+      "sku": "CR1972",
+      "issues": [
+        "zero_selling_price_held",
+        "creekstone_australian_origin_requires_label_verification",
+        "arabic_meat_cut_or_grade_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640015",
+      "sku": "CR1973",
+      "issues": [
+        "missing_books_mapping",
+        "zero_selling_price_held",
+        "no_product_image",
+        "creekstone_australian_origin_requires_label_verification",
+        "arabic_meat_cut_or_grade_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640019",
+      "sku": "CR1974",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640023",
+      "sku": "CR1975",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "arabic_meat_cut_or_grade_mistranslation",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640027",
+      "sku": "CR1976",
+      "issues": [
+        "no_product_image",
+        "arabic_meat_cut_or_grade_mistranslation",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640031",
+      "sku": "CR1977",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "arabic_meat_cut_or_grade_mistranslation",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640035",
+      "sku": "CR1978",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640039",
+      "sku": "CR1979",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    },
+    {
+      "id": "4278439000001640043",
+      "sku": "CR1980",
+      "issues": [
+        "zero_selling_price_held",
+        "no_product_image",
+        "arabic_meat_cut_or_grade_mistranslation",
+        "grade_origin_unverified"
+      ],
+      "verifiedFieldChanges": [],
+      "storefront": "No"
+    }
+  ],
+  "unresolvedIssueCount": 42,
+  "verifiedChanges": [],
+  "creatorReadCalls": 1,
+  "readback": "20 exact Creator IDs, SKUs, and names matched manifest; no writes",
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; authenticated QA not performed",
+  "sources": [
+    {
+      "type": "existing_creator_report",
+      "name": "All_Products",
+      "method": "exact ID OR criteria"
+    },
+    {
+      "type": "immutable_manifest",
+      "sha": "719c55c0bdd12edf0b87319a309636c28baf88ad"
+    }
+  ],
+  "limitations": [
+    "No independent label/manufacturer evidence for safe field updates",
+    "No translated description/packing field readback",
+    "No authenticated checkout or cross-system ACK verification"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-05",
+  "run": 70,
+  "baselineStatus": "20/20 previously completed",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run69.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000007708127",
+    "4278439000007842162",
+    "4278439000007847109",
+    "4278439000007968008",
+    "4278439000008056010",
+    "4278439000008101020",
+    "4278439000008121115",
+    "4278439000008161013",
+    "4278439000009734008",
+    "4278439000000101268",
+    "4278439000000101284",
+    "4278439000000101288",
+    "4278439000000101310",
+    "4278439000000101314",
+    "4278439000000101320",
+    "4278439000000101326",
+    "4278439000000101332",
+    "4278439000000101336",
+    "4278439000000101340",
+    "4278439000000101344"
+  ],
+  "reviewedSkus": [
+    "SKU-3420",
+    "SKU-3425",
+    "SKU-3424",
+    "SKU-3427",
+    "SKU-3428",
+    "SKU-3430",
+    "SKU-3432",
+    "SKU-3433",
+    "SKU-3484",
+    "CR1001",
+    "CR1003",
+    "CR1004",
+    "CR1008",
+    "CR1009",
+    "CR1010",
+    "CR1011",
+    "CR1012",
+    "CR1013",
+    "CR1014",
+    "CR1015"
+  ],
+  "exactIdSkuMatched": 20,
+  "storefrontYes": 9,
+  "storefrontNo": 11,
+  "verifiedChanges": [],
+  "sources": [
+    {
+      "type": "existing Creator All_Products exact-ID read",
+      "note": "One criteria-filtered read for 20 IDs; current values not independently manufacturer-verified"
+    }
+  ],
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3425",
+      "issue": "Arabic أفخاذ could imply thighs rather than drumsticks; label needed"
+    },
+    {
+      "sku": "SKU-3427",
+      "issue": "Creamy mandi variant identity needs packaging verification"
+    },
+    {
+      "sku": "SKU-3430",
+      "issue": "Analogue cheese should not be represented as dairy cheese without composition/label check"
+    },
+    {
+      "sku": "SKU-3433",
+      "issue": "Brand SAUDIA conflicts with Freshly name; rpt selling unit undefined"
+    },
+    {
+      "sku": "SKU-3484",
+      "issue": "Image exact match and redistribution rights not verified"
+    },
+    {
+      "sku": "CR1001",
+      "issue": "Arabic title contains apparent mistranslation and extraneous العطاء; original label needed"
+    },
+    {
+      "sku": "CR1003",
+      "issue": "Missing brand, UOM and pack specification; product identity ambiguous"
+    },
+    {
+      "sku": "CR1004",
+      "issue": "Arabic product title mistranslated; cut/brand provenance required"
+    },
+    {
+      "sku": "CR1009",
+      "issue": "ZB_Item_ID review financial/sync identity held"
+    },
+    {
+      "sku": "CR1010",
+      "issue": "ZB_Item_ID review held; box/CTN pack equivalence unverified"
+    },
+    {
+      "sku": "CR1011",
+      "issue": "Selling unit missing; 10L container type not verified"
+    },
+    {
+      "sku": "CR1012",
+      "issue": "Organic designation and 16x1L require label confirmation"
+    },
+    {
+      "sku": "CR1013",
+      "issue": "Organic designation and 12x500mL require label confirmation"
+    },
+    {
+      "sku": "CR1014",
+      "issue": "Organic designation and 12x250mL require label confirmation"
+    },
+    {
+      "sku": "CR1015",
+      "issue": "Diamond butter brand identity and 10x2.5kg pack require verification"
+    },
+    {
+      "sku": "all",
+      "issue": "Product images, rights and Commerce/Catalyst receipt evidence absent"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated Catalog/Checkout EN/AR RTL, CTN/PCS/KG, VAT, price isolation, cart, Buy Again, COD/credit and confirm-once QA not proven"
+    }
+  ],
+  "unresolvedIssueCount": 17,
+  "creatorReadCallsObserved": 1,
+  "productWrites": 0,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "nextId": "4278439000000101362",
+  "nextSku": "CR1018"
+}

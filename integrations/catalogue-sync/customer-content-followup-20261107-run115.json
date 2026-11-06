@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-07",
+  "run": 115,
+  "reviewedCount": 17,
+  "reviewedIds": [
+    "4278439000009778117",
+    "4278439000009778122",
+    "4278439000009778127",
+    "4278439000009778132",
+    "4278439000009781010",
+    "4278439000009781017",
+    "4278439000009781022",
+    "4278439000009781029",
+    "4278439000009874010",
+    "4278439000009876010",
+    "4278439000009880012",
+    "4278439000009908004",
+    "4278439000009981096",
+    "4278439000009981103",
+    "4278439000009981110",
+    "4278439000009981117",
+    "4278439000009981124"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorReadCalls": 1,
+  "creatorWrites": 0,
+  "unresolvedIssueCount": 47,
+  "issues": [
+    {
+      "id": "4278439000009778117",
+      "sku": "SKU-3512",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778122",
+      "sku": "SKU-3513",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009778127",
+      "sku": "SKU-3514",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009778132",
+      "sku": "SKU-3515",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009781010",
+      "sku": "SKU-3487",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009781017",
+      "sku": "SKU-3490",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009781022",
+      "sku": "SKU-3491",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified",
+        "arabic_mentions_unverified_brand"
+      ]
+    },
+    {
+      "id": "4278439000009781029",
+      "sku": "SKU-3516",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "pack_variant_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009874010",
+      "sku": "SKU-3539",
+      "findings": [
+        "no_creator_image",
+        "description_requires_exact_label"
+      ]
+    },
+    {
+      "id": "4278439000009876010",
+      "sku": "SKU-3538",
+      "findings": [
+        "no_creator_image",
+        "pcs_vs_carton_title_ambiguity"
+      ]
+    },
+    {
+      "id": "4278439000009880012",
+      "sku": "SKU-3540",
+      "findings": [
+        "no_creator_image",
+        "description_requires_exact_label"
+      ]
+    },
+    {
+      "id": "4278439000009908004",
+      "sku": "SKU-3541",
+      "findings": [
+        "no_creator_image",
+        "brand_unverified",
+        "pack_variant_unverified"
+      ]
+    },
+    {
+      "id": "4278439000009981096",
+      "sku": "SKU-3550",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "category_missing",
+        "selling_price_blank"
+      ]
+    },
+    {
+      "id": "4278439000009981103",
+      "sku": "SKU-3551",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "category_missing",
+        "dimensions_ambiguous",
+        "selling_price_blank"
+      ]
+    },
+    {
+      "id": "4278439000009981110",
+      "sku": "SKU-3552",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "category_missing",
+        "selling_price_blank"
+      ]
+    },
+    {
+      "id": "4278439000009981117",
+      "sku": "SKU-3553",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "category_missing",
+        "pack_variant_ambiguous",
+        "selling_price_blank"
+      ]
+    },
+    {
+      "id": "4278439000009981124",
+      "sku": "SKU-3554",
+      "findings": [
+        "no_creator_image",
+        "arabic_title_missing",
+        "category_missing",
+        "selling_price_blank"
+      ]
+    }
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "source": "Zoho Creator All_Products exact-ID OR-filtered read; immutable manifest",
+  "readback": "17/17 exact Creator IDs, SKUs and names match manifest; translated descriptions/packing not exposed; no writes",
+  "nextPendingId": null,
+  "notes": "All 17 have no Creator image and are storefront No. Existing prices and supplier fields untouched. SKU-3538 title references carton 4x5kg while selling unit PCS; held."
+}

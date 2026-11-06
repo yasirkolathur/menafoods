@@ -1,0 +1,282 @@
+{
+  "date": "2026-11-01",
+  "batch": 19,
+  "products": 20,
+  "checkpointBefore": 18,
+  "changes": [
+    {
+      "creatorId": "4278439000001965011",
+      "sku": "SKU-2430",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Sweet Pepper Paste 4.5kg x 4",
+          "after": "JULIA Sweet Pepper Paste, 4 × 4.5 kg"
+        },
+        "Translated_Name": {
+          "before": "لصق الفلفل الحلو 4.5kg × 4",
+          "after": "معجون الفلفل الحلو جوليا، 4 × 4.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001976035",
+      "sku": "SKU-2448",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "SUNWHITE Calrose  Rice 1 KG X 20",
+          "after": "SUNWHITE Calrose Rice, 20 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "الشمس كالروز الأرز 1 كجم × 20",
+          "after": "أرز كالروز صن وايت، 20 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001986021",
+      "sku": "SKU-2440",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Cooking Corn oil Afia 17 litres",
+          "after": "Afia Corn Cooking Oil, 17 L"
+        },
+        "Translated_Name": {
+          "before": "طهي زيت الذرة عافية 17 لتر",
+          "after": "زيت ذرة عافية للطبخ، 17 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002004011",
+      "sku": "SKU-2449",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Luna Boofia Analogue Evaporated Milk 410g x 48 Pieces",
+          "after": "Luna Boofia Analogue Evaporated Milk, 48 × 410 g"
+        },
+        "Translated_Name": {
+          "before": "Luna Boofia التناظري الحليب المبخر 410g × 48 قطعة",
+          "after": "حليب مبخر بديل لونا بوفيا، 48 × 410 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002016019",
+      "sku": "SKU-2454",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Chili Pepper Paste Wadi Alsham 1 x 14.5 kg",
+          "after": "Wadi Al Sham Chili Pepper Paste, 14.5 kg — Tin"
+        },
+        "Translated_Name": {
+          "before": "الفلفل الحار معجون وادي الشام 1 × 14.5 كجم",
+          "after": "معجون الفلفل الحار وادي الشام، تنك 14.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002058015",
+      "sku": "SKU-2457",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Rana White Vinegar 4 x 3.78l",
+          "after": "Rana White Vinegar, 4 × 3.78 L"
+        },
+        "Translated_Name": {
+          "before": "رانا الخل الأبيض 4 × 3.78 لتر",
+          "after": "خل أبيض رانا، 4 × 3.78 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002108007",
+      "sku": "SKU-2460",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Indian Beef Roll 18 kg  Samrah",
+          "after": "Samrah Indian Beef Roll, 18 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "لفة لحوم البقر الهندية 18 كجم السامرة",
+          "after": "رول لحم بقري هندي سمرة، كرتون 18 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002127015",
+      "sku": "SKU-2462",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "1200g Whole Chicken Griller  SADIA",
+          "after": "Sadia Whole Chicken Griller, 1.2 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "1200g شواء الدجاج كله SADIA",
+          "after": "دجاج ساديا كامل للشوي، 1.2 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002128011",
+      "sku": "SKU-2465",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "1000g Whole Chicken Griller Cedrob 10 pcs",
+          "after": "Cedrob Whole Chicken Griller, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "1000g الدجاج كله المراوي الأرز 10 قطع",
+          "after": "دجاج سيدروب كامل للشوي، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002129011",
+      "sku": "SKU-2466",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "1100g Whole Chicken Griller Cedrob 10 pcs",
+          "after": "Cedrob Whole Chicken Griller, 10 × 1.1 kg"
+        },
+        "Translated_Name": {
+          "before": "1100g الدجاج كله المراوي الأرز 10 قطع",
+          "after": "دجاج سيدروب كامل للشوي، 10 × 1.1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002143007",
+      "sku": "SKU-2468",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Samrah boneless Beef slice 20 x 900g",
+          "after": "Samrah Boneless Beef Slices, 20 × 900 g"
+        },
+        "Translated_Name": {
+          "before": "سمرة شريحة لحم البقر بلا عظام 20 × 900 غرام",
+          "after": "شرائح لحم بقري سمرة دون عظم، 20 × 900 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002167015",
+      "sku": "SKU-2470",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "French fries Al Jouf 9/9 2.5 kg x4",
+          "after": "Al Jouf French Fries, 9 × 9 mm, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "البطاطس المقلية الجوف 9/9 2.5 كجم × 4",
+          "after": "بطاطس مقلية الجوف، مقاس 9 × 9 مم، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000002298011",
+      "sku": "SKU-2481",
+      "readbackVerified": true,
+      "source": "Zoho Creator All_Products exact record ID/SKU, existing brand, title, selling unit and explicit packing notation; editorial correction, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Crystal Refreshing Raspberry Drink Box  725 ml  X12",
+          "after": "Crystal Raspberry Drink, 12 × 725 ml"
+        },
+        "Translated_Name": {
+          "before": "كريستال منعش التوت مربع 725 مل X12",
+          "after": "مشروب التوت كريستال، 12 × 725 مل"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000001987007",
+      "sku": "SKU-2434",
+      "reason": "Brand field empty; Tammam in title and #31 beef variant require verified product label before brand or cut normalization."
+    },
+    {
+      "creatorId": "4278439000001989007",
+      "sku": "SKU-2439",
+      "reason": "Afia cooking oil lacks size and precise variant; cannot assume 17 L or corn oil solely from collection."
+    },
+    {
+      "creatorId": "4278439000002049015",
+      "sku": "SKU-2456",
+      "reason": "Stored selling unit is tin, but title describes six 3 kg gallons; reconcile unit and pack variant before title edit."
+    },
+    {
+      "creatorId": "4278439000002120011",
+      "sku": "SKU-2461",
+      "reason": "Plain pizza box dimensions stated, but selling unit rpt and count per pack are unresolved; hold packaging edit."
+    },
+    {
+      "creatorId": "4278439000002195015",
+      "sku": "SKU-2474",
+      "reason": "French fries 6/6 title conflicts with 9 × 9 collection; verify cut variant before correction."
+    },
+    {
+      "creatorId": "4278439000002221015",
+      "sku": "SKU-2477",
+      "reason": "UNEF brand field conflicts with Hilal title; identity and 800 g carton pack need confirmation."
+    },
+    {
+      "creatorId": "4278439000002227007",
+      "sku": "SKU-2476",
+      "reason": "Indian beef 'bobby veal' designation is ambiguous; do not reinterpret animal class or cut."
+    }
+  ],
+  "api": {
+    "creatorExactRecordReads": 20,
+    "creatorUpdateCalls": 13,
+    "creatorReadbackCalls": 13,
+    "creatorTotal": 46
+  },
+  "writes": {
+    "nonfinancialTitleFields": 26,
+    "financial": 0,
+    "stock": 0,
+    "images": 0,
+    "orders": 0,
+    "sync": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API; not written"
+  ],
+  "sourceLimit": "Existing Creator identity/pack records only; no independent manufacturer certification or image rights verification.",
+  "checkoutQA": {
+    "issue": 27,
+    "status": "NO-GO",
+    "newAuthenticatedTests": 0,
+    "reason": "No independently verified checkout acceptance and deployment receipts"
+  },
+  "sync": {
+    "enabled": false,
+    "fourWayLiveClaim": false,
+    "reason": "Native sync, gateway source/rollback, webhook auth and end-to-end ACK not verified"
+  }
+}

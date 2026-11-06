@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-05",
+  "run": 77,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run76.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103198",
+    "4278439000000103204",
+    "4278439000000103212",
+    "4278439000000103218",
+    "4278439000000103224",
+    "4278439000000103230",
+    "4278439000000103234",
+    "4278439000000103238",
+    "4278439000000103244",
+    "4278439000000103248",
+    "4278439000000103252",
+    "4278439000000103256",
+    "4278439000000103260",
+    "4278439000000103264",
+    "4278439000000103268",
+    "4278439000000103274",
+    "4278439000000103280",
+    "4278439000000103284",
+    "4278439000000103288",
+    "4278439000000103292"
+  ],
+  "reviewedSkus": [
+    "CR1267",
+    "CR1268",
+    "CR1269",
+    "CR1270",
+    "CR1271",
+    "CR1272",
+    "CR1273",
+    "CR1274",
+    "CR1275",
+    "CR1276",
+    "CR1277",
+    "CR1278",
+    "CR1279",
+    "CR1280",
+    "CR1281",
+    "CR1282",
+    "CR1283",
+    "CR1284",
+    "CR1285",
+    "CR1286"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 57,
+  "issues": [
+    {
+      "sku": "CR1267",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1267",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1267",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1268",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1268",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1268",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1269",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1269",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1269",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1269",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1270",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1270",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1271",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1271",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1272",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1272",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1273",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1273",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1274",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1274",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1274",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1274",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1275",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1275",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1275",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1275",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1276",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1276",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1276",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1276",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1277",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1277",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1277",
+      "type": "packaging_variant_ambiguous",
+      "detail": "Title mixes pack codes and net content; exact variant label required"
+    },
+    {
+      "sku": "CR1277",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1278",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1278",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1278",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1279",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1279",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1279",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1280",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1280",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1280",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1281",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1281",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1281",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1282",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1283",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1284",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1284",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1284",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1285",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1285",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1285",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1286",
+      "type": "selling_unit_unverified",
+      "observed": "(blank)"
+    },
+    {
+      "sku": "CR1286",
+      "type": "arabic_title_quality",
+      "detail": "Literal translation or brand transliteration requires source confirmation"
+    },
+    {
+      "sku": "CR1278/CR1279",
+      "type": "potential_duplicate_variant",
+      "detail": "Same product title across distinct IDs; do not merge without evidence"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "storefrontEnabledCount": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000103298",
+  "nextPendingSku": "CR1287",
+  "readbackLimitation": "Translated description and packing fields not exposed in All_Products API; no field writes made",
+  "policy": "Read-only audit; ambiguous variants and duplicate collisions held; no financial, sync, image or deployment changes"
+}

@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-01",
+  "batch": 3,
+  "kind": "customer-facing-title-translation-editorial-cleanup",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 17,
+    "exactIdSkuNameReadbacks": 17,
+    "verifiedFieldsChanged": 34,
+    "held": 3
+  },
+  "changes": [
+    {
+      "sku": "CR1107",
+      "creatorId": "4278439000000101816",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Al Jamel Tahina 15 kg",
+          "after": "Al Jamel Tahini, 15 kg"
+        },
+        "Translated_Name": {
+          "before": "الجمال تحينة 15 كجم",
+          "after": "طحينة الجمل، 15 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1215",
+      "creatorId": "4278439000000102980",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Cucumber Pickles (small)  Food Choice 1 x 6kg",
+          "after": "Food Choice Small Cucumber Pickles, 6 kg"
+        },
+        "Translated_Name": {
+          "before": "مخللات الخيار (الصغيرة) اختيار الطعام 1 × 6 كجم",
+          "after": "مخلل خيار صغير فود تشويس، 6 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1218",
+      "creatorId": "4278439000000102992",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Sliced Black Olives  Food Choice 1 x 5kg",
+          "after": "Food Choice Sliced Black Olives, 5 kg"
+        },
+        "Translated_Name": {
+          "before": "شرائح الزيتون الأسود اختيار الغذاء 1 × 5 كجم",
+          "after": "زيتون أسود شرائح فود تشويس، 5 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1242",
+      "creatorId": "4278439000000103088",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Basil Leaves 12/5 oz American Garden 12 x 142 gm",
+          "after": "American Garden Basil Leaves, 12 × 142 g"
+        },
+        "Translated_Name": {
+          "before": "أوراق الريحان 12/5 أوقية الحديقة الأمريكية 12 × 142 جم",
+          "after": "أوراق ريحان أمريكان جاردن، 12 × 142 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1263",
+      "creatorId": "4278439000000103176",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Whole Peeled Tomatoes American Garden 6 x 2500g",
+          "after": "American Garden Whole Peeled Tomatoes, 6 × 2500 g"
+        },
+        "Translated_Name": {
+          "before": "كامل مقشر الطماطم الأمريكية الحديقة 6 × 2500g",
+          "after": "طماطم كاملة مقشرة أمريكان جاردن، 6 × 2500 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1327",
+      "creatorId": "4278439000000103494",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Salmon Portions skinless ISFJORD 200g",
+          "after": "ISFJORD Frozen Skinless Salmon Portions, 200 g"
+        },
+        "Translated_Name": {
+          "before": "أجزاء سمك السلمون المجمدة بلا جلد ISFJORD 200g",
+          "after": "قطع سلمون مجمدة دون جلد إيسفيورد، 200 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1404",
+      "creatorId": "4278439000000103936",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Americana Super Ground Beef 20 * 400g",
+          "after": "Americana Super Ground Beef, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "أمريكانا سوبر الأرض لحوم البقر 20 * 400g",
+          "after": "لحم بقري مفروم أمريكانا سوبر، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1414",
+      "creatorId": "4278439000000103976",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "AMERICANA AlSayyad Breaded Shrimps 1kg x 10",
+          "after": "Americana Al Sayyad Breaded Shrimp, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "الصياد روبيان بالبقسماط 1كجم × 10",
+          "after": "روبيان الصياد بالبقسماط من أمريكانا، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1431",
+      "creatorId": "4278439000000104044",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "White Sesame Seed whole (kg)",
+          "after": "Whole White Sesame Seeds — per kg"
+        },
+        "Translated_Name": {
+          "before": "بذور السمسم الأبيض كلها (كلغ)",
+          "after": "سمسم أبيض حب كامل — بالكيلوجرام"
+        }
+      }
+    },
+    {
+      "sku": "CR1432",
+      "creatorId": "4278439000000104050",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Tusan White Oats 24 * 400 g",
+          "after": "Tusan White Oats, 24 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "توسان الشوفان الأبيض 24 * 400 غرام",
+          "after": "شوفان أبيض توسان، 24 × 400 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1437",
+      "creatorId": "4278439000000104082",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Shams Sunflower Oil ( 4 * 2.9 litre)",
+          "after": "Shams Sunflower Oil, 4 × 2.9 L"
+        },
+        "Translated_Name": {
+          "before": "زيت عباد الشمس شمس (4 * 2.9 لتر)",
+          "after": "زيت دوار الشمس شمس، 4 × 2.9 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1438",
+      "creatorId": "4278439000000104094",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Shams Sunflower Oil ( 6 * 1.8 litre)",
+          "after": "Shams Sunflower Oil, 6 × 1.8 L"
+        },
+        "Translated_Name": {
+          "before": "زيت عباد الشمس شمس (6 * 1.8 لتر)",
+          "after": "زيت دوار الشمس شمس، 6 × 1.8 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1441",
+      "creatorId": "4278439000000104116",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Canned White Beans Luna 24 x 400g",
+          "after": "Luna Canned White Beans, 24 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "الفاصوليا البيضاء المعلبة لونا 24 × 400g",
+          "after": "فاصوليا بيضاء معلبة لونا، 24 × 400 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1442",
+      "creatorId": "4278439000000104122",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Rana White Vinegar 30liters",
+          "after": "Rana White Vinegar, 30 L"
+        },
+        "Translated_Name": {
+          "before": "رانا الخل الأبيض 30 لتر",
+          "after": "خل أبيض رانا، 30 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1450",
+      "creatorId": "4278439000000104184",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "TOTAPURI MANGO PULP PREMIER 16*1 KG",
+          "after": "Premier Totapuri Mango Pulp, 16 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "توتابوري مانغو بولب بريمير 16 * 1 كجم",
+          "after": "لب مانجو توتابوري بريمير، 16 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1461",
+      "creatorId": "4278439000000104242",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "French Fries Mondella 4* 2.5 kg 9/9 pieces",
+          "after": "Mondella French Fries, 9/9 Cut, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "البطاطس المقلية مونديلا 4* 2.5 كجم 9/9 قطعة",
+          "after": "بطاطس مقلية مونديلا، تقطيع 9/9، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1481",
+      "creatorId": "4278439000000104370",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "1000g Astra Whole Chicken  10 pcs",
+          "after": "Astra Whole Chicken, 10 × 1000 g"
+        },
+        "Translated_Name": {
+          "before": "1000g أسترا الدجاج كله 10 قطع",
+          "after": "دجاج كامل أسترا، 10 × 1000 جم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "sku": "CR1405",
+      "creatorId": "4278439000000103940",
+      "reason": "Mumthaz name conflicts with Americana Brand; label/identity verification required."
+    },
+    {
+      "sku": "CR1440",
+      "creatorId": "4278439000000104110",
+      "reason": "400 g and 284 g could refer to different weight measures; cannot assert pack or drained/net weight."
+    },
+    {
+      "sku": "CR1445",
+      "creatorId": "4278439000000104148",
+      "reason": "Ruman Sulthan Turkey name and Fruits & Vegetables category are ambiguous; cannot infer product identity, origin or category."
+    }
+  ],
+  "sourcePolicy": "All changes are editorial cleanup/translation of current exact Creator product identities and pre-existing packing, NOT manufacturer certification. No new product specifications inferred. Descriptions/translated packing not exposed by All_Products readback; untouched. Existing supplier/cost/prices are not copied to GitHub.",
+  "api": {
+    "creatorGetApplications": 1,
+    "creatorExactReads": 20,
+    "creatorWrites": 17,
+    "creatorReadbacks": 17,
+    "creatorConnectorCalls": 55,
+    "billableUsage": "unavailable",
+    "fullRescan": false
+  },
+  "writes": {
+    "name": 17,
+    "arabicName": 17,
+    "description": 0,
+    "packing": 0,
+    "brand": 0,
+    "category": 0,
+    "images": 0,
+    "price": 0,
+    "cost": 0,
+    "stock": 0,
+    "margin": 0,
+    "tax": 0,
+    "visibility": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "checkoutQA": {
+    "issue": 27,
+    "authenticatedTestsExecuted": false,
+    "status": "NO-GO",
+    "reason": "No authenticated customer checkout test was performed; financial orders prohibited."
+  },
+  "sync": {
+    "fourWayVerified": false,
+    "sourceWatermarkAdvanced": false,
+    "registryOutboxUnchanged": true
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-06",
+  "run": 102,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run101.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489463",
+    "4278439000002489467",
+    "4278439000002489471",
+    "4278439000002489479",
+    "4278439000002489483",
+    "4278439000002489503",
+    "4278439000002489507",
+    "4278439000002489651",
+    "4278439000002489691",
+    "4278439000002489831",
+    "4278439000002529007",
+    "4278439000002569007",
+    "4278439000002593007",
+    "4278439000002613003",
+    "4278439000002613036",
+    "4278439000002639085",
+    "4278439000002665066",
+    "4278439000002667007",
+    "4278439000002671015",
+    "4278439000002672007"
+  ],
+  "products": [
+    {
+      "id": "4278439000002489463",
+      "sku": "",
+      "name": "CHICKEN Franks 375g x 24",
+      "issues": [
+        "missing_sku",
+        "price_not_validated_no_edit"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "نقانق دجاج 375 جرام × 24",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489467",
+      "sku": "",
+      "name": "AL KABEER SHRIMPS SMALL 400g x 20",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الكبير شريمبس صغيرة 400g × 20",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489471",
+      "sku": "",
+      "name": "SHRIMPS MEDIUM 400g x 20",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "جمبري وسط 400 جرام × 20",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489479",
+      "sku": "",
+      "name": "AL KABEER SHRIMPS X LARGE 400g x 10",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "روبيان الكبير كبير 400 جرام × 10",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489483",
+      "sku": "",
+      "name": "FALCON PREMIUM EXTRA LARGE SHRIMPS 1LB X10 PKT",
+      "issues": [
+        "missing_sku",
+        "falcon_vs_al_kabeer_brand_discrepancy"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "فالكون جمبري كبير جدًا 1 رطل × 10 باكت",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489503",
+      "sku": "",
+      "name": "AL KABEER TILAPIA FISH 200/300 GMS(TAIWAN) 1kg x 10",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الكبير سمك بلطي 200/300 جرام (تايوان) 1 كجم × 10",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489507",
+      "sku": "",
+      "name": "TILAPIA FISH 300/500 GMS(TAIWAN) 1kg x 10 AL KABEER",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "سمك بلطي 300/500 جرام (تايواني) 1 كجم × 10 الكبير",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489651",
+      "sku": "",
+      "name": "PANEER Cubes 500g x 10",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مكعبات بانير 500 جرام × 10",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489691",
+      "sku": "",
+      "name": "AL KABEER FRENCH Fries 1kg x 10 9/9 mm",
+      "issues": [
+        "missing_sku"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الكبير - بطاطس مقلية 1 كجم × 10 9/9 مم",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002489831",
+      "sku": "",
+      "name": "ZING CHKN FILLET SPICY 1 KG + CHICKEN NUGGET 750GM X 3 Pieces",
+      "issues": [
+        "missing_sku",
+        "missing_image",
+        "bundle_variant_ambiguous"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "زنج فيليه دجاج حار 1 كجم + ناجت دجاج 750 جم × 3 قطع",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002529007",
+      "sku": "SKU-2757",
+      "name": "KDD Thick Cream 1 L × 12 - Carton",
+      "issues": [
+        "price_not_validated_no_edit"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "كي دي دي قشطة سميكة 1 لتر × 12- كرتون",
+        "brand": "KDD",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002569007",
+      "sku": "SKU-2763",
+      "name": "Goody Mayonnaise Gallon 3.78 L × 4",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مايونيز قودي 3.78 لتر × 4 - كرتون",
+        "brand": "Goody",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002593007",
+      "sku": "SKU-2772",
+      "name": "Americana ALSAYYAD Shrimps Popcorn 18 * 300 G",
+      "issues": [
+        "missing_selling_unit",
+        "price_not_validated_no_edit",
+        "shrimp_popcorn_selling_unit_missing"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "أمريكانا ألسايد الروبيان الفشار 18 * 300 غرام",
+        "brand": "Americana",
+        "unit": "",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002613003",
+      "sku": "SKU-2785",
+      "name": "Australian Wagyu Beef Short Ribs MB 6-7",
+      "issues": [
+        "missing_image"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "لحم واغيو أسترالي أضلاع قصيرة MB 6-7",
+        "brand": "Carrara 640",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002613036",
+      "sku": "SKU-2786",
+      "name": "Midfield Australian Frozen Lamb Rack 12 - 20 kg",
+      "issues": [
+        "lamb_rack_missing_from_arabic_title"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "ميدفيلد لحم ضأن أسترالي مجمد 12 - 20 كجم",
+        "brand": "MIDFIELD",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002639085",
+      "sku": "SKU-2800",
+      "name": "AL KABEER MOZZARELLA CHEESE STICKS - BREADED - 1kg x 5",
+      "issues": [
+        "breaded_vs_baked_arabic_translation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الكبير أصابع جبنة موزاريلا - مخبوز - 1 كجم × 5",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002665066",
+      "sku": "SKU-2813",
+      "name": "Goody Fettuccini Pasta, 500G, Durum Wheat Semolina Pasta",
+      "issues": [
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "جيد فيتوتشيني المعكرونة، 500G، دور القمح سيمولينا المعكرونة",
+        "brand": "GOODY",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002667007",
+      "sku": "SKU-2814",
+      "name": "Al Watania Minced Chicken 400 g x 14",
+      "issues": [
+        "price_not_validated_no_edit"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "الوطنية الدجاج المفروم 400 غرام × 14",
+        "brand": "WATANIA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002671015",
+      "sku": "SKU-2816",
+      "name": "800g Alwatania Poultry Frozen Chicken ( 800g X 10 )",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "دواجن الوطنية 800 جرام دجاج مجمد ( 800 جرام × 10 )",
+        "brand": "WATANIA POULTRY",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002672007",
+      "sku": "SKU-2815",
+      "name": "Tomato Paste Rana 4.45 Kg x 6",
+      "issues": [
+        "price_not_validated_no_edit"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "معجون الطماطم رانا 4.45 كجم × 6",
+        "brand": "RANA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 24,
+  "creatorProductReadCalls": 3,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "Read-only exact-ID review; translated description and packing fields unavailable in All_Products readback. Prices are flags only, not proof of absent customer pricing.",
+  "nextPendingId": "4278439000002674007"
+}

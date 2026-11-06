@@ -1,0 +1,709 @@
+{
+  "schema": 1,
+  "snapshot": "2026-10-27",
+  "batch": 12,
+  "totalBatches": 20,
+  "expected": 106,
+  "processed": 106,
+  "manifestRef": "catalogue-sync-contract-20261024:integrations/catalogue-sync/batch-manifest-20261027.json",
+  "scope": "mena.Products_Books",
+  "creatorIdRange": [
+    "4278439000002489127",
+    "4278439000002489547"
+  ],
+  "verifiedCreatorIds": [
+    "4278439000002489127",
+    "4278439000002489131",
+    "4278439000002489135",
+    "4278439000002489139",
+    "4278439000002489143",
+    "4278439000002489147",
+    "4278439000002489151",
+    "4278439000002489155",
+    "4278439000002489159",
+    "4278439000002489163",
+    "4278439000002489167",
+    "4278439000002489171",
+    "4278439000002489175",
+    "4278439000002489179",
+    "4278439000002489183",
+    "4278439000002489187",
+    "4278439000002489191",
+    "4278439000002489195",
+    "4278439000002489199",
+    "4278439000002489203",
+    "4278439000002489207",
+    "4278439000002489211",
+    "4278439000002489215",
+    "4278439000002489219",
+    "4278439000002489223",
+    "4278439000002489227",
+    "4278439000002489231",
+    "4278439000002489235",
+    "4278439000002489239",
+    "4278439000002489243",
+    "4278439000002489247",
+    "4278439000002489251",
+    "4278439000002489255",
+    "4278439000002489259",
+    "4278439000002489263",
+    "4278439000002489267",
+    "4278439000002489271",
+    "4278439000002489275",
+    "4278439000002489279",
+    "4278439000002489283",
+    "4278439000002489287",
+    "4278439000002489291",
+    "4278439000002489295",
+    "4278439000002489299",
+    "4278439000002489303",
+    "4278439000002489307",
+    "4278439000002489311",
+    "4278439000002489315",
+    "4278439000002489319",
+    "4278439000002489323",
+    "4278439000002489327",
+    "4278439000002489331",
+    "4278439000002489335",
+    "4278439000002489339",
+    "4278439000002489343",
+    "4278439000002489347",
+    "4278439000002489351",
+    "4278439000002489355",
+    "4278439000002489359",
+    "4278439000002489363",
+    "4278439000002489367",
+    "4278439000002489371",
+    "4278439000002489375",
+    "4278439000002489379",
+    "4278439000002489383",
+    "4278439000002489387",
+    "4278439000002489391",
+    "4278439000002489395",
+    "4278439000002489399",
+    "4278439000002489403",
+    "4278439000002489407",
+    "4278439000002489411",
+    "4278439000002489415",
+    "4278439000002489419",
+    "4278439000002489423",
+    "4278439000002489427",
+    "4278439000002489431",
+    "4278439000002489435",
+    "4278439000002489439",
+    "4278439000002489443",
+    "4278439000002489447",
+    "4278439000002489451",
+    "4278439000002489455",
+    "4278439000002489459",
+    "4278439000002489463",
+    "4278439000002489467",
+    "4278439000002489471",
+    "4278439000002489475",
+    "4278439000002489479",
+    "4278439000002489483",
+    "4278439000002489487",
+    "4278439000002489491",
+    "4278439000002489495",
+    "4278439000002489499",
+    "4278439000002489503",
+    "4278439000002489507",
+    "4278439000002489511",
+    "4278439000002489515",
+    "4278439000002489519",
+    "4278439000002489523",
+    "4278439000002489527",
+    "4278439000002489531",
+    "4278439000002489535",
+    "4278439000002489539",
+    "4278439000002489543",
+    "4278439000002489547"
+  ],
+  "counts": {
+    "missingUnit": 0,
+    "missingBrand": 0,
+    "missingBooksMapping": 0,
+    "missingArabic": 0,
+    "missingImage": 0,
+    "missingSKU": 106,
+    "missingOrZeroSellingPrice": 2,
+    "storefrontVisible": 98,
+    "storefrontMissingSKU": 98,
+    "storefrontMissingOrZeroSellingPrice": 0
+  },
+  "duplicateNonblankSKUs": [],
+  "duplicateNonblankBooksItemIds": [],
+  "missingSKURecords": [
+    {
+      "creatorId": "4278439000002489243",
+      "booksItemId": "4886172000004810207",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489311",
+      "booksItemId": "4886172000004840039",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489315",
+      "booksItemId": "4886172000004803047",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489319",
+      "booksItemId": "4886172000004804087",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489323",
+      "booksItemId": "4886172000004796319",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489327",
+      "booksItemId": "4886172000004796337",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489331",
+      "booksItemId": "4886172000004779071",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489335",
+      "booksItemId": "4886172000004802123",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489339",
+      "booksItemId": "4886172000004808267",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489343",
+      "booksItemId": "4886172000004799191",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489347",
+      "booksItemId": "4886172000004798099",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489499",
+      "booksItemId": "4886172000004802183",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489519",
+      "booksItemId": "4886172000004797126",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489523",
+      "booksItemId": "4886172000004789172",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489527",
+      "booksItemId": "4886172000004851019",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489531",
+      "booksItemId": "4886172000004796235",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489535",
+      "booksItemId": "4886172000004804131",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489463",
+      "booksItemId": "4886172000004793111",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489539",
+      "booksItemId": "4886172000004772127",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489547",
+      "booksItemId": "4886172000004802001",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489451",
+      "booksItemId": "4886172000004805117",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489455",
+      "booksItemId": "4886172000004794254",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489459",
+      "booksItemId": "4886172000004779107",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489143",
+      "booksItemId": "4886172000004772091",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489147",
+      "booksItemId": "4886172000004800060",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489151",
+      "booksItemId": "4886172000004803029",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489155",
+      "booksItemId": "4886172000004805077",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489159",
+      "booksItemId": "4886172000004794196",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489163",
+      "booksItemId": "4886172000004810135",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489167",
+      "booksItemId": "4886172000004802025",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489171",
+      "booksItemId": "4886172000004810153",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489175",
+      "booksItemId": "4886172000004811095",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489179",
+      "booksItemId": "4886172000004796283",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489183",
+      "booksItemId": "4886172000004810171",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489187",
+      "booksItemId": "4886172000004796217",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489191",
+      "booksItemId": "4886172000004772109",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489231",
+      "booksItemId": "4886172000004811113",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489199",
+      "booksItemId": "4886172000004799137",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489203",
+      "booksItemId": "4886172000004795352",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489207",
+      "booksItemId": "4886172000004794214",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489211",
+      "booksItemId": "4886172000004793053",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489215",
+      "booksItemId": "4886172000004797264",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489219",
+      "booksItemId": "4886172000004779129",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489227",
+      "booksItemId": "4886172000004779147",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489235",
+      "booksItemId": "4886172000004795410",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489239",
+      "booksItemId": "4886172000004810063",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489247",
+      "booksItemId": "4886172000004843025",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489251",
+      "booksItemId": "4886172000004799155",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489255",
+      "booksItemId": "4886172000004793071",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489259",
+      "booksItemId": "4886172000004804029",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489263",
+      "booksItemId": "4886172000004795432",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489267",
+      "booksItemId": "4886172000004789132",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489271",
+      "booksItemId": "4886172000004799173",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489275",
+      "booksItemId": "4886172000004802043",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489279",
+      "booksItemId": "4886172000004789150",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489283",
+      "booksItemId": "4886172000004811131",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489287",
+      "booksItemId": "4886172000004796301",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489291",
+      "booksItemId": "4886172000004794232",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489295",
+      "booksItemId": "4886172000004792065",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489299",
+      "booksItemId": "4886172000004808231",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489303",
+      "booksItemId": "4886172000004808249",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489307",
+      "booksItemId": "4886172000004802105",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489355",
+      "booksItemId": "4886172000004809123",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489359",
+      "booksItemId": "4886172000004799209",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489367",
+      "booksItemId": "4886172000004799043",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489371",
+      "booksItemId": "4886172000004799227",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489375",
+      "booksItemId": "4886172000004793089",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489379",
+      "booksItemId": "4886172000004811149",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489383",
+      "booksItemId": "4886172000004800114",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489387",
+      "booksItemId": "4886172000004804047",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489391",
+      "booksItemId": "4886172000004805099",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489395",
+      "booksItemId": "4886172000004799245",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489399",
+      "booksItemId": "4886172000004809141",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489403",
+      "booksItemId": "4886172000004772013",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489407",
+      "booksItemId": "4886172000004811041",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489411",
+      "booksItemId": "4886172000004811171",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489419",
+      "booksItemId": "4886172000004796355",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489423",
+      "booksItemId": "4886172000004779089",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489427",
+      "booksItemId": "4886172000004811189",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489431",
+      "booksItemId": "4886172000004809159",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489435",
+      "booksItemId": "4886172000004795454",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489443",
+      "booksItemId": "4886172000004808191",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489447",
+      "booksItemId": "4886172000004810225",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489543",
+      "booksItemId": "4886172000004796373",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489467",
+      "booksItemId": "4886172000004802163",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489471",
+      "booksItemId": "4886172000004797106",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489479",
+      "booksItemId": "4886172000004799263",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489483",
+      "booksItemId": "4886172000004805135",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489475",
+      "booksItemId": "4886172000004772031",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489487",
+      "booksItemId": "4886172000004779173",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489491",
+      "booksItemId": "4886172000004772051",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489495",
+      "booksItemId": "4886172000004792083",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489127",
+      "booksItemId": "4886172000004797088",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489131",
+      "booksItemId": "4886172000004809011",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489135",
+      "booksItemId": "4886172000004809101",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489139",
+      "booksItemId": "4886172000004789110",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489195",
+      "booksItemId": "4886172000004810189",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489223",
+      "booksItemId": "4886172000004808173",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489351",
+      "booksItemId": "4886172000004809029",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489363",
+      "booksItemId": "4886172000004800096",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489415",
+      "booksItemId": "4886172000004808001",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489439",
+      "booksItemId": "4886172000004802145",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489503",
+      "booksItemId": "4886172000004804113",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489507",
+      "booksItemId": "4886172000004809177",
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489511",
+      "booksItemId": "4886172000004810081",
+      "storefrontVisible": true
+    },
+    {
+      "creatorId": "4278439000002489515",
+      "booksItemId": "4886172000004800132",
+      "storefrontVisible": true
+    }
+  ],
+  "zeroPriceRecords": [
+    {
+      "creatorId": "4278439000002489463",
+      "sku": null,
+      "storefrontVisible": false
+    },
+    {
+      "creatorId": "4278439000002489231",
+      "sku": null,
+      "storefrontVisible": false
+    }
+  ],
+  "verifiedFieldsChanged": 0,
+  "changes": [],
+  "sourceLinks": [],
+  "issueCategories": [
+    {
+      "key": "CATALOG-MISSING-SKU-012",
+      "description": "All 106 records have blank SKU; 98 storefront-visible. Use Creator ID and verified Books mapping only; block SKU-based joins and auto sync until identity resolution.",
+      "count": 106
+    },
+    {
+      "key": "CATALOG-NONSTOREFRONT-ZERO-PRICE-012",
+      "description": "Two records have zero/missing selling price, neither storefront-visible; financial values untouched.",
+      "count": 2
+    },
+    {
+      "key": "CATALOG-CHECKOUT-QA-NOGO",
+      "description": "Authenticated EN/AR RTL, UOM, private-cost isolation, customer-specific price, VAT, cart persistence, Buy Again, COD/credit, confirm-once and end-to-end ACK remain without current passing receipts; GitHub issue #27 remains open.",
+      "count": null
+    }
+  ],
+  "qa": {
+    "source": "https://github.com/yasirkolathur/menafoods/issues/27",
+    "result": "NO-GO for financial checkout; no authenticated end-to-end test performed in this batch; no financial order created",
+    "verified": "Creator catalog identity/visibility fields only; cannot infer deployed UI or authenticated behavior from Creator snapshot"
+  },
+  "verification": "Compact Creator ID range query; all 106 frozen-manifest IDs matched once, zero extras/omissions; no nonblank duplicate Books IDs; no write attempted",
+  "observedCreatorReadCallsThisRun": 3,
+  "apiCallCountNote": "Observed connector calls only; provider billing/API-unit usage unavailable",
+  "nextBatch": 13
+}

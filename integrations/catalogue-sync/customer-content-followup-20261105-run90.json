@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-05",
+  "run": 90,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run89.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000104890",
+    "4278439000000104898",
+    "4278439000000104902",
+    "4278439000000104906",
+    "4278439000000104914",
+    "4278439000000104918",
+    "4278439000000104922",
+    "4278439000000104926",
+    "4278439000000104930",
+    "4278439000000104934",
+    "4278439000000104938",
+    "4278439000000104950",
+    "4278439000000104954",
+    "4278439000000104958",
+    "4278439000000104966",
+    "4278439000000104970",
+    "4278439000000104974",
+    "4278439000000104978",
+    "4278439000000104982",
+    "4278439000000104986"
+  ],
+  "reviewedSkus": [
+    "CR1569",
+    "CR1571",
+    "CR1572",
+    "CR1573",
+    "CR1575",
+    "CR1576",
+    "CR1577",
+    "CR1578",
+    "CR1579",
+    "CR1580",
+    "CR1581",
+    "CR1584",
+    "CR1585",
+    "CR1586",
+    "CR1588",
+    "CR1589",
+    "CR1590",
+    "CR1591",
+    "CR1592",
+    "CR1593"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 31,
+  "issues": [
+    {
+      "sku": "CR1584",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1584",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1584",
+      "type": "brand_title_mismatch_requires_variant_verification",
+      "brand": "Fine"
+    },
+    {
+      "sku": "CR1584",
+      "type": "arabic_brand_life_translated_as_common_noun"
+    },
+    {
+      "sku": "CR1585",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1585",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1585",
+      "type": "brand_title_mismatch_requires_variant_verification",
+      "brand": "AMERICANA"
+    },
+    {
+      "sku": "CR1586",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1588",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1588",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1589",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1589",
+      "type": "pack_size_absent_title_and_unit"
+    },
+    {
+      "sku": "CR1590",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1591",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1591",
+      "type": "selling_price_pack_variant_requires_private_review_no_financial_change"
+    },
+    {
+      "sku": "CR1592",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1593",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1593",
+      "type": "arabic_brand_life_translated_as_common_noun"
+    },
+    {
+      "sku": "CR1569",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1569",
+      "type": "english_corn_typo"
+    },
+    {
+      "sku": "CR1571",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1571",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1573",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1578",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1579",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1581",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1575",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1576",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1576",
+      "type": "brand_title_mismatch_requires_variant_verification",
+      "brand": "FINE"
+    },
+    {
+      "sku": "CR1576",
+      "type": "arabic_brand_life_translated_as_common_noun"
+    },
+    {
+      "sku": "CR1577",
+      "type": "missing_selling_unit"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 25,
+  "excludedOutOfBatch": 5,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000104992",
+  "nextPendingSku": "CR1594",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "Bounded exact-ID range; no edits. Product titles and Arabic text inspected; brand mismatches require exact-label confirmation. Existing image record references do not establish exact-image rights or downstream publication."
+}

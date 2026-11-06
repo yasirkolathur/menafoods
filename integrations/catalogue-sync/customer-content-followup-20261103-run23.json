@@ -1,0 +1,420 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 23",
+  "baseline": "Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-run22.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000007036047",
+      "sku": "SKU-3355",
+      "productNameBefore": "Almarai Uht Cooking Cream 500ml x 18",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007093077",
+      "sku": "SKU-3360",
+      "productNameBefore": "16-20  RAW IQF WHITE SHRIMP, P&D, TAIL-Off 1kg*10 (kg)",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007094517",
+      "sku": "SKU-3372",
+      "productNameBefore": "Strips Americana Chicken Regular 10×750 EGP",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007098084",
+      "sku": "SKU-3361",
+      "productNameBefore": "Sugar Al Osra 10kg Powder",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007102007",
+      "sku": "SKU-3357",
+      "productNameBefore": "French fries 9/9 Hyfarm 2.5kg x 4 -carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007102311",
+      "sku": "SKU-3366",
+      "productNameBefore": "Forsana American Cheese Slices  184 Slices – box of 8 pieces – 2.27 kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007104045",
+      "sku": "SKU-3362",
+      "productNameBefore": "fish fillet 0% Glaze 10 kg Safi",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007129013",
+      "sku": "SKU-3373",
+      "productNameBefore": "Damaski Sliced Cucumber Pickles 10kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007172072",
+      "sku": "SKU-3374",
+      "productNameBefore": "Alrai Chocolate Ice Cream Mix 1 L × 12 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007183171",
+      "sku": "SKU-3375",
+      "productNameBefore": "Fries seasoning 100g (Esnad) 100g x 18 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007184189",
+      "sku": "SKU-3376",
+      "productNameBefore": "1000g Whole Chicken UNEF 1KG X 10 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007195025",
+      "sku": "SKU-3379",
+      "productNameBefore": "Abu Bint Rice 1kg  x 12 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007197021",
+      "sku": "SKU-3380",
+      "productNameBefore": "Buy Abu Bint Egyptian Rice 2kg x 10 pieces - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007201011",
+      "sku": "SKU-3377",
+      "productNameBefore": "Kraft Cheese Can 100gmx60 pieces Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007206019",
+      "sku": "SKU-3381",
+      "productNameBefore": "Chicken nugget Excel 1 kg x 10 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007246105",
+      "sku": "SKU-3383",
+      "productNameBefore": "Hilal Frozen Chicken Chicken 1100 grx10 Pieces",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007246216",
+      "sku": "SKU-3385",
+      "productNameBefore": "Hilal Whole Chicken (1000g x 10 - Carton)",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007250314",
+      "sku": "SKU-3384",
+      "productNameBefore": "Maza Raja Rice India 4*10kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007321570",
+      "sku": "SKU-3391",
+      "productNameBefore": "Al-Kbous Loose Tea 5kg x 2 Pieces",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000007323078",
+      "sku": "SKU-3388",
+      "productNameBefore": "Dew Ulba 320mlx24pc",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000007036047",
+      "sku": "SKU-3355",
+      "field": "Translated_Name",
+      "before": "Almarai Uht Cooking Cream 500ml × 18",
+      "after": "كريمة طبخ المراعي UHT، 500 مل × 18",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007093077",
+      "sku": "SKU-3360",
+      "field": "Translated_Name",
+      "before": "16-20 جمبري أبيض نيء مجمد سريعاً، منزوع الذيل، 1 كجم × 10 (كجم)",
+      "after": "روبيان أبيض نيء مجمد فردياً، مقشر ومنظف، بدون ذيل، مقاس 16–20، 1 كجم × 10",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007094517",
+      "sku": "SKU-3372",
+      "field": "Translated_Name",
+      "before": "استریس دجاج امريكانا عادي 10×750 ج",
+      "after": "ستربس دجاج أمريكانا العادية",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007098084",
+      "sku": "SKU-3361",
+      "field": "Translated_Name",
+      "before": "مسحوق السكر العسراء 10 كجم",
+      "after": "سكر الأسرة بودرة، 10 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007104045",
+      "sku": "SKU-3362",
+      "field": "Translated_Name",
+      "before": "فيلات السمك 0% الزجاج 10 كجم Safi",
+      "after": "فيليه سمك صافي، 10 كجم، تغطية جليدية 0%",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007129013",
+      "sku": "SKU-3373",
+      "field": "Translated_Name",
+      "before": "دمشق شريحة الخيار المخللات 10 كجم",
+      "after": "مخلل خيار شرائح داماسكي، 10 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007183171",
+      "sku": "SKU-3375",
+      "field": "Translated_Name",
+      "before": "(توابل البطاطس 100 جرام (اسناد",
+      "after": "بهارات البطاطس المقلية إسناد، 100 جم × 18 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007197021",
+      "sku": "SKU-3380",
+      "field": "Translated_Name",
+      "before": "شراء الأرز المصري أبو بنت 2 كجم × 10 قطع - كرتون",
+      "after": "أرز أبو بنت المصري، 2 كجم × 10 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007197021",
+      "sku": "SKU-3380",
+      "field": "Product_Name",
+      "before": "Buy Abu Bint Egyptian Rice 2kg x 10 pieces - Carton",
+      "after": "Abu Bint Egyptian Rice, 2 kg × 10 — Carton",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007206019",
+      "sku": "SKU-3381",
+      "field": "Translated_Name",
+      "before": "قطع دجاج ناجتس إكسل، 1 كجم × 10 قطع - كرتون",
+      "after": "ناجتس دجاج إكسل، 1 كجم × 10 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    },
+    {
+      "creatorId": "4278439000007321570",
+      "sku": "SKU-3391",
+      "field": "Translated_Name",
+      "before": "الكبوس الشاي الفضفاض 5 كجم × 2 قطعة",
+      "after": "شاي الكبوس السائب، 5 كجم × 2",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + field value",
+      "source": "Existing exact-ID Creator Product_Name/SKU and existing stated variant; editorial correction only, no independent manufacturer certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details where independently supported"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3355",
+      "kind": "uom_pack",
+      "detail": "Selling unit out undefined; 500 ml × 18 product variant must not imply a validated conversion."
+    },
+    {
+      "sku": "SKU-3360",
+      "kind": "uom_pack",
+      "detail": "Selling unit kg versus 1 kg × 10 packs; carton/weight order interpretation and shrimp 16–20 count basis unverified."
+    },
+    {
+      "sku": "SKU-3372",
+      "kind": "pack_ambiguity",
+      "detail": "English pack notation 10×750 EGP ambiguous; Arabic title corrected without guessing pack or origin."
+    },
+    {
+      "sku": "SKU-3366",
+      "kind": "variant_brand",
+      "detail": "184 slices, box of 8 pieces and 2.27 kg conflict or lack relation; FURSAN Brand versus Forsana title held."
+    },
+    {
+      "sku": "SKU-3362",
+      "kind": "identity_claim",
+      "detail": "Safi could denote fish type or brand; 0% glaze claim not independently label-certified; Brand left blank."
+    },
+    {
+      "sku": "SKU-3373",
+      "kind": "brand_pack",
+      "detail": "Damaski brand field blank and 10 kg tin variant not independently manufacturer-verified."
+    },
+    {
+      "sku": "SKU-3379",
+      "kind": "uom_pack",
+      "detail": "Selling unit bag conflicts with 1 kg × 12 carton title; conversion held."
+    },
+    {
+      "sku": "SKU-3384",
+      "kind": "uom_pack",
+      "detail": "Selling unit bag conflicts with 4 × 10 kg title; conversion held."
+    },
+    {
+      "sku": "SKU-3388",
+      "kind": "uom_identity",
+      "detail": "Selling unit out undefined; Dew Ulba exact drink/pack identity needs label confirmation."
+    },
+    {
+      "sku": "SKU-3385",
+      "kind": "brand",
+      "detail": "Hilal appears in title but Brand field blank; no independent exact-variant label confirmation; no brand write."
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not verified in this run",
+    "productVisibility": "All 20 exact Creator records storefront Yes; Commerce/Catalyst unverified",
+    "images": "Creator image references present; exact match, rights, Commerce/Catalyst rendering unverified",
+    "CTNPCSKG": "out/bag/kg unit interpretation and pack variants held; no conversions changed",
+    "customerPriceVsCost": "not independently verified; no financial edits",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency/Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; four duplicate-active IDs remain blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed. All 11 title field edits independently verified.",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 11,
+    "verifiedProductsWithPartialCorrections": 10,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 10,
+    "creatorConnectorCallsConfirmed": 47,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 460,
+    "partialCorrectionsCumulative": 176
+  },
+  "constraints": {
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncSettingsWrites": 0,
+    "deployments": 0,
+    "createdProducts": 0
+  }
+}

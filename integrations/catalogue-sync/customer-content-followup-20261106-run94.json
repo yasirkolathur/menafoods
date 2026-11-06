@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-06",
+  "run": 94,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run93.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000106186",
+    "4278439000000106190",
+    "4278439000000106198",
+    "4278439000000106206",
+    "4278439000000106210",
+    "4278439000000106214",
+    "4278439000000106246",
+    "4278439000000106252",
+    "4278439000000106260",
+    "4278439000000106294",
+    "4278439000000106356",
+    "4278439000000106360",
+    "4278439000000106372",
+    "4278439000000106384",
+    "4278439000000106392",
+    "4278439000000106422",
+    "4278439000000106468",
+    "4278439000000106502",
+    "4278439000000106510",
+    "4278439000000106514"
+  ],
+  "reviewedSkus": [
+    "CR1704",
+    "CR1705",
+    "CR1707",
+    "CR1709",
+    "CR1710",
+    "CR1711",
+    "CR1717",
+    "CR1718",
+    "CR1719",
+    "CR1724",
+    "CR1731",
+    "CR1732",
+    "CR1735",
+    "CR1738",
+    "CR1740",
+    "CR1744",
+    "CR1752",
+    "CR1757",
+    "CR1759",
+    "CR1760"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 34,
+  "issues": [
+    {
+      "sku": "CR1704",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1704",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1704",
+      "type": "pack_or_unit_requires_evidence"
+    },
+    {
+      "sku": "CR1705",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1705",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1705",
+      "type": "pack_or_unit_requires_evidence"
+    },
+    {
+      "sku": "CR1707",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1709",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1709",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1711",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1717",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1718",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1718",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1719",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1719",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1724",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1724",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1731",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1732",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1732",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1732",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1732",
+      "type": "pack_or_unit_requires_evidence"
+    },
+    {
+      "sku": "CR1740",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1740",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1752",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1752",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1752",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1752",
+      "type": "pack_or_unit_requires_evidence"
+    },
+    {
+      "sku": "CR1757",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1759",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1759",
+      "type": "brand_unverified_or_generic"
+    },
+    {
+      "sku": "CR1759",
+      "type": "title_or_arabic_translation_requires_label_verification"
+    },
+    {
+      "sku": "CR1759",
+      "type": "pack_or_unit_requires_evidence"
+    },
+    {
+      "sku": "CR1760",
+      "type": "brand_unverified_or_generic"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 57,
+  "excludedOutOfBatch": 37,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000106536",
+  "nextPendingSku": "CR1764",
+  "readbackLimitations": "Translated description and packing fields not exposed in All_Products API",
+  "notes": "No edits; brand and packaging ambiguities require label/manufacturer evidence. Verified exact IDs against immutable manifest; immutable checkpoint overlay."
+}

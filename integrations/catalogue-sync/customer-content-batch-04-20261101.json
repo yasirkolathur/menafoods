@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-01",
+  "batch": 4,
+  "kind": "customer-facing-title-translation-editorial-cleanup",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 17,
+    "exactIdSkuNameReadbacks": 17,
+    "verifiedFieldsChanged": 34,
+    "held": 3
+  },
+  "changes": [
+    {
+      "sku": "CR1487",
+      "creatorId": "4278439000000104440",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "700g Sadia  Whole Chicken Griller Brazil (14x700g)",
+          "after": "Sadia Whole Chicken Griller, Brazil, 14 × 700 g"
+        },
+        "Translated_Name": {
+          "before": "700 غرام شواء الدجاج كله البرازيل (14x700 غرام)",
+          "after": "دجاج ساديا كامل للشوي، برازيلي، 14 × 700 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1493",
+      "creatorId": "4278439000000104482",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Perdix Brazilian Frozen Chicken Half Breast 4 * 2.5kg",
+          "after": "Perdix Frozen Chicken Half Breast, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "نصف صدور دجاج برازيلي مجمد من بيرديكس 4*2.5 كجم",
+          "after": "نصف صدور دجاج مجمدة بيرديكس، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1494",
+      "creatorId": "4278439000000104490",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Brazilian Frozen Chicken Shawarma 4 * 2.5kg Seara",
+          "after": "Seara Frozen Chicken Shawarma, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "شاورما الدجاج البرازيلي المجمد 4 * 2.5kg Seara",
+          "after": "شاورما دجاج مجمدة سيارا، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1499",
+      "creatorId": "4278439000000104526",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Indian Boneless Buffalo – Rump Steak 20kg #45",
+          "after": "Frozen Indian Boneless Buffalo Rump Steak, 20 kg, #45"
+        },
+        "Translated_Name": {
+          "before": "الجاموس الهندي المجمد بلا عظام – شريحة لحم رمب 20kg #45",
+          "after": "لحم جاموس هندي مجمد دون عظم، قطعة رامب ستيك، 20 كجم، رقم 45"
+        }
+      }
+    },
+    {
+      "sku": "CR1501",
+      "creatorId": "4278439000000104540",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Boneless Veal -   Tenderloin 18kg #99",
+          "after": "Frozen Boneless Veal Tenderloin, 18 kg, #99"
+        },
+        "Translated_Name": {
+          "before": "لحم عجل هندي مجمد - لحم تندرلوين 18 كجم # 99",
+          "after": "فيليه عجل مجمد دون عظم، 18 كجم، رقم 99"
+        }
+      }
+    },
+    {
+      "sku": "CR1505",
+      "creatorId": "4278439000000104572",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Cat Fish Steak 1kgx10",
+          "after": "Frozen Catfish Steaks, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "ستيك سمك السلور مجمد 1 كجم × 10",
+          "after": "شرائح سمك السلور المجمدة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1506",
+      "creatorId": "4278439000000104580",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Pangus Fish Steak 1 kg x 10",
+          "after": "Frozen Pangus Fish Steaks, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "شريحة لحم سمك بانغوس المجمدة 1 كجم × 10",
+          "after": "شرائح سمك بانغوس المجمدة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1509",
+      "creatorId": "4278439000000104602",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "VEGETABLE COOKING OIL Mr Chef 1*17 LITER",
+          "after": "Mr Chef Vegetable Cooking Oil, 17 L Tin"
+        },
+        "Translated_Name": {
+          "before": "زيت الطهي النباتي السيد شيف  1 *17 لتر",
+          "after": "زيت طبخ نباتي مستر شيف، عبوة صفيح 17 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1510",
+      "creatorId": "4278439000000104608",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "VEGETABLE COOKING OIL DALAL 1*17 LITER",
+          "after": "Dalal Vegetable Cooking Oil, 17 L Tin"
+        },
+        "Translated_Name": {
+          "before": "زيت الطهي النباتي دلال  1 *17 لتر",
+          "after": "زيت طبخ نباتي دلال، عبوة صفيح 17 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1511",
+      "creatorId": "4278439000000104612",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "VEGETABLE COOKING OIL ARABI 1*17 LITER",
+          "after": "Arabi Vegetable Cooking Oil, 17 L Tin"
+        },
+        "Translated_Name": {
+          "before": "زيت الطهي النباتي عربي 1 *17 لتر",
+          "after": "زيت طبخ نباتي عربي، عبوة صفيح 17 لتر"
+        }
+      }
+    },
+    {
+      "sku": "CR1521",
+      "creatorId": "4278439000000104654",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "BLACK OLIVES COPOLIVA 12*100 GM",
+          "after": "Copoliva Black Olives, 12 × 100 g"
+        },
+        "Translated_Name": {
+          "before": "زيتون الاسود كوبوليفا 12*100 جم",
+          "after": "زيتون أسود كوبوليفا، 12 × 100 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1522",
+      "creatorId": "4278439000000104658",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "MOZZARELLA CHEESE STICKS LAMBWESTON 6*1 KG",
+          "after": "Lamb Weston Mozzarella Cheese Sticks, 6 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "أصابع جبن الموزاريللا لامب وستون 6*1 كجم",
+          "after": "أصابع جبن موزاريلا لامب ويستون، 6 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1570",
+      "creatorId": "4278439000000104894",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "MIXED VEGETABLE LIFE 20*400 GM",
+          "after": "Life Mixed Vegetables, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "خضار مشكل حياة 20*400 جم",
+          "after": "خضروات مشكلة لايف، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1582",
+      "creatorId": "4278439000000104942",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "MOLOKHIA MONTANA 20*400 GM",
+          "after": "Montana Molokhia, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "ملوخية مونتانا 20*400 جم",
+          "after": "ملوخية مونتانا، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "sku": "CR1605",
+      "creatorId": "4278439000000105036",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "POTATO WEDGES DARI 10*1 KG",
+          "after": "Dari Potato Wedges, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "بطاطس ويدجز داري 10*1 كجم",
+          "after": "بطاطس ودجز داري، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "sku": "CR1607",
+      "creatorId": "4278439000000105044",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "French Fries Dari 9/9 pieces 2.5kg x 4 - carton",
+          "after": "Dari French Fries, 9/9 Cut, 4 × 2.5 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية داري 9/9 قطع 2.5 كجم × 4 - كرتون",
+          "after": "بطاطس مقلية داري، تقطيع 9/9، 4 × 2.5 كجم — كرتون"
+        }
+      }
+    },
+    {
+      "sku": "CR1609",
+      "creatorId": "4278439000000105052",
+      "readbackVerified": true,
+      "fields": {
+        "Product_Name": {
+          "before": "LABNEH DARI 4*2750 GM",
+          "after": "Dari Labneh, 4 × 2750 g"
+        },
+        "Translated_Name": {
+          "before": "لبنة داري 4*2750 جم",
+          "after": "لبنة داري، 4 × 2750 جم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "sku": "CR1598",
+      "id": "4278439000000105008",
+      "reason": "Unverified Fine Life identity/brand; brand blank and Arabic name ambiguous. Require label before identity change."
+    },
+    {
+      "sku": "CR1623",
+      "id": "4278439000000105124",
+      "reason": "Selling unit kg but title references 10 × 1 kg bags; shrimp 31–40 size basis unspecified. Avoid packaging/price-unit misrepresentation."
+    },
+    {
+      "sku": "CR1624",
+      "id": "4278439000000105132",
+      "reason": "Selling unit kg, shrimp 26–30 size basis and packing not specified. Require label/packing evidence before customer content change."
+    }
+  ],
+  "sourcePolicy": "Editorial corrections from existing exact Creator ID/SKU, title, Arabic title, brand and pack/UOM records only; not manufacturer-certified. Existing supplier, cost, pricing, margin, tax and order fields not exported. No new factual specifications, origin, allergens, GTIN or packaging inferred. Description and translated packing remain untouched where independent readback unavailable.",
+  "api": {
+    "creatorGetApplications": 1,
+    "creatorExactReads": 20,
+    "creatorWrites": 17,
+    "creatorReadbacks": 17,
+    "creatorConnectorCalls": 55,
+    "billableUsage": "unavailable",
+    "fullRescan": false
+  },
+  "writes": {
+    "name": 17,
+    "arabicName": 17,
+    "description": 0,
+    "packing": 0,
+    "brand": 0,
+    "category": 0,
+    "images": 0,
+    "price": 0,
+    "cost": 0,
+    "stock": 0,
+    "margin": 0,
+    "tax": 0,
+    "visibility": 0,
+    "orders": 0,
+    "crossSystemSync": 0
+  },
+  "checkoutQA": {
+    "issue": 27,
+    "authenticatedTestsExecuted": false,
+    "status": "NO-GO",
+    "reason": "No authenticated checkout test; financial order creation prohibited."
+  },
+  "sync": {
+    "fourWayVerified": false,
+    "sourceWatermarkAdvanced": false,
+    "registryOutboxUnchanged": true
+  }
+}

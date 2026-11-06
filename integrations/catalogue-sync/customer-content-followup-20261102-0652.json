@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 06:52 Asia/Riyadh (scheduled context; not Creator source timestamp)",
+  "phase": "post-20/20 customer-facing content backlog (not baseline replay)",
+  "branch": "catalogue-sync-contract-20261024",
+  "creatorReport": "menafoods/mena/All_Products",
+  "auditedExactIds": [
+    "4278439000002481007",
+    "4278439000002482015",
+    "4278439000002527011",
+    "4278439000002527040",
+    "4278439000002536015",
+    "4278439000002537011",
+    "4278439000002549015",
+    "4278439000002566007",
+    "4278439000002568007",
+    "4278439000002570011",
+    "4278439000002571011",
+    "4278439000002572011",
+    "4278439000002585007",
+    "4278439000002586007",
+    "4278439000002587011",
+    "4278439000002589070",
+    "4278439000002590146",
+    "4278439000002593044",
+    "4278439000002593069",
+    "4278439000002601007"
+  ],
+  "recordCountAudited": 20,
+  "allSkuAndIdMatches": true,
+  "verifiedProductsChanged": 4,
+  "verifiedFieldsChanged": 4,
+  "field": "Translated_Name",
+  "changes": [
+    {
+      "creatorId": "4278439000002536015",
+      "sku": "SKU-2758",
+      "before": "دجاج برازيلي كامل 1000 جرام × 10",
+      "after": "دجاج بيرديكس برازيلي كامل، 1000 جم × 10",
+      "sourceUrls": [
+        "https://menafoods.zohoecommerce.com/products/bae19b7fb5/4886172000005029028"
+      ],
+      "verification": "Creator exact-ID readback matched ID, SKU, Translated_Name, and original English variant; no other fields changed."
+    },
+    {
+      "creatorId": "4278439000002537011",
+      "sku": "SKU-2759",
+      "before": "كامل الدجاج برازيل بيرديكس 1100g × 10دجاج برازيلي كامل 1100 جرام × 10",
+      "after": "دجاج بيرديكس برازيلي كامل، 1100 جم × 10",
+      "sourceUrls": [
+        "https://menafoods.zohoecommerce.com/products/c8558cefef/4886172000005002009"
+      ],
+      "verification": "Creator exact-ID readback matched ID, SKU, Translated_Name, and original English variant; no other fields changed."
+    },
+    {
+      "creatorId": "4278439000002589070",
+      "sku": "SKU-2770",
+      "before": "ميلك بانير كيوب 24×200 جرام",
+      "after": "مكعبات بانير ميلك ماجيك، 200 جم × 24",
+      "sourceUrls": [
+        "https://menafoods.zohoecommerce.com/categories/dairy/4886172000002686014"
+      ],
+      "verification": "Creator exact-ID readback matched ID, SKU, Translated_Name, and original English variant; no other fields changed."
+    },
+    {
+      "creatorId": "4278439000002590146",
+      "sku": "SKU-2771",
+      "before": "مكعب السحر الحليب 24X500 GRM",
+      "after": "مكعبات بانير ميلك ماجيك، 500 جم × 24",
+      "sourceUrls": [
+        "https://menafoods.zohoecommerce.com/categories/dairy/4886172000002686014"
+      ],
+      "verification": "Creator exact-ID readback matched ID, SKU, Translated_Name, and original English variant; no other fields changed."
+    }
+  ],
+  "reviewedButStillPendingCount": 20,
+  "fullyCompletedProducts": 0,
+  "reviewedPendingIds": [
+    "4278439000002481007",
+    "4278439000002482015",
+    "4278439000002527011",
+    "4278439000002527040",
+    "4278439000002536015",
+    "4278439000002537011",
+    "4278439000002549015",
+    "4278439000002566007",
+    "4278439000002568007",
+    "4278439000002570011",
+    "4278439000002571011",
+    "4278439000002572011",
+    "4278439000002585007",
+    "4278439000002586007",
+    "4278439000002587011",
+    "4278439000002589070",
+    "4278439000002590146",
+    "4278439000002593044",
+    "4278439000002593069",
+    "4278439000002601007"
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2542",
+      "type": "brand_identity_conflict",
+      "detail": "Creator Product_Name Moulana but Brand MONTANA; hold brand and title edits until label verified."
+    },
+    {
+      "sku": "SKU-2760",
+      "type": "unit_of_measure_conflict",
+      "detail": "Creator names Freshly Yellow Mustard 3.78 kg ×4; independent wholesale listings show 3.78 L ×4, and a separate 3 ×3.78 L variant exists. Hold pack/UOM and public copy.",
+      "sources": [
+        "https://carton.sa/en/product-detail/economic-food-trading/freshly-yellow-mustard-4378-ltr",
+        "https://app.carton.sa/ar/product-detail/economic-food-trading/freshly-yellow-mustard-3378-ltr"
+      ]
+    },
+    {
+      "sku": "SKU-2765",
+      "type": "unit_of_measure_conflict",
+      "detail": "Creator/Commerce name 946 ml ×12 but Commerce Package Details say 12 ×946g; 946ml retail variant confirmed. Hold pack/unit normalization.",
+      "sources": [
+        "https://menafoods.zohoecommerce.com/products/f91cbd420d/4886172000005364337",
+        "https://panda.sa/en/p/18350.%D9%82%D9%88%D8%AF%D9%8A-%D9%85%D8%A7%D9%8A%D9%88%D9%86%D9%8A%D8%B2-%D8%A3%D8%B5%D9%84%D9%8A%D8%8C-946%D9%85%D9%84"
+      ]
+    },
+    {
+      "sku": "SKU-2775",
+      "type": "ingredient_category_identity_conflict",
+      "detail": "Three Cows 8×2.3kg product is listed as mozzarella cheese in Creator; third-party wholesaler describes analogue vegetable-based block. Do not claim natural dairy cheese without verified exact label.",
+      "sources": [
+        "https://platraw.com/en/product/3-cows-mozzarella-cheese-analogue-block-2-3-kg-8-carton/prod_01JYRFBVTKAMJYJYK2ACXTEKNA"
+      ]
+    },
+    {
+      "sku": "SKU-2764",
+      "type": "missing_selling_unit",
+      "detail": "Metaboi Brazilian beef forequarters Unit blank; no verified sale unit or weight."
+    },
+    {
+      "sku": "SKU-2762",
+      "type": "ambiguous_selling_unit",
+      "detail": "Baidar ranch dressing Unit=out, while title suggests 4×3.87 L; conversion unverified."
+    },
+    {
+      "sku": "SKU-2766",
+      "type": "ambiguous_selling_unit",
+      "detail": "Pizza box Unit=rpt, 50 pieces in title; conversion unverified."
+    }
+  ],
+  "unresolvedIssueCount": 7,
+  "otherUnchangedRecords": 16,
+  "sourcePolicy": "Internal current Creator exact-ID identity and existing MENAFoods Commerce pack records support translation/formatting; these are not manufacturer certification. External product listings used to identify conflicts only, not to write inferred attributes.",
+  "incrementalProbe": {
+    "report": "Products_Books",
+    "criteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+    "returnedCount": 6,
+    "returnedIds": [
+      "4278439000002405007",
+      "4278439000002536015",
+      "4278439000002537011",
+      "4278439000000106496",
+      "4278439000002589070",
+      "4278439000002590146"
+    ],
+    "sourceWatermarkAdvanced": false,
+    "interpretation": "Includes four known own edits, prior SKU-2531 and CR1756; no new candidate proven. No authoritative per-record Modified_Time readback."
+  },
+  "creatorConnectorCallsObserved": 29,
+  "creatorBillableApiUnits": "unavailable",
+  "writes": {
+    "creatorNonfinancialRecords": 4,
+    "creatorNonfinancialFields": 4,
+    "prices": 0,
+    "margins": 0,
+    "stock": 0,
+    "images": 0,
+    "financial": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "readbackLimitations": "All_Products does not expose Description, Translated_Description, Package_Details or Translated_Package; no such fields written.",
+  "checkoutQA": "NO-GO: no authenticated EN/AR RTL, cart persistence, Buy Again, customer pricing, VAT, COD/credit, confirm-once checkout or exactly-once order evidence; no financial test orders created.",
+  "financialAndSyncGates": "Four duplicate-active IDs remain blocked; no four-way sync/deployment claim; existing Catalyst and registry/outbox unchanged."
+}

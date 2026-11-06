@@ -1,0 +1,438 @@
+{
+  "date": "2026-11-06",
+  "run": 105,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run104.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000003638015",
+    "4278439000003650032",
+    "4278439000003669011",
+    "4278439000003673011",
+    "4278439000003674007",
+    "4278439000003679117",
+    "4278439000003681019",
+    "4278439000003681048",
+    "4278439000003681105",
+    "4278439000003682015",
+    "4278439000003686052",
+    "4278439000003688021",
+    "4278439000003704019",
+    "4278439000003753036",
+    "4278439000003817047",
+    "4278439000003823055",
+    "4278439000003824007",
+    "4278439000003824060",
+    "4278439000003825017",
+    "4278439000003841011"
+  ],
+  "products": [
+    {
+      "id": "4278439000003638015",
+      "sku": "SKU-3019",
+      "name": "Meharan Curry Powder 1 kg x 18 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3019",
+        "name": "Meharan Curry Powder 1 kg x 18 - Carton",
+        "arabic": "مسحوق ميهاران الكاري 1 كجم × 18 - الكرتون",
+        "brand": "",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003650032",
+      "sku": "SKU-3018",
+      "name": "Carbonate Powder (kg)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3018",
+        "name": "Carbonate Powder (kg)",
+        "arabic": "مسحوق الكربونات (كجم)",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003669011",
+      "sku": "SKU-3027",
+      "name": "Nestle Nido Fortified Milk Powder 2.5 kg x 6 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "readback": {
+        "sku": "SKU-3027",
+        "name": "Nestle Nido Fortified Milk Powder 2.5 kg x 6 - Carton",
+        "arabic": "حليب بودرة نستله نيدو المدعم 2.5 كجم × 6 - كرتون",
+        "brand": "NIDO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003673011",
+      "sku": "SKU-3028",
+      "name": "Saudia low fat milk, 12 x 1 litre - Outer",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "readback": {
+        "sku": "SKU-3028",
+        "name": "Saudia low fat milk, 12 x 1 litre - Outer",
+        "arabic": "حليب سعودي قليل الدسم - كرتونة واحدة",
+        "brand": "SAUDIA",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003674007",
+      "sku": "SKU-3029",
+      "name": "Arla Mozzarella Cheese Shredded Analogue 2 kg x 6 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "readback": {
+        "sku": "SKU-3029",
+        "name": "Arla Mozzarella Cheese Shredded Analogue 2 kg x 6 - Carton",
+        "arabic": "جبنة موزاريلا مبشورة من أرلا 2 كجم × 6 - كرتون",
+        "brand": "ARLA",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003679117",
+      "sku": "SKU-3040",
+      "name": "BOTAN LIGHT MEAT TUNA 48*90GM",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "readback": {
+        "sku": "SKU-3040",
+        "name": "BOTAN LIGHT MEAT TUNA 48*90GM",
+        "arabic": "لحم تونة خفيف من بوتان 48*90 جرام",
+        "brand": "BOTAN",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003681019",
+      "sku": "SKU-3032",
+      "name": "Foster Clark's Banana Culinary Essence, 14ml 12 pieces",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3032",
+        "name": "Foster Clark's Banana Culinary Essence, 14ml 12 pieces",
+        "arabic": "فوستر كلارك الموز جوهر الطهي، 14 مل 12 قطعة",
+        "brand": "FOSTER CLARK'S",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 4,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003681048",
+      "sku": "SKU-3034",
+      "name": "Greens Muhallabia Dessert Mix 85g x Pack of 6",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "readback": {
+        "sku": "SKU-3034",
+        "name": "Greens Muhallabia Dessert Mix 85g x Pack of 6",
+        "arabic": "جرينز مهلبية خلطة حلوى ربطة 6 حبات 85 جرام‎",
+        "brand": "Green's",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003681105",
+      "sku": "SKU-3037",
+      "name": "Frozen Chicken Whole Leg Sadia 15 kg",
+      "verifiedFieldChanges": [],
+      "issues": [],
+      "readback": {
+        "sku": "SKU-3037",
+        "name": "Frozen Chicken Whole Leg Sadia 15 kg",
+        "arabic": "فخذ دجاج كامل مجمد ساديا 15 كجم",
+        "brand": "SADIA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003682015",
+      "sku": "SKU-3033",
+      "name": "Iftar Dates 100 Strips (Carton)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3033",
+        "name": "Iftar Dates 100 Strips (Carton)",
+        "arabic": "تمور الإفطار 100 شرائط (الكرتون)",
+        "brand": "",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003686052",
+      "sku": "SKU-3039",
+      "name": "Maggi 11 Vegetables Soup 53g x 12 pcs",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3039",
+        "name": "Maggi 11 Vegetables Soup 53g x 12 pcs",
+        "arabic": "شوربة ماجي 11 خضار 53 جرام × 12 قطعة",
+        "brand": "MAGGI",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003688021",
+      "sku": "SKU-3038",
+      "name": "Maggi Chicken Noodles Soup 60g (Pack of 12)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3038",
+        "name": "Maggi Chicken Noodles Soup 60g (Pack of 12)",
+        "arabic": "شوربة ماجي بالدجاج والنودلز 60 جرام (عبوة من 12 قطعة)",
+        "brand": "MAGGI",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003704019",
+      "sku": "SKU-3048",
+      "name": "Kiri Cheese Liquid 6 x 900g - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3048",
+        "name": "Kiri Cheese Liquid 6 x 900g - Carton",
+        "arabic": "سائل الجبن كيري 6 × 900 غرام - الكرتون",
+        "brand": "KIRI",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003753036",
+      "sku": "SKU-3049",
+      "name": "Switz Samossa 500G x 30",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3049",
+        "name": "Switz Samossa 500G x 30",
+        "arabic": "سمبوسة سويسرية 500 جرام × 30",
+        "brand": "SWITZ",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003817047",
+      "sku": "SKU-3064",
+      "name": "Indian Frozen french fries 2.5 kg x 4 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3064",
+        "name": "Indian Frozen french fries 2.5 kg x 4 - Carton",
+        "arabic": "البطاطس المقلية الهندية المجمدة 2.5 كجم × 4 - الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003823055",
+      "sku": "SKU-3070",
+      "name": "Chicken Leg Quarter 10kg GT",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_books_mapping_hold",
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3070",
+        "name": "Chicken Leg Quarter 10kg GT",
+        "arabic": "ربع ساق الدجاج 10 كجم GT",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": false,
+        "imageCount": 4,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003824007",
+      "sku": "SKU-3062",
+      "name": "Brown Paper Bag No 9 5 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3062",
+        "name": "Brown Paper Bag No 9 5 kg",
+        "arabic": "كيس ورقي بني رقم 9 5 كجم",
+        "brand": "",
+        "unit": "rpt",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003824060",
+      "sku": "SKU-3067",
+      "name": "Burgal 15 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3067",
+        "name": "Burgal 15 kg",
+        "arabic": "بورغال 15 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003825017",
+      "sku": "SKU-3063",
+      "name": "Frozen Beef Veal Leg boneless 4 x 4.5 kg - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3063",
+        "name": "Frozen Beef Veal Leg boneless 4 x 4.5 kg - Carton",
+        "arabic": "لحم البقر لحم البقر المجمد الساق بلا عظام 4 × 4.5 كجم - الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000003841011",
+      "sku": "SKU-3071",
+      "name": "Mushroom",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "zero_selling_price_not_modified",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3071",
+        "name": "Mushroom",
+        "arabic": "الفطر",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 39,
+  "creatorProductReadCalls": 1,
+  "returnedRecordsInRange": 56,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "Read-only exact-ID matching against immutable manifest. No source-backed edits attempted; translated description/packing not exposed in All_Products readback. Other returned records outside target not audited."
+}

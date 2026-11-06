@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-06",
+  "run": 107,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run106.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000004690027",
+    "4278439000004761007",
+    "4278439000004764011",
+    "4278439000004769027",
+    "4278439000004872019",
+    "4278439000004903011",
+    "4278439000004928039",
+    "4278439000004930015",
+    "4278439000004931007",
+    "4278439000004932007",
+    "4278439000004935023",
+    "4278439000004992007",
+    "4278439000005096019",
+    "4278439000005191011",
+    "4278439000005197155",
+    "4278439000005205071",
+    "4278439000005354204",
+    "4278439000005407073",
+    "4278439000005411035",
+    "4278439000005412051"
+  ],
+  "products": [
+    {
+      "id": "4278439000004690027",
+      "sku": "SKU-3180",
+      "name": "Sahara Full Cream Milk Powder 1*10Kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3180",
+        "name": "Sahara Full Cream Milk Powder 1*10Kg",
+        "arabic": "الصحراء مسحوق الحليب كريم كامل 1 * 10Kg",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004761007",
+      "sku": "SKU-3186",
+      "name": "Honey Atlas 21kg (TIN)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_image_rights_and_exact_variant_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3186",
+        "name": "Honey Atlas 21kg (TIN)",
+        "arabic": "عسل أطلس 21 كجم (علبة معدنية)",
+        "brand": "ATLAS",
+        "unit": "tin",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004764011",
+      "sku": "SKU-3187",
+      "name": "Green Raisins 10 kg China",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3187",
+        "name": "Green Raisins 10 kg China",
+        "arabic": "زبيب أخضر 10 كجم الصين",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004769027",
+      "sku": "SKU-3188",
+      "name": "Samrah Frozen Beef Shoulder 20 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3188",
+        "name": "Samrah Frozen Beef Shoulder 20 kg",
+        "arabic": "سمرة كتف بقري مجمد 20 كجم",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004872019",
+      "sku": "SKU-3195",
+      "name": "Al Kabeer Chicken Burger 840g  8 bags x 15 - carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "ambiguous_pack_or_brand_identity_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3195",
+        "name": "Al Kabeer Chicken Burger 840g  8 bags x 15 - carton",
+        "arabic": "برجر دجاج الكبير 840 جرام 8 أكياس × 15 - كرتون",
+        "brand": "AL KABEER",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004903011",
+      "sku": "SKU-3204",
+      "name": "Chicken Vinena Sausage Argentina 200g x 24 Packs - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "ambiguous_pack_or_brand_identity_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3204",
+        "name": "Chicken Vinena Sausage Argentina 200g x 24 Packs - Carton",
+        "arabic": "نقانق دجاج فينينا أرجنتينية 200 غرام × 24 عبوة - كرتون",
+        "brand": "Argentina",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004928039",
+      "sku": "SKU-3222",
+      "name": "Turmeric Powder India 777 1*10Kg - bag",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "ambiguous_pack_or_brand_identity_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3222",
+        "name": "Turmeric Powder India 777 1*10Kg - bag",
+        "arabic": "مسحوق الكركم الهند 777 1*10 كجم - كيس",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004930015",
+      "sku": "SKU-3219",
+      "name": "Jam 5 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3219",
+        "name": "Jam 5 kg",
+        "arabic": "مربى 5 كجم",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004931007",
+      "sku": "SKU-3218",
+      "name": "Kashmir Chili Powder 10 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3218",
+        "name": "Kashmir Chili Powder 10 kg",
+        "arabic": "مسحوق كشمير الفلفل الحار 10 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004932007",
+      "sku": "SKU-3220",
+      "name": "Curry Powder",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3220",
+        "name": "Curry Powder",
+        "arabic": "مسحوق الكاري",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004935023",
+      "sku": "SKU-3226",
+      "name": "AJINOMOTO MSG Seasoning 20 x 1kg (Carton)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3226",
+        "name": "AJINOMOTO MSG Seasoning 20 x 1kg (Carton)",
+        "arabic": "اجينوموتو MSG توابل 20 × 1 كجم (كرتون)",
+        "brand": "Ajinomoto",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 3,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000004992007",
+      "sku": "SKU-3228",
+      "name": "Entaj Whole Frozen Chicken 1200 gm x 10 - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3228",
+        "name": "Entaj Whole Frozen Chicken 1200 gm x 10 - Carton",
+        "arabic": "الدجاج المجمد الكامل 1200 جم × 10 - الكرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005096019",
+      "sku": "SKU-3234",
+      "name": "Kamil Frozen Boneless Beef Slice 20 x 900g - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3234",
+        "name": "Kamil Frozen Boneless Beef Slice 20 x 900g - Carton",
+        "arabic": "شرائح لحم بقري مجمدة منزوعة العظم من كاميل، 20 × 900 غرام - كرتون",
+        "brand": "KAMIL",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005191011",
+      "sku": "SKU-3242",
+      "name": "Tilapia whole Uncleaned 400/600 10 kg - Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3242",
+        "name": "Tilapia whole Uncleaned 400/600 10 kg - Carton",
+        "arabic": "سمك البلطي كامل غير مغسول 400/600 10 كجم - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005197155",
+      "sku": "SKU-3244",
+      "name": "Rice Powder 40 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "possible_duplicate_name_variant_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3244",
+        "name": "Rice Powder 40 kg",
+        "arabic": "مسحوق الأرز 40 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005205071",
+      "sku": "SKU-3245",
+      "name": "Rice Powder 40 kg",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "missing_books_mapping_hold",
+        "zero_selling_price_financial_review_only",
+        "possible_duplicate_name_variant_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3245",
+        "name": "Rice Powder 40 kg",
+        "arabic": "مسحوق الأرز 40 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": false,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005354204",
+      "sku": "SKU-3247",
+      "name": "Knorr Professional Vegetable Stock Bouillon Powder 1000g - Pack of 6 Units",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "zero_selling_price_financial_review_only",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3247",
+        "name": "Knorr Professional Vegetable Stock Bouillon Powder 1000g - Pack of 6 Units",
+        "arabic": "مسحوق مرق الخضار الاحترافي من كنور، 1000 غرام - عبوة من 6 وحد",
+        "brand": "Knorr",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 5,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005407073",
+      "sku": "SKU-3251",
+      "name": "Sago Dana Thai 1*15kg - bag ( Saboona Rice)",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "ambiguous_pack_or_brand_identity_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3251",
+        "name": "Sago Dana Thai 1*15kg - bag ( Saboona Rice)",
+        "arabic": "ساجو دانا تايلندي 1*15 كيلو - كيس (أرز صابونة)",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005411035",
+      "sku": "SKU-3250",
+      "name": "Macrona Bulk Pack 4 x 4 kg - carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "ambiguous_pack_or_brand_identity_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3250",
+        "name": "Macrona Bulk Pack 4 x 4 kg - carton",
+        "arabic": "Macrona Bulk Pack 4 × 4 كجم - كرتون",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    },
+    {
+      "id": "4278439000005412051",
+      "sku": "SKU-3248",
+      "name": "BBQ Sauce USG Mama - (3.78Ltr*4) Carton",
+      "verifiedFieldChanges": [],
+      "issues": [
+        "brand_unverified_or_unbranded_hold",
+        "description_or_pack_requires_source_evidence"
+      ],
+      "readback": {
+        "sku": "SKU-3248",
+        "name": "BBQ Sauce USG Mama - (3.78Ltr*4) Carton",
+        "arabic": "صلصة الشواء USG Mama - كرتون (3.78 لتر*4)",
+        "brand": "",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      }
+    }
+  ],
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 41,
+  "creatorProductReadCalls": 1,
+  "readbackVerified": true,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; authenticated seven-role and checkout QA evidence outstanding",
+  "notes": [
+    "All_Products API does not expose translated descriptions or packing fields; no claim of verifying these fields.",
+    "No financial, cross-system sync, checkout, or deployment writes.",
+    "Existing manifest remains immutable; checkpoint overlay advances only after evidence commit."
+  ]
+}

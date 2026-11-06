@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 30",
+  "baseline": "20/20 complete",
+  "reviewedCount": 20,
+  "reviewedExactIds": [
+    "4278439000002489155",
+    "4278439000002489159",
+    "4278439000002489163",
+    "4278439000002489167",
+    "4278439000002489171",
+    "4278439000002489175",
+    "4278439000002489179",
+    "4278439000002489183",
+    "4278439000002489187",
+    "4278439000002489191",
+    "4278439000002489195",
+    "4278439000002489199",
+    "4278439000002489203",
+    "4278439000002489207",
+    "4278439000002489211",
+    "4278439000002489215",
+    "4278439000002489219",
+    "4278439000002489223",
+    "4278439000002489227",
+    "4278439000002489235"
+  ],
+  "verifiedFieldChanges": [
+    {
+      "id": "4278439000002489155",
+      "before": "زجاجات الدجاج الكبير 400gm × 12",
+      "after": "ناجتس دجاج الكبير 400 جم × 12",
+      "field": "Translated_Name",
+      "readbackVerified": true,
+      "source": "Existing exact Creator Product_Name and Translated_Name; editorial translation only; packaging not independently certified"
+    },
+    {
+      "id": "4278439000002489163",
+      "before": "الكبير الدجاج الزجاجات H / SPICY (BULK) 1kg × 5",
+      "after": "ناجتس دجاج الكبير حار (عبوة جملة) 1 كجم × 5",
+      "field": "Translated_Name",
+      "readbackVerified": true,
+      "source": "Existing exact Creator Product_Name and Translated_Name; editorial translation only; packaging not independently certified"
+    },
+    {
+      "id": "4278439000002489235",
+      "before": "الكبير فيليه دجاج بالبقسماط - حار وحار 330 جرام × 20",
+      "after": "فيليه دجاج الكبير بالبقسماط حار 330 جم × 20",
+      "field": "Translated_Name",
+      "readbackVerified": true,
+      "source": "Existing exact Creator Product_Name and Translated_Name; editorial translation only; packaging not independently certified"
+    }
+  ],
+  "unresolvedIssueGroups": [
+    {
+      "type": "missing_sku",
+      "count": 20
+    },
+    {
+      "type": "manufacturer_pack_image_rights_and_cross_system_propagation_unverified",
+      "count": 20
+    },
+    {
+      "type": "missing_customer_descriptions_or_not_exposed_in_All_Products",
+      "count": 20
+    },
+    {
+      "type": "margin_policy_pending",
+      "count": 17
+    },
+    {
+      "type": "ambiguous_product_identity",
+      "ids": [
+        "4278439000002489199"
+      ],
+      "note": "C.VEGETABLE FELAFAL is ambiguous; no change"
+    }
+  ],
+  "checkout": "NO-GO; no authenticated EN/AR RTL, cart, VAT, Buy Again, COD/credit, confirm-once or sync ACK verification",
+  "creatorConnectorCallsConfirmed": 27,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "syncWrites": 0,
+  "deploymentWrites": 0
+}

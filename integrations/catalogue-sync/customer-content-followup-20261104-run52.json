@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-04",
+  "run": 52,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489671",
+    "4278439000002489675",
+    "4278439000002847075",
+    "4278439000002853019",
+    "4278439000002861011",
+    "4278439000002879011",
+    "4278439000002880011",
+    "4278439000002886015",
+    "4278439000002887007",
+    "4278439000002906052",
+    "4278439000002960077",
+    "4278439000002963071",
+    "4278439000002964079",
+    "4278439000002966007",
+    "4278439000003006015",
+    "4278439000003018007",
+    "4278439000003020031",
+    "4278439000003024007",
+    "4278439000003040011",
+    "4278439000003066007"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000002489671",
+      "sku": "",
+      "productName": "AL KABEER TORTILLA WRAPS H/S - 8 Inch 570g x 20",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002489675",
+      "sku": "",
+      "productName": "TORTILLA WRAPS HOT 'N' SPICY 875g x 10",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002847075",
+      "sku": "SKU-2903",
+      "productName": "Semolina Coarse No.3 ASFUR ( Suji Rava )",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002853019",
+      "sku": "SKU-2902",
+      "productName": "Vijay Meat Masale 1kg x 12 Packets ( Catering)",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002861011",
+      "sku": "SKU-2901",
+      "productName": "Goody Vegetable Ghee 1.36 kg x 12 pcs",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002879011",
+      "sku": "SKU-2904",
+      "productName": "Beef Sangria Brazil-IGUATEMI",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002880011",
+      "sku": "SKU-2905",
+      "productName": "French Fries 9/9 4x2.5kg-Starfarm",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002886015",
+      "sku": "SKU-2908",
+      "productName": "Mozzarella Choose Aseel 2kg x 4",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002887007",
+      "sku": "SKU-2909",
+      "productName": "Peep Tomato Whole Peeled , Paste - 2550 x 6",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002906052",
+      "sku": "SKU-2911",
+      "productName": "Cashew broken nut 10 kg vacuum bag (kaju)",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002960077",
+      "sku": "SKU-2913",
+      "productName": "Mawassim Mayonnaise 3.78L x 4",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002963071",
+      "sku": "SKU-2915",
+      "productName": "Baidar Real Mayonnaise Gallon, 3.78 Ltr x 4",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002964079",
+      "sku": "SKU-2914",
+      "productName": "MAMA MAYONAISE EXTRA CREAMY 3.78 LTR‎ x 4",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000002966007",
+      "sku": "SKU-2912",
+      "productName": "Juli Frozen Molokhia 400 gm × 20 - Carton",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003006015",
+      "sku": "SKU-2916",
+      "productName": "Amber Frozen Beef slice 20 x 900g",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003018007",
+      "sku": "SKU-2917",
+      "productName": "Sawsan grape Leaves (11.4 kg)",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003020031",
+      "sku": "SKU-2918",
+      "productName": "Freshly Sweet Paprika (6 X 454gm)",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003024007",
+      "sku": "SKU-2919",
+      "productName": "DRIED RED HOT CHILLI POWDER (kg)",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003040011",
+      "sku": "SKU-2921",
+      "productName": "Frozen indian boneless Veal Leg Mannat 4.5kg x 4",
+      "storefront": true
+    },
+    {
+      "creatorId": "4278439000003066007",
+      "sku": "SKU-2924",
+      "productName": "Pepsi Co Drinks 18 x330 ml",
+      "storefront": true
+    }
+  ],
+  "changes": [
+    {
+      "id": "4278439000003066007",
+      "sku": "SKU-2924",
+      "field": "Translated_Name",
+      "before": "شركة بيبسي المشروبات 18 × 330 مل",
+      "after": "مشروبات بيبسي 18 × 330 مل",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002886015",
+      "sku": "SKU-2908",
+      "field": "Translated_Name",
+      "before": "موزاريلا اختر أسيل 2 كجم × 4",
+      "after": "جبنة موزاريلا أسيل 2 كجم × 4",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002963071",
+      "sku": "SKU-2915",
+      "field": "Translated_Name",
+      "before": "بايدر ريال المايونيز غالون، 3.78 لتر × 4",
+      "after": "مايونيز بايدر الأصلي، 4 × 3.78 لتر",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002964079",
+      "sku": "SKU-2914",
+      "field": "Translated_Name",
+      "before": "ماما مايونايز إكسترا كريمي 3.78 لتر × 4",
+      "after": "مايونيز ماما إكسترا كريمي 4 × 3.78 لتر",
+      "readbackVerified": true
+    }
+  ],
+  "verification": "Exact-ID compact 20-record Zoho Creator All_Products read; four record-ID Translated_Name writes; independent compact exact-ID readback of all four values. Editorial translation derived from existing product identities and pack wording; no independent manufacturer-label certification.",
+  "sources": [
+    "Authenticated MENAFoods Zoho Creator All_Products exact-ID records (private)"
+  ],
+  "unresolvedIssues": [
+    "Two tortilla variants have blank SKU; H/S abbreviation and 8-inch wrap flavour need label verification",
+    "Creator 'out' UOM on Pepsi and paprika lacks a verified sellable-unit definition",
+    "Peep whole peeled tomato versus paste identity is ambiguous; 2550 unit not confirmed",
+    "Beef Sangria cut identity unclear; do not translate to a specific cut",
+    "Brand/variant and images require exact label and redistribution rights",
+    "Box/ctn/bag/tin units and inner-pack counts are only existing record claims; no conversion rules verified",
+    "Unbranded chilli powder and cashew retain blank brand; no invented manufacturer",
+    "Translated_Description and Translated_Package cannot be read back in All_Products API",
+    "No margin policy/validated cost basis; no financial writes",
+    "Authenticated EN/AR RTL, visibility, private cost, VAT, cart, Buy Again, COD/credit, confirm-once checkout and cross-system ACK still unverified"
+  ],
+  "connectorCallsObserved": {
+    "creator": 6,
+    "github": "batch1 and manifest/previous evidence reads, evidence create, manifest update, independent readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; authenticated end-to-end checkout and four-way sync receipts missing",
+  "nextPendingId": "4278439000003082011"
+}

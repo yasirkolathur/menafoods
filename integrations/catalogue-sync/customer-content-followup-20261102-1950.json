@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-02",
+  "localTime": "19:50 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 15",
+  "baseline": "Creator Products_Books baseline 2122; original audit 20/20 complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1855.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000004336023",
+      "sku": "SKU-3131",
+      "productName": "Osoul Frozen Chicken Liver 20 x 400 gm - Carton",
+      "category": "Chicken & Eggs",
+      "unit": "box",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004344007",
+      "sku": "SKU-3132",
+      "productName": "Golden Frozen Chicken Gizzard 20 x 350 g - Carton",
+      "category": "Chicken & Eggs",
+      "unit": "box",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004346023",
+      "sku": "SKU-3133",
+      "productName": "French Fries Macolate 4 X 2.5 kg 9/9 pieces",
+      "category": "Ready to Cook",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004347011",
+      "sku": "SKU-3134",
+      "productName": "Arnon Black Microwave Sauce Cup 50g 100 Pieces",
+      "category": "Packaging and Consumables",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004367053",
+      "sku": "SKU-3135",
+      "productName": "Sunwhite Rice 6 x 5 kg - Carton",
+      "category": "Rice, Pulses & Flours",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004367082",
+      "sku": "SKU-3136",
+      "productName": "Luna Sterilized Cream Full Cream, 48 x 155 g",
+      "category": "Dairy",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004397011",
+      "sku": "SKU-3137",
+      "productName": "Esnad Fried Chicken Seasoning 2.5kg x 6 - Carton",
+      "category": "Masala, Salt & Sugar",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004401007",
+      "sku": "SKU-3138",
+      "productName": "White Flour Foom 1 kg x 10 packets",
+      "category": "Rice, Pulses & Flours",
+      "unit": "rpt",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004412035",
+      "sku": "SKU-3139",
+      "productName": "Barzan Natural Frozen Shredded Coconut 20 x 400 g - Carton",
+      "category": "Fruits & Vegetables",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004423007",
+      "sku": "SKU-3140",
+      "productName": "Radwa Chicken Frozen Chicken Gizzards 16 x  500g - Carton",
+      "category": "Chicken & Eggs",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004426007",
+      "sku": "SKU-3142",
+      "productName": "Extra White Soap 10 kg",
+      "category": "Packaging and Consumables",
+      "unit": "bag",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004410149",
+      "sku": "SKU-3143",
+      "productName": "Abu Kass Rice, Indian Basmati Rice, 4 x  10 kg",
+      "category": "Rice, Pulses & Flours",
+      "unit": "bag",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004427007",
+      "sku": "SKU-3144",
+      "productName": "Abu Seyouf American Rice Power Steamed 4 x 10 kg",
+      "category": "Rice, Pulses & Flours",
+      "unit": "bag",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004428011",
+      "sku": "SKU-3145",
+      "productName": "Sunbulah Low Fat Square Pastry 18 × 400g - Carton",
+      "category": "Ready to Cook",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004429007",
+      "sku": "SKU-3146",
+      "productName": "Sunbulah Peas and carrots, 12 x 400g - Carton",
+      "category": "Fruits & Vegetables",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004440019",
+      "sku": "SKU-3147",
+      "productName": "Premier Indian French fries 6/6 mm  2.5 kg x 4 - carton",
+      "category": "Ready to Cook",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004474007",
+      "sku": "SKU-3150",
+      "productName": "Rice White Flower Glutinous 1kg x 20 Bags - Carton",
+      "category": "Rice, Pulses & Flours",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004475011",
+      "sku": "SKU-3151",
+      "productName": "Banana Sauce Jufran Reg 340g x 24 bottles - Carton",
+      "category": "Sauces & Seasoning",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004478007",
+      "sku": "SKU-3154",
+      "productName": "Jack'nJill Piattos Cheese Flavor Potato Chips 85 grams x 50 - carton",
+      "category": "Bakery, Beverages & More",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004480007",
+      "sku": "SKU-3156",
+      "productName": "Golden Me Bihun 227gm x 48 Packs - Carton",
+      "category": "Pasta, Noodles & Vermicelli",
+      "unit": "ctn",
+      "storefront": true,
+      "exactIdRead": "success"
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000004336023",
+      "sku": "SKU-3131",
+      "field": "Translated_Name",
+      "before": "أوسول المجمدة كبد الدجاج 20 × 400 جم - الكرتون",
+      "after": "كبد دجاج أوسول مجمد، 20 × 400 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004344007",
+      "sku": "SKU-3132",
+      "field": "Translated_Name",
+      "before": "قوانص دجاج ذهبية مجمدة ٢٠ × ٣٥٠ غرام - كرتون",
+      "after": "قوانص دجاج جولدن مجمدة، 20 × 350 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004367082",
+      "sku": "SKU-3136",
+      "field": "Translated_Name",
+      "before": "كريم تعقيم القمر كريم كامل، 48 × 155 غرام",
+      "after": "قشطة لونا معقمة كاملة الدسم، 48 × 155 جم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004412035",
+      "sku": "SKU-3139",
+      "field": "Translated_Name",
+      "before": "البارزان الطبيعي المجمد جوز الهند 20 × 400 غرام - الكرتون",
+      "after": "جوز هند برزان مبشور ومجمد، 20 × 400 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004423007",
+      "sku": "SKU-3140",
+      "field": "Translated_Name",
+      "before": "قوانص دجاج رضوى مجمدة ١٦ × ٥٠٠ غرام -",
+      "after": "قوانص دجاج رضوى مجمدة، 16 × 500 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004426007",
+      "sku": "SKU-3142",
+      "field": "Translated_Name",
+      "before": "صابون أبيض إضافي 10 كجم",
+      "after": "صابون إكسترا وايت الأبيض، 10 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004478007",
+      "sku": "SKU-3154",
+      "field": "Translated_Name",
+      "before": "Jack'nJill Piattos جبن نكهة رقائق البطاطس 85 غراما × 50 - الكرتون",
+      "after": "رقائق بطاطس بياتوس بنكهة الجبن من جاك إن جيل، 50 × 85 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator Product_Name, SKU, Brand (where populated), and previous Arabic text; editorial correction only; no manufacturer packaging or origin certification",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3131",
+      "risk": "Brand field `Osuol` differs from title `Osoul`; identity/label match unresolved. No Brand edit."
+    },
+    {
+      "sku": "SKU-3132",
+      "risk": "Creator Unit `box` versus title `Carton`; BOX↔CTN conversion unverified."
+    },
+    {
+      "sku": "SKU-3133",
+      "risk": "Macolate brand spelling and 9/9 cut variant lack independent manufacturer/label confirmation; no identity/pack edit."
+    },
+    {
+      "sku": "SKU-3134",
+      "risk": "Sauce cup `50g` may be a mass rather than volume specification; 100-piece hierarchy and Arnon brand not independently confirmed. No weight/capacity/Brand edit."
+    },
+    {
+      "sku": "SKU-3138",
+      "risk": "Creator Unit `rpt` undefined for 10 × 1 kg flour; Foom brand is blank. No UOM/brand edit."
+    },
+    {
+      "sku": "SKU-3142",
+      "risk": "Soap listed as 10 kg `bag`; retail packaging/variant and 10 kg selling unit not independently verified."
+    },
+    {
+      "sku": "SKU-3143",
+      "risk": "Rice title 4 × 10 kg versus Creator Unit `bag`; BAG↔CTN hierarchy not verified."
+    },
+    {
+      "sku": "SKU-3144",
+      "risk": "Rice title 4 × 10 kg versus Creator Unit `bag`; Brand blank despite Abu Seyouf in title. No conversion/brand edit."
+    },
+    {
+      "sku": "SKU-3145",
+      "risk": "Low-fat claim and square-pastry variant need exact manufacturer label evidence; no new nutrition/type claims."
+    },
+    {
+      "sku": "SKU-3147",
+      "risk": "`Indian` descriptor could imply origin; exact Premier fries variant and origin not independently verified. No origin or pack claims added."
+    },
+    {
+      "sku": "SKU-3156",
+      "risk": "Golden Me brand appears in product title but Brand field is blank; manufacturer identity not independently confirmed."
+    }
+  ],
+  "unresolvedIssueCount": 11,
+  "fullyCompletedProducts": 0,
+  "creatorConnectorCallsConfirmed": 38,
+  "creatorBillableApiUnits": "unknown",
+  "sourcePolicy": "Editorial EN/AR corrections supported by exact Creator product identity only; manufacturer pack, origin, brand, barcode, rights and variants not independently certified. No external product-source links used.",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "EN/AR RTL",
+      "storefront visibility and image propagation",
+      "CTN/PCS/KG mapping",
+      "customer price versus private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "writes": {
+    "creatorNonfinancialTitleFields": 7,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package are not exposed in All_Products API readback; neither edited.",
+    "Creator Product_Images references do not prove Commerce/Catalyst propagation or redistribution rights.",
+    "Creator authoritative Modified_Time watermark unavailable; not advanced."
+  ],
+  "checkpoint": {
+    "previousReviewedUniquePostCompletion": 280,
+    "newReviewedUniquePostCompletion": 300,
+    "nextAction": "Continue next 20 unreviewed pending storefront exact IDs after SKU-3156; no financial/sync/deployment writes; checkout NO-GO."
+  }
+}

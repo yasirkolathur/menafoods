@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-01",
+  "batch": 13,
+  "products": 20,
+  "checkpointBefore": 12,
+  "priorPartialEvidence": "integrations/catalogue-sync/customer-content-batch-13-partial-20261101.json",
+  "priorPartialVerified": 4,
+  "changes": [
+    {
+      "creatorId": "4278439000001523014",
+      "sku": "CR1941",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Mackerel Fish up to 5 pcs per bags ( 1 kg x 10 bags)",
+          "after": "Frozen Mackerel Fish, Up to 5 Pieces per Bag — 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "أسماك الماكريل المجمدة تصل إلى 5 قطع لكل كيس (1 كجم × 10 أكياس)",
+          "after": "سمك ماكريل مجمد، حتى 5 قطع في الكيس — 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001525019",
+      "sku": "CR1942",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Al Zouq Frozen Chicken Mince 400g x 20pcs",
+          "after": "Al Zouq Frozen Minced Chicken, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "الزوق الدجاج المجمد اللحم المفروم 400g × 20pcs",
+          "after": "دجاج مفروم مجمد الذوق، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001526015",
+      "sku": "CR1943",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Whole Medium Murjan Fish 1 kg x 10 packets",
+          "after": "Frozen Whole Medium Murjan Fish, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "تجميد سمك المرجان المتوسط كله 1 كجم × 10 عبوات",
+          "after": "سمك مرجان متوسط كامل مجمد، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001528011",
+      "sku": "CR1945",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Sadia Tender Chicken Breast 2 kg X 5 bags",
+          "after": "Sadia Tender Chicken Breast, 5 × 2 kg"
+        },
+        "Translated_Name": {
+          "before": "ساديا العطاء ثدي الدجاج 2 كجم × 5 أكياس",
+          "after": "صدور دجاج طرية ساديا، 5 × 2 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001529015",
+      "sku": "CR1946",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Fresh Water  Rohu Fish Steak 1 kg x 10",
+          "after": "Frozen Freshwater Rohu Fish Steaks, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "المياه العذبة المجمدة روهو شريحة لحم السمك 1 كجم × 10",
+          "after": "شرائح سمك روهو نهري مجمدة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001530015",
+      "sku": "CR1947",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "FrozenShrimps 51-60 12 x 400 g - Retail",
+          "after": "Frozen Shrimps, Size 51–60, Retail Pack — 12 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "الروبيان المجمد 51-60 12 × 400 غرام - البيع بالتجزئة",
+          "after": "روبيان مجمد مقاس 51–60، عبوات تجزئة — 12 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001595056",
+      "sku": "CR1955",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Coconut Shredded SeaShell ( 20 * 400 g) packs",
+          "after": "SeaShell Shredded Coconut, 20 × 400 g"
+        },
+        "Translated_Name": {
+          "before": "حزم SeaShell الممزقة (20 * 400 غرام)",
+          "after": "جوز هند مبشور سي شيل، 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001596017",
+      "sku": "CR1957",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Mackerel Fish 8 to 10 pcs per bags ( 1 kg x 10 bags)",
+          "after": "Frozen Mackerel Fish, 8–10 Pieces per Bag — 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "أسماك الماكريل المجمدة من 8 إلى 10 قطع لكل كيس (1 كجم × 10 أكياس)",
+          "after": "سمك ماكريل مجمد، 8–10 قطع في الكيس — 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001596035",
+      "sku": "CR1958",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Croaker Fish Steak 1kgx10",
+          "after": "Frozen Croaker Fish Steaks, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "شريحة لحم السمك كروكر المجمدة 1kgx10",
+          "after": "شرائح سمك كروكر مجمدة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001600011",
+      "sku": "CR1960",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "1100g Qualiko Frozen Whole Chicken Griller ( 1100g X 10)",
+          "after": "Qualiko Frozen Whole Griller Chicken, 10 × 1.1 kg"
+        },
+        "Translated_Name": {
+          "before": "1100g كواليكو المجمدة الدجاج كله المشوي (100g × 10)",
+          "after": "دجاج كامل مجمد للشوي كواليكو، 10 × 1.1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001601021",
+      "sku": "CR1963",
+      "readbackVerified": true,
+      "source": "Exact existing Creator ID/SKU, brand, category, selling unit and original packing notation read 2026-11-01; editorial correction only, not manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "MASTERO French Fries  4* 2.5 kg 6/6 pieces",
+          "after": "Maestro French Fries, 6 × 6 mm Cut — 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "ماستيرو البطاطس المقلية 4 * 2.5 كجم 6/6 قطعة",
+          "after": "بطاطس مقلية ماستيرو، تقطيع 6 × 6 مم — 4 × 2.5 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000001502015",
+      "sku": "CR1935",
+      "name": "Beef Striplion  Chain On Friboi 20 - 25 kg ( kg)",
+      "storefront": true,
+      "category": "Meat",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Striploin cut spelling and 20–25 kg carton notation versus kg selling unit require verified variant",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001514007",
+      "sku": "CR1939",
+      "name": "3kg Up Kingfish Whole 20kg without ice",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "3 kg+ size, 20 kg without ice and 'Mix Brands' require species/pack verification",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001519007",
+      "sku": "CR1940",
+      "name": "Thyme Leaves  Powder 1 kg Salam",
+      "storefront": true,
+      "category": "Masala, Salt & Sugar",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Leaves versus powder is contradictory; do not change form without packaging evidence",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001526033",
+      "sku": "CR1944",
+      "name": "Frozen Keski fish 220 g X 24 blocks",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Keski species, 220 g block and carton quantity need exact-product verification",
+      "batch": 13
+    },
+    {
+      "id": "4278439000001600029",
+      "sku": "CR1961",
+      "name": "Frozen Whole Trevally 20kg",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "20 kg carton in title versus kg selling unit; needs pack and sales unit verification",
+      "batch": 13
+    }
+  ],
+  "totals": {
+    "reviewed": 20,
+    "updated": 15,
+    "held": 5,
+    "englishArabicTitleFields": 30
+  },
+  "api": {
+    "thisContinuationCreatorCalls": 37,
+    "priorPartialCreatorCalls": 13,
+    "combinedCreatorCallsAtLeast": 50
+  },
+  "readbackLimitations": "All_Products does not expose Translated_Description or Translated_Package",
+  "financialWrites": 0,
+  "stockWrites": 0,
+  "imagesPublished": 0,
+  "checkoutQA": "NO-GO: no authenticated seven-role checkout, pricing, VAT, Buy Again or confirm-once evidence",
+  "sync": "No four-way sync or production deployment; gates unmet"
+}

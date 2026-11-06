@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-01",
+  "batch": 11,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 12,
+    "verifiedTitleFieldsChanged": 24,
+    "held": 8,
+    "reviewedNoChange": 0,
+    "fullRescan": false
+  },
+  "source": "Existing Zoho Creator menafoods/mena/All_Products exact record IDs, SKUs, current EN/AR titles, Brand, category/collection and selling units. No external manufacturer certifications asserted.",
+  "changes": [
+    {
+      "creatorId": "4278439000001170011",
+      "sku": "CR1857",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "600g Fakih Frozen Chicken ( 600 g X 10 )",
+          "after": "Fakieh Frozen Chicken, 10 × 600 g"
+        },
+        "Translated_Name": {
+          "before": "600 جرام دجاج فقيه مجمد ( 600 جرام × 10 )",
+          "after": "دجاج فقيه مجمد، 10 × 600 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001172014",
+      "sku": "CR1858",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "1100 Gm  Whole Chicken Fakih( 1100g X 10 )- Carton",
+          "after": "Fakieh Frozen Whole Chicken, 10 × 1,100 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "1100 جرام دجاجة كاملة فقية (1100 جرام × 10) - كرتون",
+          "after": "دجاج كامل مجمد فقيه، كرتون 10 × 1100 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001181011",
+      "sku": "CR1864",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "800 Gm  Whole Chicken Fakih( 800g X 10 )",
+          "after": "Fakieh Frozen Whole Chicken, 10 × 800 g"
+        },
+        "Translated_Name": {
+          "before": "800 جم فقيه الدجاج كله (800 جم × 10)",
+          "after": "دجاج كامل مجمد فقيه، 10 × 800 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001185011",
+      "sku": "CR1868",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "600g Alwatania Poultry Frozen Chicken ( 600g X 10 )",
+          "after": "Al Watania Poultry Frozen Chicken, 10 × 600 g"
+        },
+        "Translated_Name": {
+          "before": "دواجن الوطنية 600 جرام دجاج مجمد ( 600 جرام × 10 )",
+          "after": "دجاج الوطنية المجمد، 10 × 600 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001186011",
+      "sku": "CR1870",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "700g Alwatania Poultry Frozen Chicken ( 700g X 10 )",
+          "after": "Al Watania Poultry Frozen Chicken, 10 × 700 g"
+        },
+        "Translated_Name": {
+          "before": "دواجن الوطنية 700 جرام دجاج مجمد ( 700 جرام × 10 )",
+          "after": "دجاج الوطنية المجمد، 10 × 700 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001203019",
+      "sku": "CR1871",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Miratorg Frozen Chicken Tenderized Fillet boneless ( 2 kg x 7 ) Packs",
+          "after": "Miratorg Frozen Boneless Chicken Tenderized Fillet, 7 × 2 kg"
+        },
+        "Translated_Name": {
+          "before": "ميراتورغ الدجاج المجمد العطاء فيليه بلا عظام (2 كجم × 7) حزم",
+          "after": "فيليه دجاج مجمد طري بدون عظم ميراتورغ، 7 × 2 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001213007",
+      "sku": "CR1874",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Royal Frozen Tender Chicken Breast 2kg x 5 packs",
+          "after": "Royal Frozen Tender Chicken Breast, 5 × 2 kg"
+        },
+        "Translated_Name": {
+          "before": "صدور دجاج طرية مجمدة من رويال 2 كجم × 5 عبوات",
+          "after": "صدور دجاج طرية مجمدة رويال، 5 × 2 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001215015",
+      "sku": "CR1877",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Shams Cooking Sunflower oil  2 x 9 l",
+          "after": "Shams Sunflower Cooking Oil, 2 × 9 L"
+        },
+        "Translated_Name": {
+          "before": "شمس الطبخ زيت عباد الشمس 2 × 9 لتر",
+          "after": "زيت دوار الشمس للطبخ شمس، 2 × 9 لتر"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001216029",
+      "sku": "CR1880",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Halloumi Hungarita cheese 40 × 250g",
+          "after": "Hungarita Halloumi Cheese, 40 × 250 g"
+        },
+        "Translated_Name": {
+          "before": "جبن حلومي هنغريتا 40 × 250 غرام",
+          "after": "جبن حلومي هنغريتا، 40 × 250 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001224007",
+      "sku": "CR1883",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "French Fries HYFUN  4* 2.5 kg 9/9 pieces",
+          "after": "HYFUN French Fries, 9/9 Cut, 4 × 2.5 kg"
+        },
+        "Translated_Name": {
+          "before": "بطاطس مقلية هيفون 4*2.5 كجم 9/9 قطع",
+          "after": "بطاطس مقلية هيفون، تقطيع 9/9، 4 × 2.5 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001268015",
+      "sku": "CR1888",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Mixed Masala Powder per",
+          "after": "Mixed Masala Powder — Sold per kg"
+        },
+        "Translated_Name": {
+          "before": "مسحوق ماسالا المختلط لكل",
+          "after": "بهارات مشكلة مطحونة — تباع بالكيلوجرام"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000001306007",
+      "sku": "CR1890",
+      "readbackVerified": true,
+      "source": "Existing exact Creator ID/SKU, Brand, current EN/AR titles, selling unit and explicit pack notation; editorial normalization only, not independent manufacturer evidence",
+      "fields": {
+        "Product_Name": {
+          "before": "Freshly Oregano Leaves 142g",
+          "after": "Freshly Oregano Leaves, 142 g"
+        },
+        "Translated_Name": {
+          "before": "الأوريجانو الطازج يترك 142g",
+          "after": "أوراق أوريجانو فرشلي، 142 جم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "id": "4278439000001212007",
+      "sku": "CR1873",
+      "name": "3 kg Up Kingfish Whole 22 kg",
+      "storefront": true,
+      "category": "Seafood",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Whole kingfish title combines '3 kg up' with '22 kg' without clear fish-size versus carton-weight evidence; brand Mix Brands is not a verified brand.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001213021",
+      "sku": "CR1875",
+      "name": "50 Pcs Pizza Boxes, Medium Size ( 29 cm x 29 cm ) Kraft",
+      "storefront": true,
+      "category": "Eco-Friendly Packaging",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Title says 50 pizza boxes but Creator selling unit is 'rpt'; unit/quantity conversion needs confirmation before customer-facing claims.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001214011",
+      "sku": "CR1876",
+      "name": "Parmesan Cheese 4  x 4.5 kg approx -   Granmoravia",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Granmoravia parmesan '4 × approx 4.5 kg' conflicts with selling unit kg; approximate pack weight needs label proof.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001215030",
+      "sku": "CR1878",
+      "name": "Burcu Sweet Chili Paste 4 x 4200 Grams",
+      "storefront": true,
+      "category": "Sauces & Seasoning",
+      "reviewFields": [
+        "Description",
+        "Package_Details"
+      ],
+      "reason": "Burcu sweet chili paste 4 × 4,200 g in title but selling unit pcs; pack/selling-unit conversion unresolved.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001216015",
+      "sku": "CR1879",
+      "name": "Mild Red Chedder Cheese Foodstore 5 kg blocks",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Foodstore cheddar title says 5 kg blocks but selling unit kg; price-to-unit interpretation unresolved.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001217011",
+      "sku": "CR1881",
+      "name": "French Elemental Cheese blocks",
+      "storefront": true,
+      "category": "Dairy",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "French 'Elemental' cheese title conflicts with Creator Brand 'Entremont'; exact product identity must be verified.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001219011",
+      "sku": "CR1882",
+      "name": "Smoked Roast Turkey Al Fulla 2 kg",
+      "storefront": true,
+      "category": "Chicken & Eggs",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "Smoked roast turkey is assigned to Creator collection 'Duck'; category/identity mismatch needs verification.",
+      "batch": 11
+    },
+    {
+      "id": "4278439000001256010",
+      "sku": "CR1885",
+      "name": "CPC.   Coconut oil 12x680ml",
+      "storefront": true,
+      "category": "Cooking Oils",
+      "reviewFields": [
+        "Description"
+      ],
+      "reason": "CPC coconut oil title conflicts with Creator Brand 'Fazco'; branded product identity unresolved.",
+      "batch": 11
+    }
+  ],
+  "api": {
+    "creatorConnectorCallsAttempted": 46,
+    "creatorSuccessfulCalls": 45,
+    "creatorFailedCalls": 1,
+    "failedCall": "Initial wrong workspace/app path returned workspace-not-found; corrected to menafoods/mena; no edit occurred on failed call.",
+    "billableUsage": "Unavailable"
+  },
+  "writes": {
+    "fields": [
+      "Product_Name",
+      "Translated_Name"
+    ],
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "visibilityWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncWrites": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package are not exposed by All_Products record API; no changes attempted to those fields."
+  ],
+  "checkoutQA": {
+    "issue": 27,
+    "issueReviewed": true,
+    "authenticatedAcceptanceTestsExecuted": false,
+    "release": "NO-GO",
+    "outstanding": [
+      "EN/AR RTL rendering",
+      "catalogue visibility and actual image rendering",
+      "CTN/PCS/KG unit conversion",
+      "customer prices vs private costs",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout and retry idempotency"
+    ]
+  },
+  "sync": {
+    "fourWayLive": false,
+    "duplicateActiveHoldsMaintained": true,
+    "crossSystemWritesEnabled": false,
+    "receiptsVerified": false
+  }
+}

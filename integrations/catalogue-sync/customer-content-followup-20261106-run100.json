@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-06",
+  "run": 100,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run99.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000001864171",
+    "4278439000001864179",
+    "4278439000001864195",
+    "4278439000001864211",
+    "4278439000001864243",
+    "4278439000001864279",
+    "4278439000001864315",
+    "4278439000001864335",
+    "4278439000001864347",
+    "4278439000001864367",
+    "4278439000001864379",
+    "4278439000001864383",
+    "4278439000001864387",
+    "4278439000001864391",
+    "4278439000001864395",
+    "4278439000001864411",
+    "4278439000001864415",
+    "4278439000001864427",
+    "4278439000001864497",
+    "4278439000001871015"
+  ],
+  "products": [
+    {
+      "id": "4278439000001864171",
+      "sku": "ME-0035",
+      "issues": [
+        "arabic_paste_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Fazco Garlic Paste 12 * 750 Gm",
+        "translatedName": "فاسكو لصق الثوم 12 * 750 جم",
+        "brand": "FAZCO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864179",
+      "sku": "ME-0036",
+      "issues": [
+        "arabic_paste_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Fazco Ginger Paste 12 * 750 Gm",
+        "translatedName": "فاسكو الزنجبيل لصق 12 * 750 جم",
+        "brand": "FAZCO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864195",
+      "sku": "ME-0040",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "White Pepper Whole 1*25kg",
+        "translatedName": "الفلفل الأبيض كله 1 * 25kg",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864211",
+      "sku": "ME-0044",
+      "issues": [
+        "missing_books_mapping",
+        "arabic_bay_leaves_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Tez Pata (Bay Leaves) 1*10kg",
+        "translatedName": "تيز باتا (أوراق الخليج) 1 * 10 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": false,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864243",
+      "sku": "ME-0052",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Fenugreek (Methi) Whole 1*15kg",
+        "translatedName": "الحلبة (ميثي) كله 1 * 15 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864279",
+      "sku": "ME-0061",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "White Chana # 12 India 1 x 15 kg",
+        "translatedName": "حمص أبيض رقم 12 الهند 1 × 15 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864315",
+      "sku": "ME-0070",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Fazco Mayonnaise Big 12 * 946 ml",
+        "translatedName": "فازكو المايونيز كبير 12 * 946 مل",
+        "brand": "fazco",
+        "unit": "CTN",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864335",
+      "sku": "ME-0075",
+      "issues": [
+        "missing_books_mapping",
+        "brand_missing_requires_label_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Manal Pure Honey 48 * 80gm",
+        "translatedName": "منال العسل النقي 48 * 80gm",
+        "brand": "",
+        "unit": "CTN",
+        "booksMappingPresent": false,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864347",
+      "sku": "ME-0078",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Baba Orange Color 80 * 100 gm",
+        "translatedName": "بابا اللون البرتقالي 80 * 100 جم",
+        "brand": "BABA",
+        "unit": "CTN",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864367",
+      "sku": "ME-0083",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Baba Mango Colour 100 gm (80 * 100 gm)",
+        "translatedName": "بابا مانغو اللون 100 جم (80 * 100 جم)",
+        "brand": "BABA",
+        "unit": "CTN",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864379",
+      "sku": "ME-0086",
+      "issues": [
+        "arabic_fine_sugar_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Baba Sugar Fine 1 * 10kg",
+        "translatedName": "بابا السكر غرامة 1 * 10 كجم",
+        "brand": "BABA",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864383",
+      "sku": "ME-0087",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Sugar Lump 40 *400 gm",
+        "translatedName": "كتلة السكر 40 * 400 جم",
+        "brand": "",
+        "unit": "CTN",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864387",
+      "sku": "ME-0088",
+      "issues": [
+        "missing_books_mapping",
+        "brand_product_identity_ambiguous"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Ajinomoto Shangrila 20 * 400 gm",
+        "translatedName": "أجينوموتو شانغريلا 20 * 400 جم",
+        "brand": "SHANGARILA",
+        "unit": "CTN",
+        "booksMappingPresent": false,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864391",
+      "sku": "ME-0089",
+      "issues": [
+        "missing_books_mapping",
+        "margin_rule_pending_no_financial_edit"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Sugar Powder 1 * 25kg",
+        "translatedName": "مسحوق السكر 1 * 25 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": false,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864395",
+      "sku": "ME-0090",
+      "issues": [
+        "arabic_pack_weight_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Peanut 70/60 India Karnatik 15kg",
+        "translatedName": "الفول السوداني 70/60 الهند كارناتيك 15 ألف",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864411",
+      "sku": "ME-0094",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "White Pepper Powder  (No.1) 10kg",
+        "translatedName": "مسحوق الفلفل الأبيض (لا.1) 10 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864415",
+      "sku": "ME-0095",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Premium Black Pepper powder # 1 1 * 10 kg",
+        "translatedName": "مسحوق الفلفل الأسود قسط # 1 1 * 10 كجم",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864427",
+      "sku": "ME-0098",
+      "issues": [
+        "ambiguous_pack_size_MDO_140kg_vs_40kg"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Cardamom Elephant MDO-140kg ( 1 * 40kg )",
+        "translatedName": "الفيل الهيل MDO-140kg (1 * 40kg)",
+        "brand": "",
+        "unit": "Bag",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001864497",
+      "sku": "SKU-2420",
+      "issues": [],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "800  Frozen Whole Chicken Tayba ( 800g x 10 )",
+        "translatedName": "800 الدجاج كله المجمد طيبة (800 غرام × 10)",
+        "brand": "Tayba",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000001871015",
+      "sku": "SKU-2419",
+      "issues": [
+        "arabic_coconut_pulp_mistranslation"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "productName": "Pepco Coconut Pulp 20 x 500g",
+        "translatedName": "بيبكو جوز الهند اللب 20 × 500g",
+        "brand": "PEPCO",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "availability": "Available"
+      },
+      "storefront": false
+    }
+  ],
+  "verifiedFieldChanges": [],
+  "unresolvedIssueCount": 14,
+  "creatorProductReadCalls": 1,
+  "creatorRecordsReturned": 76,
+  "nonTargetRecordsExcluded": 56,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "notes": [
+    "Exact Creator ID, SKU, and product name verified for each selected manifest item.",
+    "Read-only review; missing descriptions not modified without manufacturer/label evidence.",
+    "Translated description/packing fields not exposed in All_Products API.",
+    "All selected manifest storefront flags are false; Creator Availability is not proof of storefront publication.",
+    "No authenticated checkout QA or cross-system ACK receipts verified."
+  ]
+}

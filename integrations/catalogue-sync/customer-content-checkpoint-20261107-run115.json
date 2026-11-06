@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-07",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run114.json",
+  "evidencePath": "integrations/catalogue-sync/customer-content-followup-20261107-run115.json",
+  "evidenceSha": "c65cb79b3cce8b9be583a0983523cfb57c0b7319",
+  "reviewedThisRun": 17,
+  "skipPrefixCount": 1237,
+  "nextId": null,
+  "nextSku": null,
+  "remainingPending": 0,
+  "rule": "Immutable manifest overlay; completed prefix 1237/1237; no replay. Baseline 20/20 separate. Incremental changes only after validated watermark."
+}

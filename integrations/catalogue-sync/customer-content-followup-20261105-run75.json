@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-05",
+  "run": 75,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run74.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103016",
+    "4278439000000103020",
+    "4278439000000103024",
+    "4278439000000103028",
+    "4278439000000103032",
+    "4278439000000103036",
+    "4278439000000103040",
+    "4278439000000103048",
+    "4278439000000103052",
+    "4278439000000103056",
+    "4278439000000103060",
+    "4278439000000103064",
+    "4278439000000103068",
+    "4278439000000103072",
+    "4278439000000103076",
+    "4278439000000103080",
+    "4278439000000103084",
+    "4278439000000103092",
+    "4278439000000103096",
+    "4278439000000103100"
+  ],
+  "reviewedSkus": [
+    "CR1224",
+    "CR1225",
+    "CR1226",
+    "CR1227",
+    "CR1228",
+    "CR1229",
+    "CR1230",
+    "CR1232",
+    "CR1233",
+    "CR1234",
+    "CR1235",
+    "CR1236",
+    "CR1237",
+    "CR1238",
+    "CR1239",
+    "CR1240",
+    "CR1241",
+    "CR1243",
+    "CR1244",
+    "CR1245"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 44,
+  "issues": [
+    {
+      "sku": "CR1224",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1224",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1224",
+      "issue": "Arabic brand translation appears incorrect; verify label"
+    },
+    {
+      "sku": "CR1225",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1225",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1225",
+      "issue": "Arabic brand translation appears incorrect; verify label"
+    },
+    {
+      "sku": "CR1226",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1226",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1226",
+      "issue": "Arabic brand translation appears incorrect; verify label"
+    },
+    {
+      "sku": "CR1227",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1227",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1228",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1228",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1229",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1230",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1230",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1232",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1233",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1234",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1235",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1236",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1237",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1237",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1238",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1238",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1238",
+      "issue": "Arabic title appears mistranslated; verify manufacturer/label"
+    },
+    {
+      "sku": "CR1238",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1239",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1239",
+      "issue": "Arabic title appears mistranslated; verify manufacturer/label"
+    },
+    {
+      "sku": "CR1239",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1240",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1240",
+      "issue": "Arabic title appears mistranslated; verify manufacturer/label"
+    },
+    {
+      "sku": "CR1240",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1241",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1241",
+      "issue": "Missing Books mapping; sync blocked"
+    },
+    {
+      "sku": "CR1241",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1243",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1243",
+      "issue": "Arabic title appears mistranslated; verify manufacturer/label"
+    },
+    {
+      "sku": "CR1243",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1244",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1244",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    },
+    {
+      "sku": "CR1245",
+      "issue": "Blank or undefined selling unit; exact selling variant required"
+    },
+    {
+      "sku": "CR1245",
+      "issue": "Arabic title appears mistranslated; verify manufacturer/label"
+    },
+    {
+      "sku": "CR1245",
+      "issue": "Conflicting pack notation; confirm carton variant before correction"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "Read-only exact-ID audit; all 20 non-storefront. No authenticated checkout QA or translated description/packing readback. Private financial/vendor fields intentionally excluded."
+}

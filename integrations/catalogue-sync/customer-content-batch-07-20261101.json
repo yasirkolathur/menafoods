@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-01",
+  "batch": 7,
+  "kind": "customer-facing-content-remediation",
+  "scope": {
+    "exactIdsRead": 20,
+    "storefrontIdsRead": 20,
+    "successfulWrites": 15,
+    "exactIdSkuNameReadbacks": 15,
+    "verifiedTitleFieldsChanged": 30,
+    "held": 5,
+    "reviewedNoChange": 0,
+    "fullRescan": false
+  },
+  "changes": [
+    {
+      "creatorId": "4278439000000106290",
+      "sku": "CR1723",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Black Pomfert Fish300/500 10 kg",
+          "after": "Frozen Black Pomfret, 300/500, 10 kg"
+        },
+        "Translated_Name": {
+          "before": "سمكة بومفرت سوداء مجمدة 300/500 10 كجم",
+          "after": "سمك بومفريت أسود مجمد، مقاس 300/500، 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106298",
+      "sku": "CR1725",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Allana Frozen Boneless Indian Beef Slice 20 * 900 g #11",
+          "after": "Allana Frozen Boneless Indian Beef Slices, 20 × 900 g, #11 — Carton"
+        },
+        "Translated_Name": {
+          "before": "ألانا المجمدة بلا عظام شريحة لحوم البقر الهندية 20 * 900 غرام #11",
+          "after": "شرائح لحم بقري هندي مجمدة بدون عظم من ألانا، كرتون 20 × 900 جم، رقم 11"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106330",
+      "sku": "CR1727",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Beef Feet 20 kg",
+          "after": "Frozen Beef Feet, 20 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "قدم لحم البقر المجمدة 20 كجم",
+          "after": "أقدام بقري مجمدة، كرتون 20 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106338",
+      "sku": "CR1728",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Boneless Beef Tenderloin Friboi 8-16kg",
+          "after": "Friboi Frozen Boneless Beef Tenderloin, 8–16 kg"
+        },
+        "Translated_Name": {
+          "before": "المجمدة لحم البقر الخالي من العظام Tenderloin فريبوي 8-16 كجم",
+          "after": "فيليه لحم بقري فريبوي مجمد بدون عظم، 8–16 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106348",
+      "sku": "CR1729",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "FROZEN  POMEGRANATE KERNEL MARIETTA 8*1 KG",
+          "after": "Marietta Frozen Pomegranate Arils, 8 × 1 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "رمان ماريتا مجمد 1 كيلو * 8",
+          "after": "حبوب رمان ماريتا مجمدة، كرتون 8 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106364",
+      "sku": "CR1733",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Marietta spinach 400gm * 20",
+          "after": "Marietta Spinach, 20 × 400 g — Carton"
+        },
+        "Translated_Name": {
+          "before": "ماريتا السبانخ 400gm * 20",
+          "after": "سبانخ ماريتا، كرتون 20 × 400 جم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106388",
+      "sku": "CR1739",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen kingfish fish up to 3 kg 20kg Carton",
+          "after": "Frozen Kingfish, Up to 3 kg, 20 kg Carton"
+        },
+        "Translated_Name": {
+          "before": "الأسماك الملك المجمدة تصل إلى 3 كجم 20 كجم الكرتون",
+          "after": "سمك كينغ فيش مجمد، حتى 3 كجم، كرتون 20 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106400",
+      "sku": "CR1741",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Squid rings (1 kg * 10 )bags",
+          "after": "Frozen Squid Rings, 10 × 1 kg Bags"
+        },
+        "Translated_Name": {
+          "before": "حلقات الحبار المجمدة (1 كجم * 10) أكياس",
+          "after": "حلقات حبار مجمدة، 10 أكياس × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106406",
+      "sku": "CR1742",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Squid tube 1kg* 10",
+          "after": "Frozen Squid Tubes, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "أنبوب الحبار 1 كجم * 10 المجمده",
+          "after": "أنابيب حبار مجمدة، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106428",
+      "sku": "CR1745",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Villa Germania - Whole Frozen Duck 1.8 kg*8",
+          "after": "Villa Germania Whole Frozen Duck, 8 × 1.8 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "فيلا جرمانيا - بطة كاملة مجمدة 1.8 كجم",
+          "after": "بط فيلا جرمانيا كامل مجمد، كرتون 8 × 1.8 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106432",
+      "sku": "CR1746",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Crab 100/200 g ( 1* 8kg) bluk Box",
+          "after": "Frozen Crab, 100/200 g, 8 kg Bulk Box"
+        },
+        "Translated_Name": {
+          "before": "السلطعون المجمد 100/200 غرام (1 * 8 كجم) بلوك مربع",
+          "after": "سلطعون مجمد، مقاس 100/200 جم، صندوق سائب 8 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106436",
+      "sku": "CR1747",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Whole milk fish 400-600 g 10 kg",
+          "after": "Whole Milkfish, 400–600 g, 10 kg — Carton"
+        },
+        "Translated_Name": {
+          "before": "سمك الحليب كامل الدسم 400-600 جم 10 كجم",
+          "after": "سمك اللبن كامل، 400–600 جم، كرتون 10 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106440",
+      "sku": "CR1748",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "21 - 25  RAW IQF WHITE SHRIMP, P&D, TAIL-OFF ( 1 kg X 10 ) BAGS",
+          "after": "Raw IQF White Shrimp, Peeled & Deveined, Tail-Off, 21–25, 10 × 1 kg"
+        },
+        "Translated_Name": {
+          "before": "21 - 25 راو IQF الأبيض SHRIMP ، P & D ، TAIL-OFF (1 كجم × 10) BAGS",
+          "after": "روبيان أبيض نيئ IQF، مقشر ومنظف، بدون ذيل، مقاس 21–25، 10 × 1 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106446",
+      "sku": "CR1749",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Shrimps Head-On 20-30 2 kg",
+          "after": "Frozen Head-On Shrimp, 20–30, 2 kg"
+        },
+        "Translated_Name": {
+          "before": "روبيان مجمد كامل 20-30 2 كيلو",
+          "after": "روبيان مجمد بالرأس، مقاس 20–30، 2 كجم"
+        }
+      }
+    },
+    {
+      "creatorId": "4278439000000106454",
+      "sku": "CR1750",
+      "readbackVerified": true,
+      "source": "Zoho Creator mena / All_Products exact record ID/SKU, existing EN/AR names, unit, category, brand and stated packing; editorial normalization only; no independent manufacturer certification",
+      "fields": {
+        "Product_Name": {
+          "before": "Frozen Shrimps Head-On 10-20 2 kg",
+          "after": "Frozen Head-On Shrimp, 10–20, 2 kg"
+        },
+        "Translated_Name": {
+          "before": "روبيان مجمد كامل 10-20 2كيلو",
+          "after": "روبيان مجمد بالرأس، مقاس 10–20، 2 كجم"
+        }
+      }
+    }
+  ],
+  "held": [
+    {
+      "creatorId": "4278439000000106320",
+      "sku": "CR1726",
+      "name": "Frozen Beef Liver New Zealand  Affco",
+      "reason": "New Zealand origin stated in title but origin field blank; require manufacturer/label confirmation before repeating origin claim in Arabic or description."
+    },
+    {
+      "creatorId": "4278439000000106352",
+      "sku": "CR1730",
+      "name": "FROZEN STRAWBERRY MARIETTA 8*1 KG (M)",
+      "reason": "Title Marietta conflicts with Brand Meritta; confirm exact manufacturer spelling and pack variant."
+    },
+    {
+      "creatorId": "4278439000000106368",
+      "sku": "CR1734",
+      "name": "TOTAPURI GUAVA PULP PREMIER 16*1 KG",
+      "reason": "Totapuri typically denotes a mango variety, while product says guava; exact product identity requires label evidence."
+    },
+    {
+      "creatorId": "4278439000000106376",
+      "sku": "CR1736",
+      "name": "FROZEN MANGO PULP ZAIN 16*1 KG (No Sugar)",
+      "reason": "No Sugar claim not independently label-verified; avoid editorially republishing a dietary claim."
+    },
+    {
+      "creatorId": "4278439000000106380",
+      "sku": "CR1737",
+      "name": "FROZEN MANGO PULP MONTANA 16*1 KG",
+      "reason": "Brand field Mountana conflicts with product title Montana; confirm exact brand spelling."
+    }
+  ],
+  "api": {
+    "creatorConnectorCallsThisRun": 72,
+    "billableApiCalls": "not available",
+    "note": "Includes one failed form-metadata lookup, exact preflight and readback calls; no full-report scan."
+  },
+  "writes": {
+    "creatorNonfinancialTitlesOnly": 30,
+    "prices": 0,
+    "costs": 0,
+    "stock": 0,
+    "margins": 0,
+    "visibility": 0,
+    "images": 0,
+    "orders": 0,
+    "crossSystem": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package are not exposed in All_Products readback; no changes attempted.",
+    "Existing image presence is not proof of Commerce/Catalyst rendering or redistribution rights."
+  ],
+  "checkoutQA": {
+    "reference": "yasirkolathur/menafoods issue #27",
+    "status": "NO-GO",
+    "authenticatedTestsThisRun": 0,
+    "reason": "No authenticated role/checkout execution or end-to-end receipts; no financial orders created."
+  },
+  "sync": {
+    "status": "disabled/unverified",
+    "notes": "Four duplicate-active IDs and other collisions remain blocked; no webhook/ACK/deployed gateway verification."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-06",
+  "run": 110,
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000007354158",
+    "4278439000007356124",
+    "4278439000007360116",
+    "4278439000007418070",
+    "4278439000007461176",
+    "4278439000007581026",
+    "4278439000007590128",
+    "4278439000007652165",
+    "4278439000007722225",
+    "4278439000007725177",
+    "4278439000007843112",
+    "4278439000007933008",
+    "4278439000008096060",
+    "4278439000008101027",
+    "4278439000008187152",
+    "4278439000008269016",
+    "4278439000008381013",
+    "4278439000008393029",
+    "4278439000008562013",
+    "4278439000008564006"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorReadCalls": 1,
+  "unresolvedIssueCount": 18,
+  "issues": [
+    {
+      "id": "4278439000007354158",
+      "sku": "SKU-3400",
+      "findings": [
+        "arabic_title_mistranslates_tea_shop"
+      ]
+    },
+    {
+      "id": "4278439000007360116",
+      "sku": "SKU-3397",
+      "findings": [
+        "zero_selling_price_financial_hold",
+        "arabic_raspberry_mistranslated_as_grenadine"
+      ]
+    },
+    {
+      "id": "4278439000007418070",
+      "sku": "SKU-3403",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000007461176",
+      "sku": "SKU-3404",
+      "findings": [
+        "buffalo_veal_species_conflict"
+      ]
+    },
+    {
+      "id": "4278439000007581026",
+      "sku": "SKU-3410",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000007590128",
+      "sku": "SKU-3412",
+      "findings": [
+        "arabic_foil_translation_error"
+      ]
+    },
+    {
+      "id": "4278439000007722225",
+      "sku": "SKU-3422",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000007725177",
+      "sku": "SKU-3421",
+      "findings": [
+        "brand_identity_unverified"
+      ]
+    },
+    {
+      "id": "4278439000008096060",
+      "sku": "SKU-3429",
+      "findings": [
+        "missing_arabic_title",
+        "duplicate_name_variant_identity_hold"
+      ]
+    },
+    {
+      "id": "4278439000008101027",
+      "sku": "SKU-3431",
+      "findings": [
+        "missing_books_mapping",
+        "duplicate_name_variant_identity_hold"
+      ]
+    },
+    {
+      "id": "4278439000008187152",
+      "sku": "SKU-3434",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000008381013",
+      "sku": "SKU-3437",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000008393029",
+      "sku": "SKU-3436",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000008562013",
+      "sku": "SKU-3439",
+      "findings": [
+        "zero_selling_price_financial_hold"
+      ]
+    },
+    {
+      "id": "4278439000008564006",
+      "sku": "SKU-3438",
+      "findings": [
+        "box_vs_carton_unit_validation"
+      ]
+    }
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "creatorWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "source": "Zoho Creator All_Products exact-ID filtered read; immutable manifest; no manufacturer/label evidence for safe edits",
+  "nextPendingId": "4278439000008576014",
+  "readback": "Identity, SKU, title, UOM, Arabic title, mapping and visibility read; translated description/packing unavailable in report"
+}

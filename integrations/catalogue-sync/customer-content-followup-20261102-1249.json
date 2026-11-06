@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 12:49 Asia/Riyadh (runtime clock; not Creator source timestamp)",
+  "phase": "post-20/20 customer-content storefront followup #8",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000003024007",
+    "4278439000003040011",
+    "4278439000003066007",
+    "4278439000003082011",
+    "4278439000003086007",
+    "4278439000003088011",
+    "4278439000003114035",
+    "4278439000003109019",
+    "4278439000003106015",
+    "4278439000003106040",
+    "4278439000003110049",
+    "4278439000003134011",
+    "4278439000003149007",
+    "4278439000003164011",
+    "4278439000003167007",
+    "4278439000003187011",
+    "4278439000003194015",
+    "4278439000003198027",
+    "4278439000003197019",
+    "4278439000003206100"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000003024007",
+      "sku": "SKU-2919",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003040011",
+      "sku": "SKU-2921",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003066007",
+      "sku": "SKU-2924",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003082011",
+      "sku": "SKU-2926",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003086007",
+      "sku": "SKU-2927",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003088011",
+      "sku": "SKU-2928",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003114035",
+      "sku": "SKU-2929",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003109019",
+      "sku": "SKU-2930",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003106015",
+      "sku": "SKU-2931",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003106040",
+      "sku": "SKU-2932",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003110049",
+      "sku": "SKU-2933",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003134011",
+      "sku": "SKU-2934",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003149007",
+      "sku": "SKU-2935",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003164011",
+      "sku": "SKU-2936",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003167007",
+      "sku": "SKU-2937",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003187011",
+      "sku": "SKU-2938",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003194015",
+      "sku": "SKU-2940",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003198027",
+      "sku": "SKU-2942",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003197019",
+      "sku": "SKU-2944",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000003206100",
+      "sku": "SKU-2945",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 7,
+  "verifiedProductsChanged": 7,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 13,
+  "corrections": [
+    {
+      "sku": "SKU-2919",
+      "creatorId": "4278439000003024007",
+      "field": "Translated_Name",
+      "before": "RED HOT Chilli POWDER (كيلوغرام)",
+      "after": "مسحوق فلفل أحمر حار مجفف — بالكيلوجرام",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2921",
+      "creatorId": "4278439000003040011",
+      "field": "Translated_Name",
+      "before": "فخذ لحم عجل هندي مجمد منزوع العظم 4.5 كجم × 4",
+      "after": "فخذ عجل هندي مجمد منزوع العظم من منات، 4 × 4.5 كجم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2931",
+      "creatorId": "4278439000003106015",
+      "field": "Translated_Name",
+      "before": "عيزارد الدجاج المجمدة 500gm × 15 صواني",
+      "after": "قوانص دجاج مجمدة، 15 صينية × 500 جم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2934",
+      "creatorId": "4278439000003134011",
+      "field": "Translated_Name",
+      "before": "شاورما دجاج مجمدة بدون عظم 2.5 كجم × 4",
+      "after": "شاورما دجاج كونفيدنس مجمدة بدون عظم، 4 × 2.5 كجم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2935",
+      "creatorId": "4278439000003149007",
+      "field": "Translated_Name",
+      "before": "ساديا فخذي الدجاج المجمدة 900 غرام × 20",
+      "after": "أفخاذ دجاج ساديا مجمدة، 20 × 900 جم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2937",
+      "creatorId": "4278439000003167007",
+      "field": "Translated_Name",
+      "before": "جولي المجمدة الفراولة المصرية 800 جم × 10",
+      "after": "فراولة مصرية مجمدة جولي، 10 × 800 جم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "sku": "SKU-2940",
+      "creatorId": "4278439000003194015",
+      "field": "Translated_Name",
+      "before": "ديليكو الخضروات النقية السمن 15 كجم",
+      "after": "سمن نباتي نقي ديليكو، 15 كجم",
+      "readback": "Verified Creator exact-ID/SKU/Translated_Name after update",
+      "evidenceBasis": "Editorial Arabic correction grounded in existing exact Creator English title and Brand where present; not independently certified pack size",
+      "fullyRemediated": false,
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2924",
+      "severity": "critical",
+      "issue": "Unit=out undefined; 18×330 ml title not an authorized sale-unit conversion."
+    },
+    {
+      "sku": "SKU-2926",
+      "severity": "critical",
+      "issue": "English 6×900 g versus Arabic 6×500 g; packaging conflict; hold Arabic weight correction until exact pack verified."
+    },
+    {
+      "sku": "SKU-2928",
+      "severity": "critical",
+      "issue": "Unit=rpt undefined for 500-piece burger packaging; quantity conversion blocked."
+    },
+    {
+      "sku": "SKU-2935",
+      "severity": "high",
+      "issue": "Unit=box; 20×900 g asserted in title but exact carton/box conversion not independently verified."
+    },
+    {
+      "sku": "SKU-2936",
+      "severity": "high",
+      "issue": "Unit=box; 4×2.5 kg carton conversion not independently verified."
+    },
+    {
+      "sku": "SKU-2940",
+      "severity": "medium",
+      "issue": "Plant-based vegetable ghee currently in Dairy; category may mislead; classification held."
+    },
+    {
+      "sku": "SKU-2942",
+      "severity": "critical",
+      "issue": "Unit=out undefined for tomato paste."
+    },
+    {
+      "sku": "SKU-2942",
+      "severity": "high",
+      "issue": "48×8×135 g packaging hierarchy ambiguous; verify physical carton and invoice UOM before display as conversion."
+    },
+    {
+      "sku": "SKU-2944",
+      "severity": "critical",
+      "issue": "Unit=out undefined; title says 24×250 ml and Pack of 1; sale-unit conversion ambiguous."
+    },
+    {
+      "sku": "SKU-2944",
+      "severity": "medium",
+      "issue": "Brand CEASER differs from product name Caesar; do not silently normalize brand."
+    },
+    {
+      "sku": "SKU-2945",
+      "severity": "medium",
+      "issue": "Long Life may be brand or descriptive text; avoid inventing a brand or shelf life."
+    },
+    {
+      "sku": "SKU-2927",
+      "severity": "high",
+      "issue": "Margin_Configured=No while base/selling price fields exist; hold all financial changes until owner policy and cost basis."
+    },
+    {
+      "sku": "SKU-2929",
+      "severity": "high",
+      "issue": "Unit=box with 24×340 g stated; no independent exact-carton evidence for PCS conversion."
+    }
+  ],
+  "unresolvedIssueCount": 13,
+  "sourcePolicy": "Existing exact-ID Creator English names and Brand values support editorial Arabic only. Manufacturer packaging, unit conversion, images, and external source rights not independently verified; no new factual packaging claims.",
+  "creatorConnectorCallsObserved": 37,
+  "creatorBillableApiUnits": "unavailable",
+  "creatorCallCountNote": "1 getApplications, 1 getReportMetadata, 20 exact-ID reads, 1 getFormMetadata, 7 updateRecordByID, 7 exact-ID readbacks; GitHub calls excluded.",
+  "incrementalProbe": "Not run; source watermark unverified and unchanged",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "EN/AR RTL authenticated rendering",
+      "Commerce/Catalyst image and visibility readback",
+      "CTN/PCS/KG conversions",
+      "customer price vs private cost isolation",
+      "VAT calculation",
+      "cart persistence",
+      "Buy Again",
+      "COD and credit approval",
+      "confirm-once checkout and exactly-once Books sales order"
+    ]
+  },
+  "writes": {
+    "creatorTranslatedName": 7,
+    "creatorFinancial": 0,
+    "creatorStock": 0,
+    "creatorImage": 0,
+    "orders": 0,
+    "crossSystem": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": "Description, Translated_Description, Package_Details, Translated_Package and Modified_Time not exposed in All_Products API readback. No claims of verifying those fields."
+}

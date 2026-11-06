@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-03",
+  "followup": 40,
+  "baseline": "20/20 complete",
+  "creatorReport": "menafoods/mena/All_Products",
+  "selection": "Next 20 unreviewed storefront IDs following follow-up 39 last ID, compact ID filter",
+  "reviewedIds": [
+    "4278439000002652011",
+    "4278439000002653011",
+    "4278439000002662007",
+    "4278439000002665027",
+    "4278439000002685026",
+    "4278439000002687007",
+    "4278439000002688007",
+    "4278439000002689007",
+    "4278439000002690007",
+    "4278439000002699003",
+    "4278439000002699024",
+    "4278439000002701011",
+    "4278439000002701044",
+    "4278439000002703252",
+    "4278439000002708003",
+    "4278439000002712007",
+    "4278439000002714007",
+    "4278439000002721011",
+    "4278439000002722007",
+    "4278439000002723007"
+  ],
+  "recordsAudited": 20,
+  "verifiedChanges": [],
+  "unresolvedIssues": [
+    {
+      "type": "brand_typo_pending_manufacturer_evidence",
+      "ids": [
+        "4278439000002688007"
+      ],
+      "note": "Golden Phoenix 1200g brand field GOLDEN PHONIX versus product name and four sibling variants GOLDEN PHOENIX; held for authoritative label confirmation."
+    },
+    {
+      "type": "selling_unit_ambiguity",
+      "ids": [
+        "4278439000002653011",
+        "4278439000002722007",
+        "4278439000002701044"
+      ],
+      "note": "Paper bags unit rpt, Dalda 16 pieces unit box, split faba beans unit ctn; packing and checkout unit conversions not independently verified."
+    },
+    {
+      "type": "origin_or_identity_unverified",
+      "ids": [
+        "4278439000002699003",
+        "4278439000002703252",
+        "4278439000002714007",
+        "4278439000002708003"
+      ],
+      "note": "Country references in names or 777 designation not independently manufacturer/lot certified; no origin or brand changes."
+    },
+    {
+      "type": "image_rights_and_propagation",
+      "note": "All 20 have Creator image references, no verified redistribution rights or Commerce/Catalyst propagation receipts."
+    },
+    {
+      "type": "translated_fields_unreadable",
+      "note": "Translated_Description and Translated_Package unavailable in All_Products readback."
+    },
+    {
+      "type": "financial_policy_on_hold",
+      "note": "No category margin policy or validated cost basis; no financial changes."
+    },
+    {
+      "type": "authenticated_checkout_and_sync_no_go",
+      "note": "No authenticated EN/AR RTL, CTN/PCS/KG, VAT, cart, Buy Again, COD/credit, confirm-once or cross-system ACK evidence."
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 3,
+  "apiBillableUnits": "unavailable",
+  "sourceLinks": [
+    "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json"
+  ],
+  "financialWrites": 0,
+  "creatorWrites": 0,
+  "imagesPublished": 0,
+  "deployments": 0,
+  "next": "Follow-up 41: next 20 unreviewed storefront IDs from updated manifest"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-01",
+  "batch": 13,
+  "status": "partial",
+  "recordsRead": 5,
+  "verifiedUpdates": 4,
+  "verifiedTitleFields": 8,
+  "changes": [
+    {
+      "id": "4278439000001480015",
+      "sku": "CR1930",
+      "fields": [
+        "Product_Name",
+        "Translated_Name"
+      ],
+      "verifiedReadback": true,
+      "source": "Exact Creator ID/SKU, existing name, brand and pack notation; editorial correction, not manufacturer certification"
+    },
+    {
+      "id": "4278439000001497011",
+      "sku": "CR1932",
+      "fields": [
+        "Product_Name",
+        "Translated_Name"
+      ],
+      "verifiedReadback": true,
+      "source": "Exact Creator ID/SKU, existing name, brand and pack notation; editorial correction, not manufacturer certification"
+    },
+    {
+      "id": "4278439000001501019",
+      "sku": "CR1934",
+      "fields": [
+        "Product_Name",
+        "Translated_Name"
+      ],
+      "verifiedReadback": true,
+      "source": "Exact Creator ID/SKU, existing name, brand and pack notation; editorial correction, not manufacturer certification"
+    },
+    {
+      "id": "4278439000001504027",
+      "sku": "CR1936",
+      "fields": [
+        "Product_Name",
+        "Translated_Name"
+      ],
+      "verifiedReadback": true,
+      "source": "Exact Creator ID/SKU, existing name, brand and pack notation; editorial correction, not manufacturer certification"
+    }
+  ],
+  "heldOrPending": [
+    {
+      "sku": "CR1935",
+      "reason": "Beef cut spelling and carton-weight versus per-kg distinction require additional evidence"
+    }
+  ],
+  "creatorCalls": 13,
+  "financialWrites": 0,
+  "checkoutQA": "NO-GO",
+  "deployment": "Not attempted; no authenticated QA and rollback evidence"
+}

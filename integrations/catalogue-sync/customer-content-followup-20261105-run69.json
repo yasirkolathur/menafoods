@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-05",
+  "run": "69",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run68.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000007326105",
+    "4278439000007326235",
+    "4278439000007331127",
+    "4278439000007355162",
+    "4278439000007355218",
+    "4278439000007359112",
+    "4278439000007361168",
+    "4278439000007367067",
+    "4278439000007371090",
+    "4278439000007502105",
+    "4278439000007506039",
+    "4278439000007510186",
+    "4278439000007557083",
+    "4278439000007578023",
+    "4278439000007587086",
+    "4278439000007615035",
+    "4278439000007620007",
+    "4278439000007621011",
+    "4278439000007674036",
+    "4278439000007693138"
+  ],
+  "allSkuAndIdsMatched": true,
+  "storefrontRecords": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 16,
+  "unresolvedIssues": [
+    {
+      "sku": "SKU-3387",
+      "issue": "out unit undefined; bottle/carton identity and pack need evidence"
+    },
+    {
+      "sku": "SKU-3386",
+      "issue": "out unit undefined; bottle/carton identity and pack need evidence"
+    },
+    {
+      "sku": "SKU-3399",
+      "issue": "pcs unit versus 6 x 925g pack; variant and product type need evidence"
+    },
+    {
+      "sku": "SKU-3396",
+      "issue": "pcs unit versus 6 x 925g pack; variant and product type need evidence"
+    },
+    {
+      "sku": "SKU-3398",
+      "issue": "pcs unit versus 6 x 925g pack; variant and product type need evidence"
+    },
+    {
+      "sku": "SKU-3393",
+      "issue": "Indian origin in English but absent Arabic; source/weight evidence required"
+    },
+    {
+      "sku": "SKU-3408",
+      "issue": "2oz cup capacity incorrectly described as 50g weight in Arabic; label evidence required"
+    },
+    {
+      "sku": "SKU-3409",
+      "issue": "192-count bottle carton needs exact-pack source and image rights"
+    },
+    {
+      "sku": "SKU-3411",
+      "issue": "PREMIUM could be quality descriptor rather than actual brand"
+    },
+    {
+      "sku": "SKU-3414",
+      "issue": "out selling unit undefined"
+    },
+    {
+      "sku": "SKU-3413",
+      "issue": "out selling unit undefined"
+    },
+    {
+      "sku": "SKU-3415",
+      "issue": "out selling unit undefined"
+    },
+    {
+      "sku": "SKU-3417",
+      "issue": "No.172 beef cut and kg sell-unit identity need evidence"
+    },
+    {
+      "sku": "SKU-3419",
+      "issue": "ctn unit but only 1kg in name; carton pack count unverified"
+    },
+    {
+      "sku": "all",
+      "issue": "No verified exact-label/manufacturer evidence or image redistribution rights"
+    },
+    {
+      "sku": "all",
+      "issue": "Authenticated checkout EN/AR RTL, VAT, cart, COD/credit, Buy Again, confirm-once and four-way ACK remain unverified"
+    }
+  ],
+  "creatorReadCallsObserved": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "productWrites": 0,
+  "syncWrites": 0,
+  "checkoutStatus": "NO-GO",
+  "readbackLimitations": "Translated description/packing fields unavailable from All_Products API; no writes attempted.",
+  "nextPendingId": "4278439000007708127"
+}

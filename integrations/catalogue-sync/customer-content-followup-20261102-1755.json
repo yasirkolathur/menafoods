@@ -1,0 +1,405 @@
+{
+  "date": "2026-11-02",
+  "localTime": "17:55 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 13",
+  "baseline": "Creator Products_Books baseline 2122; baseline 20/20 completed previously",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000003828061",
+      "sku": "SKU-3069",
+      "productName": "Chicken Leg Quarter 10kg GT",
+      "category": "Chicken & Eggs",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003847007",
+      "sku": "SKU-3072",
+      "productName": "CHILLFILL FRENCH FRIES STRAIGHT CUT 9MM 1KG x 10 - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003843015",
+      "sku": "SKU-3073",
+      "productName": "CHILL FILL FRENCH FRIES STRAIGHT CUT 6/6MM 2.5 KG x 4 - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003861031",
+      "sku": "SKU-3074",
+      "productName": "BLACK MICROWAVE 50 GRM ARNON 100 PC",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003851035",
+      "sku": "SKU-3076",
+      "productName": "Printed Chicken Shawarma Sandwich Paper EMESAPack",
+      "category": "Eco-Friendly Packaging",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003851089",
+      "sku": "SKU-3081",
+      "productName": "ALUMINIUM CONTAINER 420 + LID JOODY",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003853042",
+      "sku": "SKU-3082",
+      "productName": "PRESTIGE CONTAINER 1065+LID",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003852035",
+      "sku": "SKU-3083",
+      "productName": "Floor Cleaner 30 LTR",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003928035",
+      "sku": "SKU-3086",
+      "productName": "Al Noor Frozen Boneless Chicken Shawarma 2.5 kg × 4 - Carton",
+      "category": "Chicken & Eggs",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003922029",
+      "sku": "SKU-3087",
+      "productName": "Frozen Chicken Breast Fakeih 2.5kg x 4",
+      "category": "Chicken & Eggs",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003995007",
+      "sku": "SKU-3090",
+      "productName": "Strawberry Jam - 12 pieces per carton - 375 g",
+      "category": "Canned & Imported Items",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003996011",
+      "sku": "SKU-3091",
+      "productName": "Omani Potatoes Small Pepper Flavor 13g x 23 Packs 4",
+      "category": "Bakery, Beverages & More",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003997007",
+      "sku": "SKU-3092",
+      "productName": "Bundle Of Cleaning Sponge Assorted Color | 12 pcs | 10 Packs",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003996036",
+      "sku": "SKU-3093",
+      "productName": "OKI 9-piece dish cleaning wire",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003998019",
+      "sku": "SKU-3094",
+      "productName": "55-gallon SABIC 10 kg thick garbage bag",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000003994036",
+      "sku": "SKU-3095",
+      "productName": "50-gallon SABIC 10 kg thick garbage bag",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004000007",
+      "sku": "SKU-3096",
+      "productName": "Ponca Milk Powder 25 kg",
+      "category": "Dairy",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004002011",
+      "sku": "SKU-3097",
+      "productName": "Frozen Pomegranate Sana 1kg x 8",
+      "category": "Fruits & Vegetables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004006076",
+      "sku": "SKU-3099",
+      "productName": "Microfiber Cleaning Cloth",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004081043",
+      "sku": "SKU-3103",
+      "productName": "Mushroom Sliced 2.5kg x 6",
+      "category": "Canned & Imported Items",
+      "storefront": true,
+      "exactIdRead": "success"
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000003828061",
+      "sku": "SKU-3069",
+      "field": "Translated_Name",
+      "before": "ربع ساق الدجاج 10 كجم GT",
+      "after": "أرباع أرجل دجاج GT، 10 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Brand",
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003843015",
+      "sku": "SKU-3073",
+      "field": "Translated_Name",
+      "before": "بطاطس مقلية محشوة بالفلفل الحار مقطعة بشكل مستقيم 6/6 مم 2.5 كجم × 4 - كرتون",
+      "after": "بطاطس تشيل فيل المقلية، تقطيع مستقيم 6×6 مم، 2.5 كجم × 4 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003851035",
+      "sku": "SKU-3076",
+      "field": "Translated_Name",
+      "before": "الدجاج شاورما ورقة ساندويتش المطبوعة EMESAPack",
+      "after": "ورق ساندويتش شاورما الدجاج المطبوع — إيميساباك",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Description",
+        "Package_Details",
+        "margin_rule_pending"
+      ]
+    },
+    {
+      "creatorId": "4278439000003851089",
+      "sku": "SKU-3081",
+      "field": "Translated_Name",
+      "before": "حاوية ألومنيوم 420 + غطاء جودي",
+      "after": "وعاء ألمنيوم جودي رقم 420 مع غطاء",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ]
+    },
+    {
+      "creatorId": "4278439000003853042",
+      "sku": "SKU-3082",
+      "field": "Translated_Name",
+      "before": "حاوية بريستيج 1065+غطاء",
+      "after": "وعاء بريستيج رقم 1065 مع غطاء",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Description",
+        "Package_Details"
+      ]
+    },
+    {
+      "creatorId": "4278439000003928035",
+      "sku": "SKU-3086",
+      "field": "Translated_Name",
+      "before": "النور المجمدة الدجاج بلا عظام شاورما 2.5 كجم × 4 - الكرتون",
+      "after": "شاورما دجاج النور المجمدة بدون عظم، 2.5 كجم × 4 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003922029",
+      "sku": "SKU-3087",
+      "field": "Translated_Name",
+      "before": "صدور دجاج مجمدة فقية 2.5 كجم × 4",
+      "after": "صدور دجاج فقيه مجمدة، 2.5 كجم × 4",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000003997007",
+      "sku": "SKU-3092",
+      "field": "Translated_Name",
+      "before": "| حزمة اسفنج تنظيف ملون | 12 حبة | 10 شدة",
+      "after": "إسفنج تنظيف متعدد الألوان، 12 قطعة × 10 عبوات",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Brand",
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004006076",
+      "sku": "SKU-3099",
+      "field": "Translated_Name",
+      "before": "ستوكات تنظيف القماش",
+      "after": "قطعة قماش تنظيف من الألياف الدقيقة",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and current Arabic field; editorial translation only; manufacturer label/pack not certified",
+      "remainingFields": [
+        "Brand",
+        "Description",
+        "Package_Details"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3069",
+      "risk": "GT could be a supplier/brand code; brand and 10 kg carton hierarchy not independently confirmed."
+    },
+    {
+      "sku": "SKU-3073",
+      "risk": "6/6 mm cut and 4 × 2.5 kg carton stated in Creator, not independently label-verified."
+    },
+    {
+      "sku": "SKU-3074",
+      "risk": "BLACK MICROWAVE 50 GRM ARNON 100 PC: container identity and 50 g designation ambiguous."
+    },
+    {
+      "sku": "SKU-3076",
+      "risk": "Printed shawarma paper carton count/size not confirmed."
+    },
+    {
+      "sku": "SKU-3081",
+      "risk": "Joody aluminium container 420 is a variant code, not verified capacity; pieces per carton unknown."
+    },
+    {
+      "sku": "SKU-3082",
+      "risk": "Prestige container 1065 variant code, pieces per carton unknown."
+    },
+    {
+      "sku": "SKU-3083",
+      "risk": "Floor Cleaner 30 LTR is sold as gln; gallon-to-30L conversion must not be assumed."
+    },
+    {
+      "sku": "SKU-3086",
+      "risk": "Title specifies carton (4 × 2.5 kg) but selling unit is box; exact conversion unverified."
+    },
+    {
+      "sku": "SKU-3087",
+      "risk": "Title specifies 4 × 2.5 kg but selling unit is box; exact conversion unverified."
+    },
+    {
+      "sku": "SKU-3090",
+      "risk": "Title says 12 × 375 g carton but selling unit is box; mapping unverified."
+    },
+    {
+      "sku": "SKU-3091",
+      "risk": "13g x 23 Packs 4 hierarchy is ambiguous; do not calculate piece count."
+    },
+    {
+      "sku": "SKU-3092",
+      "risk": "12 pieces and 10 packs appear in source title; exact sellable bundle configuration unverified."
+    },
+    {
+      "sku": "SKU-3093",
+      "risk": "Selling unit rpt undefined; 9-piece wire sponge pack conversion unverified."
+    },
+    {
+      "sku": "SKU-3094",
+      "risk": "SABIC in garbage bag title may denote raw material, not verified manufacturer brand; 55 gallon and 10 kg not independently verified."
+    },
+    {
+      "sku": "SKU-3095",
+      "risk": "SABIC in garbage bag title may denote raw material, not verified manufacturer brand; 50 gallon and 10 kg not independently verified."
+    },
+    {
+      "sku": "SKU-3097",
+      "risk": "Sana in title is not independently verified as brand; do not populate Brand."
+    },
+    {
+      "sku": "SKU-3099",
+      "risk": "Selling unit rpt undefined; microfiber cloth pack quantity unverified."
+    },
+    {
+      "sku": "SKU-3103",
+      "risk": "Sliced mushroom 2.5kg × 6 storage and canned category not label-verified; do not infer fresh/frozen/canned."
+    }
+  ],
+  "unresolvedIssueCount": 18,
+  "fullyCompletedProducts": 0,
+  "creatorConnectorCallsObserved": 40,
+  "creatorBillableApiUnits": null,
+  "sourcePolicy": "Only existing exact Creator product identities support Arabic editorial corrections; no GTIN, pack conversions, manufacturer claims or external media rights asserted.",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": "EN/AR RTL, visibility/images Commerce/Catalyst propagation, CTN/PCS/KG, cost privacy, VAT, cart persistence, Buy Again, COD/credit, confirm-once checkout not independently accepted"
+  },
+  "writes": {
+    "creatorNonfinancialTitleFields": 9,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed.",
+    "Creator product image references do not verify Commerce/Catalyst propagation.",
+    "Authoritative Creator Modified_Time watermark unavailable; not advanced."
+  ],
+  "checkpoint": {
+    "previousReviewedUniquePostCompletion": 240,
+    "newReviewedUniquePostCompletion": 260,
+    "nextAction": "Next 20 unreviewed storefront exact IDs after SKU-3103, excluding held, reviewed and margin-only."
+  }
+}

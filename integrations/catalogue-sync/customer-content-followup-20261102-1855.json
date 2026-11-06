@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-02",
+  "localTime": "18:55 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 14",
+  "baseline": "Creator Products_Books baseline 2122; original audit 20/20 complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-1755.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000004092011",
+      "sku": "SKU-3104",
+      "productName": "Goody -Pasta Fusilli(No.36)-450GM x 24",
+      "category": "Pasta, Noodles & Vermicelli",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004106023",
+      "sku": "SKU-3105",
+      "productName": "Al Walima Sella Basmati Rice 40kg",
+      "category": "Rice, Pulses & Flours",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004163015",
+      "sku": "SKU-3110",
+      "productName": "CHICKEN STRIPS HOT AMERICANA C-SHOW 10*1 KG",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004165029",
+      "sku": "SKU-3111",
+      "productName": "Ponca Black Olive Sliced 6 x 3 kg - Carton",
+      "category": "Canned & Imported Items",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004191011",
+      "sku": "SKU-3112",
+      "productName": "Frozen Brazilian Beef Short ribs",
+      "category": "Meat",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004233011",
+      "sku": "SKU-3114",
+      "productName": "Yara Frozen Peas Vegetables 20*400gm",
+      "category": "Fruits & Vegetables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004235031",
+      "sku": "SKU-3116",
+      "productName": "Frozen Mahi Mahi Fish fillet 2kg x 3 pcs - Carton",
+      "category": "Seafood",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004237007",
+      "sku": "SKU-3115",
+      "productName": "Frozen Royal  Mixed vegetables 20 x 400g - Carton",
+      "category": "Fruits & Vegetables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004243011",
+      "sku": "SKU-3117",
+      "productName": "Sunbulah  Frozen Molokhia 20 x 400 g - carton",
+      "category": "Fruits & Vegetables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004262019",
+      "sku": "SKU-3118",
+      "productName": "Juli Frozen Mango Pulp 1 kg × 16 - Carton",
+      "category": "Fruits & Vegetables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004277015",
+      "sku": "SKU-3120",
+      "productName": "Brown Pizza boxes 24 x 24 50 pieces",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004283011",
+      "sku": "SKU-3119",
+      "productName": "Frozen Beef Forequarter Roll 4x4.5kg-Rustam",
+      "category": "Meat",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004291027",
+      "sku": "SKU-3122",
+      "productName": "MOBI DISHWASH LIQUID 1 LITER  LEMON 12 PIECES - CARTON",
+      "category": "Packaging and Consumables",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004297015",
+      "sku": "SKU-3121",
+      "productName": "Rosanna Whole Peeled Tomato 2.5 gm × 6 - Carton",
+      "category": "Sauces & Seasoning",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004319019",
+      "sku": "SKU-3123",
+      "productName": "Premium Indian french fries 2.5kg x 4 - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004320044",
+      "sku": "SKU-3126",
+      "productName": "Urussa Frozen Whole chicken 1100g x 10 - Carton",
+      "category": "Chicken & Eggs",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004323011",
+      "sku": "SKU-3125",
+      "productName": "Frozen French Fries Golden fries Grade B 4x2.5kg - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004330007",
+      "sku": "SKU-3127",
+      "productName": "Crisplet frozen french fries 9/9 mm ,2.5 kg x 4 - Carton",
+      "category": "Ready to Cook",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004333015",
+      "sku": "SKU-3129",
+      "productName": "AL KABEER PANEER Cubes 200g x 20",
+      "category": "Dairy",
+      "storefront": true,
+      "exactIdRead": "success"
+    },
+    {
+      "creatorId": "4278439000004334015",
+      "sku": "SKU-3128",
+      "productName": "PURR Sunflower Oil 17liter",
+      "category": "Cooking Oils",
+      "storefront": true,
+      "exactIdRead": "success"
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000004106023",
+      "sku": "SKU-3105",
+      "field": "Translated_Name",
+      "before": "وليمة سلة البسمتي الأرز 40 كجم",
+      "after": "أرز الوليمة بسمتي سيلا، 40 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004163015",
+      "sku": "SKU-3110",
+      "field": "Translated_Name",
+      "before": "شرائح دجاج هوت أمريكانا سي شو 10*1 كجم",
+      "after": "شرائح دجاج أمريكانا الحارة سي شو، 10 × 1 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004165029",
+      "sku": "SKU-3111",
+      "field": "Translated_Name",
+      "before": "بونكا الزيتون الأسود شرائح 6 × 3 كجم - الكرتون",
+      "after": "زيتون أسود بونكا مقطع شرائح، 6 × 3 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004191011",
+      "sku": "SKU-3112",
+      "field": "Translated_Name",
+      "before": "لحم البقر البرازيلي المجمد أضلاع قصيرة",
+      "after": "أضلاع بقري قصيرة برازيلية مجمدة",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004233011",
+      "sku": "SKU-3114",
+      "field": "Translated_Name",
+      "before": "يارا الخضروات البازلاء المجمدة 20 * 400gm",
+      "after": "بازلاء يارا مجمدة، 20 × 400 جم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004262019",
+      "sku": "SKU-3118",
+      "field": "Translated_Name",
+      "before": "جولي المجمدة المانجو اللب 1 كجم × 16 - الكرتون",
+      "after": "لب مانجو جولي مجمد، 1 كجم × 16 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004283011",
+      "sku": "SKU-3119",
+      "field": "Translated_Name",
+      "before": "لحوم البقر المجمدة لفة 4x4.5kg-Rustam",
+      "after": "رول لحم بقري رستم مجمد من الربع الأمامي، 4 × 4.5 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004291027",
+      "sku": "SKU-3122",
+      "field": "Translated_Name",
+      "before": "موبي ديشوش ليكويد 1 لتر ليمون 12 صور - كرتون",
+      "after": "سائل غسيل الصحون موبي بالليمون، 1 لتر × 12 قطعة — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004330007",
+      "sku": "SKU-3127",
+      "field": "Translated_Name",
+      "before": "البطاطس المقلية المجمدة 9/9 ملم، 2.5 كجم × 4 - الكرتون",
+      "after": "بطاطس كريسْبْلِت المقلية المجمدة، تقطيع 9×9 مم، 2.5 كجم × 4 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+Translated_Name",
+      "source": "Existing exact Zoho Creator English product identity and original Arabic field; editorial translation only, not independent manufacturer pack verification",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3104",
+      "risk": "450 g × 24 carton packing and Fusilli No.36 variant not independently label-verified; do not assert GTIN."
+    },
+    {
+      "sku": "SKU-3110",
+      "risk": "C-SHOW designation may be a product variant; exact manufacturer variant and 10 × 1 kg packing not independently confirmed."
+    },
+    {
+      "sku": "SKU-3112",
+      "risk": "FRIBOI brand and Brazilian-origin claim appear in Creator but have not been independently label-confirmed for this exact short-rib variant."
+    },
+    {
+      "sku": "SKU-3115",
+      "risk": "Royal appears in English product name but Brand is blank; do not populate brand without product-label proof."
+    },
+    {
+      "sku": "SKU-3116",
+      "risk": "2 kg × 3 pcs carton phrase is ambiguous about weight per piece vs total; CTN/PCS conversion blocked."
+    },
+    {
+      "sku": "SKU-3120",
+      "risk": "Selling unit `rpt` undefined; 24 × 24 pizza-box dimensions lack unit; 50-piece hierarchy unverified."
+    },
+    {
+      "sku": "SKU-3119",
+      "risk": "4 × 4.5 kg beef forequarter roll carton hierarchy not independently verified; no conversion change."
+    },
+    {
+      "sku": "SKU-3122",
+      "risk": "Creator selling unit `box` conflicts with title `carton` for 12 × 1 L dishwashing liquid; no BOX↔CTN conversion."
+    },
+    {
+      "sku": "SKU-3121",
+      "risk": "Whole peeled tomatoes title says `2.5 gm × 6`, likely erroneous weight, while unit `box` conflicts with `carton`; hold all quantity/weight corrections."
+    },
+    {
+      "sku": "SKU-3123",
+      "risk": "Premium/Indian wording may indicate brand or origin; exact product identity and origin not independently verified."
+    },
+    {
+      "sku": "SKU-3125",
+      "risk": "Grade B quality descriptor and missing Brand require label confirmation; no quality or brand claims added."
+    },
+    {
+      "sku": "SKU-3129",
+      "risk": "Paneer 200 g × 20 carton configuration not independently verified; no selling-unit conversion."
+    },
+    {
+      "sku": "SKU-3128",
+      "risk": "PURR 17 L tin label/variant and customer-visible packaging still require independent source verification."
+    }
+  ],
+  "unresolvedIssueCount": 13,
+  "fullyCompletedProducts": 0,
+  "creatorConnectorCallsConfirmed": 41,
+  "creatorBillableApiUnits": "unknown; one interrupted multi-read orchestration may have incurred additional calls",
+  "sourcePolicy": "Exact Creator identity and existing Arabic copy support editorial corrections only. No manufacturer certification of pack/GTIN/origin/rights; no ambiguous variant or packaging changes.",
+  "qa": {
+    "issue": 27,
+    "status": "NO-GO",
+    "authenticatedEndToEndReceipts": false,
+    "missing": [
+      "EN/AR RTL",
+      "storefront visibility and image propagation",
+      "CTN/PCS/KG mapping",
+      "customer price versus private cost",
+      "VAT",
+      "cart persistence",
+      "Buy Again",
+      "COD/credit",
+      "confirm-once checkout"
+    ]
+  },
+  "writes": {
+    "creatorNonfinancialTitleFields": 9,
+    "pricing": 0,
+    "margin": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystemSync": 0,
+    "deployment": 0
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package are not exposed in All_Products readback; neither edited.",
+    "Creator product image references do not establish Commerce/Catalyst image propagation.",
+    "Creator authoritative Modified_Time watermark unavailable; not advanced."
+  ],
+  "checkpoint": {
+    "previousReviewedUniquePostCompletion": 260,
+    "newReviewedUniquePostCompletion": 280,
+    "nextAction": "Continue next 20 unreviewed pending storefront exact IDs after SKU-3129; no financial/sync/deployment writes; checkout NO-GO."
+  }
+}

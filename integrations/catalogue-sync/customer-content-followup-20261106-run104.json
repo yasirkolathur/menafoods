@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-06",
+  "run": 104,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261106-run103.json",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002796032",
+    "4278439000002798007",
+    "4278439000002884011",
+    "4278439000002885011",
+    "4278439000002888007",
+    "4278439000003037007",
+    "4278439000003063003",
+    "4278439000003064003",
+    "4278439000003080047",
+    "4278439000003199025",
+    "4278439000003204007",
+    "4278439000003206015",
+    "4278439000003364032",
+    "4278439000003366007",
+    "4278439000003423015",
+    "4278439000003494023",
+    "4278439000003495007",
+    "4278439000003563007",
+    "4278439000003624131",
+    "4278439000003625011"
+  ],
+  "products": [
+    {
+      "id": "4278439000002796032",
+      "sku": "SKU-2892",
+      "name": "Vijay Pappad 100 g x 40",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "pack_variant_requires_source_verification",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "فيجاي باباد 100 غرام × 40",
+        "brand": "VIJAY",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002798007",
+      "sku": "SKU-2891",
+      "name": "VIJAY Premium Rice Flour - 1kg x 12",
+      "issues": [
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "دقيق الأرز الفاخر من فيجاي - 1 كجم × 12",
+        "brand": "VIJAY",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002884011",
+      "sku": "SKU-2906",
+      "name": "Peeled Tomatoes AlTale 400gm x 24",
+      "issues": [
+        "description_requires_source_verification",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "اشتر الطائي طماطم مقشر 400 جم 24 عودية‎",
+        "brand": "ALTAIE",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002885011",
+      "sku": "SKU-2907",
+      "name": "Nestle Condensed Milk 325gm x 48 Pieces",
+      "issues": [
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "حليب نستله المكثف 325 جرام × 48 قطعة",
+        "brand": "NESTLE",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000002888007",
+      "sku": "SKU-2910",
+      "name": "Freshly Fettuccine - Box Of 20 Pcs",
+      "issues": [
+        "description_requires_source_verification",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "فيتوشين الطازج - مربع من 20 قطع",
+        "brand": "FRESHLY",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003037007",
+      "sku": "SKU-2920",
+      "name": "Baker's Choice - Mozzarella Cheese 2.5 Kg - 4 Pieces",
+      "issues": [
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "اختيار الخباز - جبنة موزاريلا 2.5 كجم - 4 قطع",
+        "brand": "BAKERS CHOICES",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003063003",
+      "sku": "SKU-2922",
+      "name": "Red lentils 15 kg",
+      "issues": [
+        "missing_image",
+        "brand_unverified_or_unbranded",
+        "description_requires_source_verification",
+        "possible_duplicate_name_variant_hold"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "العدس الأحمر 15 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": true,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003064003",
+      "sku": "SKU-2923",
+      "name": "Red lentils 15 kg",
+      "issues": [
+        "missing_books_mapping",
+        "missing_image",
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification",
+        "possible_duplicate_name_variant_hold"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "العدس الأحمر 15 كجم",
+        "brand": "",
+        "unit": "bag",
+        "booksMappingPresent": false,
+        "imageCount": 0,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003080047",
+      "sku": "SKU-2925",
+      "name": "VEGETABLE COOKING OIL OKI 1*18 LITER",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "زيت نباتي للطبخ أوكي 1*18 لتر",
+        "brand": "OKI",
+        "unit": "tin",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003199025",
+      "sku": "SKU-2941",
+      "name": "Orient Gardens Pomegranate Molasses 12 x 500g",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "حدائق الشرق الرمان دبس 12 × 500",
+        "brand": "Orient Gardens",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003204007",
+      "sku": "SKU-2939",
+      "name": "Frozen Green Peas – Farm Food 20 x 400g",
+      "issues": [
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "بازلاء خضراء مجمدة – طعام المزرعة 20 × 400 جرام",
+        "brand": "FARMFOOD",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003206015",
+      "sku": "SKU-2943",
+      "name": "Frozen French fries Americana 6/6 2.5kg x 4",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "بطاطس مقلية مجمدة أمريكانا 6/6 2.5 كجم × 4",
+        "brand": "AMERICANA",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003364032",
+      "sku": "SKU-2967",
+      "name": "Rana Tomato Paste 830 gm × 12 - Carton",
+      "issues": [
+        "zero_selling_price_not_modified"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "معجون الطماطم رانا 830 جم × 12 - الكرتون",
+        "brand": "RANA",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003366007",
+      "sku": "SKU-2968",
+      "name": "Al Rai Whipping Cream 12x1L‎",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "كريمة الخفق من الراي 12×1 لتر",
+        "brand": "Al RAI",
+        "unit": "out",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003423015",
+      "sku": "SKU-2981",
+      "name": "Maggi Chicken Cubes 20 gm x 24 × 24 Box",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مكعبات الدجاج ماجي 20 جم × 24 × 24 مربع",
+        "brand": "MAGGI",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003494023",
+      "sku": "SKU-2991",
+      "name": "Al-Kbous Black Tea 100bag x 24 Carton",
+      "issues": [
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "شاي الكبوس الأسود 100 كيس × 24 كرتونة",
+        "brand": "Al- KBOUS",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 2,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003495007",
+      "sku": "SKU-2990",
+      "name": "Kraft Cheddar Cheese Spread 870 g x 6 - Carton",
+      "issues": [
+        "description_requires_source_verification",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "كرافت شيدر الجبن انتشار 870 غرام × 6 - الكرتون",
+        "brand": "KRAFT",
+        "unit": "ctn",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003563007",
+      "sku": "SKU-3007",
+      "name": "Eastern Mixed Curry Powder 1kg x 12 Carton",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "مسحوق الكاري المختلط الشرقي 1 كجم × 12 كرتونة",
+        "brand": "",
+        "unit": "pcs",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003624131",
+      "sku": "SKU-3011",
+      "name": "Al Ragawi Fenugreek",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "pack_variant_requires_source_verification",
+        "description_requires_source_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "حلبة الرجاوي",
+        "brand": "",
+        "unit": "box",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    },
+    {
+      "id": "4278439000003625011",
+      "sku": "SKU-3012",
+      "name": "Crushed Red Chilli",
+      "issues": [
+        "brand_unverified_or_unbranded",
+        "zero_selling_price_not_modified",
+        "pack_variant_requires_source_verification",
+        "description_requires_source_verification",
+        "arabic_translation_requires_verification"
+      ],
+      "verifiedFieldChanges": [],
+      "readback": {
+        "translatedName": "سحق الفلفل الأحمر",
+        "brand": "",
+        "unit": "kg",
+        "booksMappingPresent": true,
+        "imageCount": 1,
+        "storefront": "No"
+      },
+      "storefront": false
+    }
+  ],
+  "verifiedFieldChanges": 0,
+  "unresolvedIssueCount": 49,
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "Read-only exact-ID Creator review. Translation description and packing fields unavailable in All_Products API readback. No independent label evidence for field edits. No prices, supplier data or private financial fields persisted."
+}

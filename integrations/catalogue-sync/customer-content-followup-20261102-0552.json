@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-02",
+  "phase": "post-20/20 customer-facing content backlog (not baseline replay)",
+  "existingBranch": "catalogue-sync-contract-20261024",
+  "creatorReport": "menafoods/mena/All_Products",
+  "exactIdsAudited": [
+    "4278439000002392036",
+    "4278439000002393007",
+    "4278439000002393032",
+    "4278439000002394007",
+    "4278439000002395011",
+    "4278439000002396003",
+    "4278439000002397007",
+    "4278439000002399011",
+    "4278439000002399036",
+    "4278439000002400015",
+    "4278439000002401011",
+    "4278439000002402011",
+    "4278439000002403036",
+    "4278439000002404007",
+    "4278439000002405007",
+    "4278439000002414011",
+    "4278439000002414040",
+    "4278439000002415007",
+    "4278439000002439015",
+    "4278439000002451007"
+  ],
+  "recordCountAudited": 20,
+  "verifiedProductsChanged": 1,
+  "verifiedFieldsChanged": 2,
+  "changes": [
+    {
+      "creatorId": "4278439000002405007",
+      "sku": "SKU-2531",
+      "before": {
+        "Product_Name": "Chicken Wings Bone-In, Skin-On 900g - Sadia",
+        "Translated_Name": "أجنحة الدجاج العظام في، الجلد على 900 غرام - ساديا"
+      },
+      "after": {
+        "Product_Name": "Sadia Frozen Chicken Wings, Bone-In, Skin-On — 900 g",
+        "Translated_Name": "أجنحة دجاج ساديا المجمدة بالعظم والجلد — 900 جم"
+      },
+      "sourceUrls": [
+        "https://www.sadia-life.com/en-sa/products/sadia-chicken-wings/",
+        "https://www.sadia-life.com/ar-sa/products/sadia-chicken-wings/"
+      ],
+      "verification": "Exact-ID Creator API readback matched both fields and SKU; 900g manufacturer variant confirmed; existing Unit=box unchanged, carton contents not independently verified"
+    }
+  ],
+  "remainingReviewedPendingIds": [
+    "4278439000002392036",
+    "4278439000002393007",
+    "4278439000002393032",
+    "4278439000002394007",
+    "4278439000002395011",
+    "4278439000002396003",
+    "4278439000002397007",
+    "4278439000002399011",
+    "4278439000002399036",
+    "4278439000002400015",
+    "4278439000002401011",
+    "4278439000002402011",
+    "4278439000002403036",
+    "4278439000002404007",
+    "4278439000002414011",
+    "4278439000002414040",
+    "4278439000002415007",
+    "4278439000002439015",
+    "4278439000002451007"
+  ],
+  "deferredCount": 19,
+  "deferredReason": "Insufficient independent exact-variant/pack evidence or only ambiguous existing packaging text. No unverified brand, quantity, category, UOM, descriptions or images written.",
+  "newIssues": [
+    {
+      "creatorId": "4278439000002405007",
+      "type": "unit_pack_ambiguity",
+      "detail": "Creator Unit=box; manufacturer 900 g retail pack verified, but box-to-pack count not verified. Do not change unit or customer price."
+    },
+    {
+      "creatorId": "4278439000002451007",
+      "type": "variant_mismatch",
+      "detail": "Maysa source shows thin cut 7x7 while Creator collection says 9x9; hold exact cut variant."
+    },
+    {
+      "creatorId": "4278439000002397007",
+      "type": "variant_mismatch",
+      "detail": "Market Sanita Serv-U 300m and 350m variants exist; exact six-roll 300m pack not manufacturer verified."
+    }
+  ],
+  "incrementalProbe": {
+    "criteria": "Modified_Time >= \"01-Nov-2026 20:00:00\"",
+    "returnedIds": [
+      "4278439000000106496"
+    ],
+    "result": "Previously tracked CR1756; no new candidates or independently verified deltas",
+    "sourceWatermarkAdvanced": false
+  },
+  "creatorConnectorCallsObserved": 27,
+  "creatorBillableApiUnits": "unavailable",
+  "writes": {
+    "creatorNonfinancialRecords": 1,
+    "creatorNonfinancialFields": 2,
+    "images": 0,
+    "prices": 0,
+    "stock": 0,
+    "financial": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "qaIssue27": "NO-GO; no new authenticated end-to-end receipt",
+  "readbackLimitations": "Description, Translated_Description, Package_Details and Translated_Package are not exposed by All_Products API readback; none changed this run.",
+  "financialAndSyncGates": "All financial fields and cross-system writes unchanged; four duplicate-active IDs blocked; no orders created."
+}

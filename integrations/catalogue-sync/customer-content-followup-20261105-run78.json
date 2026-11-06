@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-05",
+  "run": 78,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run77.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103298",
+    "4278439000000103302",
+    "4278439000000103308",
+    "4278439000000103312",
+    "4278439000000103318",
+    "4278439000000103324",
+    "4278439000000103330",
+    "4278439000000103336",
+    "4278439000000103346",
+    "4278439000000103352",
+    "4278439000000103356",
+    "4278439000000103360",
+    "4278439000000103364",
+    "4278439000000103368",
+    "4278439000000103372",
+    "4278439000000103376",
+    "4278439000000103380",
+    "4278439000000103388",
+    "4278439000000103392",
+    "4278439000000103396"
+  ],
+  "reviewedSkus": [
+    "CR1287",
+    "CR1288",
+    "CR1289",
+    "CR1290",
+    "CR1291",
+    "CR1292",
+    "CR1293",
+    "CR1294",
+    "CR1295",
+    "CR1296",
+    "CR1297",
+    "CR1298",
+    "CR1299",
+    "CR1300",
+    "CR1301",
+    "CR1302",
+    "CR1303",
+    "CR1305",
+    "CR1306",
+    "CR1307"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 57,
+  "issues": [
+    {
+      "sku": "CR1287",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1287",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1288",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1288",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1288",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1289",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1290",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1290",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1290",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1291",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1291",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1291",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1292",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1292",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1292",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1293",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1293",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1293",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1294",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1294",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1294",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1295",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1295",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1295",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1296",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1296",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1296",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1297",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1297",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1298",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1298",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1298",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1299",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1299",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1299",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1300",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1300",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1300",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1301",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1301",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1301",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1302",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1302",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1303",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1303",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1303",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1305",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1305",
+      "type": "books_mapping_missing"
+    },
+    {
+      "sku": "CR1306",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1306",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1307",
+      "type": "selling_unit_unverified"
+    },
+    {
+      "sku": "CR1307",
+      "type": "description_or_arabic_title_needs_source_verification"
+    },
+    {
+      "sku": "CR1288",
+      "type": "packaging_or_translation_risk",
+      "detail": "12/15 oz title notation ambiguous; 12 × 425 g not independently label-confirmed"
+    },
+    {
+      "sku": "CR1292",
+      "type": "packaging_or_translation_risk",
+      "detail": "Arabic translates passion fruit as emotion rather than fruit"
+    },
+    {
+      "sku": "CR1302",
+      "type": "packaging_or_translation_risk",
+      "detail": "Arabic translates Jacket Wedges as jacket/oven"
+    },
+    {
+      "sku": "CR1305",
+      "type": "packaging_or_translation_risk",
+      "detail": "Arabic translates battered onion rings as beaten rings"
+    },
+    {
+      "sku": "CR1306",
+      "type": "packaging_or_translation_risk",
+      "detail": "Arabic renders Steak House as steak house literal"
+    }
+  ],
+  "creatorReadCallsObserved": 21,
+  "creatorQueryFailure": "ID in (...) returned no records; used exact-ID reads for all 20",
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "storefrontEnabledCount": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000103400",
+  "nextPendingSku": "CR1308",
+  "readbackLimitation": "Translated description and packing not exposed in All_Products; no writes made",
+  "policy": "Read-only verified audit; financial/sync/deployment unchanged"
+}

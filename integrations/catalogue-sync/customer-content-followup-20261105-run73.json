@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-05",
+  "run": 73,
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run72.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000101564",
+    "4278439000000101570",
+    "4278439000000101578",
+    "4278439000000101584",
+    "4278439000000101586",
+    "4278439000000101592",
+    "4278439000000101598",
+    "4278439000000101606",
+    "4278439000000101618",
+    "4278439000000101626",
+    "4278439000000101640",
+    "4278439000000101642",
+    "4278439000000101644",
+    "4278439000000101646",
+    "4278439000000101648",
+    "4278439000000101666",
+    "4278439000000101674",
+    "4278439000000101690",
+    "4278439000000101694",
+    "4278439000000101700"
+  ],
+  "reviewedSkus": [
+    "CR1064",
+    "CR1065",
+    "CR1067",
+    "CR1068",
+    "CR1069",
+    "CR1070",
+    "CR1071",
+    "CR1072",
+    "SKU-260916105704",
+    "CR1074",
+    "CR1076",
+    "CR1077",
+    "CR1078",
+    "CR1079",
+    "CR1080",
+    "CR1084",
+    "CR1085",
+    "CR1088",
+    "CR1089",
+    "CR1090"
+  ],
+  "verifiedIdSkuMatches": 20,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 30,
+  "issues": [
+    {
+      "sku": "CR1064",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1064",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1065",
+      "issue": "Books mapping blank; sync remains blocked"
+    },
+    {
+      "sku": "CR1067",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1068",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1068",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1069",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1069",
+      "issue": "Books mapping blank; sync remains blocked"
+    },
+    {
+      "sku": "CR1070",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1071",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1071",
+      "issue": "Product spelling/variant ambiguous; label evidence required"
+    },
+    {
+      "sku": "CR1072",
+      "issue": "Books mapping blank; sync remains blocked"
+    },
+    {
+      "sku": "CR1074",
+      "issue": "Selling unit blank; CTN/PCS/KG not inferred"
+    },
+    {
+      "sku": "CR1074",
+      "issue": "Books mapping blank; sync remains blocked"
+    },
+    {
+      "sku": "CR1076",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1076",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1077",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1078",
+      "issue": "Books mapping blank; sync remains blocked"
+    },
+    {
+      "sku": "CR1078",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1078",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1079",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1080",
+      "issue": "No Creator image; rights and exact-product match required"
+    },
+    {
+      "sku": "CR1080",
+      "issue": "Product spelling/variant ambiguous; label evidence required"
+    },
+    {
+      "sku": "CR1080",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1084",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1085",
+      "issue": "Product spelling/variant ambiguous; label evidence required"
+    },
+    {
+      "sku": "CR1088",
+      "issue": "Product spelling/variant ambiguous; label evidence required"
+    },
+    {
+      "sku": "CR1088",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1089",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    },
+    {
+      "sku": "CR1090",
+      "issue": "Arabic customer title contains apparent mistranslation/transliteration; hold pending exact-label evidence"
+    }
+  ],
+  "creatorProductReadCalls": 1,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "note": "All 20 non-storefront; no authenticated checkout evidence. No product writes; fields requiring label/manufacturer proof held. All_Products lacks translated description/packing readback."
+}

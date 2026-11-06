@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-02",
+  "observedAtLocal": "2026-11-02 11:16 Asia/Riyadh (automation context, not Creator source timestamp)",
+  "phase": "post-20/20 customer-content storefront followup #6",
+  "baselineCompletedBatches": 20,
+  "contentScheduledBatchesCompleted": 20,
+  "reviewedExactIds": [
+    "4278439000002749011",
+    "4278439000002757003",
+    "4278439000002767011",
+    "4278439000002769011",
+    "4278439000002770011",
+    "4278439000002770040",
+    "4278439000002771015",
+    "4278439000002772003",
+    "4278439000002773003",
+    "4278439000002782007",
+    "4278439000002784007",
+    "4278439000002785007",
+    "4278439000002785028",
+    "4278439000002787007",
+    "4278439000002788007",
+    "4278439000002789007",
+    "4278439000002792003",
+    "4278439000002793024",
+    "4278439000002802007",
+    "4278439000002804007"
+  ],
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000002749011",
+      "sku": "SKU-2859",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002757003",
+      "sku": "SKU-2861",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002767011",
+      "sku": "SKU-2863",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002769011",
+      "sku": "SKU-2864",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002770011",
+      "sku": "SKU-2865",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002770040",
+      "sku": "SKU-2867",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002771015",
+      "sku": "SKU-2866",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002772003",
+      "sku": "SKU-2868",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002773003",
+      "sku": "SKU-2869",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002782007",
+      "sku": "SKU-2876",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002784007",
+      "sku": "SKU-2878",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002785007",
+      "sku": "SKU-2879",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002785028",
+      "sku": "SKU-2884",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002787007",
+      "sku": "SKU-2881",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002788007",
+      "sku": "SKU-2882",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002789007",
+      "sku": "SKU-2883",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002792003",
+      "sku": "SKU-2886",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002793024",
+      "sku": "SKU-2890",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002802007",
+      "sku": "SKU-2894",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    },
+    {
+      "creatorId": "4278439000002804007",
+      "sku": "SKU-2895",
+      "exactIdRead": "success",
+      "storefront": "Yes"
+    }
+  ],
+  "recordsAudited": 20,
+  "verifiedTitleFieldsChanged": 8,
+  "verifiedProductsChanged": 8,
+  "fullyCompletedProducts": 0,
+  "unchangedOrDeferredProducts": 12,
+  "corrections": [
+    {
+      "sku": "SKU-2859",
+      "creatorId": "4278439000002749011",
+      "field": "Translated_Name",
+      "before": "فليفا تخسر قوة تيا السوداء 10KG",
+      "after": "شاي أسود سائب فليفا، 10 كجم",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2863",
+      "creatorId": "4278439000002767011",
+      "field": "Translated_Name",
+      "before": "المتاح قفازات اليد البلاستيكية",
+      "after": "قفازات يد بلاستيكية للاستعمال مرة واحدة",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2867",
+      "creatorId": "4278439000002770040",
+      "field": "Translated_Name",
+      "before": "نور سبون أبيض كبير 1000 جهاز كمبيوتر شخصى",
+      "after": "ملاعق نور بيضاء كبيرة، 1000 قطعة",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2881",
+      "creatorId": "4278439000002787007",
+      "field": "Translated_Name",
+      "before": "اللحوم الشرقية ماسالا 12 × 1 كجم",
+      "after": "بهارات لحم إيسترن، 12 × 1 كجم",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2882",
+      "creatorId": "4278439000002788007",
+      "field": "Translated_Name",
+      "before": "المطاعم الشرقية زيت جوز الهند 2 لتر - حزمة من 6",
+      "after": "زيت جوز الهند إيسترن للتموين، 2 لتر × 6",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2883",
+      "creatorId": "4278439000002789007",
+      "field": "Translated_Name",
+      "before": "زيت خردل المقلاة النقي - 1 لتر × 12",
+      "after": "زيت خردل بران نقي، 1 لتر × 12",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2890",
+      "creatorId": "4278439000002793024",
+      "field": "Translated_Name",
+      "before": "جنية طبق الليمون غسل الصابون السائل 1 لتر",
+      "after": "سائل غسيل الأطباق فيري برائحة الليمون، 1 لتر",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    },
+    {
+      "sku": "SKU-2895",
+      "creatorId": "4278439000002804007",
+      "field": "Translated_Name",
+      "before": "باديان خاتاي - باديان خاتاي - شاكرا فول - نجم اليانسون",
+      "after": "يانسون نجمي (باديان خاتاي / شاكرا فول)",
+      "readback": "Verified by independent Creator getRecordByID: exact ID, SKU, storefront Yes, translated title matched",
+      "evidenceBasis": "Existing exact Creator English identity and variant; editorial Arabic correction only; not manufacturer pack certification",
+      "sourceLinks": [],
+      "remainingFields": [
+        "Description"
+      ],
+      "fullyRemediated": false
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-2861",
+      "severity": "high",
+      "issue": "Lunch box LB2 has Unit=rpt; pieces per selling unit and product variant unverified."
+    },
+    {
+      "sku": "SKU-2863",
+      "severity": "high",
+      "issue": "Disposable gloves Unit=rpt; pack count and glove material not confirmed from label."
+    },
+    {
+      "sku": "SKU-2864",
+      "severity": "medium",
+      "issue": "350ml container Unit=ctn; pieces per carton not established."
+    },
+    {
+      "sku": "SKU-2865",
+      "severity": "high",
+      "issue": "Lid lists 200/250/350/500ml variants with one SKU and Unit=ctn; exact variant/fit/count unresolved."
+    },
+    {
+      "sku": "SKU-2866",
+      "severity": "medium",
+      "issue": "Trash bag 30-gallon and 9kg title; 9kg meaning (roll weight, load rating or carton) not established; Unit=rpt."
+    },
+    {
+      "sku": "SKU-2867",
+      "severity": "high",
+      "issue": "1000-piece Noor spoons Unit=box; verify exact pack and box-to-piece conversion before checkout."
+    },
+    {
+      "sku": "SKU-2868/SKU-2869",
+      "severity": "high",
+      "issue": "Americana Moshab regular/hot 10x1kg variant uses Unit=ctn for regular, Unit=box for hot; selling-unit equivalence unverified."
+    },
+    {
+      "sku": "SKU-2884",
+      "severity": "critical",
+      "issue": "English 'Appron Kitchen 10x100' suggests apron while Arabic says kitchen tissues; product identity and pack classification contradictory."
+    },
+    {
+      "sku": "SKU-2886",
+      "severity": "critical",
+      "issue": "Shrimp PD 100/200 title states 400g but selling Unit=kg; weight/pack conversion and count-grade interpretation unverified."
+    },
+    {
+      "sku": "SKU-2890",
+      "severity": "high",
+      "issue": "Fairy dishwashing 1L listed Unit=box; number of 1L bottles per box unverified."
+    },
+    {
+      "sku": "SKU-2894",
+      "severity": "high",
+      "issue": "Whole frozen mackerel 400-600g per fish and 20kg NW listed Unit=box; carton contents and net-weight basis unverified."
+    }
+  ],
+  "unresolvedIssueCount": 11,
+  "sourcePolicy": "Editorial Arabic translations only based on existing exact Creator English product identities; no independent manufacturer packaging certification and no invented brand/origin/GTIN/allergens/weights/conversions. No descriptions edited because not exposed in readback.",
+  "creatorConnectorCallsObserved": 36,
+  "creatorBillableApiUnits": "unavailable",
+  "incrementalProbe": "Not run this followup; bounded source watermark remains unverified and unchanged",
+  "qa": {
+    "issue27": "NO-GO",
+    "checked": "Issue #27 and its existing comments; no authenticated end-to-end EN/AR RTL, CTN/PCS/KG, price isolation, VAT, cart persistence, Buy Again, COD/credit or confirm-once receipts",
+    "newBlockers": "See issues; do not enable checkout mapping on ambiguous variants"
+  },
+  "writes": {
+    "creatorTranslatedName": 8,
+    "prices": 0,
+    "margins": 0,
+    "stock": 0,
+    "tax": 0,
+    "images": 0,
+    "financialOrders": 0,
+    "crossSystem": 0,
+    "deployments": 0
+  },
+  "readbackLimitations": "Creator Products_Books report does not expose Description, Translated_Description, Package_Details, Translated_Package_Details or authoritative Modified_Time; no claims of those fields being verified."
+}

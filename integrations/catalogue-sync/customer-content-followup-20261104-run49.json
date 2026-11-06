@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-04",
+  "run": 49,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489391",
+    "4278439000002489395",
+    "4278439000002489399",
+    "4278439000002489403",
+    "4278439000002489407",
+    "4278439000002489411",
+    "4278439000002489415",
+    "4278439000002489419",
+    "4278439000002489423",
+    "4278439000002489427",
+    "4278439000002489431",
+    "4278439000002489435",
+    "4278439000002489439",
+    "4278439000002489443",
+    "4278439000002489447",
+    "4278439000002489451",
+    "4278439000002489455",
+    "4278439000002489459",
+    "4278439000002489475",
+    "4278439000002489487"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489391",
+      "field": "Translated_Name",
+      "before": "الكبير علبة تقديم سيخ كباب الدجاج 1 كغ × 5",
+      "after": "الكبير كباب سيخ دجاج (عبوة تموين) 1 كجم × 5",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489399",
+      "field": "Translated_Name",
+      "before": "الكبير قطع الدجاج المفروم 320 جرام × 24",
+      "after": "الكبير كستليت دجاج مفروم 320 جم × 24",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489403",
+      "field": "Translated_Name",
+      "before": "شرحات جبنة السبانخ 320 جرام × 24",
+      "after": "كستليت السبانخ والجبن 320 جم × 24",
+      "readbackVerified": true
+    },
+    {
+      "id": "4278439000002489455",
+      "field": "Translated_Name",
+      "before": "الكبير سجق لحم البقر 400 جرام × 20",
+      "after": "الكبير نقانق كوكتيل بقري 400 جم × 20",
+      "readbackVerified": true
+    }
+  ],
+  "verification": "One bounded 20-exact-ID All_Products read, four record-ID writes, one bounded four-exact-ID independent readback; ID/title/Arabic text verified. No manufacturer label certification.",
+  "sources": [
+    "Authenticated MENAFoods Zoho Creator All_Products exact-ID records (private)"
+  ],
+  "unresolvedIssues": [
+    "All 20 SKU fields blank; no SKU invented",
+    "Brand for unbranded English titles and manufacturer pack claims require label verification",
+    "All 20 selling units show ctn; exact inner-pack-to-carton conversion not independently confirmed",
+    "Images present in Creator but rights and Commerce/Catalyst propagation unverified",
+    "Translated_Description and Translated_Package not exposed in All_Products API readback",
+    "Category margin policy and validated cost basis absent; no finance changes",
+    "Authenticated EN/AR RTL, cart persistence, Buy Again, VAT, COD/credit, confirm-once checkout and end-to-end sync ACK evidence missing"
+  ],
+  "connectorCallsObserved": {
+    "creator": 7,
+    "github": "manifest/batch1/previous evidence reads, evidence create, manifest update, readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated test receipts",
+  "nextPendingId": "4278439000002489491"
+}

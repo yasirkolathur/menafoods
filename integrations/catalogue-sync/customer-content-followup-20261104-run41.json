@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-04",
+  "followup": 41,
+  "phase": "post-baseline customer-facing content remediation",
+  "baseline": "20/20 complete; 2122 baseline records",
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002724011",
+    "4278439000002725007",
+    "4278439000002733007",
+    "4278439000002733040",
+    "4278439000002736007",
+    "4278439000002736036",
+    "4278439000002736065",
+    "4278439000002738015",
+    "4278439000002740007",
+    "4278439000002741007",
+    "4278439000002742015",
+    "4278439000002742040",
+    "4278439000002742065",
+    "4278439000002746011",
+    "4278439000002747011",
+    "4278439000002749011",
+    "4278439000002757003",
+    "4278439000002767011",
+    "4278439000002769011",
+    "4278439000002770011"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorWrites": 0,
+  "readback": "Read-only Creator All_Products exact-ID criteria; 20 returned",
+  "products": [
+    {
+      "id": "4278439000002736007",
+      "sku": "SKU-2844",
+      "name": "Kamil Beef Bobby veal 900g x 20",
+      "arabicName": "لحم عجل كاميل بوبي 900 جرام × 20",
+      "brand": "KAMIL",
+      "unit": "ctn",
+      "category": "Meat",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002736036",
+      "sku": "SKU-2845",
+      "name": "Al Tamam Frozen Bobby Veal 900 g x 20",
+      "arabicName": "لحم عجل بوبي مجمد من التمام، 900 جم × 20",
+      "brand": "AL TAMMAM",
+      "unit": "ctn",
+      "category": "Meat",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002733040",
+      "sku": "SKU-2843",
+      "name": "SMALL HAMBURGER 500 PC U-1 PACK (FOP)",
+      "arabicName": "همبرجر صغير 500 قطعة عبوة U-1 (FOP)",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 3,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002738015",
+      "sku": "SKU-2847",
+      "name": "1131263 (25) Brown Kraft Box 25 oz 200 Count",
+      "arabicName": "1131263 (25) علبة كرافت بنية 25 أونصة 200 قطعة",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 3,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002742015",
+      "sku": "SKU-2853",
+      "name": "Wooden tea & coffee stirrers, 500 pieces x 20 box",
+      "arabicName": "أعواد خشبية لتحريك الشاي والقهوة، 500 قطعة × 20 صندوق",
+      "brand": "",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 3,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002742040",
+      "sku": "SKU-2854",
+      "name": "Clear Line 8\" x 12\" Seal Top Plastic Food Bag - 100/Pack x 10",
+      "arabicName": "أكياس بلاستيكية لحفظ الطعام بإغلاق علوي، 8 × 12 بوصة، 100 كيس/عبوة × 10 عبوات",
+      "brand": "",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002742065",
+      "sku": "SKU-2855",
+      "name": "Paper Plate 7 Inch, 12 x 100 Pieces",
+      "arabicName": "أطباق ورقية مقاس 7 بوصات، 12 × 100 قطعة",
+      "brand": "",
+      "unit": "box",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002746011",
+      "sku": "SKU-2856",
+      "name": "BROWN PAPER NO.3-5 KG",
+      "arabicName": "ورق بني رقم 3-5 كجم",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002747011",
+      "sku": "SKU-2857",
+      "name": "Brown paper No 5 - 5 kg",
+      "arabicName": "ورقة بنية رقم 5 - 5 كجم",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002757003",
+      "sku": "SKU-2861",
+      "name": "LUNCH BOX SADA DOUBLE LOCK LB2",
+      "arabicName": "صندوق غداء سادا بقفل مزدوج LB2",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 0,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002767011",
+      "sku": "SKU-2863",
+      "name": "Disposable Plastic Hand Gloves",
+      "arabicName": "قفازات يد بلاستيكية للاستعمال مرة واحدة",
+      "brand": "",
+      "unit": "rpt",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002770011",
+      "sku": "SKU-2865",
+      "name": "Plastic round containers Lid 200.250.350.500 ml white",
+      "arabicName": "حاويات مستديرة بلاستيكية غطاء 200.250.350.500 مل أبيض",
+      "brand": "",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002740007",
+      "sku": "SKU-2851",
+      "name": "Cosmoplast Plastic Sauce Cups CZ03 White with Clear Lids 1 oz 100 pieces",
+      "arabicName": "أكواب صلصة بلاستيكية من كوزموبلاست CZ03 بيضاء بأغطية شفافة 1 أونصة 100 قطعة",
+      "brand": "Cosmoplast",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002769011",
+      "sku": "SKU-2864",
+      "name": "Plastic round containers 115mm 350ml 12oz white",
+      "arabicName": "عبوات بلاستيكية دائرية 115 مم 350 مل 12 أونصة بيضاء",
+      "brand": "",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002733007",
+      "sku": "SKU-2842",
+      "name": "Hyfun French fries 6/6 mm 2.5 kg x 5 - Carton",
+      "arabicName": "بطاطس مقلية هايفن 6/6 مم 2.5 كجم × 5 - كرتون",
+      "brand": "HYFUN",
+      "unit": "ctn",
+      "category": "Ready to Cook",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002725007",
+      "sku": "SKU-2840",
+      "name": "White Chana # 8  1*15kg",
+      "arabicName": "حمص أبيض رقم 8، 1 × 15 كجم",
+      "brand": "",
+      "unit": "bag",
+      "category": "Rice, Pulses & Flours",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002741007",
+      "sku": "SKU-2852",
+      "name": "AL BAKHERAH INDIAN SELLA PARMAL 40kg",
+      "arabicName": "الباخرة سيلا بارمال الهندية 40 كجم",
+      "brand": "AL BAKHERAH",
+      "unit": "bag",
+      "category": "Rice, Pulses & Flours",
+      "storefront": "Yes",
+      "imageReferencesCount": 1,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002724011",
+      "sku": "SKU-2839",
+      "name": "Jeerakasala Rice 20Kg",
+      "arabicName": "أرز جيراكاسالا 20 كجم",
+      "brand": "",
+      "unit": "bag",
+      "category": "Rice, Pulses & Flours",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002736065",
+      "sku": "SKU-2849",
+      "name": "Kabous tea 24*100 bags",
+      "arabicName": "شاي الكبوس، 24 × 100 كيس",
+      "brand": "AL KBOUS TEA",
+      "unit": "box",
+      "category": "Tea & Coffee",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    },
+    {
+      "id": "4278439000002749011",
+      "sku": "SKU-2859",
+      "name": "FLEVA  LOOSE BLACK TEA POWDER 10KG",
+      "arabicName": "شاي أسود سائب فليفا، 10 كجم",
+      "brand": "FLEVA",
+      "unit": "bag",
+      "category": "Tea & Coffee",
+      "storefront": "Yes",
+      "imageReferencesCount": 2,
+      "review": "No independently supported missing-field correction; identity/variant evidence held."
+    }
+  ],
+  "issues": [
+    {
+      "type": "Ambiguous pack or item identities",
+      "ids": [
+        "4278439000002733040",
+        "4278439000002746011",
+        "4278439000002747011",
+        "4278439000002770011"
+      ],
+      "note": "FOP hamburger packaging, brown-paper variants, and multi-size container lid require exact label evidence."
+    },
+    {
+      "type": "Selling unit and carton quantities need validation",
+      "ids": [
+        "4278439000002742065",
+        "4278439000002736065",
+        "4278439000002740007"
+      ],
+      "note": "box/ctn unit versus pack count needs authorized packing proof."
+    },
+    {
+      "type": "Image gap",
+      "ids": [
+        "4278439000002757003"
+      ],
+      "note": "Creator Product_Images empty; no approved exact-variant rights or verified generated image."
+    },
+    {
+      "type": "Brand and manufacturer evidence",
+      "note": "No blank brand was populated for unbranded products; spelling and identity claims not independently certified."
+    },
+    {
+      "type": "Translated detail readback",
+      "note": "All_Products omits translated descriptions and translated packing."
+    },
+    {
+      "type": "Pricing policy",
+      "note": "Margin fields not modified; zero/blank does not imply absent selling price."
+    },
+    {
+      "type": "Checkout and sync release gate",
+      "note": "Authenticated EN/AR, units, VAT, Buy Again, cart persistence, COD/credit, confirm-once, gateway rollback, signed webhook, native sync and ACK remain unverified."
+    }
+  ],
+  "issueCount": 7,
+  "creatorConnectorCallsConfirmed": 2,
+  "source": "Existing Creator All_Products records and prior GitHub manifest; no manufacturer-source facts newly asserted",
+  "restrictions": "No price, cost, stock, tax, image, financial order, sync or deployment edits."
+}

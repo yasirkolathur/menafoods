@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-04",
+  "run": 57,
+  "baselineBatchesComplete": 20,
+  "previousCheckpoint": "customer-content-checkpoint-20261104-run54-56.json",
+  "sourceManifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000003671011",
+    "4278439000003676015",
+    "4278439000003677007",
+    "4278439000003687061",
+    "4278439000003688200",
+    "4278439000003689075",
+    "4278439000003692011",
+    "4278439000003707007",
+    "4278439000003757019",
+    "4278439000003758039",
+    "4278439000003765015",
+    "4278439000003766007",
+    "4278439000003779007",
+    "4278439000003782015",
+    "4278439000003800019",
+    "4278439000003803033",
+    "4278439000003805035",
+    "4278439000003817076",
+    "4278439000003825060",
+    "4278439000003827027"
+  ],
+  "verifiedFieldChanges": [],
+  "changedFieldCount": 0,
+  "reviewMethod": "One authenticated exact-ID Creator All_Products query; checked SKU, English/Arabic names, brand, category, storefront flag, selling unit and available image metadata. No manufacturer-certified source for uncertain claims.",
+  "unresolvedIssueGroups": [
+    {
+      "skus": [
+        "SKU-3042",
+        "SKU-3041",
+        "SKU-3050",
+        "SKU-3054"
+      ],
+      "reason": "Packaging specifications or abbreviations ambiguous; hold pack and brand enrichment"
+    },
+    {
+      "skus": [
+        "SKU-3046",
+        "SKU-3052",
+        "SKU-3053",
+        "SKU-3060",
+        "SKU-3061"
+      ],
+      "reason": "Pack quantity or unit conversion not independently certified"
+    },
+    {
+      "skus": [
+        "SKU-3024",
+        "SKU-3047"
+      ],
+      "reason": "Carton title versus box selling unit; verify orderable unit"
+    },
+    {
+      "skus": [
+        "SKU-3056",
+        "SKU-3066",
+        "SKU-3068"
+      ],
+      "reason": "Brand blank; require authorized label before filling"
+    },
+    {
+      "skus": [
+        "SKU-3065"
+      ],
+      "reason": "Margin rule pending; financial field held"
+    },
+    {
+      "skus": [
+        "SKU-3030",
+        "SKU-3031"
+      ],
+      "reason": "17 L stated but container and selling-unit mapping not independently confirmed"
+    },
+    {
+      "skus": [
+        "SKU-3059"
+      ],
+      "reason": "Fries 6/6 cut specification and inner pack not independently certified"
+    },
+    {
+      "skus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reason": "Images visible in Creator but rights and Commerce/Catalyst propagation unverified"
+    },
+    {
+      "skus": [],
+      "reason": "Authenticated EN/AR RTL, VAT, CTN/PCS/KG, cart, Buy Again, COD/credit, confirm-once checkout and sync ACK evidence unavailable"
+    }
+  ],
+  "unresolvedIssueGroupCount": 9,
+  "creatorApiCallsObserved": 1,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "releaseGate": "NO-GO",
+  "nextPendingId": "pending manifest offset 80; must verify checkpoint"
+}

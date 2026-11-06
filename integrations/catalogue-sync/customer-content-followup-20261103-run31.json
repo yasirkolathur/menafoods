@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-03",
+  "followup": 31,
+  "recordsAudited": 20,
+  "ids": [
+    "4278439000002489239",
+    "4278439000002489243",
+    "4278439000002489247",
+    "4278439000002489251",
+    "4278439000002489255",
+    "4278439000002489259",
+    "4278439000002489263",
+    "4278439000002489267",
+    "4278439000002489271",
+    "4278439000002489275",
+    "4278439000002489279",
+    "4278439000002489283",
+    "4278439000002489287",
+    "4278439000002489291",
+    "4278439000002489295",
+    "4278439000002489299",
+    "4278439000002489303",
+    "4278439000002489307",
+    "4278439000002489311",
+    "4278439000002489315"
+  ],
+  "verifiedChanges": [
+    {
+      "id": "4278439000002489263",
+      "field": "Translated_Name",
+      "before": "الكبير أصابع الدجاج والجبن 250 جرام × 20",
+      "after": "الكبير أصابع الدجاج والجبن الحارة 250 جرام × 20"
+    },
+    {
+      "id": "4278439000002489267",
+      "field": "Translated_Name",
+      "before": "الدجاج الكبير والجبن ستيك H / SPICY CAT 1kg × 5",
+      "after": "الكبير أصابع الدجاج والجبن الحارة للتموين 1 كجم × 5"
+    },
+    {
+      "id": "4278439000002489279",
+      "field": "Translated_Name",
+      "before": "بطاطا مقلية للتقديم 1 كجم × 5",
+      "after": "أصابع دجاج على شكل بطاطس مقلية للتموين 1 كجم × 5"
+    }
+  ],
+  "source": "Existing Creator exact-ID Product_Name, Brand and pack identity; editorial Arabic correction only; manufacturer packaging not certified",
+  "issues": [
+    {
+      "type": "blank_sku",
+      "count": 20
+    },
+    {
+      "type": "customer_description_unverified",
+      "count": 20
+    },
+    {
+      "type": "image_rights_and_commerce_catalyst_propagation_unverified",
+      "count": 20
+    },
+    {
+      "type": "margin_policy_pending",
+      "count": 15
+    },
+    {
+      "type": "checkout_authentication_and_sync_unverified",
+      "count": 1
+    }
+  ],
+  "creatorConnectorCallsConfirmed": 29,
+  "readbackVerified": true,
+  "financialWrites": 0,
+  "imageWrites": 0,
+  "productionDeploys": 0
+}

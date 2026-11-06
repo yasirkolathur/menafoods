@@ -1,0 +1,438 @@
+{
+  "date": "2026-11-02",
+  "localTime": "22:52 Asia/Riyadh",
+  "phase": "post-baseline customer-content follow-up 18",
+  "baseline": "Creator Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-2150.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000004900032",
+      "sku": "SKU-3211",
+      "productName": "Oyster Sauce Shaflout 300ml x 24 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004900057",
+      "sku": "SKU-3212",
+      "productName": "Rice Sticks Pancit Bihon Afta 227g x 30 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004903036",
+      "sku": "SKU-3210",
+      "productName": "Marcapina Soy Sauce 385ml  x 24 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004905032",
+      "sku": "SKU-3215",
+      "productName": "Spaghetti Sauce Delmonte Filipino Style 250gmx48 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004906011",
+      "sku": "SKU-3213",
+      "productName": "Soy Sauce Datu Puti 1l x 12 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004906036",
+      "sku": "SKU-3217",
+      "productName": "Sweet Chilli Sauce Makati 280mlx24 - Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004907007",
+      "sku": "SKU-3214",
+      "productName": "Soy Sauce Datu Puti 385ml x 24- Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004908007",
+      "sku": "SKU-3216",
+      "productName": "Spaghetti Sauce Delmonte Sweet Style 250gmx24  -Carton",
+      "unit": "ctn",
+      "category": "Sauces & Seasoning",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004928064",
+      "sku": "SKU-3225",
+      "productName": "Tez Pata (Bay Leaves) 1*10kg",
+      "unit": "bag",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004933043",
+      "sku": "SKU-3224",
+      "productName": "Baja Classic Coffee 200g x 6 btls - Carton",
+      "unit": "ctn",
+      "category": "Tea & Coffee",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004937011",
+      "sku": "SKU-3221",
+      "productName": "Chilli Powder Double Tiger 1*15kg - Bag",
+      "unit": "bag",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004938011",
+      "sku": "SKU-3223",
+      "productName": "Curry Powder No . 1 1 x 10kg - Bag",
+      "unit": "bag",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000004941029",
+      "sku": "SKU-3227",
+      "productName": "Esnad Chicken Soaker 2.5 kg × 6 - Carton",
+      "unit": "ctn",
+      "category": "Masala, Salt & Sugar",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005044067",
+      "sku": "SKU-3231",
+      "productName": "Samrah Frozen Indian Veal Leg Boneless 4.5 kg x 4 - Carton",
+      "unit": "ctn",
+      "category": "Meat",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005047007",
+      "sku": "SKU-3229",
+      "productName": "White Frozen Indian Mackerel Fish, Bluk 8- 12 pieces per kg 10 kg - carton",
+      "unit": "ctn",
+      "category": "Seafood",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005054019",
+      "sku": "SKU-3230",
+      "productName": "Frozen fish fillet 2.5kg x 4 bags - Carton",
+      "unit": "ctn",
+      "category": "Seafood",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005061085",
+      "sku": "SKU-3232",
+      "productName": "Al Siddiq Mazza  Basmati Rice 1*40 kg",
+      "unit": "bag",
+      "category": "Rice, Pulses & Flours",
+      "creatorImageReferences": 3,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005075015",
+      "sku": "SKU-3233",
+      "productName": "Frozen Whole Chicken Osoul 10 x 1200g - Carton",
+      "unit": "ctn",
+      "category": "Chicken & Eggs",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005118095",
+      "sku": "SKU-3236",
+      "productName": "Sunny Sunflower oil 4 x 2.7 l - Carton",
+      "unit": "ctn",
+      "category": "Cooking Oils",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005123007",
+      "sku": "SKU-3235",
+      "productName": "ULBA Sauce Cup  GARLIC WHITE 1oz UAE 100PCS",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000004900032",
+      "sku": "SKU-3211",
+      "field": "Translated_Name",
+      "before": "صلصة المحار شافلو 300 مل × 24 - الكرتون",
+      "after": "صلصة المحار شافلوت، 24 عبوة × 300 مل — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004900057",
+      "sku": "SKU-3212",
+      "field": "Translated_Name",
+      "before": "أصابع الأرز بانسيت بيهون أفتا 227 جرام × 30 - كرتون",
+      "after": "شعيرية الأرز بانسيت بيهون أفتا، 30 عبوة × 227 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004906036",
+      "sku": "SKU-3217",
+      "field": "Translated_Name",
+      "before": "صلصة الفلفل الحلو ماكاتي 280 مل × 24 قطعة",
+      "after": "صلصة الفلفل الحار الحلو ماكاتي، 24 عبوة × 280 مل — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004908007",
+      "sku": "SKU-3216",
+      "field": "Translated_Name",
+      "before": "صلصة السباغيتي دلمونت نمط الحلو 250gmx24 -الكرتون",
+      "after": "صلصة سباغيتي ديلمونتي بالطعم الحلو، 24 عبوة × 250 جم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000004928064",
+      "sku": "SKU-3225",
+      "field": "Translated_Name",
+      "before": "تيز باتا (أوراق الخليج) 1 * 10 كجم",
+      "after": "ورق غار (تيز باتا)، كيس 10 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005054019",
+      "sku": "SKU-3230",
+      "field": "Translated_Name",
+      "before": "فيل السمك المتجمد 2.5 كجم × 4 أكياس - كرتون",
+      "after": "فيليه سمك مجمد، 4 أكياس × 2.5 كجم — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005061085",
+      "sku": "SKU-3232",
+      "field": "Translated_Name",
+      "before": "الصدق مزا البسمتي الأرز 1*40 كجم",
+      "after": "أرز بسمتي مزا الصديق، كيس 40 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005118095",
+      "sku": "SKU-3236",
+      "field": "Translated_Name",
+      "before": "زيت عباد الشمس 4 × 2.7 لتر - كرتون",
+      "after": "زيت دوار الشمس سني، 4 عبوات × 2.7 لتر — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    },
+    {
+      "creatorId": "4278439000005123007",
+      "sku": "SKU-3235",
+      "field": "Translated_Name",
+      "before": "كوب صلصة ULBA بالثوم الأبيض 1 أونصة، الإمارات العربية المتحدة، 100 قطعة",
+      "after": "أكواب صلصة ULBA (GARLIC WHITE)، سعة 1 أونصة، 100 قطعة",
+      "write": "success",
+      "readback": "verified exact Creator ID+SKU+field",
+      "source": "Current Creator exact-ID Product_Name, Translated_Name, SKU, Unit; Arabic editorial correction only; manufacturer pack not independently certified",
+      "remainingFields": [
+        "Description"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3212",
+      "issue": "Rice-sticks/noodles product currently categorised Sauces & Seasoning; category mapping not independently verified",
+      "action": "Hold category change"
+    },
+    {
+      "sku": "SKU-3213",
+      "issue": "Datu Puti 1L × 12 packaging detail missing/unverified outside existing title",
+      "action": "Do not write Package_Details without label"
+    },
+    {
+      "sku": "SKU-3215/SKU-3216",
+      "issue": "Del Monte Filipino-style ×48 and Sweet-style ×24 are distinct variants; exact manufacturer label/pack count not verified",
+      "action": "Keep distinct records and quantities"
+    },
+    {
+      "sku": "SKU-3224",
+      "issue": "Baja coffee 200g × 6 'btls' pack format not independently label verified",
+      "action": "No new packing detail"
+    },
+    {
+      "sku": "SKU-3227",
+      "issue": "Chicken Soaker ambiguous as to product type/usage; Arabic interpretation requires label",
+      "action": "Hold noneditorial enrichment"
+    },
+    {
+      "sku": "SKU-3229",
+      "issue": "Frozen white Indian mackerel species and 8–12 pieces/kg specification ambiguous",
+      "action": "Hold identity and size edits"
+    },
+    {
+      "sku": "SKU-3230",
+      "issue": "Frozen fish fillet species/brand absent; do not invent",
+      "action": "Keep unbranded, no species claim"
+    },
+    {
+      "sku": "SKU-3232",
+      "issue": "Al Siddiq in English title vs Brand field Siddiq; label not independently verified",
+      "action": "Hold Brand field"
+    },
+    {
+      "sku": "SKU-3235",
+      "issue": "ULBA 'GARLIC WHITE' may refer to variant/color or intended sauce; 1 oz/100 PCS and UAE origin not independently verified",
+      "action": "Retain literal variant phrase; no origin assertion"
+    },
+    {
+      "sku": "SKU-3217",
+      "issue": "Makati sweet chilli 280ml × 24 needs exact label/pack evidence",
+      "action": "No pack field update"
+    }
+  ],
+  "sourceLinks": [
+    "https://github.com/yasirkolathur/menafoods/issues/36",
+    "https://github.com/yasirkolathur/menafoods/issues/27"
+  ],
+  "qa": {
+    "authenticatedCheckout": "NO-GO: not retested in this content pass",
+    "rtl": "Title copy corrected; authenticated RTL UI not retested",
+    "productVisibility": "Storefront flags present in current Creator records, propagation not verified",
+    "image": "Creator image references counted, no license or Commerce/Catalyst receipt verified",
+    "units": "No UOM or conversion changes",
+    "pricing": "No finance fields read or changed",
+    "cartCheckout": "No financial orders created; confirm-once and payment flows not verified"
+  },
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed in All_Products API readback",
+    "Manufacturer label/pack evidence unavailable for these exact variants"
+  ],
+  "counts": {
+    "recordsAudited": 20,
+    "verifiedFieldsChanged": 9,
+    "productsPartiallyCorrected": 9,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 10,
+    "creatorConnectorCallsObserved": 41,
+    "creatorConnectorCallsDetail": "20 exact-ID reads + 9 exact-ID writes + 9 exact-ID readbacks + getApplications + getReportMetadata + getFormMetadata = 41; 40 product/metadata operations counted conservatively, not billable units",
+    "billableApiUnits": "unavailable"
+  },
+  "constraints": {
+    "noNewProducts": true,
+    "noFinancialWrites": true,
+    "noImageWrites": true,
+    "noCrossSystemWrites": true,
+    "noDeploy": true,
+    "duplicateActiveIDsRemainBlocked": true
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-02",
+  "localTime": "23:54 Asia/Riyadh (run start)",
+  "phase": "post-baseline customer-content follow-up 20",
+  "baseline": "Creator Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261102-2257.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000005633052",
+      "sku": "SKU-3287",
+      "productName": "Fresh Ginger",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005635013",
+      "sku": "SKU-3276",
+      "productName": "Fresh Spring onion",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005635042",
+      "sku": "SKU-3291",
+      "productName": "Kale Leaves (Bunch)",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005635247",
+      "sku": "SKU-3295",
+      "productName": "Asas Aluminum Foil Containers With Lid 400 Pieces",
+      "unit": "ctn",
+      "category": "Packaging and Consumables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005636025",
+      "sku": "SKU-3266",
+      "productName": "Salad tomato",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005637025",
+      "sku": "SKU-3275",
+      "productName": "Fresh Parsley Leaves",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005637050",
+      "sku": "SKU-3285",
+      "productName": "Red Onion",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005637075",
+      "sku": "SKU-3288",
+      "productName": "Sweet potatoes",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005638029",
+      "sku": "SKU-3278",
+      "productName": "Green Chilies",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005638058",
+      "sku": "SKU-3281",
+      "productName": "Fresh Red Radish Round",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005638087",
+      "sku": "SKU-3283",
+      "productName": "Fresh lemon",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005638112",
+      "sku": "SKU-3289",
+      "productName": "Fresh Pomegranates",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005639011",
+      "sku": "SKU-3265",
+      "productName": "Fresh Green Lettuce Leaves American",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005639160",
+      "sku": "SKU-3298",
+      "productName": "Fresh Mushrooms",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005640011",
+      "sku": "SKU-3268",
+      "productName": "Cherry tomato Whole",
+      "unit": "out",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005640036",
+      "sku": "SKU-3273",
+      "productName": "Fresh Dill Leaves",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005640061",
+      "sku": "SKU-3284",
+      "productName": "Fresh Carrots",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005640086",
+      "sku": "SKU-3286",
+      "productName": "Fresh Potatos",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 1,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005641011",
+      "sku": "SKU-3269",
+      "productName": "Red Capsicum Whole",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005641040",
+      "sku": "SKU-3279",
+      "productName": "Fresh Spinach",
+      "unit": "kg",
+      "category": "Fruits & Vegetables",
+      "creatorImageReferences": 2,
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000005635042",
+      "sku": "SKU-3291",
+      "field": "Translated_Name",
+      "before": "أوراق الكعك (مجموعة)",
+      "after": "أوراق الكيل (حزمة)",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005636025",
+      "sku": "SKU-3266",
+      "field": "Translated_Name",
+      "before": "سلطة الطماطم",
+      "after": "طماطم للسلطة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005638029",
+      "sku": "SKU-3278",
+      "field": "Translated_Name",
+      "before": "الفلفل الأخضر",
+      "after": "فلفل أخضر حار",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005638058",
+      "sku": "SKU-3281",
+      "field": "Translated_Name",
+      "before": "جولة أحمر طازج",
+      "after": "فجل أحمر دائري طازج",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005639011",
+      "sku": "SKU-3265",
+      "field": "Translated_Name",
+      "before": "الخس الأخضر الطازج يترك أمريكا",
+      "after": "أوراق خس أخضر أمريكي طازج",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005640036",
+      "sku": "SKU-3273",
+      "field": "Translated_Name",
+      "before": "أوراق ديل الطازجة",
+      "after": "أوراق الشبت الطازجة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005640086",
+      "sku": "SKU-3286",
+      "field": "Product_Name",
+      "before": "Fresh Potatos",
+      "after": "Fresh Potatoes",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Product_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005641011",
+      "sku": "SKU-3269",
+      "field": "Translated_Name",
+      "before": "الكابسيكوم الأحمر بأكمله",
+      "after": "فلفل رومي أحمر كامل",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    },
+    {
+      "creatorId": "4278439000005641040",
+      "sku": "SKU-3279",
+      "field": "Translated_Name",
+      "before": "السبانخ الطازج",
+      "after": "سبانخ طازجة",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Existing exact Creator Product_Name/Translated_Name, SKU, category and unit; conservative bilingual editorial correction only, not independent manufacturer packaging certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details (only where exact packing evidence becomes available)"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3291",
+      "creatorId": "4278439000005635042",
+      "detail": "Title says kale leaves (bunch), Creator Unit is kg; no bunch-to-kg conversion verified; keep unit unchanged.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3268",
+      "creatorId": "4278439000005640011",
+      "detail": "Cherry tomato selling unit 'out' undefined; hold conversion and checkout-unit approval.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3265",
+      "creatorId": "4278439000005639011",
+      "detail": "'American' is an existing product descriptor, not independently verified origin or variety; do not populate Country_Of_Origin.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3295",
+      "creatorId": "4278439000005635247",
+      "detail": "400-piece pack count appears in existing title but lacks independent packaging/label confirmation; no pack-field write.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": "SKU-3266",
+      "creatorId": "4278439000005636025",
+      "detail": "Salad tomato is a use descriptor, not a verified botanical variety or packaged salad; do not infer variant.",
+      "heldForIdentityOrUnitChange": true
+    },
+    {
+      "sku": null,
+      "creatorId": null,
+      "detail": "Creator image references exist for all 20 but exact product-photo matching, redistribution rights, and Commerce/Catalyst rendering are not independently verified; no image changes or publication.",
+      "heldForIdentityOrUnitChange": true
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not verified in this run",
+    "productVisibility": "Creator storefront flag Yes for all 20; Commerce/Catalyst visibility not verified",
+    "images": "Creator image references observed; provenance/rights and Commerce/Catalyst rendering not verified",
+    "CTNPCSKG": "kg/bunch and undefined 'out' risk held; no conversions changed",
+    "customerPriceVsCost": "not independently verified; no financial edits",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency/Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; duplicate-active IDs remain blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed. Product_Name and Translated_Name changes independently verified.",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 9,
+    "verifiedProductsWithPartialCorrections": 9,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 6,
+    "creatorConnectorCallsObserved": 42,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 400,
+    "partialCorrectionsCumulative": 148
+  },
+  "constraints": {
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncSettingsWrites": 0,
+    "deployments": 0,
+    "createdProducts": 0
+  }
+}

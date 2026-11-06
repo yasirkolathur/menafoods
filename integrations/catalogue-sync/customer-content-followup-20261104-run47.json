@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-04",
+  "run": 47,
+  "type": "customer-content-remediation",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000002489227",
+    "4278439000002489235",
+    "4278439000002489239",
+    "4278439000002489243",
+    "4278439000002489247",
+    "4278439000002489251",
+    "4278439000002489255",
+    "4278439000002489259",
+    "4278439000002489263",
+    "4278439000002489267",
+    "4278439000002489271",
+    "4278439000002489275",
+    "4278439000002489279",
+    "4278439000002489283",
+    "4278439000002489287",
+    "4278439000002489291",
+    "4278439000002489295",
+    "4278439000002489299",
+    "4278439000002489303",
+    "4278439000002489307"
+  ],
+  "changes": [
+    {
+      "id": "4278439000002489239",
+      "field": "Translated_Name",
+      "before": "فيليه دجاج مخبوز حار (سائب) 1 كجم × 5",
+      "after": "فيليه دجاج بالبقسماط حار (عبوة كبيرة) 1 كجم × 5"
+    },
+    {
+      "id": "4278439000002489283",
+      "field": "Translated_Name",
+      "before": "بطاطس دجاج 400 جرام × 12",
+      "after": "أصابع دجاج على شكل بطاطس مقلية 400 جم × 12 عبوة"
+    }
+  ],
+  "verification": "Compact exact-ID Creator All_Products read; two targeted Translated_Name writes; independent exact-ID readback matched. Editorial wording supported by existing Creator English names and pack variants; no independent manufacturer certification.",
+  "sources": [
+    "Authenticated Zoho Creator All_Products exact-ID records (private; no public URL)"
+  ],
+  "unresolvedIssues": [
+    "All 20 SKU values blank; do not fabricate SKUs",
+    "Bulk/catering and spicy variants require manufacturer packaging evidence",
+    "Zing and lollipop variants require label verification; no speculative translation",
+    "Image rights and Commerce/Catalyst propagation not verified",
+    "Translated_Description and Translated_Package not exposed in All_Products API readback",
+    "Margin policy and validated cost basis missing; financial edits held",
+    "Authenticated checkout EN/AR RTL, CTN/PCS/KG, VAT, Buy Again, COD/credit, confirm-once and sync ACK receipts missing"
+  ],
+  "connectorCallsObserved": {
+    "creator": 4,
+    "github": "manifest read, evidence create, manifest update, independent readback"
+  },
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO; no authenticated test receipts",
+  "nextPendingId": "4278439000002489311"
+}

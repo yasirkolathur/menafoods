@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-03",
+  "followup": 36,
+  "phase": "customer-facing remediation after baseline 20/20",
+  "recordsAudited": 20,
+  "exactCreatorIds": [
+    "4278439000002489679",
+    "4278439000002489683",
+    "4278439000002489687",
+    "4278439000002489695",
+    "4278439000002489699",
+    "4278439000002489703",
+    "4278439000002489707",
+    "4278439000002489711",
+    "4278439000002489715",
+    "4278439000002489719",
+    "4278439000002489723",
+    "4278439000002489727",
+    "4278439000002489731",
+    "4278439000002489735",
+    "4278439000002489739",
+    "4278439000002489743",
+    "4278439000002489747",
+    "4278439000002489751",
+    "4278439000002489755",
+    "4278439000002489759"
+  ],
+  "verifiedChanges": [
+    {
+      "creatorId": "4278439000002489727",
+      "field": "Translated_Name",
+      "before": "الكبير براونز 1 كيلو × 10",
+      "after": "الكبير هاش براون 1 كجم × 10",
+      "source": "Existing Creator English product identity and carton variant",
+      "readbackVerified": true
+    },
+    {
+      "creatorId": "4278439000002489735",
+      "field": "Translated_Name",
+      "before": "الكبير زينغ شرائط الدجاج [لا / سبايسي] 750 جم × 8 قطع",
+      "after": "الكبير زينغ شرائح دجاج غير حارة 750 جم × 8 عبوات",
+      "source": "Existing Creator English non-spicy chicken strips identity and 8-pack variant",
+      "readbackVerified": true
+    }
+  ],
+  "reviewedNoChangeIds": [
+    "4278439000002489679",
+    "4278439000002489683",
+    "4278439000002489687",
+    "4278439000002489695",
+    "4278439000002489699",
+    "4278439000002489703",
+    "4278439000002489707",
+    "4278439000002489711",
+    "4278439000002489715",
+    "4278439000002489719",
+    "4278439000002489723",
+    "4278439000002489731",
+    "4278439000002489739",
+    "4278439000002489743",
+    "4278439000002489747",
+    "4278439000002489751",
+    "4278439000002489755",
+    "4278439000002489759"
+  ],
+  "unresolvedIssues": [
+    {
+      "type": "brand_conflict",
+      "ids": [
+        "4278439000002489695",
+        "4278439000002489699"
+      ],
+      "detail": "TABARRUK in product title but AL KABEER in Brand; held from brand correction pending manufacturer evidence"
+    },
+    {
+      "type": "blank_sku",
+      "count": 20
+    },
+    {
+      "type": "pack_manufacturer_not_certified",
+      "count": 20
+    },
+    {
+      "type": "image_rights_and_propagation_unverified",
+      "count": 20
+    },
+    {
+      "type": "description_readback_unavailable",
+      "count": 20
+    },
+    {
+      "type": "margin_policy_unresolved",
+      "count": 16
+    },
+    {
+      "type": "authenticated_checkout_and_sync_unverified",
+      "count": 1
+    }
+  ],
+  "connectorCallsObserved": 25,
+  "connectorCallCountNote": "20 exact ID reads, two update calls, two independent readbacks, one application discovery; excludes GitHub calls",
+  "scope": "No financial fields, images, stock, tax, orders, synchronization settings, deployment, or customer checkout changed",
+  "qaGate": "NO-GO: authenticated EN/AR RTL, CTN/PCS/KG, price privacy, VAT, cart persistence, Buy Again, COD/credit and confirm-once checkout remain unverified",
+  "sources": [
+    "Existing Creator All_Products exact-ID records; no independent manufacturer-label certification"
+  ],
+  "readbackLimitations": [
+    "Translated_Description and Translated_Package not exposed by All_Products API"
+  ],
+  "notes": "No descriptions, package facts or manufacturer claims were added. Brand conflicts held."
+}

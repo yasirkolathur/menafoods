@@ -1,0 +1,273 @@
+{
+  "date": "2026-11-05",
+  "run": 84,
+  "phase": "customer-facing-content-remediation",
+  "manifestPath": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "manifestSha": "719c55c0bdd12edf0b87319a309636c28baf88ad",
+  "previousCheckpoint": "integrations/catalogue-sync/customer-content-checkpoint-20261105-run83.json",
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000000103980",
+    "4278439000000103984",
+    "4278439000000103988",
+    "4278439000000103992",
+    "4278439000000103996",
+    "4278439000000104000",
+    "4278439000000104004",
+    "4278439000000104008",
+    "4278439000000104012",
+    "4278439000000104016",
+    "4278439000000104020",
+    "4278439000000104024",
+    "4278439000000104028",
+    "4278439000000104032",
+    "4278439000000104036",
+    "4278439000000104040",
+    "4278439000000104054",
+    "4278439000000104062",
+    "4278439000000104068",
+    "4278439000000104074"
+  ],
+  "reviewedSkus": [
+    "CR1415",
+    "CR1416",
+    "CR1417",
+    "CR1418",
+    "CR1419",
+    "CR1420",
+    "CR1421",
+    "CR1422",
+    "CR1423",
+    "CR1424",
+    "CR1425",
+    "CR1426",
+    "CR1427",
+    "CR1428",
+    "CR1429",
+    "CR1430",
+    "CR1433",
+    "CR1434",
+    "CR1435",
+    "CR1436"
+  ],
+  "identityVerified": true,
+  "allExcludedFromStorefront": true,
+  "verifiedChanges": [],
+  "unresolvedIssueCount": 46,
+  "issues": [
+    {
+      "sku": "CR1415",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1415",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1415",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1415",
+      "type": "brand_variant_verification",
+      "detail": "AlSayyad in title, Americana in Brand; verify manufacturer relationship before changing"
+    },
+    {
+      "sku": "CR1416",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1416",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1416",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1416",
+      "type": "brand_variant_verification",
+      "detail": "AlSayyad in title, Americana in Brand; verify manufacturer relationship before changing"
+    },
+    {
+      "sku": "CR1417",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1417",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1417",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1417",
+      "type": "brand_variant_verification",
+      "detail": "AlSayyad in title, Americana in Brand; verify manufacturer relationship before changing"
+    },
+    {
+      "sku": "CR1418",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1418",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1418",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1419",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1419",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1419",
+      "type": "brand_variant_verification",
+      "detail": "AlSayyad in title, Americana in Brand; verify manufacturer relationship before changing"
+    },
+    {
+      "sku": "CR1420",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1420",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1421",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1422",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1422",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1423",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1424",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1424",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1425",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1426",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1427",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1427",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1428",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1428",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1429",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1429",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1430",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1430",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1433",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1434",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1434",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1434",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1435",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1435",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1435",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    },
+    {
+      "sku": "CR1436",
+      "type": "missing_selling_unit"
+    },
+    {
+      "sku": "CR1436",
+      "type": "missing_books_mapping"
+    },
+    {
+      "sku": "CR1436",
+      "type": "arabic_title_quality",
+      "detail": "Requires verified Arabic wording and exact pack variant; no automatic rewrite"
+    }
+  ],
+  "creatorProductReadCalls": 2,
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "syncChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "nextPendingId": "4278439000000104102",
+  "nextPendingSku": "CR1439",
+  "readbackLimitations": [
+    "Translated description/packing not exposed in All_Products"
+  ],
+  "notes": "Read-only exact manifest-ID audit. No product edits; no source rights inferred. Non-manifest records from bounded queries excluded."
+}

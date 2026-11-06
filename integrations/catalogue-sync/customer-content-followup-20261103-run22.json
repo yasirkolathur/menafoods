@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-03",
+  "phase": "post-baseline customer-content follow-up 22",
+  "baseline": "Products_Books 2122 records; original 20/20 baseline audit complete",
+  "branch": "catalogue-sync-contract-20261024",
+  "sourceManifest": "integrations/catalogue-sync/customer-content-manifest-20261101.json",
+  "sourceBatch1": "integrations/catalogue-sync/customer-content-batch-01-20261101.json",
+  "previousEvidence": "integrations/catalogue-sync/customer-content-followup-20261103-0048.json",
+  "reviewedProducts": [
+    {
+      "creatorId": "4278439000005815135",
+      "sku": "SKU-3317",
+      "productName": "French fries 2.5kg x 4  - Fristo",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005870053",
+      "sku": "SKU-3322",
+      "productName": "Napkin Tissue",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005878019",
+      "sku": "SKU-3320",
+      "productName": "Food Colour Red",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005922017",
+      "sku": "SKU-3323",
+      "productName": "Rama Cooking Cream 15% Fat 1L x 8 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005923011",
+      "sku": "SKU-3325",
+      "productName": "Vijay Kashmiri Chilli Powder 750g x 20 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005926007",
+      "sku": "SKU-3324",
+      "productName": "President Cooking Cream 1L x 6 - outer",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005975177",
+      "sku": "SKU-3329",
+      "productName": "SUFRA 130 x 130 HEZAM 400PCS",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005977213",
+      "sku": "SKU-3330",
+      "productName": "Rexo Microfiber Towel (40cmx40cm) 28 Pack x 12 Pieces",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005988133",
+      "sku": "SKU-3328",
+      "productName": "Gulf Bowl Small No. 10 50pcs - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000005993015",
+      "sku": "SKU-3332",
+      "productName": "PAPER CUP NOOR 4oz 20 packs - 50 Pieces+ Caton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006031019",
+      "sku": "SKU-3334",
+      "productName": "Al Jameel Plain Halva 14kg",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006032069",
+      "sku": "SKU-3335",
+      "productName": "Fong Sriracha Hot Chili Sauce 28oz x 12 - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006058037",
+      "sku": "SKU-3336",
+      "productName": "PRAN Mustard Oil 200ml x 20 Pieces - Carton",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006058062",
+      "sku": "SKU-3340",
+      "productName": "Commercial Perforated Maxi Toilet Tissue Roll 6 x 300",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006059091",
+      "sku": "SKU-3341",
+      "productName": "PAPER BAG EXTRA LARGE BROWN",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006064094",
+      "sku": "SKU-3343",
+      "productName": "HAUTE COFFRE 28 OZ REC BLACK BASE 150 PSC (HC)",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006064123",
+      "sku": "SKU-3345",
+      "productName": "Vileda Indoor Broom Standard with long Handle for floor cleaning",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006065117",
+      "sku": "SKU-3344",
+      "productName": "Rex  Floor Wiper Mop Cotton  Taiwan With Wood Stick  (L)  No.53",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006068130",
+      "sku": "SKU-3346",
+      "productName": "Vileda Classic Floor Wiper, High Water Wiping Efficiency, Universal Handle, 52 cm",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    },
+    {
+      "creatorId": "4278439000006068159",
+      "sku": "SKU-3347",
+      "productName": "Paper Tissue Maxi Roll (5X 5KG)",
+      "storefront": true,
+      "exactIdRead": "success",
+      "nonfinancialOnly": true
+    }
+  ],
+  "changes": [
+    {
+      "creatorId": "4278439000005870053",
+      "sku": "SKU-3322",
+      "field": "Translated_Name",
+      "before": "مناديل الأنسجة",
+      "after": "مناديل ورقية",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000005878019",
+      "sku": "SKU-3320",
+      "field": "Translated_Name",
+      "before": "لون الطعام الأحمر",
+      "after": "ملون غذائي أحمر",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006031019",
+      "sku": "SKU-3334",
+      "field": "Translated_Name",
+      "before": "Al Jameel Plain Halva 14kg",
+      "after": "حلاوة سادة الجميل، 14 كجم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006032069",
+      "sku": "SKU-3335",
+      "field": "Translated_Name",
+      "before": "فونغ سريراشا صلصة الفلفل الحار 28oz × 12 - كرتون",
+      "after": "صلصة سريراتشا الحارة فونغ، 28 أونصة × 12 — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006058037",
+      "sku": "SKU-3336",
+      "field": "Translated_Name",
+      "before": "زيت الخردل PRAN 200ml × 20 قطعة - كرتون",
+      "after": "زيت خردل بران، 200 مل × 20 قطعة — كرتون",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006059091",
+      "sku": "SKU-3341",
+      "field": "Translated_Name",
+      "before": "كيس ورقي كبير جدا براون",
+      "after": "كيس ورقي بني كبير جداً",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006064094",
+      "sku": "SKU-3343",
+      "field": "Translated_Name",
+      "before": "قهوة عالية الجودة 28 أونصة REC قاعدة سوداء 150 PSC (HC)",
+      "after": "قاعدة سوداء هوت كوفر، 28 أونصة، 150 قطعة (REC/HC)",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006064123",
+      "sku": "SKU-3345",
+      "field": "Translated_Name",
+      "before": "معيار الغرفة الداخلية Vileda مع مقبض طويل لتنظيف الأرضيات",
+      "after": "مكنسة داخلية فيليدا بمقبض طويل لتنظيف الأرضيات",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006068130",
+      "sku": "SKU-3346",
+      "field": "Translated_Name",
+      "before": "Vileda Classic Floor Wiper, عالية الكفاءة في مسح المياه, مقبض عالمي, 52 سم",
+      "after": "ممسحة أرضيات فيليدا كلاسيك، عالية الكفاءة في مسح المياه، بمقبض متعدد الاستخدامات، 52 سم",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    },
+    {
+      "creatorId": "4278439000006068159",
+      "sku": "SKU-3347",
+      "field": "Translated_Name",
+      "before": "الأنسجة الورقية ماسي لفة (5X 5KG)",
+      "after": "لفات مناديل ورقية ماكسي (5 × 5 كجم)",
+      "write": "success",
+      "readback": "verified exact Creator ID + SKU + Translated_Name",
+      "source": "Current exact Creator Product_Name/SKU/Translated_Name and unambiguous Arabic editorial translation only; no manufacturer packaging, brand, GTIN or origin certification",
+      "remainingFields": [
+        "Description",
+        "Package_Details when independent evidence becomes available"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "sku": "SKU-3322",
+      "kind": "uom_pack",
+      "detail": "Selling unit bag; napkin quantity per bag not evidenced."
+    },
+    {
+      "sku": "SKU-3320",
+      "kind": "uom_pack",
+      "detail": "Selling unit dz, but individual pack/quantity for food colour unverified."
+    },
+    {
+      "sku": "SKU-3323",
+      "kind": "brand_uom",
+      "detail": "Product title Rama; Brand field ROMA. Selling unit out unresolved; hold brand and conversion."
+    },
+    {
+      "sku": "SKU-3324",
+      "kind": "brand_uom",
+      "detail": "Product title President; Brand field Al Marai. Selling unit out unresolved; hold brand and conversion."
+    },
+    {
+      "sku": "SKU-3329",
+      "kind": "pack",
+      "detail": "SUFRA 130 × 130 has no verified dimensions/UOM; HEZAM brand field blank; no assumptions."
+    },
+    {
+      "sku": "SKU-3330",
+      "kind": "pack_uom",
+      "detail": "28 Pack × 12 Pieces configuration ambiguous; rpt unit undefined."
+    },
+    {
+      "sku": "SKU-3328",
+      "kind": "pack",
+      "detail": "Gulf Bowl 50pcs carton claim not independently label-verified; brand blank."
+    },
+    {
+      "sku": "SKU-3332",
+      "kind": "pack",
+      "detail": "20 packs and 50 pieces per carton configuration ambiguous; no multiplication or carton conversion."
+    },
+    {
+      "sku": "SKU-3340",
+      "kind": "pack_uom",
+      "detail": "Selling unit out undefined; 6 × 300 pack size lacks explicit measurement unit."
+    },
+    {
+      "sku": "SKU-3343",
+      "kind": "identity_pack",
+      "detail": "REC/HC abbreviations and base shape unverified; Arabic copy retains codes without inferred shape."
+    },
+    {
+      "sku": "SKU-3345",
+      "kind": "category",
+      "detail": "Broom currently categorized Packaging and Consumables; cleaning-equipment category mapping not independently verified."
+    },
+    {
+      "sku": "SKU-3346",
+      "kind": "category",
+      "detail": "Floor wiper currently categorized Packaging and Consumables; cleaning-equipment category mapping not independently verified."
+    },
+    {
+      "sku": "SKU-3347",
+      "kind": "pack_uom",
+      "detail": "rpt unit undefined; 5 × 5kg tissue-roll specification not independently label-verified; Arabic copies existing title only."
+    }
+  ],
+  "sourceLinks": {
+    "manifest": "https://github.com/yasirkolathur/menafoods/blob/catalogue-sync-contract-20261024/integrations/catalogue-sync/customer-content-manifest-20261101.json",
+    "issue36": "https://github.com/yasirkolathur/menafoods/issues/36",
+    "issue27": "https://github.com/yasirkolathur/menafoods/issues/27"
+  },
+  "qa": {
+    "customerCatalogCheckout": "NO-GO",
+    "authenticatedENARRTL": "not verified in this run",
+    "productVisibility": "All 20 exact Creator records storefront Yes; Commerce/Catalyst unverified",
+    "images": "Creator image references present; identity, rights, Commerce/Catalyst rendering unverified",
+    "CTNPCSKG": "out/rpt/dz/bag units and ambiguous carton pack held; no conversions changed",
+    "customerPriceVsCost": "not independently verified; no financial edits",
+    "VAT": "not independently verified",
+    "cartPersistence": "not independently verified",
+    "buyAgain": "not independently verified",
+    "CODCredit": "not independently verified",
+    "confirmOnceCheckout": "no authenticated idempotency/Books SO ACK evidence; no orders created",
+    "crossSystemSync": "not verified; four duplicate-active IDs remain blocked"
+  },
+  "readbackLimitations": "Translated_Description and Translated_Package not exposed in All_Products API readback; neither changed. All ten Translated_Name edits independently verified.",
+  "counts": {
+    "recordsAudited": 20,
+    "uniqueExactCreatorIds": 20,
+    "verifiedFieldsChanged": 10,
+    "verifiedProductsWithPartialCorrections": 10,
+    "fullyCompletedProducts": 0,
+    "unresolvedIssueCount": 13,
+    "creatorConnectorCallsConfirmed": 40,
+    "billableApiUnits": "unavailable",
+    "reviewedUniquePostCompletion": 440,
+    "partialCorrectionsCumulative": 166
+  },
+  "constraints": {
+    "financialWrites": 0,
+    "stockWrites": 0,
+    "imageWrites": 0,
+    "orderWrites": 0,
+    "syncSettingsWrites": 0,
+    "deployments": 0,
+    "createdProducts": 0
+  }
+}
