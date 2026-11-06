@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-06",
+  "run": 114,
+  "reviewedCount": 20,
+  "reviewedIds": [
+    "4278439000009778017",
+    "4278439000009778022",
+    "4278439000009778027",
+    "4278439000009778032",
+    "4278439000009778037",
+    "4278439000009778042",
+    "4278439000009778047",
+    "4278439000009778052",
+    "4278439000009778057",
+    "4278439000009778062",
+    "4278439000009778067",
+    "4278439000009778072",
+    "4278439000009778077",
+    "4278439000009778082",
+    "4278439000009778087",
+    "4278439000009778092",
+    "4278439000009778097",
+    "4278439000009778102",
+    "4278439000009778107",
+    "4278439000009778112"
+  ],
+  "verifiedFieldsChanged": 0,
+  "creatorReadCalls": 1,
+  "creatorWrites": 0,
+  "unresolvedIssueCount": 24,
+  "issues": [
+    {
+      "id": "4278439000009778017",
+      "sku": "SKU-3492",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778022",
+      "sku": "SKU-3493",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778027",
+      "sku": "SKU-3494",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778032",
+      "sku": "SKU-3495",
+      "findings": [
+        "no_creator_image",
+        "pack_or_dimensions_require_label_confirmation"
+      ]
+    },
+    {
+      "id": "4278439000009778037",
+      "sku": "SKU-3496",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778042",
+      "sku": "SKU-3497",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778047",
+      "sku": "SKU-3498",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778052",
+      "sku": "SKU-3499",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778057",
+      "sku": "SKU-3500",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778062",
+      "sku": "SKU-3501",
+      "findings": [
+        "no_creator_image",
+        "books_mapping_missing"
+      ]
+    },
+    {
+      "id": "4278439000009778067",
+      "sku": "SKU-3502",
+      "findings": [
+        "no_creator_image",
+        "pack_or_dimensions_require_label_confirmation"
+      ]
+    },
+    {
+      "id": "4278439000009778072",
+      "sku": "SKU-3503",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778077",
+      "sku": "SKU-3504",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778082",
+      "sku": "SKU-3505",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778087",
+      "sku": "SKU-3506",
+      "findings": [
+        "no_creator_image",
+        "pack_or_dimensions_require_label_confirmation"
+      ]
+    },
+    {
+      "id": "4278439000009778092",
+      "sku": "SKU-3507",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778097",
+      "sku": "SKU-3508",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778102",
+      "sku": "SKU-3509",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778107",
+      "sku": "SKU-3510",
+      "findings": [
+        "no_creator_image"
+      ]
+    },
+    {
+      "id": "4278439000009778112",
+      "sku": "SKU-3511",
+      "findings": [
+        "no_creator_image"
+      ]
+    }
+  ],
+  "financialChanges": 0,
+  "imageChanges": 0,
+  "checkoutStatus": "NO-GO",
+  "source": "Zoho Creator All_Products exact-ID filtered read; immutable manifest",
+  "readback": "20/20 Creator IDs, SKUs, names match. No writes. Translated descriptions and packing not exposed by All_Products.",
+  "nextPendingId": "4278439000009778117"
+}
